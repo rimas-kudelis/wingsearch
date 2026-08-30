@@ -339,6 +339,336 @@
         "answer that quotes one, outranks a later flat forum answer that does not -- especially",
         "when the same author has already retracted that answer once."
       ]
+    },
+    {
+      "ruling_id": "20260523",
+      "cards": [
+        "Bird Bander"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-81/#comment-157776",
+      "comment": "157776",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Whether hummingbird cards count for Bird Bander. Bird Bander already carries a firmer,",
+        "broader ruling from a 2026 comment: hummingbirds count toward bonus cards in the ordinary",
+        "way, naming Bird Bander first. This adds nothing but a weaker version of it -- Jamey said",
+        "he 'could see it going either way' and only leaned toward counting them."
+      ]
+    },
+    {
+      "ruling_id": "20260821",
+      "cards": [
+        "Galah"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-pocket/comment-page-6/#comment-169824",
+      "comment": "169824",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Two independent benefits in a power may be resolved in either order. Galah, the only card",
+        "named, already says exactly this ('The two clauses of Galah's power are independent'), from",
+        "a 2024 comment. The other half of the answer -- that an arrow means resolve left to right,",
+        "cost then benefit -- has no home: no card in the collection prints an arrow in its power",
+        "text (checked all 707), so the marker never reaches a player through wingsearch."
+      ]
+    },
+    {
+      "ruling_id": "20191206",
+      "cards": [
+        "Dunnock"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-8/#comment-35823",
+      "comment": "35823",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "What an 'action cube' is, asked of Dunnock. The official comment confirms only the",
+        "definition of the game's own component -- the cube you place when you take a turn -- and",
+        "the rest of the proposed text ('count the cubes currently on the chosen player's grassland",
+        "row') is Dunnock's printed power restated. A glossary entry for a word the rulebook",
+        "defines is not a ruling."
+      ]
+    },
+    {
+      "ruling_id": "20200418",
+      "cards": [
+        "European Goldfinch",
+        "Snow Bunting"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-16/#comment-38049",
+      "comment": "38049",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Pink powers cannot trigger on their owner's turn. That is already published twice as a",
+        "general ruling, on all 51 pink birds ('You may not use a pink power during your turn' and",
+        "'You may use a pink power during another player's turn'), and European Goldfinch carries a",
+        "named ruling on its own once-between-turns timing. The remaining sentence -- that your own",
+        "pink power tucking during an opponent's turn does not re-trigger your own pink power but",
+        "can trigger theirs -- is the model's inference; the official answer does not address it.",
+        "Rejected together with comment 44865, which is the same question and the same answer."
+      ]
+    },
+    {
+      "ruling_id": "20201010",
+      "cards": [
+        "Wedge-Tailed Eagle"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-19/#comment-41913",
+      "comment": "41913",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Wedge-Tailed Eagle looks for wingspans *over* 65cm. That is the card's printed text; the",
+        "thread's actual official content was about the two Oceania cockatoos, whose cards were not",
+        "in the candidate list, and the rest is balance opinion. Nothing to publish."
+      ]
+    },
+    {
+      "ruling_id": "20201129",
+      "cards": [
+        "Cetti's Warbler",
+        "Eurasian Green Woodpecker"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-27/#comment-42749",
+      "comment": "42749",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "A counts-double bird does not double a filled column. Cetti's Warbler and Eurasian Green",
+        "Woodpecker -- the two cards named -- already carry that sentence verbatim, sourced to",
+        "comment 54914, along with two more rulings on the same principle for other goal types.",
+        "Comment 42749 is a *retraction*: Jamey first said 'it counts in both columns', then",
+        "withdrew it. The withdrawal is worth nothing on its own once the correct answer is",
+        "already published."
+      ]
+    },
+    {
+      "ruling_id": "20210303",
+      "cards": [
+        "Snow Bunting",
+        "European Goldfinch"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-9/#comment-44865",
+      "comment": "44865",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Same question and same official answer as comment 38049 above (pink powers only on other",
+        "players' turns), already general on all 51 pink birds. See that entry."
+      ]
+    },
+    {
+      "ruling_id": "20210417",
+      "cards": [],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-33/#comment-45802",
+      "comment": "45802",
+      "verdict": "not-official",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "The full-row bonus on the player mat may be used only once per turn. The answer is firm",
+        "and Jamey's, but it is a rule about the player mat, and this pipeline can only put text on",
+        "cards: general_map's predicates iterate the bird list, so a rule that belongs to no bird",
+        "reaches no page. Publishing it would mean inventing a card to hang it on.",
+        "",
+        "Not a judgement on the ruling -- if wingsearch ever gains a rules-reference page outside",
+        "the card collection, this and comment 59885 belong on it."
+      ]
+    },
+    {
+      "ruling_id": "20220210",
+      "cards": [
+        "Coal Tit",
+        "Eurasian Nutcracker"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-9/#comment-50486",
+      "comment": "50486",
+      "verdict": "hedged",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Whether [seed] cached on Coal Tit can pay for Eurasian Nutcracker's 'from your supply'.",
+        "Jamey answered 'I would say it isn't in your supply, as your supply is off your mat' -- a",
+        "lean, not a ruling, and it cuts against Coal Tit's printed 'At any time, you may spend",
+        "[seed] cached on this card'.",
+        "",
+        "It is also already settled better. Coal Tit carries a 2025 ruling drawing the exact line:",
+        "cached food counts as being in your supply *for the purpose of spending it*, but does not",
+        "satisfy powers that check what food is in your supply. Under that, paying the Nutcracker's",
+        "cost is spending, so the cached seed works -- the opposite of this lean. Publishing both",
+        "would leave two official-looking answers contradicting each other on the same card, which",
+        "is the failure mode wingsearch exists to avoid."
+      ]
+    },
+    {
+      "ruling_id": "20220629",
+      "cards": [
+        "Indian Peafowl",
+        "American Oystercatcher"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-2/#comment-53412",
+      "comment": "53412",
+      "verdict": "superseded",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Multi-player choices go in turn order, clockwise from the current player. Jamey hedged",
+        "('I think it's a global rule in Wingspan'), and comment 159055 (2026) states the same rule",
+        "without hedging and adds what happens next -- the active player carries on with the",
+        "remaining brown powers. That one is now published as a general ruling on 69 birds,",
+        "including both cards named here."
+      ]
+    },
+    {
+      "ruling_id": "20221206",
+      "cards": [
+        "Spotted Dove"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-14/#comment-57388",
+      "comment": "57388",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Duet tokens are unaffected when Spotted Dove moves to another player's mat. Spotted Dove",
+        "already carries that ruling, sourced to comment 59660, and it is the better version: it",
+        "also says a duet token *is* placed if a bird is later played on the vacated space. Jamey",
+        "answered this one before seeing the card text."
+      ]
+    },
+    {
+      "ruling_id": "20221228",
+      "cards": [
+        "Anatomist"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-53/#comment-57714",
+      "comment": "57714",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "The Asia printing of Anatomist awards 6 points instead of 7. Anatomist already carries",
+        "that, sourced to comment 58045, and names the tier the change applies to (4+ birds), which",
+        "this comment does not."
+      ]
+    },
+    {
+      "ruling_id": "20230209",
+      "cards": [
+        "Great Cormorant",
+        "Red-Wattled Lapwing"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-56/#comment-58896",
+      "comment": "58896",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Great Cormorant's first sentence is skipped with no [fish] cached. Already published on",
+        "that card from comment 62565. The Red-Wattled Lapwing half of the answer restates the",
+        "card's printed text."
+      ]
+    },
+    {
+      "ruling_id": "20230326",
+      "cards": [],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-36/#comment-59885",
+      "comment": "59885",
+      "verdict": "not-official",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "With 1 [die] left you may reroll for free, so paying [nectar] to reset the birdfeeder is",
+        "not allowed. Firm and Jamey's, but it is about the Oceania player mat's reset bonus rather",
+        "than any bird, so it has no card to attach to -- same problem as comment 45802. The free",
+        "reroll it depends on is published: comment 71887's statement of the reroll rules is now",
+        "general on 63 birdfeeder birds."
+      ]
+    },
+    {
+      "ruling_id": "20231229",
+      "cards": [
+        "Turkey Vulture",
+        "Purple Heron",
+        "White-Throated Kingfisher"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-64/#comment-65180",
+      "comment": "65180",
+      "verdict": "hedged",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "When a pink power triggers off a push-your-luck predator: after the whole hunt, or after",
+        "each successful roll. Jamey answered 'after the whole thing' in comment 65180, but in",
+        "comment 109154 -- later in the same thread -- he said the Appendix wording is open to",
+        "interpretation and that he would check with his team. No follow-up ever appeared.",
+        "",
+        "An answer the designer himself reopened is the clearest possible case for not publishing.",
+        "Turkey Vulture also already carries the general timing rule: a pink power activates",
+        "directly after the triggering action, once the triggering player has finished all the",
+        "actions on the card that caused it."
+      ]
+    },
+    {
+      "ruling_id": "20240109",
+      "cards": [
+        "Verditer Flycatcher",
+        "Grandala"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-19/#comment-65931",
+      "comment": "65931",
+      "verdict": "wrong",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "That the Asia appendix is wrong about Verditer Flycatcher -- that the [invertebrate] must",
+        "be gained *before* the bird is activated, not before or after.",
+        "",
+        "Jamey confirmed only the turn-order premise (core benefit first, then brown powers right",
+        "to left). The conclusion that the printed appendix clarification is therefore incorrect is",
+        "the model's inference, and printed rulebook text outranks a forum restatement of a premise",
+        "the printed text was written in full knowledge of. Publishing 'the appendix is wrong' on",
+        "an inference is exactly the kind of claim that costs a rules reference its credibility."
+      ]
+    },
+    {
+      "ruling_id": "20230918",
+      "cards": [
+        "Northern Mockingbird",
+        "Eurasian Nuthatch"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-61/#comment-63050",
+      "comment": "63050",
+      "verdict": "superseded",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "That a repeated Eurasian Nuthatch caches its [seed] on the repeating bird (Northern",
+        "Mockingbird) where it cannot later be spent. Jamey answered this in 2023, and it was",
+        "published on both cards; both rows are removed by this batch.",
+        "",
+        "Two official answers say the opposite, and they bracket it in time. Joe Aubrey, comment",
+        "36250 (2020): the repeating bird 'does not take on the other bird's power; the other bird",
+        "repeats its own power as if it were activated again', so tucks go behind that bird and its",
+        "costs are paid as its own text specifies. Jamey, comment 150843 (2026), correcting himself",
+        "in the same thread after a player raised the distinction: a repeat makes the other bird's",
+        "power trigger again on that bird itself, and is not a copy performed by the repeating bird.",
+        "",
+        "Jamey has erred on this exact distinction three times and corrected himself twice (see",
+        "comments 35726 and 150562/150650), so a lone Jamey comment on repeat-versus-copy is weak",
+        "evidence. Both of the answers above are now published on Gray Catbird and Northern",
+        "Mockingbird. Eurasian Nuthatch keeps its ruling that [seed] cached on it by another bird's",
+        "power can later be spent with its own power, which agrees with them."
+      ]
     }
   ]
 }

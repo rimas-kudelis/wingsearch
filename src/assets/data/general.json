@@ -173,5 +173,50 @@
     "name":"Round end",
     "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+  },
+  "35":{
+    "name":"Round end powers",
+    "text":"Each player chooses the order in which they activate their own round end (teal) powers.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-2\/#comment-35191"
+  },
+  "36":{
+    "name":"End of turn",
+    "text":"Powers that trigger <i>\"at the end of your turn\"<\/i> trigger after hummingbird actions, since hummingbird actions happen during your turn.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-80\/#comment-157465"
+  },
+  "37":{
+    "name":"Resolving powers that involve all players",
+    "text":"When a bird power has each player make a selection, all players make their selections in turn order; the active player then carries on activating the remaining brown powers in that habitat until their turn ends.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-81\/#comment-159055"
+  },
+  "38":{
+    "name":"Laying eggs with bird powers",
+    "text":"The restriction that [egg] must be laid on different birds belongs to the lay eggs action, not to bird powers. When a power lets you lay more than one [egg], you may lay them all on the same bird, up to that bird's [egg] limit.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-pocket\/comment-page-6\/#comment-168218"
+  },
+  "39":{
+    "name":"Gaining specific foods from the birdfeeder",
+    "text":"When a power tells you to gain more than one specific type of food from the birdfeeder, gain only the types actually in the birdfeeder; the food that is not there is simply not gained, and the birdfeeder is not reset or refilled to look for it.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-pocket\/comment-page-6\/#comment-168532"
+  },
+  "40":{
+    "name":"Drawn cards enter your hand",
+    "text":"[card] you draw enter your hand immediately, so a [card] you have just drawn is eligible when a power tells you to discard a [card] from your hand.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-51\/#comment-56989"
+  },
+  "41":{
+    "name":"Wingspan of flightless birds",
+    "text":"A bird with a [star] wingspan has no printed wingspan. Per page 3 of the <i>Oceania<\/i> rulebook, treat its wingspan as any length you want it to be, whether for an end-of-round goal, a bonus card, or a power that looks at wingspan.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-64\/#comment-65152"
+  },
+  "42":{
+    "name":"Wild wingspan",
+    "text":"A [star] wingspan is wild for each bonus card separately, in the same way a [wild] nest can act as a different nest type for each bonus card, goal or power. <strong applink=\"\/card\/286\">Emu<\/strong> can count as a mid-sized wingspan for <strong applink=\"\/card\/1035\">Grassland Data Analyst<\/strong> and as a wingspan over 65 cm for <strong applink=\"\/card\/1018\">Large Bird Specialist<\/strong> at the same time.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-36\/#comment-55544"
+  },
+  "43":{
+    "name":"Rerolling dice",
+    "text":"Unless a card says otherwise, the birdfeeder [die] are rerolled in exactly two situations: when the birdfeeder is empty of [die], refill it immediately by rolling all 5; and when a player is about to gain food and every [die] in the birdfeeder shows the same face, that player may refill it by rolling all 5. There is no default option to pay food to reset the birdfeeder.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-69\/#comment-71887"
   }
 }

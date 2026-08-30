@@ -11,7 +11,7 @@ re-checked rather than trusted.
 
 ## 1. How rulings reach a card today
 
-Two kinds of ruling live in `scripts/rulings/rulings.tsv` (549 rows, **no header**,
+Two kinds of ruling live in `scripts/rulings/rulings.tsv` (575 rows, **no header**,
 tab-separated, 5 positional columns):
 
 The notebook reads it as columns `id, general, specific, text, source`:
@@ -24,15 +24,15 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**35 rows are general** (col 2 blank) and **514 are named**. The 35 general rulings are
+**44 rows are general** (col 2 blank) and **531 are named**. The 44 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
-*position* `0`–`34`, not by ruling id — so you cannot look a general ruling up by id
+*position* `0`–`43`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
 
-Those 35 general rows carry only **31 distinct ids**: `20201003` and `20201116a` appear
+Those 44 general rows carry only **40 distinct ids**: `20201003` and `20201116a` appear
 twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
 row sharing that id — one predicate can deliver two or three separate rulings.
-`general_map.py` covers all 31 ids exactly, and the notebook now *asserts* that rather than
+`general_map.py` covers all 40 ids exactly, and the notebook now *asserts* that rather than
 printing `Rule X not yet implemented`: a general row with no predicate reaches no card, so
 it must fail the build, not scroll past.
 
@@ -68,9 +68,9 @@ New rulings should therefore be numbered from their source comment's date.
 
 ## 2. Trust model
 
-The corpus cites, in order of volume: stonemaiergames 407, facebook 67, boardgamegeek 62,
-discord 4, and 9 rows citing a rulebook or the card update pack in prose. The Stonemaier
-share grew from 44 to 407 with the automated pipeline; the 67 Facebook rows are the
+The corpus cites, in order of volume: stonemaiergames 434, facebook 67, boardgamegeek 62,
+discord 4, and 8 rows citing a rulebook or the card update pack in prose. The Stonemaier
+share grew from 44 to 434 with the automated pipeline; the 67 Facebook rows are the
 pre-existing ones, and are the only citations a reader cannot follow without being logged
 in to the group.
 
@@ -129,9 +129,14 @@ after much of the early Q&A. Two caveats, both learned the hard way:
 - **Rank by source strength before date.** An Appendix citation from 2023 beats an
   improvised reply from 2024. Date is the tiebreaker, not the first test.
 - **A contradiction is evidence of a transcription bug before it is evidence of a rules
-  change** — see §9. Read both sources before concluding either is superseded. Of the two
-  conflicts found so far, one (`20260617`) was our own inversion and one (`20230225`) was a
-  genuine self-correction by the author.
+  change** — see §9. Read both sources before concluding either is superseded. Of the three
+  conflicts found so far, one (`20260617`) was our own inversion, one (`20230225`) was a
+  genuine self-correction by the author, and one (`20230918`) was the author getting the same
+  distinction wrong for the third time.
+- **Some questions the author reliably gets wrong.** Before treating a lone comment as
+  authoritative, check whether the corpus shows the author being corrected on that exact point
+  before — `graph.py --related` is the cheap way to see it. Repeat-versus-copy is the known
+  case; see §9.
 
 Removing a superseded ruling is a human step. `curate.py`'s `check()` hard-gates against
 any plan that drops a ruling, so a model cannot delete one; deletions go through
@@ -141,10 +146,12 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
 
 ## 3. Known failure modes in the current fan-out
 
-`general_map.py` holds 31 predicates. **25 match at least one card**:
+`general_map.py` holds 40 predicates. **34 match at least one card**:
 
 - **7 of the 13 `lambda row: False` stubs were implemented on 2026-08-30**, taking the
-  fan-out from 18 rulings / 861 attachments to 28 / 941. `20191202` (a "counts double" card
+  fan-out from 18 rulings / 861 attachments to 28 / 941; resolving the pending proposals the
+  same day added 8 more general rulings and promoted 1 named ruling to general, reaching
+  **37 rulings / 1186 attachments**. `20191202` (a "counts double" card
   in hand does not count) reuses `20210318`'s regex; `20200712` (trading counts as
   spending), `20201003` (you may read the discard pile), `20210101` (giving is not
   spending), `20210199a` (repeat of a copy power) and `20210199b` (a copy retains effects
@@ -159,6 +166,23 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
   game-end sequencing rule belonging to no bird; `20201211` ("ability" means "power") is a
   glossary entry. The three keyword rulings now also have named rows on the birds that
   carry the keyword — including two prairie birds and two violet birds that had none.
+- **9 predicates were added on 2026-08-30**, when the pending `is_ruling` proposals were
+  resolved. Eight are new general rulings whose answer the source stated generally but named
+  only one or two cards for: `20240713` (what the reroll rules actually *are* — 02g had only
+  said "regular reroll rules apply", so this shares 02g's candidate set and, via
+  `applicability-overrides.json`, its exclusions), `20260605` (all-players selections go in
+  turn order, 69), `20231228` and `20221013` (a `[star]` wingspan is no wingspan; treat it as
+  any length, separately per bonus card — 12 each), `20260520b` (end-of-turn powers trigger
+  after hummingbird actions, 10), `20221116` (a `[card]` just drawn is already in your hand,
+  9), `20260816` (gain only the birdfeeder foods actually present, 4) and `20260814` (a power
+  laying 2+ `[egg]` may put them on one bird, 3). The ninth, `20191004` (you choose the order
+  of your own teal powers), is a **promotion**: it existed as two named rows on Griffon
+  Vulture and Lesser Whitethroat, and the fact is about every teal power, so the rows were
+  replaced by one general row reaching all 63.
+
+  Promotion is the preferred move whenever a named ruling's text says nothing specific to
+  its card. It is cheaper than copying rows onto siblings and it cannot go stale as new
+  birds are added.
 - **4 were broken by a casing typo — fixed 2026-08-30.** They tested
   `row['Color'] == 'Pink'`, but Color is stored lowercase (`brown` 409, `white` 138,
   `teal` 63, `pink` 51, `yellow` 40) and the notebook applies no normalisation to
@@ -566,6 +590,37 @@ Only reading the pair settles it.
 evidence of a rules change.** Check both against their sources before believing either.
 Rejected rulings and the reasons are recorded permanently in `rejections.json`, which also
 blocks the comment from being re-proposed.
+
+### Repeat versus copy: a question the author gets wrong about half the time
+
+Found 2026-08-30, in `20230918`, live on two cards. Comment 63050 (Jamey, 2023) said that a
+\[seed] from a repeated **Eurasian Nuthatch** *"just becomes a cached food"* on the repeating
+bird — i.e. the repeating bird performs the power and keeps the result. That is the wrong side
+of the distinction, and the corpus says so twice: Joe Aubrey in 36250 (2020) — *"The
+Mockingbird does not take on the powers of the other bird and so in this instance would not
+gain a tucked card"* — and Jamey himself in 150843 (2026) — *"The catbird causes the other bird
+to trigger again."* Both rows were deleted and the two correct answers published on Gray
+Catbird and Northern Mockingbird.
+
+What makes this different from `20260617` is that nothing was transcribed wrongly. The source
+says what the ruling said; the source is simply mistaken. The tell is the author's own record
+on the point:
+
+| comment | date | said | then |
+|---|---|---|---|
+| 35726 | 2019-11-29 | *"repeats the power as if it's printed on the repeating bird"* | corrected in an `EDIT:` on the same comment |
+| 63050 | 2023-09-18 | the repeating bird keeps the cached food | never revisited; this is the row we removed |
+| 150562 | 2026-03-16 | *"it's linked to the Catbird, not the original bird"* | corrected three days later in 150843 |
+
+Three errors, two self-corrections, one wrong answer left standing — so **a lone comment on
+repeat-versus-copy is weak evidence regardless of its date**, and the newer-wins rule does not
+settle it. Prefer the answers that survived a correction (35726's edit, 150843) and Joe
+Aubrey's, whose record on the distinction is clean.
+
+The generalisable part: **check the author's track record on the specific distinction before
+trusting a single comment on it.** Where the corpus shows repeated self-correction on one point,
+treat every uncorrected answer on that point as unverified. `graph.py --related` surfaces this
+for free; judging the comment alone does not.
 
 ### A hedge attached to a condition is not a hedge you can drop
 

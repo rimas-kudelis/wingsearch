@@ -36,6 +36,20 @@
     "excluded": {}
   },
 
+  "20240713": {
+    "_why": [
+      "Jamey's 2024 statement of what the reroll rules actually are. 02g already tells these",
+      "birds that 'regular reroll rules apply' without saying what they are, so the two belong",
+      "on the same cards; this copies 02g's audited exclusions rather than shipping the pair",
+      "with different fan-outs. Re-audit 20240713 and this override can go."
+    ],
+    "excluded": {
+      "Blood Pheasant": "Food is gained from the supply, not the birdfeeder; the feeder is only read for its contents.",
+      "Red-Billed Scythebill": "Gains food from the supply and only reads the birdfeeder's contents; no birdfeeder gain, so no reroll.",
+      "Verditer Flycatcher": "It only checks whether a bird food was previously gained; its own gain is from the supply, so no birdfeeder reroll opportunity is granted."
+    }
+  },
+
   "20200712": {
     "_why": [
       "'\"Trading\" counts as \"spending\".' The predicate is every bird with a trade power,",

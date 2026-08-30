@@ -55,6 +55,9 @@ candidates = {
     '20190313': lambda row: _is_pink(row),
     '20190601': lambda row: not pd.isna(row['Power text']) and re.search(r"gain", row['Power text'], re.IGNORECASE) is not None and re.search(r"supply", row['Power text'], re.IGNORECASE) is not None and re.search(r"steal", row['Power text'], re.IGNORECASE) is None and re.search(r"give", row['Power text'], re.IGNORECASE) is None,
     '20190908': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None and re.search(r"keep [0-9]+ and discard the rest", row['Power text'], re.IGNORECASE) is None,
+    # Promoted from two named rows (Griffon Vulture, Lesser Whitethroat): choosing the
+    # order of your own teal powers is a fact about every teal power, not those two birds.
+    '20191004': lambda row: _is_teal(row),
     '20191010': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None,
     # Same three birds as 20210318: a card in hand does not count, because a bird power only
     # takes effect once the bird is played.
@@ -90,6 +93,21 @@ candidates = {
     '20210206': lambda row: not pd.isna(row['Power text']) and re.search(r"place this bird sideways", row['Power text'], re.IGNORECASE) is not None,
     '20210920': lambda row: _is_teal(row),
     '20210318': lambda row: not pd.isna(row['Power text']) and re.search(r"this bird counts double toward the end-of-round goal", row['Power text'], re.IGNORECASE) is not None,
+    # A [star] wingspan is not a wingspan at all; both rulings are about what to do with it.
+    '20221013': lambda row: _is_star_wingspan(row),
+    '20231228': lambda row: _is_star_wingspan(row),
+    # The birds that draw and then discard from hand -- the powers that raise the question
+    # of whether a [card] just drawn is already in your hand.
+    '20221116': lambda row: not pd.isna(row['Power text']) and re.search(r"\bdraw\b", row['Power text'], re.IGNORECASE) is not None and re.search(r"discard .{0,20}from your hand", row['Power text'], re.IGNORECASE) is not None,
+    # Same candidate set as 02g, which says only that "regular reroll rules apply"; this one
+    # says what they are. Mirrored in applicability-overrides.json so the pair agrees.
+    '20240713': lambda row: not pd.isna(row['Power text']) and re.search(r"gain.*birdfeeder", row['Power text'], re.IGNORECASE) is not None,
+    '20260520b': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None,
+    '20260605': lambda row: not pd.isna(row['Power text']) and re.search(r"\b(all|each) (other )?player", row['Power text'], re.IGNORECASE) is not None,
+    # Powers that lay more than one [egg] somewhere other than a single named bird -- where
+    # "may I put both on one bird?" can actually be asked.
+    '20260814': lambda row: not pd.isna(row['Power text']) and re.search(r"lay (?!1 )(\d+|all|up to \d+) \[egg\]", row['Power text'], re.IGNORECASE) is not None and re.search(r"lay (\d+|all|up to \d+) \[egg\] on (this bird|each)", row['Power text'], re.IGNORECASE) is None,
+    '20260816': lambda row: not pd.isna(row['Power text']) and re.search(r"birdfeeder", row['Power text'], re.IGNORECASE) is not None and re.search(r"\[(seed|invertebrate|fish|fruit|rodent|nectar)\] and(/or)? (1 )?\[", row['Power text'], re.IGNORECASE) is not None,
 }
 
 
@@ -104,6 +122,11 @@ def _is_pink(row):
 
 def _is_teal(row):
     return _is_color(row, 'teal')
+
+
+def _is_star_wingspan(row):
+    """The 12 flightless birds, whose Wingspan cell is `*` rather than a number."""
+    return str(row['Wingspan']).strip() == '*'
 
 
 def _load(path):

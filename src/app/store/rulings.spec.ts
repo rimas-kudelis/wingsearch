@@ -18,37 +18,47 @@ import BirdCards from '../../assets/data/master.json'
 describe('general rulings fan-out', () => {
 
     // ruling text prefix -> number of birds carrying it.
-    // Recorded 2026-08-30, after the applicability audit and after implementing the
-    // predicates that had been left as `lambda row: False`.
+    // Recorded 2026-08-30, after the applicability audit, after implementing the predicates
+    // that had been left as `lambda row: False`, and after resolving the pending proposals
+    // (which added 8 general rulings and promoted 1 named ruling to general).
     const EXPECTED: [string, number][] = [
-        ['Whenever you are entitled to gain resources,', 315],
-        ['You may only reroll dice when gaining food', 109],
-        ['Regular reroll rules apply whenever you have', 63],
-        ['Teal ROUND END powers trigger at the end of', 63],
-        ['If a pink power is triggered by a player', 51],
-        ['You may activate each <i>"once between', 51],
+        ['Whenever you are entitled to gain resources, ', 315],
+        ['You may only reroll dice when gaining food fr', 109],
+        ['When a bird power has each player make a sele', 69],
+        ['Each player chooses the order in which they a', 63],
+        ['Regular reroll rules apply whenever you have ', 63],
+        ['Teal ROUND END powers trigger at the end of e', 63],
+        ['Unless a card says otherwise, the birdfeeder ', 63],
+        ['If a pink power is triggered by a player usin', 51],
+        ['You may activate each <i>"once between turns"', 51],
         ['You may not use a pink power during your turn', 51],
-        ['You may use a pink power during another', 51],
-        ['<i>"Discarding"</i> food while resolving a', 45],
-        ['Unless specifically stated, your actions are', 30],
+        ['You may use a pink power during another playe', 51],
+        ['<i>"Discarding"</i> food while resolving a bi', 45],
+        ['Unless specifically stated, your actions are ', 30],
         ['You may substitute 2 [wild] for any 1 food in', 18],
-        ['<i>"Giving"</i> a resource to another player', 14],
+        ['<i>"Giving"</i> a resource to another player ', 14],
+        ['A [star] wingspan is wild for each bonus card', 12],
+        ['A bird with a [star] wingspan has no printed ', 12],
         ['When a bird with a <i>"copy"</i> power copies', 12],
-        ['If you perform more than one action <i>"at', 10],
+        ['If you perform more than one action <i>"at th', 10],
+        ['Powers that trigger <i>"at the end of your tu', 10],
+        ['[card] you draw enter your hand immediately, ', 9],
         ['If you use a bird\'s power to play in the same', 8],
-        ['You may perform an action even if it', 8],
-        ['Cards discarded to the discard pile are', 5],
-        ['Players may look through the discard pile at', 5],
-        ['A bird played horizontally qualifies for one', 4],
-        ['Cards whose powers include the phrase <i>"it', 4],
-        ['Only powers of birds played on a player mat', 4],
-        ['A card in your hand with the power, <i>"This', 3],
-        ['If information printed on a card conflicts', 3],
+        ['You may perform an action even if it preclude', 8],
+        ['Cards discarded to the discard pile are place', 5],
+        ['Players may look through the discard pile at ', 5],
+        ['A bird played horizontally qualifies for one ', 4],
+        ['Cards whose powers include the phrase <i>"it ', 4],
+        ['Only powers of birds played on a player mat c', 4],
+        ['When a power tells you to gain more than one ', 4],
+        ['A card in your hand with the power, <i>"This ', 3],
+        ['If information printed on a card conflicts wi', 3],
         ['Since being a predator power is a property of', 3],
-        ['This bird counts double for <strong>Beak', 3],
-        ['When a bird (e.g., the <strong', 3],
-        ['When a bird with a <i>"repeat"</i> power', 3],
-        ['<i>"Trading"</i> (e.g., when using the', 2],
+        ['The restriction that [egg] must be laid on di', 3],
+        ['This bird counts double for <strong>Beak poin', 3],
+        ['When a bird (e.g., the <strong applink="/card', 3],
+        ['When a bird with a <i>"repeat"</i> power (e.g', 3],
+        ['<i>"Trading"</i> (e.g., when using the <stron', 2],
     ]
 
     const counts = new Map<string, number>()
@@ -69,7 +79,7 @@ describe('general rulings fan-out', () => {
         })
     })
 
-    it('attaches only these 28 general rulings, 941 times in total', () => {
+    it('attaches only these 37 general rulings, 1186 times in total', () => {
         expect(counts.size).toBe(EXPECTED.length)
         expect(total).toBe(EXPECTED.reduce((sum, [, n]) => sum + n, 0))
     })
