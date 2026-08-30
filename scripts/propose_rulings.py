@@ -41,6 +41,7 @@ import rulings_corpus as rc  # noqa: E402
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(HERE, 'rulings-proposals.json')
 KNOWLEDGE_PATH = os.path.join(HERE, 'rulings-domain-knowledge.md')
+CURATION_PATH = os.path.join(HERE, 'rulings-curation.json')
 ICON_DIR = os.path.join(HERE, '..', 'src', 'assets', 'icons', 'png')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
@@ -301,6 +302,25 @@ def validate(store):
     return problems
 
 
+def applied_comment_ids():
+    """Comments whose ruling has already reached the corpus, cited or not.
+
+    `cited_comment_ids()` reads the TSV's source column, which is almost the same thing --
+    except that `curate_rulings.py` merges restatements of one rule into a single row and
+    that row keeps only one link. The other comments stop being cited while their content
+    is very much still published, so deriving "applied" from citations alone makes the
+    next refresh re-append every ruling curation just merged away, forever.
+    """
+    ids = rc.cited_comment_ids()
+    if os.path.exists(CURATION_PATH):
+        for plan in json.load(open(CURATION_PATH, encoding='utf-8'))['plans'].values():
+            for gone in plan.get('superseded', []):
+                m = re.search(r'#comment-(\d+)', gone.get('source', ''))
+                if m:
+                    ids.add(m.group(1))
+    return ids
+
+
 def _norm(text):
     return re.sub(r'[^a-z ]', ' ', re.sub(r'\\textbf\{([^}]*)\}', r'\1', text).lower())
 
@@ -356,7 +376,7 @@ def emit_tsv(store, cards):
     to re-run after a review session: it emits only what is new. `accept` therefore means
     "approved", not "not yet applied", and needs no second state to track.
     """
-    cited = rc.cited_comment_ids()
+    cited = applied_comment_ids()
     accepted, applied = [], []
     for p in store['proposals'].values():
         if p.get('review') != 'accept':
@@ -427,7 +447,7 @@ def main():
         emit_tsv(store, cards)
         return
 
-    cited = rc.cited_comment_ids()
+    cited = applied_comment_ids()
     pat = rc.name_matcher(cards)
     work = []
     for t in rc.load_threads():
