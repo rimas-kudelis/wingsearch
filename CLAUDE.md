@@ -6,28 +6,41 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Wingsearch is a client-side search app for the Wingspan board game card collection, published as a PWA at https://navarog.github.io/wingsearch/. There is no backend — all card data ships as JSON bundled into the app, and all searching/filtering happens in the NgRx reducer.
 
-Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node v14.17.4 / npm 8.12.2 (see `engines` and `.nvmrc`) — newer Node will fail the build.
+Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node 14 / npm 6 (see `engines` and `.nvmrc`, pinned to v14.21.3) — newer Node will fail the build. Node 14 ships npm 6, which matches `package-lock.json`'s lockfileVersion 1; installing under npm 8 rewrites the lockfile, so don't.
 
 ## Commands
 
 ```bash
 npm start              # dev server on :4200
-npm run build-prod     # production build into docs/ with base-href /wingsearch/ (GitHub Pages)
-npm run build-local    # production build into dist/wingsearch (for local verification)
-npm run http-server    # serve dist/wingsearch on :8080
+npm run test:ci        # specs in headless Chrome, non-interactive (what CI runs)
+npm test               # specs in watch mode
+npm run lint           # tslint; currently reports 172 pre-existing violations
+npm run preview        # build + serve an exact production replica (see below)
+npm run build-pages    # production build into dist/wingsearch (what CI deploys)
+npm run build-prod     # legacy: production build into docs/
 ```
 
 Docker alternative (avoids installing Node 14 locally): `docker compose up` serves the dev server on `$WEB_PORT` (default 8080) with `src/` mounted read-only.
 
-### Tests and lint are currently non-functional
+### Verifying a change looks right in production
 
-`npm test`, `npm run lint`, and `npm run e2e` all fail — `tsconfig.spec.json`, `karma.conf.js`, and the whole `e2e/` directory referenced by `angular.json` do not exist in the repo. The only spec file is `src/app/app.component.spec.ts`. Verify changes by running the dev server, not by running tests. If you need a test harness, it must be created first (`angular.json` already has karma/tslint/protractor targets wired up expecting those files).
+`npm run preview` builds with the real `/wingsearch/` base href into `.preview/wingsearch/` and serves the *parent* directory, so the app is reachable at **http://localhost:8080/wingsearch/** and behaves exactly as it does live. Use this rather than `build-local` + `http-server`, which serve at base href `/` and therefore cannot reproduce subpath asset or routing bugs. `npm run serve-preview` re-serves an existing build without rebuilding.
+
+### Tests
+
+`src/app/store/app.reducer.spec.ts` holds 61 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, and the `setLanguage`/`resetLanguage` round trip (~91% statement coverage of the store).
+
+These specs deliberately **pin current behaviour, including where it is wrong**. Known-buggy behaviour is pinned with a comment naming the issue rather than corrected, so a fix is always a deliberate test change. Don't "fix" a failing spec by loosening the assertion — work out which side is wrong first.
 
 Angular schematics are configured with `skipTests: true`, so generated components come without specs.
 
 ## Deployment
 
-`docs/` is a committed build artifact — it *is* the GitHub Pages site. The workflow in this repo's history is: make source changes, run `npm run build-prod`, and commit the regenerated `docs/` (commits titled "Publish changes"). Don't hand-edit `docs/`.
+`.github/workflows/ci.yml` owns the build. Every PR and every push to master installs from the lockfile, lints (non-blocking), runs the specs, and builds. On master the `deploy` job is gated on the protected `github-pages` environment, so **a push builds and then waits for manual approval** — nothing reaches users without a click. Every run also uploads the built site as a downloadable artifact for local inspection.
+
+Lint is `continue-on-error` because of the 172-violation backlog. Clear it, then make it blocking.
+
+`docs/` is a committed build artifact from the old manual workflow (`npm run build-prod` + a "Publish changes" commit). The Pages source has been switched to GitHub Actions, so `docs/` is no longer the deploy source — but the last branch-based deployment is what's still live until the first Actions deploy replaces it. Delete `docs/` only after an approved CI deploy succeeds. Don't hand-edit it, and don't add to it.
 
 ## Architecture
 
