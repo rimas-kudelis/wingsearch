@@ -117,7 +117,7 @@ Runtime translation, not Angular i18n. There is no compile-time locale build.
 - `AppEffects` ([src/app/store/app.effects.ts](src/app/store/app.effects.ts)) reacts to `ROOT_EFFECTS_INIT` and `changeLanguage`, reads the `language` cookie, HTTP-fetches `assets/data/i18n/<lang>.json`, and dispatches `[App] Set language`.
 - `setLanguage` in the reducer merges translated fields over the English card (blank cells fall through to English via the `englishBirdCardsMap`/`englishBonusCardsMap` lookups), **re-sorts** cards with `localeCompare` for that locale, and **rebuilds both FlexSearch indexes**. `resetLanguage` restores the English arrays.
 - `TranslatePipe` translates static UI strings from the `other` sheet. It's both declared as a pipe and provided as a service, and components inject it directly (e.g. `bird-card.component.ts` for power titles).
-- Card text embeds icon markers like `[forest]`, `[wetland]`, `[card]`; `IconizePipe` expands them into `<picture>` elements pointing at `assets/icons/png/<name>.{webp,png}`, with `dark`/`glow` variant maps. Translators must preserve these markers — see [i18n/README.md](i18n/README.md) for the full icon table and sheet-by-sheet field docs.
+- Card text embeds icon markers like `[forest]`, `[wetland]`, `[card]`; `IconizePipe` expands them into `<picture>` elements pointing at `assets/icons/png/<name>.webp`, with `dark`/`glow` variant maps. (The directory really is called `icons/png` and holds `.webp` files — see "The app serves WebP only" below.) Translators must preserve these markers — see [i18n/README.md](i18n/README.md) for the full icon table and sheet-by-sheet field docs.
 - `parameters` (from the i18n file, falling back to `src/assets/data/parameters.json`) are per-language feature flags, e.g. `Show bonus cards match symbols`, which appends `[anatomist]`-style icons to bird names.
 
 ### Routing and card detail
@@ -127,6 +127,17 @@ Runtime translation, not Angular i18n. There is no compile-time locale build.
 ### Cookies, consent, and preferences
 
 `CookiesService.setCookie` is a no-op unless the `consent` cookie is `'1'` (`ConsentComponent` sets it). Preferences persisted as cookies: `language`, `assetPack`, and `expansion.<core|european|oceania|asia|americas|promoAsia|promoCA|promoEurope|promoNZ|promoUK|promoUS>` (`'0'` means off; *absent* means on, hence the `!== '0'` checks). Initial state is read from cookies in three places — `initialState`, `AppEffects`, and the `SearchComponent` constructor — keep them in sync when adding a preference.
+
+### The app serves WebP only
+
+Every image the app requests is a `.webp`. There are no `<source>` fallbacks and no `.no-webpalpha` rules left; the `<picture>` elements that remain are wrappers kept because their classes (`.icon-picture`, `.egg`, `.nest`, `.habitat-wrapper`) are what the SCSS styles. The justification is not "WebP is popular enough" but that Angular 22 compiles this app for `baseline widely available on 2026-05-07` — minimum Chrome 119, Firefox 119, Safari 17, iOS 17 — and **no browser in that set lacks WebP** (Safari gained it in 14, in 2020). A raster fallback could only ever be reached by a browser that cannot execute the bundle.
+
+Consequently `angular.json` ships **no `.png`/`.jpg` at all** except an explicit allowlist: `icons/pwa/[0-9]*.png` (the manifest and `apple-touch-icon` want PNG) and `ogimage.jpg` (social crawlers are not browsers and do not all read WebP). So:
+
+- **Adding a raster image and referencing it from a template will 404.** Convert to WebP (`scripts/images/webp.sh`), or add it to the allowlist if some non-browser consumer truly needs it.
+- The `.png`/`.jpg` files still in `src/assets` are kept deliberately as the lossless masters the WebP was derived from (card art WebP is lossy VP8). They are simply not shipped. Deleting them would gain nothing — git history holds the blobs either way, so a clone is no smaller — and would lose the ability to re-encode.
+
+This took `dist/wingsearch` from 97M to 26M and `ngsw.json` from 324 kB to 205 kB. It did **not** make the page lighter for current visitors: `<picture>` was already handing them the WebP, and the `.no-webpalpha` CSS fallbacks had been dead since `8d16d71 Remove Modernizr` deleted the only thing that set that class. The one real download saved is the bonus-card expansion indicators, which had no WebP variant in the SCSS at all.
 
 ### Asset packs (hidden feature)
 

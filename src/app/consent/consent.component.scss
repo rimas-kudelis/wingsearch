@@ -5,10 +5,6 @@
     border-radius: 10px;
 }
 
-.no-webpalpha :host {
-    background-image: url('../../assets/consent-background.jpg');
-}
-
 mat-card {
     border-radius: 10px;
     max-width: 315px;
@@ -17,10 +13,6 @@ mat-card {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
-}
-
-.no-webpalpha mat-card {
-    background-image: url('../../assets/falcon.png');
 }
 
 mat-card-actions {

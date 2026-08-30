@@ -4,9 +4,7 @@
       <mat-form-field appAnalyticsEvent="Main search" appearance="fill" (click)="$event.stopPropagation()">
         <mat-label>
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/flocking.webp">
-            <source type="image/png" srcset="assets/icons/png/flocking.png">
-            <img class="input-image" src="assets/icons/png/flocking.png" alt="flocking" aria-hidden="true">
+            <img class="input-image" src="assets/icons/png/flocking.webp" alt="flocking" aria-hidden="true">
           </picture>
           Search birds and bonus cards
         </mat-label>
@@ -29,9 +27,7 @@
   <mat-form-field appAnalyticsEvent="Search by bonus cards" appearance="fill" class="long-field">
     <mat-label>
       <picture>
-        <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
-        <source type="image/jpeg" srcset="assets/cards/backgrounds/bonus-background.jpg">
-        <img class="input-image" src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus background"
+        <img class="input-image" src="assets/cards/backgrounds/bonus-background.webp" alt="bonus background"
           aria-hidden="true">
       </picture>
       Search birds by applicable bonus cards
@@ -71,27 +67,21 @@
     <span appAnalyticsEvent="Toggle power" eventLabel="brown" class="pointer shrink"
       [ngClass]="{inactive: !query.colors.brown}" (click)="togglePower('brown')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/brown.webp">
-        <source type="image/png" srcset="assets/icons/png/brown.png">
-        <img class="power-image" src="assets/icons/png/brown.png" aria-hidden="false"
+        <img class="power-image" src="assets/icons/png/brown.webp" aria-hidden="false"
           aria-label="Toggle brown power" alt="brown power">
       </picture>
     </span>
     <span appAnalyticsEvent="Toggle power" eventLabel="pink" class="pointer shrink"
       [ngClass]="{inactive: !query.colors.pink}" (click)="togglePower('pink')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/pink.webp">
-        <source type="image/png" srcset="assets/icons/png/pink.png">
-        <img class="power-image" src="assets/icons/png/pink.png" aria-hidden="false"
+        <img class="power-image" src="assets/icons/png/pink.webp" aria-hidden="false"
           aria-label="Toggle pink power" alt="pink power">
       </picture>
     </span>
     <span appAnalyticsEvent="Toggle power" eventLabel="white" class="pointer shrink"
       [ngClass]="{inactive: !query.colors.white}" (click)="togglePower('white')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/white.webp">
-        <source type="image/png" srcset="assets/icons/png/white.png">
-        <img class="power-image" src="assets/icons/png/white.png" aria-hidden="false"
+        <img class="power-image" src="assets/icons/png/white.webp" aria-hidden="false"
           aria-label="Toggle white power" alt="white power">
       </picture>
     </span>
@@ -100,9 +90,7 @@
         [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')"
         >
         <picture>
-          <source type="image/webp" srcset="assets/icons/png/teal.webp">
-          <source type="image/png" srcset="assets/icons/png/teal.png">
-          <img class="power-image" src="assets/icons/png/teal.png" aria-hidden="false"
+          <img class="power-image" src="assets/icons/png/teal.webp" aria-hidden="false"
             aria-label="Toggle teal power" alt="teal power">
         </picture>
       </span>
@@ -112,9 +100,7 @@
         [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')"
         >
         <picture>
-          <source type="image/webp" srcset="assets/icons/png/yellow.webp">
-          <source type="image/png" srcset="assets/icons/png/yellow.png">
-          <img class="power-image" src="assets/icons/png/yellow.png" aria-hidden="false"
+          <img class="power-image" src="assets/icons/png/yellow.webp" aria-hidden="false"
             aria-label="Toggle yellow power" alt="yellow power">
         </picture>
       </span>
@@ -127,9 +113,7 @@
               exclude: query.food.invertebrate === 2
             }" (click)="toggleFood('invertebrate')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/invertebrate.webp">
-        <source type="image/png" srcset="assets/icons/png/invertebrate.png">
-        <img class="food-image" src="assets/icons/png/invertebrate.png" aria-hidden="false"
+        <img class="food-image" src="assets/icons/png/invertebrate.webp" aria-hidden="false"
           aria-label="Toggle invertebrate" alt="invertebrate">
       </picture>
     </span>
@@ -139,9 +123,7 @@
               exclude: query.food.seed === 2
             }" (click)="toggleFood('seed')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/seed.webp">
-        <source type="image/png" srcset="assets/icons/png/seed.png">
-        <img class="food-image" src="assets/icons/png/seed.png" aria-hidden="false" aria-label="Toggle seed"
+        <img class="food-image" src="assets/icons/png/seed.webp" aria-hidden="false" aria-label="Toggle seed"
           alt="seed">
       </picture>
     </span>
@@ -151,9 +133,7 @@
               exclude: query.food.fruit === 2
             }" (click)="toggleFood('fruit')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/fruit.webp">
-        <source type="image/png" srcset="assets/icons/png/fruit.png">
-        <img class="food-image" src="assets/icons/png/fruit.png" aria-hidden="false" aria-label="Toggle fruit"
+        <img class="food-image" src="assets/icons/png/fruit.webp" aria-hidden="false" aria-label="Toggle fruit"
           alt="fruit">
       </picture>
     </span>
@@ -163,9 +143,7 @@
               exclude: query.food.fish === 2
             }" (click)="toggleFood('fish')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/fish.webp">
-        <source type="image/png" srcset="assets/icons/png/fish.png">
-        <img class="food-image" src="assets/icons/png/fish.png" aria-hidden="false" aria-label="Toggle fish"
+        <img class="food-image" src="assets/icons/png/fish.webp" aria-hidden="false" aria-label="Toggle fish"
           alt="fish">
       </picture>
     </span>
@@ -175,9 +153,7 @@
               exclude: query.food.rodent === 2
             }" (click)="toggleFood('rodent')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/rodent.webp">
-        <source type="image/png" srcset="assets/icons/png/rodent.png">
-        <img class="food-image" src="assets/icons/png/rodent.png" aria-hidden="false" aria-label="Toggle rodent"
+        <img class="food-image" src="assets/icons/png/rodent.webp" aria-hidden="false" aria-label="Toggle rodent"
           alt="rodent">
       </picture>
     </span>
@@ -189,9 +165,7 @@
             }" (click)="toggleFood('nectar')"
         >
         <picture>
-          <source type="image/webp" srcset="assets/icons/png/nectar.webp">
-          <source type="image/png" srcset="assets/icons/png/nectar.png">
-          <img class="food-image" src="assets/icons/png/nectar.png" aria-hidden="false" aria-label="Toggle nectar"
+          <img class="food-image" src="assets/icons/png/nectar.webp" aria-hidden="false" aria-label="Toggle nectar"
             alt="nectar">
         </picture>
       </span>
@@ -202,9 +176,7 @@
               exclude: query.food['wild (food)'] === 2
             }" (click)="toggleFood('wild (food)')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/wild.webp">
-        <source type="image/png" srcset="assets/icons/png/wild.png">
-        <img class="food-image" src="assets/icons/png/wild.png" aria-hidden="false"
+        <img class="food-image" src="assets/icons/png/wild.webp" aria-hidden="false"
           aria-label="Toggle wild (food)" alt="wild (food)">
       </picture>
     </span>
@@ -214,9 +186,7 @@
               exclude: query.food['no-food'] === 2
             }" (click)="toggleFood('no-food')">
       <picture>
-        <source type="image/webp" srcset="assets/icons/png/no-food.webp">
-        <source type="image/png" srcset="assets/icons/png/no-food.png">
-        <img class="food-image" src="assets/icons/png/no-food.png" aria-hidden="false"
+        <img class="food-image" src="assets/icons/png/no-food.webp" aria-hidden="false"
           aria-label="Toggle no-food" alt="no-food">
       </picture>
     </span>
@@ -227,54 +197,42 @@
         <span appAnalyticsEvent="Toggle nest" eventLabel="bowl" class="pointer shrink"
           [ngClass]="{inactive: !query.nest.bowl}" (click)="toggleNest('bowl')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/bowl.webp">
-            <source type="image/png" srcset="assets/icons/png/bowl.png">
-            <img class="food-image" src="assets/icons/png/bowl.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/bowl.webp" aria-hidden="false"
               aria-label="Toggle bowl" alt="bowl">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle nest" eventLabel="cavity" class="pointer shrink"
           [ngClass]="{inactive: !query.nest.cavity}" (click)="toggleNest('cavity')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/cavity.webp">
-            <source type="image/png" srcset="assets/icons/png/cavity.png">
-            <img class="food-image" src="assets/icons/png/cavity.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/cavity.webp" aria-hidden="false"
               aria-label="Toggle cavity" alt="cavity">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle nest" eventLabel="ground" class="pointer shrink"
           [ngClass]="{inactive: !query.nest.ground}" (click)="toggleNest('ground')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/ground.webp">
-            <source type="image/png" srcset="assets/icons/png/ground.png">
-            <img class="food-image" src="assets/icons/png/ground.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/ground.webp" aria-hidden="false"
               aria-label="Toggle ground" alt="ground">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle nest" eventLabel="platform" class="pointer shrink"
           [ngClass]="{inactive: !query.nest.platform}" (click)="toggleNest('platform')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/platform.webp">
-            <source type="image/png" srcset="assets/icons/png/platform.png">
-            <img class="food-image" src="assets/icons/png/platform.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/platform.webp" aria-hidden="false"
               aria-label="Toggle platform" alt="platform">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle nest" eventLabel="wild" class="pointer shrink"
           [ngClass]="{inactive: !query.nest.wild}" (click)="toggleNest('wild')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/star.webp">
-            <source type="image/png" srcset="assets/icons/png/star.png">
-            <img class="food-image" src="assets/icons/png/star.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/star.webp" aria-hidden="false"
               aria-label="Toggle wild" alt="wild">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle nest" eventLabel="none" class="pointer shrink flex-center"
           [ngClass]="{inactive: !query.nest.none}" (click)="toggleNest('none')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/none.webp">
-            <source type="image/png" srcset="assets/icons/png/none.png">
-            <img class="food-image" src="assets/icons/png/none.png" aria-hidden="false"
+            <img class="food-image" src="assets/icons/png/none.webp" aria-hidden="false"
               aria-label="Toggle none" alt="none">
           </picture>
         </span>
@@ -286,9 +244,7 @@
             (userChangeEnd)="onEggsChange()"></ngx-slider>
           </div>
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/egg.webp">
-            <source type="image/png" srcset="assets/icons/png/egg.png">
-            <img src="assets/icons/png/egg.png" alt="egg" aria-hidden="false"
+            <img src="assets/icons/png/egg.webp" alt="egg" aria-hidden="false"
               matTooltip="Filter by the egg capacity" aria-label="Select number of eggs"
               style="max-height: 24px; width: auto; margin-left: 10px">
           </picture>
@@ -301,9 +257,7 @@
             (userChangeEnd)="onPointsChange()"></ngx-slider>
           </div>
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/point.webp">
-            <source type="image/png" srcset="assets/icons/png/point.png">
-            <img src="assets/icons/png/point.png" alt="point" aria-hidden="false"
+            <img src="assets/icons/png/point.webp" alt="point" aria-hidden="false"
               matTooltip="Filter by the number of points" aria-label="Select number of points"
               style="max-height: 34px; width: auto; margin-left: 10px">
           </picture>
@@ -316,9 +270,7 @@
             (userChangeEnd)="onWingspanChange()"></ngx-slider>
           </div>
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/wingspan.webp">
-            <source type="image/png" srcset="assets/icons/png/wingspan.png">
-            <img src="assets/icons/png/wingspan.png" alt="wingspan" aria-hidden="false"
+            <img src="assets/icons/png/wingspan.webp" alt="wingspan" aria-hidden="false"
               matTooltip="Filter by wingspan" aria-label="Select wingspan"
               style="max-height: 10px; width: auto; margin-left: 10px; margin-top: 10px">
           </picture>
@@ -342,18 +294,14 @@
           <span appAnalyticsEvent="Toggle beak" eventLabel="left" class="pointer shrink"
             [ngClass]="{inactive: !query.beak.left}" (click)="toggleBeak('left')">
             <picture>
-              <source type="image/webp" srcset="assets/icons/png/beak_pointing_left.webp">
-              <source type="image/png" srcset="assets/icons/png/bea_pointing_left.png">
-              <img class="beak-image" src="assets/icons/png/beak_pointing_left.png" aria-hidden="false"
+              <img class="beak-image" src="assets/icons/png/beak_pointing_left.webp" aria-hidden="false"
                 aria-label="Toggle left" alt="left">
             </picture>
           </span>
           <span appAnalyticsEvent="Toggle beak" eventLabel="right" class="pointer shrink"
             [ngClass]="{inactive: !query.beak.right}" (click)="toggleBeak('right')">
             <picture>
-              <source type="image/webp" srcset="assets/icons/png/beak_pointing_right.webp">
-              <source type="image/png" srcset="assets/icons/png/beak_pointing_right.png">
-              <img class="beak-image" src="assets/icons/png/beak_pointing_right.png" aria-hidden="false"
+              <img class="beak-image" src="assets/icons/png/beak_pointing_right.webp" aria-hidden="false"
                 aria-label="Toggle right" alt="right">
             </picture>
           </span>
@@ -368,16 +316,14 @@
           <mat-label>Language</mat-label>
           <mat-select [(ngModel)]="language" (ngModelChange)="languageChange($event)">
             <mat-select-trigger>
-              <img src="assets/icons/i18n/{{language}}.jpg">
+              <img src="assets/icons/i18n/{{language}}.webp">
             </mat-select-trigger>
             @for (language of supportedLanguages; track language) {
               <mat-option class="language-option"
                 [value]="language.value">
                 <span>
                   <picture>
-                    <source type="image/webp" srcset="assets/icons/i18n/{{language.value}}.webp">
-                    <source type="image/jpg" srcset="assets/icons/i18n/{{language.value}}.jpg">
-                    <img src="assets/icons/i18n/{{language.value}}.jpg">
+                    <img src="assets/icons/i18n/{{language.value}}.webp">
                   </picture>
                 </span>
                 {{language.display}}
@@ -393,9 +339,7 @@
             <mat-select-trigger>
               @for (expansion of selectedExpansions; track expansion) {
                 <picture>
-                  <source type="image/webp" srcset="assets/icons/png/{{expansion}}.webp">
-                  <source type="image/jpg" srcset="assets/icons/png/{{expansion}}.png">
-                  <img src="assets/icons/png/{{expansion}}.png">
+                  <img src="assets/icons/png/{{expansion}}.webp">
                 </picture>
               }
             </mat-select-trigger>
@@ -404,9 +348,7 @@
                 [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
                 <span>
                   <picture>
-                    <source type="image/webp" srcset="assets/icons/png/{{expansion.value}}.webp">
-                    <source type="image/jpg" srcset="assets/icons/png/{{expansion.value}}.png">
-                    <img src="assets/icons/png/{{expansion.value}}.png">
+                    <img src="assets/icons/png/{{expansion.value}}.webp">
                   </picture>
                 </span>
                 {{expansion.display}}
@@ -419,54 +361,42 @@
         <span appAnalyticsEvent="Toggle pack" eventLabel="promoAsia" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoAsia}" (click)="togglePack('promoAsia')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_asia.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_asia.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_asia.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_asia.webp" aria-hidden="false"
               aria-label="Toggle Additional Asian Avians" alt="Additional Asian Avians promo pack" matTooltip="Additional Asian Avians promo pack">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoUK}" (click)="togglePack('promoUK')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_uk.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_uk.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_uk.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_uk.webp" aria-hidden="false"
               aria-label="Toggle British Birds" alt="British Birds promo pack" matTooltip="British Birds promo pack">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoCA}" (click)="togglePack('promoCA')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_ca.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_ca.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_ca.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_ca.webp" aria-hidden="false"
               aria-label="Toggle Birds of Canada" alt="Birds of Canada promo pack" matTooltip="Birds of Canada promo pack">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoEurope}" (click)="togglePack('promoEurope')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_europe.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_europe.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_europe.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_europe.webp" aria-hidden="false"
               aria-label="Toggle Birds of Continental Europe" alt="Birds of Continental Europe promo pack" matTooltip="Birds of Continental Europe promo pack">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoNZ}" (click)="togglePack('promoNZ')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_nz.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_nz.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_nz.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_nz.webp" aria-hidden="false"
               aria-label="Toggle Birds of New Zealand" alt="Birds of New Zealand promo pack" matTooltip="Birds of New Zealand promo pack">
           </picture>
         </span>
         <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
           [ngClass]="{inactive: !query.promoPack.promoUS}" (click)="togglePack('promoUS')">
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promo_us.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promo_us.png">
-            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_us.png" aria-hidden="false"
+            <img class="pack-image" src="assets/icons/png/expansion-indicators/promo_us.webp" aria-hidden="false"
               aria-label="Toggle Birds of U.S.A." alt="Birds of U.S.A. promo pack" matTooltip="Birds of U.S.A. promo pack">
           </picture>
         </span>

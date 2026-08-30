@@ -10,11 +10,12 @@ export class IconizePipe implements PipeTransform {
 
   static nonSeparationSpecialCharactersRegex: string = IconizePipe.NON_SEPARATION_SPECIAL_CHARACTERS.join('|')
 
+  // The `<picture>` no longer selects between formats -- every browser Angular 22 compiles for
+  // reads WebP -- but it stays as the wrapper `.icon-picture` is styled on. Note the directory
+  // is still called `icons/png`; renaming it would invalidate every translator's icon table.
   private readonly BASE_HTML_STRING = `
   <picture class="icon-picture">
-    <source type="image/webp" srcset="assets/icons/png/$1.webp">
-    <source type="image/png" srcset="assets/icons/png/$1.png">
-    <img class="icon-image" src="assets/icons/png/$1.png" alt="$1" aria-hidden="false" aria-label="$1 icon">
+    <img class="icon-image" src="assets/icons/png/$1.webp" alt="$1" aria-hidden="false" aria-label="$1 icon">
   </picture>
   `
   private readonly NOBR_HTML_STRING = '<span class="nobr">' + this.BASE_HTML_STRING + '$2' + '</span>'
@@ -46,12 +47,12 @@ export class IconizePipe implements PipeTransform {
 
     if (dark)
       Object.entries(this.DARK_MAP).forEach(([icon, variant]) =>
-        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(icon + suffix, 'g'), variant + suffix))
+        result = result.replace(new RegExp(icon + '\\.webp', 'g'), variant + '.webp')
       )
 
     if (glow)
       Object.entries(this.GLOW_MAP).forEach(([icon, variant]) =>
-        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(icon + suffix, 'g'), variant + suffix))
+        result = result.replace(new RegExp(icon + '\\.webp', 'g'), variant + '.webp')
       )
 
     return result

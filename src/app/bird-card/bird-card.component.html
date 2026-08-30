@@ -7,9 +7,7 @@
           @for (habitat of habitats; track habitat; let i = $index) {
             <picture
               class="habitat-wrapper habitat-{{i + 1}}-{{habitats.length}}">
-              <source type="image/webp" srcset="assets/icons/png/{{habitat.toLowerCase()}}.webp">
-              <source type="image/png" srcset="assets/icons/png/{{habitat.toLowerCase()}}.png">
-              <img src="assets/icons/png/{{habitat.toLowerCase()}}.png" alt="{{habitat.toLowerCase()}} birds"
+              <img src="assets/icons/png/{{habitat.toLowerCase()}}.webp" alt="{{habitat.toLowerCase()}} birds"
                 class="habitat">
             </picture>
           }
@@ -40,9 +38,7 @@
           [ngStyle]="{'font-size.px': cardHeight * 0.064, 'line-height.px': cardHeight * 0.064}"></span>
           @if (resolveNestType(); as nest) {
             <picture class="nest">
-              <source type="image/webp" srcset="assets/icons/png/{{nest}}.webp">
-              <source type="image/png" srcset="assets/icons/png/{{nest}}.png">
-              <img src="assets/icons/png/{{nest}}.png" alt="{{card['Nest type']}}" aria-hidden="true">
+              <img src="assets/icons/png/{{nest}}.webp" alt="{{card['Nest type']}}" aria-hidden="true">
             </picture>
           }
           <div class="eggs">
@@ -51,9 +47,7 @@
             ngOnInit, so @for never reconciles it) but $index is the honest key for a count. -->
             @for (egg of eggs; track $index) {
               <picture class="egg" [ngStyle]="{'max-height.px': cardHeight / 20.64}">
-                <source type="image/webp" srcset="assets/icons/png/smallegg.webp">
-                <source type="image/png" srcset="assets/icons/png/smallegg.png">
-                <img src="assets/icons/png/smallegg.png" alt="smallegg" aria-hidden="true">
+                <img src="assets/icons/png/smallegg.webp" alt="smallegg" aria-hidden="true">
               </picture>
             }
           </div>
@@ -68,9 +62,7 @@
           [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034 }"></span>
           @if (wingspan) {
             <picture>
-              <source type="image/webp" srcset="assets/icons/png/wingspan.webp">
-              <source type="image/png" srcset="assets/icons/png/wingspan.png">
-              <img class="wingspan-icon" src="assets/icons/png/wingspan.png" alt="{{wingspan}}" aria-hidden="true">
+              <img class="wingspan-icon" src="assets/icons/png/wingspan.webp" alt="{{wingspan}}" aria-hidden="true">
             </picture>
           }
         </div>
@@ -94,81 +86,61 @@
       <div class="footer-left">
         @if (card['Swift Start']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.png">
-            <img class="swift-start-indicator" src="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.png"
+            <img class="swift-start-indicator" src="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.webp"
               alt="Swift Start" aria-label="swift start indicator" aria-hidden="true">
           </picture>
         }
       </div>
       <div class="continent">
         <picture>
-          <source type="image/webp" srcset="assets/icons/png/map.webp">
-          <source type="image/png" srcset="assets/icons/png/map.png">
-          <img class="continent-base" src="assets/icons/png/map.png"
+          <img class="continent-base" src="assets/icons/png/map.webp"
             alt="Continent indicator" aria-label="continent indicator">
         </picture>
         @if (card['North America']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_na.webp">
-            <source type="image/png" srcset="assets/icons/png/map_na.png">
-            <img class="continent-top" src="assets/icons/png/map_na.png" alt="North America Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_na.webp" alt="North America Continent indicator"
               aria-label="North America continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Central America']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_amn.webp">
-            <source type="image/png" srcset="assets/icons/png/map_amn.png">
-            <img class="continent-top" src="assets/icons/png/map_amn.png" alt="Central America Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_amn.webp" alt="Central America Continent indicator"
               aria-label="Central America continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['South America']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_ams.webp">
-            <source type="image/png" srcset="assets/icons/png/map_ams.png">
-            <img class="continent-top" src="assets/icons/png/map_ams.png" alt="South America Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_ams.webp" alt="South America Continent indicator"
               aria-label="South America continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Europe']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_e.webp">
-            <source type="image/png" srcset="assets/icons/png/map_e.png">
-            <img class="continent-top" src="assets/icons/png/map_e.png" alt="Europe Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_e.webp" alt="Europe Continent indicator"
               aria-label="Europe continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Asia']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_a.webp">
-            <source type="image/png" srcset="assets/icons/png/map_a.png">
-            <img class="continent-top" src="assets/icons/png/map_a.png" alt="Asia Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_a.webp" alt="Asia Continent indicator"
               aria-label="Asia continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Africa']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_af.webp">
-            <source type="image/png" srcset="assets/icons/png/map_af.png">
-            <img class="continent-top" src="assets/icons/png/map_af.png" alt="Africa Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_af.webp" alt="Africa Continent indicator"
               aria-label="Africa continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Oceania']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_o.webp">
-            <source type="image/png" srcset="assets/icons/png/map_o.png">
-            <img class="continent-top" src="assets/icons/png/map_o.png" alt="Oceania Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_o.webp" alt="Oceania Continent indicator"
               aria-label="Oceania continent indicator" aria-hidden="true">
           </picture>
         }
         @if (card['Antarctica']) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/map_an.webp">
-            <source type="image/png" srcset="assets/icons/png/map_an.png">
-            <img class="continent-top" src="assets/icons/png/map_an.png" alt="Antarctica Continent indicator"
+            <img class="continent-top" src="assets/icons/png/map_an.webp" alt="Antarctica Continent indicator"
               aria-label="Antarctica continent indicator" aria-hidden="true">
           </picture>
         }
@@ -180,25 +152,19 @@
       <div class="footer-right">
         @if (isExpansion()) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{card.Set}}.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{card.Set}}.png">
-            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{card.Set}}.png"
+            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{card.Set}}.webp"
               [alt]="card.Set" aria-label="expansion indicator" aria-hidden="true">
           </picture>
         }
         @if (isPromo()) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promopack.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/promopack.png">
-            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/promopack.png"
+            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/promopack.webp"
               alt="Fan-Designed Bird Packs" aria-label="expansion indicator" aria-hidden="true">
           </picture>
         }
         @if (isPromo()) {
           <picture>
-            <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{getPackIcon()}}.webp">
-            <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{getPackIcon()}}.png">
-            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{getPackIcon()}}.png"
+            <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{getPackIcon()}}.webp"
               [alt]="getPackTitle()" aria-label="pack indicator" aria-hidden="true">
           </picture>
         }

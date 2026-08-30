@@ -34,7 +34,26 @@
             ],
             "assets": [
               "src/favicon.ico",
-              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets",
+                "ignore": [
+                  "**/*.png",
+                  "**/*.jpg",
+                  "**/*.jpeg"
+                ]
+              },
+              {
+                "glob": "icons/pwa/[0-9]*.png",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "ogimage.jpg",
+                "input": "src/assets",
+                "output": "assets"
+              },
               "src/manifest.webmanifest"
             ],
             "styles": [
