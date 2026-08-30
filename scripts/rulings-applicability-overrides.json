@@ -1,0 +1,38 @@
+{
+  "_README": [
+    "Hand-written corrections layered on top of rulings-applicability.json by",
+    "general_rulings_map.load_applicability(). Keys present here REPLACE the",
+    "audit's list for that ruling; keys absent fall through to the audit.",
+    "Only 'applies', 'excluded' and 'uncertain' are read -- anything else (like",
+    "this note) is ignored, so explain yourself freely.",
+    "This file is authoritative: re-running audit_rulings.py never touches it."
+  ],
+
+  "20190601": {
+    "_why": [
+      "Audit reverted to status quo on purpose -- the question is editorial, not factual.",
+      "",
+      "Rule: 'You may only reroll dice when gaining food from the birdfeeder and not",
+      "when gaining food from the supply.' The predicate selects birds that gain from",
+      "the SUPPLY, i.e. exactly where the rule says reroll is NOT available.",
+      "",
+      "The audit split 27 exclude / 77 keep across cards that are indistinguishable:",
+      "Common Tern ('gain 1 [fish] from the general supply') was excluded as 'no dice",
+      "are rolled', while American Goldfinch ('Gain 3 [seed] from the supply') was kept",
+      "as 'the ruling correctly warns no reroll is available'. Same facts, opposite",
+      "conclusions -- because the real question is whether a ruling saying \"you cannot",
+      "do X here\" earns a place on cards where X cannot arise. That is Matej's call,",
+      "not the model's, and applying it to 27 of 104 near-identical cards would be",
+      "worse than either consistent answer.",
+      "",
+      "So: excluded emptied, all 104 supply-gaining birds keep the ruling. The 5",
+      "high-confidence 'applies' (Northern Gannet et al.) genuinely roll dice, so the",
+      "audit found a real discriminator there and it is left intact.",
+      "",
+      "TO RESOLVE: if the warning is wanted, delete this override's 'excluded' and",
+      "nothing changes. If it is noise, invert the predicate to select birdfeeder",
+      "gains instead and re-audit. See rulings-domain-knowledge.md open questions."
+    ],
+    "excluded": {}
+  }
+}

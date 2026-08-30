@@ -79,11 +79,13 @@ Being on the allowlist is necessary, not sufficient — see §4.
 - **13 are literal `lambda row: False`** — parked, never implemented. One is annotated
   `# TODO think about implementation for this one`. The rulings exist in the TSV and
   reach nobody.
-- **4 are broken by a casing typo.** They test `row['Color'] == 'Pink'`, but Color is
-  stored lowercase (`brown` 409, `white` 138, `teal` 63, `pink` 51, `yellow` 40) and the
-  notebook applies no normalisation to `master['Color']`. Result: `20190205`, `20190313`,
-  `20200208`, `20200330` attach to **0 cards instead of 51**. These are load-bearing
-  timing rulings about pink / "once between turns" powers.
+- **4 were broken by a casing typo — fixed 2026-08-30.** They tested
+  `row['Color'] == 'Pink'`, but Color is stored lowercase (`brown` 409, `white` 138,
+  `teal` 63, `pink` 51, `yellow` 40) and the notebook applies no normalisation to
+  `master['Color']`. Result: `20190205`, `20190313`, `20200208`, `20200330` attached to
+  **0 cards instead of 51** — four load-bearing pink / "once between turns" timing rulings
+  reaching nobody since 2019. They now go through `_is_pink()`, which lowercases. This was
+  the only *under*-application found; everything else in this section over-applies.
 
 Of the 13 live predicates, fan-out is heavily skewed and was **never validated against
 cards released after early 2021** (Asia, Americas, and 150 promo birds):
@@ -100,23 +102,51 @@ cards released after early 2021** (Asia, Americas, and 150 promo birds):
 **524 of 707 birds carry at least one `additionalRulings` entry, and 249 of those birds
 did not exist when the predicates were written.** Roughly half the fan-out is unreviewed.
 
-### Worked example of a false positive
+That table is the *pre-audit* state, kept because it is what the predicates still generate
+— the audit narrows the result afterwards. See §7 for what it narrowed to.
+
+### Worked example: `20200404`, the 474-card fan-out
 
 `20200404` — *"Whenever you are entitled to gain resources, you may choose to take some
 but not all of the quantity specified."* Predicate:
 `re.search(r"(\s|^)draw|(\s|^)lay|(\s|^)gain", row['Power text'])`.
 
-It therefore tags **Amazonian Parrotlet** (Americas), whose power is *"Draw 2 [card] from
-the deck. You may tuck either or both of them behind this bird."* The match is the bare
-word "Draw". But the source comment (37710, Joe Aubrey) was specifically about **food
-from the birdfeeder** — *"you can take fewer than 'all' invertebrates from the feeder
-with the Northern Flicker"*. Cards are not the resource the ruling is about, and the card
-text already says "either or both", so the ruling is redundant at best, misleading at
-worst.
+**Read the source thread (comments 37699 → 37710) before judging this one.** It is the
+single most load-bearing document in the corpus, and it is broader than the ruling text
+suggests. Travis W. asked one question with *three* worked examples, deliberately spanning
+all three resource kinds:
 
-**The generalisation is where the error entered.** Matej's rule text is a fair
-generalisation of Joe's answer, but the regex chosen to fan it out (`draw|lay|gain`) is
-far broader than the rule itself.
+- **eggs** — Red-Legged Partridge, *"Lay 1 [egg] on each bird in this column"*: may I lay
+  on some birds but not others?
+- **food** — Northern Flicker, *"Gain all [invertebrate] in the birdfeeder"*: may I leave
+  some?
+- **cards** — Audouin's Gull, *"Draw 2 [card]"* — noting this case is *"largely academic,
+  as there is rarely (if ever?) a reason to draw fewer than the maximum"*.
+
+Joe Aubrey answered all three at once: *"As a general premise in Wingspan, you can take
+less of an action beneficial to yourself… And the others apply in the same way. This
+premise applies as long as there is not a conditional statement in the bird power."*
+
+So this ruling is **not** food-scoped. An earlier version of this document claimed it was,
+and that claim was wrong — it was fed to the audit model as reference and produced a
+confidently wrong exclusion. Do not reintroduce it. Eggs, food and cards are all in scope
+by name.
+
+**Where the error actually is.** The rule is broad *by design*, so the honest problem with
+474 matches is not that the ruling is false for those cards — it is that it is
+**uninformative** for most of them. Two things genuinely narrow it:
+
+1. **The conditional carve-out** Joe states explicitly and the rule text drops. For
+   *"Do X. Then if you do, do Y"* powers the ruling's answer changes, so those cards need
+   it more than the average card, not less.
+2. **Nothing to partially take.** A power granting exactly one indivisible unit
+   (*"gain 1 [seed]"*, *"lay 1 [egg] on this bird"*) has no "some but not all" to choose.
+   Whether you may decline it entirely is the separate "may creates a choice" principle
+   (§5), not this ruling.
+
+Amazonian Parrotlet (*"Draw 2 [card] from the deck. You may tuck either or both of them
+behind this bird."*) is still a fair exclusion — but only on redundancy: the card already
+prints the choice. Not because cards are out of scope.
 
 ### A case that needs a human ruling, not a guess
 
@@ -135,8 +165,11 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
 2. **Read the source comment, not just the ruling text.** The ruling is a generalisation;
    the comment states the actual question answered. When they disagree in scope, the
    comment bounds the ruling.
-3. **Distinguish resource kinds.** food ≠ eggs ≠ cards ≠ nectar. A ruling about "gaining
-   food" does not automatically govern drawing cards or laying eggs.
+3. **Distinguish resource kinds — but check the source first.** food ≠ eggs ≠ cards ≠
+   nectar, and a ruling about gaining food does not *automatically* govern drawing cards.
+   But do not infer scope from the one example you happen to see quoted: `20200404` reads
+   food-only in the ruling text and is explicitly all-three in its source thread. Narrow a
+   ruling by resource kind only when the source actually supports narrowing it.
 4. **Card colour encodes timing** and several rulings are colour-scoped:
    `brown` = WHEN ACTIVATED, `white` = WHEN PLAYED, `pink` = ONCE BETWEEN TURNS,
    `teal` = ROUND END (Oceania), `yellow` = predator/other. Compare colour case-insensitively.
@@ -146,11 +179,18 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
    extrapolating.
 6. **Redundancy is a reason to exclude.** If the card text already states the ruling's
    content explicitly, attaching it adds noise.
-7. **General rulings never reach hummingbirds or bonus cards.** Cell 5's loop iterates
+7. **Judge the game, not the pipeline.** Facts about how this repo generates data are
+   background for *humans*; they are never a reason a ruling does or does not apply to a
+   card. (Observed failure: a card was excluded "because hummingbird cards never receive
+   general rulings via the pipeline" — a true statement about §1 that says nothing about
+   the rules of Wingspan. Note also that birds named "…Hummingbird" in `master.json` are
+   ordinary bird cards; the 40 *hummingbird cards* are a separate deck in
+   `hummingbirds.json`.) Decide from the card text, the ruling, and the source discussion.
+8. **General rulings never reach hummingbird cards or bonus cards.** Cell 5's loop iterates
    `master` only, though `general_dict` is initialised with hummingbird and bonus names
-   too. Confirmed: 0 of 40 hummingbirds carry any ruling. If a general rule *should*
-   cover hummingbirds, the pipeline currently cannot express it.
-8. **`Common name` is a safe join key** — all 707 master names are unique, with no
+   too. Confirmed: 0 of 40 hummingbird cards carry any ruling. If a general rule *should*
+   cover them, the pipeline currently cannot express it.
+9. **`Common name` is a safe join key** — all 707 master names are unique, with no
    collisions against the 40 hummingbirds. Card `id` is *not* safe across regenerations:
    ids come from sorted row position, so inserting a bird renumbers later ones.
 
@@ -158,12 +198,96 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
 
 - *"'May' creates a choice."* — Jamey Stegmaier, comment 168922 (2026-08-18).
 - *"As a general premise in Wingspan, you can take less of an action beneficial to
-  yourself."* — Joe Aubrey, comment 37710 (2020-04-04). Note this is scoped to actions
-  benefiting yourself, which is narrower than "any quantity specified".
+  yourself."* — Joe Aubrey, comment 37710 (2020-04-04). Scoped to actions benefiting
+  *yourself*: it does not license taking less of an effect that helps opponents (e.g.
+  "each player draws 1 card").
+- *"This premise applies as long as there is not a conditional statement in the bird
+  power… You can't do action2 without first having done action1 (but you can do action1
+  without doing action2 if you wish)."* — same comment. The one crisp structural test in
+  the corpus: partial-taking is free, but a *"Then if you do…"* chain still requires its
+  antecedent.
 
 ## 6. Open questions for Matej
 
 1. Confirm the author allowlist (§2) — anyone to add or remove?
-2. `20190601`: is tagging supply-gaining birds intentional?
+2. **`20190601`: should a ruling that says "you may *not* reroll here" be attached to the
+   104 birds where rerolling cannot arise at all?** The audit could not answer this and
+   should not have tried — it is an editorial preference, not a fact, and the model split
+   27/77 across indistinguishable cards when asked. Currently overridden back to status quo
+   (all attached) in `rulings-applicability-overrides.json`, which explains how to resolve
+   it either way. This is the one question that is blocking nothing but is worth a decision.
 3. The 13 `False` stubs: implement, or are some deliberately unfannable?
-4. Should general rulings be able to target hummingbirds and bonus cards (§4.7)?
+4. Should general rulings be able to target hummingbird cards and bonus cards (§4.8)?
+5. 44 birds now show **no** rulings at all where they previously showed one (always the
+   over-applied `20200404`). Is "no rulings" the right presentation, or should the card
+   detail view say something?
+
+---
+
+## 7. The 2026-08-30 applicability audit
+
+`audit_rulings.py` judged all 973 candidate (ruling, card) pairs with
+`us.anthropic.claude-opus-5` on Bedrock — 51 calls, 23 minutes, $3.58 — writing
+`rulings-applicability.json`. Verdicts are `applies` / `does_not_apply` × confidence;
+**only a high-confidence `does_not_apply` removes anything**, so hedging can never silently
+delete content (`general_rulings_map.applies`).
+
+Net effect on `master.json`: 798 attachments, from 794. Only the `additionalRulings` field
+changed — card ids and all five other generated JSON files stayed byte-identical, so
+translations, artwork and `/card/:id` links are unaffected.
+
+| | |
+|---|---|
+| removed | 159 × `20200404`, 38 × `20201117`, 3 × `02g` |
+| added | 4 pink timing rulings × 51 birds (the casing fix, §3) |
+| birds with more rulings | 51 |
+| birds with fewer | 147 |
+| birds with none | 183 → 227 |
+
+The two clean wins were both *resource-kind* errors — the regex could not tell what was
+being drawn or discarded:
+
+- `20201117` (*"discarding food counts as spending"*) matched cards discarding **eggs, bird
+  cards and bonus cards**. All 38 removals are "discards a non-food thing".
+- `20200404` matched the bare words draw/lay/gain. Removals are cards granting a single
+  indivisible unit ("gain 1 [seed]", "lay 1 [egg] on this bird" — nothing to take "some but
+  not all" of) or cards already printing the choice.
+
+### Calibration is a real risk, and it was mis-set on the first run
+
+The first attempt returned 19 exclusions but only **1** at high confidence: 23 of 25 cards
+landed in the review queue, so auto-applying would have changed almost nothing. Two causes,
+both mine:
+
+1. **The prompt made "medium" the safe default** ("prefer low or medium over guessing" plus
+   "only use high when you would defend it to the designer"). Confidence guidance now
+   describes what each level *means* and says outright that blanket hedging has a cost.
+2. **This document contained a factual error** — it claimed `20200404` was food-scoped —
+   and it is fed to the model as reference. The model could read the source thread, found
+   it contradicted its own notes, and hedged. It also produced one confidently wrong
+   exclusion reasoned from the false premise.
+
+After fixing both, the same 25 cards gave 13 decided / 12 queued instead of 2 / 23, with
+every exclusion resting on one checkable criterion. **The lesson: errors in this file are
+not documentation bugs, they are prompt bugs, and they show up as bad verdicts.** Re-derive
+before you trust.
+
+Adding the conditional carve-out (§5) also flipped three cards *to* `applies` — "Do X, then
+if you do, Y" powers need this ruling more than average, not less. That content would have
+been lost.
+
+### Re-running
+
+    export AWS_PROFILE=...                     # needs bedrock:InvokeModel
+    python3 audit_rulings.py --dry-run         # plan and cost only
+    python3 audit_rulings.py                   # judge anything not yet decided
+    python3 audit_rulings.py --ruling 20200404 --recheck   # re-judge one ruling
+
+It is incremental: already-decided pairs are skipped, so a new expansion costs only its own
+cards. It must never run in the site build — the committed JSON is what the build consumes,
+which keeps CI hermetic and free. Hand corrections go in
+`rulings-applicability-overrides.json`, which the audit never overwrites.
+
+`src/app/store/rulings.spec.ts` pins the resulting per-ruling attachment counts, so a
+regenerated `master.json` or an edited predicate fails CI rather than quietly changing what
+players read.
