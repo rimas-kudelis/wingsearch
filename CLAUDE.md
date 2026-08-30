@@ -125,7 +125,7 @@ A ruling row in `scripts/rulings/rulings.tsv` with no card name is *general* and
 
 `rulings` — the name the notebook imports — is both gates combined, so the notebook needs no changes. **Only a high-confidence `does_not_apply` removes a ruling**; anything the model was unsure of stays attached and is queued under `uncertain`, so hedging cannot silently delete content. Delete the JSON and behaviour reverts to regex-only.
 
-Never put the audit — or any other model-calling stage — in the build path. The committed JSON is what the build reads, which keeps CI hermetic, deterministic and free. `src/app/store/rulings.spec.ts` pins per-ruling attachment counts, so regenerating `master.json` or editing a predicate fails CI instead of quietly changing what players read; update the counts in the same commit and say why.
+Never put the audit — or any other model-calling stage — in the build path. The committed JSON is what the build reads, which keeps CI hermetic, deterministic and free. `src/app/store/rulings.spec.ts` pins per-ruling attachment counts, keyed by the ruling `id` that every entry in `rulings`/`additionalRulings` carries, so regenerating `master.json` or editing a predicate fails CI instead of quietly changing what players read; update the counts in the same commit and say why.
 
 [scripts/rulings/domain-knowledge.md](scripts/rulings/domain-knowledge.md) is the substantive background — how rulings reach a card, which sources are trustworthy, known failure modes, and the rules for judging applicability. It is fed to the model as prompt context, so **an error in it is a prompt bug that produces wrong rulings**, not just stale docs. Read it before touching any of this.
 

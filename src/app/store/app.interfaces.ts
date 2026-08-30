@@ -155,6 +155,9 @@ export enum PowerCategory {
 }
 
 export interface Ruling {
+    // Row id in scripts/rulings/rulings.tsv, so a line on the site can be traced back to the
+    // comment it came from. Not rendered; see src/app/store/rulings.spec.ts.
+    id: string
     text: string
     source: string
 }

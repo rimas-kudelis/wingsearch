@@ -50,9 +50,17 @@ implemented on 2026-08-30; see §3.
 
 `json-transformer.ipynb` cell 5 runs each predicate over every row of `master`, then
 **sorts each card's `additionalRulings` by how many cards the rule matched, ascending**
-— most specific rule first — and **deletes the ruling `id` from the output**. So shipped
-`master.json` entries are `{text, source}` only, with no id. That lost id is why
-provenance can't currently be traced from the site back to a ruling.
+— most specific rule first.
+
+It used to **delete the ruling `id`** after sorting by it, so shipped `master.json` entries
+were `{text, source}` and nothing tied a line on the site back to a row of the TSV. **Fixed
+2026-08-30:** every entry in both `rulings` and `additionalRulings` is now
+`{id, text, source}`. It costs 62 KB raw / 8 KB gzipped on `master.json` and nothing renders
+it yet; what it buys is traceability when a reader reports a ruling as wrong, and a fan-out
+snapshot (`src/app/store/rulings.spec.ts`) keyed by id rather than by text prefix — the text
+prefixes conflated rewording a ruling with changing which birds carry it, and only the second
+is a change to what a player is told. The spec pins a distinct-text count per id alongside the
+card count, so an omnibus row splitting under one id still fails loudly.
 
 ### Ruling id scheme
 
@@ -447,18 +455,17 @@ its TSV row order. `curate.py` exploits that — it rewrites a card's rows in th
 wants, and that is what players see. Merging restatements and rewriting for scanning work
 the same way. This is live as of 2026-08-30.
 
-For **`additionalRulings`** the blocker is real. Cell 5 **deletes the ruling `id`** before
-writing `master.json` (§1), so shipped entries are `{text, source}` with no stable handle,
-and their order comes from the fan-out-count proxy. A per-bird ordering cannot be expressed
-— there is nothing to key it to, and text prefixes are fragile. **Preserve the id through to
-`master.json` before attempting that half.** The same change restores traceability from the
-site back to a TSV row, which nothing currently has.
+For **`additionalRulings`**, the blocker was that cell 5 **deleted the ruling `id`** before
+writing `master.json`, so shipped entries were `{text, source}` with no stable handle and
+their order came from the fan-out-count proxy. **Removed 2026-08-30** (§1): entries are
+`{id, text, source}`, so a per-bird ordering now has something to key to. What is still
+missing is the ordering itself — the fan-out-count proxy is unchanged, and a per-card override
+would need somewhere to live (a column in the TSV cannot express it, since one general row
+serves hundreds of cards) plus a reason to prefer it, since "most specific first" is a decent
+approximation. Do that only if a card turns up whose general rulings read badly in that order.
 
-Do not repeat the earlier mistake of reading this blocker as blocking *all* reordering. It
-does not.
-
-Note `src/app/store/rulings.spec.ts` pins per-ruling attachment counts by text prefix
-precisely because the id is missing; once ids survive, that spec should key on them instead.
+Do not repeat the earlier mistake of reading this as having blocked *all* reordering. It never
+did.
 
 ---
 

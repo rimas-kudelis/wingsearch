@@ -17,99 +17,126 @@ import BirdCards from '../../assets/data/master.json'
  */
 describe('general rulings fan-out', () => {
 
-    // ruling text prefix -> number of birds carrying it.
-    // Recorded 2026-08-30, after the applicability audit, after implementing the predicates
-    // that had been left as `lambda row: False`, after resolving the pending proposals, and
-    // after promoting 14 rulings that had been published on one card but stated a rule true of
-    // every card with that power (see `graph.py --transferable`), and after the terse-source
-    // review, which promoted one more (`20221121b`, may a player decline a benefit).
-    const EXPECTED: [string, number][] = [
-        ['Whenever you are entitled to gain resources, ', 315],
-        ['There is no limit to the number of [card] tha', 152],
-        ['[egg] laid by a bird power must always be pla', 139],
-        ['A <i>"When Played"</i> power resolves only af', 138],
-        ['Activating a bird power is optional, includin', 114],
-        ['You may only reroll dice when gaining food fr', 109],
-        ['Any player may decline a benefit, whether it ', 78],
-        ['When a bird power has each player make a sele', 69],
-        ['Each player chooses the order in which they a', 63],
-        ['Regular reroll rules apply whenever you have ', 63],
-        ['Teal ROUND END powers trigger at the end of e', 63],
-        ['Unless a card says otherwise, the birdfeeder ', 63],
-        ['A power that says <i>"Draw [card]"</i> withou', 57],
-        ['If a pink power is triggered by a player usin', 51],
-        ['You may activate each <i>"once between turns"', 51],
-        ['You may not use a pink power during your turn', 51],
-        ['You may use a pink power during another playe', 51],
-        ['Powers that refer to types of birds (e.g., <s', 48],
-        ['<i>"Discarding"</i> food while resolving a bi', 45],
-        ['Unless specifically stated, your actions are ', 30],
-        ['The food a power tells you to discard is a co', 21],
-        ['Paying 2 food of one type in place of 1 food ', 20],
-        ['[nectar] is not wild for a bird power that na', 20],
-        ['You may substitute 2 [wild] for any 1 food in', 18],
-        ['Powers that say <i>"Roll all dice not in bird', 15],
-        ['When the birdfeeder becomes empty, all 5 [die', 15],
-        ['<i>"Giving"</i> a resource to another player ', 14],
-        ['A <i>"you may cache"</i> power is literal and', 13],
-        ['A power that says <i>"Look at a [card] from t', 13],
-        ['A [star] wingspan is wild for each bonus card', 12],
-        ['A bird with a [star] wingspan has no printed ', 12],
-        ['When a bird with a <i>"copy"</i> power copies', 12],
-        ['If you perform more than one action <i>"at th', 10],
-        ['Powers that trigger <i>"at the end of your tu', 10],
-        ['[card] you draw enter your hand immediately, ', 9],
-        ['If you use a bird\'s power to play in the same', 8],
-        ['You may perform an action even if it preclude', 8],
-        ['Cards discarded to the discard pile are place', 5],
-        ['Players may look through the discard pile at ', 5],
-        ['A bird played horizontally qualifies for one ', 4],
-        ['Cards whose powers include the phrase <i>"it ', 4],
-        ['Only powers of birds played on a player mat c', 4],
-        ['When a power tells you to gain more than one ', 4],
-        ['A card in your hand with the power, <i>"This ', 3],
-        ['If information printed on a card conflicts wi', 3],
-        ['Since being a predator power is a property of', 3],
-        ['The restriction that [egg] must be laid on di', 3],
-        ['This bird counts double for <strong>Beak poin', 3],
-        ['When a bird (e.g., the <strong applink="/card', 3],
-        ['When a bird with a <i>"repeat"</i> power (e.g', 3],
-        ['When a power refers to the <i>"player(s) with', 3],
-        ['<i>"Trading"</i> (e.g., when using the <stron', 2],
+    // ruling id -> [birds carrying it, distinct texts published under that id].
+    //
+    // Keyed by id since 2026-08-30, when the pipeline stopped stripping it. Text prefixes
+    // used to be the only handle, which conflated two different events: rewording a ruling
+    // failed exactly as loudly as changing which birds carry it, even though only one of
+    // those is a change to what a player is told about their card. The text count is what
+    // still catches a reword -- specifically the kind that matters, a row splitting into two
+    // texts under one id or two merging into one.
+    //
+    // Three ids legitimately carry more than one text: one comment answering several
+    // unrelated questions becomes several rows sharing its date-derived id (see
+    // scripts/rulings/domain-knowledge.md, "the omnibus split").
+    const EXPECTED: [string, number, number][] = [
+        ['20200404', 315, 1],
+        ['20200413', 152, 1],
+        ['20210830d', 139, 1],
+        ['20210830b', 138, 1],
+        ['20220326', 114, 1],
+        ['20190601', 109, 1],
+        ['20221121b', 78, 1],
+        ['20260605', 69, 1],
+        ['02g', 63, 1],
+        ['20191004', 63, 1],
+        ['20210920', 63, 1],
+        ['20240713', 63, 1],
+        ['20220429b', 57, 1],
+        ['20190205', 51, 1],
+        ['20190313', 51, 1],
+        ['20200208', 51, 1],
+        ['20200330', 51, 1],
+        ['20230827', 48, 1],
+        ['20201117', 45, 1],
+        ['20200109a', 30, 1],
+        ['20200423b', 21, 1],
+        ['20190617', 20, 1],
+        ['20220516', 20, 1],
+        ['20200716b', 18, 1],
+        ['20200504', 15, 1],
+        ['20210830', 15, 1],
+        ['20210101', 14, 1],
+        ['20220429', 13, 1],
+        ['20260503', 13, 1],
+        ['20210199b', 12, 1],
+        ['20221013', 12, 1],
+        ['20231228', 12, 1],
+        ['20191010', 10, 1],
+        ['20201003', 10, 2],
+        ['20260520b', 10, 1],
+        ['20210199a', 9, 3],
+        ['20221116', 9, 1],
+        ['20190908', 8, 1],
+        ['20200511', 8, 1],
+        ['03a', 4, 1],
+        ['2020022b', 4, 1],
+        ['20210206', 4, 1],
+        ['20260816', 4, 1],
+        ['20191202', 3, 1],
+        ['20200716a', 3, 1],
+        ['20210318', 3, 1],
+        ['20210830c', 3, 1],
+        ['20260814', 3, 1],
+        ['20200712', 2, 1],
     ]
 
     const counts = new Map<string, number>()
+    const texts = new Map<string, Set<string>>()
     let total = 0
     for (const card of BirdCards as any[]) {
         for (const ruling of card.additionalRulings || []) {
-            counts.set(ruling.text, (counts.get(ruling.text) || 0) + 1)
+            counts.set(ruling.id, (counts.get(ruling.id) || 0) + 1)
+            if (!texts.has(ruling.id)) { texts.set(ruling.id, new Set()) }
+            texts.get(ruling.id).add(ruling.text)
             total++
         }
     }
 
-    EXPECTED.forEach(([prefix, expected]) => {
-        it(`attaches "${prefix.slice(0, 45)}..." to ${expected} birds`, () => {
-            const matches = Array.from(counts.entries()).filter(([text]) => text.startsWith(prefix))
-            // One entry, so a reworded ruling fails loudly instead of counting zero.
-            expect(matches.map(([text]) => text.slice(0, 60)).length).toBe(1)
-            expect(matches[0][1]).toBe(expected)
+    EXPECTED.forEach(([id, expected, expectedTexts]) => {
+        it(`attaches ${id} to ${expected} birds as ${expectedTexts} ruling(s)`, () => {
+            expect(counts.get(id)).toBe(expected)
+            expect(texts.get(id) && texts.get(id).size).toBe(expectedTexts)
         })
     })
 
-    it('attaches only these 52 general rulings, 2032 times in total', () => {
+    it('attaches only these 49 general rulings, 2032 times in total', () => {
         expect(counts.size).toBe(EXPECTED.length)
         expect(total).toBe(EXPECTED.reduce((sum, [, n]) => sum + n, 0))
     })
 
-    // The pipeline strips the ruling id (see scripts/rulings/domain-knowledge.md), so text
-    // is the only handle the app has on a ruling. Guard the shape it relies on.
-    it('gives every attached ruling a non-empty text and source', () => {
+    it('gives every attached ruling an id, a text and a source', () => {
         const bad: string[] = []
         for (const card of BirdCards as any[]) {
-            for (const ruling of card.additionalRulings || []) {
-                if (!ruling.text || !ruling.source) { bad.push(card['Common name']) }
+            for (const ruling of [...(card.rulings || []), ...(card.additionalRulings || [])]) {
+                if (!ruling.id || !ruling.text || !ruling.source) { bad.push(card['Common name']) }
             }
         }
         expect(bad).toEqual([])
+    })
+
+    // The id is what ties a line on the site back to a row of scripts/rulings/rulings.tsv,
+    // which is the only way a reader's report ("this ruling looks wrong") can be traced to
+    // the source comment it came from. Ids are the source comment's date, YYYYMMDD, with a
+    // letter suffix where one comment produced several rulings.
+    //
+    // The exceptions are enumerated rather than matched by a looser pattern. `01`--`03c`
+    // predate the dating scheme and come from the rulebook, the official FAQ and the card
+    // update pack, which have no comment date. `2020022b` is a 7-digit typo inherited from
+    // the original corpus; renaming it would lapse the curation signatures that quote it, so
+    // it stays until those are next regenerated.
+    const LEGACY_IDS = ['01', '02a', '02b', '02c', '02d', '02e', '02f', '02g',
+        '03a', '03b', '03c', '2020022b']
+
+    it('gives every ruling an id of the documented shape', () => {
+        const bad = new Set<string>()
+        for (const card of BirdCards as any[]) {
+            for (const ruling of [...(card.rulings || []), ...(card.additionalRulings || [])]) {
+                if (!/^\d{8}[a-z]?$/.test(ruling.id) && !LEGACY_IDS.includes(ruling.id)) {
+                    bad.add(ruling.id)
+                }
+            }
+        }
+        expect(Array.from(bad)).toEqual([])
     })
 })
