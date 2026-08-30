@@ -20,12 +20,19 @@
     "curate.py's merges are recovered automatically from curation.json's `superseded` lists",
     "(see verify.py's merged_sources); this file is for everything else, added by hand.",
     "",
-    "58 rows currently under-cite their sources after merges. They are not all listed here:",
-    "entries get added as rows are reviewed, so an absent row means unreviewed, not clean."
+    "propose.py reads this file too, in applied_comment_ids(). A comment folded into a row that",
+    "already exists never reaches the TSV's source column, so without this file every such",
+    "comment is re-proposed on every future refresh, forever. Recording it here is what makes a",
+    "fold stick -- the same job rejections.json does for a removal.",
+    "",
+    "20 rows are listed. The backlog is larger and is worked through as rows are reviewed, so an",
+    "absent row means unreviewed, not clean."
   ],
   "citations": {
     "20201206@Red-Winged Parrot": {
-      "comments": ["109108"],
+      "comments": [
+        "109108"
+      ],
       "why": [
         "Comment 42903 is the only official answer that addresses this scenario -- David",
         "described the Red-Winged Parrot / Spangled Drongo interaction and Jamey said 'yes, it",
@@ -35,6 +42,227 @@
         "triggers on a nectar gain by any means, not only via the 'gain food' action. The",
         "ruling carries the resolution instead of dropping the caveat, so it is licensed by",
         "both comments."
+      ]
+    },
+    "20190203@Brewer's Blackbird": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190203@Bushtit": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190203@Common Grackle": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190203@Dickcissel": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190203@Red-Winged Blackbird": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190203@Yellow-Headed Blackbird": {
+      "comments": [
+        "127125"
+      ],
+      "why": [
+        "Comment 31158388 (BGG) licenses the tuck; the clause naming what you cannot do -- lay",
+        "the egg -- is comment 127125 (Jamey, 2025-06-21), answering exactly this question about",
+        "Yellow-Headed Blackbird. The generic wording applies to all six birds with the power."
+      ]
+    },
+    "20190309@House Wren": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Downy Woodpecker": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Eastern Bluebird": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Great Blue Heron": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Great Egret": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Mountain Bluebird": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Red-Eyed Vireo": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Ruby-Crowned Kinglet": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Savannah Sparrow": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20190309@Tufted Titmouse": {
+      "comments": [
+        "81390"
+      ],
+      "why": [
+        "Comment 31474 licenses the chaining. The cost reminder is comment 81390 (Jamey,",
+        "2024-08-17): 'You can! Just make sure you pay each card's printed cost and the egg cost",
+        "at the top of the columns.' It is the half players most often get wrong, so it belongs",
+        "on the ruling rather than in a second row."
+      ]
+    },
+    "20191126a@Snow Bunting": {
+      "comments": [
+        "52267"
+      ],
+      "why": [
+        "Comment 35706 licenses that Snow Bunting counts. Which word qualifies it is comment 52267",
+        "(Jamey, 2022-05-01), answering 'Does snow bunting count? It's said snowy in the bonus",
+        "card.' with 'Yes, it counts.' -- the keyword is in the question, so the answer licenses it",
+        "only together with the question it replies to."
+      ]
+    },
+    "20190128@House Wren": {
+      "comments": [
+        "55187"
+      ],
+      "why": [
+        "Comment 30838 licenses the conclusion. The reasoning -- and the fact that it holds even",
+        "though House Wren itself is a two-habitat bird -- is comment 55187 (Jamey, 2022-10-01),",
+        "answering a player who had lost this argument with Board Game Arena: 'Because the card is",
+        "referring to a \"second\" bird, it's looking at the first bird (and thus needs to follow the",
+        "same habitat as the first bird).'"
+      ]
+    },
+    "02g@Rerolling dice": {
+      "comments": [
+        "51600",
+        "55217",
+        "59705",
+        "63980",
+        "64167"
+      ],
+      "why": [
+        "The row cites the rules page, which states the bare reroll rule. Every clause added to it",
+        "comes from a named official answer, and all five agree:",
+        "  51600 Jamey 2022-04-04  'At any time when gaining food, you can refresh the birdfeeder if",
+        "                           all dice show the same face' + 'If there's only 1 die in the",
+        "                           birdfeeder, all dice show the same face' + take the slug, then",
+        "                           refresh before choosing the next food",
+        "  55217 Joe   2022-10-03  'This includes birds that are looking for a specific food and say",
+        "                           \"if available.\"' (posted as a correction to Jamey's answer above",
+        "                           it, which was edited)",
+        "  59705 Joe   2023-03-17  'for any reason' -- Emu with a single die left",
+        "  63980 Joe   2023-10-30  'for any reason (cacheing included)'",
+        "  64167 Jamey 2023-11-07  gaining 1 [die], and conditional 'if available' powers, both count",
+        "                           as gaining food",
+        "",
+        "Five threads asked this and five answers said the same thing, which is why it is one",
+        "general ruling rather than five card rows. Proposals 20220404, 20221003, 20230317, 20231030",
+        "(part) and 20231107 are all folded in here."
       ]
     }
   }

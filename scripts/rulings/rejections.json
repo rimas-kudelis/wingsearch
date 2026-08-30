@@ -15,6 +15,7 @@
     "  not-official     the cited author is not a publisher/designer voice",
     "  hedged           the official answer was not firm (\"could go either way\", never followed up)",
     "  superseded       a later official answer contradicts it and is correct",
+    "  duplicate        the card already carries this ruling, so publishing it adds only noise",
     "  wrong            substantively wrong for a reason other than the above",
     "",
     "Never delete an entry to 'clean up'. Removing one un-blocks the comment and the ruling",
@@ -84,6 +85,259 @@
         "Failure mode to watch for: a terse answer that negates the *premise* of a paraphrase",
         "question (\"So X counts as Y?\" / \"X is not Y\"). The polarity lives in the question,",
         "which is not quoted in the ruling, so nothing in the published text looks wrong."
+      ]
+    },
+    {
+      "ruling_id": "20260206",
+      "cards": [
+        "Red Kite",
+        "Long-Tailed Tit"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-13/#comment-146642",
+      "comment": "146642",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Red Kite played on Long-Tailed Tit: both cards already carry the answer.",
+        "Long-Tailed Tit says \"If a bird (e.g., Common Buzzard) is played on top of this one, the",
+        "top bird is also placed horizontally and occupies both columns\", and Red Kite says the",
+        "converse. The proposal adds only that the second space is not freed up, which is what",
+        "\"occupies both columns\" already means."
+      ]
+    },
+    {
+      "ruling_id": "20200105",
+      "cards": [
+        "Common Buzzard",
+        "European Roller",
+        "Red Kite",
+        "Grey Heron"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-8/#comment-36218",
+      "comment": "36218",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "The covering-bird-also-goes-sideways rule is already published on all four cards.",
+        "Note this is the same rule as the newly added 20200218 rows on Grey Heron and Red Kite --",
+        "those were added because comment 36691 answers what happens to the *covered* bird (it",
+        "becomes a tucked card), which no existing row stated. This proposal restates only the",
+        "sideways placement."
+      ]
+    },
+    {
+      "ruling_id": "20200126",
+      "cards": [
+        "Montagu's Harrier"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-11/#comment-36458",
+      "comment": "36458",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Montagu's Harrier already carries \"Even when using this bird's power to play it on top of",
+        "another bird, this bird may only be played in [grassland].\" The proposal adds the reason",
+        "(it is a WHEN PLAYED power) but not the ruling."
+      ]
+    },
+    {
+      "ruling_id": "20200413",
+      "cards": [
+        "Red-Bellied Woodpecker"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-16/#comment-37950",
+      "comment": "37950",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Red-Bellied Woodpecker already carries \"Because caching is optional, you may instead add",
+        "the [seed] gained with Red-Bellied Woodpecker's power to your personal food supply.\"",
+        "The proposal's \"single action with a choice\" framing is the same rule.",
+        "",
+        "The duplicate detector's own note on this one is unreliable -- it cited Greylag Goose and",
+        "American Redstart, neither of which is related. Verified against master.json instead."
+      ]
+    },
+    {
+      "ruling_id": "20200511",
+      "cards": [
+        "Cartographer"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-18/#comment-38511",
+      "comment": "38511",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Cartographer already carries the closed-list rule (\"The only keywords that qualify a bird",
+        "to count toward this bonus card are those listed thereon...\"), and Turkey Vulture already",
+        "carries the specific answer that \"turkey\" is not a geography term. Both halves published."
+      ]
+    },
+    {
+      "ruling_id": "20201218",
+      "cards": [
+        "Photographer"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-28/#comment-43080",
+      "comment": "43080",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Photographer already carries the closed-list rule and, explicitly, \"Substrings of bird",
+        "names that coincide with color names do not count toward this bonus when not referring to",
+        "colors\" -- which is the Western Tanager / \"tan\" case verbatim."
+      ]
+    },
+    {
+      "ruling_id": "20220107",
+      "cards": [
+        "Green Heron"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-40/#comment-49740",
+      "comment": "49740",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Green Heron already carries \"When another player uses Green Heron's power to trade a food",
+        "token for [nectar], that counts as gaining [nectar], so Spangled Drongo's power triggers.\"",
+        "That is the gain case in full, on the card players will be looking at.",
+        "",
+        "The duplicate detector called this \"genuinely new\" because it compared against the",
+        "\"trading counts as spending\" row only; the gain case was on a different row of the same",
+        "card. A dup verdict that says \"the existing ruling covers X, this is the complementary Y\"",
+        "is worth checking against every row on the card, not just the one quoted."
+      ]
+    },
+    {
+      "ruling_id": "20230219",
+      "cards": [
+        "Southern Cassowary"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-56/#comment-59155",
+      "comment": "59155",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Southern Cassowary already carries \"When using this bird's power to discard another bird",
+        "from your mat, all food cached on that bird, [egg] laid on that bird, and [card] tucked",
+        "under that bird are discarded.\" The proposal is a narrower restatement of the same rule."
+      ]
+    },
+    {
+      "ruling_id": "20231027",
+      "cards": [
+        "Turkey Vulture"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-62/#comment-63946",
+      "comment": "63946",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Turkey Vulture already carries the general ruling \"You may activate each 'once between",
+        "turns' power on a bird on your player mat once between each of your turns.\" Two successful",
+        "predators in one opponent turn is exactly the case that rule decides."
+      ]
+    },
+    {
+      "ruling_id": "20240320",
+      "cards": [
+        "Olive-Backed Sunbird",
+        "White-Browed Tit-Warbler"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-19/#comment-67927",
+      "comment": "67927",
+      "verdict": "duplicate",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Both Olive-Backed Sunbird and White-Browed Tit-Warbler already carry the general ruling",
+        "\"You may only reroll dice when gaining food from the birdfeeder and not when gaining food",
+        "from the supply\", which answers the question these powers raise. The Asia rulebook's",
+        "\"from the birdfeeder\" wording is a clarification of that same rule, not a new one."
+      ]
+    },
+    {
+      "ruling_id": "20210117",
+      "cards": [
+        "Tūī",
+        "Superb Lyrebird",
+        "Coal Tit"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-31/#comment-43671",
+      "comment": "43671",
+      "verdict": "wrong",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Duplicate of rulings already on all three cards -- and where it differs, it is the weaker",
+        "answer. Coal Tit, Superb Lyrebird and Tui all state that a bird copying Coal Tit's power",
+        "\"retains the ability to spend [seed] cached on it until the end of the turn but no longer\".",
+        "Jamey Stegmaier's answer here instead ends the ability \"after you're done activating the",
+        "Tui's power\", which is narrower and uncorroborated.",
+        "",
+        "Publishing it would put two different cut-off points on the same card. Per the",
+        "source-strength rule in domain-knowledge.md, a single forum reply does not displace a",
+        "ruling that the corpus already states three times consistently."
+      ]
+    },
+    {
+      "ruling_id": "20221218",
+      "cards": [
+        "Little Owl"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-10/#comment-57542",
+      "comment": "57542",
+      "verdict": "hedged",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "Jamey Stegmaier's answer is a double negative -- \"no, it isn't missing the predator icon\"",
+        "-- to a question about whether Little Owl's card is missing one. In context it almost",
+        "certainly means the card is correct as printed, but 'almost certainly' is not a standard",
+        "for a rules reference players use to settle arguments. The proposing model flagged it",
+        "itself and asked a reviewer to confirm before publishing, which is the right call.",
+        "",
+        "Not blocked forever: if a firmer official answer turns up, remove this entry."
+      ]
+    },
+    {
+      "ruling_id": "20250306",
+      "cards": [
+        "Eurasian Green Woodpecker"
+      ],
+      "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-12/#comment-116934",
+      "comment": "116934",
+      "verdict": "wrong",
+      "date": "2026-08-30",
+      "by": "claude",
+      "reason": [
+        "The published row said 2 [egg] on Eurasian Green Woodpecker count as 4 toward an",
+        "egg-counting end-of-round goal. The European Expansion rulebook says the opposite, in the",
+        "OTHER POWERS section: eggs on these cards are not doubled if the goal is counting eggs.",
+        "The rulebook line is quoted verbatim in comment 37614, the question Joe Aubrey answered.",
+        "",
+        "Four official answers agree with the rulebook: 37617, 37745 and 43812 (Joe Aubrey) all",
+        "distinguish goals that count *birds* from goals that count eggs, food or columns. In 42749",
+        "Jamey Stegmaier withdrew his own contrary answer (42746) and deferred to BGG thread",
+        "2365136 -- which is the source of the ruling this row contradicted. Comment 116934 is",
+        "Jamey in 2025 repeating the error he had retracted in 2020, to a question that quoted the",
+        "card's power text but not the rulebook line.",
+        "",
+        "Replaced by 20200401, 20200405b, 20210123 and 20220914, which state which goal types",
+        "double and which do not, per card.",
+        "",
+        "Failure mode to watch for: recency is not the tie-breaker. A rulebook line, or a forum",
+        "answer that quotes one, outranks a later flat forum answer that does not -- especially",
+        "when the same author has already retracted that answer once."
       ]
     }
   ]

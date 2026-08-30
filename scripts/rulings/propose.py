@@ -43,6 +43,7 @@ OUT_PATH = os.path.join(HERE, 'proposals.json')
 KNOWLEDGE_PATH = os.path.join(HERE, 'domain-knowledge.md')
 CURATION_PATH = os.path.join(HERE, 'curation.json')
 REJECTIONS_PATH = os.path.join(HERE, 'rejections.json')
+EXTRA_CITATIONS_PATH = os.path.join(HERE, 'extra-citations.json')
 ICON_DIR = os.path.join(HERE, '..', '..', 'src', 'assets', 'icons', 'png')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
@@ -177,6 +178,8 @@ the rule is broad. Give a short `title` for general rulings only.
 
 - Card names are bold: `\\textbf{Superb Lyrebird}`. Bold every card name you mention.
 - Quoted card or rulebook text uses TeX quotes: ``like this''.
+- Dashes are TeX too: `---` for a parenthetical dash, `--` in a range (4--5). A literal
+  en or em dash character is not translated and reaches the player as itself.
 - Resources and habitats use `[icon]` markers: [egg], [card], [invertebrate], [seed],
   [fish], [fruit], [rodent], [wild], [nectar], [die], [forest], [grassland], [wetland],
   [cavity], [ground], [platform], [bowl], [star].
@@ -313,6 +316,12 @@ def applied_comment_ids():
     curation just merged away, forever. And a ruling a human deleted as wrong leaves no
     citation at all, so it would come back on the very next run; `rejections.json` is what
     makes a removal stick.
+
+    The third way is a review folding an answer into a row that already exists rather than
+    adding a row -- the clause that says *why* a bird qualifies, or a later comment resolving
+    an earlier one's caveat. Those comments are recorded in `extra-citations.json` and are
+    just as settled as a cited one, so they count here too. Fifteen threads restating the
+    reroll rule collapse into one general ruling that can only link to one of them.
     """
     ids = rc.cited_comment_ids()
     if os.path.exists(CURATION_PATH):
@@ -321,6 +330,9 @@ def applied_comment_ids():
                 m = re.search(r'#comment-(\d+)', gone.get('source', ''))
                 if m:
                     ids.add(m.group(1))
+    if os.path.exists(EXTRA_CITATIONS_PATH):
+        for entry in json.load(open(EXTRA_CITATIONS_PATH, encoding='utf-8'))['citations'].values():
+            ids.update(str(c) for c in entry['comments'])
     for r in load_rejections():
         if r.get('comment'):
             ids.add(str(r['comment']))

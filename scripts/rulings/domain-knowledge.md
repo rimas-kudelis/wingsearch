@@ -21,12 +21,12 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 0 | `id` | ruling id |
 | 1 | `general` | **title of a general ruling** — e.g. "Once between turns", "Copy", "Rerolling dice", "End of your turn". Blank on named rulings. Useful scope signal when judging applicability. |
 | 2 | `specific` | card name — **blank means the ruling is _general_** |
-| 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`) |
+| 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**34 rows are general** (col 2 blank) and **152 are named**. The 34 general rulings are
+**35 rows are general** (col 2 blank) and **510 are named**. The 35 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
-*position* `0`–`33`, not by ruling id — so you cannot look a general ruling up by id
+*position* `0`–`34`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
 
 Those 34 general rows carry only **30 distinct ids**: `20201003` and `20201116a` appear

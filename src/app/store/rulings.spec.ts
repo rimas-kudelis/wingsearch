@@ -23,6 +23,7 @@ describe('general rulings fan-out', () => {
         ['Whenever you are entitled to gain resources', 315],
         ['You may only reroll dice when gaining food from the birdfeeder', 109],
         ['Regular reroll rules apply whenever you have the opportunity', 63],
+        ['Teal ROUND END powers trigger at the end of every round', 63],
         ['You may use a pink power during another player\'s turn', 51],
         ['You may activate each <i>"once between turns"</i> power', 51],
         ['You may not use a pink power during your turn', 51],
@@ -57,7 +58,7 @@ describe('general rulings fan-out', () => {
         })
     })
 
-    it('attaches only these 17 general rulings, 798 times in total', () => {
+    it('attaches only these 18 general rulings, 861 times in total', () => {
         expect(counts.size).toBe(EXPECTED.length)
         expect(total).toBe(EXPECTED.reduce((sum, [, n]) => sum + n, 0))
     })

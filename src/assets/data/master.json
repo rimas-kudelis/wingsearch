@@ -238,7 +238,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -551,7 +551,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -1486,7 +1489,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -1885,7 +1888,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -2052,7 +2058,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Powers that say <i>\"Roll all dice not in birdfeeder\"<\/i> are always resolved outside of the birdfeeder: do not roll those dice back into the birdfeeder. Only the dice rolled outside the birdfeeder are considered, not the dice sitting in the birdfeeder. If there are no dice outside the birdfeeder, this power has no dice to roll and gains nothing. Also, a <i>\"When Played\"<\/i> power resolves only after the bird has been played, so its cost must be paid first---you cannot use <strong applink=\"\/card\/53\">Brown Pelican<\/strong>'s power to gain the [fish] needed to pay for it. When a power refers to the <i>\"player(s) with the fewest\"<\/i> something, the <i>\"(s)\"<\/i> means that if several players are tied for the fewest, they all gain the benefit. Eggs must always be placed on a nest with available space; you may not hold eggs to the side of your player mat.",
+        "text":"Powers that say <i>\"Roll all dice not in birdfeeder\"<\/i> are always resolved outside of the birdfeeder: do not roll those dice back into the birdfeeder. Only the dice rolled outside the birdfeeder are considered, not the dice sitting in the birdfeeder. If there are no dice outside the birdfeeder, this power has no dice to roll and gains nothing. Also, a <i>\"When Played\"<\/i> power resolves only after the bird has been played, so its cost must be paid first\u2014you cannot use <strong applink=\"\/card\/53\">Brown Pelican<\/strong>'s power to gain the [fish] needed to pay for it. When a power refers to the <i>\"player(s) with the fewest\"<\/i> something, the <i>\"(s)\"<\/i> means that if several players are tied for the fewest, they all gain the benefit. Eggs must always be placed on a nest with available space; you may not hold eggs to the side of your player mat.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
       }
     ],
@@ -2142,7 +2148,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -3061,7 +3067,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -3612,7 +3618,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -4539,6 +4545,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -5217,6 +5227,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -5534,6 +5548,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -5785,6 +5803,10 @@
       {
         "text":"Activate this power immediately when another player's [predator] succeeds, not at the end of that player's turn.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-42\/#comment-50437"
+      },
+      {
+        "text":"When more than one player's <i>\"once between turns\"<\/i> power is triggered at the same time, they resolve in turn order starting with the player after the active player. <strong applink=\"\/card\/32\">Black Vulture<\/strong>, <strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> and <strong applink=\"\/card\/237\">Turkey Vulture<\/strong> are all triggered and activated as soon as the successful [predator] finishes its power, before the active player continues to their next bird.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-62\/#comment-63980"
       }
     ],
     "additionalRulings":[
@@ -5805,7 +5827,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -5885,7 +5907,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -6052,6 +6074,14 @@
       {
         "text":"<strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> is not a predator bird and does not count for the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card; a bird is a predator only if it has the [predator] icon before its power text.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-32\/#comment-45312"
+      },
+      {
+        "text":"When more than one player's <i>\"once between turns\"<\/i> power is triggered at the same time, they resolve in turn order starting with the player after the active player. <strong applink=\"\/card\/32\">Black Vulture<\/strong>, <strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> and <strong applink=\"\/card\/237\">Turkey Vulture<\/strong> are all triggered and activated as soon as the successful [predator] finishes its power, before the active player continues to their next bird.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-62\/#comment-63980"
+      },
+      {
+        "text":"When a power is copied, the whole power including its label transfers to the copying bird. A bird such as <strong applink=\"\/card\/350\">T\u016b\u012b<\/strong> that copies a [predator] power therefore has a [predator] power while it activates it, and its success triggers <strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong>.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-38\/#comment-66217"
       }
     ],
     "additionalRulings":[
@@ -6072,7 +6102,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -6392,7 +6422,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -6475,6 +6505,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -7491,7 +7525,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -8063,6 +8097,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -8469,7 +8507,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -8563,7 +8604,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -8899,7 +8940,7 @@
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -8982,6 +9023,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -9297,7 +9342,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -9800,7 +9845,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Powers that say <i>\"Roll all dice not in birdfeeder\"<\/i> are always resolved outside of the birdfeeder: do not roll those dice back into the birdfeeder. Only the dice rolled outside the birdfeeder are considered, not the dice sitting in the birdfeeder. If there are no dice outside the birdfeeder, this power has no dice to roll and gains nothing. Also, a <i>\"When Played\"<\/i> power resolves only after the bird has been played, so its cost must be paid first---you cannot use <strong applink=\"\/card\/53\">Brown Pelican<\/strong>'s power to gain the [fish] needed to pay for it. When a power refers to the <i>\"player(s) with the fewest\"<\/i> something, the <i>\"(s)\"<\/i> means that if several players are tied for the fewest, they all gain the benefit. Eggs must always be placed on a nest with available space; you may not hold eggs to the side of your player mat.",
+        "text":"Powers that say <i>\"Roll all dice not in birdfeeder\"<\/i> are always resolved outside of the birdfeeder: do not roll those dice back into the birdfeeder. Only the dice rolled outside the birdfeeder are considered, not the dice sitting in the birdfeeder. If there are no dice outside the birdfeeder, this power has no dice to roll and gains nothing. Also, a <i>\"When Played\"<\/i> power resolves only after the bird has been played, so its cost must be paid first\u2014you cannot use <strong applink=\"\/card\/53\">Brown Pelican<\/strong>'s power to gain the [fish] needed to pay for it. When a power refers to the <i>\"player(s) with the fewest\"<\/i> something, the <i>\"(s)\"<\/i> means that if several players are tied for the fewest, they all gain the benefit. Eggs must always be placed on a nest with available space; you may not hold eggs to the side of your player mat.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
       }
     ],
@@ -10239,7 +10284,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -10400,7 +10445,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -10723,7 +10768,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/583\">California Scrub-Jay<\/strong>: <i>\"Upgrading an action\"<\/i> refers to the optional portion of the core action benefits printed on the player mat. Any time another player pays for and uses such an upgraded benefit -- including the choice between multiple upgrade options in a habitat, such as rerolling the birdfeeder or gaining an extra food -- it counts for this bird.",
+        "text":"<strong applink=\"\/card\/583\">California Scrub-Jay<\/strong>: <i>\"Upgrading an action\"<\/i> refers to the optional portion of the core action benefits printed on the player mat. Any time another player pays for and uses such an upgraded benefit \u2013 including the choice between multiple upgrade options in a habitat, such as rerolling the birdfeeder or gaining an extra food \u2013 it counts for this bird.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-79\/#comment-147943"
       }
     ],
@@ -11321,7 +11366,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -11730,6 +11778,14 @@
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
+      {
+        "text":"<i>\"Sets of [egg]\"<\/i> counts eggs and <i>\"food cost of birds\"<\/i> counts food, so <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong> does not count double toward either. For a goal it qualifies for that counts birds, such as <i>\"birds in [wetland]\"<\/i>, it counts as two birds.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-15\/#comment-37745"
+      },
+      {
+        "text":"<i>\"Filled columns\"<\/i> counts columns rather than birds, so this bird does not let you count an extra filled column; it counts only in the column it occupies.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-49\/#comment-54914"
       }
     ],
     "additionalRulings":[
@@ -11740,6 +11796,10 @@
       {
         "text":"Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -12065,6 +12125,10 @@
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      },
+      {
+        "text":"Habitat restrictions apply only when a bird is played. Afterwards a power such as <strong applink=\"\/card\/72\">Chimney Swift<\/strong>'s\u2014including when it is copied by <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> or <strong applink=\"\/card\/350\">T\u016b\u012b<\/strong>\u2014may move a bird into a habitat where it could not have been played.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-28\/#comment-42893"
       }
     ],
     "additionalRulings":[
@@ -12145,6 +12209,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -12401,7 +12469,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -13416,6 +13484,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -13497,7 +13569,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-11\/#comment-64737"
       },
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -13583,7 +13655,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -13740,7 +13812,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -14546,6 +14618,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -14797,6 +14873,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -14890,6 +14970,10 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -14989,6 +15073,10 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -15153,6 +15241,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -15556,7 +15648,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -15716,7 +15808,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -16938,7 +17030,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -17184,7 +17276,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -17267,6 +17359,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -17344,7 +17440,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -18307,7 +18403,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -18580,6 +18676,10 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -18734,6 +18834,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -18911,7 +19015,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -18988,16 +19092,20 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Only the quantity on <strong applink=\"\/card\/110\">Eurasian Green Woodpecker<\/strong> itself is doubled, not your whole total. For an [egg]-counting end-of-round goal, 2 [egg] on this bird count as 4 [egg]. For a goal that counts birds in a particular habitat or row, this bird counts only if it is there, and then counts as 2 birds instead of 1.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-12\/#comment-116934"
-      },
-      {
         "text":"A round end (teal) power activates at the end of every round after the bird is played, not only the round in which it was played; a bird played in round 1 can activate its round end power in all four rounds. A <i>\"this bird counts double toward the end-of-round goal\"<\/i> power can give you a virtual 6th bird in a habitat when counting birds for the goal.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-18\/#comment-38525"
       },
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
+      {
+        "text":"A goal such as <i>\"birds with [cavity] nests with at least 1 [egg]\"<\/i> counts birds, so <strong applink=\"\/card\/110\">Eurasian Green Woodpecker<\/strong> counts as two of them once it has an [egg] on it. The [egg] themselves are never doubled: the <i>European Expansion<\/i> rulebook's OTHER POWERS section states that eggs on these cards are not doubled if the goal is counting eggs.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-6\/#comment-37617"
+      },
+      {
+        "text":"<i>\"Filled columns\"<\/i> counts columns rather than birds, so this bird does not let you count an extra filled column; it counts only in the column it occupies.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-49\/#comment-54914"
       }
     ],
     "additionalRulings":[
@@ -19008,6 +19116,10 @@
       {
         "text":"Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -19264,7 +19376,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -19427,7 +19539,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -19681,6 +19796,10 @@
       {
         "text":"You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/486158122087795\/?comment_id=486188425418098&reply_comment_id=486277005409240"
+      },
+      {
+        "text":"The <i>\"at any time\"<\/i> in this power covers paying a cost in another bird's power: a [seed] cached on <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong> may be spent to discard for <strong applink=\"\/card\/215\">Sandhill Crane<\/strong>'s tuck.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-24\/#comment-41912"
       }
     ],
     "additionalRulings":[
@@ -20043,7 +20162,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -20122,6 +20241,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -20300,7 +20423,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -20380,7 +20503,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -20464,7 +20587,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -20548,7 +20671,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -20731,7 +20854,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -20903,8 +21026,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
@@ -21318,6 +21445,10 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -21399,7 +21530,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -21796,6 +21927,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -23438,6 +23573,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -23596,7 +23735,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -23766,7 +23905,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -24101,7 +24240,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -24514,7 +24653,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat -- you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
+        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat \u2013 you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-146910"
       }
     ],
@@ -24597,7 +24736,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -24676,7 +24815,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -24754,7 +24896,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -24834,7 +24976,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -25555,7 +25697,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -26123,6 +26268,10 @@
       {
         "text":"<strong applink=\"\/card\/142\">Grey Heron<\/strong> fills two [wetland] spaces and helps fill two columns, but it still counts as only a single bird (e.g., for the <strong>birds in one row<\/strong> end-of-round goal) and counts once toward goals and scoring that count birds in a habitat.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-49\/#comment-54635"
+      },
+      {
+        "text":"A bird played on top of <strong applink=\"\/card\/142\">Grey Heron<\/strong> also goes sideways and covers <strong applink=\"\/card\/142\">Grey Heron<\/strong> completely, which becomes a tucked card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-8\/#comment-36691"
       }
     ],
     "additionalRulings":[
@@ -26538,6 +26687,14 @@
       {
         "text":"<strong applink=\"\/card\/143\">Greylag Goose<\/strong> counts double toward precisely the end-of-round goals that count birds, not those that count other quantities. While in your hand this card does not count toward end-of-round goals.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
+      {
+        "text":"<i>\"Birds in one row\"<\/i> and <i>\"[ground] nest birds with [egg]\"<\/i> both count birds, so <strong applink=\"\/card\/143\">Greylag Goose<\/strong> counts double toward each. <i>\"[egg] in [wetland]\"<\/i> counts eggs, not birds, so it does not.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-31\/#comment-43812"
+      },
+      {
+        "text":"<i>\"Filled columns\"<\/i> counts columns rather than birds, so this bird does not let you count an extra filled column; it counts only in the column it occupies.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-49\/#comment-54914"
       }
     ],
     "additionalRulings":[
@@ -26548,6 +26705,10 @@
       {
         "text":"Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -26628,7 +26789,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -26946,7 +27110,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -27037,7 +27201,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -27304,6 +27468,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -27393,7 +27561,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
       },
       {
-        "text":"<strong applink=\"\/card\/148\">Hooded Merganser<\/strong>'s power is activated as a brown power, so it can only repeat another brown power -- specifically a [predator] power -- and the repeated bird must be in the same habitat.",
+        "text":"<strong applink=\"\/card\/148\">Hooded Merganser<\/strong>'s power is activated as a brown power, so it can only repeat another brown power \u2013 specifically a [predator] power \u2013 and the repeated bird must be in the same habitat.",
         "source":"https:\/\/europe.stonemaiergames.com\/collections\/wingspan-fan-designed-promo-packs"
       }
     ],
@@ -28005,7 +28173,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -28180,6 +28351,10 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -28255,11 +28430,11 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use <strong applink=\"\/card\/153\">House Wren<\/strong>'s power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use <strong applink=\"\/card\/153\">House Wren<\/strong>'s power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       },
       {
-        "text":"The additional bird must be played in the same habitat as <strong applink=\"\/card\/153\">House Wren<\/strong>.",
+        "text":"The additional bird must be played in the same habitat as <strong applink=\"\/card\/153\">House Wren<\/strong>. Because the power says a <i>\"second\"<\/i> bird, it looks at the first bird, so even though <strong applink=\"\/card\/153\">House Wren<\/strong> itself may be played in either of two habitats, both birds go in the same one.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30838"
       }
     ],
@@ -29009,7 +29184,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -29166,7 +29341,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Food cached on <strong applink=\"\/card\/484\">Ivory Gull<\/strong> may only be spent on the cost of a bird power, never to play a bird -- including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
+        "text":"Food cached on <strong applink=\"\/card\/484\">Ivory Gull<\/strong> may only be spent on the cost of a bird power, never to play a bird \u2013 including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-145297"
       },
       {
@@ -29497,7 +29672,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -29815,7 +29993,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -30315,7 +30493,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-77\/#comment-138955"
       },
       {
-        "text":"<strong applink=\"\/card\/586\">Laughing Gull<\/strong> triggers on any birdfeeder reset during another player's turn, regardless of cause -- e.g. if their <i>\"gain food\"<\/i> action empties the birdfeeder because you took the last die with <strong applink=\"\/card\/268\">Australian Owlet-Nightjar<\/strong>, that reset still activates it.",
+        "text":"<strong applink=\"\/card\/586\">Laughing Gull<\/strong> triggers on any birdfeeder reset during another player's turn, regardless of cause \u2013 e.g. if their <i>\"gain food\"<\/i> action empties the birdfeeder because you took the last die with <strong applink=\"\/card\/268\">Australian Owlet-Nightjar<\/strong>, that reset still activates it.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-77\/#comment-140646"
       }
     ],
@@ -30337,7 +30515,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -30586,6 +30764,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -30917,6 +31099,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -31646,7 +31832,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -32990,6 +33176,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -34060,6 +34250,10 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -34314,7 +34508,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -34473,6 +34667,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -34636,7 +34834,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -35058,7 +35259,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -35776,7 +35977,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -35857,8 +36058,8 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
-        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/450308885672719\/?comment_id=450451978991743&reply_comment_id=452668538770087"
+        "text":"The <i>\"white\"<\/i> in <strong applink=\"\/card\/174\">Northern Bobwhite<\/strong> counts as a color for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-8\/#comment-35747"
       }
     ],
     "additionalRulings":[
@@ -36020,7 +36221,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -37088,7 +37289,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -37165,6 +37369,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -37591,7 +37799,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -38578,6 +38789,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -38836,7 +39051,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -40049,7 +40267,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -40217,7 +40435,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -40465,7 +40683,7 @@
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -40808,6 +41026,10 @@
       {
         "text":"In games where the Automa has drawn the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+      },
+      {
+        "text":"When <strong applink=\"\/card\/195\">Red Kite<\/strong> is played on top of a sideways bird such as <strong applink=\"\/card\/142\">Grey Heron<\/strong>, it also goes sideways and covers that bird completely, which becomes a tucked card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-8\/#comment-36691"
       }
     ],
     "additionalRulings":[
@@ -41140,7 +41362,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -41227,7 +41449,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -41971,7 +42193,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -42052,7 +42274,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -42298,7 +42520,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -42472,7 +42694,7 @@
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -42947,7 +43169,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -43040,7 +43262,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -43525,7 +43747,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -43840,7 +44065,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -44257,7 +44482,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-29\/#comment-43312"
       },
       {
-        "text":"If you use this power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -44351,7 +44576,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -44615,6 +44840,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -44858,7 +45087,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -45428,6 +45660,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -45611,7 +45847,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -45690,7 +45926,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -45771,6 +46010,10 @@
       {
         "text":"The discard of 1 [seed] is a cost, not something you may substitute or skip: no [seed], no tuck.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-17\/#comment-38179"
+      },
+      {
+        "text":"The [seed] discarded for this power may come from <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong>, whose cached [seed] may be spent at any time; it need not come from your supply.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-24\/#comment-41912"
       }
     ],
     "additionalRulings":[
@@ -46176,7 +46419,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -46733,7 +46976,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -47677,7 +47920,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
       },
       {
-        "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
+        "text":"<strong applink=\"\/card\/222\">Snow Bunting<\/strong> counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, since <i>snowy<\/i> is a qualifying keyword.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-35706"
       }
     ],
@@ -48520,6 +48763,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -50087,7 +50334,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -50252,7 +50502,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -50973,6 +51223,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -51131,7 +51385,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-65\/#comment-65976"
       },
       {
-        "text":"If you copy the power of a bird that lets it move to another habitat---and <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---it may move to that habitat, even one in which it cannot be played.",
+        "text":"If you copy the power of a bird that lets it move to another habitat\u2014and <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> satisfies applicable conditions (e.g., being the rightmost bird in its habitat)\u2014it may move to that habitat, even one in which it cannot be played.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
       },
       {
@@ -51387,7 +51641,7 @@
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -52103,7 +52357,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat -- you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
+        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat \u2013 you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-146910"
       }
     ],
@@ -52502,7 +52756,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -52577,11 +52834,11 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Food cached on this bird may only be spent on the cost of a bird power, not on the cost of playing a bird -- including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
+        "text":"Food cached on this bird may only be spent on the cost of a bird power, not on the cost of playing a bird \u2013 including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-145297"
       },
       {
-        "text":"If you use this power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
+        "text":"If you use this power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird. Pay each bird's printed food cost and the [egg] cost at the top of the column it is placed in.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
       }
     ],
@@ -52771,6 +53028,10 @@
       {
         "text":"<i>\"Turkey\"<\/i> does not count as a geography term for the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card, and neither does <i>\"turkey vulture\"<\/i> (turkey vultures are named after the bird, not the country).",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37518"
+      },
+      {
+        "text":"When more than one player's <i>\"once between turns\"<\/i> power is triggered at the same time, they resolve in turn order starting with the player after the active player. <strong applink=\"\/card\/32\">Black Vulture<\/strong>, <strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> and <strong applink=\"\/card\/237\">Turkey Vulture<\/strong> are all triggered and activated as soon as the successful [predator] finishes its power, before the active player continues to their next bird.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-62\/#comment-63980"
       }
     ],
     "additionalRulings":[
@@ -52791,7 +53052,7 @@
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       },
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -52948,6 +53209,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -53025,7 +53290,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"If <strong applink=\"\/card\/350\">T\u016b\u012b<\/strong> copies a power that lets a bird move to another habitat---and it satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---it may move to that habitat, even one in which it cannot be played.",
+        "text":"If <strong applink=\"\/card\/350\">T\u016b\u012b<\/strong> copies a power that lets a bird move to another habitat\u2014and it satisfies applicable conditions (e.g., being the rightmost bird in its habitat)\u2014it may move to that habitat, even one in which it cannot be played.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
       },
       {
@@ -54587,8 +54852,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
@@ -54921,7 +55190,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -54997,7 +55266,10 @@
     "Note":null,
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Bird powers only take effect once the bird has been played, so <strong applink=\"\/card\/570\">Western Yellow Wagtail<\/strong> does not count double for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> if you leave it in your hand. For <strong applink=\"\/card\/1010\">Ecologist<\/strong>, counting it twice does raise the number of birds in its habitat, so if the habitats otherwise hold equal numbers of birds, its habitat is no longer the one with the fewest.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-82\/#comment-162950"
+      }
     ],
     "additionalRulings":[
       {
@@ -55247,6 +55519,10 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },
@@ -55325,7 +55601,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -55405,7 +55681,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
@@ -55806,7 +56082,7 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -56366,7 +56642,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -56523,7 +56802,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -57084,7 +57366,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
+      }
     ]
   },
   {
@@ -58173,7 +58458,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-16\/#comment-37939"
       },
       {
-        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
+        "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card]; you simply cannot lay the [egg].",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
       }
     ],
@@ -58436,6 +58721,10 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
+      },
+      {
+        "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       }
     ]
   },

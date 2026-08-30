@@ -6,7 +6,7 @@
   },
   "1":{
     "name":"Rerolling dice",
-    "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+    "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
     "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
   },
   "2":{
@@ -168,5 +168,10 @@
     "name":"Beak pointing left\/right",
     "text":"This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
+  },
+  "34":{
+    "name":"Round end",
+    "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
   }
 }

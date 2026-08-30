@@ -35,6 +35,10 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"A single bird may count toward more than one bonus card. These bonus cards never look at scientific (Latin) names, and other language editions handle them differently, so check the rulebook of the edition you are playing.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-46914"
       }
     ]
   },
@@ -241,6 +245,10 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"A single bird may count toward more than one bonus card. These bonus cards never look at scientific (Latin) names, and other language editions handle them differently, so check the rulebook of the edition you are playing.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-46914"
       }
     ]
   },
@@ -319,6 +327,10 @@
       {
         "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      },
+      {
+        "text":"Bird powers only take effect once the bird has been played, so <strong applink=\"\/card\/570\">Western Yellow Wagtail<\/strong> does not count double for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> if you leave it in your hand. For <strong applink=\"\/card\/1010\">Ecologist<\/strong>, counting it twice does raise the number of birds in its habitat, so if the habitats otherwise hold equal numbers of birds, its habitat is no longer the one with the fewest.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-82\/#comment-162950"
       }
     ]
   },
@@ -798,7 +810,7 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
+        "text":"The 3-point bonus applies when there are 4\u20135 qualifying birds on your player mat, not 2\u20133. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
@@ -814,7 +826,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-47\/#comment-52687"
       },
       {
-        "text":"The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding <i>honey<\/i> in the <i>European Expansion<\/i> rulebook---see <strong>Honey<\/strong>), and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong applink=\"\/card\/24\">Barred Owl<\/strong>), but see <strong applink=\"\/card\/174\">Northern Bobwhite<\/strong>.",
+        "text":"The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding <i>honey<\/i> in the <i>European Expansion<\/i> rulebook\u2014see <strong>Honey<\/strong>), and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong applink=\"\/card\/24\">Barred Owl<\/strong>), but see <strong applink=\"\/card\/174\">Northern Bobwhite<\/strong>.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
       },
       {
@@ -824,6 +836,10 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"A single bird may count toward more than one bonus card. These bonus cards never look at scientific (Latin) names, and other language editions handle them differently, so check the rulebook of the edition you are playing.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-46914"
       }
     ]
   },
@@ -971,6 +987,10 @@
       {
         "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> caches [seed] equal to <strong applink=\"\/card\/1027\">Visionary Leader<\/strong>'s value when the Bustard is played (each [seed] is worth 1 point), and <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> is also scored normally at game end. Example: 6 [card] in hand when the Bustard is played caches 4 [seed]; at game end score for the [card] then in hand.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-55\/#comment-58254"
+      },
+      {
+        "text":"Bird powers only take effect once the bird has been played, so <strong applink=\"\/card\/570\">Western Yellow Wagtail<\/strong> does not count double for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> if you leave it in your hand. For <strong applink=\"\/card\/1010\">Ecologist<\/strong>, counting it twice does raise the number of birds in its habitat, so if the habitats otherwise hold equal numbers of birds, its habitat is no longer the one with the fewest.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-82\/#comment-162950"
       }
     ]
   },

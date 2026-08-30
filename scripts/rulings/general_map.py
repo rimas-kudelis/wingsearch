@@ -65,13 +65,22 @@ candidates = {
     '20210199a': lambda row: False,
     '20210199b': lambda row: False,
     '20210206': lambda row: not pd.isna(row['Power text']) and re.search(r"place this bird sideways", row['Power text'], re.IGNORECASE) is not None,
+    '20210920': lambda row: _is_teal(row),
     '20210318': lambda row: not pd.isna(row['Power text']) and re.search(r"this bird counts double toward the end-of-round goal", row['Power text'], re.IGNORECASE) is not None,
 }
 
 
+def _is_color(row, color):
+    value = row['Color']
+    return not pd.isna(value) and str(value).strip().lower() == color
+
+
 def _is_pink(row):
-    color = row['Color']
-    return not pd.isna(color) and str(color).strip().lower() == 'pink'
+    return _is_color(row, 'pink')
+
+
+def _is_teal(row):
+    return _is_color(row, 'teal')
 
 
 def _load(path):

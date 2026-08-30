@@ -203,8 +203,10 @@ if one of this card's own rulings merely repeats one of them, rank it last.
 
 - Card names are bold: `\textbf{Green Heron}`. Bold every card name you mention.
 - Quoted card or rulebook text uses TeX quotes: ``like this''.
+- Dashes are TeX too: `---` for a parenthetical dash, `--` in a range (4--5). Both are
+  translated; a literal en or em dash character is not.
 - `\textbf` and `\textit` are the *only* commands the renderer understands. Anything else
-  reaches the player as literal text, so write a plain hyphen or comma rather than
+  reaches the player as literal text, so write a comma or a `---` rather than
   `\textendash`, and never use curly quotes.
 - Resources and habitats use `[icon]` markers: [egg], [card], [invertebrate], [seed],
   [fish], [fruit], [rodent], [wild], [nectar], [die], [forest], [grassland], [wetland],
