@@ -158,15 +158,11 @@
     "rulings":[
       {
         "text":"Birds that eat [wild] do not count toward <strong applink=\"\/card\/1005\">Bird Feeder<\/strong>; bonus cards that name a specific food icon only count birds showing that icon.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-13\/#comment-37276"
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-75\/#comment-127995"
       },
       {
         "text":"The food [die] symbol always means, <i>\"Remove a die from the birdfeeder and gain the food noted on it from the supply.\"<\/i>",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-13\/#comment-56608"
-      },
-      {
-        "text":"A [wild] food symbol does not count as [seed] for the <strong applink=\"\/card\/1005\">Bird Feeder<\/strong> bonus card; only birds showing a [seed] symbol qualify.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-75\/#comment-127995"
       }
     ]
   },
@@ -184,12 +180,12 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"Any bird with 4 or more [egg] on it at game end counts toward this bonus card; the number does not have to be exactly 4.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42392"
+        "text":"Count only [egg] tokens sitting on a bird card at game end; eggs printed on the card art do not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-45468"
       },
       {
-        "text":"Count only bird cards that have at least 4 [egg] tokens sitting on them at game end; eggs printed on the bird card do not count.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-45468"
+        "text":"Any bird with 4 or more [egg] on it at game end counts; the number does not have to be exactly 4.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42392"
       }
     ]
   },
@@ -434,12 +430,12 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"A bird with a [predator] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
-      },
-      {
         "text":"<strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> is not a predator bird and does not count for the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card; a bird is a predator only if it has the [predator] icon before its power text.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-32\/#comment-45312"
+      },
+      {
+        "text":"A bird with a [predator] power qualifies for <strong applink=\"\/card\/1013\">Falconer<\/strong> regardless of the color of that power, despite the specification of brown powers in this bonus card's Appendix entry.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
       }
     ]
   },
@@ -457,11 +453,7 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"Only birds printed with the [fish] icon count toward this bonus card; birds with the [wild] (any food type) icon do not count.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33058"
-      },
-      {
-        "text":"A bird must have the [fish] symbol to count for <strong applink=\"\/card\/1014\">Fishery Manager<\/strong>. A bird whose food cost shows only a [wild] symbol does not count.",
+        "text":"Only birds printed with the [fish] icon count for <strong applink=\"\/card\/1014\">Fishery Manager<\/strong>; a bird whose food cost shows only a [wild] (any food type) symbol does not count.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-39\/#comment-49006"
       }
     ]
@@ -714,12 +706,12 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"Only one scoring category on a bonus card is scored. With this bonus card you score either for 1 set of the 4 nest types or for 2 or more sets, not both.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-29\/#comment-43227"
-      },
-      {
         "text":"A bonus card with tiered scoring awards only the amount for the tier reached, not points per qualifying bird. On <strong applink=\"\/card\/1007\">Cartographer<\/strong> you must have at least 2 qualifying birds to score 3 points and at least 4 to score 7 points.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-29\/#comment-43330"
+      },
+      {
+        "text":"Only one scoring category on a bonus card is scored: score either for 1 set of the 4 nest types or for 2 or more sets, not both.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-29\/#comment-43227"
       }
     ]
   },
@@ -904,19 +896,11 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
+        "text":"The condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and the clarification text is <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\"<\/i> (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
         "source":"Card update pack."
       },
       {
-        "text":"<strong applink=\"\/card\/1026\">Rodentologist<\/strong> counts only birds with the [rodent] symbol specifically; a [wild] food symbol (e.g., <strong applink=\"\/card\/6\">American Crow<\/strong>) does not count.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-21\/#comment-39895"
-      },
-      {
-        "text":"Only birds with a [rodent] icon in their printed food cost count toward the <strong applink=\"\/card\/1026\">Rodentologist<\/strong> bonus card; a [wild] icon does not count.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-30\/#comment-43558"
-      },
-      {
-        "text":"A bird counts toward the <strong applink=\"\/card\/1026\">Rodentologist<\/strong> bonus card only if it shows the [rodent] symbol; a [wild] (any food) symbol does not qualify.",
+        "text":"Only birds showing the [rodent] symbol in their printed food cost count; a [wild] (any food) symbol, e.g. <strong applink=\"\/card\/6\">American Crow<\/strong>, does not count.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-42\/#comment-50542"
       }
     ]
@@ -935,7 +919,7 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played. ",
+        "text":"When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
       },
       {
@@ -993,16 +977,16 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> caches [seed] equal to the bonus card's value at the time it is played (each cached [seed] is worth 1 point at game end), and the same bonus card is also scored normally at game end based on its condition at that time. For example, with <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and 6 [card] in hand when the Bustard is played, cache 4 [seed]; at game end score <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> again for the [card] then in hand.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-55\/#comment-58254"
+        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> can score bonus cards that specify <i>\"at end of game\"<\/i> or <i>\"at game end,\"<\/i> such as <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and <strong applink=\"\/card\/1049\">Winter Feeder<\/strong>, when its power is used mid-game.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-72\/#comment-112572"
       },
       {
-        "text":"The <strong>Endangered Species<\/strong> bonus card counts only birds you have played on your player mat. Birds in hand that score for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> do not count for <strong>Endangered Species<\/strong>, since cards that refer to bird cards look only at played birds unless stated otherwise.",
+        "text":"Birds in hand that score for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> do not count for <strong>Endangered Species<\/strong>, which counts only birds played on your player mat; cards referring to bird cards look only at played birds unless stated otherwise.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-56\/#comment-59162"
       },
       {
-        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> can score bonus cards that specify <i>\"at end of game\"<\/i> or <i>\"at game end,\"<\/i> such as <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and <strong applink=\"\/card\/1049\">Winter Feeder<\/strong>, when its power is used mid-game.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-72\/#comment-112572"
+        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> caches [seed] equal to <strong applink=\"\/card\/1027\">Visionary Leader<\/strong>'s value when the Bustard is played (each [seed] is worth 1 point), and <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> is also scored normally at game end. Example: 6 [card] in hand when the Bustard is played caches 4 [seed]; at game end score for the [card] then in hand.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-55\/#comment-58254"
       }
     ]
   },
@@ -1020,16 +1004,12 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"Birds that eat [wild] do not count toward the <strong applink=\"\/card\/1028\">Viticulturalist<\/strong> bonus card; only birds showing the [fruit] icon qualify.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-9\/#comment-35836"
-      },
-      {
-        "text":"A bonus card that refers to birds that eat a specific food counts only birds printed with that exact food icon; a [wild] icon does not count for it. This applies to every food-based bonus card, including <strong applink=\"\/card\/1028\">Viticulturalist<\/strong>.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37397"
-      },
-      {
         "text":"<strong applink=\"\/card\/1028\">Viticulturalist<\/strong> counts only birds showing the [fruit] icon; [wild] and [nectar] icons do not count for it.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-59\/#comment-61023"
+      },
+      {
+        "text":"Birds that eat [wild] do not count toward <strong applink=\"\/card\/1028\">Viticulturalist<\/strong>; only birds showing the [fruit] icon qualify. This applies to every food-based bonus card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37397"
       }
     ]
   },
@@ -1047,12 +1027,12 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
-        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
-      },
-      {
         "text":"Adjacent birds with the exact same wingspan count as part of an ascending or descending sequence for this bonus card.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-29\/#comment-43292"
+      },
+      {
+        "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
       }
     ]
   },
