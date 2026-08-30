@@ -42,6 +42,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_PATH = os.path.join(HERE, 'proposals.json')
 KNOWLEDGE_PATH = os.path.join(HERE, 'domain-knowledge.md')
 CURATION_PATH = os.path.join(HERE, 'curation.json')
+REJECTIONS_PATH = os.path.join(HERE, 'rejections.json')
 ICON_DIR = os.path.join(HERE, '..', '..', 'src', 'assets', 'icons', 'png')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
@@ -303,13 +304,15 @@ def validate(store):
 
 
 def applied_comment_ids():
-    """Comments whose ruling has already reached the corpus, cited or not.
+    """Comments this pipeline is done with: published, merged away, or rejected.
 
     `cited_comment_ids()` reads the TSV's source column, which is almost the same thing --
-    except that `curate.py` merges restatements of one rule into a single row and
-    that row keeps only one link. The other comments stop being cited while their content
-    is very much still published, so deriving "applied" from citations alone makes the
-    next refresh re-append every ruling curation just merged away, forever.
+    except for two ways a comment stops being cited while remaining settled. `curate.py`
+    merges restatements of one rule into a single row and that row keeps only one link, so
+    deriving "applied" from citations alone makes the next refresh re-append every ruling
+    curation just merged away, forever. And a ruling a human deleted as wrong leaves no
+    citation at all, so it would come back on the very next run; `rejections.json` is what
+    makes a removal stick.
     """
     ids = rc.cited_comment_ids()
     if os.path.exists(CURATION_PATH):
@@ -318,7 +321,17 @@ def applied_comment_ids():
                 m = re.search(r'#comment-(\d+)', gone.get('source', ''))
                 if m:
                     ids.add(m.group(1))
+    for r in load_rejections():
+        if r.get('comment'):
+            ids.add(str(r['comment']))
     return ids
+
+
+def load_rejections():
+    """Human verdicts on rulings that must not be published. See rejections.json."""
+    if not os.path.exists(REJECTIONS_PATH):
+        return []
+    return json.load(open(REJECTIONS_PATH, encoding='utf-8'))['rejections']
 
 
 def _norm(text):

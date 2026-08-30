@@ -469,6 +469,41 @@ the raw corpus rather than trusting that a name matcher matches names.
   game, and it does decline correctly — but only 5 of 452 candidates come from that page, so
   this is a small risk either way.
 
+### Inverted transcription: the one failure mode that survives every gate
+
+Found 2026-08-30, in `20260617`, live on two cards. Eric Chow asked *"So the bird power
+activation is considered part of the main action. here 'gain food' action?"*; Jamey answered
+*"A bird power about gaining food is not part of the main action. The main actions are printed
+on the player mat."* That is a **no**. The ruling published from it said Loggerhead Shrike
+triggers *"including [rodent] gained from a bird power activated during that action"* — a
+**yes**, the opposite of the source.
+
+Why every existing gate missed it:
+
+- `validate()` checks markup, not meaning.
+- The text was internally coherent: it stated the correct principle (*bird powers are not main
+  actions*) and then drew the wrong conclusion from it, so nothing read as broken.
+- `curate.py` inherited it and reasoned *about* it, describing the newest ruling as "reversing
+  the earlier answers" and flagging a conflict. **The conflict existed nowhere in the source
+  corpus** — all four other answers on the card agree, including `20260708`, which is newer
+  still. The pipeline manufactured a disagreement and then asked a human to adjudicate it.
+
+The mechanism is specific and worth naming: **the polarity of a terse answer often lives in
+the question, and the question is not quoted in the ruling.** "Nope!", "That's correct!", "It's
+not part of the main action" mean nothing on their own. Get the question's direction wrong once
+and the published text inverts with no surviving evidence of the error.
+
+So when a ruling is derived from a short answer, restate the question in your reasoning before
+writing the ruling, and check that the ruling answers *that* question. A negation in the answer
+is usually a caveat, not a reversal — of 22 rows flagged by a polarity heuristic across the
+whole corpus, 21 were correct transcriptions where the negation sat in a subordinate clause.
+Only reading the pair settles it.
+
+**A contradiction between two official answers is evidence of a transcription bug before it is
+evidence of a rules change.** Check both against their sources before believing either.
+Rejected rulings and the reasons are recorded permanently in `rejections.json`, which also
+blocks the comment from being re-proposed.
+
 ### Re-running
 
     export AWS_PROFILE=...

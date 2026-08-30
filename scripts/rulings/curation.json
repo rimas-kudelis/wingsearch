@@ -43,7 +43,7 @@
       "warnings": []
     },
     "American Oystercatcher": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190311",
@@ -120,6 +120,7 @@
       "notices": [],
       "problems": [],
       "signature": "20190311:When using this bird's power in a game against the Automa, draw 3 [card], keep 2 of them, and discard the other.|20200617:When using this bird's power, you may take the drawn cards from the deck and/or from the bird tray, despite this bird's entry in the Appendix.|20201010:When using this bird's power, you must draw all X+1 cards as instructed, since some of them are allocated to other players.|20221123:Unless a power specifies that cards must be drawn from the deck or from the bird tray, you may choose where to draw each [card] from: the face-up cards in the bird tray or the top of the deck. On \\textbf{Indian Peafowl}, the additional [card] you draw may come from either source, even though the first 2 [card] must come from the deck.|20250603:When using this bird's power, the drawn cards are revealed: players look at them before choosing, rather than selecting blind.",
+      "superseded": [],
       "warnings": []
     },
     "American Redstart": {
@@ -165,7 +166,7 @@
       "warnings": []
     },
     "Anatomist": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190724",
@@ -249,10 +250,11 @@
       "notices": [],
       "problems": [],
       "signature": "20190724:The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant sections of the expansion rulebooks. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the \\textit{wing} in \\textbf{Burrowing Owl}).|20200229:On this bonus card ``name'' refers only to the common name, not the scientific name.|20200528:Both ``beak'' and ``head'' are on the \\textbf{Anatomist} list, so birds such as \\textbf{Blue Grosbeak} and \\textbf{Loggerhead Shrike} count. ``Horn'' is not on the list, so \\textbf{Horned Lark} does not count; follow the printed list strictly, including the additions in the expansion rulebooks.|20201116:\\textit{Back} is a body part for this bonus card, as listed in the \\textit{European Expansion} rulebook (``Anatomist (birds with body parts in their names): back, leg, toe''), so \\textbf{Canvasback} counts toward it.|20230110:The \\textbf{Anatomist} bonus card was reprinted in the Asia expansion with 6 points instead of 7 for 4+ birds. The change was unintentional, but the most recent version of the card is the official one.|20240909:\\textbf{Desert Wheatear} counts toward the \\textbf{Anatomist} bonus card (``ear'').",
+      "superseded": [],
       "warnings": []
     },
     "Anna's Hummingbird": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405a",
@@ -288,6 +290,7 @@
       "notices": [],
       "problems": [],
       "signature": "20200405a:When using this bird's power, you may choose yourself as the player who gains food first.|20200420:Any player may decline to take food from the birdfeeder when this bird's power is activated (they do not get a second chance during that activation), and the player activating the power may choose themselves to gain food first.",
+      "superseded": [],
       "warnings": []
     },
     "Australian Ibis": {
@@ -437,7 +440,7 @@
       "warnings": []
     },
     "Black Redstart": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20191207",
@@ -485,6 +488,7 @@
       "notices": [],
       "problems": [],
       "signature": "20191207:This bird does not count toward the \\textbf{Anatomist} bonus card.|20201203:Round end (teal) powers are optional. With \\textbf{Black Redstart} you may also take less of the benefit---for example, laying [egg] on only some of the birds in the chosen habitat rather than all of them.|20220326:Activating any bird power is optional, including teal (round end) powers. A player may decline to activate a power, for example to avoid laying eggs on a bird when the end-of-round goal counts birds with no [egg].",
+      "superseded": [],
       "warnings": []
     },
     "Black Vulture": {
@@ -609,7 +613,7 @@
       "warnings": []
     },
     "Blue Grosbeak": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "02a",
@@ -669,10 +673,11 @@
       "notices": [],
       "problems": [],
       "signature": "02a:When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.|20200528:Both ``beak'' and ``head'' are on the \\textbf{Anatomist} list, so birds such as \\textbf{Blue Grosbeak} and \\textbf{Loggerhead Shrike} count. ``Horn'' is not on the list, so \\textbf{Horned Lark} does not count; follow the printed list strictly, including the additions in the expansion rulebooks.|20221228:\\textbf{Blue Grosbeak}'s power may be used every time it is activated, as long as no other bird in its habitat is to its right; it may be moved again to a different habitat on a later turn.|20250319:\\textbf{Common Myna}'s habitat restriction applies only to where it can be played, not to where it can move. If it copies a power that moves a bird to another habitat, such as \\textbf{Blue Grosbeak}'s, \\textbf{Common Myna} may move out of the [grassland].",
+      "superseded": [],
       "warnings": []
     },
     "Blue Jay": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190901",
@@ -722,10 +727,11 @@
       ],
       "problems": [],
       "signature": "20190901:Caching the [seed] gained with \\textbf{Blue Jay}'s power is optional. You may instead keep it as a food token to spend.|20200423:\\textbf{Sandhill Crane}'s power requires you to discard 1 [seed] in order to tuck 2 [card] from the deck; the discard is a cost, not something you may substitute or skip. \\textbf{Blue Jay}'s ``You may cache it on this bird'' is a choice: either keep the gained [seed] in your personal supply or cache it on the bird, and the choice cannot be changed later.|20231126:``May'' indicates a binary option: you may do exactly as instructed, or you may not do it at all. It never licenses substituting a different action. On \\textbf{Blue Jay}, you may cache the gained [seed] on this bird or keep it in your personal supply, since you have already gained it. On \\textbf{Pileated Woodpecker}, you may lay the additional [egg] on a [cavity] bird or lay no additional [egg] at all.",
+      "superseded": [],
       "warnings": []
     },
     "Bonelli's Eagle": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405",
@@ -780,6 +786,13 @@
       ],
       "problems": [],
       "signature": "20200405:This bird counts toward the \\textbf{Falconer} bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.|20230516:\\textbf{Rose-Ringed Parakeet} copies the power exactly as worded on the neighbor's bird onto itself for the duration of that turn only; at the end of the turn it no longer has that power. Copying \\textbf{Bonelli's Eagle} or \\textbf{Eastern Imperial Eagle} does nothing, since those powers refer to [rodent] in the bird's cost and \\textbf{Rose-Ringed Parakeet} costs no [rodent]. Because the copied power is gone by the end of the turn, a copied bonus-card power does not make \\textbf{Rose-Ringed Parakeet} count toward the \\textbf{Endangered Species} bonus card when scoring at game end.|20250514:\\textbf{Rose-Ringed Parakeet} copies only the ``When Played'' power itself, not the copied bird's food cost. Treat the power as if it were printed on \\textbf{Rose-Ringed Parakeet}: copying \\textbf{Eastern Imperial Eagle} or \\textbf{Bonelli's Eagle} therefore does nothing, because \\textbf{Rose-Ringed Parakeet} has no [rodent] in its own food cost.|20260124:A bird played for free with \\textbf{Yellow-Eyed Penguin}'s power still triggers its ``when played'' power, but powers that refer to a paid cost have no effect. In particular, \\textbf{Bonelli's Eagle} tucks no [card] when it is played for free.",
+      "superseded": [
+        {
+          "id": "20230516",
+          "merged_into": "20250514",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-58/#comment-60645"
+        }
+      ],
       "warnings": []
     },
     "Breeding Manager": {
@@ -1074,7 +1087,7 @@
       "warnings": []
     },
     "Cartographer": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "02c",
@@ -1163,6 +1176,13 @@
       "notices": [],
       "problems": [],
       "signature": "02c:The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including \\textit{prairie} (which is printed on this bonus card only in newer printings), and those in the relevant sections of the expansion rulebooks.|20200229:On this bonus card ``name'' refers only to the common name, not the scientific name.|20200331:``Turkey'' does not count as a geography term for the \\textbf{Cartographer} bonus card, and neither does ``turkey vulture'' (turkey vultures are named after the bird, not the country).|20200417:\\textbf{Cartographer} awards a flat bonus, not points per qualifying bird: 3 points for 2--3 qualifying birds, 7 points for 4 or more.|20201230a:A bonus card with tiered scoring awards only the amount for the tier reached, not points per qualifying bird. On \\textbf{Cartographer} you must have at least 2 qualifying birds to score 3 points and at least 4 to score 7 points.|20240526:``Wood'' (singular) in a bird's name is not a geography term for the \\textbf{Cartographer} bonus card, so birds such as \\textbf{Wood Stork} and woodswallows do not count.|20241104:\\textbf{Red Junglefowl} counts toward the \\textbf{Cartographer} bonus card, since ``jungle'' appears in its name.",
+      "superseded": [
+        {
+          "id": "20200417",
+          "merged_into": "20201230a",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-16/#comment-38008"
+        }
+      ],
       "warnings": []
     },
     "Cetti's Warbler": {
@@ -1218,7 +1238,7 @@
       "warnings": []
     },
     "Chihuahuan Raven": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20201204a",
@@ -1254,10 +1274,11 @@
       "notices": [],
       "problems": [],
       "signature": "20201204a:The [wild] (``any food'') symbol includes [nectar] among the foods you may choose. You are never obligated to choose [nectar]; it is simply one of the options for paying an ``any food'' cost or gaining an ``any food'' resource.|20220826:The [wild] symbol always includes [nectar], so \\textbf{Chihuahuan Raven} and \\textbf{Common Raven} may take [nectar] from the supply with their powers. The Oceania rulebook suggests that players who find this too powerful remove those two birds from the deck when playing with the Oceania Expansion.",
+      "superseded": [],
       "warnings": []
     },
     "Clark's Nutcracker": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20210902",
@@ -1293,10 +1314,11 @@
       "notices": [],
       "problems": [],
       "signature": "20210902:When activating \\textbf{Clark's Nutcracker}, the gained [seed] goes to your personal supply unless you choose to cache it on this bird; caching is optional.|20260503:These powers are literal and the ``may'' is a genuine choice: food you gain goes to your supply, and you may instead choose to cache any or all of it on this bird, where it scores 1 point at the end of the game instead of being available to spend.",
+      "superseded": [],
       "warnings": []
     },
     "Coal Tit": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200116",
@@ -1363,6 +1385,13 @@
       ],
       "problems": [],
       "signature": "20200116:You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.|20200203:Food cached on this bird is ``used'' (for points) and hence does not count as unused food when breaking point ties while scoring.|20210199b:When a bird with a ``copy'' power (e.g., the \\textbf{Superb Lyrebird}) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.|20220411b:Food cached on this bird counts as being in your supply only for the purpose of spending it. It is not actually in your supply for any other purpose, so it does not satisfy powers that check whether a player has a particular food in their supply.|20250524:[seed] cached on \\textbf{Coal Tit} or \\textbf{Eurasian Nuthatch} is not in your supply, so it does not count toward the \\textbf{Winter Feeder} bonus card even though you may spend it at any time.",
+      "superseded": [
+        {
+          "id": "20220411b",
+          "merged_into": "20250524",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-45/#comment-51756"
+        }
+      ],
       "warnings": []
     },
     "Common Blackbird": {
@@ -1470,7 +1499,7 @@
       "warnings": []
     },
     "Common Chiffchaff": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20210124",
@@ -1506,6 +1535,7 @@
       "notices": [],
       "problems": [],
       "signature": "20210124:\\textbf{Forster's Tern} requires discarding from your hand, so if your hand is empty at the end of your turn (for instance because you tucked all your cards with \\textbf{Common Chiffchaff}), you discard nothing.|20231204:You do not need to keep a card in hand to satisfy \\textbf{Wood Duck}'s power. If you draw 2 [card] with \\textbf{Wood Duck} and then play or tuck all the cards in your hand (for example with \\textbf{Common Chiffchaff}), having no card to discard at the end of your turn is legal.",
+      "superseded": [],
       "warnings": []
     },
     "Common Goldeneye": {
@@ -1629,7 +1659,7 @@
       "warnings": []
     },
     "Common Raven": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200623",
@@ -1670,6 +1700,13 @@
       "notices": [],
       "problems": [],
       "signature": "20200623:When gaining 2 [wild] with \\textbf{Common Raven}, the two food tokens may be of the same type or of two different types.|20201204a:The [wild] (``any food'') symbol includes [nectar] among the foods you may choose. You are never obligated to choose [nectar]; it is simply one of the options for paying an ``any food'' cost or gaining an ``any food'' resource.|20220826:The [wild] symbol always includes [nectar], so \\textbf{Chihuahuan Raven} and \\textbf{Common Raven} may take [nectar] from the supply with their powers. The Oceania rulebook suggests that players who find this too powerful remove those two birds from the deck when playing with the Oceania Expansion.",
+      "superseded": [
+        {
+          "id": "20201204a",
+          "merged_into": "20220826",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-28/#comment-42860"
+        }
+      ],
       "warnings": []
     },
     "Common Starling": {
@@ -1725,7 +1762,7 @@
       "warnings": []
     },
     "Common Swift": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405",
@@ -1797,6 +1834,7 @@
       "notices": [],
       "problems": [],
       "signature": "20200405:This bird counts toward the \\textbf{Bird Counter} bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.|20210108b:You can spend the unused nectar from your personal supply as blue powers are activated before nectar is discarded.|20200111:The food types in these birds' powers are correct as printed; the specific food shown ([invertebrate] for \\textbf{Common Swift}, [seed] for \\textbf{House Sparrow}) applies, not ``any food''. The \\textit{European Expansion} appendix uses examples to explain concepts and does not reproduce the exact text of every card.|20220523:The 2-for-1 food conversion may only be used when paying the food cost to play a bird card. It cannot be used to supply the [invertebrate] discarded for this bird's power; you must discard actual [invertebrate].|20240801:[nectar] cannot be used to pay the [invertebrate] discard for this bird's power. When a bird power refers to a specific food type, [nectar] is not a wild food.",
+      "superseded": [],
       "warnings": []
     },
     "Common Tailorbird": {
@@ -1891,7 +1929,7 @@
       "warnings": []
     },
     "Eastern Imperial Eagle": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405",
@@ -1951,6 +1989,7 @@
       "notices": [],
       "problems": [],
       "signature": "20200405:This bird counts toward the \\textbf{Falconer} bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.|20230516:\\textbf{Rose-Ringed Parakeet} copies the power exactly as worded on the neighbor's bird onto itself for the duration of that turn only; at the end of the turn it no longer has that power. Copying \\textbf{Bonelli's Eagle} or \\textbf{Eastern Imperial Eagle} does nothing, since those powers refer to [rodent] in the bird's cost and \\textbf{Rose-Ringed Parakeet} costs no [rodent]. Because the copied power is gone by the end of the turn, a copied bonus-card power does not make \\textbf{Rose-Ringed Parakeet} count toward the \\textbf{Endangered Species} bonus card when scoring at game end.|20231208:A copied ``When Played'' power only does what it can do for the copying bird: \\textbf{Rose-Ringed Parakeet} gains nothing by copying \\textbf{Eastern Imperial Eagle}, because \\textbf{Rose-Ringed Parakeet}'s cost contains no [rodent].|20250514:\\textbf{Rose-Ringed Parakeet} copies only the ``When Played'' power itself, not the copied bird's food cost. Treat the power as if it were printed on \\textbf{Rose-Ringed Parakeet}: copying \\textbf{Eastern Imperial Eagle} or \\textbf{Bonelli's Eagle} therefore does nothing, because \\textbf{Rose-Ringed Parakeet} has no [rodent] in its own food cost.",
+      "superseded": [],
       "warnings": []
     },
     "Eastern Kingbird": {
@@ -2086,7 +2125,7 @@
       "warnings": []
     },
     "Ecologist": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200107",
@@ -2147,10 +2186,22 @@
       "notices": [],
       "problems": [],
       "signature": "20200107:Score only one habitat for this bonus card, even if two or three habitats are tied for the fewest birds; the maximum score is therefore 10 points. A habitat with no birds counts as the habitat with the fewest birds, scoring 0 points.|20240207:Score only one habitat for the \\textbf{Ecologist} bonus card. If two or three of your habitats are tied for the fewest birds, you still score just one of those habitats.|20240419:If you have no birds in one of your habitats, your habitat with the fewest birds has 0 birds in it, so this bonus card scores 0 points.|20241129:A habitat with no birds counts as 0 birds for the \\textbf{Ecologist} bonus card, so a player who has left any habitat empty scores 0 points for it.|20260116:Hummingbird cards are birds and count toward bonus cards in the ordinary way, including \\textbf{Bird Bander}, \\textbf{Ecologist}, \\textbf{Ethologist}, \\textbf{Passerine Specialist}, \\textbf{Small Clutch Specialist}, and the Data Analyst and Ranger bonus cards.",
+      "superseded": [
+        {
+          "id": "20200107",
+          "merged_into": "20240207",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-10/#comment-36245"
+        },
+        {
+          "id": "20240419",
+          "merged_into": "20241129",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-68/#comment-68705"
+        }
+      ],
       "warnings": []
     },
     "Ethologist": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200415",
@@ -2201,10 +2252,22 @@
       ],
       "problems": [],
       "signature": "20200415:At the end of the game, choose one habitat (row) of your birds and score 2 points per distinct power color present in that row, counting the four types of power color (including white/no power). The maximum score is 8 points, achieved when at least 4 birds in a single row each have a different power color.|20220715:\\textbf{Ethologist} scores in a single habitat of your choice: choose one habitat (row), ignore the other two, and score 2 points for each different power color present in that row. Multiple birds of the same color in that row score only once for that color. For example, a row with 2 brown, 1 white, and 1 pink bird scores 6 points.|20230309:\\textbf{Ethologist} scores 2 points for each \\textit{distinct} power color present in the chosen habitat, not 2 points per bird. Four brown-powered birds and one white-powered bird in the same habitat score 4 points, because the four brown birds count as only one color.|20260116:Hummingbird cards are birds and count toward bonus cards in the ordinary way, including \\textbf{Bird Bander}, \\textbf{Ecologist}, \\textbf{Ethologist}, \\textbf{Passerine Specialist}, \\textbf{Small Clutch Specialist}, and the Data Analyst and Ranger bonus cards.",
+      "superseded": [
+        {
+          "id": "20200415",
+          "merged_into": "20230309",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-16/#comment-37971"
+        },
+        {
+          "id": "20220715",
+          "merged_into": "20230309",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-european-expansion/comment-page-10/#comment-53774"
+        }
+      ],
       "warnings": []
     },
     "Eurasian Collared-Dove": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405",
@@ -2257,10 +2320,17 @@
       "notices": [],
       "problems": [],
       "signature": "20200405:This bird counts toward the \\textbf{Bird Counter} bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.|20210108b:You can spend the unused nectar from your personal supply as blue powers are activated before nectar is discarded.|20220119:When [nectar] is used for this bird's ``any food'' power, place it on the ``spent nectar'' space for that habitat rather than discarding it to the supply.|20230901:Nectar discarded to \\textbf{Eurasian Collared-Dove}'s power goes to the left side of your player mat (where discarded nectar is kept until the end of the game), not back to the supply. Round-end powers are resolved before nectar is discarded at the end of the round.",
+      "superseded": [
+        {
+          "id": "20220119",
+          "merged_into": "20230901",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-34/#comment-49966"
+        }
+      ],
       "warnings": []
     },
     "Eurasian Green Woodpecker": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200210",
@@ -2308,6 +2378,7 @@
       "notices": [],
       "problems": [],
       "signature": "20200210:This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.|20200512:A round end (teal) power activates at the end of every round after the bird is played, not only the round in which it was played; a bird played in round 1 can activate its round end power in all four rounds. A ``this bird counts double toward the end-of-round goal'' power can give you a virtual 6th bird in a habitat when counting birds for the goal.|20250306:Only the quantity on \\textbf{Eurasian Green Woodpecker} itself is doubled, not your whole total. For an [egg]-counting end-of-round goal, 2 [egg] on this bird count as 4 [egg]. For a goal that counts birds in a particular habitat or row, this bird counts only if it is there, and then counts as 2 birds instead of 1.",
+      "superseded": [],
       "warnings": []
     },
     "Eurasian Hobby": {
@@ -2363,7 +2434,7 @@
       "warnings": []
     },
     "Eurasian Nuthatch": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200116",
@@ -2449,6 +2520,7 @@
       ],
       "problems": [],
       "signature": "20200116:You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.|20200203:Food cached on this bird is ``used'' (for points) and hence does not count as unused food when breaking point ties while scoring.|20210199b:When a bird with a ``copy'' power (e.g., the \\textbf{Superb Lyrebird}) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.|20200812:[seed] cached on \\textbf{Eurasian Nuthatch} by another bird's power (e.g., \\textbf{European Magpie}, which may cache onto any bird) can later be spent using this bird's power; the power applies to any [seed] cached on this card, not only [seed] cached by its own power.|20230918:When \\textbf{Northern Mockingbird} repeats the power of \\textbf{Eurasian Nuthatch}, the [seed] gained is cached on \\textbf{Northern Mockingbird} but cannot later be spent; it is only copying the power when activated, so the [seed] simply remains cached food worth 1 VP at the end of the game.|20250524:[seed] cached on \\textbf{Coal Tit} or \\textbf{Eurasian Nuthatch} is not in your supply, so it does not count toward the \\textbf{Winter Feeder} bonus card even though you may spend it at any time.",
+      "superseded": [],
       "warnings": []
     },
     "Eurasian Tree Sparrow": {
@@ -2703,7 +2775,7 @@
       "warnings": []
     },
     "Forest Ranger": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20221106a",
@@ -2744,10 +2816,17 @@
       "notices": [],
       "problems": [],
       "signature": "20221106a:Tied scores do not count as ascending or descending—5 is not higher than 5—so a run of birds worth 5, 5, 3, 3, 3 points does not form an ascending or descending sequence.|20221228a:For \\textbf{Forest Ranger}, birds with equal scores do not continue a sequence, since a score is not higher (or lower) than an identical score. Scores of 1-2-2-3-5 in [forest] count as a sequence of three, not five.|20230615:The Ranger bonus cards use the strict definitions of ascending and descending, so repeated point values break the series (unlike the \\textbf{Data Analyst} bonus card, which explicitly allows equal wingspans). With scores of 6, 5, 5, 4, 3 in [forest], \\textbf{Forest Ranger} scores only the longest strictly ascending or descending series: 5, 4, 3.",
+      "superseded": [
+        {
+          "id": "20221106a",
+          "merged_into": "20221228a",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-13/#comment-56613"
+        }
+      ],
       "warnings": []
     },
     "Forster's Tern": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20210124",
@@ -2795,6 +2874,7 @@
       "notices": [],
       "problems": [],
       "signature": "20210124:\\textbf{Forster's Tern} requires discarding from your hand, so if your hand is empty at the end of your turn (for instance because you tucked all your cards with \\textbf{Common Chiffchaff}), you discard nothing.|20220429:\\textbf{Great Horned Owl}'s power says ``Look at a [card] from the deck,'' so it must use the top card of the deck; a face-up card from the tray may not be used. By contrast, a power that does not specify a source, such as \\textbf{Forster's Tern}'s ``Draw 1 [card],'' lets you take either a face-up card or the top card of the deck.|20240903:With \\textbf{Forster's Tern} you are not required to keep a card in hand for the end-of-turn discard; if you have tucked or otherwise used all of your cards, there is nothing to discard. \\textbf{Great Crested Grebe} and \\textbf{Wilson's Storm Petrel} work differently: keep the cards drawn with those powers separate from your hand until the end of your turn, when you keep 1 of them and discard the rest.",
+      "superseded": [],
       "warnings": []
     },
     "Galah": {
@@ -2857,7 +2937,7 @@
       "warnings": []
     },
     "Golden Eagle": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190729",
@@ -2905,6 +2985,7 @@
       "notices": [],
       "problems": [],
       "signature": "20190729:This bird counts toward the \\textbf{Photographer} bonus card.|20200907:When paying a bird's food cost, you may exchange any 2 food tokens to stand in for 1 food of any type you lack. This exchange may be used multiple times in the same payment (e.g., paying 4 [seed] to replace 2 missing foods). The 2-for-1 exchange is only available when playing a bird.|20220307:When a bird power refers to a characteristic of other birds, only birds currently on your player mat are applicable, not birds in your hand or elsewhere, unless the power specifically says otherwise (such as a power that looks at the top card of the deck). \\textbf{Hooded Merganser} therefore repeats the power of a bird with the [predator] icon already played in its habitat, and a bird whose power it repeats may also be activated in its own right during the same turn as the action cube moves along the row.",
+      "superseded": [],
       "warnings": []
     },
     "Gould's Finch": {
@@ -2991,7 +3072,7 @@
       "warnings": []
     },
     "Great Cormorant": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20221208",
@@ -3042,6 +3123,23 @@
       "notices": [],
       "problems": [],
       "signature": "20221208:The first time you activate \\textbf{Great Cormorant}, ignore the first clause (there is no [fish] on the bird yet) and skip right to rolling 2 [die]. On later activations, move 1 [fish] to your supply if one is cached there; if not, again skip straight to rolling 2 [die].|20221225:For powers that let you roll ``any'' dice, such as \\textbf{Great Cormorant}, you may roll dice that are inside the birdfeeder, outside the birdfeeder, or a mix of both. Dice you take from the birdfeeder remain out of the birdfeeder after rolling, until the birdfeeder is refilled.|20230107:Where a power says to roll ``any'' dice, you may choose whether the dice come from the birdfeeder or from outside it. Either way, dice rolled for a bird power stay out of the birdfeeder.|20230603:When a power says ``roll any 2 [die]'', you choose which dice to roll, whether from inside or outside the birdfeeder, and the dice you roll are taken out of the birdfeeder. The first time you activate \\textbf{Great Cormorant} there is no [fish] on it, so ignore the first clause and go straight to rolling 2 [die]; do the same on any later activation when the bird has no [fish] cached on it.|20230830:If there is no [fish] on this bird when its power is activated, ignore the first clause and skip straight to rolling 2 [die]; the clause about moving 1 [fish] from this bird to your supply only applies once a [fish] has been cached there.",
+      "superseded": [
+        {
+          "id": "20221225",
+          "merged_into": "20230107",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-52/#comment-57644"
+        },
+        {
+          "id": "20221208",
+          "merged_into": "20230830",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-12/#comment-57420"
+        },
+        {
+          "id": "20230603",
+          "merged_into": "20230830",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-59/#comment-60934"
+        }
+      ],
       "warnings": []
     },
     "Great Horned Owl": {
@@ -3085,7 +3183,7 @@
       "warnings": []
     },
     "Great Indian Bustard": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20230125",
@@ -3150,6 +3248,13 @@
       "notices": [],
       "problems": [],
       "signature": "20230125:\\textbf{Great Indian Bustard} caches [seed] equal to the bonus card's value at the time it is played (each cached [seed] is worth 1 point at game end), and the same bonus card is also scored normally at game end based on its condition at that time. For example, with \\textbf{Visionary Leader} and 6 [card] in hand when the Bustard is played, cache 4 [seed]; at game end score \\textbf{Visionary Leader} again for the [card] then in hand.|20230226a:A bonus card discarded via \\textbf{Red-Crowned Crane} cannot be scored at game end, so \\textbf{Great Indian Bustard}'s instruction to ``also score it normally at game end'' no longer applies to that bonus card.|20240120:\\textbf{Great Indian Bustard}'s ``Also score it normally at game end'' only clarifies that scoring the bonus card immediately does not prevent scoring it again at game end; you score it at game end only if you still have that bonus card. If you later discard that same bonus card (for example with \\textbf{Red-Crowned Crane}), you do not score it at game end.|20250201:\\textbf{Great Indian Bustard} can score bonus cards that specify ``at end of game'' or ``at game end,'' such as \\textbf{Visionary Leader} and \\textbf{Winter Feeder}, when its power is used mid-game.|20251108:When \\textbf{Rose-Ringed Parakeet} copies a neighbor's ``When Played'' power, resolve it as if the copied text replaced \\textbf{Rose-Ringed Parakeet}'s own text: it applies to your board, not your neighbor's. Copying \\textbf{Great Indian Bustard} therefore scores one of your own bonus cards, caching [seed] on \\textbf{Rose-Ringed Parakeet}.",
+      "superseded": [
+        {
+          "id": "20230226a",
+          "merged_into": "20240120",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-56/#comment-59321"
+        }
+      ],
       "warnings": []
     },
     "Greater Adjutant": {
@@ -3237,7 +3342,7 @@
       "warnings": []
     },
     "Green Heron": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200712",
@@ -3319,10 +3424,22 @@
       "notices": [],
       "problems": [],
       "signature": "20200712:``Trading'' counts as ``spending''.|20200719:You may not use this bird's power to trade a food token for a food token of the same type.|20210308:Food traded away with \\textbf{Green Heron} goes back to the supply, not to the birdfeeder. If the food traded away is [nectar], it goes to the spent nectar space of your player mat instead.|20210307:Trading a [nectar] token with this bird's power counts as spending it, so the traded [nectar] goes to your player mat rather than back to the supply.|20220509:When another player uses \\textbf{Green Heron}'s power to trade a food token for [nectar], that counts as gaining [nectar], so \\textbf{Spangled Drongo}'s power triggers. It is not a net gain of food, but it is still a gain. \\textbf{Spangled Drongo} is a ``once between turns'' power, so it may only be used once between each of your turns.|20230101:When you use this bird's power to trade [nectar] for another food type, the [nectar] is spent, so place it in the spent-nectar space of that habitat rather than returning it to the supply.|20230621:[nectar] is an eligible food type for \\textbf{Green Heron}'s power, so you may trade 1 [wild] for [nectar] from the supply. (An earlier official answer saying nectar was ineligible was retracted.)",
+      "superseded": [
+        {
+          "id": "20210307",
+          "merged_into": "20230101",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-32/#comment-45007"
+        },
+        {
+          "id": "20210308",
+          "merged_into": "20230101",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-12/#comment-45031"
+        }
+      ],
       "warnings": []
     },
     "Grey Heron": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "03b",
@@ -3363,6 +3480,13 @@
       "notices": [],
       "problems": [],
       "signature": "03b:If a bird (e.g., \\textbf{Common Buzzard}) is played on top of this one, the top bird is also placed horizontally and occupies both columns.|20200603:\\textbf{Grey Heron} fills two [wetland] spaces and helps fill two columns, but it still counts as only a single bird (e.g., for the \\textbf{birds in one row} end-of-round goal).|20220830:A bird played sideways across 2 [wetland] spaces, such as \\textbf{Grey Heron}, is still only one bird card and counts once toward goals and scoring that count birds in a habitat.",
+      "superseded": [
+        {
+          "id": "20200603",
+          "merged_into": "20220830",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-19/#comment-39132"
+        }
+      ],
       "warnings": []
     },
     "Grey Shrikethrush": {
@@ -3581,7 +3705,7 @@
       "warnings": []
     },
     "Hooded Merganser": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190127",
@@ -3646,6 +3770,13 @@
       "notices": [],
       "problems": [],
       "signature": "20190127:This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.|20210199a:This bird cannot copy the power of a bird with a ``copy'' power that is not a predator power, even if that bird copied a predator power earlier in the turn.|20260111:A few birds have the power to repeat another bird's brown power. The repeated bird must be in the same habitat.|20220307:When a bird power refers to a characteristic of other birds, only birds currently on your player mat are applicable, not birds in your hand or elsewhere, unless the power specifically says otherwise (such as a power that looks at the top card of the deck). \\textbf{Hooded Merganser} therefore repeats the power of a bird with the [predator] icon already played in its habitat, and a bird whose power it repeats may also be activated in its own right during the same turn as the action cube moves along the row.|20230815:\\textbf{Hooded Merganser}'s power is activated as a brown power, so it can only repeat another brown power -- specifically a [predator] power.",
+      "superseded": [
+        {
+          "id": "20230815",
+          "merged_into": "20260111",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-60/#comment-62307"
+        }
+      ],
       "warnings": []
     },
     "Hooded Warbler": {
@@ -3756,7 +3887,7 @@
       "warnings": []
     },
     "House Sparrow": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200405",
@@ -3818,6 +3949,7 @@
       ],
       "problems": [],
       "signature": "20200405:This bird counts toward the \\textbf{Bird Counter} bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.|20210108b:You can spend the unused nectar from your personal supply as blue powers are activated before nectar is discarded.|20200111:The food types in these birds' powers are correct as printed; the specific food shown ([invertebrate] for \\textbf{Common Swift}, [seed] for \\textbf{House Sparrow}) applies, not ``any food''. The \\textit{European Expansion} appendix uses examples to explain concepts and does not reproduce the exact text of every card.|20200925:The 2-for-1 food exchange may only be used when paying the food cost to play a bird. It cannot be used to satisfy a food requirement anywhere else, such as discarding [seed] for \\textbf{House Sparrow}'s power.",
+      "superseded": [],
       "warnings": []
     },
     "House Wren": {
@@ -3941,7 +4073,7 @@
       "warnings": []
     },
     "Kea": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20201217",
@@ -3994,6 +4126,13 @@
       "notices": [],
       "problems": [],
       "signature": "20201217:With \\textbf{Kea}, you first draw 1 bonus card, then decide how many additional bonus cards you want to draw and discard the corresponding amount of food. This is a one-time decision. Among all the bonus cards drawn using this bird's power, you keep only 1.|20210403:With \\textbf{Kea}, you keep only 1 bonus card out of all the bonus cards you drew with this power, including the first one drawn before discarding [wild].|20220820:With \\textbf{Kea}, you first draw 1 bonus card, then decide how many additional cards you want to draw and discard the corresponding amount of [wild]. This is a one-time decision, so you cannot discard food one at a time. Among all the bonus cards drawn using this bird's power, you keep only 1.|20230329:You look at the first bonus card drawn with \\textbf{Kea}'s power before deciding how many additional bonus cards to draw. Deciding how many additional cards to draw, and discarding the corresponding amount of [wild], is a one-time decision. Among all the bonus cards drawn with this power, you keep only 1.",
+      "superseded": [
+        {
+          "id": "20201217",
+          "merged_into": "20220820",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-28/#comment-43068"
+        }
+      ],
       "warnings": []
     },
     "Korimako": {
@@ -4077,7 +4216,7 @@
       "warnings": []
     },
     "Laughing Gull": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20251202",
@@ -4113,6 +4252,7 @@
       "notices": [],
       "problems": [],
       "signature": "20251202:``Resetting the birdfeeder'' means rerolling all the dice in the birdfeeder, however it comes about. \\textbf{Laughing Gull}'s power can trigger (once between turns) whenever an opponent does this, including a reroll caused by all remaining dice showing the same face or only one die being left in the birdfeeder.|20251220:\\textbf{Laughing Gull}'s power triggers whenever the birdfeeder is reset during another player's turn, regardless of which effect caused the reset. For example, if another player's ``gain food'' action empties the birdfeeder because you took the last die with \\textbf{Australian Owlet-Nightjar}, the birdfeeder reset on their turn still activates \\textbf{Laughing Gull}.",
+      "superseded": [],
       "warnings": []
     },
     "Lazuli Bunting": {
@@ -4196,7 +4336,7 @@
       "warnings": []
     },
     "Loggerhead Shrike": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190405",
@@ -4211,56 +4351,51 @@
           "text": "\\textbf{Loggerhead Shrike}'s power refers only to the core benefit of the ``gain food'' action, not to food gained from ``when activated'' bird powers. If a player gains [rodent] from a bird power such as \\textbf{Eastern Screech-Owl}'s during their ``gain food'' action, \\textbf{Loggerhead Shrike} is not triggered."
         },
         {
-          "id": "20260617",
-          "text": "\\textbf{Loggerhead Shrike} triggers whenever another player gains any number of [rodent] during their ``gain food'' action, including [rodent] gained from a bird power activated during that action (e.g., \\textbf{Grey Shrikethrush}). A bird power that gains food is not itself a main action; the main actions are the ones printed on the player mat, so gaining [rodent] via a bird power during the ``play a bird'', ``lay eggs'', or ``draw cards'' action does not trigger \\textbf{Loggerhead Shrike}."
-        },
-        {
           "id": "20260708",
           "text": "\\textbf{Loggerhead Shrike}'s power only triggers when another player gains [rodent] as part of the ``gain food'' core action of the [forest] habitat. It does not trigger from [rodent] gained or cached by bird powers."
         }
       ],
       "card": "Loggerhead Shrike",
-      "confidence": "low",
+      "confidence": "medium",
       "entries": [
         {
           "ids": [
-            "20260617"
+            "20190405"
           ],
-          "reason": "Newest ruling (2026) and it reverses the earlier answers about bird powers during the gain food action - maximally non-obvious, so first; text kept verbatim since the distinction it draws is delicate.",
+          "reason": "Broadest statement of the underlying principle and the only one carrying the extra non-obvious consequence (moved birds pay no [egg] cost), so it leads; text left verbatim to avoid losing that second clause.",
           "rewritten": false,
-          "text": "\\textbf{Loggerhead Shrike} triggers whenever another player gains any number of [rodent] during their ``gain food'' action, including [rodent] gained from a bird power activated during that action (e.g., \\textbf{Grey Shrikethrush}). A bird power that gains food is not itself a main action; the main actions are the ones printed on the player mat, so gaining [rodent] via a bird power during the ``play a bird'', ``lay eggs'', or ``draw cards'' action does not trigger \\textbf{Loggerhead Shrike}."
+          "text": "Activating a bird's power is not the same as taking the corresponding action. A bird activated by another power that gains [rodent] does not trigger \\textbf{Loggerhead Shrike}, because the ``gain food'' action was not taken; likewise, a bird moved to another habitat by a bird power is not being played, so no [egg] cost is paid for the column it moves into."
         },
         {
           "ids": [
             "20191218"
           ],
-          "reason": "Directly contradicted by 20260617; kept separate and adjacent to it so the reader sees the conflict, and left verbatim because it is the older official answer.",
-          "rewritten": false,
-          "text": "\\textbf{Loggerhead Shrike}'s power refers only to the core benefit of the ``gain food'' action, not to food gained from ``when activated'' bird powers. If a player gains [rodent] from a bird power such as \\textbf{Eastern Screech-Owl}'s during their ``gain food'' action, \\textbf{Loggerhead Shrike} is not triggered."
+          "reason": "Names the specific interaction a player is most likely to get wrong (a power resolving inside the gain food action still does not count); leads with the answer.",
+          "rewritten": true,
+          "text": "\\textbf{Loggerhead Shrike} is not triggered by [rodent] gained from a ``when activated'' bird power, such as \\textbf{Eastern Screech-Owl}'s, even when that power fires during another player's ``gain food'' action."
         },
         {
           "ids": [
+            "20191029",
             "20260708"
           ],
-          "reason": "Also restricts to the core action but adds the caching case; substance differs from 20191218 and from 20260617, so not merged.",
-          "rewritten": false,
-          "text": "\\textbf{Loggerhead Shrike}'s power only triggers when another player gains [rodent] as part of the ``gain food'' core action of the [forest] habitat. It does not trigger from [rodent] gained or cached by bird powers."
-        },
-        {
-          "ids": [
-            "20190405",
-            "20191029"
-          ],
-          "reason": "Both state the same rule (power activation is not the action); merged, keeping 20190405's extra move/egg clause so the entry stays true to both.",
+          "reason": "Both state the same rule - triggers on the core action only, not on bird powers - so merged; wording follows the newer 20260708 which is true to both.",
           "rewritten": true,
-          "text": "Activating a bird's power is not the same as taking the corresponding action, so a bird power that gains [rodent] from the birdfeeder does not trigger \\textbf{Loggerhead Shrike}; likewise, a bird moved to another habitat by a bird power is not being played, so no [egg] cost is paid for the column it moves into."
+          "text": "\\textbf{Loggerhead Shrike} triggers only when another player gains [rodent] as part of the ``gain food'' core action of the [forest] habitat, not from [rodent] gained or cached by bird powers."
         }
       ],
       "model": "us.anthropic.claude-opus-5",
-      "note": "Substantive conflict: 20260617 (2026) says [rodent] gained from a bird power activated DURING another player's gain food action does trigger the Shrike, while 20191218, 20260708 and 20191029/20190405 say bird-power food never triggers it. 20260617 appears to supersede the 2019 rulings, but 20260708 is dated later still and reads the old way - a human should decide which is current. I ordered them conflict-first rather than deleting or reconciling anything.",
+      "note": "20190405, 20191029, 20191218 and 20260708 all state the same core principle (core ``gain food'' action only, not bird powers); I kept 20190405 and 20191218 separate because each carries an extra fact (respectively the habitat-move/[egg]-cost consequence, and the named \\textbf{Eastern Screech-Owl} interaction, where 20191218 is shared with that card). Merge of 20191029 + 20260708 uses 20260708's slightly narrower phrasing ([forest] core action); 20191029's wording mentions gaining from the birdfeeder via a bird power, which the merged text covers. Note the [also on 1 card] marker on 20191218 - my rewording is local to this card only. Per §9 of the reference notes, the ruling id 20260617 previously reported as an inverted transcription on this card is not present here; nothing in this set contradicts anything else.",
       "notices": [],
       "problems": [],
-      "signature": "20190405:Activating a bird's power is not the same as taking the corresponding action. A bird activated by another power that gains [rodent] does not trigger \\textbf{Loggerhead Shrike}, because the ``gain food'' action was not taken; likewise, a bird moved to another habitat by a bird power is not being played, so no [egg] cost is paid for the column it moves into.|20191029:\\textbf{Loggerhead Shrike}'s power triggers only when another player takes the ``gain food'' action itself. It does not trigger when another player gains [rodent] from the birdfeeder through a bird power.|20191218:\\textbf{Loggerhead Shrike}'s power refers only to the core benefit of the ``gain food'' action, not to food gained from ``when activated'' bird powers. If a player gains [rodent] from a bird power such as \\textbf{Eastern Screech-Owl}'s during their ``gain food'' action, \\textbf{Loggerhead Shrike} is not triggered.|20260617:\\textbf{Loggerhead Shrike} triggers whenever another player gains any number of [rodent] during their ``gain food'' action, including [rodent] gained from a bird power activated during that action (e.g., \\textbf{Grey Shrikethrush}). A bird power that gains food is not itself a main action; the main actions are the ones printed on the player mat, so gaining [rodent] via a bird power during the ``play a bird'', ``lay eggs'', or ``draw cards'' action does not trigger \\textbf{Loggerhead Shrike}.|20260708:\\textbf{Loggerhead Shrike}'s power only triggers when another player gains [rodent] as part of the ``gain food'' core action of the [forest] habitat. It does not trigger from [rodent] gained or cached by bird powers.",
+      "signature": "20190405:Activating a bird's power is not the same as taking the corresponding action. A bird activated by another power that gains [rodent] does not trigger \\textbf{Loggerhead Shrike}, because the ``gain food'' action was not taken; likewise, a bird moved to another habitat by a bird power is not being played, so no [egg] cost is paid for the column it moves into.|20191029:\\textbf{Loggerhead Shrike}'s power triggers only when another player takes the ``gain food'' action itself. It does not trigger when another player gains [rodent] from the birdfeeder through a bird power.|20191218:\\textbf{Loggerhead Shrike}'s power refers only to the core benefit of the ``gain food'' action, not to food gained from ``when activated'' bird powers. If a player gains [rodent] from a bird power such as \\textbf{Eastern Screech-Owl}'s during their ``gain food'' action, \\textbf{Loggerhead Shrike} is not triggered.|20260708:\\textbf{Loggerhead Shrike}'s power only triggers when another player gains [rodent] as part of the ``gain food'' core action of the [forest] habitat. It does not trigger from [rodent] gained or cached by bird powers.",
+      "superseded": [
+        {
+          "id": "20191029",
+          "merged_into": "20260708",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-7/#comment-35444"
+        }
+      ],
       "warnings": []
     },
     "Long-Tailed Tit": {
@@ -4448,7 +4583,7 @@
       "warnings": []
     },
     "Northern Mockingbird": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190127",
@@ -4508,10 +4643,11 @@
       "notices": [],
       "problems": [],
       "signature": "20190127:This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.|20210199a:When this bird repeats the power of a bird with a ``copy'' power (e.g., the \\textbf{Superb Lyrebird}), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.|20230918:When \\textbf{Northern Mockingbird} repeats the power of \\textbf{Eurasian Nuthatch}, the [seed] gained is cached on \\textbf{Northern Mockingbird} but cannot later be spent; it is only copying the power when activated, so the [seed] simply remains cached food worth 1 VP at the end of the game.|20240110:Copy powers act as if the copied text were printed on the copying bird. So if \\textbf{Superb Lyrebird} copies the \\textbf{Northern Mockingbird}'s power, you then repeat a brown power on another bird in \\textbf{Superb Lyrebird}'s own habitat ([forest]).",
+      "superseded": [],
       "warnings": []
     },
     "Photographer": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "02e",
@@ -4607,6 +4743,7 @@
       "notices": [],
       "problems": [],
       "signature": "02e:The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)|20191203b:The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding \\textit{honey} in the \\textit{European Expansion} rulebook---see \\textbf{Honey}), and \\textit{violet}. (\\textit{Violet} currently occurs only on the \\textbf{Violet-Green Swallow}, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the \\textit{red} in \\textbf{Barred Owl}), but see \\textbf{Northern Bobwhite}.|20200229:On this bonus card ``name'' refers only to the common name, not the scientific name.|20210401:\\textit{Rainbow} is not a color and does not count toward this bonus card.|20220521:\\textit{Redstart} and \\textit{yellowthroat} both count toward this bonus card; a full list of qualifying colors appears on page 4 of the Appendix.|20220610:The point values on this bonus card are totals, not per-bird: if you have the number of qualifying birds shown, you gain that number of points in total.|20230529:\\textbf{Baya Weaver} does not count toward the \\textbf{Photographer} bonus card. That card looks for colors as words or as part of compound words, and ``Baya'' is its own word, not a compound of ``bay'' and ``a''.",
+      "superseded": [],
       "warnings": []
     },
     "Pileated Woodpecker": {
@@ -4778,7 +4915,7 @@
       "warnings": []
     },
     "Red-Crowned Crane": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20220804",
@@ -4838,6 +4975,7 @@
       "notices": [],
       "problems": [],
       "signature": "20220804:A bonus card discarded to score \\textbf{Red-Crowned Crane} goes to the discarded bonus card pile and may be retrieved later with \\textbf{Wrybill}, allowing the same bonus card to be scored twice.|20221226:When scoring a bonus card immediately with \\textbf{Red-Crowned Crane}, ignore any ``at game end'' wording on the bonus card and score it based on the current game state. For \\textbf{Winter Feeder}, score based on the food currently in your personal supply.|20230226a:A bonus card discarded via \\textbf{Red-Crowned Crane} cannot be scored at game end, so \\textbf{Great Indian Bustard}'s instruction to ``also score it normally at game end'' no longer applies to that bonus card.|20240120:\\textbf{Great Indian Bustard}'s ``Also score it normally at game end'' only clarifies that scoring the bonus card immediately does not prevent scoring it again at game end; you score it at game end only if you still have that bonus card. If you later discard that same bonus card (for example with \\textbf{Red-Crowned Crane}), you do not score it at game end.",
+      "superseded": [],
       "warnings": []
     },
     "Red-Winged Parrot": {
@@ -4942,7 +5080,7 @@
       "warnings": []
     },
     "Rose-Ringed Parakeet": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20221005",
@@ -5026,6 +5164,18 @@
       ],
       "problems": [],
       "signature": "20221005:A ``neighbor'' in Wingspan is defined as the players to your immediate left and right, not all players at the table.|20221225a:\\textbf{Rose-Ringed Parakeet} does not count for bonus cards that reward birds allowing you to score or draw bonus cards, even if its copied ``When Played'' power (such as \\textbf{Bell's Vireo}'s) draws bonus cards, because its own power is not specific to drawing bonus cards.|20230516:\\textbf{Rose-Ringed Parakeet} copies the power exactly as worded on the neighbor's bird onto itself for the duration of that turn only; at the end of the turn it no longer has that power. Copying \\textbf{Bonelli's Eagle} or \\textbf{Eastern Imperial Eagle} does nothing, since those powers refer to [rodent] in the bird's cost and \\textbf{Rose-Ringed Parakeet} costs no [rodent]. Because the copied power is gone by the end of the turn, a copied bonus-card power does not make \\textbf{Rose-Ringed Parakeet} count toward the \\textbf{Endangered Species} bonus card when scoring at game end.|20231208:A copied ``When Played'' power only does what it can do for the copying bird: \\textbf{Rose-Ringed Parakeet} gains nothing by copying \\textbf{Eastern Imperial Eagle}, because \\textbf{Rose-Ringed Parakeet}'s cost contains no [rodent].|20250514:\\textbf{Rose-Ringed Parakeet} copies only the ``When Played'' power itself, not the copied bird's food cost. Treat the power as if it were printed on \\textbf{Rose-Ringed Parakeet}: copying \\textbf{Eastern Imperial Eagle} or \\textbf{Bonelli's Eagle} therefore does nothing, because \\textbf{Rose-Ringed Parakeet} has no [rodent] in its own food cost.|20251108:When \\textbf{Rose-Ringed Parakeet} copies a neighbor's ``When Played'' power, resolve it as if the copied text replaced \\textbf{Rose-Ringed Parakeet}'s own text: it applies to your board, not your neighbor's. Copying \\textbf{Great Indian Bustard} therefore scores one of your own bonus cards, caching [seed] on \\textbf{Rose-Ringed Parakeet}.|20260206:\\textbf{Rose-Ringed Parakeet} does not count toward the \\textbf{Endangered Species Protector} bonus card even if it was used to copy a ``When Played'' power that scored or drew bonus cards. Only the abilities printed on the card matter during bonus scoring.",
+      "superseded": [
+        {
+          "id": "20221225a",
+          "merged_into": "20260206",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-asia/comment-page-15/#comment-57622"
+        },
+        {
+          "id": "20231208",
+          "merged_into": "20250514",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-63/#comment-64804"
+        }
+      ],
       "warnings": []
     },
     "Ruby-Crowned Kinglet": {
@@ -5071,7 +5221,7 @@
       "warnings": []
     },
     "Ruby-Throated Hummingbird": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20200420",
@@ -5124,6 +5274,13 @@
       "notices": [],
       "problems": [],
       "signature": "20200420:Any player may decline to take food from the birdfeeder when this bird's power is activated (they do not get a second chance during that activation), and the player activating the power may choose themselves to gain food first.|20201002:[nectar] is wild for playing birds and may be spent for any food in a bird's cost, including a single [nectar] to pay a cost of 1 [seed]. [nectar] cannot be substituted when a bird's power refers to a specific food type.|20220221:``The player of your choice'' includes all players, so the player activating \\textbf{Ruby-Throated Hummingbird} may choose themselves to gain the first [die] from the birdfeeder.|20230909:You may choose yourself as the starting player for this bird's power.",
+      "superseded": [
+        {
+          "id": "20220221",
+          "merged_into": "20230909",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-43/#comment-50686"
+        }
+      ],
       "warnings": []
     },
     "Ruff": {
@@ -5207,7 +5364,7 @@
       "warnings": []
     },
     "Sacred Kingfisher": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20210104",
@@ -5236,6 +5393,13 @@
       "notices": [],
       "problems": [],
       "signature": "20210104:Gaining food from the birdfeeder with the \\textbf{Sacred Kingfisher}'s power counts as a successful [predator] action, so it can trigger another player's power that responds to a successful predator (e.g., the \\textbf{Turkey Vulture}). It cannot trigger the pink power of the player whose turn it is, because the \\textbf{Sacred Kingfisher}'s power resolves as the final step of that player's turn, not between turns.|20241223:\\textbf{Sacred Kingfisher} is a predator. If it gains food with its power, that counts as a predator succeeding, which can trigger other players' powers that trigger when a predator succeeds.",
+      "superseded": [
+        {
+          "id": "20210104",
+          "merged_into": "20241223",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-26/#comment-43416"
+        }
+      ],
       "warnings": []
     },
     "Sandhill Crane": {
@@ -5496,7 +5660,7 @@
       "warnings": []
     },
     "Spangled Drongo": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20201206",
@@ -5573,6 +5737,13 @@
       "notices": [],
       "problems": [],
       "signature": "20201206:Receiving [nectar] as a gift counts as gaining [nectar], so when a player uses \\textbf{Red-Winged Parrot} to give a [nectar] to another player, the receiving player has gained [nectar] and \\textbf{Spangled Drongo} may be activated by it.|20211127:\\textbf{Spangled Drongo}'s power triggers whenever another player gains [nectar] by any means, not only when they gain it with the ``gain food'' action. For example, if another player gains 1 [nectar] from the supply through a bird power, \\textbf{Spangled Drongo}'s owner may gain 1 [nectar] from the supply.|20220509:When another player uses \\textbf{Green Heron}'s power to trade a food token for [nectar], that counts as gaining [nectar], so \\textbf{Spangled Drongo}'s power triggers. It is not a net gain of food, but it is still a gain. \\textbf{Spangled Drongo} is a ``once between turns'' power, so it may only be used once between each of your turns.|20220605:\\textbf{Spangled Drongo} only triggers between your turns, never on your own turn. If you activate \\textbf{Eastern Rosella} on your turn, causing all players to gain 1 [nectar], \\textbf{Spangled Drongo} does not activate.|20230722:\\textbf{Spangled Drongo}'s power triggers when another player gains [nectar] in any way, including gaining [nectar] from the supply by discarding [fruit] with \\textbf{Mistletoebird}'s power.|20241228:\\textbf{Spangled Drongo} triggers when another player gains [nectar] for any reason, not only when gaining food from the birdfeeder. As a ``once between turns'' power, it can trigger only once between each of your turns.",
+      "superseded": [
+        {
+          "id": "20211127",
+          "merged_into": "20241228",
+          "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-38/#comment-48984"
+        }
+      ],
       "warnings": []
     },
     "Spoon-Billed Sandpiper": {
@@ -5658,7 +5829,7 @@
       "warnings": []
     },
     "Superb Lyrebird": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20201116b",
@@ -5730,10 +5901,11 @@
       "notices": [],
       "problems": [],
       "signature": "20201116b:If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---this bird may move to that habitat, even one in which it cannot be played.|20210108a:This bird counts towards \\textbf{Forester} bonus card even though it can potentially fly elsewhere.|20210119a:When a bird (e.g., the \\textbf{Gray Catbird}) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the \\textbf{Black Vulture}).|20210199b:When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the \\textbf{Coal Tit}'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the \\textbf{Wood Duck}'s power, the copied power still obligates you to discard a card at the end of your turn.)|20240110:Copy powers act as if the copied text were printed on the copying bird. So if \\textbf{Superb Lyrebird} copies the \\textbf{Northern Mockingbird}'s power, you then repeat a brown power on another bird in \\textbf{Superb Lyrebird}'s own habitat ([forest]).",
+      "superseded": [],
       "warnings": []
     },
     "Tufted Titmouse": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20190309",
@@ -5771,6 +5943,7 @@
       "notices": [],
       "problems": [],
       "signature": "20190309:If you use this bird's power to play another bird with a ``play a second bird'' power, you may then use the latter bird's power to play yet another bird.|20260128:Food cached on this bird may only be spent on the cost of a bird power, not on the cost of playing a bird -- including a bird played via another bird's power, such as \\textbf{Tufted Titmouse}.",
+      "superseded": [],
       "warnings": []
     },
     "Turkey Vulture": {
@@ -6142,7 +6315,7 @@
       "warnings": []
     },
     "Wilson's Storm Petrel": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20230225",
@@ -6181,10 +6354,11 @@
       ],
       "problems": [],
       "signature": "20230225:\\textbf{Wilson's Storm Petrel}'s power requires you to end the turn with at least 1 of the [card] you drew with it, but any of the others may be disposed of in other ways during the turn (for example, tucked with \\textbf{Common Grackle}) instead of being discarded.|20240903:With \\textbf{Forster's Tern} you are not required to keep a card in hand for the end-of-turn discard; if you have tucked or otherwise used all of your cards, there is nothing to discard. \\textbf{Great Crested Grebe} and \\textbf{Wilson's Storm Petrel} work differently: keep the cards drawn with those powers separate from your hand until the end of your turn, when you keep 1 of them and discard the rest.",
+      "superseded": [],
       "warnings": []
     },
     "Winter Feeder": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20221226",
@@ -6232,10 +6406,11 @@
       "notices": [],
       "problems": [],
       "signature": "20221226:When scoring a bonus card immediately with \\textbf{Red-Crowned Crane}, ignore any ``at game end'' wording on the bonus card and score it based on the current game state. For \\textbf{Winter Feeder}, score based on the food currently in your personal supply.|20250524:[seed] cached on \\textbf{Coal Tit} or \\textbf{Eurasian Nuthatch} is not in your supply, so it does not count toward the \\textbf{Winter Feeder} bonus card even though you may spend it at any time.|20250201:\\textbf{Great Indian Bustard} can score bonus cards that specify ``at end of game'' or ``at game end,'' such as \\textbf{Visionary Leader} and \\textbf{Winter Feeder}, when its power is used mid-game.",
+      "superseded": [],
       "warnings": []
     },
     "Wood Duck": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20210130",
@@ -6271,10 +6446,11 @@
       "notices": [],
       "problems": [],
       "signature": "20210130:For end-of-round goals that name two food types in the food cost of your birds, count every icon of either type printed in the food costs of your played birds; a single bird does not need to require both. For example, with 5 [fruit] icons and 8 [seed] icons among your played birds, your number for the goal is 13.|20231204:You do not need to keep a card in hand to satisfy \\textbf{Wood Duck}'s power. If you draw 2 [card] with \\textbf{Wood Duck} and then play or tuck all the cards in your hand (for example with \\textbf{Common Chiffchaff}), having no card to discard at the end of your turn is legal.",
+      "superseded": [],
       "warnings": []
     },
     "Wrybill": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20201007",
@@ -6315,6 +6491,13 @@
       "notices": [],
       "problems": [],
       "signature": "20201007:The \\textbf{Wrybill}'s beak points to the left, even though the bird faces forward. The rulebook lists the birds that face forward but whose beaks point left or right.|20220804:A bonus card discarded to score \\textbf{Red-Crowned Crane} goes to the discarded bonus card pile and may be retrieved later with \\textbf{Wrybill}, allowing the same bonus card to be scored twice.|20220903:\\textbf{Wrybill} counts as pointing left for goals and bonus cards that care about bill direction: although the bird is facing straight ahead, its bill points toward the left side of the card. What matters is the bill, not the bird's face.",
+      "superseded": [
+        {
+          "id": "20201007",
+          "merged_into": "20220903",
+          "source": "https://stonemaiergames.com/games/wingspan/wingspan-oceania-expansion/comment-page-17/#comment-41798"
+        }
+      ],
       "warnings": []
     },
     "Yellow-Billed Cuckoo": {
@@ -6452,7 +6635,7 @@
       "warnings": []
     },
     "Yellowhammer": {
-      "applied": false,
+      "applied": true,
       "before": [
         {
           "id": "20191204",
@@ -6481,6 +6664,13 @@
       "notices": [],
       "problems": [],
       "signature": "20191204:If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.|20230910:If you use \\textbf{Yellowhammer}'s power to play a bird with a round-end (teal) power, you may activate that newly played bird's power, as long as you are still in the round-end power activation step.",
+      "superseded": [
+        {
+          "id": "20191204",
+          "merged_into": "20230910",
+          "source": "https://www.boardgamegeek.com/thread/2324875/article/33515239#33515239"
+        }
+      ],
       "warnings": []
     }
   }

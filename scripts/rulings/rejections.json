@@ -1,0 +1,53 @@
+{
+  "_README": [
+    "Rulings a human judged unpublishable, and why. This file is the only way to make a",
+    "removal stick: propose.py derives 'already handled' from the TSV's source column, so",
+    "deleting a row without recording it here means the next refresh re-proposes the same",
+    "comment, forever. applied_comment_ids() unions these comment ids in.",
+    "",
+    "It is also the corpus's error log. Every entry is a case where the pipeline published",
+    "something wrong, kept in full so a later reviewer -- human or model -- can see the",
+    "failure mode rather than rediscover it. propose.py and curate.py are fed the reasons",
+    "as prompt context, so an entry here teaches the next run what not to do again.",
+    "",
+    "verdict is one of:",
+    "  misreads-source  the ruling does not say what its cited comment says (transcription bug)",
+    "  not-official     the cited author is not a publisher/designer voice",
+    "  hedged           the official answer was not firm (\"could go either way\", never followed up)",
+    "  superseded       a later official answer contradicts it and is correct",
+    "  wrong            substantively wrong for a reason other than the above",
+    "",
+    "Never delete an entry to 'clean up'. Removing one un-blocks the comment and the ruling",
+    "returns. Only remove one if the rejection itself turns out to be the mistake."
+  ],
+  "rejections": [
+    {
+      "ruling_id": "20260617",
+      "cards": ["Loggerhead Shrike", "Grey Shrikethrush"],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-76/#comment-159953",
+      "comment": "159953",
+      "verdict": "misreads-source",
+      "date": "2026-08-30",
+      "by": "matej + claude",
+      "reason": [
+        "The published ruling asserted the exact opposite of its source. Eric Chow asked \"So",
+        "the bird power activation is considered part of the main action. here 'gain food'",
+        "action?\" and Jamey Stegmaier answered \"A bird power about gaining food is not part of",
+        "the main action. The main actions are printed on the player mat.\" -- a no. The ruling",
+        "we published from it said Loggerhead Shrike triggers \"including [rodent] gained from a",
+        "bird power activated during that action\", i.e. a yes.",
+        "",
+        "The transcription inverted the conclusion while copying the principle correctly, so the",
+        "text read as coherent and self-justifying, and curate.py then reasoned about it as the",
+        "newest ruling 'reversing' the four older ones -- a conflict that exists nowhere in the",
+        "source corpus. All five Stonemaier answers on this card agree: 20190405 (Jamey),",
+        "20191029 (Joe Aubrey), 20191218 (Jamey), 20260708 (Joe Aubrey, and the newest of all)",
+        "all say bird-power food does not trigger the Shrike.",
+        "",
+        "Failure mode to watch for: a terse answer that negates the *premise* of a paraphrase",
+        "question (\"So X counts as Y?\" / \"X is not Y\"). The polarity lives in the question,",
+        "which is not quoted in the ruling, so nothing in the published text looks wrong."
+      ]
+    }
+  ]
+}
