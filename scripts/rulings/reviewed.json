@@ -27,9 +27,33 @@
     "reason quotes it: the question the terse answer was replying to, recovered by walking",
     "`parent` up the comment thread. A short answer's polarity lives in its question, so that",
     "quote is the whole check -- read it against the ruling and the approval either holds or",
-    "it does not. Three items in that pass were not approved; the rulings were changed."
+    "it does not. Three items in that pass were not approved; the rulings were changed.",
+    "",
+    "The 38 approvals dated 2026-08-31 clear the medium-confidence and qualified-answer",
+    "queues. Each was read against the whole comment thread rather than the cited comment,",
+    "because both queues are about scope, not polarity: a medium verdict usually means the",
+    "rule was transferred to a card the thread did not name, and a qualified verdict means",
+    "the official answer carried a caveat. So the reason for each says which comment licenses",
+    "which clause, and -- for a transfer -- why the unnamed card is covered. Four items were",
+    "not approved as they stood: two omnibus rows were split (20201104, 20260208), one hedge",
+    "was restored (20260128) and one addition was rewritten as a consequence (20190311)."
   ],
   "reviews": {
+    "20190311@American Oystercatcher": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "77f6201b49fefd47",
+      "reason": [
+        "Approved as rewritten. Source is Jamey relaying David Studley: \"The answer is 3. You draw 3,",
+        "keep 2. The Automa gets nothing, as usual.\" The row now derives the third card's discard",
+        "from the Automa getting nothing instead of asserting it. Kept even though it is a solo-mode",
+        "answer relayed from the Automa designer, which §2 normally keeps out of card rulings: it is",
+        "about how this card's own power is executed, the row names the Automa so its scope is",
+        "visible on the card, and it is the only guidance a solo player has for a power that deals",
+        "cards to opponents."
+      ]
+    },
     "20190416@Osprey": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -107,6 +131,42 @@
         "question in that direction."
       ]
     },
+    "20200108@Gray Catbird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "29e4273367585dfc",
+      "reason": [
+        "The Chihuahuan Raven cost clause is licensed by 35726's EDIT, now recorded in extra-",
+        "citations.json; the cited 36250 covers the tucking and Citizen Scientist halves. The thread",
+        "is about Northern Mockingbird and this card's power is identical. The row follows the EDIT,",
+        "not 35726's unedited first sentence (\"as if it's printed on the repeating bird\"), which is",
+        "the repeat-versus-copy error Jamey corrected in place in the same comment."
+      ]
+    },
+    "20200108@Northern Mockingbird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "29e4273367585dfc",
+      "reason": [
+        "Same evidence as 20200108@Gray Catbird -- 35726's EDIT for the Chihuahuan Raven cost clause,",
+        "36250 for the rest. This is the card Stan actually asked about."
+      ]
+    },
+    "20200113@Blue Jay": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "0160f68380c2338b",
+      "reason": [
+        "\"Yes, you can do that\" answers \"If there is 1 die in the feeder (since I'm looking for food)",
+        "can I reroll all dice to see if a grain comes?\" The row also states the same-face condition,",
+        "which is the rulebook's rather than the comment's -- but removing it would read as an",
+        "unconditional reroll, which is worse than stating it. Blue Jay carries 20240713, Jamey's",
+        "statement of what the reroll rules are, and the two agree."
+      ]
+    },
     "20200301@Hooded Warbler": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -132,6 +192,19 @@
         "direction."
       ]
     },
+    "20200423@Blue Jay": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "3f8a41a0a0495d0e",
+      "reason": [
+        "Both halves are in the reply: '\"You may cache it\" means you have a choice. Either keep it in",
+        "your supply or cache it on the bird. The choice cannot be changed later.' and \"1. For the",
+        "Sandhill Crane, you must discard a [seed] to be able to tuck two cards from the deck.\" The",
+        "Sandhill Crane contrast answers the asker's 2-for-1 substitution question, so pairing the",
+        "two is the source's doing, not the curator's."
+      ]
+    },
     "20200512@Eurasian Green Woodpecker": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -144,6 +217,42 @@
         "Green Woodpecker played in round 1 could activate 4 times if it qualified for all 4 round",
         "end goals?”  Joe Aubrey answered: “That's correct!”  The ruling answers that question in",
         "that direction."
+      ]
+    },
+    "20200725@Eurasian Tree Sparrow": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "9be00b826a6a06ce",
+      "reason": [
+        "\"So this power can be activated and still receive no food. So following the normal pink",
+        "power rules, you could not activate this bird again until after your next turn. If a reroll",
+        "was involved or not is irrelevant.\" The row says \"whether the birdfeeder was reset first is",
+        "irrelevant\"; the appendix text Joe quotes two sentences earlier in the same comment calls",
+        "that operation a reset (\"If all dice in the birdfeeder show the same face, you may reset",
+        "it\"), so reset and reroll are the same act here."
+      ]
+    },
+    "20201002@Mourning Dove": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "aeee95d3718a9704",
+      "reason": [
+        "\"A single [nectar] to pay a cost of 1 [seed]\" is comment 41624 -- \"Yes, 1 nectar can be used",
+        "to play the Mourning Dove\" -- whose cost is exactly 1 [seed]; 41621 states the general form.",
+        "Both are now in extra-citations.json. The not-for-powers half is the cited 41634."
+      ]
+    },
+    "20201002@Ruby-Throated Hummingbird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "69553b5fff0d9d03",
+      "reason": [
+        "Same two comments as 20201002@Mourning Dove. Attached to the hummingbird, whose [wild] cost",
+        "the thread also discusses; the rule is about nectar, not about this card, so the transfer",
+        "carries nothing card-specific with it."
       ]
     },
     "20201005@Kākāpō": {
@@ -185,6 +294,36 @@
         "The ruling answers that question in that direction."
       ]
     },
+    "20201104b@Common Blackbird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "42864ed1b63f42d6",
+      "reason": [
+        "Robin asked: \"The Common Blackbird can be placed sideways to cover 2 Forest spaces. When you",
+        "are totaling how many birds are in the forest for Bonus Round scoring, for example, does",
+        "this count as two birds or 1?\" Joe Aubrey answered: \"3. It's still one bird.\" The ruling",
+        "answers that question in that direction.",
+        "",
+        "Split out of 20201104 in this pass. That row was one numbered reply's items 1 and 3",
+        "published whole, so Wild Turkey and American Woodcock -- neither of them a sideways bird --",
+        "were being told about Common Blackbird's placement. Also narrowed from \"goals and bonus",
+        "cards that count birds\" to counting birds in a habitat, which is what was asked and",
+        "answered."
+      ]
+    },
+    "20201205@Grey Shrikethrush": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "7bba192acc07f572",
+      "reason": [
+        "Both halves are verbatim in 42873: 'When you see the \"any food\" icon on a bird cost, you can",
+        "use any food (including nectar)'; \"When you see the nectar icon, however, you must pay",
+        "nectar\"; \"Nectar itself is wild, so you can use nectar in place of other specific food",
+        "types.\" The thread names this card, so the attachment is direct."
+      ]
+    },
     "20201206@Red-Winged Parrot": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -208,6 +347,31 @@
         "Keeping the verdict rather than forcing it to faithful: the model is reasoning correctly",
         "from what it was given, and loosening the gate to make one item green would cost the",
         "next inversion."
+      ]
+    },
+    "20201230a@Mechanical Engineer": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "2349358bfdf2ad12",
+      "reason": [
+        "\"You must have at least 2 to gain 3 points, and at least 4 to gain 7 points\" (43330),",
+        "restated by 38008. The generic form -- a tiered bonus card pays the tier reached, not points",
+        "per bird -- is how the question was put (\"For bonus cards such as Cartographer, do you get",
+        "one point for each card in the category\"), so applying it to Mechanical Engineer, also",
+        "tiered, stays in scope."
+      ]
+    },
+    "20210104@Turkey Vulture": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "215a52164ea6a903",
+      "reason": [
+        "Q1 \"Yes, that is a successful predator action\" and Q2 \"Nope, the Kingfisher's power happens",
+        "as the final step of their turn, not outside of their turn\" both survive with their",
+        "directions. Identical to 20241223 on Sacred Kingfisher, the other card in the interaction,",
+        "so the pair cannot be read against itself."
       ]
     },
     "20210107@Brown-Headed Cowbird": {
@@ -268,6 +432,28 @@
         "that question in that direction."
       ]
     },
+    "20210417b@Superb Lyrebird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "4cddcdd4ba95b661",
+      "reason": [
+        "\"That's a clever use of the Lyrebid, and I agree that it is a legitimate play\" affirms",
+        "Abitha's whole premise, including the 2-player case where the copied copying power reaches",
+        "your own brown power. Stating the symmetric case transfers it to a card whose power differs",
+        "only in which neighbour it reads."
+      ]
+    },
+    "20210417b@Tūī": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "4cddcdd4ba95b661",
+      "reason": [
+        "Same ruling on the sibling card, which the question names; Tūī's power is Superb Lyrebird's",
+        "with the direction reversed."
+      ]
+    },
     "20210624@Black-Shouldered Kite": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -302,6 +488,30 @@
         "that question in that direction."
       ]
     },
+    "20220307@Golden Eagle": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "99f2dd166f516504",
+      "reason": [
+        "The on-mat requirement is quoted almost verbatim: \"If they refer some characteristic of",
+        "other birds, unless they specifically say otherwise (like a card that looks at the top card",
+        "of the deck), the only applicable birds are those currently on your player mat.\" The second",
+        "clause is Jamey's own worked example, which activates Golden Eagle and then repeats it",
+        "through Hooded Merganser in the same turn -- which is why this row sits on Golden Eagle at",
+        "all."
+      ]
+    },
+    "20220307@Hooded Merganser": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "99f2dd166f516504",
+      "reason": [
+        "Same comment, on the card that was asked about. Both clauses are in 51041, the second as the",
+        "worked example."
+      ]
+    },
     "20220430@Australian Ibis": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -311,6 +521,67 @@
         "Jamez asked: “I suppose bonus cards get discarded face down, but what about bird cards? This",
         "came up when Australian Ibis was activated.”  Jamey Stegmaier answered: “Face up for both",
         ":)”  The ruling answers that question in that direction."
+      ]
+    },
+    "20220804@Red-Crowned Crane": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "6333c76a04ec4e90",
+      "reason": [
+        "\"That's right!\" affirms Fred's whole premise: the discarded bonus card goes to the discard",
+        "pile, can be taken back, \"and if so, it makes it possible to score 2 times the same",
+        "bonuscard.\" Fred could not name the retrieving bird (\"don't know the name right now\"), so",
+        "both names in the row are curatorial -- and both check out against the card texts: Wrybill",
+        "is the only card that says \"Look through all discarded bonus cards. Keep 1 of them\", and",
+        "Red-Crowned Crane the only one that discards a bonus card for points."
+      ]
+    },
+    "20220804@Wrybill": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "6333c76a04ec4e90",
+      "reason": [
+        "Same thread and same identification check, from the retrieving side. This is the card Fred",
+        "described without naming."
+      ]
+    },
+    "20220826@Common Raven": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "3da7321edf54af83",
+      "reason": [
+        "Availability comes from 54600, which quotes the Oceania rulebook verbatim including the",
+        "suggestion to remove these two birds; \"you are never obligated to choose it\" comes from",
+        "42860 ('No, it's just saying that the \"any food\" icon includes nectar among the other foods",
+        "from which you can choose'). Both official, both about this card, and the merge does not",
+        "change either."
+      ]
+    },
+    "20221112@Hermit Thrush": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "271aa6ef33acdaf1",
+      "reason": [
+        "The caveat is the whole point of the answer and survives intact: \"it's always your choice to",
+        "activate or not activate an ability. If you do choose to activate an ability, though, the",
+        "entire ability activates (i.e., you can't pick and choose the part of the ability you like",
+        "and ignore the part you dislike).\""
+      ]
+    },
+    "20221123@Indian Peafowl": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "3eba85c815eb2d75",
+      "reason": [
+        "\"Unless a power specifies that you must draw from the deck or the bird tray, you can always",
+        "choose where you draw from\" answers exactly what was asked about this card's additional",
+        "[card]. \"Even though the first 2 [card] must come from the deck\" is printed on the card, not",
+        "inferred."
       ]
     },
     "20221216@Forest Owlet": {
@@ -360,6 +631,47 @@
         "one duet token per bird card so only one'), and that is what the ruling says."
       ]
     },
+    "20231008@European Goldfinch": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "d36ed17a46fb2895",
+      "reason": [
+        "Reshuffling comes from 63499, the nothing-to-tuck conclusion and \"these are actual bird",
+        "cards removed from the deck\" from 63508. The dropped qualifier is \"at least in the analog",
+        "game. In the digital game you can go either way\" -- a scope note about a different",
+        "implementation, not a hedge about the rule. Wingsearch documents the physical game, so the",
+        "analog answer is the answer; recorded here so the omission reads as deliberate rather than",
+        "as a lost caveat."
+      ]
+    },
+    "20231126@Blue Jay": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "9ff3d7fcf83a20d8",
+      "reason": [
+        "'\"May\" indicates a binary option: You may do as instructed, or you may not do it at all',",
+        "and for this card \"you may cache the wheat (or you may keep it in your supply, as you've",
+        "already gained it per the first clause)\". The row's \"never a substitution\" is Jennifer's",
+        "question -- whether \"may\" licenses doing something else instead -- answered with the no the",
+        "binary framing gives."
+      ]
+    },
+    "20231204@Common Grackle": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "5fecfcd45bcca0e9",
+      "reason": [
+        "Jamey quotes the Appendix in full: cards drawn with Great Crested Grebe or Wilson's Storm",
+        "Petrel \"should be kept separate from the other cards you draw and your bird cards in hand.",
+        "They cannot be spent during this turn.\" Tucking with Common Grackle is spending them, so the",
+        "conclusion follows; the card was not named in the thread, which is what makes this a",
+        "transfer rather than a quote. Note this is the id whose earlier published text stated the",
+        "inverse -- the current text tracks the Appendix."
+      ]
+    },
     "20240219@Silvereye": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -374,6 +686,40 @@
         "silvereye?', which licenses the yes but not the old row's 'part of a larger word' --",
         "read that way it contradicts Barred Owl and Baya Weaver. The rule Jamey actually",
         "stated is compound words (comment 60794, now in extra-citations.json)."
+      ]
+    },
+    "20240903@Forster's Tern": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "086817de7ceab162",
+      "reason": [
+        "The row carries only the contrast clause because the main answer -- you are not required to",
+        "keep a card for the end-of-turn discard -- is already on this card as 20210124, with its own",
+        "source. \"The card drawn goes into your hand\" is the implication of \"Only the Great Crested",
+        "Grebe and Wilson's Storm Petrel work differently\"."
+      ]
+    },
+    "20240903@Great Crested Grebe": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "b1d75091ea02f6e6",
+      "reason": [
+        "Joe Aubrey names this card explicitly while answering a question about Forster's Tern, so",
+        "the transfer is the source's own. Agrees with 20231204 on the same card."
+      ]
+    },
+    "20241223@Sacred Kingfisher": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "ac910083804924a0",
+      "reason": [
+        "'Yes! If the Sacred Kingfisher gains a food with its power, then it is definitely a predator",
+        "\"succeeding\"' (108675) plus 43416 for the pink half. The row says \"the player whose turn it",
+        "is\", which leaves Joe's 3-player exception -- the Kingfisher can trigger a third player's",
+        "pink power -- true rather than contradicted."
       ]
     },
     "20250201@Great Indian Bustard": {
@@ -436,6 +782,87 @@
         "that question in that direction."
       ]
     },
+    "20250928@Red Knot": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "5003464d9723c25f",
+      "reason": [
+        "\"If you choose to activate a power, you must follow through with it to completion\" answers",
+        "Cass, who quoted Black-tailed Godwit's power verbatim (\"Draw 1 new bonus card. Then draw 3",
+        "card and keep 1 of them\"). Red Knot has that power, so both specifics in the row -- no",
+        "declining the bonus card after seeing it, keep 1 of the 3 -- are that answer applied to it."
+      ]
+    },
+    "20251210@Blackpoll Warbler": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "0680106f5fdb5f65",
+      "reason": [
+        "Approved as rewritten. 138386 (\"A “poll” is not a body part I'm aware of\") and the cited",
+        "139622 (\"Technically I wouldn't say it counts since it's an interpretation of a word instead",
+        "of an anatomical word, but as long as you're consistent with your group, it's fine\") point",
+        "the same way. The house-rule permission had been flattened into a bare no on this row and",
+        "was restored in the previous pass; the Anatomist row had kept it all along."
+      ]
+    },
+    "20260124@Bonelli's Eagle": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "f5dfa9b413f5ebd6",
+      "reason": [
+        "'You do still get \"when played\" powers, but powers that refer to a paid cost have no effect",
+        "(since you're playing it for free)' was written about exactly this pair of cards, so naming",
+        "Bonelli's Eagle's tuck is the application of the answer, not an extension of it."
+      ]
+    },
+    "20260124@Yellow-Eyed Penguin": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "6788756cd3aa7736",
+      "reason": [
+        "Same comment, from the other card in the interaction. No conflict with 20260728, which makes",
+        "the same \"when played\" point."
+      ]
+    },
+    "20260128@Ivory Gull": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "f8140b792d75bb2c",
+      "reason": [
+        "Approved as rewritten: \"never to play a bird\" is now \"not to play a bird\", matching \"I would",
+        "say no. It's close, but it's not meant to replace the cost of playing a bird, just the cost",
+        "of a bird power.\" The Tufted Titmouse case is the asker's own. The card text agrees (\"You",
+        "may spend food on this bird when activating a bird power\"), and 20260210 on the same card",
+        "states the permitted use, so the pair reads as one rule from both sides."
+      ]
+    },
+    "20260208@Great Kiskadee": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "ab8e9b2c6e6602ed",
+      "reason": [
+        "Split in this pass. The habitat half now stands alone and is cited to 145504 (\"you only",
+        "activate cards in the row with your action token. So if the bird starts in the forest and",
+        "moves to the wetlands, you only proceed to activate the remaining wetlands birds\"), where",
+        "the combined row had cited the later pink-power comment. Lineated Woodpecker was asked about",
+        "in the same breath but already carries this half as 20260307, with its own source."
+      ]
+    },
+    "20260208@Tropical Kingbird": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "ab8e9b2c6e6602ed",
+      "reason": [
+        "Same split; this card is named both in Adelyn's question and in 145504's answer."
+      ]
+    },
     "20260208a@Altamira Oriole": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -447,6 +874,44 @@
         "question in that direction."
       ]
     },
+    "20260213@Muscovy Duck": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "527b4f15f8ab0b7e",
+      "reason": [
+        "\"It only says attract, not return, so you only have the option to attract (if you have 1 or",
+        "2 open spaces. And yes, you can gain the nectar.\" Both halves survive. \"If all your",
+        "hummingbird spaces are full you attract none\" is the asker's own framing -- \"does this mean",
+        "you must have two clear rows... and if full you cant attract any\" -- which Jamey answered by",
+        "restricting the power to open spaces."
+      ]
+    },
+    "20260305@Blue-Headed Parrot": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "d778ded3a055356b",
+      "reason": [
+        "\"You'll just gain at most 1 food token from this power\" answers \"do you get to choose one of",
+        "the two or do you get both from the supply?\" Ruling out both leaves choosing, so the row's",
+        "\"choose which one\" is the other half of the same answer rather than an addition."
+      ]
+    },
+    "20260324@Garden Warbler": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "bf05400a39be45c2",
+      "reason": [
+        "Ordering from 151259 verbatim (\"The egg laying happens last, after you've finished playing",
+        "the other bird (including it's \"when played\" power, if any)\"); the Red Kite case from",
+        "151361, \"I would say yes, the egg laying still takes place.\" The row states it flatly. \"I",
+        "would say\" is a politeness marker, not a stated qualification -- unlike \"at least for now\"",
+        "or \"as long as you're consistent with your group\", which are limits or permissions a player",
+        "needs and which this review restores wherever they were dropped."
+      ]
+    },
     "20260712@Orinoco Goose": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -456,6 +921,20 @@
         "Graham Sadie asked: “Does the Orinoco goose's power include neighbouring nests of star type",
         "as well as box nests?”  Jamey Stegmaier answered: “It does!”  The ruling answers that",
         "question in that direction."
+      ]
+    },
+    "20260731@Red-Legged Seriema": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "68370f2c0f4a0ccd",
+      "reason": [
+        "The cited 165106 is Jamey's answer after Patricia identified the card, and it reverses the",
+        "general guess he had offered in 165088 before seeing it (\"It seems to me that both of these",
+        "situations would let you gain the seeds, reset, then cache the rodent\"). The later, card-",
+        "specific answer is the ruling, on the newer-and-more-specific-wins precedent. Hedged in",
+        "wording only (\"The way I read this particular card... I would not say\"), which the row",
+        "states flatly -- the same reading of hedges as 20260324."
       ]
     }
   }

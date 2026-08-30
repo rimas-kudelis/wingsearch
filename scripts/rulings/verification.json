@@ -428,20 +428,20 @@
     "20190311@American Oystercatcher": {
       "ruling_id": "20190311",
       "card": "American Oystercatcher",
-      "question_restated": "Against the Automa, which option is correct: draw 3 and keep 2 with the Automa getting nothing?",
+      "question_restated": "In a solo game vs the Automa, of the three options, is it correct to draw 3 cards, keep 2, and give the Automa nothing (the third being discarded)?",
       "answer_polarity": "yes",
       "licensing_quote": "David says, \"The answer is 3. You draw 3, keep 2. The Automa gets nothing, as usual.\"",
       "verdict": "faithful",
       "confidence": "medium",
-      "note": "Faithful in content. Note the source says the Automa gets nothing; the ruling says \"discard the other\", which is a small addition not stated by the source (the third card's disposition). Also an Automa (solo-mode) answer relayed from David Studley, which per §2 is normally kept out of card rulings.",
+      "note": "Source says the Automa gets nothing; the ruling's added detail that the third card 'is discarded' is a small inference not stated verbatim, though it follows from drawing 3 and keeping 2. Also note this is an Automa (solo) answer relayed from David Studley, which the domain notes keep separate from card rulings.",
       "contradicts": [],
       "problems": [],
-      "signature": "0dc45483deba8f7e",
+      "flags": [],
+      "signature": "77f6201b49fefd47",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "31504"
-      ],
-      "flags": []
+      ]
     },
     "20190405@Loggerhead Shrike": {
       "ruling_id": "20190405",
@@ -799,37 +799,43 @@
     "20200108@Gray Catbird": {
       "ruling_id": "20200108",
       "card": "Gray Catbird",
-      "question_restated": "When a repeat power repeats a tucking power (e.g. Barn Swallow), does the card get tucked under the repeating bird, does it count for the tucked-cards goal, and does it grant a flocking power / count for Citizen Scientist?",
-      "answer_polarity": "no",
+      "question_restated": "Does the repeating bird take on the other bird's power (so tucked cards go under the repeater and costs are read as if printed on it), and does a bird gaining tucked cards this way get a flocking power / count for Citizen Scientist?",
+      "answer_polarity": "qualified",
       "licensing_quote": "The Mockingbird does not take on the powers of the other bird and so in this instance would not gain a tucked card. In the European Expansion there are some cards that allow you to tuck cards on other birds, and to answer the second part of your question, that does not give the \"flocking power\" to that bird, but would count for the \"Citizen Scientist\" bonus card in the European Expansion which only looks for \"birds with tucked cards.\"",
       "verdict": "faithful",
       "confidence": "medium",
-      "note": "Main conclusions (no taking on the power, tucks go behind the repeated bird, no flocking power, counts for Citizen Scientist) are licensed by 36250. The Chihuahuan Raven egg-cost clause comes from the same thread's earlier exchange (35725/35726 as edited), not from the cited comment; derived from the thread rather than invented, but worth a reviewer's eye. Thread is about Northern Mockingbird; transfers to Gray Catbird, identical power.",
+      "note": "Derived from the Northern Mockingbird thread but the rule is about repeat powers generally, so it transfers to Gray Catbird. Joe Aubrey (36250) licenses the tucking, flocking and Citizen Scientist clauses; Jamey's EDIT in 35726 (\"The repeat bird does not take on the power of the other bird\") licenses the first sentence, while 35726's pre-edit sentence says the opposite -- the ruling correctly follows the EDIT, matching the domain notes on repeat-versus-copy. The Chihuahuan Raven cost clause is an inference from 'the other bird repeats its own power', not stated verbatim; medium confidence on that clause only.",
       "contradicts": [],
       "problems": [],
-      "flags": [],
-      "signature": "ab4ea5227812deee",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "29e4273367585dfc",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "36250"
+        "36250",
+        "35726"
       ]
     },
     "20200108@Northern Mockingbird": {
       "ruling_id": "20200108",
       "card": "Northern Mockingbird",
-      "question_restated": "When the Mockingbird repeats a tucking power, does the card tuck under the Mockingbird, and does the repeated bird gain a flocking power / count for Citizen Scientist?",
-      "answer_polarity": "no",
+      "question_restated": "Does Northern Mockingbird take on the copied bird's power (tucks going under itself, costs read as its own), and does the tucked-card bird gain a flocking power or count for Citizen Scientist?",
+      "answer_polarity": "qualified",
       "licensing_quote": "The Mockingbird does not take on the powers of the other bird and so in this instance would not gain a tucked card. In the European Expansion there are some cards that allow you to tuck cards on other birds, and to answer the second part of your question, that does not give the \"flocking power\" to that bird, but would count for the \"Citizen Scientist\" bonus card in the European Expansion which only looks for \"birds with tucked cards.\"",
       "verdict": "faithful",
       "confidence": "medium",
-      "note": "Same as the Gray Catbird instance: the Chihuahuan Raven cost clause rests on comment 35726's EDIT in the same thread rather than on the cited comment 36250. Note 35726's unedited first sentence (\"as if it's printed on the repeating bird\") is the known-wrong version, self-corrected in the same comment's EDIT, which the ruling follows.",
+      "note": "This is the card actually asked about. Direction is correct: source says the repeater does NOT take on the other bird's power, and the ruling says the same. Chihuahuan Raven cost detail is an inference (the original 35725 question about which egg is answered only implicitly), hence medium.",
       "contradicts": [],
       "problems": [],
-      "flags": [],
-      "signature": "ab4ea5227812deee",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "29e4273367585dfc",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "36250"
+        "36250",
+        "35726"
       ]
     },
     "20200110@Eurasian Nutcracker": {
@@ -1598,39 +1604,45 @@
     "20201002@Mourning Dove": {
       "ruling_id": "20201002",
       "card": "Mourning Dove",
-      "question_restated": "Can one nectar be used to pay Mourning Dove's cost of 1 grain, and is nectar barred when a bird's power names a specific food?",
+      "question_restated": "Can one nectar be spent to pay Mourning Dove's cost of 1 grain, and can nectar substitute for a specific food named in a bird's power?",
       "answer_polarity": "qualified",
-      "licensing_quote": "Nectar is wild for playing birds. You cannot use nectar when a bird's power refers to a specific food type",
+      "licensing_quote": "Yes, 1 nectar can be used to play the Mourning Dove.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same ruling text on the card that was explicitly asked about; 'a single [nectar] to pay a cost of 1 [seed]' matches comment 41624 ('Yes, 1 nectar can be used to play the Mourning Dove', whose cost is 1 grain/seed).",
+      "note": "Same merged ruling as the Ruby-Throated Hummingbird row; the power-substitution clause is licensed by 41634.",
+      "contradicts": [],
       "problems": [],
       "flags": [
         "official answer was qualified; check the caveat survived into the ruling"
       ],
-      "signature": "f3d6dacbf968be61",
+      "signature": "aeee95d3718a9704",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "41634"
+        "41634",
+        "41621",
+        "41624"
       ]
     },
     "20201002@Ruby-Throated Hummingbird": {
       "ruling_id": "20201002",
       "card": "Ruby-Throated Hummingbird",
-      "question_restated": "Since Mourning Dove needs no specific food for its power, may nectar pay its cost, whereas nectar may not be used where a bird's power requires a specific food?",
+      "question_restated": "Is nectar wild for paying any food in a bird's play cost (e.g. 1 nectar for a 1-grain cost), and can it substitute for a specific food required by a bird's power?",
       "answer_polarity": "qualified",
       "licensing_quote": "Nectar is wild for playing birds. You cannot use nectar when a bird's power refers to a specific food type",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The 'including a single [nectar] to pay a cost of 1 [seed]' detail is licensed by comments 41621/41624 in the same thread ('1 nectar can be used to play the Mourning Dove', cost 1 grain). Ruling is attached to Ruby-Throated Hummingbird, which is named in the thread as a wild-cost bird; the rule transfers.",
+      "note": "Combines 41621/41624 (wild for costs, incl. 1 nectar for Mourning Dove's 1 grain) with 41634 (not for powers requiring a specific food). Ruby-Throated Hummingbird was named in the thread as the wild-cost example.",
+      "contradicts": [],
       "problems": [],
       "flags": [
         "official answer was qualified; check the caveat survived into the ruling"
       ],
-      "signature": "3f86b083a44902a8",
+      "signature": "69553b5fff0d9d03",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "41634"
+        "41634",
+        "41621",
+        "41624"
       ]
     },
     "20201005@Kākāpō": {
@@ -1784,59 +1796,55 @@
     "20201104@American Woodcock": {
       "ruling_id": "20201104",
       "card": "American Woodcock",
-      "question_restated": "Does the \"white & no powers\" end-of-round goal count only birds with no power at all, or also white \"when played\" birds? And does sideways-placed Common Blackbird count as two birds?",
-      "answer_polarity": "not-a-yes-no-question",
+      "question_restated": "Does the 'White & No Powers' end-of-round goal count both white 'when played' birds and powerless birds such as American Woodcock?",
+      "answer_polarity": "yes",
       "licensing_quote": "1. This end-round goal counts birds that have \"when played\" powers and also birds that have no powers.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Correctly transferred; American Woodcock is one of the asker's no-power examples.",
       "contradicts": [],
-      "note": "Both halves supported: the goal covers both categories, and Q3 (\"It's still one bird.\") licenses the Common Blackbird sentence. The ruling generalises \"one bird\" from forest-count scoring to goals and bonus cards generally, which is a small but reasonable extension of the asked context.",
       "problems": [],
-      "signature": "21bc9d128e4f8385",
+      "flags": [],
+      "signature": "c78d111bcfb0134f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "42388"
-      ],
-      "flags": []
+      ]
     },
     "20201104@Common Blackbird": {
       "ruling_id": "20201104",
       "card": "Common Blackbird",
-      "question_restated": "Does the 'white & no powers' goal include white 'when played' birds as well as powerless birds, and does sideways Common Blackbird count as 2 birds?",
-      "answer_polarity": "qualified",
+      "question_restated": "Does the European 'White & No Powers' end-of-round goal count only birds with no power at all, or also white 'when played' birds like Common Blackbird? (i.e. does it include both?)",
+      "answer_polarity": "yes",
       "licensing_quote": "1. This end-round goal counts birds that have \"when played\" powers and also birds that have no powers.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Two parts: Q1 answered yes-both (quoted span); Q3 answered 'It's still one bird.' Ruling's generalisation to 'goals and bonus cards that count birds' slightly extends the asker's bonus-round-scoring context but is within the answer's scope.",
+      "note": "Card examples (American Woodcock, Wild Turkey, Common Blackbird) come from the asker's question, which the official reply adopts by answering '1.'",
       "contradicts": [],
       "problems": [],
-      "signature": "21bc9d128e4f8385",
+      "flags": [],
+      "signature": "c78d111bcfb0134f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "42388"
-      ],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
       ]
     },
     "20201104@Wild Turkey": {
       "ruling_id": "20201104",
       "card": "Wild Turkey",
-      "question_restated": "Does the \"White & No Powers\" end-of-round goal count only birds with no powers, or also white \"when played\" birds — and does a sideways Common Blackbird count as 2 birds?",
-      "answer_polarity": "qualified",
+      "question_restated": "Does the 'White & No Powers' end-of-round goal count both white 'when played' birds and birds with no powers (like Wild Turkey)?",
+      "answer_polarity": "yes",
       "licensing_quote": "1. This end-round goal counts birds that have \"when played\" powers and also birds that have no powers.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Correctly transferred to Wild Turkey, named in the question as a no-power example.",
       "contradicts": [],
-      "note": "Both clauses licensed: item 1 for the goal scope, item 3 (\"It's still one bird.\") for the Common Blackbird counting as 1 bird; the ruling's extension of that to \"goals and bonus cards that count birds\" tracks the asker's bonus-round-scoring framing.",
       "problems": [],
-      "signature": "21bc9d128e4f8385",
+      "flags": [],
+      "signature": "c78d111bcfb0134f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "42388"
-      ],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
       ]
     },
     "20201104a@Breeding Manager": {
@@ -1855,6 +1863,26 @@
         "42392"
       ],
       "flags": []
+    },
+    "20201104b@Common Blackbird": {
+      "ruling_id": "20201104b",
+      "card": "Common Blackbird",
+      "question_restated": "When counting how many birds are in the forest (e.g. for end-of-round goals), does a sideways Common Blackbird covering 2 forest spaces count as 2 birds?",
+      "answer_polarity": "no",
+      "licensing_quote": "3. It's still one bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Terse answer; polarity recovered from question 3, which offered 'two birds or 1'. Ruling correctly says one bird.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 23 chars (\"3. It's still one bird.\"), so the ruling's direction rests on the question"
+      ],
+      "signature": "42864ed1b63f42d6",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "42388"
+      ]
     },
     "20201116@Anatomist": {
       "ruling_id": "20201116",
@@ -6397,20 +6425,20 @@
     "20260128@Ivory Gull": {
       "ruling_id": "20260128",
       "card": "Ivory Gull",
-      "question_restated": "Can food cached on Ivory Gull be used to pay for playing a bird that a bird power lets you play, e.g. via Tufted Titmouse?",
+      "question_restated": "May food cached on Ivory Gull be used to pay for a bird played as a result of a bird power, e.g. Tufted Titmouse?",
       "answer_polarity": "no",
       "licensing_quote": "I would say no. It's close, but it's not meant to replace the cost of playing a bird, just the cost of a bird power.",
       "verdict": "faithful",
       "confidence": "medium",
-      "note": "Polarity is correct: 'no' to spending on playing a bird. Slight hedge in the source ('I would say no', 'It's close') is dropped, and the ruling's 'never' is a touch firmer than the source, but the substance matches. Does not contradict 20260210, which states the permitted use.",
+      "note": "Direction and scope match. The ruling drops the source's hedge ('I would say no. It's close') and states it flatly, which is a mild firming-up but not a change of direction; a reviewer may wish to restore the hedge.",
       "contradicts": [],
       "problems": [],
-      "signature": "7997d564f009464d",
+      "flags": [],
+      "signature": "f8140b792d75bb2c",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "145297"
-      ],
-      "flags": []
+      ]
     },
     "20260128@Tufted Titmouse": {
       "ruling_id": "20260128",
@@ -6471,40 +6499,42 @@
     "20260208@Great Kiskadee": {
       "ruling_id": "20260208",
       "card": "Great Kiskadee",
-      "question_restated": "When Great Kiskadee/Tropical Kingbird move with the action cube, do you also activate the new habitat's core action (no -- only continue activating birds there), and for pink 'once between turns' powers triggered by another player's core action, does the starting or ending habitat's action count?",
+      "question_restated": "When these birds move with the action cube to a new habitat, do you just continue activating the remaining brown powers there, or do you also activate the core (biome) action of the new habitat?",
       "answer_polarity": "qualified",
-      "licensing_quote": "Since you take the core action at the beginning of your turn, it's where the cube started.",
+      "licensing_quote": "These all say to move the bird with the action token, and you only activate cards in the row with your action token. So if the bird starts in the forest and moves to the wetlands, you only proceed to activate the remaining wetlands birds.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling merges two official comments in the same thread: comment 145504 licenses the first sentence ('you only activate cards in the row with your action token'), comment 146910 (the cited one) licenses the pink-power sentence. Lineated Woodpecker was also asked about but is not named here; that is a scope narrowing, not a distortion.",
+      "note": "Official answer says you only activate cards in the new row, i.e. continue with the remaining birds there and not the new habitat's core action. Ruling matches; the question offered two alternatives and the answer picked the first, so the ruling's 'you do not activate the core action' is the direct implication.",
       "contradicts": [],
       "problems": [],
-      "signature": "04349b01658a7bd1",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "146910"
-      ],
       "flags": [
         "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "ab8e9b2c6e6602ed",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "145504"
       ]
     },
     "20260208@Tropical Kingbird": {
       "ruling_id": "20260208",
       "card": "Tropical Kingbird",
-      "question_restated": "For a pink 'once between turns' power triggering on another player's core action, does it trigger based on the habitat where the cube started or where it ended after the move?",
-      "answer_polarity": "not-a-yes-no-question",
-      "licensing_quote": "Since you take the core action at the beginning of your turn, it's where the cube started.",
+      "question_restated": "When Tropical Kingbird moves with the action cube to a new habitat, do you only continue activating birds there, or also activate the new habitat's core action?",
+      "answer_polarity": "qualified",
+      "licensing_quote": "These all say to move the bird with the action token, and you only activate cards in the row with your action token. So if the bird starts in the forest and moves to the wetlands, you only proceed to activate the remaining wetlands birds.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling merges two official comments in the same thread: 145504 licenses the first sentence ('you only activate cards in the row with your action token') and 146910 licenses the pink-power conclusion. Both are official Jamey replies in the cited thread; the second sentence's quote is copied from 146910.",
+      "note": "The asker named Tropical Kingbird explicitly and the answer says 'These all', so the transfer to this card is licensed by the source.",
       "contradicts": [],
       "problems": [],
-      "signature": "04349b01658a7bd1",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "ab8e9b2c6e6602ed",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "146910"
-      ],
-      "flags": []
+        "145504"
+      ]
     },
     "20260208a@Altamira Oriole": {
       "ruling_id": "20260208a",
@@ -6524,6 +6554,60 @@
       ],
       "flags": [
         "terse source: the licensing quote is 7 chars ('You do!'), so the ruling's direction rests on the question"
+      ]
+    },
+    "20260208b@Great Kiskadee": {
+      "ruling_id": "20260208b",
+      "card": "Great Kiskadee",
+      "question_restated": "For pink 'once between turns' powers that trigger on another player taking a specific core action, does the trigger look at the habitat where the cube started, where it ended, or both?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "Since you take the core action at the beginning of your turn, it's where the cube started.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Three-option question; official answer selects 'where the cube started' with the stated reason. Ruling reproduces both the answer and the reason.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "45d863019d0a6a3e",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "146910"
+      ]
+    },
+    "20260208b@Lineated Woodpecker": {
+      "ruling_id": "20260208b",
+      "card": "Lineated Woodpecker",
+      "question_restated": "For pink 'once between turns' triggers on a core action, is it the habitat where the cube started or where it ended that counts?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "Since you take the core action at the beginning of your turn, it's where the cube started.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Lineated Woodpecker was one of the three cards named in the parent question; faithful transfer.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "45d863019d0a6a3e",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "146910"
+      ]
+    },
+    "20260208b@Tropical Kingbird": {
+      "ruling_id": "20260208b",
+      "card": "Tropical Kingbird",
+      "question_restated": "For pink 'once between turns' triggers on a core action, does the habitat where the cube started or ended count?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "Since you take the core action at the beginning of your turn, it's where the cube started.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Question covered all three of these move-with-cube birds; faithful transfer.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "45d863019d0a6a3e",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "146910"
       ]
     },
     "20260209@Great Eared Nightjar": {

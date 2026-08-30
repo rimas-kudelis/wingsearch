@@ -25,7 +25,7 @@
     "comment is re-proposed on every future refresh, forever. Recording it here is what makes a",
     "fold stick -- the same job rejections.json does for a removal.",
     "",
-    "21 rows are listed. The backlog is larger and is worked through as rows are reviewed, so an",
+    "25 rows are listed. The backlog is larger and is worked through as rows are reviewed, so an",
     "absent row means unreviewed, not clean."
   ],
   "citations": {
@@ -280,6 +280,41 @@
         "Without that clause the row reads as 'any larger word', which contradicts both",
         "20230529 (Baya Weaver) and 20190724 (Barred Owl) -- the two official noes a player",
         "is most likely to hit next."
+      ]
+    },
+    "20200108@Gray Catbird": {
+      "comments": ["35726"],
+      "why": [
+        "The Chihuahuan Raven clause -- a repeated power's [egg] cost is still paid as that",
+        "power specifies -- comes from Jamey's answer to Stan's original question in this",
+        "thread, not from the cited comment 36250, which covers the tucking and Citizen",
+        "Scientist halves. Read only 35726's EDIT: its unedited first sentence, \"as if it's",
+        "printed on the repeating bird\", is the repeat-versus-copy error Jamey corrected in",
+        "the same comment."
+      ]
+    },
+    "20200108@Northern Mockingbird": {
+      "comments": ["35726"],
+      "why": [
+        "Same as 20200108@Gray Catbird: 35726's EDIT licenses the Chihuahuan Raven cost",
+        "clause, 36250 the rest. This is the card Stan actually asked about."
+      ]
+    },
+    "20201002@Mourning Dove": {
+      "comments": ["41621", "41624"],
+      "why": [
+        "\"A single [nectar] to pay a cost of 1 [seed]\" is comment 41624 -- \"Yes, 1 nectar can",
+        "be used to play the Mourning Dove\" -- whose cost is exactly 1 [seed]. 41621 states",
+        "the general form. The cited comment 41634 carries only the wild-for-playing and",
+        "not-for-powers halves."
+      ]
+    },
+    "20201002@Ruby-Throated Hummingbird": {
+      "comments": ["41621", "41624"],
+      "why": [
+        "Same thread, same two comments as 20201002@Mourning Dove: 41621 for \"wild for any",
+        "food in the cost to play a bird\", 41624 for paying a 1-[seed] cost with a single",
+        "[nectar]. The hummingbird's own cost is [wild], which the thread also discusses."
       ]
     }
   }

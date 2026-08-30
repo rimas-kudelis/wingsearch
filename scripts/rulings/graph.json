@@ -20,6 +20,9 @@
     "20251220@Laughing Gull",
     "20260208@Great Kiskadee",
     "20260208@Tropical Kingbird",
+    "20260208b@Great Kiskadee",
+    "20260208b@Lineated Woodpecker",
+    "20260208b@Tropical Kingbird",
     "20260217@California Scrub-Jay",
     "20260708@Loggerhead Shrike"
    ]
@@ -49,8 +52,9 @@
     "20241223@Sacred Kingfisher",
     "20241228@Spangled Drongo",
     "20251202@Laughing Gull",
-    "20260208@Great Kiskadee",
-    "20260208@Tropical Kingbird"
+    "20260208b@Great Kiskadee",
+    "20260208b@Lineated Woodpecker",
+    "20260208b@Tropical Kingbird"
    ]
   },
   "caching": {
@@ -566,9 +570,6 @@
     "20201011@Long-Tailed Tit",
     "20201011@Site Selection Expert",
     "20201020b@Bushtit",
-    "20201104@American Woodcock",
-    "20201104@Common Blackbird",
-    "20201104@Wild Turkey",
     "20201116@Anatomist",
     "20201116@Canvasback",
     "20201204@Forest Data Analyst",
@@ -676,6 +677,7 @@
     "20201104@American Woodcock",
     "20201104@Common Blackbird",
     "20201104@Wild Turkey",
+    "20201104b@Common Blackbird",
     "20201116a@End of Round Reference",
     "20201116a@Game end",
     "20210130@California Quail",
@@ -795,6 +797,7 @@
     "20201010a@Hooded Warbler",
     "20201011@Long-Tailed Tit",
     "20201011@Site Selection Expert",
+    "20201104b@Common Blackbird",
     "20201116b@Superb Lyrebird",
     "20201116b@Tūī",
     "20201203@Black Redstart",
@@ -853,6 +856,9 @@
     "20260128@Tufted Titmouse",
     "20260208@Great Kiskadee",
     "20260208@Tropical Kingbird",
+    "20260208b@Great Kiskadee",
+    "20260208b@Lineated Woodpecker",
+    "20260208b@Tropical Kingbird",
     "20260209@Great Eared Nightjar",
     "20260209a@Blue-and-Yellow Macaw",
     "20260211@Rufous Hornero",
@@ -1103,8 +1109,9 @@
     "20250609@Australian Ibis",
     "20251220@Australian Owlet-Nightjar",
     "20251220@Laughing Gull",
-    "20260208@Great Kiskadee",
-    "20260208@Tropical Kingbird",
+    "20260208b@Great Kiskadee",
+    "20260208b@Lineated Woodpecker",
+    "20260208b@Tropical Kingbird",
     "20260217@California Scrub-Jay",
     "20260605@Resolving powers that involve all players",
     "20260628@Common Myna",
@@ -1873,7 +1880,7 @@
    "ruling_id": "20201104",
    "card": "Common Blackbird",
    "topic": null,
-   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}). \\textbf{Common Blackbird}, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}).",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-26/#comment-42388",
    "source_kind": "stonemaier",
    "author": "Joe Aubrey",
@@ -1883,8 +1890,26 @@
     "Wild Turkey"
    ],
    "concepts": [
-    "bonus-eligibility",
     "end-of-round-goals"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
+   "contradicts": []
+  },
+  "20201104b@Common Blackbird": {
+   "ruling_id": "20201104b",
+   "card": "Common Blackbird",
+   "topic": null,
+   "text": "Although \\textbf{Common Blackbird} is placed sideways across 2 [forest] spaces, it still counts as only 1 bird whenever birds in a habitat are counted, such as for an end-of-round goal.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-26/#comment-42388",
+   "source_kind": "stonemaier",
+   "author": "Joe Aubrey",
+   "date": "2020-11-04",
+   "mentions": [],
+   "concepts": [
+    "end-of-round-goals",
+    "playing-birds"
    ],
    "verified": "faithful",
    "verified_confidence": "high",
@@ -3033,7 +3058,7 @@
    "ruling_id": "20190311",
    "card": "American Oystercatcher",
    "topic": null,
-   "text": "In a game against the Automa, draw 3 [card], keep 2 of them, and discard the other.",
+   "text": "In a game against the Automa, draw 3 [card] and keep 2; the Automa is not passed a [card], so the third is discarded.",
    "source": "https://www.stonemaiergames.com/games/wingspan/rules/#comment-31504",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -7177,7 +7202,7 @@
    "ruling_id": "20201104",
    "card": "Wild Turkey",
    "topic": null,
-   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}). \\textbf{Common Blackbird}, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}).",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-26/#comment-42388",
    "source_kind": "stonemaier",
    "author": "Joe Aubrey",
@@ -7187,12 +7212,11 @@
     "Common Blackbird"
    ],
    "concepts": [
-    "bonus-eligibility",
     "end-of-round-goals"
    ],
    "verified": "faithful",
    "verified_confidence": "high",
-   "settled": false,
+   "settled": true,
    "contradicts": []
   },
   "20200420@Anna's Hummingbird": {
@@ -7677,7 +7701,7 @@
    "ruling_id": "20201104",
    "card": "American Woodcock",
    "topic": null,
-   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}). \\textbf{Common Blackbird}, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+   "text": "The \\textbf{white \\& no powers} end-of-round goal counts both birds with ``when played'' powers (white cards, e.g. \\textbf{Common Blackbird}) and birds with no powers at all (e.g. \\textbf{American Woodcock}, \\textbf{Wild Turkey}).",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-26/#comment-42388",
    "source_kind": "stonemaier",
    "author": "Joe Aubrey",
@@ -7687,7 +7711,6 @@
     "Wild Turkey"
    ],
    "concepts": [
-    "bonus-eligibility",
     "end-of-round-goals"
    ],
    "verified": "faithful",
@@ -10597,7 +10620,7 @@
    "ruling_id": "20260128",
    "card": "Ivory Gull",
    "topic": null,
-   "text": "Food cached on \\textbf{Ivory Gull} may only be spent on the cost of a bird power, never to play a bird -- including a bird played via another bird's power, such as \\textbf{Tufted Titmouse}.",
+   "text": "Food cached on \\textbf{Ivory Gull} may only be spent on the cost of a bird power, not to play a bird -- including a bird played via another bird's power, such as \\textbf{Tufted Titmouse}.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-145297",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -10638,18 +10661,16 @@
    "ruling_id": "20260208",
    "card": "Great Kiskadee",
    "topic": null,
-   "text": "\\textbf{Great Kiskadee} and \\textbf{Tropical Kingbird}: After moving with the action cube, continue activating birds only in the new habitat -- you do not activate the core action of the new habitat. For pink ``once between turns'' powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
-   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-146910",
+   "text": "\\textbf{Great Kiskadee} and \\textbf{Tropical Kingbird}: After moving with the action cube, continue activating birds only in the new habitat---you do not activate the core action of the new habitat.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-145504",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
-   "date": "2026-02-08",
+   "date": "2026-01-30",
    "mentions": [
     "Tropical Kingbird"
    ],
    "concepts": [
     "gain-food-action-scope",
-    "other-players",
-    "pink-timing",
     "playing-birds",
     "power-activation"
    ],
@@ -10658,24 +10679,64 @@
    "settled": false,
    "contradicts": []
   },
-  "20260208@Tropical Kingbird": {
-   "ruling_id": "20260208",
-   "card": "Tropical Kingbird",
+  "20260208b@Great Kiskadee": {
+   "ruling_id": "20260208b",
+   "card": "Great Kiskadee",
    "topic": null,
-   "text": "\\textbf{Great Kiskadee} and \\textbf{Tropical Kingbird}: After moving with the action cube, continue activating birds only in the new habitat -- you do not activate the core action of the new habitat. For pink ``once between turns'' powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
+   "text": "For pink ``once between turns'' powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn---not the core action of the habitat this bird moves to.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-146910",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
    "date": "2026-02-08",
+   "mentions": [],
+   "concepts": [
+    "gain-food-action-scope",
+    "other-players",
+    "pink-timing",
+    "playing-birds"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
+   "contradicts": []
+  },
+  "20260208@Tropical Kingbird": {
+   "ruling_id": "20260208",
+   "card": "Tropical Kingbird",
+   "topic": null,
+   "text": "\\textbf{Great Kiskadee} and \\textbf{Tropical Kingbird}: After moving with the action cube, continue activating birds only in the new habitat---you do not activate the core action of the new habitat.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-145504",
+   "source_kind": "stonemaier",
+   "author": "Jamey Stegmaier",
+   "date": "2026-01-30",
    "mentions": [
     "Great Kiskadee"
    ],
    "concepts": [
     "gain-food-action-scope",
-    "other-players",
-    "pink-timing",
     "playing-birds",
     "power-activation"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": false,
+   "contradicts": []
+  },
+  "20260208b@Tropical Kingbird": {
+   "ruling_id": "20260208b",
+   "card": "Tropical Kingbird",
+   "topic": null,
+   "text": "For pink ``once between turns'' powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn---not the core action of the habitat this bird moves to.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-146910",
+   "source_kind": "stonemaier",
+   "author": "Jamey Stegmaier",
+   "date": "2026-02-08",
+   "mentions": [],
+   "concepts": [
+    "gain-food-action-scope",
+    "other-players",
+    "pink-timing",
+    "playing-birds"
    ],
    "verified": "faithful",
    "verified_confidence": "high",
@@ -10942,6 +11003,27 @@
    "concepts": [
     "playing-birds",
     "power-activation"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
+   "contradicts": []
+  },
+  "20260208b@Lineated Woodpecker": {
+   "ruling_id": "20260208b",
+   "card": "Lineated Woodpecker",
+   "topic": null,
+   "text": "For pink ``once between turns'' powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn---not the core action of the habitat this bird moves to.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-78/#comment-146910",
+   "source_kind": "stonemaier",
+   "author": "Jamey Stegmaier",
+   "date": "2026-02-08",
+   "mentions": [],
+   "concepts": [
+    "gain-food-action-scope",
+    "other-players",
+    "pink-timing",
+    "playing-birds"
    ],
    "verified": "faithful",
    "verified_confidence": "high",
@@ -15191,6 +15273,7 @@
    "rulings": [
     "03b@Common Blackbird",
     "20201104@Common Blackbird",
+    "20201104b@Common Blackbird",
     "20230827a@Common Blackbird"
    ],
    "mentioned_by": [
@@ -17645,6 +17728,7 @@
    "general_rulings": 0,
    "rulings": [
     "20260208@Great Kiskadee",
+    "20260208b@Great Kiskadee",
     "20260713b@Great Kiskadee"
    ],
    "mentioned_by": [
@@ -18960,6 +19044,7 @@
    ],
    "general_rulings": 0,
    "rulings": [
+    "20260208b@Lineated Woodpecker",
     "20260307@Lineated Woodpecker",
     "20260510@Lineated Woodpecker"
    ],
@@ -23150,7 +23235,8 @@
    ],
    "general_rulings": 0,
    "rulings": [
-    "20260208@Tropical Kingbird"
+    "20260208@Tropical Kingbird",
+    "20260208b@Tropical Kingbird"
    ],
    "mentioned_by": [
     "20260208@Great Kiskadee"

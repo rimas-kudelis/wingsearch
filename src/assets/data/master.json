@@ -1477,7 +1477,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-14\/#comment-57139"
       },
       {
-        "text":"In a game against the Automa, draw 3 [card], keep 2 of them, and discard the other.",
+        "text":"In a game against the Automa, draw 3 [card] and keep 2; the Automa is not passed a [card], so the third is discarded.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31504"
       }
     ],
@@ -1938,7 +1938,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>). <strong applink=\"\/card\/77\">Common Blackbird<\/strong>, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>).",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42388"
       }
     ],
@@ -13835,7 +13835,11 @@
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
       },
       {
-        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>). <strong applink=\"\/card\/77\">Common Blackbird<\/strong>, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42388"
+      },
+      {
+        "text":"Although <strong applink=\"\/card\/77\">Common Blackbird<\/strong> is placed sideways across 2 [forest] spaces, it still counts as only 1 bird whenever birds in a habitat are counted, such as for an end-of-round goal.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42388"
       }
     ],
@@ -26563,7 +26567,11 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat \u2013 you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
+        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat\u2014you do not activate the core action of the new habitat.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-145504"
+      },
+      {
+        "text":"For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn\u2014not the core action of the habitat this bird moves to.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-146910"
       },
       {
@@ -31654,7 +31662,7 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"Food cached on <strong applink=\"\/card\/484\">Ivory Gull<\/strong> may only be spent on the cost of a bird power, never to play a bird \u2013 including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
+        "text":"Food cached on <strong applink=\"\/card\/484\">Ivory Gull<\/strong> may only be spent on the cost of a bird power, not to play a bird \u2013 including a bird played via another bird's power, such as <strong applink=\"\/card\/236\">Tufted Titmouse<\/strong>.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-145297"
       },
       {
@@ -33880,6 +33888,10 @@
       {
         "text":"After <strong applink=\"\/card\/644\">Lineated Woodpecker<\/strong> moves with the action cube and you continue your turn in the new habitat, you activate only the brown powers in the habitat where the cube now is; you do not activate the remaining powers of the habitat it left.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-12\/#comment-149777"
+      },
+      {
+        "text":"For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn\u2014not the core action of the habitat this bird moves to.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-146910"
       }
     ],
     "additionalRulings":[
@@ -56438,7 +56450,11 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat \u2013 you do not activate the core action of the new habitat. For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action taken is the one where the cube started, since the core action happens at the beginning of the turn.",
+        "text":"<strong applink=\"\/card\/630\">Great Kiskadee<\/strong> and <strong applink=\"\/card\/693\">Tropical Kingbird<\/strong>: After moving with the action cube, continue activating birds only in the new habitat\u2014you do not activate the core action of the new habitat.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-145504"
+      },
+      {
+        "text":"For pink <i>\"once between turns\"<\/i> powers that trigger on another player taking a specific core action, the action that counts is the one taken where the cube started, since the core action happens at the beginning of the turn\u2014not the core action of the habitat this bird moves to.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-78\/#comment-146910"
       }
     ],
@@ -61492,7 +61508,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37518"
       },
       {
-        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>). <strong applink=\"\/card\/77\">Common Blackbird<\/strong>, though placed sideways across 2 [forest] spaces, still counts as only 1 bird for goals and bonus cards that count birds.",
+        "text":"The <strong>white \\& no powers<\/strong> end-of-round goal counts both birds with <i>\"when played\"<\/i> powers (white cards, e.g. <strong applink=\"\/card\/77\">Common Blackbird<\/strong>) and birds with no powers at all (e.g. <strong applink=\"\/card\/13\">American Woodcock<\/strong>, <strong applink=\"\/card\/251\">Wild Turkey<\/strong>).",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42388"
       }
     ],

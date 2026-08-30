@@ -24,7 +24,7 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**59 rows are general** (col 2 blank) and **522 are named**. The 59 general rulings are
+**59 rows are general** (col 2 blank) and **526 are named**. The 59 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
 *position* `0`–`58`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
@@ -669,6 +669,43 @@ Two generalisable findings:
   hedge-dropping defects were visible that way with no source lookup at all: the general or
   bonus-card row carried a caveat its sibling had lost.
 
+### The medium/qualified review: 38 items, 4 defects, and the omnibus-on-the-wrong-card shape
+
+The last two queues `verify.py` keeps — `medium` confidence and `official answer was
+qualified` — are both about **scope**, not polarity. A medium verdict almost always means the
+rule was transferred to a card the thread never named; a qualified verdict means the answer
+carried a caveat that may not have survived. Neither is a lie detector, so neither can be
+cleared by re-reading the cited comment: the check is the whole thread plus the sibling rows
+carrying the same id.
+
+All 38 are approved in `reviewed.json`, each reason naming which comment licenses which
+clause and, for a transfer, why the unnamed card is covered. Four needed the ruling changed:
+
+- `20201104` and `20260208` were **omnibus rows landing on the wrong cards**. Each is one
+  numbered reply answering two unrelated questions, published whole on every card the *first*
+  half touches — so **Wild Turkey** and **American Woodcock** were being told about **Common
+  Blackbird**'s sideways placement, and neither Kiskadee card's row separated the habitat rule
+  from the pink-power rule that also covers **Lineated Woodpecker**. Split, as `20210830` and
+  `20221121b` were. This is the omnibus failure mode's *second* form: the earlier cases wasted
+  space on cards the ruling did not concern, but here the wasted half is card-specific, so it
+  reads as a claim about the card it is printed on.
+- `20260128`@Ivory Gull said *"never* to play a bird" for *"I would say no. It's close, but
+  it's not meant to replace the cost of playing a bird."* One word, dropped.
+- `20190311`@American Oystercatcher asserted the third card is discarded where the source only
+  said the Automa gets nothing. Reworded so the discard arrives as the consequence it is.
+
+Two generalisable findings:
+
+- **A verbal hedge is not a stated qualification.** *"I would say yes"* is politeness; *"at
+  least for now"* and *"as long as you're consistent with your group"* are a limit and a
+  permission, and a player needs both. Publishing the first flat is fine; publishing the
+  second flat is the defect the terse-source pass found twice. `20260324` and `20260731` are
+  approved on that reading, `20251210` and `20260212` were rewritten on it.
+- **A dropped clause is only a defect if no sibling row carries it.** `20240903`@Forster's
+  Tern publishes only the contrast half of its answer, which looks like a loss until you see
+  that the main half is on the same card as `20210124` with its own source. Read the card's
+  other rows before restoring anything — the alternative is two rows saying one thing.
+
 ### Repeat versus copy: a question the author gets wrong about half the time
 
 Found 2026-08-30, in `20230918`, live on two cards. Comment 63050 (Jamey, 2023) said that a
@@ -738,13 +775,14 @@ weaker gate, which would cost the next inversion.
 **When judging a queued item, read `graph.py --related <ruling_id>` first.** Judging a ruling
 alone is what let `20260617` through; the same rule stated six other times is what exposes it.
 
-Where the queue stands after the terse-source pass: **392 of 581 rows are verifiable against a
-held comment and all 392 are judged** — 391 faithful, 1 `overstated` (approved, with reasons).
-354 are settled outright; **38 remain queued, 19 for a qualified official answer and 19 at
-medium confidence**, and they are the next thing to work through. The other 189 rows cannot be
-checked this way at all: 130 cite no Stonemaier comment (Facebook, BGG, rulebooks) and 59 are
-general rulings, which have no per-card source to check against and are reviewable only for
-internal consistency.
+Where the queue stands: **the source-verifiable queue is empty.** 396 of 585 rows are
+verifiable against a held comment, all 396 are judged, 395 are `faithful` and the one
+`overstated` (Red-Winged Parrot) is approved with reasons. Nothing is pending. The other 189
+rows cannot be checked this way at all: 130 cite no Stonemaier comment (Facebook, BGG,
+rulebooks) and 59 are general rulings, which have no per-card source to check against and are
+reviewable only for internal consistency. Those two sets are where the next unverified defect
+will be, and neither has a mechanical check — the 130 need their sources held (the Facebook
+captures and the BGG threads), and the 59 need `graph.py --related` read against each other.
 
 ### Re-running
 
