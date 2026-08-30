@@ -1,74 +1,76 @@
-<div class="stats-container" [ngClass]="{mobile: mobile}" *ngIf="stats$ | async as stats">
+@if (stats$ | async; as stats) {
+  <div class="stats-container" [ngClass]="{mobile: mobile}">
     <span appAnalyticsEvent="Toggle bonuses" class="stats-entry" [ngClass]="{inactive: !statsControls.bonuses}"
-        (click)="toggleCards('bonuses', $event)"
-        matTooltip="{{statsControls.bonuses ? 'Filter out' : 'Count in'}} all bonuses">
-        {{stats.bonusCards}}
-        <picture>
-            <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
-            <source type="image/jpg" srcset="assets/cards/backgrounds/bonus-background.jpg">
-            <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
-        </picture>
+      (click)="toggleCards('bonuses', $event)"
+      matTooltip="{{statsControls.bonuses ? 'Filter out' : 'Count in'}} all bonuses">
+      {{stats.bonusCards}}
+      <picture>
+        <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
+        <source type="image/jpg" srcset="assets/cards/backgrounds/bonus-background.jpg">
+        <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
+      </picture>
     </span>
     <span appAnalyticsEvent="Toggle hummingbirds" class="stats-entry" [ngClass]="{inactive: !statsControls.hummingbirds}"
-        (click)="toggleCards('hummingbirds', $event)"
-        matTooltip="{{statsControls.hummingbirds ? 'Filter out' : 'Count in'}} all hummingbirds">
-        {{stats.hummingbirdCards}}
-        <picture>
-            <source type="image/webp" srcset="assets/cards/backgrounds/hummingbird-background.webp">
-            <source type="image/png" srcset="assets/cards/backgrounds/hummingbird-background.png">
-            <img src="assets/icons/png/hummingbird.png" alt="hummingbirds">
-        </picture>
+      (click)="toggleCards('hummingbirds', $event)"
+      matTooltip="{{statsControls.hummingbirds ? 'Filter out' : 'Count in'}} all hummingbirds">
+      {{stats.hummingbirdCards}}
+      <picture>
+        <source type="image/webp" srcset="assets/cards/backgrounds/hummingbird-background.webp">
+        <source type="image/png" srcset="assets/cards/backgrounds/hummingbird-background.png">
+        <img src="assets/icons/png/hummingbird.png" alt="hummingbirds">
+      </picture>
     </span>
     <span appAnalyticsEvent="Toggle birds" class="stats-entry" [ngClass]="{inactive: !statsControls.birds}"
-        (click)="toggleCards('birds', $event)"
-        matTooltip="{{statsControls.birds ? 'Filter out' : 'Count in'}} all birds">
-        {{stats.birdCards}}
-        <picture>
-            <source type="image/webp" srcset="assets/icons/png/bird.webp">
-            <source type="image/png" srcset="assets/icons/png/bird.png">
-            <img src="assets/icons/png/bird.png" alt="birds">
-        </picture>
+      (click)="toggleCards('birds', $event)"
+      matTooltip="{{statsControls.birds ? 'Filter out' : 'Count in'}} all birds">
+      {{stats.birdCards}}
+      <picture>
+        <source type="image/webp" srcset="assets/icons/png/bird.webp">
+        <source type="image/png" srcset="assets/icons/png/bird.png">
+        <img src="assets/icons/png/bird.png" alt="birds">
+      </picture>
     </span>
     <div class="habitat-container" [ngClass]="{mobile: mobile}"
-        matTooltip="Filter birds that can live in a specific habitat">
-        <span appAnalyticsEvent="Toggle habitat" eventLabel="forest" class="stats-entry"
+      matTooltip="Filter birds that can live in a specific habitat">
+      <span appAnalyticsEvent="Toggle habitat" eventLabel="forest" class="stats-entry"
             [ngClass]="{
               inactive: statsControls.habitat.forest === 0,
               exclude: statsControls.habitat.forest === 2,
               ignore: !statsControls.birds
             }" (click)="toggleHabitat('forest', $event)">
-            {{stats.habitat.forest}}
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/forest.webp">
-                <source type="image/png" srcset="assets/icons/png/forest.png">
-                <img src="assets/icons/png/forest.png" alt="forest birds">
-            </picture>
-        </span>
-        <span appAnalyticsEvent="Toggle habitat" eventLabel="grassland" class="stats-entry"
+        {{stats.habitat.forest}}
+        <picture>
+          <source type="image/webp" srcset="assets/icons/png/forest.webp">
+          <source type="image/png" srcset="assets/icons/png/forest.png">
+          <img src="assets/icons/png/forest.png" alt="forest birds">
+        </picture>
+      </span>
+      <span appAnalyticsEvent="Toggle habitat" eventLabel="grassland" class="stats-entry"
             [ngClass]="{
               inactive: statsControls.habitat.grassland === 0,
               exclude: statsControls.habitat.grassland === 2,
               ignore: !statsControls.birds
             }" (click)="toggleHabitat('grassland', $event)">
-            {{stats.habitat.grassland}}
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/grassland.webp">
-                <source type="image/png" srcset="assets/icons/png/grassland.png">
-                <img src="assets/icons/png/grassland.png" alt="grassland birds">
-            </picture>
-        </span>
-        <span appAnalyticsEvent="Toggle habitat" eventLabel="wetland" class="stats-entry"
+        {{stats.habitat.grassland}}
+        <picture>
+          <source type="image/webp" srcset="assets/icons/png/grassland.webp">
+          <source type="image/png" srcset="assets/icons/png/grassland.png">
+          <img src="assets/icons/png/grassland.png" alt="grassland birds">
+        </picture>
+      </span>
+      <span appAnalyticsEvent="Toggle habitat" eventLabel="wetland" class="stats-entry"
             [ngClass]="{
               inactive: statsControls.habitat.wetland === 0,
               exclude: statsControls.habitat.wetland === 2,
               ignore: !statsControls.birds
             }" (click)="toggleHabitat('wetland', $event)">
-            {{stats.habitat.wetland}}
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/wetland.webp">
-                <source type="image/png" srcset="assets/icons/png/wetland.png">
-                <img src="assets/icons/png/wetland.png" alt="wetland birds">
-            </picture>
-        </span>
+        {{stats.habitat.wetland}}
+        <picture>
+          <source type="image/webp" srcset="assets/icons/png/wetland.webp">
+          <source type="image/png" srcset="assets/icons/png/wetland.png">
+          <img src="assets/icons/png/wetland.png" alt="wetland birds">
+        </picture>
+      </span>
     </div>
-</div>
+  </div>
+}

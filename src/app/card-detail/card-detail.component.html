@@ -1,39 +1,47 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
-    <div *ngIf="isBonusCard(data.card)" class="image-container">
-        <picture>
-            <source type="image/webp" srcset="assets/cards/bonuses/{{data.card.id}}.webp">
-            <source type="image/jpeg" srcset="assets/cards/bonuses/{{data.card.id}}.jpg">
-            <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Bonus card']}} bird card"
-                loading="lazy">
-        </picture>
+  @if (isBonusCard(data.card)) {
+    <div class="image-container">
+      <picture>
+        <source type="image/webp" srcset="assets/cards/bonuses/{{data.card.id}}.webp">
+        <source type="image/jpeg" srcset="assets/cards/bonuses/{{data.card.id}}.jpg">
+        <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Bonus card']}} bird card"
+          loading="lazy">
+      </picture>
     </div>
-    <div *ngIf="isBirdCard(data.card)" class="image-container">
-        <picture>
-            <source type="image/webp" srcset="assets/cards/birds/{{data.card.id}}.webp">
-            <source type="image/jpeg" srcset="assets/cards/birds/{{data.card.id}}.jpg">
-            <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg"
-                alt="{{data.card['Common name']}} bird card" loading="lazy">
-        </picture>
+  }
+  @if (isBirdCard(data.card)) {
+    <div class="image-container">
+      <picture>
+        <source type="image/webp" srcset="assets/cards/birds/{{data.card.id}}.webp">
+        <source type="image/jpeg" srcset="assets/cards/birds/{{data.card.id}}.jpg">
+        <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg"
+          alt="{{data.card['Common name']}} bird card" loading="lazy">
+      </picture>
     </div>
-    <mat-card class="data-container" *ngIf="isBirdCard(data.card)" [ngClass]="data.card['Color'] || 'white'">
-        <div class="title">
-            {{data.card['Common name']}}
-        </div>
-        <div class="scientific">
-            {{data.card['Scientific name']}}
-        </div>
-        <p class="power" [innerHTML]="data.card['Power text'] | iconize"></p>
-        <p class="note" [innerHTML]="data.card.Note | iconize"></p>
+  }
+  @if (isBirdCard(data.card)) {
+    <mat-card class="data-container" [ngClass]="data.card['Color'] || 'white'">
+      <div class="title">
+        {{data.card['Common name']}}
+      </div>
+      <div class="scientific">
+        {{data.card['Scientific name']}}
+      </div>
+      <p class="power" [innerHTML]="data.card['Power text'] | iconize"></p>
+      <p class="note" [innerHTML]="data.card.Note | iconize"></p>
     </mat-card>
+  }
 
-    <mat-card class="bonus data-container" *ngIf="isBonusCard(data.card)">
-        <div class="bonus title" [innerHTML]="data.card['Bonus card'] | iconize"></div>
-        <p class="power large-font" [innerHTML]="data.card['Condition'] | iconize"></p>
-        <p class="power" [innerHTML]="data.card['Explanatory text'] | iconize"></p>
-        <p class="note" [innerHTML]="data.card.Note | iconize"></p>
+  @if (isBonusCard(data.card)) {
+    <mat-card class="bonus data-container">
+      <div class="bonus title" [innerHTML]="data.card['Bonus card'] | iconize"></div>
+      <p class="power large-font" [innerHTML]="data.card['Condition'] | iconize"></p>
+      <p class="power" [innerHTML]="data.card['Explanatory text'] | iconize"></p>
+      <p class="note" [innerHTML]="data.card.Note | iconize"></p>
     </mat-card>
+  }
 </div>
 
 <button mat-icon-button matDialogClose aria-label="Clear">
-    <mat-icon>close</mat-icon>
+  <mat-icon>close</mat-icon>
 </button>

@@ -59,10 +59,7 @@ module.exports = tseslint.config(
     files: ['**/*.html'],
     extends: [...angular.configs.templateRecommended],
     rules: {
-      // TEMPORARY. `*ngIf`/`*ngFor` still work; `ng generate @angular/core:control-flow`
-      // rewrites them to `@if`/`@for`, which is a follow-up commit to this one because it
-      // touches every template and deserves to be reviewed on its own. Turn this back on there.
-      '@angular-eslint/template/prefer-control-flow': 'off',
+      '@angular-eslint/template/prefer-control-flow': 'error',
     },
   },
 )
