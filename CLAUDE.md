@@ -4,142 +4,104 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Wingsearch is a web application for searching throughout the Wingspan board game card collection. The app is built with Angular 9 and published as a Progressive Web App at https://navarog.github.io/wingsearch/.
+Wingsearch is a client-side search app for the Wingspan board game card collection, published as a PWA at https://navarog.github.io/wingsearch/. There is no backend — all card data ships as JSON bundled into the app, and all searching/filtering happens in the NgRx reducer.
 
-## Tech Stack
+Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node v14.17.4 / npm 8.12.2 (see `engines` and `.nvmrc`) — newer Node will fail the build.
 
-- **Angular 9**: Main framework
-- **NgRx 10**: State management (store, effects, router-store, devtools)
-- **Angular Material**: UI components
-- **FlexSearch**: Fast full-text search library
-- **TypeScript 3.8**
-- **SCSS**: Styling
-- **Service Worker**: PWA functionality
-- **Python + Jupyter Notebooks**: Data transformation pipeline
-
-## Development Commands
+## Commands
 
 ```bash
-# Start development server
-npm start
-
-# Build for production (deployed to GitHub Pages)
-npm run build-prod
-
-# Build for local testing
-npm run build-local
-
-# Run tests
-npm test
-
-# Run linter
-npm lint
-
-# Serve built application locally
-npm run http-server
+npm start              # dev server on :4200
+npm run build-prod     # production build into docs/ with base-href /wingsearch/ (GitHub Pages)
+npm run build-local    # production build into dist/wingsearch (for local verification)
+npm run http-server    # serve dist/wingsearch on :8080
 ```
 
-**Note:** The project requires Node v14.17.4 and npm 8.12.2 (see `engines` in package.json).
+Docker alternative (avoids installing Node 14 locally): `docker compose up` serves the dev server on `$WEB_PORT` (default 8080) with `src/` mounted read-only.
+
+### Tests and lint are currently non-functional
+
+`npm test`, `npm run lint`, and `npm run e2e` all fail — `tsconfig.spec.json`, `karma.conf.js`, and the whole `e2e/` directory referenced by `angular.json` do not exist in the repo. The only spec file is `src/app/app.component.spec.ts`. Verify changes by running the dev server, not by running tests. If you need a test harness, it must be created first (`angular.json` already has karma/tslint/protractor targets wired up expecting those files).
+
+Angular schematics are configured with `skipTests: true`, so generated components come without specs.
+
+## Deployment
+
+`docs/` is a committed build artifact — it *is* the GitHub Pages site. The workflow in this repo's history is: make source changes, run `npm run build-prod`, and commit the regenerated `docs/` (commits titled "Publish changes"). Don't hand-edit `docs/`.
 
 ## Architecture
 
-### State Management (NgRx)
+### One reducer does everything
 
-The application uses a single NgRx store defined in [src/app/store/](src/app/store/):
+[src/app/store/app.reducer.ts](src/app/store/app.reducer.ts) holds essentially all business logic. There are no feature stores and only one non-trivial effect.
 
-- **app.reducer.ts**: Main reducer containing all state logic
-- **app.actions.ts**: Action definitions
-- **app.effects.ts**: Side effects handling
-- **app.interfaces.ts**: TypeScript interfaces for BirdCard, BonusCard, and AppState
-- **cards-search.ts**: FlexSearch index initialization and search logic
-- **bonus-search-map.ts**: Bonus card filtering logic
+The `search` action carries the *entire* query object (text, selected bonus cards, expansions, promo packs, habitat/type toggles, egg/point/wingspan/food-cost ranges, colors, food, nest, beak direction) — [src/app/search/search.component.ts](src/app/search/search.component.ts) owns that object as mutable component state and re-dispatches the whole thing on every control change. The reducer then:
 
-The AppState contains:
-- Card collections (bird cards, bonus cards, hummingbird cards)
-- Search indexes (FlexSearch instances)
-- Display state (filtered/visible cards, stats)
-- User preferences (expansions, language, asset pack)
-- Translated content for internationalization
+1. Runs the FlexSearch text query across bird fields (`Common name`, `Scientific name`, `Power text`) and bonus fields (`Bonus card`, `Condition`, `VP`), unioning results.
+2. Falls back to the full card list when the query is empty.
+3. If bonus cards are selected as filters, drops all bonus cards from the result and keeps only birds satisfying every selected bonus predicate; otherwise appends matching bonus cards.
+4. Applies the remaining attribute filters in sequence.
+5. Recomputes `displayedStats` and re-paginates.
 
-### Data Flow
+Pagination is manual: `SLICE_WINDOW = 18`. Results are split into `displayedCards` (rendered) and `displayedCardsHidden` (rest); `ngx-infinite-scroll` in [src/app/display/display.component.ts](src/app/display/display.component.ts) dispatches `scroll` to move the next 18 across, and `scrollDisabled` flips true when the hidden list empties.
 
-1. **Source Data**: Excel files in [scripts/](scripts/) directory:
-   - `wingspan-card-list.xlsx`: Bird card data
-   - `wingspan-bonuscard-list.xlsx`: Bonus card data
-   - `wingspan-note-list.xlsx`: Additional notes and rulings
+### Card model and the CardType discriminator
 
-2. **Transform**: Python scripts/Jupyter notebooks in [scripts/](scripts/) convert Excel to JSON:
-   - `json-transformer.ipynb`: Main transformation notebook
-   - Generated files go to `scripts/generated/` (not committed)
+Bird cards, hummingbird cards, and bonus cards live in the same arrays and are distinguished by a `CardType` field (`'Bird' | 'Hummingbird' | 'Bonus'`) via the type guards in [src/app/store/app.interfaces.ts](src/app/store/app.interfaces.ts) (`isBirdCard`, `isHummingbirdCard`, `isBirdOrHummingbirdCard`, `isBonusCard`). Hummingbirds share the `BirdCard` interface but the notebook synthesizes their missing fields (0 VP, no nest, all three habitats, etc.). `state.birdCards` is always birds **and** hummingbirds concatenated — most filter code must therefore branch on the guards rather than assuming a shape.
 
-3. **Assets**: JSON files in [src/assets/data/](src/assets/data/):
-   - `master.json`: Main bird cards
-   - `hummingbirds.json`: Hummingbird cards (Americas expansion)
-   - `bonus.json`: Bonus cards
-   - `goals.json`: Goal cards
-   - `parameters.json`: App configuration
+The reducer is full of `// @ts-ignore`: the JSON imports are typed structurally by `resolveJsonModule` and don't line up with the hand-written interfaces. Match the existing style rather than trying to fix the typing wholesale.
 
-4. **Search**: FlexSearch indexes are initialized in the reducer from JSON data
+### Card IDs are positional and load-bearing
 
-### Component Structure
+The Python pipeline assigns `id` from *sorted row position* (`master.index + 2`, hummingbirds `index + 20`). Those ids are used as:
 
-- **search/**: Main search interface with filters and controls
-  - `language-dialog/`: Language selection dialog
-  - `asset-pack-dialog/`: Asset pack (card art) selection
-- **display/**: Card display grid with infinite scroll
-- **bird-card/**: Bird card visualization
-  - `bird-card-detail/`: Detailed card modal
-- **hummingbird-card/**: Hummingbird-specific card display
-- **bonus-card/**: Bonus card visualization
-  - `bonus-card-detail/`: Detailed bonus card modal
-- **stats/**: Statistics display (card counts, habitat distribution)
-- **consent/**: Cookie consent UI
+- URL segments (`/card/:id`)
+- keys in every `src/assets/data/i18n/*.json` file (`birds`, `bonuses`, `goals` are keyed by id string)
+- card art filenames (`src/assets/cards/birds/<id>.webp`, and the packs)
+- keys in `bonusSearchMap` (bonus ids 1000–1060)
+- FlexSearch document ids
+
+So **inserting a bird into `wingspan-card-list.xlsx` shifts ids of later birds** and silently desynchronizes translations, artwork, and links. Regenerating data means checking all of those.
+
+### Bonus card predicates
+
+[src/app/store/bonus-search-map.ts](src/app/store/bonus-search-map.ts) maps each bonus card id to a `BonusMatch(isPercentage, callbackfn)`. `callbackfn` decides whether a bird qualifies; `isPercentage` says whether the card shows a "% of cards" figure. `dynamicPercentage(birds, expansion)` recomputes each bonus card's `%` against only the *currently enabled expansions*, so bonus cards are re-mapped through it wherever they're emitted (search, language change, and the `selectCard` router selector). Adding a bonus card requires a new entry here — cards without one will throw on filter.
 
 ### Internationalization
 
-Translation files are managed as Excel spreadsheets in [i18n/](i18n/):
-- Each language has its own `.xlsx` file (e.g., `de.xlsx`, `fr.xlsx`)
-- `template.xlsx`: Template for new translations
-- See [i18n/README.md](i18n/README.md) for translation contribution guidelines
-- Translations are converted to JSON and stored in `src/assets/data/i18n/`
-- The `TranslatePipe` handles runtime translation based on selected language
+Runtime translation, not Angular i18n. There is no compile-time locale build.
 
-### Custom Directives and Pipes
+- `AppEffects` ([src/app/store/app.effects.ts](src/app/store/app.effects.ts)) reacts to `ROOT_EFFECTS_INIT` and `changeLanguage`, reads the `language` cookie, HTTP-fetches `assets/data/i18n/<lang>.json`, and dispatches `[App] Set language`.
+- `setLanguage` in the reducer merges translated fields over the English card (blank cells fall through to English via the `englishBirdCardsMap`/`englishBonusCardsMap` lookups), **re-sorts** cards with `localeCompare` for that locale, and **rebuilds both FlexSearch indexes**. `resetLanguage` restores the English arrays.
+- `TranslatePipe` translates static UI strings from the `other` sheet. It's both declared as a pipe and provided as a service, and components inject it directly (e.g. `bird-card.component.ts` for power titles).
+- Card text embeds icon markers like `[forest]`, `[wetland]`, `[card]`; `IconizePipe` expands them into `<picture>` elements pointing at `assets/icons/png/<name>.{webp,png}`, with `dark`/`glow` variant maps. Translators must preserve these markers — see [i18n/README.md](i18n/README.md) for the full icon table and sheet-by-sheet field docs.
+- `parameters` (from the i18n file, falling back to `src/assets/data/parameters.json`) are per-language feature flags, e.g. `Show bonus cards match symbols`, which appends `[anatomist]`-style icons to bird names.
 
-- **IconizePipe**: Converts text markers like `[forest]` to icon images
-- **TranslatePipe**: Runtime translation based on loaded language data
-- **FitTextDirective**: Dynamic font scaling for card text
-- **AnalyticsEventDirective**: Google Analytics event tracking
-- **SafePipe**: Bypass Angular's security for trusted HTML
+### Routing and card detail
 
-## Build and Deployment
+`app-routing.module.ts` defines a single route `card/:id` that renders `AppComponent` itself — the detail view is a Material dialog, not a routed component. `selectCard` in [src/app/store/router.ts](src/app/store/router.ts) resolves the route param against the card arrays; `DisplayComponent` subscribes and opens/updates/closes dialogs with fixed dialog ids (`'0'` bird, `'1'` bonus, `'2'` hummingbird), navigating back to `/` on close. `ApplinkDirective` intercepts clicks on `applink="/card/<id>"` attributes injected into ruling text by the data pipeline, turning them into router navigations.
 
-The production build is deployed to GitHub Pages:
-- Output directory: `docs/` (configured in `build-prod` script)
-- Base href: `/wingsearch/`
-- Service worker enabled for PWA functionality
-- 404.html is a copy of index.html for client-side routing
+### Cookies, consent, and preferences
 
-## Data Updates
+`CookiesService.setCookie` is a no-op unless the `consent` cookie is `'1'` (`ConsentComponent` sets it). Preferences persisted as cookies: `language`, `assetPack`, and `expansion.<core|european|oceania|asia|americas|promoAsia|promoCA|promoEurope|promoNZ|promoUK|promoUS>` (`'0'` means off; *absent* means on, hence the `!== '0'` checks). Initial state is read from cookies in three places — `initialState`, `AppEffects`, and the `SearchComponent` constructor — keep them in sync when adding a preference.
 
-When updating bird/bonus card data:
+### Asset packs (hidden feature)
 
-1. Edit the Excel files in [scripts/](scripts/)
-2. Run the Jupyter notebooks to generate JSON files
-3. Copy generated JSON from `scripts/generated/` to `src/assets/data/`
-4. Ensure JSON files are properly formatted
-5. Test search functionality and card display
+Default art is `silhouette` (`assets/cards/birds/<id>.webp`). Alternative packs live in `assets/cards/birds-robbie/` and `assets/cards/birds-diffusion/`; `src/assets/data/extra-assets.json` indexes which ids each pack actually covers, and `getBirdSilhouette()` falls back to the silhouette when a pack lacks the id. The pack selector is only rendered when the search box contains exactly `images` (see `search.component.html`).
 
-## Key Files
+## Data pipeline
 
-- [src/app/app.module.ts](src/app/app.module.ts): Main module with NgRx store configuration
-- [src/app/store/app.reducer.ts](src/app/store/app.reducer.ts): Core business logic and filtering
-- [angular.json](angular.json): Angular CLI configuration
-- [ngsw-config.json](ngsw-config.json): Service worker configuration
-- [scripts/json-transformer.ipynb](scripts/json-transformer.ipynb): Data transformation pipeline
+Source spreadsheets in [scripts/](scripts/), transformed by Jupyter notebooks that **write straight into `src/assets/data/`** (there is no `scripts/generated/` step, despite what CONTRIBUTING.md says):
 
-## Testing
+- [scripts/json-transformer.ipynb](scripts/json-transformer.ipynb) reads `wingspan-card-list.xlsx` (sheets `Birds`, `Hummingbirds`, `Goals`), `wingspan-note-list.xlsx` (sheets `Bonus`, `Birds` for native names/notes, `Parameters`), and `Wingspan - Rulings.tsv`; assigns ids; converts LaTeX-ish ruling markup (`\textbf{}`, `\textit{}`, quotes) into HTML with `applink` attributes; attaches per-card `rulings` and `additionalRulings` (the latter derived from generic rules matched by predicates in [scripts/general_rulings_map.py](scripts/general_rulings_map.py)); and emits `master.json`, `hummingbirds.json`, `bonus.json`, `general.json`, `goals.json`, `parameters.json`.
+- [scripts/language-to-json.ipynb](scripts/language-to-json.ipynb) converts every `i18n/*.xlsx` (except `template.xlsx`) into `src/assets/data/i18n/<lang>.json`.
 
-- Testing framework: Jasmine + Karma
-- Components are configured with `skipTests: true` in Angular schematics
-- Run tests with `npm test`
+Note `scripts/wingspan-bonuscard-list.xlsx` is *not* read by the notebook — bonus card data comes from `wingspan-note-list.xlsx`. Only `master.json`, `hummingbirds.json`, `bonus.json`, `extra-assets.json`, and `parameters.json` are consumed by the app; `general.json` and `goals.json` are generated but currently unused at runtime.
+
+Image tooling (requires ImageMagick / cwebp / OpenCV, operates on the gitignored `new_assets/`): `scripts/psd-to-png.sh`, `scripts/organize-birds.py` (fuzzy-matches filenames to card names and renames to `<id>.png`), `scripts/process-silhouettes.py`, `scripts/flip-horizontal.sh`, `scripts/webp.sh` (bulk PNG/JPG → WebP), `scripts/index-extra-assets.sh` (regenerates `extra-assets.json` from directory listings), `scripts/ai-bird-art/`.
+
+## Conventions
+
+- Semicolons are omitted in TypeScript. Store files use 4-space indentation; components use 2-space.
+- Card fields are accessed by their human-readable spreadsheet names (`card['Egg limit']`, `card['Nest type']`, `card['Victory points']`) — bracket notation with spaces is normal here.
+- tslint config exists and is `tslint:recommended`-based, but the lint target can't run (see above).
