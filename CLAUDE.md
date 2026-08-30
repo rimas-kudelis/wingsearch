@@ -139,6 +139,14 @@ Consequently `angular.json` ships **no `.png`/`.jpg` at all** except an explicit
 
 This took `dist/wingsearch` from 97M to 26M and `ngsw.json` from 324 kB to 205 kB. It did **not** make the page lighter for current visitors: `<picture>` was already handing them the WebP, and the `.no-webpalpha` CSS fallbacks had been dead since `8d16d71 Remove Modernizr` deleted the only thing that set that class. The one real download saved is the bonus-card expansion indicators, which had no WebP variant in the SCSS at all.
 
+### Raster sizes are capped to what the layout actually paints
+
+No icon is drawn larger than about 60 CSS px: `.icon-image` is `1em` (`1.5em` in a few places), `.pack-image` is 30px, `.power-image` 80px, and `.wingspan-icon` is `15cqw` of a card that is never wider than 400px (`.card-wrapper` in the detail dialogs). Several masters were nonetheless 1000px+, which cost bytes on the wire and ~50× the decoded bitmap in memory with 18 cards on screen.
+
+`scripts/images/cap-icon-size.sh` re-encodes any icon over **256px on its longest edge** from its PNG master at that cap — 1.4× headroom over the worst case (wingspan at DPR 3) and 3×+ over everything else. It only rewrites files that exceed the cap *and* actually get smaller (`none.webp` is 267×101, and re-encoding it grows the file), so re-running it is a no-op and the diff stays reviewable. Verified indistinguishable from the originals at 60 px / DPR 3.
+
+The footer illustration is the same rule for a non-icon: it is `max-width: 400px`, so it ships as `tit-400.webp` and `tit-800.webp` behind a `srcset`/`sizes="400px"` rather than the 1964px master (137 kB → 18 kB at DPR 1), and it is `loading="lazy"` because nothing sees it without scrolling.
+
 ### Two asset pipelines: `assets/` and `media/`
 
 Every file has exactly one URL, and which one depends on who references it. This is not a style preference — get it wrong and the same bytes are downloaded twice.

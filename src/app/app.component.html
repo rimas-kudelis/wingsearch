@@ -21,8 +21,14 @@
   </div>
 </div>
 <div class="image-wrapper">
+  <!-- `.image-wrapper` is `max-width: 400px`, so `sizes="400px"` is an upper bound: the browser
+  picks 400w at DPR 1 and 800w above it, and can never end up with too few pixels. The 1964px
+  master shipped here before, 137 kB for a decorative footer illustration nobody sees until
+  they scroll. Hence `loading="lazy"` too, and the intrinsic size to reserve the box. -->
   <picture>
-    <img src="assets/tit.webp" alt="Great Tit" aria-hidden="true">
+    <img src="assets/tit-400.webp" alt="Great Tit" aria-hidden="true"
+      srcset="assets/tit-400.webp 400w, assets/tit-800.webp 800w" sizes="400px"
+      width="400" height="291" loading="lazy" decoding="async">
   </picture>
 </div>
 </footer>
