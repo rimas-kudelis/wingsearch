@@ -139,6 +139,22 @@ Consequently `angular.json` ships **no `.png`/`.jpg` at all** except an explicit
 
 This took `dist/wingsearch` from 97M to 26M and `ngsw.json` from 324 kB to 205 kB. It did **not** make the page lighter for current visitors: `<picture>` was already handing them the WebP, and the `.no-webpalpha` CSS fallbacks had been dead since `8d16d71 Remove Modernizr` deleted the only thing that set that class. The one real download saved is the bonus-card expansion indicators, which had no WebP variant in the SCSS at all.
 
+### Two asset pipelines: `assets/` and `media/`
+
+Every file has exactly one URL, and which one depends on who references it. This is not a style preference — get it wrong and the same bytes are downloaded twice.
+
+- **Referenced from a template or from TypeScript** → it is served from `assets/…`, copied there wholesale by the `assets` entry in `angular.json`, and resolved at runtime against `<base href="/wingsearch/">`.
+- **Referenced from a stylesheet `url()`** → the builder rebases it and emits it to `media/<name>` instead. `assets/` and `media/` are then two URLs, two cache entries, two downloads.
+
+So a file needed by *both* a stylesheet and a template must not be named in a `url()`. The bonus card's expansion indicator is the worked example: `bonus-card.component.scss` keeps the `background-size`/`background-position` but the url itself is bound from the component (`expansionIndicator`), because bird cards already fetch those five files via `<img src="assets/icons/png/expansion-indicators/<set>.webp">`. A style-attribute `url()` resolves against the document base URL, so the bound form picks up `<base href>` exactly as an `<img src>` does.
+
+Two consequences that have already bitten once each:
+
+- **Never prefetch or preload a stylesheet-owned asset by its `assets/` path.** `index.html` used to `<link rel="prefetch">` all three fonts from `assets/fonts/`, which warmed a URL `@font-face` never requests — Cardenio and ThirstyRough were downloaded twice and SiliciBold (307 kB) downloaded once for nothing, ~490 kB wasted on every first visit. The fonts are consequently *excluded* from the wholesale asset copy (`"ignore": [… "fonts/**"]`): `@font-face` is their only possible consumer, so shipping a second copy can only invite the same mistake back.
+- **`ngsw-config.json` must cover `/media/**` as well as `/assets/**`.** It didn't, so the service worker cached 824 kB of files the app never asks for while the fonts and backgrounds it does ask for stayed uncached — the PWA lost its title font and backgrounds offline.
+
+The remaining `media/` residue is 13 files (~776 kB) that only stylesheets reference. Their `assets/` twins still ship, unrequested; that is ~270 kB of artifact and no download, and it is left alone on purpose, because excluding them would turn a future `<img src="assets/background.webp">` into a production 404.
+
 ### Asset packs (hidden feature)
 
 Default art is `silhouette` (`assets/cards/birds/<id>.webp`). Alternative packs live in `assets/cards/birds-robbie/` and `assets/cards/birds-diffusion/`; `src/assets/data/extra-assets.json` indexes which ids each pack actually covers, and `getBirdSilhouette()` falls back to the silhouette when a pack lacks the id. The pack selector is only rendered when the search box contains exactly `images` (see `search.component.html`).

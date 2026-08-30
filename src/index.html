@@ -30,9 +30,10 @@
   <meta property="og:description" content="Not sure how to play a card? Quickly search for the additional explanation and official rulings." />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="prefetch" as="font" href="assets/fonts/CardenioModern-Bold.otf" type="font/otf" crossorigin="anonymous">
-  <link rel="prefetch" as="font" href="assets/fonts/SiliciBold.ttf" type="font/otf" crossorigin="anonymous">
-  <link rel="prefetch" as="font" href="assets/fonts/ThirstyRoughLt.otf" type="font/otf" crossorigin="anonymous">
+  <!-- The three local fonts are deliberately NOT prefetched here. The builder rebases every
+  stylesheet `url()` into `media/`, so a prefetch of `assets/fonts/<name>` warms a URL the
+  stylesheet never asks for: the browser downloaded Cardenio and ThirstyRough twice and
+  SiliciBold (307 kB) once for nothing. @font-face in styles.scss is the single source. -->
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
 </head>

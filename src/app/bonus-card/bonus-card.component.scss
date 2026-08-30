@@ -1,3 +1,9 @@
+// The expansion indicator is positioned here but its `url()` comes from the template. A `url()`
+// written in a stylesheet is rebased by the builder into `media/`, which is a second URL for the
+// bytes the bird card already fetches from `assets/icons/png/expansion-indicators/<set>.webp` --
+// so every visitor downloaded the five live indicators twice. Binding the url in the template
+// resolves it against `<base href>` instead, exactly as the bird card's `<img src>` does.
+// (There was also a `.swiftstart` rule here; no bonus card has that `Set`, so it was dead.)
 .content-wrapper {
     width: 100%;
     height: 100%;
@@ -7,30 +13,6 @@
     background-repeat: no-repeat;
     background-position-y: 98.5%;
     background-position-x: 98.2%;
-}
-
-.content-wrapper.core {
-    background-image: url('../../assets/icons/png/expansion-indicators/core.webp');
-}
-
-.content-wrapper.swiftstart {
-    background-image: url('../../assets/icons/png/expansion-indicators/swift_start_core.webp');
-}
-
-.content-wrapper.european {
-    background-image: url('../../assets/icons/png/expansion-indicators/european.webp');
-}
-
-.content-wrapper.oceania {
-    background-image: url('../../assets/icons/png/expansion-indicators/oceania.webp');
-}
-
-.content-wrapper.asia {
-  background-image: url('../../assets/icons/png/expansion-indicators/asia.webp');
-}
-
-.content-wrapper.americas {
-  background-image: url('../../assets/icons/png/expansion-indicators/americas.webp');
 }
 
 .title {

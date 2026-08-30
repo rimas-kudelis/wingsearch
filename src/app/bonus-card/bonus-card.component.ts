@@ -31,6 +31,12 @@ export class BonusCardComponent {
     }, []) : []
   }
 
+  // Same URL the bird card's `<img src>` uses, so the two share one download and one cache
+  // entry. Kept out of the stylesheet on purpose -- see bonus-card.component.scss.
+  get expansionIndicator(): string {
+    return `url(assets/icons/png/expansion-indicators/${this.card.Set}.webp)`
+  }
+
   get descriptionFontSize(): number {
     const charCount = this.card.Condition.replace(/\[.*?\]/g, '1').length
     return charCount <= 100 ? 0.052 : 0.045

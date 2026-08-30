@@ -1,5 +1,6 @@
 @if (cardHeight$ | async; as cardHeight) {
-  <div class="content-wrapper" [ngClass]="card.Set" [ngStyle]="{'height.px': cardHeight}">
+  <div class="content-wrapper" [ngClass]="card.Set" [ngStyle]="{'height.px': cardHeight}"
+    [style.background-image]="expansionIndicator">
     <div class="title" [innerHTML]="card['Bonus card'] | iconize"
     [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.056"></div>
     <div class="description" [innerHTML]="card['Condition'] | iconize"
