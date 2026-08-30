@@ -21,7 +21,8 @@ describe('general rulings fan-out', () => {
     // Recorded 2026-08-30, after the applicability audit, after implementing the predicates
     // that had been left as `lambda row: False`, after resolving the pending proposals, and
     // after promoting 14 rulings that had been published on one card but stated a rule true of
-    // every card with that power (see `graph.py --transferable`).
+    // every card with that power (see `graph.py --transferable`), and after the terse-source
+    // review, which promoted one more (`20221121b`, may a player decline a benefit).
     const EXPECTED: [string, number][] = [
         ['Whenever you are entitled to gain resources, ', 315],
         ['There is no limit to the number of [card] tha', 152],
@@ -29,6 +30,7 @@ describe('general rulings fan-out', () => {
         ['A <i>"When Played"</i> power resolves only af', 138],
         ['Activating a bird power is optional, includin', 114],
         ['You may only reroll dice when gaining food fr', 109],
+        ['Any player may decline a benefit, whether it ', 78],
         ['When a bird power has each player make a sele', 69],
         ['Each player chooses the order in which they a', 63],
         ['Regular reroll rules apply whenever you have ', 63],
@@ -94,7 +96,7 @@ describe('general rulings fan-out', () => {
         })
     })
 
-    it('attaches only these 51 general rulings, 1954 times in total', () => {
+    it('attaches only these 52 general rulings, 2032 times in total', () => {
         expect(counts.size).toBe(EXPECTED.length)
         expect(total).toBe(EXPECTED.reduce((sum, [, n]) => sum + n, 0))
     })

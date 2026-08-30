@@ -3,272 +3,427 @@
     "20190117@Great Crested Flycatcher": {
       "ruling_id": "20190117",
       "card": "Great Crested Flycatcher",
-      "question_restated": "When a bird power says gain a specific food from the birdfeeder \"if available\", may you still reroll the dice when all birdfeeder dice show the same face?",
+      "question_restated": "For a power reading \"gain 1 [food] from the birdfeeder, if available\", may you reroll the dice when only one die face is showing in the feeder?",
       "answer_polarity": "yes",
       "licensing_quote": "I consulted with Elizabeth, and she said that the normal dice-rerolling rules apply here.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Question explicitly names Great Crested Flycatcher among the affected birds; official answer confirms normal reroll rules (reroll when all dice show the same face) apply.",
+      "note": "The asker named Great Crested Flycatcher explicitly among the affected birds; the official reply confirms normal reroll rules apply, i.e. reroll when all dice show the same face.",
       "contradicts": [],
       "problems": [],
-      "signature": "bdb9a4661c63c00c",
+      "flags": [],
+      "signature": "0d35abee76256a56",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "30543"
-      ],
-      "flags": []
+        "30546"
+      ]
     },
     "20190117@Indigo Bunting": {
       "ruling_id": "20190117",
       "card": "Indigo Bunting",
-      "question_restated": "For an \"if available\" birdfeeder gain power such as Indigo Bunting's, may you reroll when all dice show the same face (contrary to the BGG post saying no)?",
+      "question_restated": "For a power reading \"gain 1 [food] from the birdfeeder, if available\", may you reroll when only one die face is in the feeder (the BGG post said the Bunting could not)?",
       "answer_polarity": "yes",
       "licensing_quote": "I consulted with Elizabeth, and she said that the normal dice-rerolling rules apply here.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Indigo Bunting is the specific case the asker doubted; the official reply affirms normal rerolling rules, so the ruling's direction matches.",
+      "note": "Indigo Bunting is the card the asker specifically doubted; the official answer affirms normal reroll rules.",
       "contradicts": [],
       "problems": [],
-      "signature": "bdb9a4661c63c00c",
+      "flags": [],
+      "signature": "0d35abee76256a56",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "30543"
-      ],
-      "flags": []
+        "30546"
+      ]
     },
     "20190117@Rose-Breasted Grosbeak": {
       "ruling_id": "20190117",
       "card": "Rose-Breasted Grosbeak",
-      "question_restated": "Does the normal reroll rule (all dice showing the same face) apply to \"if available\" birdfeeder gains like Rose-breasted Grosbeak's?",
+      "question_restated": "May you reroll the birdfeeder dice when using an \"if available\" gain-food power and all dice show one face?",
       "answer_polarity": "yes",
       "licensing_quote": "I consulted with Elizabeth, and she said that the normal dice-rerolling rules apply here.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Card named in the question's list of affected birds; ruling matches the affirmative official answer.",
+      "note": "Named in the question's list of affected birds; ruling transfers correctly.",
       "contradicts": [],
       "problems": [],
-      "signature": "bdb9a4661c63c00c",
+      "flags": [],
+      "signature": "0d35abee76256a56",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "30543"
-      ],
-      "flags": []
+        "30546"
+      ]
     },
     "20190117@Western Tanager": {
       "ruling_id": "20190117",
       "card": "Western Tanager",
-      "question_restated": "Does the normal reroll rule (all dice showing the same face) apply to \"if available\" birdfeeder gains like Western Tanager's?",
+      "question_restated": "May you reroll the birdfeeder dice when using an \"if available\" gain-food power and all dice show one face?",
       "answer_polarity": "yes",
       "licensing_quote": "I consulted with Elizabeth, and she said that the normal dice-rerolling rules apply here.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Card named in the question's list of affected birds; ruling matches the affirmative official answer.",
+      "note": "Named in the question's list of affected birds; ruling transfers correctly.",
       "contradicts": [],
       "problems": [],
-      "signature": "bdb9a4661c63c00c",
+      "flags": [],
+      "signature": "0d35abee76256a56",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "30543"
-      ],
-      "flags": []
+        "30546"
+      ]
     },
     "20190128@House Wren": {
       "ruling_id": "20190128",
       "card": "House Wren",
-      "question_restated": "Must the additional bird played via House Wren go in the same habitat as House Wren, rather than its other habitat?",
+      "question_restated": "Must the second bird played by House Wren's power go in the same habitat as House Wren, rather than the other habitat House Wren could inhabit?",
       "answer_polarity": "yes",
-      "licensing_quote": "Because it's referring to \"a second bird,\" it needs to go in the same habitat as the House Wren.",
+      "licensing_quote": "Because the card is referring to a \"second\" bird,\" it's looking at the first bird (and thus needs to follow the same habitat as the first bird).",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Both cited comments agree; the ruling's \"second bird looks at the first bird\" reasoning is copied from 55187.",
       "contradicts": [],
-      "note": "Exact match.",
       "problems": [],
-      "signature": "707a65f562f5ea0c",
+      "flags": [],
+      "signature": "cf76d8a08fb676b9",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "30838"
-      ],
-      "flags": []
+        "30838",
+        "55187"
+      ]
+    },
+    "20190203@Brewer's Blackbird": {
+      "ruling_id": "20190203",
+      "card": "Brewer's Blackbird",
+      "question_restated": "If the bird is already at its egg limit, may you still use the power to tuck a card even though no egg can be laid?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Source thread was about Yellow-Headed Blackbird's identical power; the rule transfers to Brewer's Blackbird, which has the same power text.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190203@Bushtit": {
+      "ruling_id": "20190203",
+      "card": "Bushtit",
+      "question_restated": "If the bird is already at its egg limit, may you still tuck a card with this power even though no egg can be laid?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Derived from a thread about Yellow-Headed Blackbird's identical power; transfers to Bushtit. No conflict with the Anatomist ruling on this card.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190203@Common Grackle": {
+      "ruling_id": "20190203",
+      "card": "Common Grackle",
+      "question_restated": "If the bird already has its maximum eggs, may I still tuck a card with its power even though I cannot lay an egg?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread asked about Yellow-Headed Blackbird; identical power text, so the rule transfers to Common Grackle.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190203@Dickcissel": {
+      "ruling_id": "20190203",
+      "card": "Dickcissel",
+      "question_restated": "If the bird is at its egg limit, may its power still be used to tuck a card?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Derived from a Yellow-Headed Blackbird thread; same power, transfers correctly.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190203@Red-Winged Blackbird": {
+      "ruling_id": "20190203",
+      "card": "Red-Winged Blackbird",
+      "question_restated": "At maximum eggs, can the tuck part of the power still be performed?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Transfer from Yellow-Headed Blackbird thread; identical power.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190203@Yellow-Headed Blackbird": {
+      "ruling_id": "20190203",
+      "card": "Yellow-Headed Blackbird",
+      "question_restated": "Having already laid its egg limit, can I still tuck 1 bird card with this power?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You can still tuck the bird, but since you're at egg capacity, you can't lay an egg.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "This is the card actually asked about.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e775610601c6f3eb",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "127125"
+      ]
+    },
+    "20190307@Gray Catbird": {
+      "ruling_id": "20190307",
+      "card": "Gray Catbird",
+      "question_restated": "If the 'move to another habitat' bird has already moved and left the habitat, is it then unrepeatable there, while repeating its power first still lets it move?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You have that exactly correct, John!",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Terse affirmation; polarity is inherited from John Neeve's question, which the ruling restates accurately in both halves. Thread names no card explicitly, but applies to any 'repeat a brown power' bird.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "4655663918f5d192",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "31329"
+      ]
+    },
+    "20190307@Northern Mockingbird": {
+      "ruling_id": "20190307",
+      "card": "Northern Mockingbird",
+      "question_restated": "Can the repeat bird still repeat a 'move to another habitat' bird's power after that bird has already moved away, and can it instead repeat first so the bird may then move?",
+      "answer_polarity": "yes",
+      "licensing_quote": "You have that exactly correct, John!",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Affirmation of the asker's two-part statement; the ruling reproduces both parts without adding scope.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "4655663918f5d192",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "31329"
+      ]
     },
     "20190309@Downy Woodpecker": {
       "ruling_id": "20190309",
       "card": "Downy Woodpecker",
-      "question_restated": "Can 'play an additional bird' powers be chained, i.e. if the additional bird also has a play-another-bird power, may you use it too?",
+      "question_restated": "Can \"play an additional bird\" powers be chained, playing a third or fourth bird, if you can pay the costs?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling drops the explicit 'as long as you can pay the costs' caveat, but the card text itself states 'Pay its normal cost', so no scope is added.",
+      "note": "Combines 31474 (chaining allowed) and 81390 (cost payment detail); both licensed.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Eastern Bluebird": {
       "ruling_id": "20190309",
       "card": "Eastern Bluebird",
-      "question_restated": "Can 'play an additional bird' powers be chained into further such powers?",
+      "question_restated": "May a chained \"play an additional bird\" power be used to play yet another bird, paying all costs?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread, transfers to all 'play an additional bird' birds.",
+      "note": "General rule about \"play a second bird\" powers; transfers to this card.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Great Blue Heron": {
       "ruling_id": "20190309",
       "card": "Great Blue Heron",
-      "question_restated": "Can 'play an additional bird' powers be chained into further such powers?",
+      "question_restated": "Can these powers be strung together to play multiple extra birds in a turn?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread; applies generically to this card's identical power.",
+      "note": "General \"play a second bird\" rule; applies to this card's identical power.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Great Egret": {
       "ruling_id": "20190309",
       "card": "Great Egret",
-      "question_restated": "Can 'play an additional bird' powers be chained into further such powers?",
+      "question_restated": "Is chaining \"play an additional bird\" powers permitted, with each cost paid?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread; applies generically to this card's identical power.",
+      "note": "General rule stated by the official replies; transfers.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@House Wren": {
       "ruling_id": "20190309",
       "card": "House Wren",
-      "question_restated": "Can 'play an additional bird' powers be chained, i.e. can the additional bird's own play-a-bird power be used to play yet another bird?",
+      "question_restated": "Can you chain \"play a second bird\" powers to play multiple additional birds in one turn, if you can pay the costs?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Merged from comments 31474 (chaining allowed) and 81390 (pay each printed cost plus column egg cost); House Wren is named in the 2024 question. No conflict with 20190128, which only constrains habitat.",
       "contradicts": [],
-      "note": "Ruling drops the explicit cost-payment caveat but it is implied by 'pay its normal cost'; direction and content match.",
       "problems": [],
-      "signature": "dfe2b198e88da548",
+      "flags": [],
+      "signature": "5f83e806ad0383c9",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Mountain Bluebird": {
       "ruling_id": "20190309",
       "card": "Mountain Bluebird",
-      "question_restated": "Can 'play an additional bird' powers be chained into further such powers?",
+      "question_restated": "Can you chain \"play an additional bird\" powers indefinitely, playing multiple birds in one turn, as long as you can pay the food and egg costs?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread; applies generically to this card's identical power.",
+      "note": "Thread asked about \"play a second bird\" powers generally (House Wren, Downy Woodpecker, Red-Eyed Vireo named); Mountain Bluebird has the same power, so transfer is fair. Both cited comments answer yes and license the cost clause.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Red-Eyed Vireo": {
       "ruling_id": "20190309",
       "card": "Red-Eyed Vireo",
-      "question_restated": "Can 'play an additional bird' powers be chained into further such powers?",
+      "question_restated": "Can you chain \"play a second bird\" powers to play 3 or 4 birds in one turn, paying each cost?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread; applies generically to this card's identical power.",
+      "note": "Red-Eyed Vireo is named explicitly in the 2024 question, so this is the source card itself.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Ruby-Crowned Kinglet": {
       "ruling_id": "20190309",
       "card": "Ruby-Crowned Kinglet",
-      "question_restated": "Can you chain multiple 'play a second bird' powers, playing more birds beyond the second, as long as you can pay costs?",
+      "question_restated": "Can \"play an additional bird\" powers be chained, paying each bird's food cost and the column egg cost?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Thread asked generally about all \"play a second bird\" birds; applies to this card.",
+      "note": "Derived from a thread about the shared \"play a second bird\" power; transfers to this identical power. No conflict with 20201230, which agrees that the column egg cost is owed.",
       "contradicts": [],
       "problems": [],
-      "signature": "3ffa45dafd8580b9",
+      "flags": [],
+      "signature": "27c83e126a829745",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Savannah Sparrow": {
       "ruling_id": "20190309",
       "card": "Savannah Sparrow",
-      "question_restated": "Can you chain multiple 'play a second bird' powers to play more than two birds in a turn if costs are payable?",
+      "question_restated": "Can you chain \"play an additional bird\" powers to play multiple birds in one turn if you can pay all costs?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "Joshua: Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Derived from a general thread about the whole class of powers; transfers to Savannah Sparrow.",
+      "note": "Transferred from the general \"play a second bird\" thread; Savannah Sparrow has the same power.",
       "contradicts": [],
       "problems": [],
-      "signature": "eb17abfab9349258",
+      "flags": [],
+      "signature": "6982a5b185825130",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190309@Tufted Titmouse": {
       "ruling_id": "20190309",
       "card": "Tufted Titmouse",
-      "question_restated": "Is there an implied limit stopping you from chaining several 'play a second bird' powers in one turn?",
+      "question_restated": "Can you chain \"play a second bird\" powers, paying each printed cost and the column egg cost?",
       "answer_polarity": "yes",
-      "licensing_quote": "Definitely, as long as you can play the food and egg costs, you can keep chaining them.",
+      "licensing_quote": "You can! Just make sure you pay each card's printed cost and the egg cost at the top of the columns.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "General thread; correctly applied to this card.",
+      "note": "Transferred from the shared-power thread. 20260128 concerns which food may pay the cost, not whether chaining is allowed, so no contradiction.",
       "contradicts": [],
       "problems": [],
-      "signature": "3ffa45dafd8580b9",
+      "flags": [],
+      "signature": "27c83e126a829745",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "31474"
-      ],
-      "flags": []
+        "31474",
+        "81390"
+      ]
     },
     "20190311@American Oystercatcher": {
       "ruling_id": "20190311",
@@ -309,40 +464,22 @@
     "20190416@Osprey": {
       "ruling_id": "20190416",
       "card": "Osprey",
-      "question_restated": "For Osprey, does \"powers are optional\" mean the owner may decline to activate the power at all (option a), rather than only each player choosing whether to take a fish (option b)?",
+      "question_restated": "For a power that benefits all players (Osprey), may the controlling player choose not to activate the power at all, so nobody gains a fish (option a) rather than the power always activating with each player choosing (option b)?",
       "answer_polarity": "yes",
       "licensing_quote": "(a) is correct :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Second sentence (another player may still decline their fish) is licensed by the later official comment 39897 in the same thread, which quotes Elizabeth: \"you can pass up the food if you really want to.\" Legitimate merge of two official comments.",
+      "note": "Terse answer whose polarity lives in the question; the ruling matches option (a) as asked.",
       "contradicts": [],
       "problems": [],
       "flags": [
         "terse source: the licensing quote is 17 chars ('(a) is correct :)'), so the ruling's direction rests on the question"
       ],
-      "signature": "4a383a21420f3a93",
+      "signature": "d62d1a3ad893654c",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "32087"
       ]
-    },
-    "20190617@Canada Goose": {
-      "ruling_id": "20190617",
-      "card": "Canada Goose",
-      "question_restated": "May two other food tokens be paid in place of the 1 seed required by Canada Goose's power?",
-      "answer_polarity": "no",
-      "licensing_quote": "No, you may only use 2 food as 1 when playing a bird.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Exact restatement of the official answer.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "43c4b653645c9f99",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "33198"
-      ],
-      "flags": []
     },
     "20190629@Nest Box Builder": {
       "ruling_id": "20190629",
@@ -530,42 +667,6 @@
       ],
       "flags": []
     },
-    "20191004@Griffon Vulture": {
-      "ruling_id": "20191004",
-      "card": "Griffon Vulture",
-      "question_restated": "Is the order of activating end-of-round (teal) powers fixed, or does each player choose their own order?",
-      "answer_polarity": "not-a-yes-no-question",
-      "licensing_quote": "Each player chooses their own order.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Question was about end-of-round abilities, explicitly naming Griffon Vulture and Lesser Whitethroat; ruling restates the official answer with the teal/round-end scope supplied by the question.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "1716c70b4deb5d71",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "35191"
-      ],
-      "flags": []
-    },
-    "20191004@Lesser Whitethroat": {
-      "ruling_id": "20191004",
-      "card": "Lesser Whitethroat",
-      "question_restated": "Is the order of activating end-of-round (teal) powers fixed, or does each player choose their own order?",
-      "answer_polarity": "not-a-yes-no-question",
-      "licensing_quote": "Each player chooses their own order.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Same thread; Lesser Whitethroat is named in the asker's example, so attachment is appropriate.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "1716c70b4deb5d71",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "35191"
-      ],
-      "flags": []
-    },
     "20191007@Fish Crow": {
       "ruling_id": "20191007",
       "card": "Fish Crow",
@@ -605,20 +706,41 @@
     "20191126a@Snow Bunting": {
       "ruling_id": "20191126a",
       "card": "Snow Bunting",
-      "question_restated": "Does Snow Bunting count toward the Photographer bonus card?",
+      "question_restated": "Does Snow Bunting count toward the Photographer bonus card, given that \"snowy\" is listed on it?",
       "answer_polarity": "yes",
-      "licensing_quote": "Since \"snowy\" is on the Photographer, I would say that \"snow\" counts.",
+      "licensing_quote": "Ah, I see. Since \"snowy\" is on the Photographer, I would say that \"snow\" counts.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Jamey's initial 'no' (comment 35699) was corrected in 35702/35706, and the ruling cites the corrected final comment. Note the official answer is hedged ('I would say'), but the ruling's flat statement is consistent with the two supporting comments.",
+      "note": "Jamey's initial \"no\" (35699) was self-corrected in 35702/35706 and reaffirmed in 52267, the two cited comments. The ruling follows the corrected, later answers.",
       "contradicts": [],
       "problems": [],
-      "signature": "34aeff4bdb9a513e",
+      "flags": [],
+      "signature": "cd7feb2080c3fd16",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "35706"
+        "35706",
+        "52267"
+      ]
+    },
+    "20191201@Northern Bobwhite": {
+      "ruling_id": "20191201",
+      "card": "Northern Bobwhite",
+      "question_restated": "Does the word \"white\" in Northern Bobwhite count as a color for the Photographer bonus card?",
+      "answer_polarity": "yes",
+      "licensing_quote": "It does!",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Terse yes; polarity matches the question.",
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 8 chars ('It does!'), so the ruling's direction rests on the question"
       ],
-      "flags": []
+      "signature": "4226ce317e042125",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "35747"
+      ]
     },
     "20191218@Eastern Screech-Owl": {
       "ruling_id": "20191218",
@@ -655,6 +777,60 @@
         "35953"
       ],
       "flags": []
+    },
+    "20200104@Common Nighthawk": {
+      "ruling_id": "20200104",
+      "card": "Common Nighthawk",
+      "question_restated": "When Common Nighthawk moves to another habitat, do you gain the resources of the new habitat?",
+      "answer_polarity": "no",
+      "licensing_quote": "you may move it to a different habitat, and then continue activating the originally chosen habitat",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The official answer says you continue activating the originally chosen habitat, which licenses both halves of the ruling (carry on with the original habitat; no benefits of the new one).",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "bc42a5111a5573df",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36201"
+      ]
+    },
+    "20200108@Gray Catbird": {
+      "ruling_id": "20200108",
+      "card": "Gray Catbird",
+      "question_restated": "When a repeat power repeats a tucking power (e.g. Barn Swallow), does the card get tucked under the repeating bird, does it count for the tucked-cards goal, and does it grant a flocking power / count for Citizen Scientist?",
+      "answer_polarity": "no",
+      "licensing_quote": "The Mockingbird does not take on the powers of the other bird and so in this instance would not gain a tucked card. In the European Expansion there are some cards that allow you to tuck cards on other birds, and to answer the second part of your question, that does not give the \"flocking power\" to that bird, but would count for the \"Citizen Scientist\" bonus card in the European Expansion which only looks for \"birds with tucked cards.\"",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "Main conclusions (no taking on the power, tucks go behind the repeated bird, no flocking power, counts for Citizen Scientist) are licensed by 36250. The Chihuahuan Raven egg-cost clause comes from the same thread's earlier exchange (35725/35726 as edited), not from the cited comment; derived from the thread rather than invented, but worth a reviewer's eye. Thread is about Northern Mockingbird; transfers to Gray Catbird, identical power.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "ab4ea5227812deee",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36250"
+      ]
+    },
+    "20200108@Northern Mockingbird": {
+      "ruling_id": "20200108",
+      "card": "Northern Mockingbird",
+      "question_restated": "When the Mockingbird repeats a tucking power, does the card tuck under the Mockingbird, and does the repeated bird gain a flocking power / count for Citizen Scientist?",
+      "answer_polarity": "no",
+      "licensing_quote": "The Mockingbird does not take on the powers of the other bird and so in this instance would not gain a tucked card. In the European Expansion there are some cards that allow you to tuck cards on other birds, and to answer the second part of your question, that does not give the \"flocking power\" to that bird, but would count for the \"Citizen Scientist\" bonus card in the European Expansion which only looks for \"birds with tucked cards.\"",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "Same as the Gray Catbird instance: the Chihuahuan Raven cost clause rests on comment 35726's EDIT in the same thread rather than on the cited comment 36250. Note 35726's unedited first sentence (\"as if it's printed on the repeating bird\") is the known-wrong version, self-corrected in the same comment's EDIT, which the ruling follows.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "ab4ea5227812deee",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36250"
+      ]
     },
     "20200110@Eurasian Nutcracker": {
       "ruling_id": "20200110",
@@ -709,6 +885,24 @@
       ],
       "flags": []
     },
+    "20200113@Blue Jay": {
+      "ruling_id": "20200113",
+      "card": "Blue Jay",
+      "question_restated": "When activating Blue Jay with only 1 die in the birdfeeder, may you reroll all dice to look for a [seed]?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Thanks Andrew! Yes, you can do that.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "The 'if every die shows the same face' framing is the standard reroll rule rather than something the comment states; the specific licensed point -- rerolling when only 1 die is left while looking for the [seed] -- is faithful. Slight generalisation of the reroll condition beyond the source text.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "0160f68380c2338b",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36298"
+      ]
+    },
     "20200125@Nest Box Builder": {
       "ruling_id": "20200125",
       "card": "Nest Box Builder",
@@ -748,38 +942,74 @@
     "20200204a@Horned Lark": {
       "ruling_id": "20200204a",
       "card": "Horned Lark",
-      "question_restated": "Does a pink power activate immediately after the triggering action, before the original player continues with further brown powers/actions in their row?",
-      "answer_polarity": "yes",
-      "licensing_quote": "A Pink power is activated directly after the action that caused it. So if a successful predation action activates a pink power, then the player with the pink power must complete their pink action before the original player continues doing actions in their row.",
-      "verdict": "faithful",
-      "confidence": "medium",
-      "note": "Core conclusion is licensed. The ruling's clause 'once the triggering player has finished all the actions on the card that caused it' is a mild extrapolation (source says 'directly after the action that caused it'), but it is consistent with the predation example. Derived from a Turkey Vulture/owl thread; transfers as a general pink-power timing rule.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "7884c9e445732c35",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "36551"
-      ],
-      "flags": []
-    },
-    "20200204a@Turkey Vulture": {
-      "ruling_id": "20200204a",
-      "card": "Turkey Vulture",
-      "question_restated": "Does the triggered pink power (Turkey Vulture) resolve immediately after the triggering action, before the original player continues activating further birds in the row?",
+      "question_restated": "Does a pink power resolve immediately after the triggering action (before the original player continues activating further birds), rather than after the whole turn?",
       "answer_polarity": "yes",
       "licensing_quote": "A Pink power is activated directly after the action that caused it. So if a successful predation action activates a pink power, then the player with the pink power must complete their pink action before the original player continues doing actions in their row.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The ruling's phrase \"once the triggering player has finished all the actions on the card that caused it\" goes marginally beyond the source's wording but is consistent with 'directly after the action that caused it'.",
       "contradicts": [],
+      "note": "The \"once the triggering player has finished all the actions on the card that caused it\" clause matches comment 37711 in the same thread, an adjacent official restatement.",
       "problems": [],
-      "signature": "7884c9e445732c35",
+      "flags": [],
+      "signature": "79fe44c6d8e2c9b7",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "36551"
-      ],
-      "flags": []
+      ]
+    },
+    "20200204a@Turkey Vulture": {
+      "ruling_id": "20200204a",
+      "card": "Turkey Vulture",
+      "question_restated": "Does an opponent's pink power (Turkey Vulture) resolve immediately after the action that triggered it, before the active player continues activating further birds in the row?",
+      "answer_polarity": "yes",
+      "licensing_quote": "A Pink power is activated directly after the action that caused it. So if a successful predation action activates a pink power, then the player with the pink power must complete their pink action before the original player continues doing actions in their row.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The added clause \"once the triggering player has finished all the actions on the card that caused it\" comes from the later official comment 37711 in the same thread (\"after you finish doing all the actions on the card that caused that pink power to activate\"), a legitimate merge of restatements.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "79fe44c6d8e2c9b7",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36551"
+      ]
+    },
+    "20200218@Grey Heron": {
+      "ruling_id": "20200218",
+      "card": "Grey Heron",
+      "question_restated": "When a bird (e.g. Red Kite) is played over the sideways Grey Heron, is it placed sideways and does Grey Heron become a tucked card (so its feathers/eggs no longer count)?",
+      "answer_polarity": "yes",
+      "licensing_quote": "When you play a bird over the Grey Heron, the new bird will also go sideways, completely covering up the Grey Heron, which becomes a tucked bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Ruling says 'tucked card' where source says 'tucked bird'; equivalent. Note earlier comments 35779 in the thread say the opposite (played vertically), but the cited comment is the later, more specific one.",
+      "problems": [],
+      "flags": [],
+      "signature": "06f693b07ad1f14c",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36691"
+      ]
+    },
+    "20200218@Red Kite": {
+      "ruling_id": "20200218",
+      "card": "Red Kite",
+      "question_restated": "If Red Kite is played over the sideways Grey Heron, is Red Kite also placed sideways, completely covering Grey Heron, which becomes a tucked card?",
+      "answer_polarity": "yes",
+      "licensing_quote": "When you play a bird over the Grey Heron, the new bird will also go sideways, completely covering up the Grey Heron, which becomes a tucked bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Derived from the same thread; the asker's example was Red Kite over Grey Heron, so applying it to Red Kite's page is correct.",
+      "problems": [],
+      "flags": [],
+      "signature": "3a68683d7f2d0186",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36691"
+      ]
     },
     "20200301@Hooded Warbler": {
       "ruling_id": "20200301",
@@ -928,6 +1158,24 @@
       ],
       "flags": []
     },
+    "20200401@Eurasian Green Woodpecker": {
+      "ruling_id": "20200401",
+      "card": "Eurasian Green Woodpecker",
+      "question_restated": "For the goal 'birds with cavity nests with at least 1 egg', does Eurasian Green Woodpecker count as two birds (while eggs themselves are not doubled)?",
+      "answer_polarity": "yes",
+      "licensing_quote": "2. Correct! It's counting the bird, so it counts as two for that end round goal.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The rulebook OTHER POWERS quote about eggs not being doubled was supplied by the asker and affirmed by 'Correct!'; the ruling attributes it to the rulebook, which is accurate.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "5d0928cdf69e1ff7",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "37617"
+      ]
+    },
     "20200405a@Anna's Hummingbird": {
       "ruling_id": "20200405a",
       "card": "Anna's Hummingbird",
@@ -946,6 +1194,24 @@
       ],
       "flags": [
         "terse source: the licensing quote is 11 chars ('Absolutely!'), so the ruling's direction rests on the question"
+      ]
+    },
+    "20200405b@Cetti's Warbler": {
+      "ruling_id": "20200405b",
+      "card": "Cetti's Warbler",
+      "question_restated": "Does Cetti's Warbler count double for the 'sets of eggs in habitat' goal (and other non-bird-counting goals such as food cost of birds), while counting double for bird-counting goals?",
+      "answer_polarity": "no",
+      "licensing_quote": "Cetti's Warbler, and other birds with the same power, only count double for end-round goals that count birds. \"Sets of eggs\" counts eggs. Another example of an end-round goal that doesn't apply is \"Food cost of birds.\" If it had been, say, \"birds in X habitat\" and Cetti's Warbler qualified, then it would count as two birds for that end-round goal.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "d9a28a920e75e881",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "37745"
       ]
     },
     "20200411@Brown-Headed Cowbird": {
@@ -984,77 +1250,41 @@
       ],
       "flags": []
     },
-    "20200413@Barn Swallow": {
-      "ruling_id": "20200413",
-      "card": "Barn Swallow",
-      "question_restated": "Is there a limit to the number of cards that can be tucked behind a bird?",
-      "answer_polarity": "no",
-      "licensing_quote": "There is no limit to tucked cards.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Negative answer correctly rendered as \"no limit\".",
-      "contradicts": [],
-      "problems": [],
-      "signature": "30dd640192794204",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "37939"
-      ],
-      "flags": []
-    },
-    "20200413@Yellow-Headed Blackbird": {
-      "ruling_id": "20200413",
-      "card": "Yellow-Headed Blackbird",
-      "question_restated": "Is there a limit to the number of cards that can be tucked behind a bird?",
-      "answer_polarity": "no",
-      "licensing_quote": "There is no limit to tucked cards.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Direct restatement of the official answer; the ruling's phrasing 'behind a bird' matches the asker's context of cards tucked behind individual birds.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "30dd640192794204",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "37939"
-      ],
-      "flags": []
-    },
     "20200420@Anna's Hummingbird": {
       "ruling_id": "20200420",
       "card": "Anna's Hummingbird",
-      "question_restated": "When an opponent activates Anna's Hummingbird, may a player refuse to take a food from the birdfeeder?",
+      "question_restated": "May a player decline to take a food from the birdfeeder when Anna's Hummingbird's 'each player gains 1 die' power is activated?",
       "answer_polarity": "yes",
-      "licensing_quote": "I'm going to say any player can decide not to take a food from the feeder during the activation of Anna's Hummingbird (they of course won't get a 2nd chance to take food during that single activation)",
+      "licensing_quote": "any player can decide not to take a food from the feeder during the activation of Anna's Hummingbird (they of course won't get a 2nd chance to take food during that single activation)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Both clauses (may decline; no second chance) come directly from the cited comment; Hargrave backs it up.",
+      "note": "Ruling carries both the permission and the no-second-chance caveat.",
       "contradicts": [],
       "problems": [],
-      "signature": "f35c25677d3e8dd8",
+      "flags": [],
+      "signature": "fcf2f8ed9180ee9c",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38101"
-      ],
-      "flags": []
+      ]
     },
     "20200420@Ruby-Throated Hummingbird": {
       "ruling_id": "20200420",
       "card": "Ruby-Throated Hummingbird",
-      "question_restated": "When an opponent activates a power like \"each player gains 1 food from the birdfeeder,\" may a player refuse to take a food (and do they get another chance later in that activation)?",
+      "question_restated": "May a player decline to take a food from the birdfeeder when a 'each player gains 1 die from the birdfeeder' power is activated?",
       "answer_polarity": "yes",
-      "licensing_quote": "I'm going to say any player can decide not to take a food from the feeder during the activation of Anna's Hummingbird (they of course won't get a 2nd chance to take food during that single activation)",
+      "licensing_quote": "any player can decide not to take a food from the feeder during the activation of Anna's Hummingbird (they of course won't get a 2nd chance to take food during that single activation)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Source thread discusses Anna's Hummingbird, which has identical power text; the rule transfers to Ruby-Throated Hummingbird. Both the decline and the no-second-chance caveat are preserved.",
+      "note": "Source thread is about Anna's Hummingbird; the rule transfers to Ruby-Throated Hummingbird, which has identical power text, and Joe grounds it in the general rule that a player may decline a benefit. Faithful as a transferred ruling.",
       "contradicts": [],
       "problems": [],
-      "signature": "9e92bc289951726b",
+      "flags": [],
+      "signature": "546203dcaec1ce32",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38101"
-      ],
-      "flags": []
+      ]
     },
     "20200422@European Robin": {
       "ruling_id": "20200422",
@@ -1094,24 +1324,6 @@
         "official answer was qualified; check the caveat survived into the ruling"
       ]
     },
-    "20200423@Sandhill Crane": {
-      "ruling_id": "20200423",
-      "card": "Sandhill Crane",
-      "question_restated": "Can you use the 2-for-1 food exchange (or otherwise skip paying the seed) to activate Sandhill Crane's tuck power without a seed?",
-      "answer_polarity": "no",
-      "licensing_quote": "1. For the Sandhill Crane, you must discard a [seed] to be able to tuck two cards from the deck.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Answer says the seed must be discarded; ruling's \"no seed, no tuck\" and \"cost, not substitutable/skippable\" match the question asked (2-for-1 substitution).",
-      "contradicts": [],
-      "problems": [],
-      "signature": "1e20268f9a936b6b",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "38179"
-      ],
-      "flags": []
-    },
     "20200430@Red-Legged Partridge": {
       "ruling_id": "20200430",
       "card": "Red-Legged Partridge",
@@ -1127,24 +1339,6 @@
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38313"
-      ],
-      "flags": []
-    },
-    "20200504@Eastern Screech-Owl": {
-      "ruling_id": "20200504",
-      "card": "Eastern Screech-Owl",
-      "question_restated": "When the birdfeeder is emptied, are the dice refilled/rerolled immediately before bird powers activate (so the Owl can roll at most 4 dice outside the feeder)?",
-      "answer_polarity": "yes",
-      "licensing_quote": "When the bird feeder is empty, you immediately re-roll all the dice before doing anything else. So the most dice the Eastern Schreech-Owl could roll outside the feeder is four.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Matches the official answer including the 4-dice maximum.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "bc6b65dabe1b96d0",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "38364"
       ],
       "flags": []
     },
@@ -1512,6 +1706,46 @@
       ],
       "flags": []
     },
+    "20201010b@Eurasian Nuthatch": {
+      "ruling_id": "20201010b",
+      "card": "Eurasian Nuthatch",
+      "question_restated": "May a [seed] cached on Eurasian Nuthatch (which says 'at any time, you may spend') be used to pay Sandhill Crane's discard-a-seed cost to tuck 2 cards?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes you can. :)",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Terse yes; question direction is affirmative, and the ruling asserts the affirmative. Consistent with sibling 20200116.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Yes you can. :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "eae888c8c55a74f3",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "41912"
+      ]
+    },
+    "20201010b@Sandhill Crane": {
+      "ruling_id": "20201010b",
+      "card": "Sandhill Crane",
+      "question_restated": "May the [seed] cached on Eurasian Nuthatch (which says it may be spent at any time) be used to pay Sandhill Crane's discard-1-[seed] cost, rather than a [seed] from your supply?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes you can. :)",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Terse yes; question direction confirms. No contradiction with 20211123, which is about nectar substitution, not the source of the seed.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Yes you can. :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "3e3d438924eda165",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "41912"
+      ]
+    },
     "20201020@Common Cuckoo": {
       "ruling_id": "20201020",
       "card": "Common Cuckoo",
@@ -1528,6 +1762,24 @@
         "42073"
       ],
       "flags": []
+    },
+    "20201020b@Bushtit": {
+      "ruling_id": "20201020b",
+      "card": "Bushtit",
+      "question_restated": "Does Bushtit count toward the Anatomist bonus card (body part in the name)?",
+      "answer_polarity": "no",
+      "licensing_quote": "Not officially, but some people houserule that.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Both the 'not officially' and the houserule caveat are carried over.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "8916eb9e9e211e54",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "42085"
+      ]
     },
     "20201104@American Woodcock": {
       "ruling_id": "20201104",
@@ -1715,20 +1967,20 @@
     "20201204a@Chihuahuan Raven": {
       "ruling_id": "20201204a",
       "card": "Chihuahuan Raven",
-      "question_restated": "Are you obligated to take nectar for each [wild]/\"any food\" symbol, i.e. barred from choosing another food type?",
+      "question_restated": "Are you obligated to take nectar for each [wild] symbol, i.e. barred from choosing one of the other five foods?",
       "answer_polarity": "no",
       "licensing_quote": "No, it's just saying that the \"any food\" icon includes nectar among the other foods from which you can choose to pay for an \"any food\" cost.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Negation is a caveat: nectar is included but not mandatory. Matches source.",
       "contradicts": [],
+      "note": "The 'No' answers 'are you obligated' — the ruling correctly renders this as inclusion without obligation. No conflict with 20220826, which addresses permission rather than obligation. Note the source discusses paying an 'any food' cost while the card gains [wild]; the inclusion principle is the same and the ruling is stated at that general level.",
       "problems": [],
-      "signature": "417ab5fa87b47880",
+      "flags": [],
+      "signature": "a6dd76746c712369",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "42860"
-      ],
-      "flags": []
+      ]
     },
     "20201205@Grey Shrikethrush": {
       "ruling_id": "20201205",
@@ -1766,6 +2018,24 @@
       "comment_ids": [
         "42903",
         "109108"
+      ]
+    },
+    "20201206b@Chimney Swift": {
+      "ruling_id": "20201206b",
+      "card": "Chimney Swift",
+      "question_restated": "Can a move-habitat power (including when copied by Superb Lyrebird or Tūī) move a bird into a habitat where it could not originally have been played?",
+      "answer_polarity": "yes",
+      "licensing_quote": "The only time you need to consider the habitats where a bird can be played is when you actually play the bird. After that, various abilities like this one and copying a swift ability could allow you to move a bird into a habitat where they could not originally be played.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Cited comment 42893 explicitly names copying a swift ability, licensing the Lyrebird/Tūī clause; comment 42887 says the same generally.",
+      "problems": [],
+      "flags": [],
+      "signature": "48714fb7381dfb02",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "42893"
       ]
     },
     "20201227@Mechanical Engineer": {
@@ -1958,6 +2228,24 @@
       ],
       "flags": []
     },
+    "20210123@Greylag Goose": {
+      "ruling_id": "20210123",
+      "card": "Greylag Goose",
+      "question_restated": "Does Greylag Goose count as two birds for 'birds in one row' and 'ground nest birds with eggs' (but not for 'eggs in wetland')?",
+      "answer_polarity": "yes",
+      "licensing_quote": "\"Birds in one row\" and \"ground nest birds with eggs\" both count birds, so it would count double. An example of a goal that would not count is \"eggs in wetland,\" because that's counting eggs, not birds.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "b4ed540ed22e07f7",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "43812"
+      ]
+    },
     "20210124@Common Chiffchaff": {
       "ruling_id": "20210124",
       "card": "Common Chiffchaff",
@@ -2012,6 +2300,26 @@
       ],
       "flags": [
         "terse source: the licensing quote is 8 chars ('It does!'), so the ruling's direction rests on the question"
+      ]
+    },
+    "20210127@Common Nightingale": {
+      "ruling_id": "20210127",
+      "card": "Common Nightingale",
+      "question_restated": "Does 'choose a food type' include nectar as a food type?",
+      "answer_polarity": "yes",
+      "licensing_quote": "It does!",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Source thread is about Bluethroat, which has the identical power text; transfer to Common Nightingale is legitimate (documented as a copied ruling for identical-power siblings).",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 8 chars ('It does!'), so the ruling's direction rests on the question"
+      ],
+      "signature": "2a432417fa789215",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "43910"
       ]
     },
     "20210130@California Quail": {
@@ -2232,20 +2540,56 @@
     "20210403@Kea": {
       "ruling_id": "20210403",
       "card": "Kea",
-      "question_restated": "Do you end up keeping only 1 bonus card out of all drawn with Kea's power, including the first one?",
-      "answer_polarity": "yes",
-      "licensing_quote": "You just end up with 1 out of all the cards you drew.",
+      "question_restated": "Do you keep the first bonus card automatically plus one of the additional ones (two total), or only one of all cards drawn?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "Thanks! You just end up with 1 out of all the cards you drew.",
       "verdict": "faithful",
-      "confidence": "medium",
-      "note": "Source says \"1 out of all the cards you drew\", which covers the first card implicitly; the ruling's explicit \"including the first one drawn before discarding [wild]\" is a small elaboration but consistent with \"all\" and with the appendix text quoted elsewhere on the card.",
+      "confidence": "high",
       "contradicts": [],
+      "note": "The either/or question is answered with the second alternative; the ruling states exactly that, including the first card in the pool.",
       "problems": [],
-      "signature": "8114fa68ffbc286d",
+      "flags": [],
+      "signature": "c5db85e5c14c0864",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "45550"
-      ],
-      "flags": []
+      ]
+    },
+    "20210417b@Superb Lyrebird": {
+      "ruling_id": "20210417b",
+      "card": "Superb Lyrebird",
+      "question_restated": "In a 2-player game, may Superb Lyrebird copy Tūī's copying power, thereby copying one of your own brown powers?",
+      "answer_polarity": "yes",
+      "licensing_quote": "That's a clever use of the Lyrebid, and I agree that it is a legitimate play.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "The source only asked about Lyrebird copying Tūī; the ruling states the symmetric case (each may copy the other's copying power). That is a mild generalisation from an identical-power sibling, and the '2-player game can mean copying your own brown power' clause matches the question asked.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "4cddcdd4ba95b661",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "45809"
+      ]
+    },
+    "20210417b@Tūī": {
+      "ruling_id": "20210417b",
+      "card": "Tūī",
+      "question_restated": "In a 2-player game, may these copy powers copy each other, resulting in copying one of your own brown powers?",
+      "answer_polarity": "yes",
+      "licensing_quote": "That's a clever use of the Lyrebid, and I agree that it is a legitimate play.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "Same ruling shown on the sibling card; the thread asked about Lyrebird copying Tūī, and the rule transfers to Tūī, whose power is identical apart from direction.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "4cddcdd4ba95b661",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "45809"
+      ]
     },
     "20210624@Black-Shouldered Kite": {
       "ruling_id": "20210624",
@@ -2265,6 +2609,60 @@
       ],
       "flags": [
         "terse source: the licensing quote is 23 chars ('No, they must accept it'), so the ruling's direction rests on the question"
+      ]
+    },
+    "20210701@Anatomist": {
+      "ruling_id": "20210701",
+      "card": "Anatomist",
+      "question_restated": "Can a single bird count toward more than one bonus card (e.g. both Anatomist and Photographer), and do these bonus cards consider Latin/scientific names or differ by language edition?",
+      "answer_polarity": "yes",
+      "licensing_quote": "And yes, there may be birds that count for multiple bonus cards.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Both clauses licensed: 'these cards never look at the latin names of the birds' and 'Other language editions handle these bonus cards differently... Please check the rulebook for other languages'. Answer is a yes to multi-counting; ruling matches direction.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "27509dae8fd194c0",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "46914"
+      ]
+    },
+    "20210701@Cartographer": {
+      "ruling_id": "20210701",
+      "card": "Cartographer",
+      "question_restated": "Can a single bird count toward more than one bonus card, and do these bonus cards use Latin names or vary by language edition?",
+      "answer_polarity": "yes",
+      "licensing_quote": "And yes, there may be birds that count for multiple bonus cards.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Cartographer is named explicitly in the official comment; Latin-name and language-edition clauses are also verbatim in the source.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "27509dae8fd194c0",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "46914"
+      ]
+    },
+    "20210701@Photographer": {
+      "ruling_id": "20210701",
+      "card": "Photographer",
+      "question_restated": "Can a single bird count toward more than one bonus card, and do these bonus cards look at Latin names or differ across language editions?",
+      "answer_polarity": "yes",
+      "licensing_quote": "And yes, there may be birds that count for multiple bonus cards.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Photographer is named in the official comment. Ruling drops the 'only words listed on the card/rulebook count' part, which is covered by other rulings on the card; no overstatement.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "27509dae8fd194c0",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "46914"
       ]
     },
     "20210805@Wedge-Tailed Eagle": {
@@ -2302,44 +2700,6 @@
         "47788"
       ],
       "flags": []
-    },
-    "20210830@Anhinga": {
-      "ruling_id": "20210830",
-      "card": "Anhinga",
-      "question_restated": "For 'Roll all dice not in birdfeeder' powers, do only the dice rolled outside the birdfeeder count, and does the power gain nothing when no dice are outside?",
-      "answer_polarity": "yes",
-      "licensing_quote": "3. \"Roll all dice not in the birdfeeder\" always happens outside of the birdfeeder. Don't roll these dice back into the birdfeeder. Knowing this will hopefully make this power less confusing. The dice inside the birdfeeder are not considered, only the dice you roll outside of the birdfeeder. And yes, if there are no dice outside the birdfeeder, this power has no dice to roll and can't gain anything.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Same composite ruling attached to Anhinga, whose power is the 'roll all dice not in birdfeeder' case the answer addresses; the Brown Pelican and egg clauses transfer as extra content from the same comment but are all supported.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "d377210d9c297ca4",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "47869"
-      ],
-      "flags": []
-    },
-    "20210830@Brown Pelican": {
-      "ruling_id": "20210830",
-      "card": "Brown Pelican",
-      "question_restated": "Several: does a tie for 'fewest' benefit all tied players (yes); can Brown Pelican's when-played gain pay its own cost (no); do only dice rolled outside the birdfeeder count, and does the power gain nothing if no dice are outside (yes); may you hold eggs off-mat (no)?",
-      "answer_polarity": "qualified",
-      "licensing_quote": "2. No, you can't get a \"When Played\" power before it's played. You have to pay 2 fish to play the bird, and then activate its \"When Played\" power, which then gains you 3 fish from the supply.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Composite ruling covering all four numbered answers in the single official comment; each clause is supported (dice, tie, eggs, when-played cost order).",
-      "contradicts": [],
-      "problems": [],
-      "signature": "d377210d9c297ca4",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "47869"
-      ],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
-      ]
     },
     "20210902@Clark's Nutcracker": {
       "ruling_id": "20210902",
@@ -2530,20 +2890,20 @@
     "20220213a@American White Pelican": {
       "ruling_id": "20220213a",
       "card": "American White Pelican",
-      "question_restated": "Must you discard an actual fish (no food substitutions) to activate the power, since substitutions only apply when playing a bird?",
+      "question_restated": "Must you discard an actual fish to activate American White Pelican, with substitutions unavailable for power costs?",
       "answer_polarity": "yes",
       "licensing_quote": "That's correct. You must discard a fish if you choose to activate that bird. Substitutions only work when playing a bird.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "",
       "contradicts": [],
+      "note": "Affirmation of the asker's premise; ruling matches both clauses.",
       "problems": [],
-      "signature": "acf4f4ea8b6fbdab",
+      "flags": [],
+      "signature": "4780b1d4fb15d96a",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "50541"
-      ],
-      "flags": []
+      ]
     },
     "20220305@Common Loon": {
       "ruling_id": "20220305",
@@ -2617,96 +2977,42 @@
       ],
       "flags": []
     },
-    "20220326@Black Redstart": {
-      "ruling_id": "20220326",
-      "card": "Black Redstart",
-      "question_restated": "Are teal (end of round) powers optional -- may a player refuse to lay eggs from Black Redstart when the goal counts birds with no eggs?",
-      "answer_polarity": "yes",
-      "licensing_quote": "Yes, activating any power is optional.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "The example about the end-of-round goal comes from the asker's question, which the official answer affirms.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "570a86f0e8aeda03",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "51436"
-      ],
-      "flags": []
-    },
     "20220411@Royal Spoonbill": {
       "ruling_id": "20220411",
       "card": "Royal Spoonbill",
-      "question_restated": "Is it correct that empty tray slots are not refilled as cards are drawn but only at the end of your turn (rather than immediately upon taking a card)?",
+      "question_restated": "When would the tray have empty spaces — i.e. is the rule that you don't refill until end of turn rather than immediately when a card is taken?",
       "answer_polarity": "yes",
       "licensing_quote": "\"As you draw face-up cards, they are not immediately refilled. Instead, wait until the end of your turn before refilling empty spaces on the bird tray.\"",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Second sentence about resetting/refilling is licensed by the earlier official comment 51703 in the same thread ('you could discard all cards on the tray and refill it'), a permitted merge.",
       "contradicts": [],
+      "note": "First sentences quote the rulebook cited in comment 51717 verbatim. The added clause about Royal Spoonbill allowing a reset/refill comes from earlier official comment 51703 in the same thread ('That card is saying that you could discard all cards on the tray and refill it') plus the card text, so it is supported though not by the cited comment alone.",
       "problems": [],
-      "signature": "a404e8219d4b2803",
+      "flags": [],
+      "signature": "b0ee1bad34934029",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "51717"
-      ],
-      "flags": []
-    },
-    "20220429@Forster's Tern": {
-      "ruling_id": "20220429",
-      "card": "Forster's Tern",
-      "question_restated": "For a power that just says \"Draw 1 card\" without naming a source (contrasted with Great Horned Owl's \"from the deck\"), may you take a face-up card from the tray?",
-      "answer_polarity": "yes",
-      "licensing_quote": "This is different than, for example, the Forster's Tern, which says, \"Draw 1 bird card.\" It does not specify where that card comes from, so you can choose from the face-up cards or the top card of the deck.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Thread was primarily about Great Horned Owl; Forster's Tern is named explicitly in the official comment as the contrasting case, so the transfer is licensed.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "54829cabf727896a",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "52245"
-      ],
-      "flags": []
-    },
-    "20220429@Great Horned Owl": {
-      "ruling_id": "20220429",
-      "card": "Great Horned Owl",
-      "question_restated": "Must Great Horned Owl's 'look at a card from the deck' use the top card of the deck rather than a face-up tray card?",
-      "answer_polarity": "yes",
-      "licensing_quote": "Because it specifies the deck, you must use the deck, not a face-up card. This is different than, for example, the Forster's Tern, which says, \"Draw 1 bird card.\" It does not specify where that card comes from, so you can choose from the face-up cards or the top card of the deck.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "contradicts": [],
-      "note": "Both halves of the ruling, including the Forster's Tern contrast, are stated in the cited comment.",
-      "problems": [],
-      "signature": "49b3cf11342abfb0",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "52245"
-      ],
-      "flags": []
+      ]
     },
     "20220430@Australian Ibis": {
       "ruling_id": "20220430",
       "card": "Australian Ibis",
-      "question_restated": "Are bird cards and bonus cards discarded face up (rather than face down)?",
+      "question_restated": "Are bird cards (and bonus cards) discarded face up, as came up when using Australian Ibis?",
       "answer_polarity": "yes",
       "licensing_quote": "Face up for both :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Terse answer; the asker's premise was 'face down' for bonus cards, and Jamey's 'Face up for both' corrects it, matching the ruling.",
       "contradicts": [],
+      "note": "Terse answer; polarity comes from the question about face-down vs face-up. 'Both' = bird cards and bonus cards, which the ruling states.",
       "problems": [],
-      "signature": "3ac4458f53a9ad08",
+      "flags": [
+        "terse source: the licensing quote is 19 chars ('Face up for both :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "481e9fcafa765edf",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "52256"
-      ],
-      "flags": [
-        "terse source: the licensing quote is 19 chars ('Face up for both :)'), so the ruling's direction rests on the question"
       ]
     },
     "20220509@Green Heron": {
@@ -2760,24 +3066,6 @@
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "52561"
-      ],
-      "flags": []
-    },
-    "20220516@Canada Goose": {
-      "ruling_id": "20220516",
-      "card": "Canada Goose",
-      "question_restated": "May nectar be discarded in place of the specific food (a seed) named by Canada Goose's power?",
-      "answer_polarity": "no",
-      "licensing_quote": "You're right, and I was wrong. This is the key line: \"When bird powers refer to a specific food type, nectar is NOT a wild food.\"",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "The cited comment 52571 is Jamey correcting himself to agree with Scott's rulebook citation; the 'nectar is wild only when paying to play a bird / any food power / upgrading an action' clause comes from the rulebook text quoted in the parent comment 52570 that Jamey endorses ('You're right'). Faithful, though that second sentence is licensed only indirectly.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "5d3648fd18fb7a86",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "52571"
       ],
       "flags": []
     },
@@ -3018,16 +3306,16 @@
     "20220826@Chihuahuan Raven": {
       "ruling_id": "20220826",
       "card": "Chihuahuan Raven",
-      "question_restated": "May you take nectar with Chihuahuan Raven's 2 [wild] power?",
+      "question_restated": "Can you take nectar when using Chihuahuan Raven's / Common Raven's power (discard 1 egg for 2 [wild])?",
       "answer_polarity": "yes",
       "licensing_quote": "\"The [any food] symbol always includes nectar. If you find that this rule makes the Chihuahuan Raven and Common Raven in the base game too powerful, remove those two birds from the deck while playing with the Oceania Expansion.\"",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Same thread as the Common Raven row; correctly applied to the sibling card named in the source. Consistent with, not contradicting, the separate 20201204a ruling about nectar being optional.",
       "contradicts": [],
+      "note": "Official reply quotes the Oceania rulebook page 2 verbatim; the ruling restates both halves (nectar is included, and the optional removal suggestion). Answer direction is yes, matching the ruling.",
       "problems": [],
       "flags": [],
-      "signature": "a46fa84ae48b9274",
+      "signature": "16b7949edf382091",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "54600",
@@ -3037,18 +3325,18 @@
     "20220826@Common Raven": {
       "ruling_id": "20220826",
       "card": "Common Raven",
-      "question_restated": "May you take nectar with Common Raven's 2 [wild] power, and is nectar mandatory?",
+      "question_restated": "Does the [wild]/'any food' symbol include nectar for Common Raven — and are you obligated to take nectar rather than choosing another food?",
       "answer_polarity": "qualified",
       "licensing_quote": "\"The [any food] symbol always includes nectar. If you find that this rule makes the Chihuahuan Raven and Common Raven in the base game too powerful, remove those two birds from the deck while playing with the Oceania Expansion.\"",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The \"never obligated\" clause is licensed by the second cited comment 42860 (\"No, it's just saying that the 'any food' icon includes nectar among the other foods from which you can choose\"). Rulebook-removal suggestion quoted accurately.",
+      "note": "Two-part answer: nectar is available (54600, quoting the Oceania rulebook) but not obligatory (42860: \"No, it's just saying that the \"any food\" icon includes nectar among the other foods from which you can choose\"). Legitimate merge of two official comments; the optional-removal suggestion is quoted verbatim from the source.",
       "contradicts": [],
       "problems": [],
       "flags": [
         "official answer was qualified; check the caveat survived into the ruling"
       ],
-      "signature": "3729049b81c85ae4",
+      "signature": "3da7321edf54af83",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "54600",
@@ -3091,6 +3379,60 @@
       "comment_ids": [
         "54693",
         "41798"
+      ]
+    },
+    "20220914@Cetti's Warbler": {
+      "ruling_id": "20220914",
+      "card": "Cetti's Warbler",
+      "question_restated": "Does a 'counts double' bird let you count an extra filled column for the 'filled columns' end-of-round goal?",
+      "answer_polarity": "no",
+      "licensing_quote": "No, the Eurasian Green Woodpecker (and other birds like it) only count double for goals that count birds (if it qualifies). This bird does not allow you to count an extra column.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread was about Eurasian Green Woodpecker; the official reply generalises to 'other birds like it', so display on Cetti's Warbler is licensed. The clause 'it counts only in the column it occupies' is a mild elaboration but consistent with 'does not allow you to count an extra column'.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "74b0829ff6e0c0a2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "54914"
+      ]
+    },
+    "20220914@Eurasian Green Woodpecker": {
+      "ruling_id": "20220914",
+      "card": "Eurasian Green Woodpecker",
+      "question_restated": "Does Eurasian Green Woodpecker's 'counts double' power let you count an extra filled column for the 'Filled Columns' end-of-round goal?",
+      "answer_polarity": "no",
+      "licensing_quote": "No, the Eurasian Green Woodpecker (and other birds like it) only count double for goals that count birds (if it qualifies). This bird does not allow you to count an extra column.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Ruling matches source: doubling applies only to goals counting birds; no extra filled column. Consistent with 20200210 and 20200401 on the same card.",
+      "problems": [],
+      "flags": [],
+      "signature": "74b0829ff6e0c0a2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "54914"
+      ]
+    },
+    "20220914@Greylag Goose": {
+      "ruling_id": "20220914",
+      "card": "Greylag Goose",
+      "question_restated": "Does a 'counts double' bird let you count an extra filled column for the 'Filled Columns' end-of-round goal?",
+      "answer_polarity": "no",
+      "licensing_quote": "No, the Eurasian Green Woodpecker (and other birds like it) only count double for goals that count birds (if it qualifies). This bird does not allow you to count an extra column.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Thread asked about Eurasian Green Woodpecker, but the official answer explicitly generalises to 'other birds like it', so it transfers to Greylag Goose's identical power.",
+      "problems": [],
+      "flags": [],
+      "signature": "74b0829ff6e0c0a2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "54914"
       ]
     },
     "20220916@Snow Bunting": {
@@ -3278,20 +3620,20 @@
     "20221121@Brolga": {
       "ruling_id": "20221121",
       "card": "Brolga",
-      "question_restated": "Can a player decline a benefit imposed on them by another player's power (the Brolga egg), and does the Brolga owner still draw 2 cards; is having food stolen the same situation?",
+      "question_restated": "Can a player decline a benefit (the egg) that another player's power assigned to them, and does the activating player still draw 2 cards if they decline?",
       "answer_polarity": "yes",
-      "licensing_quote": "But they can decline the benefit. It doesn't matter if it was their power or someone else's power, the benefit is a choice. Do note, if they decline the power you still draw two cards. Also, declining a food stolen is not declining a benefit, so that's not a similar situation (and so the player being stolen from doesn't have a choice).",
+      "licensing_quote": "But they can decline the benefit. It doesn't matter if it was their power or someone else's power, the benefit is a choice. Do note, if they decline the power you still draw two cards.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Both clauses of the ruling are directly stated in the official comment; the food-stealing caveat is not needed for the Brolga ruling.",
       "contradicts": [],
-      "note": "All three elements (decline regardless of whose power, still draw 2, stealing is not a declinable benefit) are in the cited comment.",
       "problems": [],
-      "signature": "dc04137de8d3851d",
+      "flags": [],
+      "signature": "be8a4366e69a5aa3",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "57095"
-      ],
-      "flags": []
+      ]
     },
     "20221123@American Oystercatcher": {
       "ruling_id": "20221123",
@@ -3334,38 +3676,38 @@
     "20221125@Little Egret": {
       "ruling_id": "20221125",
       "card": "Little Egret",
-      "question_restated": "Does Plumbeous Redstart work like Little Egret, i.e. other players keep their drawn card only if that card meets the condition?",
-      "answer_polarity": "yes",
-      "licensing_quote": "They keep the cards they drew if they have a worm or wheat in its cost.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Ruling derived from a Plumbeous Redstart thread but shown on Little Egret, where the rule transfers; the asker explicitly contrasted the two wordings.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "553ab00a08545c97",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "57168"
-      ],
-      "flags": []
-    },
-    "20221125@Plumbeous Redstart": {
-      "ruling_id": "20221125",
-      "card": "Plumbeous Redstart",
-      "question_restated": "Do other players draw only if the card the active player drew has a worm/wheat cost, or do they keep their own drawn card only if it has a worm/wheat cost?",
+      "question_restated": "Do other players keep the card they drew if it has a [invertebrate]/[seed] cost (rather than depending on the active player's card), and does Plumbeous Redstart work like Little Egret?",
       "answer_polarity": "not-a-yes-no-question",
       "licensing_quote": "They keep the cards they drew if they have a worm or wheat in its cost.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Disjunctive question; official picks the second option. The 'works the same way as Little Egret' addition is licensed by the asker's framing and the official's answer aligning Redstart with the Egret pattern - arguably a small extrapolation but consistent.",
+      "note": "Ruling is about Plumbeous Redstart but legitimately shown on Little Egret because the thread and the follow-up (\"That’s right! :)\") establish the two powers work the same way.",
       "contradicts": [],
       "problems": [],
-      "signature": "1893f812e640585f",
+      "flags": [],
+      "signature": "0b23f17c5514ce87",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "57168"
-      ],
-      "flags": []
+      ]
+    },
+    "20221125@Plumbeous Redstart": {
+      "ruling_id": "20221125",
+      "card": "Plumbeous Redstart",
+      "question_restated": "Do other players draw only if the card the active player drew has a [invertebrate]/[seed] cost, or do they keep their own drawn card if it has that cost — and is the effect the same as Little Egret despite the wording?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "They keep the cards they drew if they have a worm or wheat in its cost.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The \"works the same way as Little Egret\" clause is licensed by the follow-up official comment \"That’s right! :)\" answering whether the effect is the same despite different wording; main conclusion quoted from cited comment 57168.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "a2ab863b0b68a103",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "57168"
+      ]
     },
     "20221207@Plumbeous Redstart": {
       "ruling_id": "20221207",
@@ -3384,6 +3726,24 @@
         "57390"
       ],
       "flags": []
+    },
+    "20221210@Crested Ibis": {
+      "ruling_id": "20221210",
+      "card": "Crested Ibis",
+      "question_restated": "Is cached food an eligible resource for other players to discard to also draw 2 bonus cards and keep 1?",
+      "answer_polarity": "no",
+      "licensing_quote": "No, only from your supply",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread was about Spoon-Billed Sandpiper, which has the identical power; the rule transfers to Crested Ibis.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "57372f73a1c6cf49",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "57444"
+      ]
     },
     "20221210@Spoon-Billed Sandpiper": {
       "ruling_id": "20221210",
@@ -3571,16 +3931,16 @@
     "20230101@Green Heron": {
       "ruling_id": "20230101",
       "card": "Green Heron",
-      "question_restated": "Does food traded away via Green Heron go to the supply or the birdfeeder, and does traded nectar go to the supply or the spent-nectar space?",
+      "question_restated": "When trading with Green Heron, does the food you give up go to the supply or the birdfeeder, and does traded nectar go to the supply or the spent-nectar space?",
       "answer_polarity": "not-a-yes-no-question",
-      "licensing_quote": "Since you're spending the nectar, you would put it in the spent nectar spot in that habitat.",
+      "licensing_quote": "Jim: Thanks for your question. Since you're spending the nectar, you would put it in the spent nectar spot in that habitat.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Both halves are sourced: the food-to-supply half from comment 36588 (\"It will go back to the supply. I can't think of a situation where you could ever return food back to the feeder.\") and the nectar half from 57802/45007/45031, quoted here.",
       "contradicts": [],
+      "note": "Nectar half licensed by cited comments 57802/45007/45031. The \"back to the supply, not the birdfeeder\" half is licensed by an uncited official comment in the same thread (36588, Joe Aubrey: \"It will go back to the supply\"); consider recording it in extra-citations.",
       "problems": [],
       "flags": [],
-      "signature": "16ba3d36227c9ec0",
+      "signature": "81efbf03213bbba9",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "57802",
@@ -3684,37 +4044,38 @@
     "20230125@Great Indian Bustard": {
       "ruling_id": "20230125",
       "card": "Great Indian Bustard",
-      "question_restated": "With Visionary Leader and 6 cards in hand, do I cache 4 wheat now (4 points as cached food) and also score Visionary Leader at game end based on cards then in hand?",
+      "question_restated": "Does Great Indian Bustard cache seed equal to the bonus card's current value (4 wheat for 6 cards in hand) and then also score that bonus card again at game end based on the situation then?",
       "answer_polarity": "yes",
-      "licensing_quote": "you would cache 4 wheat now (effectively 4 points, scored as cached food at end of game), and at the end of the game you would score the Visionary Leader as a bonus cards based on cards in hand at end of game (4 points).",
+      "licensing_quote": "you would cache 4 wheat now (effectively 4 points, scored as cached food at end of game), and at the end of the game you would score the Visionary Leader as a bonus cards based on cards in hand at end of game (4 points)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Worked example matches the official reply exactly.",
+      "note": "",
+      "contradicts": [],
       "problems": [],
-      "signature": "1fbe39971b8ee770",
+      "flags": [],
+      "signature": "564c5250391d602b",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "58254"
-      ],
-      "flags": []
+      ]
     },
     "20230125@Visionary Leader": {
       "ruling_id": "20230125",
       "card": "Visionary Leader",
-      "question_restated": "When Great Indian Bustard scores Visionary Leader mid-game (6 cards in hand -> cache 4 wheat), do I cache 4 wheat now AND still score Visionary Leader normally at game end based on cards in hand then?",
+      "question_restated": "Does Great Indian Bustard cache seed equal to Visionary Leader's current value, with Visionary Leader also scored normally at game end?",
       "answer_polarity": "yes",
-      "licensing_quote": "Using your example, you would cache 4 wheat now (effectively 4 points, scored as cached food at end of game), and at the end of the game you would score the Visionary Leader as a bonus cards based on cards in hand at end of game (4 points).",
+      "licensing_quote": "you would cache 4 wheat now (effectively 4 points, scored as cached food at end of game), and at the end of the game you would score the Visionary Leader as a bonus cards based on cards in hand at end of game (4 points)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling is shown on the bonus card Visionary Leader; derived from a thread about Great Indian Bustard + Visionary Leader, so transfer is appropriate. Polarity confirmed: both the cache and the game-end bonus score apply.",
+      "note": "Same source as the Great Indian Bustard row, rephrased for the bonus card; transfer is legitimate since the thread is explicitly about Visionary Leader.",
       "contradicts": [],
       "problems": [],
-      "signature": "9f15a2aed6fa0ae3",
+      "flags": [],
+      "signature": "d8794c445e4e9058",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "58254"
-      ],
-      "flags": []
+      ]
     },
     "20230219@Visionary Leader": {
       "ruling_id": "20230219",
@@ -3828,20 +4189,20 @@
     "20230329@Kea": {
       "ruling_id": "20230329",
       "card": "Kea",
-      "question_restated": "Can you look at the first bonus card drawn before deciding whether to draw extras?",
+      "question_restated": "May you look at the first bonus card drawn before deciding how many additional bonus cards to draw?",
       "answer_polarity": "yes",
       "licensing_quote": "So yes, you look at the first card before deciding if you want to draw extras (at a cost).",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Explicit yes, stated verbatim.",
       "contradicts": [],
+      "note": "Direct match; the appendix quote in the same comment supports it too.",
       "problems": [],
-      "signature": "cc567a55cb914cdd",
+      "flags": [],
+      "signature": "45658046a1d0d4e5",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "59935"
-      ],
-      "flags": []
+      ]
     },
     "20230412@Hermit Thrush": {
       "ruling_id": "20230412",
@@ -3884,37 +4245,38 @@
     "20230516@Eastern Imperial Eagle": {
       "ruling_id": "20230516",
       "card": "Eastern Imperial Eagle",
-      "question_restated": "Can Rose-Ringed Parakeet copy Bonelli's/Eastern Imperial Eagle to use the tuck-for-rodent alternate cost, and does copying a bonus-card power make the Parakeet count for Endangered Species?",
+      "question_restated": "Can Rose-Ringed Parakeet use Bonelli's/Eastern Imperial Eagle's alternate tuck cost by copying it, and does a copied bonus-card power make the Parakeet count for Endangered Species?",
       "answer_polarity": "no",
       "licensing_quote": "So for Bonelli's Eagle and Eastern Imperial Eagle, the power wouldn't do any good because it's looking for rodent costs and the Parakeet does not cost rodents.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "All three clauses (duration-of-turn copy, eagles do nothing, no Endangered Species credit) are stated in comment 60645.",
+      "contradicts": [],
+      "note": "Duration clause and Endangered Species clause also come from the same official comment 60645.",
       "problems": [],
-      "signature": "3c588a2bf92c13aa",
+      "flags": [],
+      "signature": "f75d46273d00e69b",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "60645"
-      ],
-      "flags": []
+      ]
     },
     "20230516@Rose-Ringed Parakeet": {
       "ruling_id": "20230516",
       "card": "Rose-Ringed Parakeet",
-      "question_restated": "Does the copied power persist (letting the Parakeet count for Endangered Species at game end), and can copying Bonelli's/Eastern Imperial Eagle let you use the tuck-for-rodent-cost alternative?",
+      "question_restated": "Can Rose-Ringed Parakeet copy Bonelli's Eagle / Eastern Imperial Eagle to use their alternate tuck cost, and does copying a bonus-card power make the Parakeet count for Endangered Species at game end? (i.e., yes to either?)",
       "answer_polarity": "no",
-      "licensing_quote": "At the end of the turn, it no longer has that power.",
+      "licensing_quote": "So for Bonelli's Eagle and Eastern Imperial Eagle, the power wouldn't do any good because it's looking for rodent costs and the Parakeet does not cost rodents.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Both halves of the ruling are directly stated in the official comment (rodent-cost failure and no Endangered Species credit).",
+      "note": "Both halves licensed: the duration/Endangered Species half is licensed by \"At the end of the turn, it no longer has that power.\" and \"the Parakeet would not count for Endangered Species.\" Consistent with sibling rulings 20250514 and 20260206.",
       "contradicts": [],
       "problems": [],
-      "signature": "cd5e4838ba270cab",
+      "flags": [],
+      "signature": "46230307f1817a34",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "60645"
-      ],
-      "flags": []
+      ]
     },
     "20230529@Baya Weaver": {
       "ruling_id": "20230529",
@@ -4060,24 +4422,6 @@
       ],
       "flags": []
     },
-    "20230827@Carrion Crow": {
-      "ruling_id": "20230827",
-      "card": "Carrion Crow",
-      "question_restated": "For Carrion Crow (and similar powers), does \"each [predator] that player has\" count only played birds, not birds in hand?",
-      "answer_polarity": "yes",
-      "licensing_quote": "they're always referring to played birds, not birds in hand",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Official answer explicitly generalises to \"this and other abilities that look at types of birds\", so the ruling's generalisation is licensed.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "82ee2a8411984470",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "62523"
-      ],
-      "flags": []
-    },
     "20230827a@Common Blackbird": {
       "ruling_id": "20230827a",
       "card": "Common Blackbird",
@@ -4121,16 +4465,16 @@
     "20230901@Eurasian Collared-Dove": {
       "ruling_id": "20230901",
       "card": "Eurasian Collared-Dove",
-      "question_restated": "When discarding nectar for Eurasian Collared-Dove's round-end power, does the nectar go back to the supply or to the 'spent nectar' space on your player mat?",
-      "answer_polarity": "not-a-yes-no-question",
+      "question_restated": "When you discard nectar for Eurasian Collared-Dove's round-end power, does it go back to the supply or to the spent nectar space?",
+      "answer_polarity": "no",
       "licensing_quote": "Round-end powers happen first at the end of the round, so the nectar would go on the left side of your player mat (where it would remain until the end of the game).",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling matches comment 62589 exactly (left side of mat = spent nectar space, kept until end of game); corroborated by 49966 on the same card. No contradiction with the other listed rulings.",
       "contradicts": [],
+      "note": "\"Spent nectar space for that habitat\" is licensed by the merged comment 49966 (\"You place it in the spent nectar pile\" ... \"put it onto the “spent nectar” space for that habitat\").",
       "problems": [],
       "flags": [],
-      "signature": "2b1b38c92d8b34c1",
+      "signature": "bcd22cfe293a482f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "62589",
@@ -4140,16 +4484,16 @@
     "20230909@Ruby-Throated Hummingbird": {
       "ruling_id": "20230909",
       "card": "Ruby-Throated Hummingbird",
-      "question_restated": "When activating Ruby-Throated Hummingbird, may the activating player choose themselves as the player who starts gaining food?",
+      "question_restated": "Can the player activating Ruby-Throated Hummingbird choose themselves as 'the player of your choice' to take food first?",
       "answer_polarity": "yes",
       "licensing_quote": "\"The player of your choice\" includes all players. The player activating the Ruby-Throated Hummingbird can choose themselves.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Both cited comments agree (\"You can!\" to the same question in 62836).",
+      "note": "Cited comment 62836 (\"You can!\") is terse but answers the same question; comment 50686 licenses the full text.",
       "contradicts": [],
       "problems": [],
       "flags": [],
-      "signature": "04eab13502dc4987",
+      "signature": "9e40c64f8408aa2c",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "62836",
@@ -4159,56 +4503,40 @@
     "20230910@Yellowhammer": {
       "ruling_id": "20230910",
       "card": "Yellowhammer",
-      "question_restated": "If Yellowhammer's round-end power plays a bird that itself has a round-end (teal) power, may I activate that newly played bird's teal power this round?",
+      "question_restated": "If Yellowhammer's round-end power plays a bird that itself has a round-end power, may you then use that newly played bird's round-end power?",
       "answer_polarity": "yes",
       "licensing_quote": "Yes, you can use the newly played bird's ability if you're still in the round-end power activation step.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The asker also noted teal powers may be resolved in any order; the ruling's 'at any point among your other remaining teal powers' rests on that premise plus Jamey's condition 'if you're still in the round-end power activation step', which is quoted. Slight extrapolation on ordering but consistent with the accepted premise.",
       "contradicts": [],
+      "note": "The ruling's added clause about ordering among remaining teal powers restates the asker's own premise (\"the rules says that I can play round end actions in any order\"), which the official reply accepted; the condition \"still in the round-end power activation step\" is carried over verbatim in substance.",
       "problems": [],
-      "signature": "c8771d89875472c1",
+      "flags": [],
+      "signature": "2d593f16cdd5222d",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "62845"
-      ],
-      "flags": []
+      ]
     },
-    "20230918@Eurasian Nuthatch": {
-      "ruling_id": "20230918",
-      "card": "Eurasian Nuthatch",
-      "question_restated": "When Northern Mockingbird repeats Eurasian Nuthatch's power, can the seed cached on the Mockingbird be spent at any time, or does the 'at any time' clause not carry over since it only copies the power on activation?",
-      "answer_polarity": "no",
-      "licensing_quote": "It's only copying the power when activated, so that seed just becomes a cached food (for 1 VP at end of game).",
+    "20231008@European Goldfinch": {
+      "ruling_id": "20231008",
+      "card": "European Goldfinch",
+      "question_restated": "If the entire deck (and discard pile) is exhausted, can you still tuck -- and are tucked cards merely counters or real cards removed from the deck?",
+      "answer_polarity": "qualified",
+      "licensing_quote": "if you have absolutely no remaining cards in the game (I'm surprised this is possible, but I believe that you have found a way), then there's nothing to tuck, and you can't tuck anything, at least in the analog game",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Combines two official comments in the same thread: 63499 licenses reshuffling the discard pile into a new deck, and 63508 licenses both the 'nothing to tuck' conclusion and 'effectively counters ... actual bird cards removed from the deck'. The ruling drops the analog/digital caveat, which is arguably a minor loss but not a scope reversal.",
       "contradicts": [],
-      "note": "Terse answer; polarity checked against the question, which offered the 'does not apply' alternative that Jamey confirms.",
       "problems": [],
-      "signature": "31952ca3111dfe35",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "d36ed17a46fb2895",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "63050"
-      ],
-      "flags": []
-    },
-    "20230918@Northern Mockingbird": {
-      "ruling_id": "20230918",
-      "card": "Northern Mockingbird",
-      "question_restated": "When Northern Mockingbird copies Eurasian Nuthatch's power and caches a seed, can that seed later be spent as the Nuthatch's power allows?",
-      "answer_polarity": "no",
-      "licensing_quote": "It's only copying the power when activated, so that seed just becomes a cached food (for 1 VP at end of game).",
-      "verdict": "faithful",
-      "confidence": "high",
-      "contradicts": [],
-      "note": "Negative answer correctly rendered as 'cannot later be spent'.",
-      "problems": [],
-      "signature": "13a6ccbb409b4c3d",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "63050"
-      ],
-      "flags": []
+        "63508"
+      ]
     },
     "20231010@Budgerigar": {
       "ruling_id": "20231010",
@@ -4228,23 +4556,77 @@
       ],
       "flags": []
     },
+    "20231030@Black Vulture": {
+      "ruling_id": "20231030",
+      "card": "Black Vulture",
+      "question_restated": "When two players' 'once between turns' powers trigger simultaneously, in what order do they resolve, and when exactly do the three predator-triggered pink powers activate relative to the active player's remaining birds?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "All three of these pink powers are triggered and activated when the successful predator finishes its power and before the active player continues to their next bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Turn-order half licensed by '1. Go in turn order, starting with the player after the active player.' Both halves match source.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "94c348e893f5a01a",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "63980"
+      ]
+    },
+    "20231030@Black-Billed Magpie": {
+      "ruling_id": "20231030",
+      "card": "Black-Billed Magpie",
+      "question_restated": "In what order do simultaneously triggered 'once between turns' powers resolve, and when do Black Vulture/Black-Billed Magpie/Turkey Vulture activate?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "All three of these pink powers are triggered and activated when the successful predator finishes its power and before the active player continues to their next bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Magpie named explicitly in the source; turn-order clause from answer 1 of same comment.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "94c348e893f5a01a",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "63980"
+      ]
+    },
+    "20231030@Turkey Vulture": {
+      "ruling_id": "20231030",
+      "card": "Turkey Vulture",
+      "question_restated": "In what order do simultaneously triggered 'once between turns' powers resolve, and when do the three predator-triggered pink powers activate?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "All three of these pink powers are triggered and activated when the successful predator finishes its power and before the active player continues to their next bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Turkey Vulture named explicitly; consistent with sibling ruling 20200204a on the same card.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "94c348e893f5a01a",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "63980"
+      ]
+    },
     "20231112@Willie-Wagtail": {
       "ruling_id": "20231112",
       "card": "Willie-Wagtail",
-      "question_restated": "May you keep resetting/refilling the tray repeatedly with Willie-Wagtail until a bowl/star nest card appears?",
+      "question_restated": "May you keep resetting/refilling the tray repeatedly with Willie-Wagtail until a [bowl] or [star] nest card appears, or only once (in which case you get no card)?",
       "answer_polarity": "no",
-      "licensing_quote": "You can reset the card tray once per activation.",
+      "licensing_quote": "Your wife and son are right. You can reset the card tray once per activation.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The \"gain no card\" consequence is implicit in the official endorsement of the asker's wife/son (\"No available bird card means my turn is over\"), which Jamey affirms with \"Your wife and son are right.\"",
+      "note": "Asker explicitly stated the alternative: 'No available bird card means my turn is over.' The official reply endorses that reading ('Your wife and son are right'), so the second sentence of the ruling (gain no card) is licensed by the affirmed premise.",
       "contradicts": [],
       "problems": [],
-      "signature": "a5e529e2cfee0fb1",
+      "flags": [],
+      "signature": "d18f2410c5f33e65",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "64281"
-      ],
-      "flags": []
+      ]
     },
     "20231119@Common Tailorbird": {
       "ruling_id": "20231119",
@@ -4449,20 +4831,20 @@
     "20231212@Small Minivet": {
       "ruling_id": "20231212",
       "card": "Small Minivet",
-      "question_restated": "Can a duet token placed in the reset box on this turn (e.g. during Small Minivet's extra-bird play) be removed to reset the birdfeeder/bird tray on that same turn, and when are tokens placed?",
+      "question_restated": "Can a duet token placed in the reset box be removed to reset the birdfeeder/bird tray on the same turn it was placed (e.g. during a Small Minivet additional-bird play), and when is the token placed?",
       "answer_polarity": "no",
       "licensing_quote": "So, not on the same turn when you place the token. You place the token between steps 5 and 6.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Both halves of the ruling (same-turn prohibition, and placement between steps 5 and 6) are stated in the official comment. The Small Minivet framing comes from the asker's example.",
+      "note": "Ruling is about duet-token timing but derives from a thread whose example is Small Minivet, so its presence on that card is appropriate.",
       "contradicts": [],
       "problems": [],
-      "signature": "2bf18569b7b00d34",
+      "flags": [],
+      "signature": "2620b2ff3063db49",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "64870"
-      ],
-      "flags": []
+      ]
     },
     "20231229@Black Vulture": {
       "ruling_id": "20231229",
@@ -4554,6 +4936,27 @@
       ],
       "flags": []
     },
+    "20240115@Black-Billed Magpie": {
+      "ruling_id": "20240115",
+      "card": "Black-Billed Magpie",
+      "question_restated": "When Tūī copies another player's [predator] power, does the copied power count as a predator power such that Black-Billed Magpie's pink power triggers on its success?",
+      "answer_polarity": "yes",
+      "licensing_quote": "When you copy an ability, it's as if the entire ability (including the label) transfers to the copying bird. So the Tūī temporarily gains and activates a predator ability, which does indeed trigger the Black-Billed Magpie.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Derived from comment 66217; the three Galah comments also listed in the derivation are irrelevant to this text but do not affect faithfulness. Note repeat-vs-copy caution (§9) is about repeat powers, not this copy question, and the source here is explicit.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "ac6c4f5d9b92077c",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "66217",
+        "42699",
+        "43226",
+        "51742"
+      ]
+    },
     "20240115@Galah": {
       "ruling_id": "20240115",
       "card": "Galah",
@@ -4616,16 +5019,16 @@
     "20240207@Ecologist": {
       "ruling_id": "20240207",
       "card": "Ecologist",
-      "question_restated": "Can you score Ecologist for multiple habitats when two or three are tied for fewest birds, or only one habitat?",
+      "question_restated": "With Ecologist, if two or three habitats tie for the fewest birds, do you score all tied habitats (up to 18 points), or only one habitat?",
       "answer_polarity": "no",
       "licensing_quote": "You only count 1 habitat, even if you have ties for the fewest. Maximum 10 points if you happen to have all habitats filled with 5 birds each, which is very difficult to do.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The 10-point maximum comes from comment 36245, which the ruling cites; the 2024 comment 66936 restates the one-habitat rule. Note Joe Aubrey's earlier 36243 said the opposite but he explicitly corrected himself in 36245, so no live contradiction.",
+      "note": "Answer is 'only one habitat' — the ruling states that plus the 10-point cap, both directly in comment 36245 (and restated in 66936). Note comment 36243 said the opposite but was explicitly retracted as a misspeak in the cited comment.",
       "contradicts": [],
       "problems": [],
       "flags": [],
-      "signature": "8ed2bea2f731d687",
+      "signature": "edf2460844a91bf0",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "66936",
@@ -4635,21 +5038,22 @@
     "20240219@Silvereye": {
       "ruling_id": "20240219",
       "card": "Silvereye",
-      "question_restated": "For the bonus card counting birds with a color in their name, may the color be embedded in a larger word (e.g. Silvereye)?",
+      "question_restated": "For the Photographer bonus card (birds with a color in their name), does a color count when it is embedded in a compound word, e.g. Silvereye?",
       "answer_polarity": "yes",
       "licensing_quote": "It can indeed! :)",
       "verdict": "faithful",
-      "confidence": "medium",
-      "note": "Polarity inherited entirely from the question and is correct. Note tension with 20230529 (Baya Weaver), which limits it to whole words/compound words — not a contradiction on this card, and the two threads concern different name structures, so left as-is.",
+      "confidence": "high",
       "contradicts": [],
+      "note": "Merges two official comments: 67299 licenses the Silvereye yes; 60794 licenses the Baya Weaver carve-out (\"'Baya' is its own word, not a compound of 'bay' and 'a'\"). Barred Owl is mentioned as a cross-reference and is not in this thread, but that is a pointer, not a claim about this source.",
       "problems": [],
-      "signature": "dc4cfc1896ed2499",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "67299"
-      ],
       "flags": [
         "terse source: the licensing quote is 17 chars ('It can indeed! :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "45ea411bc5e4069d",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "67299",
+        "60794"
       ]
     },
     "20240225@European Honey Buzzard": {
@@ -4833,20 +5237,22 @@
     "20240903@Great Crested Grebe": {
       "ruling_id": "20240903",
       "card": "Great Crested Grebe",
-      "question_restated": "With an end-of-turn discard power like Forster's Tern, must you keep a card in hand to discard, or may you legally have no cards left?",
-      "answer_polarity": "no",
+      "question_restated": "Must you keep a card to discard at end of turn with such powers (Forster's Tern), and do Great Crested Grebe / Wilson's Storm Petrel work differently by keeping drawn cards separate?",
+      "answer_polarity": "qualified",
       "licensing_quote": "Only the Great Crested Grebe and Wilson's Storm Petrel work differently, asking you to keep the cards drawn with those powers separate until the end of turn when you keep 1 and discard the rest (as confirmed by the appendix entries for those).",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Thread was about Forster's Tern; ruling transfers correctly to Great Crested Grebe because the official reply names it explicitly.",
+      "note": "Thread asked about Forster's Tern; the official reply generalises to Great Crested Grebe by name, so this transfer is licensed. Consistent with 20231204 on the same card.",
       "contradicts": [],
       "problems": [],
-      "signature": "fab124b457f3c87b",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "b1d75091ea02f6e6",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "85569"
-      ],
-      "flags": []
+      ]
     },
     "20240909@Anatomist": {
       "ruling_id": "20240909",
@@ -4856,33 +5262,32 @@
       "licensing_quote": "It does count! Thanks for playing. :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Terse yes; polarity taken from the parent question, which names Desert Wheatear and \"ear\".",
+      "note": "Terse answer; polarity confirmed by the parent question. Consistent with the other Anatomist rulings (a listed keyword occurring in the name counts).",
       "contradicts": [],
       "problems": [],
-      "signature": "5e1b80bf79413344",
+      "flags": [],
+      "signature": "42de95a3776bc3c8",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "86747"
-      ],
-      "flags": []
+      ]
     },
     "20240909@Desert Wheatear": {
       "ruling_id": "20240909",
       "card": "Desert Wheatear",
-      "question_restated": "Does Desert Wheatear count for the Anatomist bonus card (\"ear\")?",
+      "question_restated": "Does Desert Wheatear count for the Anatomist bonus card's \"ear\"?",
       "answer_polarity": "yes",
-      "licensing_quote": "It does count!",
+      "licensing_quote": "It does count! Thanks for playing. :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Terse yes; direction matches the question.",
+      "note": "",
+      "contradicts": [],
       "problems": [],
-      "signature": "5e1b80bf79413344",
+      "flags": [],
+      "signature": "42de95a3776bc3c8",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "86747"
-      ],
-      "flags": [
-        "terse source: the licensing quote is 14 chars ('It does count!'), so the ruling's direction rests on the question"
       ]
     },
     "20241104@Cartographer": {
@@ -5128,6 +5533,24 @@
         "terse source: the licensing quote is 7 chars ('Yes! :)'), so the ruling's direction rests on the question"
       ]
     },
+    "20250225@Crested Ibis": {
+      "ruling_id": "20250225",
+      "card": "Crested Ibis",
+      "question_restated": "If a bird with this 'when played' power is played at game end via a yellow power, do the other players still get to use the discard-2-resources portion?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes, you just follow the instructions on the power, including the portion involving other players.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread asks about Spoon-billed Sandpiper, which has the identical power; ruling correctly transfers to Crested Ibis. Direction (yes) preserved.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "c6cb55def1105418",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "116224"
+      ]
+    },
     "20250225@Spoon-Billed Sandpiper": {
       "ruling_id": "20250225",
       "card": "Spoon-Billed Sandpiper",
@@ -5146,43 +5569,23 @@
       ],
       "flags": []
     },
-    "20250306@Eurasian Green Woodpecker": {
-      "ruling_id": "20250306",
-      "card": "Eurasian Green Woodpecker",
-      "question_restated": "Is only the quantity on the doubling bird doubled (e.g. 2 eggs on it count as 4) rather than your whole total, and for a habitat/row goal does it count only if present there, then as 2 birds?",
-      "answer_polarity": "qualified",
-      "licensing_quote": "If you have 2 eggs on the Woodpecker, they would count as 4 eggs for a related round-end goal.\n\nFor a goal related to birds in a specific habitat, the Woodpecker would only count if it's in that habitat (it would count as 2 birds instead of 1).",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "The 'not your whole total' framing is a fair reading of the official answer to Francine's explicit either/or question. 'row' is a mild extension of 'habitat', but the asker's question named 'birds in a row' and the answer addressed that case.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "ed23293fb71e493f",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "116934"
-      ],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
-      ]
-    },
     "20250312@Common Goldeneye": {
       "ruling_id": "20250312",
       "card": "Common Goldeneye",
-      "question_restated": "Does Common Goldeneye's count of 'other bird with a [cavity] nest' include birds with a star (wild) nest?",
+      "question_restated": "Does Common Goldeneye's teal power count birds with a [star] (wild) nest as cavity-nest birds?",
       "answer_polarity": "yes",
-      "licensing_quote": "It does include wild-habitat birds (stars). :)",
+      "licensing_quote": "Thanks, Forrest! It does include wild-habitat birds (stars). :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Correct thread branch (comment 117348/117352); the unrelated 2020 Eurasian Magpie exchange in the same thread is not used.",
+      "note": "Official answer says stars are included; ruling states exactly that, scoped to this card as asked.",
       "contradicts": [],
       "problems": [],
-      "signature": "aaf4e489e997d533",
+      "flags": [],
+      "signature": "83fb18fe5cc89da8",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "117352"
-      ],
-      "flags": []
+      ]
     },
     "20250319@Blue Grosbeak": {
       "ruling_id": "20250319",
@@ -5241,52 +5644,52 @@
     "20250410@European Honey Buzzard": {
       "ruling_id": "20250410",
       "card": "European Honey Buzzard",
-      "question_restated": "Does a die showing the invertebrate/seed face count for these 'gain all invertebrate' / 'gain 1 seed' reset powers?",
+      "question_restated": "Does a die showing the invertebrate/seed (dual) face count as an invertebrate for European Honey Buzzard's 'gain all invertebrate' power (and as a seed for Hawfinch)?",
       "answer_polarity": "yes",
       "licensing_quote": "Yes, you can take a seed (corn, in your words) from a die face showing invertebrate/seed.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "The cited comment 120371 licenses the Hawfinch half; the European Honey Buzzard half is licensed by the earlier official comment 120369 in the same thread ('This includes the dice showing invertebrate/seed'). Legitimate merge of two official comments.",
+      "note": "Cited comment 120371 covers the Hawfinch half; the European Honey Buzzard half is licensed by the earlier official comment 120369 in the same thread (\"This includes the dice showing invertebrate/seed.\"), so the merged ruling is supported by the thread. Both halves match their sources.",
       "contradicts": [],
       "problems": [],
-      "signature": "c038e974d42500d9",
+      "flags": [],
+      "signature": "493956435d4f9faf",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "120371"
-      ],
-      "flags": []
+      ]
     },
     "20250410@Hawfinch": {
       "ruling_id": "20250410",
       "card": "Hawfinch",
-      "question_restated": "When Hawfinch (and European Honey Buzzard) gain food from the birdfeeder after resetting, do dice showing the invertebrate/seed face count?",
+      "question_restated": "When Hawfinch resets the birdfeeder, may the [seed] be taken from a die showing the combined [invertebrate]/[seed] face (and likewise does European Honey Buzzard get invertebrates from such dice)?",
       "answer_polarity": "yes",
       "licensing_quote": "Yes, you can take a seed (corn, in your words) from a die face showing invertebrate/seed.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "The Honey Buzzard half is licensed by comment 120369 in the same thread ('This includes the dice showing invertebrate/seed.'); the cited comment 120371 licenses the Hawfinch conclusion. A legitimate merge of two official comments in one thread.",
       "contradicts": [],
-      "note": "Ruling merges two official comments in the same thread; the European Honey Buzzard half is licensed by comment 120369 ('This includes the dice showing invertebrate/seed.').",
       "problems": [],
-      "signature": "94e6be08ed2ea4ea",
+      "flags": [],
+      "signature": "0b717160a7a5478f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "120371"
-      ],
-      "flags": []
+      ]
     },
     "20250514@Bonelli's Eagle": {
       "ruling_id": "20250514",
       "card": "Bonelli's Eagle",
-      "question_restated": "When Rose-Ringed Parakeet copies Bonelli's Eagle's when-played power, does it look at Bonelli's Eagle's [rodent] cost (so it can tuck cards), and does a copied bonus-card power make the Parakeet count for Endangered Species at game end?",
+      "question_restated": "When Rose-Ringed Parakeet copies Bonelli's Eagle's white power, do you look at the copied bird's rodent cost or the Parakeet's own cost (i.e. does the copy accomplish anything)?",
       "answer_polarity": "no",
       "licensing_quote": "The power says \"copy a white power.\" It doesn't say to copy anything else, like food requirements. Imagine that power written on the Rose-Ringed Parakeet. So if you chose to copy this bird's power, you wouldn't be able to pay the bird's cost by tucking from your hand because it does not have rodent food costs.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "First half licensed by cited comment 124185; the Endangered Species half is licensed by cited comment 60645 ('the Parakeet no longer has the copied power after the end of the turn. So when scoring bonus cards at the end of the game, the Parakeet would not count for Endangered Species.'). Legitimate multi-comment merge.",
       "contradicts": [],
+      "note": "Second sentence (copied power gone by end of turn, so no Endangered Species credit) is licensed by the merged comment 60645: \"the Parakeet no longer has the copied power after the end of the turn. So when scoring bonus cards at the end of the game, the Parakeet would not count for Endangered Species.\" Ruling is about Rose-Ringed Parakeet but correctly shown on the copied card.",
       "problems": [],
       "flags": [],
-      "signature": "4ec087644063c9fc",
+      "signature": "6ce8e73f61c0df94",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "124185",
@@ -5297,16 +5700,16 @@
     "20250514@Eastern Imperial Eagle": {
       "ruling_id": "20250514",
       "card": "Eastern Imperial Eagle",
-      "question_restated": "Does Rose-Ringed Parakeet, when copying Eastern Imperial Eagle's / Bonelli's Eagle's white power, use the copied bird's [rodent] cost or its own (i.e. does copying accomplish anything)?",
+      "question_restated": "When copying Eastern Imperial Eagle's power with Rose-Ringed Parakeet, is the relevant food cost the copied bird's or the Parakeet's?",
       "answer_polarity": "no",
-      "licensing_quote": "Imagine that power written on the Rose-Ringed Parakeet. So if you chose to copy this bird's power, you wouldn't be able to pay the bird's cost by tucking from your hand because it does not have rodent food costs.",
+      "licensing_quote": "The power says \"copy a white power.\" It doesn't say to copy anything else, like food requirements. Imagine that power written on the Rose-Ringed Parakeet.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Directly supported; the 'does nothing' phrasing is also backed by cited comments 60645 and 64804. Overlaps heavily with sibling rulings 20230516 and 20231208 (restatements of the same rule) but does not contradict them.",
       "contradicts": [],
+      "note": "Same ruling as on Bonelli's Eagle, correctly transferred to the sibling card named in the source.",
       "problems": [],
       "flags": [],
-      "signature": "840631b369dd3d6c",
+      "signature": "b99c749de9ab2171",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "124185",
@@ -5317,16 +5720,16 @@
     "20250514@Rose-Ringed Parakeet": {
       "ruling_id": "20250514",
       "card": "Rose-Ringed Parakeet",
-      "question_restated": "When copying Eastern Imperial Eagle / Bonelli's Eagle, do you copy the food cost too (i.e. can the Parakeet use the rodent-substitution), or is the copied power useless?",
-      "answer_polarity": "no",
+      "question_restated": "Does Rose-Ringed Parakeet copy only the white power (not food requirements), such that copying Eastern Imperial Eagle / Bonelli's Eagle accomplishes nothing since the Parakeet costs no rodents?",
+      "answer_polarity": "yes",
       "licensing_quote": "The power says \"copy a white power.\" It doesn't say to copy anything else, like food requirements. Imagine that power written on the Rose-Ringed Parakeet. So if you chose to copy this bird's power, you wouldn't be able to pay the bird's cost by tucking from your hand because it does not have rodent food costs.",
       "verdict": "faithful",
       "confidence": "high",
       "contradicts": [],
-      "note": "Comment 124185 licenses both halves: only the power is copied, not the cost, and the eagle powers do nothing for the Parakeet. Corroborated by 60645 and 64804.",
+      "note": "Licensed by cited comment 124185 and corroborated by 60645 and 64804, both also cited. Ruling's 'does nothing' matches Joe's 'wouldn't do any good' in 60645. Overlaps heavily with ruling 20230516 on the same card but does not contradict it.",
       "problems": [],
       "flags": [],
-      "signature": "96c1923ec135c983",
+      "signature": "d548c665fe9dae64",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "124185",
@@ -5558,6 +5961,60 @@
       ],
       "flags": []
     },
+    "20250928@Black-Tailed Godwit": {
+      "ruling_id": "20250928",
+      "card": "Black-Tailed Godwit",
+      "question_restated": "Once you activate Black-Tailed Godwit's power, may you decline to keep the bonus card (or the drawn bird cards) after seeing them?",
+      "answer_polarity": "no",
+      "licensing_quote": "If you choose to activate a power, you must follow through with it to completion.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The official answer is general; the ruling applies it to the specific card asked about in the parent question.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "5003464d9723c25f",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "134251"
+      ]
+    },
+    "20250928@Philippine Eagle": {
+      "ruling_id": "20250928",
+      "card": "Philippine Eagle",
+      "question_restated": "After drawing 2 bonus cards with Philippine Eagle, may you refuse to keep either of them once you have seen them?",
+      "answer_polarity": "no",
+      "licensing_quote": "If you choose to activate a power, you must follow through with it to completion.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Philippine Eagle was named explicitly in the question; ruling correctly renders the 'must complete' answer. Slight elaboration ('even after seeing that you would rather keep neither') is exactly what was asked.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "7a718e3f4bf5953c",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "134251"
+      ]
+    },
+    "20250928@Red Knot": {
+      "ruling_id": "20250928",
+      "card": "Red Knot",
+      "question_restated": "May you decline a bonus card or bird card after seeing it -- e.g. draw the bonus card from this power and not keep it, then still draw the 3 [card]?",
+      "answer_polarity": "no",
+      "licensing_quote": "If you choose to activate a power, you must follow through with it to completion.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "The asker's example named Black-tailed Godwit; the identical power on Red Knot makes the transfer legitimate. The ruling's specifics (cannot decline the bonus card, must keep 1 of 3) are the direct application of 'follow through to completion' to that power.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "5003464d9723c25f",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "134251"
+      ]
+    },
     "20251006@North Island Brown Kiwi": {
       "ruling_id": "20251006",
       "card": "North Island Brown Kiwi",
@@ -5681,6 +6138,42 @@
       ],
       "flags": []
     },
+    "20251210@Anatomist": {
+      "ruling_id": "20251210",
+      "card": "Anatomist",
+      "question_restated": "Do figurative body-part words like 'poll' (head) and 'start' (tail) count for the Anatomist bonus card?",
+      "answer_polarity": "no",
+      "licensing_quote": "Technically I wouldn't say it counts since it's an interpretation of a word instead of an anatomical word, but as long as you're consistent with your group, it's fine.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Ruling covers both 'poll' (from comment 138386) and 'start' (139622) and carries the group-consistency caveat. Consistent with 20190724.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "022fc919b620ec15",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "139622"
+      ]
+    },
+    "20251210@Blackpoll Warbler": {
+      "ruling_id": "20251210",
+      "card": "Blackpoll Warbler",
+      "question_restated": "Does a word that only figuratively means a body part (redstart's \"start\" = tail, and by extension Blackpoll's \"poll\" = head) count for the Anatomist bonus card?",
+      "answer_polarity": "no",
+      "licensing_quote": "Technically I wouldn't say it counts since it's an interpretation of a word instead of an anatomical word, but as long as you're consistent with your group, it's fine.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "contradicts": [],
+      "note": "The cited comment 139622 answers Isaac's question about redstart, not Blackpoll directly; the Blackpoll ruling relies on the same principle plus the earlier official 138386 (\"A “poll” is not a body part I’m aware of\"), which is in-thread and points the same way. Direction and the consistency caveat are both preserved. Slight generalisation from redstart to Blackpoll, hence medium.",
+      "problems": [],
+      "flags": [],
+      "signature": "0680106f5fdb5f65",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "139622"
+      ]
+    },
     "20251220@Australian Owlet-Nightjar": {
       "ruling_id": "20251220",
       "card": "Australian Owlet-Nightjar",
@@ -5734,6 +6227,24 @@
         "142621"
       ],
       "flags": []
+    },
+    "20260109@Orange-Breasted Bunting": {
+      "ruling_id": "20260109",
+      "card": "Orange-Breasted Bunting",
+      "question_restated": "Must the hummingbird attracted or returned by Orange-Breasted Bunting be in the same habitat as the Bunting, or may it be any habitat?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "Unless the power specifies, you can choose any habitat.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Either/or question; ruling states the answer (any habitat) plus the source's condition (power does not specify), which holds for this card's text.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "1089a00469f791c2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "142871"
+      ]
     },
     "20260111@Hooded Merganser": {
       "ruling_id": "20260111",
@@ -6087,6 +6598,24 @@
       ],
       "flags": []
     },
+    "20260212@Great Crested Grebe": {
+      "ruling_id": "20260212",
+      "card": "Great Crested Grebe",
+      "question_restated": "Do empty hummingbird spaces in the row count as empty card slots for Great Crested Grebe, i.e. 5 cards in the example rather than 4?",
+      "answer_polarity": "yes",
+      "licensing_quote": "I've confirmed that at least for now, they count as spaces/slots for this purpose.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "The \"5 [card]\" figure comes from the earlier official comment 147308 in the same thread (\"I think it's 5 cards in your example\"), which 147358 confirms; the \"at least for now\" hedge is carried through rather than dropped. No conflict with 20231204 or 20240903, which address a different aspect (keeping the cards separate).",
+      "problems": [],
+      "flags": [],
+      "signature": "f385a698c2a8e672",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "147358"
+      ]
+    },
     "20260213@Muscovy Duck": {
       "ruling_id": "20260213",
       "card": "Muscovy Duck",
@@ -6235,6 +6764,42 @@
       ],
       "flags": []
     },
+    "20260319@Gray Catbird": {
+      "ruling_id": "20260319",
+      "card": "Gray Catbird",
+      "question_restated": "Does a \"repeat\" power make the repeating bird perform/assume the other bird's power (so the Catbird could move if it were rightmost), or does it cause the other bird to act again (so the Kiskadee's power fizzles if that bird isn't rightmost)?",
+      "answer_polarity": "no",
+      "licensing_quote": "The catbird causes the other bird to trigger again, so if the migratory bird isn’t at the right edge, the “repeat” power will fizzle.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Cited comment 150843 is Jamey's self-correction, superseding 150562/150650 in the same thread; the ruling matches the correction, including the fizzle case. Consistent with 20200108 and 20190307 on this card.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "2c70075d2cb7db40",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "150843"
+      ]
+    },
+    "20260319@Northern Mockingbird": {
+      "ruling_id": "20260319",
+      "card": "Northern Mockingbird",
+      "question_restated": "Does a \"repeat\" power make the repeating bird perform the other bird's power, or does it cause the other bird to trigger again (so a rightmost-only power fizzles if that bird isn't rightmost)?",
+      "answer_polarity": "no",
+      "licensing_quote": "The catbird causes the other bird to trigger again, so if the migratory bird isn’t at the right edge, the “repeat” power will fizzle.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread discusses Catbird explicitly but Mockingbird has identical power text and the asker named both; transfer is legitimate.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "2c70075d2cb7db40",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "150843"
+      ]
+    },
     "20260324@Garden Warbler": {
       "ruling_id": "20260324",
       "card": "Garden Warbler",
@@ -6268,42 +6833,6 @@
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "151361"
-      ],
-      "flags": []
-    },
-    "20260503@Clark's Nutcracker": {
-      "ruling_id": "20260503",
-      "card": "Clark's Nutcracker",
-      "question_restated": "Is the second sentence literal, i.e. does gained food go to your supply with the 'may' giving you a genuine option to cache it on the bird instead?",
-      "answer_polarity": "yes",
-      "licensing_quote": "When you gain a food, it goes to your supply. These birds give you the choice to put the food on the bird instead (to score a point at end of game instead of being in your supply as something you can spend. So yes, it’s literal, with emphasis on “may”.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "The 'any or all of it' phrasing generalises slightly to multi-food powers (the question named White-faced Heron and Red-headed Woodpecker as well), which is within the answer's scope of 'these birds'.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "0795f97306ef060f",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "155493"
-      ],
-      "flags": []
-    },
-    "20260503@White-Faced Heron": {
-      "ruling_id": "20260503",
-      "card": "White-Faced Heron",
-      "question_restated": "Is the second sentence literal, i.e. after gaining the food may the player choose between caching it on the bird or keeping it in their supply?",
-      "answer_polarity": "yes",
-      "licensing_quote": "When you gain a food, it goes to your supply. These birds give you the choice to put the food on the bird instead (to score a point at end of game instead of being in your supply as something you can spend. So yes, it’s literal, with emphasis on “may”.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Thread asked about Clark's Nutcracker / Red-Headed Woodpecker / White-Faced Heron together; answer covers 'these birds', so attachment to White-Faced Heron is correct. 'any or all' wording comes from the card text itself.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "0795f97306ef060f",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "155493"
       ],
       "flags": []
     },
@@ -6342,6 +6871,42 @@
         "156298"
       ],
       "flags": []
+    },
+    "20260520@Red-Wattled Lapwing": {
+      "ruling_id": "20260520",
+      "card": "Red-Wattled Lapwing",
+      "question_restated": "Is \"refill the bird tray\" different from \"reset\" -- i.e. does refill mean putting a card from the deck on each empty slot?",
+      "answer_polarity": "yes",
+      "licensing_quote": "2. \"Refill\" means to put a card from the deck on each empty slot of the bird tray (different than reset).",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Derived from a thread about Wattled Jacana; the rule about what \"refill\" means transfers to Red-Wattled Lapwing, which also refills the tray. The ruling drops the separate question about refilling a full tray, which the official answer did not address -- but the ruling does not claim anything about it.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "2d1f4126cca09eb5",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "157465"
+      ]
+    },
+    "20260520@Wattled Jacana": {
+      "ruling_id": "20260520",
+      "card": "Wattled Jacana",
+      "question_restated": "Is \"refill\" the bird tray different from \"reset\", and what does refilling mean?",
+      "answer_polarity": "not-a-yes-no-question",
+      "licensing_quote": "\"Refill\" means to put a card from the deck on each empty slot of the bird tray (different than reset).",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Definition matches exactly, including the 'different than reset' contrast. The asker's further question (can you refill a full tray?) is not addressed by the ruling, which is a permissible omission rather than an overstatement.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "2d1f4126cca09eb5",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "157465"
+      ]
     },
     "20260604@Canada Jay": {
       "ruling_id": "20260604",
@@ -6435,6 +7000,78 @@
         "162654"
       ],
       "flags": []
+    },
+    "20260713b@Great Kiskadee": {
+      "ruling_id": "20260713b",
+      "card": "Great Kiskadee",
+      "question_restated": "If Great Kiskadee's power is repeated by a Catbird/Mockingbird, does the cube move with the Kiskadee (i.e. does the power do anything)?",
+      "answer_polarity": "no",
+      "licensing_quote": "Using the Catbird to repeat the Kiskadee means the Kiskadee power \"fizzles out\" because the cube is not currently on that bird.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Reason given (cube not on the Kiskadee) and effect (fizzles) both match the source; Mockingbird generalisation is warranted since the asker named both and the power text is identical.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "2f065ab1b396834b",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "162612"
+      ]
+    },
+    "20260716@Ecologist": {
+      "ruling_id": "20260716",
+      "card": "Ecologist",
+      "question_restated": "With all habitats equally filled, does counting Western Yellow Wagtail twice push its habitat to one more bird than the others (so it is not the fewest)?",
+      "answer_polarity": "yes",
+      "licensing_quote": "2. In the scenario you mention, counting this bird twice would push it to one more bird in the habitat than the others.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Same thread, shown on the bonus card named in the question; correct transfer.",
+      "problems": [],
+      "flags": [],
+      "signature": "1206d451fa4830ac",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "162950"
+      ]
+    },
+    "20260716@Visionary Leader": {
+      "ruling_id": "20260716",
+      "card": "Visionary Leader",
+      "question_restated": "Does Western Yellow Wagtail count double for Visionary Leader while it is still in hand?",
+      "answer_polarity": "no",
+      "licensing_quote": "1. No. Bird powers are only in effect after they've been played.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Same thread, shown on the bonus card named in the question; correct transfer.",
+      "problems": [],
+      "flags": [],
+      "signature": "1206d451fa4830ac",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "162950"
+      ]
+    },
+    "20260716@Western Yellow Wagtail": {
+      "ruling_id": "20260716",
+      "card": "Western Yellow Wagtail",
+      "question_restated": "(1) Does Western Yellow Wagtail count double for Visionary Leader if it stays in hand? (2) If habitats hold equal numbers of birds, does counting it double push its habitat above the fewest for Ecologist?",
+      "answer_polarity": "no",
+      "licensing_quote": "1. No. Bird powers are only in effect after they've been played.\n\n2. In the scenario you mention, counting this bird twice would push it to one more bird in the habitat than the others.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "contradicts": [],
+      "note": "Both halves match: no doubling in hand; doubling raises the habitat count so it is no longer the fewest.",
+      "problems": [],
+      "flags": [],
+      "signature": "1206d451fa4830ac",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "162950"
+      ]
     },
     "20260728@Dovekie": {
       "ruling_id": "20260728",

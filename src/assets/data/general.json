@@ -288,5 +288,10 @@
     "name":"Food cost of bird powers",
     "text":"The food a power tells you to discard is a cost, not something you may substitute or skip: if you cannot pay it you cannot use the power, and you may not take the benefit without paying\u2014no [seed], no tuck for <strong applink=\"\/card\/215\">Sandhill Crane<\/strong>.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-17\/#comment-38179"
+  },
+  "58":{
+    "name":"Powers",
+    "text":"Any player may decline a benefit, whether it comes from their own power or from another player's power. Having food stolen is not a benefit, so a player being stolen from has no choice.",
+    "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-52\/#comment-57095"
   }
 }

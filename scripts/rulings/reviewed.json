@@ -21,9 +21,170 @@
     "  accepted   the objection is fair but the ruling is the best available; reason says why",
     "",
     "A ruling that should change is not recorded here -- change it. A ruling that should go",
-    "is not recorded here either -- that is rejections.json."
+    "is not recorded here either -- that is rejections.json.",
+    "",
+    "The 30 `terse source` approvals dated 2026-08-30 all rest on the same evidence, and the",
+    "reason quotes it: the question the terse answer was replying to, recovered by walking",
+    "`parent` up the comment thread. A short answer's polarity lives in its question, so that",
+    "quote is the whole check -- read it against the ruling and the approval either holds or",
+    "it does not. Three items in that pass were not approved; the rulings were changed."
   ],
   "reviews": {
+    "20190416@Osprey": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "d62d1a3ad893654c",
+      "reason": [
+        "Aaron asked: “When the rulebook says that all powers are optional, what exactly does that",
+        "mean for powers that affect other players? Take the osprey, for instance - its power is",
+        "that, when activated, all players gain a fish from the supply. But the power is optional!",
+        "Does that mean: a) the player who controls the osprey can - if they wish - choose not to",
+        "activate the osprey, resulting in nobody getting any fish or b) the osprey is always",
+        "activated, but every player can…”  Jamey Stegmaier answered: “(a) is correct :)”  The ruling",
+        "answers that question in that direction.",
+        "",
+        "Approved as rewritten. Jamey's '(a) is correct' answers a two-option question, and",
+        "(a) is the owner declining to activate at all -- which is now the whole row. The",
+        "sentence about other players declining their [fish] was not in this thread; it is",
+        "20221121, promoted to a general ruling that reaches this card."
+      ]
+    },
+    "20190629@Nest Box Builder": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "9da44f90e5ab578f",
+      "reason": [
+        "John Weseman asked: “Hi Jamey, can the same star nest bird(s) count toward two end game",
+        "bonus cards? For example, could I score both the Nest Box Builder and the Platform Builder",
+        "bonuses if I had three star nests, one platform nest and one cavity nest in play? Thanks!”",
+        "Jamey Stegmaier answered: “Indeed they do!”  The ruling answers that question in that",
+        "direction.",
+        "",
+        "'Indeed they do!' answers a question that names both cards and the exact scenario",
+        "(three [star] nests scoring Nest Box Builder and Platform Builder at once)."
+      ]
+    },
+    "20190629@Platform Builder": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "9da44f90e5ab578f",
+      "reason": [
+        "John Weseman asked: “Hi Jamey, can the same star nest bird(s) count toward two end game",
+        "bonus cards? For example, could I score both the Nest Box Builder and the Platform Builder",
+        "bonuses if I had three star nests, one platform nest and one cavity nest in play? Thanks!”",
+        "Jamey Stegmaier answered: “Indeed they do!”  The ruling answers that question in that",
+        "direction.",
+        "",
+        "'Indeed they do!' answers a question that names both cards and the exact scenario",
+        "(three [star] nests scoring Nest Box Builder and Platform Builder at once)."
+      ]
+    },
+    "20190724@Barred Owl": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "251985a20fa6baba",
+      "reason": [
+        "Matt asked: “How about “barRED owl”?”  Jamey Stegmaier answered: “Nope!”  The ruling answers",
+        "that question in that direction.",
+        "",
+        "'Nope!' lands on 'How about barRED owl?', asked after bluebird and bobwhite were both",
+        "confirmed -- so the no is specifically about a colour that is only a letter sequence.",
+        "Consistent with 20230529 (Baya Weaver) and with 20240219 as rewritten."
+      ]
+    },
+    "20191201@Northern Bobwhite": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "4226ce317e042125",
+      "reason": [
+        "Tiago L Ferreira asked: “Does the \"white\" in Northern Bobwhite count as a color for the",
+        "Photographer bonus card?”  Jamey Stegmaier answered: “It does!”  The ruling answers that",
+        "question in that direction."
+      ]
+    },
+    "20200301@Hooded Warbler": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "8b4750c81f4f3abe",
+      "reason": [
+        "Ben asked: “I recently purchased Wingspan and noticed that 6 of the 170 bird cards do not",
+        "have one of the three bird powers (for example, the HOODED WARBLER). So if I played the",
+        "HOODED WARBLER and on another turn gained food, and then moved my action cube to the HOODED",
+        "WARBLER, I would skip over it, just like I would if it were a ONCE BETWEEN TURNS bird card",
+        "or a WHEN PLAYED bird card. Is that correct?”  Jamey Stegmaier answered: “Yes, that's",
+        "correct.”  The ruling answers that question in that direction."
+      ]
+    },
+    "20200405a@Anna's Hummingbird": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "31aee44f9d14cd49",
+      "reason": [
+        "Birey asked: “When I activate Anna's hummingbird, can I choose myself to be the first player",
+        "to gain food?”  Joe Aubrey answered: “Absolutely!”  The ruling answers that question in that",
+        "direction."
+      ]
+    },
+    "20200512@Eurasian Green Woodpecker": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "d962858c1d04a167",
+      "reason": [
+        "Nate asked: “Thanks, Joe! There’s a lot of quibbling over that “each.” So, to be absolutely",
+        "clear, once a bird with a teal round end power is played, its power activates at the end of",
+        "each subsequent round, not just the round in which it is played, right? Thus, a Eurasian",
+        "Green Woodpecker played in round 1 could activate 4 times if it qualified for all 4 round",
+        "end goals?”  Joe Aubrey answered: “That's correct!”  The ruling answers that question in",
+        "that direction."
+      ]
+    },
+    "20201005@Kākāpō": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "980b3b78b8ef0d8a",
+      "reason": [
+        "Wolli asked: “Do i have to activate the Yellow Ability or can i choose not to?”  Jamey",
+        "Stegmaier answered: “You can choose not to.”  The ruling answers that question in that",
+        "direction."
+      ]
+    },
+    "20201010b@Eurasian Nuthatch": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "eae888c8c55a74f3",
+      "reason": [
+        "Sam asked: “Technical question. For the Sandhill Crane, you must discard a [seed] to tuck",
+        "two cards from the deck. The Eurasian nuthatch says “At any time, you may spend [seeds]",
+        "cached on this card.” I know you normally can’t spend cached food, and must use from your",
+        "supply, but the nuthatch has the line \"at any time\" Can you use the seed cached on the",
+        "nuthatch to tuck 2 cards on the sandhill crane??”  Joe Aubrey answered: “Yes you can. :)”",
+        "The ruling answers that question in that direction."
+      ]
+    },
+    "20201010b@Sandhill Crane": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "3e3d438924eda165",
+      "reason": [
+        "Sam asked: “Technical question. For the Sandhill Crane, you must discard a [seed] to tuck",
+        "two cards from the deck. The Eurasian nuthatch says “At any time, you may spend [seeds]",
+        "cached on this card.” I know you normally can’t spend cached food, and must use from your",
+        "supply, but the nuthatch has the line \"at any time\" Can you use the seed cached on the",
+        "nuthatch to tuck 2 cards on the sandhill crane??”  Joe Aubrey answered: “Yes you can. :)”",
+        "The ruling answers that question in that direction."
+      ]
+    },
     "20201206@Red-Winged Parrot": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -47,6 +208,254 @@
         "Keeping the verdict rather than forcing it to faithful: the model is reasoning correctly",
         "from what it was given, and loosening the gate to make one item green would cost the",
         "next inversion."
+      ]
+    },
+    "20210107@Brown-Headed Cowbird": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "f290bb0a9583529d",
+      "reason": [
+        "Faith Brown asked: “In the OE addition with the bonus card Site Selection Expert , how do",
+        "you score the Brown headed Cowbird? It does not have a nest on the card, but in real life",
+        "the bird lays eggs in other birds’ nests so we have a debate going as to if this would",
+        "qualify as star nest ability in the new expansion. Does it just not count or get counted as",
+        "a wild?”  Jamey Stegmaier answered: “It doesn't count. :)”  The ruling answers that question",
+        "in that direction.",
+        "",
+        "The question offers both readings explicitly -- 'Does it just not count or get counted",
+        "as a wild?' -- so 'It doesn't count' picks one and the ruling states that one."
+      ]
+    },
+    "20210107@Site Selection Expert": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "f290bb0a9583529d",
+      "reason": [
+        "Faith Brown asked: “In the OE addition with the bonus card Site Selection Expert , how do",
+        "you score the Brown headed Cowbird? It does not have a nest on the card, but in real life",
+        "the bird lays eggs in other birds’ nests so we have a debate going as to if this would",
+        "qualify as star nest ability in the new expansion. Does it just not count or get counted as",
+        "a wild?”  Jamey Stegmaier answered: “It doesn't count. :)”  The ruling answers that question",
+        "in that direction.",
+        "",
+        "The question offers both readings explicitly -- 'Does it just not count or get counted",
+        "as a wild?' -- so 'It doesn't count' picks one and the ruling states that one."
+      ]
+    },
+    "20210127@Bluethroat": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "2a432417fa789215",
+      "reason": [
+        "bruce110 asked: “I have a question involving the Bluethroat. Its text reads: \"When",
+        "activated: Choose a food type. All players gain 1 of that food from the supply.\" Does that",
+        "include nectar as a food type?”  Jamey Stegmaier answered: “It does!”  The ruling answers",
+        "that question in that direction."
+      ]
+    },
+    "20210127@Common Nightingale": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "2a432417fa789215",
+      "reason": [
+        "bruce110 asked: “I have a question involving the Bluethroat. Its text reads: \"When",
+        "activated: Choose a food type. All players gain 1 of that food from the supply.\" Does that",
+        "include nectar as a food type?”  Jamey Stegmaier answered: “It does!”  The ruling answers",
+        "that question in that direction."
+      ]
+    },
+    "20210624@Black-Shouldered Kite": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "022a6577037c02ec",
+      "reason": [
+        "Erick Lara asked: “For the black shouldered kite, can the player who I’m giving the rat to",
+        "deny the rat so I don’t get eggs?”  Jamey Stegmaier answered: “No, they must accept it”  The",
+        "ruling answers that question in that direction."
+      ]
+    },
+    "20211213@Blyth's Hornbill": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "154ce0949a903ab5",
+      "reason": [
+        "Jeremy Lowe asked: “Re: Blyth's Hornbill, when it refers to a cavity nest, can a star nest",
+        "act as a substitute as it does in other scenarios?”  Jamey Stegmaier answered: “Yes, it",
+        "can.”  The ruling answers that question in that direction."
+      ]
+    },
+    "20220209@Black Vulture": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "08cda45bf6598384",
+      "reason": [
+        "Celine asked: “hi, does the black vulture card gains food as soon as the other player",
+        "succeeds hunting or do you wait at the end of the other player's turn to gain a food from",
+        "the birdfeeder?”  Jamey Stegmaier answered: “You gain it right away.”  The ruling answers",
+        "that question in that direction."
+      ]
+    },
+    "20220430@Australian Ibis": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "481e9fcafa765edf",
+      "reason": [
+        "Jamez asked: “I suppose bonus cards get discarded face down, but what about bird cards? This",
+        "came up when Australian Ibis was activated.”  Jamey Stegmaier answered: “Face up for both",
+        ":)”  The ruling answers that question in that direction."
+      ]
+    },
+    "20221216@Forest Owlet": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "602913150952f05e",
+      "reason": [
+        "Stan Chechak asked: “Please provide a verification of our rule interpretation for the",
+        "Hunting and Fishing Powers birds in the Asian Expansion of Wingspan. For example, the Forest",
+        "Owlet (WHEN ACTIVATED: Choose any 2 DICE. Roll them up to 3 times. Each time, if you roll at",
+        "least 1 Invertebrate or Rodent, cache 1 here. If not, stop and return all food cached here",
+        "this turn.). Please verify that if there are only 2 DICE in the birdfeeder, and the owner of",
+        "the Forest Owlet chooses…”  Jamey Stegmaier answered: “That's correct, Stan!”  The ruling",
+        "answers that question in that direction.",
+        "",
+        "The longest question in the corpus and the shortest answer. Stan spelled out the whole",
+        "sequence -- roll outside the feeder, then reroll all 5 to reset, then continue -- and",
+        "the ruling restates his sequence, so the terse 'That's correct, Stan!' is fully",
+        "licensed."
+      ]
+    },
+    "20230514@Large-Billed Crow": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "8b626c22cc10e974",
+      "reason": [
+        "Amber Post asked: “Regarding the Large Billed Crow, if you cache a nectar on the bird as",
+        "your food choice, where do you put it? On the bird or in your nectar pile? Thanks!”  Jamey",
+        "Stegmaier answered: “On the bird. Thanks!”  The ruling answers that question in that",
+        "direction."
+      ]
+    },
+    "20230827a@Common Blackbird": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "b7d6f8cff0690f0a",
+      "reason": [
+        "Katrina asked: “Sorry I just saw that this question was answered below! Sounds like it is",
+        "just one duet token per bird card so only one. Thanks!”  Jamey Stegmaier answered: “That's",
+        "right! :)”  The ruling answers that question in that direction.",
+        "",
+        "Held at medium because 'That's right! :)' is ambiguous between the asker's two",
+        "comments. It is not: the second comment retracts the first ('Sounds like it is just",
+        "one duet token per bird card so only one'), and that is what the ruling says."
+      ]
+    },
+    "20240219@Silvereye": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "45ea411bc5e4069d",
+      "reason": [
+        "PS asked: “When determining the number of birds with colour in their names for the bonus",
+        "card can the colour be part of a name, ie. silvereye?”  Jamey Stegmaier answered: “It can",
+        "indeed! :)”  The ruling answers that question in that direction.",
+        "",
+        "Approved as rewritten. 'It can indeed!' answers 'can the colour be part of a name, ie.",
+        "silvereye?', which licenses the yes but not the old row's 'part of a larger word' --",
+        "read that way it contradicts Barred Owl and Baya Weaver. The rule Jamey actually",
+        "stated is compound words (comment 60794, now in extra-citations.json)."
+      ]
+    },
+    "20250201@Great Indian Bustard": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "bc7e1dea9c7b8d15",
+      "reason": [
+        "Kaven Gray asked: “If I play the Great Indian Bustard mid game (eg during round 2) can I",
+        "score the Winter Feeder or the Visionary Leader bonus card even though they specifically",
+        "state “at end of game”?”  Jamey Stegmaier answered: “Yes! :)”  The ruling answers that",
+        "question in that direction."
+      ]
+    },
+    "20250201@Visionary Leader": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "bc7e1dea9c7b8d15",
+      "reason": [
+        "Kaven Gray asked: “If I play the Great Indian Bustard mid game (eg during round 2) can I",
+        "score the Winter Feeder or the Visionary Leader bonus card even though they specifically",
+        "state “at end of game”?”  Jamey Stegmaier answered: “Yes! :)”  The ruling answers that",
+        "question in that direction."
+      ]
+    },
+    "20250201@Winter Feeder": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "bc7e1dea9c7b8d15",
+      "reason": [
+        "Kaven Gray asked: “If I play the Great Indian Bustard mid game (eg during round 2) can I",
+        "score the Winter Feeder or the Visionary Leader bonus card even though they specifically",
+        "state “at end of game”?”  Jamey Stegmaier answered: “Yes! :)”  The ruling answers that",
+        "question in that direction."
+      ]
+    },
+    "20250709@Crimson Chat": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "d2c9ea183c9b50cf",
+      "reason": [
+        "Michelle Styles asked: “The Crimson Chat says \"Discard a food from your supply to tuck 1",
+        "card from the deck behind this bird\". Can a player discard a nectar? If so, does it go into",
+        "the spent pile on the player board?”  Jamey Stegmaier answered: “Yes and yes. :)”  The",
+        "ruling answers that question in that direction."
+      ]
+    },
+    "20250709a@House Crow": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "2b239e6fc20e921f",
+      "reason": [
+        "Michelle Styles asked: “The House Crow says \"Cache 1 food from your supply on each bird in",
+        "this row\". Can a player cache a nectar? If so, does it go on the bird or in the spent pile",
+        "on the player board?”  Jamey Stegmaier answered: “Yes, and on the bird.”  The ruling answers",
+        "that question in that direction."
+      ]
+    },
+    "20260208a@Altamira Oriole": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "bf615dce3814cd28",
+      "reason": [
+        "Michael asked: “Altamira Oriole Brown Power: Attract 1 Hummingbird. Do you activate the",
+        "benefit of the hummingbird?”  Jamey Stegmaier answered: “You do!”  The ruling answers that",
+        "question in that direction."
+      ]
+    },
+    "20260712@Orinoco Goose": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "claude",
+      "signature": "acc19a181adfc425",
+      "reason": [
+        "Graham Sadie asked: “Does the Orinoco goose's power include neighbouring nests of star type",
+        "as well as box nests?”  Jamey Stegmaier answered: “It does!”  The ruling answers that",
+        "question in that direction."
       ]
     }
   }

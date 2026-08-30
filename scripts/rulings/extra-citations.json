@@ -25,7 +25,7 @@
     "comment is re-proposed on every future refresh, forever. Recording it here is what makes a",
     "fold stick -- the same job rejections.json does for a removal.",
     "",
-    "20 rows are listed. The backlog is larger and is worked through as rows are reviewed, so an",
+    "21 rows are listed. The backlog is larger and is worked through as rows are reviewed, so an",
     "absent row means unreviewed, not clean."
   ],
   "citations": {
@@ -263,6 +263,23 @@
         "Five threads asked this and five answers said the same thing, which is why it is one",
         "general ruling rather than five card rows. Proposals 20220404, 20221003, 20230317, 20231030",
         "(part) and 20231107 are all folded in here."
+      ]
+    },
+    "20240219@Silvereye": {
+      "comments": [
+        "60794"
+      ],
+      "why": [
+        "Comment 67299 is 'It can indeed! :)' to 'can the colour be part of a name, ie.",
+        "silvereye?', so it licenses the yes but says nothing about where the line falls. The",
+        "ruling's parenthetical -- that a letter sequence which is not a colour word in the",
+        "compound does not count -- is Jamey's own statement of the rule, in comment 60794:",
+        "'the photographer is looking for colors as words [or] colors as part of compound",
+        "words. \"Baya\" is its own word, not a compound of \"bay\" and \"a\".'",
+        "",
+        "Without that clause the row reads as 'any larger word', which contradicts both",
+        "20230529 (Baya Weaver) and 20190724 (Barred Owl) -- the two official noes a player",
+        "is most likely to hit next."
       ]
     }
   }

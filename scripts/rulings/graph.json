@@ -1046,7 +1046,6 @@
    "pattern": "other player|another player|all players|each player",
    "rulings": [
     "20190205@Once between turns",
-    "20190416@Osprey",
     "20191004@Round end powers",
     "20191218@Loggerhead Shrike",
     "20200109a@Action",
@@ -1084,7 +1083,7 @@
     "20220605@Spangled Drongo",
     "20221005@Rose-Ringed Parakeet",
     "20221109@Sri Lanka Frogmouth",
-    "20221121@Brolga",
+    "20221121b@Powers",
     "20221125@Little Egret",
     "20221125@Plumbeous Redstart",
     "20221207@Plumbeous Redstart",
@@ -2612,9 +2611,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190203@Bushtit": {
@@ -2631,9 +2630,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20231204@Common Grackle": {
@@ -2671,9 +2670,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190203@Dickcissel": {
@@ -2690,9 +2689,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190203@Red-Winged Blackbird": {
@@ -2709,9 +2708,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190203@Yellow-Headed Blackbird": {
@@ -2728,9 +2727,9 @@
     "eggs",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190205@Once between turns": {
@@ -3786,8 +3785,8 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -5278,8 +5277,8 @@
     "power-activation"
    ],
    "verified": "faithful",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200925@House Sparrow": {
@@ -6604,14 +6603,13 @@
    "ruling_id": "20190416",
    "card": "Osprey",
    "topic": null,
-   "text": "Powers are optional: the owner of \\textbf{Osprey} may choose not to activate its power at all, in which case no player gains a [fish]. If the power is activated, another player may still decline to take their [fish].",
+   "text": "Powers are optional: the owner of \\textbf{Osprey} may choose not to activate its power at all, in which case no player gains a [fish].",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-4/#comment-32087",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
    "date": "2019-04-16",
    "mentions": [],
    "concepts": [
-    "other-players",
     "power-activation"
    ],
    "verified": "faithful",
@@ -8043,8 +8041,8 @@
     "wild-food"
    ],
    "verified": "faithful",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20201230a@Mechanical Engineer": {
@@ -9224,7 +9222,7 @@
    "ruling_id": "20221121",
    "card": "Brolga",
    "topic": null,
-   "text": "Any player may decline a benefit, whether it comes from their own power or from another player's power. With \\textbf{Brolga}, the chosen player may decline to lay the [egg], and you still draw 2 [card] either way. Having food stolen is not a benefit, so a player being stolen from has no choice.",
+   "text": "With \\textbf{Brolga}, the chosen player may decline to lay the [egg], and you still draw 2 [card] either way.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-52/#comment-57095",
    "source_kind": "stonemaier",
    "author": "Joe Aubrey",
@@ -9232,8 +9230,7 @@
    "mentions": [],
    "concepts": [
     "card-draw",
-    "eggs",
-    "other-players"
+    "eggs"
    ],
    "verified": "faithful",
    "verified_confidence": "high",
@@ -9589,7 +9586,7 @@
    ],
    "verified": "faithful",
    "verified_confidence": "high",
-   "settled": false,
+   "settled": true,
    "contradicts": []
   },
   "20240120@Great Indian Bustard": {
@@ -9960,17 +9957,20 @@
    "ruling_id": "20240219",
    "card": "Silvereye",
    "topic": null,
-   "text": "For bonus cards that count birds with a color in their name, the color may be part of a larger word: \\textbf{Silvereye} counts as a bird with a color in its name.",
+   "text": "For bonus cards that count birds with a color in their name, the color may be part of a compound word rather than a word of its own: \\textbf{Silvereye} counts. (A letter sequence that is not a color word in the compound does not count---see \\textbf{Barred Owl} and \\textbf{Baya Weaver}.)",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-67/#comment-67299",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
    "date": "2024-02-19",
-   "mentions": [],
+   "mentions": [
+    "Barred Owl",
+    "Baya Weaver"
+   ],
    "concepts": [
     "bonus-eligibility"
    ],
    "verified": "faithful",
-   "verified_confidence": "medium",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -10085,7 +10085,7 @@
    ],
    "verified": "faithful",
    "verified_confidence": "high",
-   "settled": true,
+   "settled": false,
    "contradicts": []
   },
   "20241104@Red Junglefowl": {
@@ -11113,9 +11113,9 @@
     "eggs",
     "nests"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200405b@Cetti's Warbler": {
@@ -11132,9 +11132,9 @@
     "eggs",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210123@Greylag Goose": {
@@ -11151,9 +11151,9 @@
     "eggs",
     "nests"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20220914@Cetti's Warbler": {
@@ -11169,9 +11169,9 @@
    "concepts": [
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20220914@Eurasian Green Woodpecker": {
@@ -11187,9 +11187,9 @@
    "concepts": [
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20220914@Greylag Goose": {
@@ -11205,9 +11205,9 @@
    "concepts": [
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200218@Grey Heron": {
@@ -11223,9 +11223,9 @@
    "concepts": [
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200218@Red Kite": {
@@ -11243,9 +11243,9 @@
    "concepts": [
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260716@Western Yellow Wagtail": {
@@ -11265,9 +11265,9 @@
     "bonus-eligibility",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260716@Visionary Leader": {
@@ -11287,9 +11287,9 @@
     "bonus-eligibility",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260716@Ecologist": {
@@ -11309,9 +11309,9 @@
     "bonus-eligibility",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20201206b@Chimney Swift": {
@@ -11330,9 +11330,9 @@
    "concepts": [
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210701@Anatomist": {
@@ -11348,9 +11348,9 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210701@Cartographer": {
@@ -11366,9 +11366,9 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210701@Photographer": {
@@ -11384,9 +11384,9 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210920@Round end": {
@@ -11426,9 +11426,9 @@
     "power-activation",
     "predation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20231030@Black-Billed Magpie": {
@@ -11449,9 +11449,9 @@
     "power-activation",
     "predation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20231030@Turkey Vulture": {
@@ -11472,9 +11472,9 @@
     "power-activation",
     "predation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20240115@Black-Billed Magpie": {
@@ -11493,9 +11493,9 @@
     "power-activation",
     "predation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20201010b@Eurasian Nuthatch": {
@@ -11515,8 +11515,8 @@
     "card-draw",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -11537,8 +11537,8 @@
     "card-draw",
     "supply"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -11656,9 +11656,9 @@
     "bonus-eligibility",
     "power-activation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20250928@Philippine Eagle": {
@@ -11675,9 +11675,9 @@
     "bonus-eligibility",
     "card-draw"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20251210@Anatomist": {
@@ -11693,16 +11693,16 @@
     "Blackpoll Warbler"
    ],
    "concepts": [],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20251210@Blackpoll Warbler": {
    "ruling_id": "20251210",
    "card": "Blackpoll Warbler",
    "topic": null,
-   "text": "\\textbf{Blackpoll Warbler} does not count toward the \\textbf{Anatomist} bonus card: ``poll'' refers to the head only figuratively, and the card looks for anatomical words.",
+   "text": "\\textbf{Blackpoll Warbler} does not officially count toward the \\textbf{Anatomist} bonus card: ``poll'' refers to the head only figuratively, and the card looks for anatomical words. A group may agree to count it, as long as it is consistent.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-77/#comment-139622",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -11713,8 +11713,8 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -11733,9 +11733,9 @@
    "concepts": [
     "bonus-eligibility"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260109@Orange-Breasted Bunting": {
@@ -11751,25 +11751,25 @@
    "concepts": [
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260212@Great Crested Grebe": {
    "ruling_id": "20260212",
    "card": "Great Crested Grebe",
    "topic": null,
-   "text": "Empty hummingbird spaces in the row count as empty card slots for this power, so a lone bird in the first [wetland] slot with no hummingbird attracted draws 5 [card].",
+   "text": "Empty hummingbird spaces in the row count as empty card slots for this power, so a lone bird in the first [wetland] slot with no hummingbird attracted draws 5 [card]. This was confirmed ``at least for now,'' so it may be revisited.",
    "source": "https://stonemaiergames.com/games/wingspan/wingspan-americas-expansion/comment-page-11/#comment-147358",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
    "date": "2026-02-12",
    "mentions": [],
    "concepts": [],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260319@Gray Catbird": {
@@ -11786,9 +11786,9 @@
     "flocking",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260319@Northern Mockingbird": {
@@ -11805,9 +11805,9 @@
     "flocking",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200108@Gray Catbird": {
@@ -11831,8 +11831,8 @@
     "power-activation",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -11857,8 +11857,8 @@
     "power-activation",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -11876,9 +11876,9 @@
     "flocking",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190307@Northern Mockingbird": {
@@ -11895,9 +11895,9 @@
     "flocking",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260713b@Great Kiskadee": {
@@ -11916,9 +11916,9 @@
    "concepts": [
     "flocking"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260520@Wattled Jacana": {
@@ -11934,9 +11934,9 @@
    "concepts": [
     "card-draw"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20260520@Red-Wattled Lapwing": {
@@ -11952,9 +11952,9 @@
    "concepts": [
     "card-draw"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200104@Common Nighthawk": {
@@ -11971,9 +11971,9 @@
     "playing-birds",
     "power-activation"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200113@Blue Jay": {
@@ -11989,8 +11989,8 @@
    "concepts": [
     "birdfeeder"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -12007,8 +12007,8 @@
     "Tūī"
    ],
    "concepts": [],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -12025,8 +12025,8 @@
     "Superb Lyrebird"
    ],
    "concepts": [],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -12044,8 +12044,8 @@
     "card-draw",
     "tucking"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -12468,8 +12468,8 @@
     "bonus-eligibility",
     "power-activation"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "medium",
    "settled": false,
    "contradicts": []
   },
@@ -12489,9 +12489,9 @@
     "other-players",
     "supply"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20250225@Crested Ibis": {
@@ -12512,9 +12512,9 @@
     "other-players",
     "playing-birds"
    ],
-   "verified": null,
-   "verified_confidence": null,
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20191126b@White-Backed Woodpecker": {
@@ -12551,8 +12551,8 @@
     "other-players",
     "supply"
    ],
-   "verified": null,
-   "verified_confidence": null,
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -12572,6 +12572,24 @@
     "card-draw",
     "tucking",
     "wild-food"
+   ],
+   "verified": null,
+   "verified_confidence": null,
+   "settled": false,
+   "contradicts": []
+  },
+  "20221121b@Powers": {
+   "ruling_id": "20221121b",
+   "card": null,
+   "topic": "Powers",
+   "text": "Any player may decline a benefit, whether it comes from their own power or from another player's power. Having food stolen is not a benefit, so a player being stolen from has no choice.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-52/#comment-57095",
+   "source_kind": "stonemaier",
+   "author": "Joe Aubrey",
+   "date": "2022-11-21",
+   "mentions": [],
+   "concepts": [
+    "other-players"
    ],
    "verified": null,
    "verified_confidence": null,
@@ -12705,7 +12723,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20200322@American Bittern"
    ],
@@ -12819,7 +12837,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [
     "20190311@American Oystercatcher",
     "20200617@American Oystercatcher",
@@ -12887,7 +12905,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -13322,7 +13340,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -13399,7 +13417,8 @@
     "20190724@Barred Owl"
    ],
    "mentioned_by": [
-    "20191203b@Photographer"
+    "20191203b@Photographer",
+    "20240219@Silvereye"
    ]
   },
   "Barrow's Goldeneye": {
@@ -13449,7 +13468,8 @@
     "20230529@Baya Weaver"
    ],
    "mentioned_by": [
-    "20230529@Photographer"
+    "20230529@Photographer",
+    "20240219@Silvereye"
    ]
   },
   "Bearded Reedling": {
@@ -13673,7 +13693,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -13841,7 +13861,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -13882,7 +13902,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -14256,7 +14276,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20210127@Bluethroat"
    ],
@@ -14484,7 +14504,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20221121@Brolga"
    ],
@@ -14561,7 +14581,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -14767,7 +14787,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -14780,7 +14800,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [
     "20201116@Canvasback"
    ],
@@ -15356,7 +15376,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -15382,7 +15402,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20220305@Common Loon"
    ],
@@ -15478,7 +15498,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20210127@Common Nightingale"
    ],
@@ -15494,7 +15514,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -15882,7 +15902,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16098,7 +16118,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16113,7 +16133,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16127,7 +16147,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20201010@Eastern Rosella",
     "20220605@Eastern Rosella"
@@ -16463,7 +16483,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [
     "20240714@Eurasian Hoopoe"
    ],
@@ -16478,7 +16498,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16573,7 +16593,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 7,
+   "general_rulings": 8,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16702,7 +16722,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 5,
+   "general_rulings": 6,
    "rulings": [],
    "mentioned_by": []
   },
@@ -16868,7 +16888,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -17232,7 +17252,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 5,
+   "general_rulings": 6,
    "rulings": [],
    "mentioned_by": []
   },
@@ -17507,7 +17527,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -17565,7 +17585,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -17876,7 +17896,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -18085,7 +18105,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [
     "20221112@Hermit Thrush",
     "20230412@Hermit Thrush"
@@ -18102,7 +18122,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -18408,7 +18428,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -18460,7 +18480,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 6,
+   "general_rulings": 7,
    "rulings": [],
    "mentioned_by": []
   },
@@ -18475,7 +18495,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20221123@Indian Peafowl"
    ],
@@ -18806,7 +18826,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20190406@Lazuli Bunting",
     "20220515@Lazuli Bunting"
@@ -18835,7 +18855,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -18848,7 +18868,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "02c@Lesser Prairie-Chicken"
    ],
@@ -18982,7 +19002,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [
     "20221125@Little Egret"
    ],
@@ -19013,7 +19033,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19065,7 +19085,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19079,7 +19099,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 6,
+   "general_rulings": 7,
    "rulings": [
     "20190405@Loggerhead Shrike",
     "20191218@Loggerhead Shrike",
@@ -19227,7 +19247,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19318,7 +19338,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19404,7 +19424,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19668,7 +19688,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 8,
+   "general_rulings": 9,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19792,7 +19812,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -19975,7 +19995,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20017,7 +20037,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20031,7 +20051,7 @@
     "Forest",
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20139,7 +20159,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20190416@Osprey"
    ],
@@ -20439,7 +20459,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20190406@Pileated Woodpecker",
     "20231126@Pileated Woodpecker",
@@ -20563,7 +20583,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [
     "20221125@Plumbeous Redstart",
     "20221207@Plumbeous Redstart"
@@ -20649,7 +20669,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20689,7 +20709,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20814,7 +20834,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -20912,7 +20932,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21304,7 +21324,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21359,7 +21379,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21650,7 +21670,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21857,7 +21877,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21884,7 +21904,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -21912,7 +21932,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22006,7 +22026,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 6,
+   "general_rulings": 7,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22019,7 +22039,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22032,7 +22052,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 1,
+   "general_rulings": 2,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22132,7 +22152,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20240219@Silvereye"
    ],
@@ -22618,7 +22638,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 2,
+   "general_rulings": 3,
    "rulings": [
     "02f@Spotted Sandpiper"
    ],
@@ -22714,7 +22734,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20221109@Sri Lanka Frogmouth"
    ],
@@ -22838,7 +22858,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22879,7 +22899,7 @@
     "Forest",
     "Wetland"
    ],
-   "general_rulings": 6,
+   "general_rulings": 7,
    "rulings": [],
    "mentioned_by": []
   },
@@ -22936,7 +22956,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [],
    "mentioned_by": []
   },
@@ -23046,7 +23066,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 5,
+   "general_rulings": 6,
    "rulings": [
     "20260226@Titicaca Grebe"
    ],
@@ -23271,7 +23291,7 @@
    "habitats": [
     "Forest"
    ],
-   "general_rulings": 1,
+   "general_rulings": 2,
    "rulings": [],
    "mentioned_by": []
   },
@@ -23349,7 +23369,7 @@
     "Grassland",
     "Wetland"
    ],
-   "general_rulings": 5,
+   "general_rulings": 6,
    "rulings": [],
    "mentioned_by": []
   },
@@ -23646,7 +23666,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 3,
+   "general_rulings": 4,
    "rulings": [
     "20190406@Western Meadowlark"
    ],
@@ -24217,7 +24237,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 1,
+   "general_rulings": 2,
    "rulings": [],
    "mentioned_by": []
   },
@@ -24339,7 +24359,7 @@
    "habitats": [
     "Wetland"
    ],
-   "general_rulings": 4,
+   "general_rulings": 5,
    "rulings": [],
    "mentioned_by": []
   },
@@ -24503,7 +24523,7 @@
    "habitats": [
     "Grassland"
    ],
-   "general_rulings": 7,
+   "general_rulings": 8,
    "rulings": [],
    "mentioned_by": []
   },

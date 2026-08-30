@@ -127,6 +127,11 @@ candidates = {
     # Promoted from Clark's Nutcracker and White-Faced Heron, whose row was already worded for
     # every ``may cache'' bird. Four cards that state it themselves are excluded in the overrides.
     '20260503': lambda row: not pd.isna(row['Power text']) and re.search(r"may cache", row['Power text'], re.IGNORECASE) is not None,
+    # Promoted from Brolga, which carried the general answer and a Brolga-specific one in the
+    # same row. Candidates are the powers that hand a benefit to other players or steal from
+    # them -- the only place ``may they refuse?'' can be asked. Both hummingbirds are excluded
+    # in the overrides: they carry the same answer with their own source.
+    '20221121b': lambda row: not pd.isna(row['Power text']) and re.search(r"all (other )?players|each (other )?player|player\(s\) with|they (lay|gain|draw|tuck|discard)|\bsteal\b", row['Power text'], re.IGNORECASE) is not None,
     '20210318': lambda row: not pd.isna(row['Power text']) and re.search(r"this bird counts double toward the end-of-round goal", row['Power text'], re.IGNORECASE) is not None,
     # A [star] wingspan is not a wingspan at all; both rulings are about what to do with it.
     '20221013': lambda row: _is_star_wingspan(row),

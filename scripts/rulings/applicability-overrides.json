@@ -94,6 +94,18 @@
     }
   },
 
+  "20221121b": {
+    "_why": [
+      "Both hummingbird cards were asked the decline question directly and carry the answer as",
+      "20200420, which also says there is no second chance during that activation. The general",
+      "row would repeat its first half above it."
+    ],
+    "excluded": {
+      "Anna's Hummingbird": "carries 20200420, which states the same choice and adds the no-second-chance limit",
+      "Ruby-Throated Hummingbird": "carries 20200420, which states the same choice and adds the no-second-chance limit"
+    }
+  },
+
   "20200712": {
     "_why": [
       "'\"Trading\" counts as \"spending\".' The predicate is every bird with a trade power,",

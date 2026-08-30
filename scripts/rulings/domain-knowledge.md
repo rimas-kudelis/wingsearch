@@ -24,15 +24,15 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**58 rows are general** (col 2 blank) and **522 are named**. The 58 general rulings are
+**59 rows are general** (col 2 blank) and **522 are named**. The 59 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
-*position* `0`–`57`, not by ruling id — so you cannot look a general ruling up by id
+*position* `0`–`58`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
 
-Those 58 general rows carry only **54 distinct ids**: `20201003` and `20201116a` appear
+Those 59 general rows carry only **55 distinct ids**: `20201003` and `20201116a` appear
 twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
 row sharing that id — one predicate can deliver two or three separate rulings.
-`general_map.py` covers all 54 ids exactly, and the notebook now *asserts* that rather than
+`general_map.py` covers all 55 ids exactly, and the notebook now *asserts* that rather than
 printing `Rule X not yet implemented`: a general row with no predicate reaches no card, so
 it must fail the build, not scroll past.
 
@@ -146,7 +146,7 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
 
 ## 3. Known failure modes in the current fan-out
 
-`general_map.py` holds 54 predicates. **48 match at least one card**:
+`general_map.py` holds 55 predicates. **49 match at least one card**:
 
 - **7 of the 13 `lambda row: False` stubs were implemented on 2026-08-30**, taking the
   fan-out from 18 rulings / 861 attachments to 28 / 941; resolving the pending proposals the
@@ -241,7 +241,7 @@ and was **never validated against cards released after early 2021** (Asia, Ameri
 
 **524 of 707 birds carried at least one `additionalRulings` entry, and 249 of those birds
 did not exist when the predicates were written.** Roughly half of that fan-out was
-unreviewed. It is 644 of 707 birds after the promotions above, at a mean of 2.7 general
+unreviewed. It is 644 of 707 birds after the promotions above, at a mean of 2.8 general
 rulings each and a maximum of 8.
 
 That table is the *pre-audit* state, kept because it is what the predicates still generate
@@ -462,7 +462,7 @@ translations, artwork and `/card/:id` links are unaffected.
 
 These are the audit's own before/after numbers and are not the current state: the stub
 implementations, the resolved proposals and the promotions of the same day took the fan-out
-to 51 rulings / 1954 attachments, with 63 birds carrying none (§3).
+to 52 rulings / 2032 attachments, with 63 birds carrying none (§3).
 
 The two clean wins were both *resource-kind* errors — the regex could not tell what was
 being drawn or discarded:
@@ -633,6 +633,42 @@ evidence of a rules change.** Check both against their sources before believing 
 Rejected rulings and the reasons are recorded permanently in `rejections.json`, which also
 blocks the comment from being re-proposed.
 
+### The terse-source review: 30 items, 3 defects, and what they were
+
+`verify.py` flags an item `terse source` when the licensing quote is too short to carry the
+ruling's direction — "Nope!", "It does!", "(a) is correct :)". That is the `20260617` class,
+so the queue was worked through card by card: for each item, walk `parent` up the comment
+thread to recover the question the answer was replying to, then check the published ruling
+answers *that* question in *that* direction. All 30 are recorded in `reviewed.json` with the
+recovered question quoted, so an approval can be re-checked without re-walking the thread.
+
+**Not one was inverted.** 27 were faithful and are approved as they stood. The three defects
+were all the same shape — the ruling answered *more* than its question:
+
+- `20190416`@Osprey. "(a) is correct" answers a two-option question, and (a) is only the
+  first half of what the row claimed. Its second sentence (other players may still decline
+  their `[fish]`) is true, but it comes from `20221121`, a different comment on a different
+  card. Trimmed; the fact now arrives as a general ruling.
+- `20240219`@Silvereye. "It can indeed!" to *"can the colour be part of a name, ie.
+  silvereye?"* was published as *"the color may be part of a larger word"* — which
+  contradicts `20190724` (**Barred Owl** does not count) and `20230529` (**Baya Weaver**
+  does not count). The rule Jamey actually stated is *compound words*, in comment 60794.
+  Rewritten to that, with the contrast named and 60794 in `extra-citations.json`.
+- `20251210`@Blackpoll Warbler and `20260212`@Great Crested Grebe, found by the same full
+  re-verification pass. Both dropped a hedge the source made explicit — *"as long as you're
+  consistent with your group, it's fine"* and *"at least for now"* — while the bonus-card row
+  for the same ruling kept it. Restored.
+
+Two generalisable findings:
+
+- **A terse answer is a weak signal about polarity and a strong signal about scope.** The
+  danger is not that the answer means the opposite; it is that a one-word yes gets published
+  as an answer to a wider question than the one asked. Check the *breadth* of the question
+  as carefully as its direction.
+- **When the same ruling id sits on a bird and on a bonus card, diff the two rows.** Both
+  hedge-dropping defects were visible that way with no source lookup at all: the general or
+  bonus-card row carried a caveat its sibling had lost.
+
 ### Repeat versus copy: a question the author gets wrong about half the time
 
 Found 2026-08-30, in `20230918`, live on two cards. Comment 63050 (Jamey, 2023) said that a
@@ -701,6 +737,14 @@ weaker gate, which would cost the next inversion.
 
 **When judging a queued item, read `graph.py --related <ruling_id>` first.** Judging a ruling
 alone is what let `20260617` through; the same rule stated six other times is what exposes it.
+
+Where the queue stands after the terse-source pass: **392 of 581 rows are verifiable against a
+held comment and all 392 are judged** — 391 faithful, 1 `overstated` (approved, with reasons).
+354 are settled outright; **38 remain queued, 19 for a qualified official answer and 19 at
+medium confidence**, and they are the next thing to work through. The other 189 rows cannot be
+checked this way at all: 130 cite no Stonemaier comment (Facebook, BGG, rulebooks) and 59 are
+general rulings, which have no per-card source to check against and are reviewable only for
+internal consistency.
 
 ### Re-running
 
