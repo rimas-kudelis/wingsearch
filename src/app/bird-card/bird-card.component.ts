@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core'
+import { Component, OnInit, Input, inject } from '@angular/core'
 import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 import { Store } from '@ngrx/store'
@@ -13,6 +13,10 @@ import EasterEggAssets from '../../assets/data/extra-assets.json'
   styleUrls: ['./bird-card.component.scss']
 })
 export class BirdCardComponent implements OnInit {
+  private translate = inject(TranslatePipe)
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
 
   @Input()
   card: BirdCard
@@ -30,11 +34,6 @@ export class BirdCardComponent implements OnInit {
   habitats: string[]
   eggs: any[]
   wingspan: string
-
-  constructor(
-    private translate: TranslatePipe,
-    private store: Store<{ app: AppState }>
-  ) { }
 
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])

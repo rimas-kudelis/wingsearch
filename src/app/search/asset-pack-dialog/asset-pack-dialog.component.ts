@@ -1,6 +1,5 @@
-import { Component } from '@angular/core'
+import { Component, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
-import { Inject } from '@angular/core'
 
 export interface DialogData {
   assetPack: 'robbie' | 'diffusion'
@@ -13,8 +12,6 @@ export interface DialogData {
   styleUrls: ['./asset-pack-dialog.component.scss']
 })
 export class AssetPackDialogComponent {
-
-  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) { }
-
+  data = inject<DialogData>(MAT_DIALOG_DATA)
 
 }

@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core'
+import { Component, Input, Output, EventEmitter, inject } from '@angular/core'
 import { Observable } from 'rxjs'
 import { DisplayedStats, AppState } from '../store/app.interfaces'
 import { Store } from '@ngrx/store'
@@ -27,10 +27,13 @@ export class StatsComponent {
 
   stats$: Observable<DisplayedStats>
 
-  constructor(store: Store<{ app: AppState }>) {
+  constructor() {
+    const store = inject<Store<{
+    app: AppState;
+}>>(Store)
+
     this.stats$ = store.select(({ app }) => app.displayedStats)
   }
-
 
   toggleHabitat(habitat: 'forest' | 'grassland' | 'wetland', event: MouseEvent) {
     event.stopPropagation()

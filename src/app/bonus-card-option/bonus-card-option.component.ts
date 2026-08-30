@@ -14,7 +14,6 @@ export class BonusCardOptionComponent {
 
   constructor() { }
 
-
   getPointConditions(): { value: string, point: boolean }[][] {
     return this.card.VP ? this.card.VP.split(';').reduce((acc, condition) => {
       const match = condition.match(/[0-9]+\[point\]/)

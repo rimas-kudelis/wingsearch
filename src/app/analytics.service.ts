@@ -1,12 +1,13 @@
-import { Injectable } from '@angular/core'
+import { Injectable, inject } from '@angular/core'
 import { CookiesService } from './cookies.service'
 
 @Injectable({
   providedIn: 'root'
 })
 export class AnalyticsService {
+  private cookies = inject(CookiesService)
 
-  constructor(private cookies: CookiesService) {
+  constructor() {
     // @ts-ignore
     window.dataLayer = window.dataLayer || []
   }

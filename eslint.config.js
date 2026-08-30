@@ -45,9 +45,6 @@ module.exports = tseslint.config(
       // Kept as NgModules on purpose: standalone migration is a separate change from the
       // framework upgrade. See the note at the top of tsconfig.json.
       '@angular-eslint/prefer-standalone': 'off',
-      // TEMPORARY. Constructor DI still works; `ng generate @angular/core:inject` converts it
-      // mechanically, which is the follow-up commit to this one. Turn this back on there.
-      '@angular-eslint/prefer-inject': 'off',
       // The store deliberately leans on `any`: the JSON card data is typed structurally by
       // resolveJsonModule and does not line up with the hand-written interfaces.
       '@typescript-eslint/no-explicit-any': 'off',

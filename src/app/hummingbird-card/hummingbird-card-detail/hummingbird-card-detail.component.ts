@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core'
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
@@ -14,6 +14,13 @@ import { DomSanitizer } from '@angular/platform-browser'
   styleUrls: ['./hummingbird-card-detail.component.scss']
 })
 export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
+  data = inject<{
+    card: BirdCard;
+}>(MAT_DIALOG_DATA)
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
+  private sanitizer = inject(DomSanitizer)
 
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
@@ -26,12 +33,6 @@ export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
   cardHeight$ = new BehaviorSubject<number>(0)
   bonusCardHeight$ = new BehaviorSubject<number>(0)
   bonusCards$: Observable<BonusCard[]>
-
-  constructor(
-    @Inject(MAT_DIALOG_DATA) public data: { card: BirdCard },
-    private store: Store<{ app: AppState }>,
-    private sanitizer: DomSanitizer
-  ) { }
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)

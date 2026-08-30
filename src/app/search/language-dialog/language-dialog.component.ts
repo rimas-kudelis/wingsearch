@@ -10,5 +10,4 @@ export class LanguageDialogComponent {
 
   constructor() { }
 
-
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, inject } from '@angular/core'
 import { MatIconRegistry } from '@angular/material/icon'
 import { DomSanitizer } from '@angular/platform-browser'
 import { CookiesService } from './cookies.service'
@@ -10,10 +10,15 @@ import { CookiesService } from './cookies.service'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  private cookies = inject(CookiesService)
+
   title = 'wingsearch'
   displayConsent = false
 
-  constructor(private cookies: CookiesService, registry: MatIconRegistry, sanitizer: DomSanitizer) {
+  constructor() {
+    const registry = inject(MatIconRegistry)
+    const sanitizer = inject(DomSanitizer)
+
     registry.addSvgIcon('externalLink', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/external-link.svg'))
   }
 

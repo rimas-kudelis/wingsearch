@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core'
+import { Component, OnInit, inject } from '@angular/core'
 import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 
@@ -9,11 +9,11 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog'
   styleUrls: ['./card-detail.component.scss']
 })
 export class CardDetailComponent implements OnInit {
+  data = inject<{
+    card: BirdCard | BonusCard;
+}>(MAT_DIALOG_DATA)
 
   layout: 'desktop' | 'mobile' | 'tablet'
-
-  constructor(@Inject(MAT_DIALOG_DATA) public data: { card: BirdCard | BonusCard }) {
-  }
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)

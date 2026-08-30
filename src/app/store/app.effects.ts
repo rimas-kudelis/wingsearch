@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http'
-import { Injectable } from '@angular/core'
+import { Injectable, inject } from '@angular/core'
 import { Actions, createEffect, ofType, ROOT_EFFECTS_INIT } from '@ngrx/effects'
 import { from, of } from 'rxjs'
 import { map, mergeMap } from 'rxjs/operators'
@@ -8,6 +8,10 @@ import { changeLanguage } from './app.actions'
 
 @Injectable()
 export class AppEffects {
+    private actions$ = inject(Actions)
+    private cookies = inject(CookiesService)
+    private http = inject(HttpClient)
+
     readonly I18N_FOLDER = 'assets/data/i18n/'
 
     loadLanguage$ = createEffect(() => this.actions$.pipe(
@@ -39,10 +43,4 @@ export class AppEffects {
                 return of({ type: '[App] English' })
         })
     ))
-
-    constructor(
-        private actions$: Actions,
-        private cookies: CookiesService,
-        private http: HttpClient
-    ) { }
 }

@@ -1,4 +1,4 @@
-import { Directive, ElementRef, Input, OnDestroy, OnInit, Renderer2 } from '@angular/core'
+import { Directive, ElementRef, Input, OnDestroy, OnInit, Renderer2, inject } from '@angular/core'
 import { AnalyticsService } from './analytics.service'
 
 @Directive({
@@ -6,6 +6,9 @@ import { AnalyticsService } from './analytics.service'
   selector: '[appAnalyticsEvent]'
 })
 export class AnalyticsEventDirective implements OnInit, OnDestroy {
+  private analytics = inject(AnalyticsService)
+  private renderer = inject(Renderer2)
+  private elementRef = inject(ElementRef)
 
   @Input('appAnalyticsEvent') eventName: string
   @Input() eventCategory = 'engagement'
@@ -13,8 +16,6 @@ export class AnalyticsEventDirective implements OnInit, OnDestroy {
   @Input() eventListening = 'click'
 
   private dispose: () => void
-
-  constructor(private analytics: AnalyticsService, private renderer: Renderer2, private elementRef: ElementRef) { }
 
   ngOnInit() {
     this.dispose = this.renderer.listen(this.elementRef.nativeElement, this.eventListening, () =>

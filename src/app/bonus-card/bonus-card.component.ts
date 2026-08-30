@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core'
+import { Component, Input, inject } from '@angular/core'
 import { BonusCard } from '../store/app.interfaces'
 import { MatDialog } from '@angular/material/dialog'
 import { Observable } from 'rxjs'
@@ -10,15 +10,13 @@ import { Observable } from 'rxjs'
   styleUrls: ['./bonus-card.component.scss']
 })
 export class BonusCardComponent {
+  dialog = inject(MatDialog)
 
   @Input()
   card: BonusCard
 
   @Input()
   cardHeight$: Observable<number>
-
-  constructor(public dialog: MatDialog) { }
-
 
   getPointConditions(): { value: string, point: boolean }[][] {
     return this.card.VP ? this.card.VP.split(';').reduce((acc, condition) => {

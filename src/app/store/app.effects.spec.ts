@@ -7,13 +7,13 @@ import { AppEffects } from './app.effects'
 import { CookiesService } from '../cookies.service'
 import { changeLanguage } from './app.actions'
 
-// `loadLanguage$` is a class *field* whose initializer reads `this.actions$`, a constructor
-// parameter property. Which of the two runs first is decided by `useDefineForClassFields`:
-// with native class fields the initializer runs before the constructor body, `this.actions$`
-// is still undefined, and constructing AppEffects throws `Cannot read properties of undefined
-// (reading 'pipe')` -- during bootstrap, which renders the entire app blank with one console
-// line. These specs construct the effect for real so that regression fails here instead of in
-// production. See the note on `useDefineForClassFields` in tsconfig.json.
+// `loadLanguage$` is a class *field* whose initializer reads `this.actions$`. Under native
+// class fields -- what an ES2022 target emits -- field initializers run in declaration order,
+// so `actions$` must be declared *above* `loadLanguage$` or it is still undefined when the
+// effect is built and AppEffects throws `Cannot read properties of undefined (reading 'pipe')`
+// while bootstrapping, which renders the entire app blank with one console line. The build and
+// every other spec stay green through that. These specs construct the effect for real, so
+// reordering the fields (or going back to constructor DI) fails here instead of in production.
 describe('AppEffects', () => {
   let actions$: ReplaySubject<unknown>
   let http: HttpTestingController

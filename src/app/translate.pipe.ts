@@ -1,4 +1,4 @@
-import { Pipe, PipeTransform } from '@angular/core'
+import { Pipe, PipeTransform, inject } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { AppState } from './store/app.interfaces'
 
@@ -7,6 +7,9 @@ import { AppState } from './store/app.interfaces'
   name: 'translate'
 })
 export class TranslatePipe implements PipeTransform {
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
 
   translatedContent: {
     [key: string]: string
@@ -16,7 +19,9 @@ export class TranslatePipe implements PipeTransform {
     return this.translatedContent[value] || value
   }
 
-  constructor(private store: Store<{ app: AppState }>) {
+  constructor() {
+    const store = this.store
+
     store.select(({ app }) => app.translatedContent)
       .subscribe(translatedContent => {
         this.translatedContent = Object.entries(translatedContent).reduce((acc, val) =>
