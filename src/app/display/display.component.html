@@ -4,21 +4,21 @@
   @for (card of cards$ | async; track card) {
     <mat-grid-tile>
       @if (isBirdCard(card)) {
-        <mat-card #cardElement appAnalyticsEvent="Bird detail" [eventLabel]="card['Common name']"
+        <mat-card appAnalyticsEvent="Bird detail" [eventLabel]="card['Common name']"
           class="fill-parent" routerLink="/card/{{card.id}}">
-          <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
+          <app-bird-card [card]="card"></app-bird-card>
         </mat-card>
       }
       @if (isHummingbirdCard(card)) {
-        <mat-card #cardElement appAnalyticsEvent="Hummingbird detail" [eventLabel]="card['Common name']"
+        <mat-card appAnalyticsEvent="Hummingbird detail" [eventLabel]="card['Common name']"
           class="fill-parent" routerLink="/card/{{card.id}}">
-          <app-hummingbird-card [card]="card" [cardHeight$]="cardHeight$"></app-hummingbird-card>
+          <app-hummingbird-card [card]="card"></app-hummingbird-card>
         </mat-card>
       }
       @if (isBonusCard(card)) {
-        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card.CardType"
+        <mat-card appAnalyticsEvent="Bonus detail" [eventLabel]="card.CardType"
           class="fill-parent" routerLink="/card/{{card.id}}">
-          <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
+          <app-bonus-card [card]="card"></app-bonus-card>
         </mat-card>
       }
     </mat-grid-tile>

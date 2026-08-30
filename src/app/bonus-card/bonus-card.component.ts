@@ -1,7 +1,6 @@
 import { Component, Input, inject } from '@angular/core'
 import { BonusCard } from '../store/app.interfaces'
 import { MatDialog } from '@angular/material/dialog'
-import { Observable } from 'rxjs'
 
 @Component({
   standalone: false,
@@ -14,9 +13,6 @@ export class BonusCardComponent {
 
   @Input()
   card: BonusCard
-
-  @Input()
-  cardHeight$: Observable<number>
 
   getPointConditions(): { value: string, point: boolean }[][] {
     return this.card.VP ? this.card.VP.split(';').reduce((acc, condition) => {
@@ -37,8 +33,10 @@ export class BonusCardComponent {
     return `url(assets/icons/png/expansion-indicators/${this.card.Set}.webp)`
   }
 
-  get descriptionFontSize(): number {
+  // The condition gets no fitting pass, so two buckets carry it. `cqh` is 1% of the card's height,
+  // which is what the old `cardHeight * 0.052` measured -- the same number, without the JS.
+  get descriptionFontSize(): string {
     const charCount = this.card.Condition.replace(/\[.*?\]/g, '1').length
-    return charCount <= 100 ? 0.052 : 0.045
+    return charCount <= 100 ? '5.2cqh' : '4.5cqh'
   }
 }

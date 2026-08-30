@@ -1,38 +1,32 @@
-@if (cardHeight$ | async; as cardHeight) {
-  <div class="content-wrapper" [style]="getBirdSilhouette() | async"
-    [ngStyle]="{'height.px': cardHeight}">
-    <div class="content">
-      <div class="upper-row">
-        <div class="green-square">
-          <picture>
-            <img src="assets/icons/png/{{getGroupIcon()}}.webp" alt="{{getGroupIcon()}} hummingbirds"
-              class="group" aria-hidden="true">
-          </picture>
-        </div>
-        <div class="title-border" [ngStyle]="{'border-width.px': cardHeight / 460}">
-          <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
-            <span [innerHTML]="displayName(card) | iconize"></span>
-          </div>
-          <div class="scientific"
-            [ngStyle]="{'font-size.px': cardHeight * 0.03, 'line-height.px': cardHeight * 0.035}">
-            {{card['Scientific name']}}
-          </div>
-        </div>
+<div class="content-wrapper" [style]="getBirdSilhouette() | async">
+  <div class="content">
+    <div class="upper-row">
+      <div class="green-square">
+        <picture>
+          <img src="assets/icons/png/{{getGroupIcon()}}.webp" alt="{{getGroupIcon()}} hummingbirds"
+            class="group" aria-hidden="true">
+        </picture>
       </div>
-      <div class="lower-column">
-        <div class="attract-icon">
-          <picture>
-            <img src="assets/icons/png/attract.webp" alt="attract hummingbirds"
-              class="attract" aria-hidden="true">
-          </picture>
+      <div class="title-border">
+        <div class="title">
+          <span [innerHTML]="displayName(card) | iconize"></span>
         </div>
-        <div class="benefit-square">
-          <picture>
-            <img src="assets/icons/png/{{getBenefitIcon()}}.webp" alt="{{this.card.Benefit}} benefit"
-              class="benefit" aria-hidden="true">
-          </picture>
-        </div>
+        <div class="scientific">{{card['Scientific name']}}</div>
+      </div>
+    </div>
+    <div class="lower-column">
+      <div class="attract-icon">
+        <picture>
+          <img src="assets/icons/png/attract.webp" alt="attract hummingbirds"
+            class="attract" aria-hidden="true">
+        </picture>
+      </div>
+      <div class="benefit-square">
+        <picture>
+          <img src="assets/icons/png/{{getBenefitIcon()}}.webp" alt="{{this.card.Benefit}} benefit"
+            class="benefit" aria-hidden="true">
+        </picture>
       </div>
     </div>
   </div>
-}
+</div>

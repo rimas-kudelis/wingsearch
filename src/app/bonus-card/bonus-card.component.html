@@ -1,30 +1,25 @@
-@if (cardHeight$ | async; as cardHeight) {
-  <div class="content-wrapper" [ngClass]="card.Set" [ngStyle]="{'height.px': cardHeight}"
-    [style.background-image]="expansionIndicator">
-    <div class="title" [innerHTML]="card['Bonus card'] | iconize"
-    [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.056"></div>
-    <div class="description" [innerHTML]="card['Condition'] | iconize"
-    [ngStyle]="{'font-size.px': cardHeight * descriptionFontSize, 'line-height.px': cardHeight * descriptionFontSize + 1}"></div>
-    <div class="points">
-      @for (condition of getPointConditions(); track condition; let i = $index; let c = $count) {
-        <div class="condition c{{c}}-{{i}}"
-          [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.05">
-          @for (part of condition; track part) {
-            <div class="part" [ngClass]="{point: part.point}"
-            [innerHTML]="part.value | iconize"></div>
-          }
-        </div>
-      }
-    </div>
-    @if (card['Explanatory text']) {
-      <div class="explanation" [innerHTML]="card['Explanatory text'] | iconize"
-      [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.042"></div>
-    }
-    @if (card['%'] !== '-') {
-      <div class="percentage"
-        [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.034">
-        ({{card['%'] + '% ' + ('of cards' | translate)}})
+<div class="content-wrapper" [ngClass]="card.Set" [style.background-image]="expansionIndicator">
+  <div class="title" [innerHTML]="card['Bonus card'] | iconize"
+    [appFitText]="card['Bonus card']" [minFontSize]="7"></div>
+  <div class="description" [innerHTML]="card['Condition'] | iconize"
+    [style.--description-font-size]="descriptionFontSize"></div>
+  <div class="points">
+    @for (condition of getPointConditions(); track condition; let i = $index; let c = $count) {
+      <div class="condition c{{c}}-{{i}}" [appFitText]="card.VP" [minFontSize]="7">
+        @for (part of condition; track part) {
+          <div class="part" [ngClass]="{point: part.point}"
+          [innerHTML]="part.value | iconize"></div>
+        }
       </div>
     }
   </div>
-}
+  @if (card['Explanatory text']) {
+    <div class="explanation" [innerHTML]="card['Explanatory text'] | iconize"
+      [appFitText]="card['Explanatory text']" [minFontSize]="7"></div>
+  }
+  @if (card['%'] !== '-') {
+    <div class="percentage" [appFitText]="card['%']" [minFontSize]="7">
+      ({{card['%'] + '% ' + ('of cards' | translate)}})
+    </div>
+  }
+</div>

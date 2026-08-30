@@ -22,9 +22,6 @@ export class BirdCardComponent implements OnInit {
   card: BirdCard
 
   @Input()
-  cardHeight$: Observable<number>
-
-  @Input()
   showBeakDirection = false
 
   assetPack$: Observable<string>
@@ -91,18 +88,21 @@ export class BirdCardComponent implements OnInit {
     return `<span class="intro">${text}: </span>`
   }
 
-  get powerFontSize(): number {
+  // The ceiling appFitText starts its search from, as a share of the card's height. Longer text
+  // starts smaller so there is less distance to shrink. These are the same fractions the template
+  // used to multiply `cardHeight` by; `cqh` is 1% of the card, so 0.039 became 3.9cqh.
+  get powerFontSize(): string {
     const charCount = this.card['Power text']?.replace(/\[.*?\]/g, '1').length || 0
     if (charCount <= 100) {
-      return 0.039
+      return '3.9cqh'
     }
     if (charCount > 100 && charCount <= 150) {
-      return 0.036
+      return '3.6cqh'
     }
     if (charCount > 150 && charCount <= 200) {
-      return 0.033
+      return '3.3cqh'
     }
-    return 0.031
+    return '3.1cqh'
   }
 
   getBirdSilhouette() {
@@ -142,12 +142,14 @@ export class BirdCardComponent implements OnInit {
     return packNames.includes(this.card.Set)
   }
 
-  get flavorFontSize(): number {
+  // Flavor text gets no fitting pass, so two buckets carry it: 85 characters is where the larger
+  // size starts to spill out of the footer.
+  get flavorFontSize(): string {
     const charCount = this.card['Flavor text'].length
     if (charCount < 85) {
-      return 0.025
+      return '2.5cqh'
     }
-    return 0.023
+    return '2.3cqh'
   }
 
   getSwiftStartIcon(): string {

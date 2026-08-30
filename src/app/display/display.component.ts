@@ -1,8 +1,8 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
+import { Component, OnInit, inject } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
 import { selectCard, State } from '../store/router'
-import { Observable, BehaviorSubject } from 'rxjs'
+import { Observable } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
 import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
@@ -17,7 +17,7 @@ import { ActivatedRoute, Router } from '@angular/router'
   templateUrl: './display.component.html',
   styleUrls: ['./display.component.scss']
 })
-export class DisplayComponent implements OnInit, AfterViewInit {
+export class DisplayComponent implements OnInit {
   private store = inject<Store<State>>(Store)
   dialog = inject(MatDialog)
   private analytics = inject(AnalyticsService)
@@ -36,10 +36,6 @@ export class DisplayComponent implements OnInit, AfterViewInit {
   private readonly BONUS_DIALOG_ID = '1'
   private readonly HUMMINGBIRD_DIALOG_ID = '2'
 
-  @ViewChild('cardElement', { read: ElementRef })
-  cardElement: ElementRef
-
-  cardHeight$ = new BehaviorSubject<number>(0)
   selectedCardType: 'bird' | 'hummingbird' | 'bonus' | null = null
 
   constructor() {
@@ -86,10 +82,6 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     })
   }
 
-  ngAfterViewInit(): void {
-    setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
-  }
-
   private calculateColumns(width): number {
     return Math.min(Math.floor(width / this.CARD_MINIMUM_WIDTH), this.MAX_DISPLAY_COLUMNS)
   }
@@ -108,7 +100,6 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   onResize(event) {
     this.columns = this.calculateColumns(event.target.innerWidth)
-    setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight))
   }
 
   openBirdDialog(card: BirdCard) {

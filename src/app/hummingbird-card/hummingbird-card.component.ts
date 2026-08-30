@@ -21,9 +21,6 @@ export class HummingbirdCardComponent implements OnInit {
   @Input()
   card: BirdCard
 
-  @Input()
-  cardHeight$: Observable<number>
-
   assetPack$: Observable<string>
 
   parameters$: { [key: string]: { Value: unknown }}

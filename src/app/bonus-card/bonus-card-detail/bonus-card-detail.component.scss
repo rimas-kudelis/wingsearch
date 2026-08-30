@@ -190,6 +190,11 @@ button {
     border-radius: 4px;
     background-color: #f5f6f1;
     transition: .2s;
+    // The carousel scrolls, so these keep the height the component gives them. Spelling that out
+    // matters now that the bonus card is a size container: a flex item's automatic minimum size
+    // comes from its contents, and a size container reports none, so without this the items would
+    // shrink to share the carousel's height instead of overflowing it.
+    flex-shrink: 0;
 }
 
 .bonus-card-wrapper:hover {

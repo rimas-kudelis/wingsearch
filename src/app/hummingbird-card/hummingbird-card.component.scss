@@ -1,3 +1,12 @@
+// The `cqw` units below predate this change; the typography that used to be `cardHeight * k` in
+// the template is now `k*100` in `cqh`, which needs `container-type: size` rather than
+// `inline-size`. Safe because this element's height never depends on its contents -- it comes from
+// `:host`, filling a parent the grid or the dialog has already sized. See bird-card.component.scss.
+:host {
+    display: block;
+    height: 100%;
+}
+
 .content-wrapper {
     width: 100%;
     height: 100%;
@@ -5,7 +14,7 @@
     background-position-y: -100%;
     background-position-x: 85%;
     background-repeat: no-repeat;
-    container-type: inline-size;
+    container-type: size;
 }
 
 .content {
@@ -44,6 +53,8 @@
     margin-bottom: auto;
     height: 100%;
     margin-left: 3%;
+    // Was `cardHeight / 460` in the template: a hairline that thickens with the card.
+    border-width: 0.217cqh;
     border-right-style: none;
     flex-grow: 1;
     text-align: center;
@@ -55,11 +66,15 @@
 
 .title {
     font-family: CardenioModernBold, SiliciStrong, sans-serif;
+    font-size: 4.2cqh;
+    line-height: 4.2cqh;
 }
 
-.scientific { 
+.scientific {
     font-family: ThirstyRoughLt, Arial, Helvetica;
     color: #666666;
+    font-size: 3cqh;
+    line-height: 3.5cqh;
 }
 
 .lower-column {
