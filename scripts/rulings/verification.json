@@ -1310,6 +1310,24 @@
       ],
       "flags": []
     },
+    "20200423@Acorn Woodpecker": {
+      "ruling_id": "20200423",
+      "card": "Acorn Woodpecker",
+      "question_restated": "For a 'gain 1 seed and you may cache it' power, is caching optional, and once decided can the choice be revisited?",
+      "answer_polarity": "yes",
+      "licensing_quote": "\"You may cache it\" means you have a choice. Either keep it in your supply or cache it on the bird. The choice cannot be changed later.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread named Blue Jay; rule transfers to Acorn Woodpecker with identical power text.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "c7a17975c932b4b2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "38179"
+      ]
+    },
     "20200423@Blue Jay": {
       "ruling_id": "20200423",
       "card": "Blue Jay",
@@ -1328,6 +1346,24 @@
       ],
       "flags": [
         "official answer was qualified; check the caveat survived into the ruling"
+      ]
+    },
+    "20200423@Steller's Jay": {
+      "ruling_id": "20200423",
+      "card": "Steller's Jay",
+      "question_restated": "For a 'gain 1 seed and you may cache it' power, is caching optional, and once decided can the choice be revisited?",
+      "answer_polarity": "yes",
+      "licensing_quote": "\"You may cache it\" means you have a choice. Either keep it in your supply or cache it on the bird. The choice cannot be changed later.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Same source comment; transfers to Steller's Jay, identical power text.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "c7a17975c932b4b2",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "38179"
       ]
     },
     "20200430@Red-Legged Partridge": {
@@ -1718,6 +1754,46 @@
       ],
       "flags": []
     },
+    "20201010b@Black-Bellied Whistling-Duck": {
+      "ruling_id": "20201010b",
+      "card": "Black-Bellied Whistling-Duck",
+      "question_restated": "May a [seed] cached on Eurasian Nuthatch be discarded to pay a \"Discard 1 [seed] to tuck 2 [card]\" cost?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes you can. :)",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread names Sandhill Crane only; this card has the identical power text, so the rule transfers cleanly. Transfer, not a new claim.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Yes you can. :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "3da90e0099920223",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "41912"
+      ]
+    },
+    "20201010b@Canada Goose": {
+      "ruling_id": "20201010b",
+      "card": "Canada Goose",
+      "question_restated": "May a [seed] cached on Eurasian Nuthatch be discarded to pay a \"Discard 1 [seed] to tuck 2 [card]\" cost?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes you can. :)",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Same transfer as the Whistling-Duck row: identical power text to the Sandhill Crane the thread asked about.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Yes you can. :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "3da90e0099920223",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "41912"
+      ]
+    },
     "20201010b@Eurasian Nuthatch": {
       "ruling_id": "20201010b",
       "card": "Eurasian Nuthatch",
@@ -1741,18 +1817,18 @@
     "20201010b@Sandhill Crane": {
       "ruling_id": "20201010b",
       "card": "Sandhill Crane",
-      "question_restated": "May the [seed] cached on Eurasian Nuthatch (which says it may be spent at any time) be used to pay Sandhill Crane's discard-1-[seed] cost, rather than a [seed] from your supply?",
+      "question_restated": "May a [seed] cached on Eurasian Nuthatch be spent to pay Sandhill Crane's \"Discard 1 [seed]\" cost, given the Nuthatch's \"at any time\" wording?",
       "answer_polarity": "yes",
       "licensing_quote": "Yes you can. :)",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Terse yes; question direction confirms. No contradiction with 20211123, which is about nectar substitution, not the source of the seed.",
+      "note": "Terse source, but the question is explicit and directional: the asker names the normal cached-food restriction and the Nuthatch's \"at any time\" override, and asks about exactly this card's cost. The ruling matches. No conflict with 20211123, which is about nectar substitution, not the source of the [seed].",
       "contradicts": [],
       "problems": [],
       "flags": [
         "terse source: the licensing quote is 15 chars ('Yes you can. :)'), so the ruling's direction rests on the question"
       ],
-      "signature": "3e3d438924eda165",
+      "signature": "3da90e0099920223",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "41912"
@@ -1955,6 +2031,24 @@
         "42821"
       ],
       "flags": []
+    },
+    "20201203@Lesser Whitethroat": {
+      "ruling_id": "20201203",
+      "card": "Lesser Whitethroat",
+      "question_restated": "When activating a teal 'lay 1 egg on each bird in that habitat' power, may I lay eggs on only some of the birds rather than all of them?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes, you can take less of a benefit for yourself.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Thread named Black Redstart; the rule transfers to Lesser Whitethroat, which has the identical 'lay 1 egg on each bird in a habitat with no eggs' power. Direction (yes, partial is allowed) matches.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "8f7f734d22c9add1",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "42821"
+      ]
     },
     "20201203a@Black-Billed Magpie": {
       "ruling_id": "20201203a",
@@ -2272,6 +2366,24 @@
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "43812"
+      ]
+    },
+    "20210124@Common Chaffinch": {
+      "ruling_id": "20210124",
+      "card": "Common Chaffinch",
+      "question_restated": "Can I tuck all my cards with the Common Chiffchaff-style power so that Forster's Tern has no card to discard?",
+      "answer_polarity": "yes",
+      "licensing_quote": "you can avoid discarding by having no cards in your hand",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "The asker and Joe both named 'Common Chiffchaff'; the ruling is published on Common Chaffinch. Common Chaffinch is the card with the 'Choose 1-5 birds in this habitat. Tuck 1 card from your hand behind each' power, so this is almost certainly the intended card (asker's misnaming), and the rule holds. Flagging the name mismatch for a reviewer.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "bcd8480d09d04f03",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "43827"
       ]
     },
     "20210124@Common Chiffchaff": {

@@ -24,7 +24,7 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**59 rows are general** (col 2 blank) and **526 are named**. The 59 general rulings are
+**59 rows are general** (col 2 blank) and **532 are named**. The 59 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
 *position* `0`–`58`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
@@ -214,10 +214,37 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
   and only their identical-power sibling was missing them: Red Knot, Crested Ibis (two),
   White-Backed Woodpecker and Common Nightingale.
 
-  What `--transferable` still lists after this pass is 9 groups / 17 cards, and every one is
-  a deliberate no-op: the sibling now carries the same rule as a *general* ruling in different
-  words, which the tool cannot see because it compares named rows only. Before acting on that
-  list again, check the card's `additionalRulings` first.
+  What `--transferable` listed after that pass was 9 groups / 17 cards, and almost every one
+  was a deliberate no-op: the sibling already carried the same rule as a *general* ruling in
+  different words, which the tool could not see because it compared named rows only. **That
+  blind spot is fixed** — `load_cards()` now keeps each card's `additionalRulings` texts and
+  `general_overlap()` annotates every candidate with the general rulings its lacking cards
+  already carry, ending with an explicit "open gaps" list. 15 of the 17 cards were covered;
+  the tool now says so instead of leaving the reader to check 17 cards by hand.
+
+  The fix annotates rather than suppresses, deliberately. The overlap test is word-level and
+  can be wrong in both directions, and `about_the_power()` is already biased towards showing
+  too much for the stated reason that a false positive costs one wasted read while a false
+  negative is a rule a player never sees. Hiding a candidate on a word-overlap score would
+  trade that bias for the opposite one.
+
+  The 5 remaining open gaps became **6 named rows on 2026-08-30**, and what makes each of them
+  a gap is worth reading, because it is the shape to look for next time: the *general* rulings
+  the lacking card carries answer a neighbouring question, not this one. All four generals on
+  the "Discard 1 `[seed]` to tuck 2 `[card]`" birds say the discard is a cost that may not be
+  substituted or skipped; none says the `[seed]` may be paid from **Eurasian Nuthatch**'s cache
+  (`20201010b` → Black-Bellied Whistling-Duck, Canada Goose). `20260503` tells every "you may
+  cache" bird that the *may* is a genuine choice but not that the choice is made once
+  (`20200423` → Acorn Woodpecker, Steller's Jay). "Whenever you are entitled to gain resources,
+  you may choose to take some but not all" is true of laying `[egg]` but a player counting eggs
+  will not read it that way (`20201203` → Lesser Whitethroat). And the end-of-turn general is
+  written for the bird that owes the discard, so the bird that *empties the hand* is not
+  covered by it (`20210124` → Common Chaffinch).
+
+  Two of those were reworded for the receiving card rather than copied, because the source row
+  named its own card — a row that tells the reader of one card about a different card is the
+  defect §9 splits out of `20201104`. Per-card wording under one ruling id is already how
+  `20231204` sits on Wood Duck and Common Chiffchaff.
 - **4 were broken by a casing typo — fixed 2026-08-30.** They tested
   `row['Color'] == 'Pink'`, but Color is stored lowercase (`brown` 409, `white` 138,
   `teal` 63, `pink` 51, `yellow` 40) and the notebook applies no normalisation to
@@ -775,8 +802,8 @@ weaker gate, which would cost the next inversion.
 **When judging a queued item, read `graph.py --related <ruling_id>` first.** Judging a ruling
 alone is what let `20260617` through; the same rule stated six other times is what exposes it.
 
-Where the queue stands: **the source-verifiable queue is empty.** 396 of 585 rows are
-verifiable against a held comment, all 396 are judged, 395 are `faithful` and the one
+Where the queue stands: **the source-verifiable queue is empty.** 402 of 591 rows are
+verifiable against a held comment, all 402 are judged, 401 are `faithful` and the one
 `overstated` (Red-Winged Parrot) is approved with reasons. Nothing is pending. The other 189
 rows cannot be checked this way at all: 130 cite no Stonemaier comment (Facebook, BGG,
 rulebooks) and 59 are general rulings, which have no per-card source to check against and are

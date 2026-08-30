@@ -119,6 +119,9 @@ def load_cards():
                 'color': c.get('Color'), 'power': c.get('Power text') or '',
                 'habitats': [h for h in ('Forest', 'Grassland', 'Wetland') if c.get(h)],
                 'general_rulings': len(c.get('additionalRulings') or []),
+                # The texts, not just the count: --transferable needs them to say whether a
+                # sibling's ruling would tell this card anything it is not already told.
+                'general_texts': [r['text'] for r in (c.get('additionalRulings') or [])],
             }
     for c in json.load(open(os.path.join(DATA_DIR, 'bonus.json'), encoding='utf-8')):
         out[c['Bonus card']] = {
@@ -359,6 +362,25 @@ def about_the_power(ruling, power):
     return len(shared) >= 2
 
 
+def general_overlap(ruling, card, threshold=4):
+    """The card's general rulings that already cover this ruling's ground, best first.
+
+    This comparison is what the first version of --transferable was missing: it read named
+    rulings against named rulings, so a card was reported as lacking a sibling's ruling even
+    when a general ruling from general_map.py already told it the same thing. Of the first 17
+    cards it reported, 15 were that -- the five draw-then-discard birds already carry "You may
+    perform an action even if it precludes you from performing an action required at the end of
+    your turn", which is the whole of what the sibling's row says.
+
+    Annotate rather than suppress, because the overlap is word-level and so can be wrong in
+    both directions, and because about_the_power() is deliberately biased towards showing too
+    much: the reviewer keeps the candidate and is told what the card already says.
+    """
+    want = _distinctive(ruling['text'])
+    hits = [(len(want & _distinctive(t)), t) for t in card['general_texts']]
+    return [t for n, t in sorted(hits, key=lambda h: -h[0]) if n >= threshold]
+
+
 def show_transferable(g):
     """Cards whose rulings exist, researched and answered, on an identical-power sibling."""
     gaps = []
@@ -381,15 +403,37 @@ def show_transferable(g):
     print('Several of these are general rules stated on one card by accident of which')
     print('thread they came from. Prefer a general ruling in general_map.py over copying a')
     print('row onto every sibling: same result for players, one place to correct.\n')
+    print('A ruling whose lacking cards are already told the same thing by a general ruling')
+    print('is annotated "already covered". Read the general text before writing a new row:')
+    print('most of these are not gaps, and the ones that are are listed at the end.\n')
+    open_gaps = []
     for grp, movable in gaps:
         print(_wrap(f'power: {grp["power"]}', 2))
         for n, k in movable:
             r = g['rulings'][k]
             print(f'    [{r["ruling_id"]}] on {n} ({r["author"] or r["source_kind"]})')
             print(_wrap(r['text'], 8))
+            covered = {u: general_overlap(r, g['cards'][u]) for u in grp['unruled']}
+            missing = sorted(u for u, hits in covered.items() if not hits)
+            if len(missing) < len(covered):
+                print(f'      already covered for {len(covered) - len(missing)} of '
+                      f'{len(covered)} by a general ruling:')
+                for text in dict.fromkeys(h[0] for h in covered.values() if h):
+                    print(_wrap('GEN: ' + text, 12))
+            if missing:
+                print(f'      not covered: {", ".join(missing)}')
+                open_gaps.append((r['ruling_id'], missing))
         print(f'    lacks ({len(grp["unruled"])}): {", ".join(grp["unruled"])}')
         sets = collections.Counter(g['cards'][n]['set'] for n in grp['unruled'])
         print(f'    sets: {dict(sets)}\n')
+
+    if open_gaps:
+        print('Open gaps -- a sibling\'s ruling about the power with no general ruling on the')
+        print('lacking card saying the same thing. These are the rows worth adding:\n')
+        for rid, missing in open_gaps:
+            print(f'  [{rid}] -> {", ".join(missing)}')
+    else:
+        print('No open gaps: every candidate above is already covered by a general ruling.')
 
 
 def show_related(g, ruling_id):

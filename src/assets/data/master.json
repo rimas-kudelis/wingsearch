@@ -238,7 +238,10 @@
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Once you have chosen whether to cache the [seed] gained with this power or keep it in your personal supply, the choice cannot be changed later.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-17\/#comment-38179"
+      }
     ],
     "additionalRulings":[
       {
@@ -6424,7 +6427,10 @@
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Cached food normally cannot be spent, but <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong>'s <i>\"at any time\"<\/i> overrides that: a [seed] cached on it may be discarded to pay this power's cost.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-24\/#comment-41912"
+      }
     ],
     "additionalRulings":[
       {
@@ -11672,7 +11678,10 @@
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Cached food normally cannot be spent, but <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong>'s <i>\"at any time\"<\/i> overrides that: a [seed] cached on it may be discarded to pay this power's cost.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-24\/#comment-41912"
+      }
     ],
     "additionalRulings":[
       {
@@ -14032,7 +14041,10 @@
     "Note":"This power can be used to tuck cards behind birds that do not usually tuck cards.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Tucking all your cards with <strong applink=\"\/card\/79\">Common Chaffinch<\/strong> can leave your hand empty, in which case an end-of-turn discard such as <strong applink=\"\/card\/126\">Forster's Tern<\/strong>'s discards nothing.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-31\/#comment-43827"
+      }
     ],
     "additionalRulings":[
       {
@@ -33538,7 +33550,10 @@
     "Note":null,
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"You may take less of the benefit: lay [egg] on only some of the birds in the chosen habitat rather than all of them.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-25\/#comment-42821"
+      }
     ],
     "additionalRulings":[
       {
@@ -49582,7 +49597,7 @@
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-39\/#comment-48918"
       },
       {
-        "text":"The [seed] discarded for this power may come from <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong>, whose cached [seed] may be spent at any time; it need not come from your supply.",
+        "text":"Cached food normally cannot be spent, but <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong>'s <i>\"at any time\"<\/i> overrides that: a [seed] cached on it may be discarded to pay this power's cost.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-24\/#comment-41912"
       }
     ],
@@ -54430,7 +54445,10 @@
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"Once you have chosen whether to cache the [seed] gained with this power or keep it in your personal supply, the choice cannot be changed later.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-17\/#comment-38179"
+      }
     ],
     "additionalRulings":[
       {

@@ -36,7 +36,12 @@
     "the official answer carried a caveat. So the reason for each says which comment licenses",
     "which clause, and -- for a transfer -- why the unnamed card is covered. Four items were",
     "not approved as they stood: two omnibus rows were split (20201104, 20260208), one hedge",
-    "was restored (20260128) and one addition was rewritten as a consequence (20190311)."
+    "was restored (20260128) and one addition was rewritten as a consequence (20190311).",
+    "",
+    "The 3 approvals for the batch-7 transfers are medium for the reason every transfer is:",
+    "the thread named the sibling card. Each reason says which power makes the two cards",
+    "interchangeable, and -- for 20201010b, whose source is 15 characters long -- which",
+    "question fixes the direction of the yes."
   ],
   "reviews": {
     "20190311@American Oystercatcher": {
@@ -266,6 +271,50 @@
         "direction."
       ]
     },
+    "20201010b@Black-Bellied Whistling-Duck": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "3da90e0099920223",
+      "reason": [
+        "Sam's question is specific to Sandhill Crane but the rule is about where the [seed] may come",
+        "from, not about which bird spends it: \"I know you normally can't spend cached food, and must",
+        "use from your supply, but the nuthatch has the line 'at any time'. Can you use the seed",
+        "cached on the nuthatch to tuck 2 cards on the sandhill crane??\" Joe's \"Yes you can. :)\" is",
+        "terse, and the flag is right that the direction rests on the question -- but that question",
+        "admits one yes.",
+        "",
+        "Black-Bellied Whistling-Duck's power is Sandhill Crane's word for word, and the row's text",
+        "names no card, so nothing card-specific travels with it. The rows on Sandhill Crane and",
+        "Eurasian Nuthatch are already approved. Added in this pass as the one genuine gap `graph.py",
+        "--transferable` reports once it can see general rulings: the four generals these two cards",
+        "carry all say the discard is a cost that may not be substituted or skipped, and none of them",
+        "says the [seed] may be paid from a cache.",
+        "",
+        "Reworded 2026-08-31, which lapsed the earlier approval and is re-approved here on the same",
+        "evidence. The old text (\"it need not come from your supply\") read as a flat contradiction of",
+        "the Note printed on all three cards -- \"You must have the food in your personal supply; you",
+        "cannot take it from a bird card\" -- with nothing to say why the exception exists. The text",
+        "now states the default first and names the power that overrides it, which is also how the",
+        "row on Eurasian Nuthatch reads it from the other side."
+      ]
+    },
+    "20201010b@Canada Goose": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "3da90e0099920223",
+      "reason": [
+        "Same evidence as 20201010b@Black-Bellied Whistling-Duck, on the other card with that power.",
+        "",
+        "Reworded 2026-08-31, which lapsed the earlier approval and is re-approved here on the same",
+        "evidence. The old text (\"it need not come from your supply\") read as a flat contradiction of",
+        "the Note printed on all three cards -- \"You must have the food in your personal supply; you",
+        "cannot take it from a bird card\" -- with nothing to say why the exception exists. The text",
+        "now states the default first and names the power that overrides it, which is also how the",
+        "row on Eurasian Nuthatch reads it from the other side."
+      ]
+    },
     "20201010b@Eurasian Nuthatch": {
       "verdict": "approved",
       "date": "2026-08-30",
@@ -284,14 +333,21 @@
       "verdict": "approved",
       "date": "2026-08-30",
       "by": "claude",
-      "signature": "3e3d438924eda165",
+      "signature": "3da90e0099920223",
       "reason": [
         "Sam asked: “Technical question. For the Sandhill Crane, you must discard a [seed] to tuck",
         "two cards from the deck. The Eurasian nuthatch says “At any time, you may spend [seeds]",
         "cached on this card.” I know you normally can’t spend cached food, and must use from your",
         "supply, but the nuthatch has the line \"at any time\" Can you use the seed cached on the",
         "nuthatch to tuck 2 cards on the sandhill crane??”  Joe Aubrey answered: “Yes you can. :)”",
-        "The ruling answers that question in that direction."
+        "The ruling answers that question in that direction.",
+        "",
+        "Reworded 2026-08-31, which lapsed the earlier approval and is re-approved here on the same",
+        "evidence. The old text (\"it need not come from your supply\") read as a flat contradiction of",
+        "the Note printed on all three cards -- \"You must have the food in your personal supply; you",
+        "cannot take it from a bird card\" -- with nothing to say why the exception exists. The text",
+        "now states the default first and names the power that overrides it, which is also how the",
+        "row on Eurasian Nuthatch reads it from the other side."
       ]
     },
     "20201104b@Common Blackbird": {
@@ -406,6 +462,25 @@
         "",
         "The question offers both readings explicitly -- 'Does it just not count or get counted",
         "as a wild?' -- so 'It doesn't count' picks one and the ruling states that one."
+      ]
+    },
+    "20210124@Common Chaffinch": {
+      "verdict": "approved",
+      "date": "2026-08-31",
+      "by": "claude",
+      "signature": "bcd8480d09d04f03",
+      "reason": [
+        "The name mismatch the verifier flags is deliberate rather than an asker's slip. Comment",
+        "43827 is about Common Chiffchaff; this row is that ruling reworded for Common Chaffinch,",
+        "whose power (\"Choose 1-5 birds in this habitat. Tuck 1 [card] from your hand behind each\")",
+        "is identical. Joe licenses both halves in one sentence: \"the Forster's Tern says to discard",
+        "from your hand, and since you could have no cards in your hand, especially after activating",
+        "the Common Chiffchaff, you can avoid discarding by having no cards in your hand.\"",
+        "",
+        "Reworded rather than copied because the source row names Chiffchaff, and a row that tells",
+        "the reader of one card about a different card is the defect batch 6 split out of 20201104.",
+        "Chiffchaff's second row on this point (20231204, the Wood Duck case) is deliberately not",
+        "transferred: for the bird that empties the hand, both rows say the same thing."
       ]
     },
     "20210127@Bluethroat": {
