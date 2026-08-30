@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Curate the rulings list a single card shows: reorder, merge, rewrite.
 
-`propose_rulings.py` judges one FAQ thread at a time, so it cannot see what a card's
+`propose.py` judges one FAQ thread at a time, so it cannot see what a card's
 page ends up looking like. The result is visible on `Green Heron`, which accumulated
 seven rulings where four of them restate "trading counts as spending" and the one that
 overturns a previously published answer sits last.
@@ -12,16 +12,16 @@ first, each entry short enough to scan mid-game. Only three operations are allow
 reorder, merge, rewrite -- so no ruling can be silently dropped and none can be
 invented.
 
-Output is `rulings-curation.json`, a reviewable plan per card. `--apply` rewrites
-`Wingspan - Rulings.tsv` in place from the plans; the git diff is the review surface.
+Output is `curation.json`, a reviewable plan per card. `--apply` rewrites
+`rulings.tsv` in place from the plans; the git diff is the review surface.
 
     export AWS_PROFILE=...
-    python3 curate_rulings.py --dry-run
-    python3 curate_rulings.py --cards 'Green Heron'      # try one first, and read it
-    python3 curate_rulings.py --apply --diff             # show what would change
-    python3 curate_rulings.py --apply
+    python3 curate.py --dry-run
+    python3 curate.py --cards 'Green Heron'      # try one first, and read it
+    python3 curate.py --apply --diff             # show what would change
+    python3 curate.py --apply
 
-Ordering intent and the reader model come from rulings-domain-knowledge.md section 7.
+Ordering intent and the reader model come from domain-knowledge.md section 7.
 """
 
 import argparse
@@ -39,13 +39,13 @@ import boto3
 import botocore.exceptions
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import rulings_corpus as rc  # noqa: E402
+import corpus as rc  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT_PATH = os.path.join(HERE, 'rulings-curation.json')
-KNOWLEDGE_PATH = os.path.join(HERE, 'rulings-domain-knowledge.md')
-ICON_DIR = os.path.join(HERE, '..', 'src', 'assets', 'icons', 'png')
-MASTER_PATH = os.path.join(HERE, '..', 'src', 'assets', 'data', 'master.json')
+OUT_PATH = os.path.join(HERE, 'curation.json')
+KNOWLEDGE_PATH = os.path.join(HERE, 'domain-knowledge.md')
+ICON_DIR = os.path.join(HERE, '..', '..', 'src', 'assets', 'icons', 'png')
+MASTER_PATH = os.path.join(HERE, '..', '..', 'src', 'assets', 'data', 'master.json')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
 REGION = os.environ.get('AWS_REGION') or 'us-east-1'
@@ -53,7 +53,7 @@ BATCH = 3                      # cards per call; a card's whole list has to fit 
 WORKERS = 4
 PRICE_IN, PRICE_OUT = 0.005, 0.025
 
-# See propose_rulings.py: log() takes this lock, and the merge block below logs while
+# See propose.py: log() takes this lock, and the merge block below logs while
 # holding it, so a plain Lock deadlocks the pool on the first completed call.
 _lock = threading.RLock()
 
@@ -523,7 +523,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--cards', help='comma-separated card names to curate')
     ap.add_argument('--cards-file', help='file of card names, one per line; "-" for stdin. '
-                                         'Used by refresh_rulings.sh to curate only the '
+                                         'Used by refresh.sh to curate only the '
                                          'cards that just gained a ruling.')
     ap.add_argument('--min', type=int, default=2,
                     help='minimum rulings on a card to be worth curating (default 2)')
@@ -657,7 +657,7 @@ def main():
             log(f'  ~ {p["card"]}: {w}')
     log(f'  tokens in {usage["inputTokens"]} out {usage["outputTokens"]}  ~${cost:.2f}')
     log(f'\nreview {os.path.relpath(OUT_PATH)}, then: '
-        f'python3 curate_rulings.py --apply --diff')
+        f'python3 curate.py --apply --diff')
 
 
 if __name__ == '__main__':

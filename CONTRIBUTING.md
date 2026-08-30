@@ -14,8 +14,14 @@ Hi there! I am thrilled that you'd like to contribute to this project. Your help
 
 The project is built using Angular 9 and NgRx 10. Check the official guides if you need help.
 
-To edit the data ([i18n](./i18n) or [Wingspan card list](./scripts/wingspan-card-list.xlsx)), python with Jupyter notebook is required to transform it to the json files.
-New files in [generated](./scripts/generated/) folder have to be formatted and moved to the [assets](./src/assets/data/) folder.
+To edit the data ([i18n](./i18n) or the [Wingspan card list](./scripts/transform/wingspan-card-list.xlsx)), python is required to transform it to the json files. Install the dependencies with `python3 -m pip install -r scripts/requirements.txt`, then run the notebook for the data you changed:
+
+```bash
+scripts/transform/run.py json-transformer   # card list
+scripts/transform/run.py language-to-json   # i18n
+```
+
+They write straight into [src/assets/data](./src/assets/data/) — commit that JSON alongside the spreadsheet change. Open the notebooks in Jupyter instead if you would rather step through them. See [scripts/README.md](./scripts/README.md) for what else lives there.
 
 ## Submit a pull request
 1. Make your change, add tests, and make sure the tests still pass.

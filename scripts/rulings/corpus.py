@@ -1,6 +1,6 @@
 """Shared reading of the rulings corpus and the Stonemaier comment threads.
 
-Used by propose_rulings.py; kept separate so the thread/trust logic can be
+Used by propose.py; kept separate so the thread/trust logic can be
 inspected and tested without touching anything that costs money.
 """
 
@@ -12,13 +12,13 @@ import unicodedata
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TSV_PATH = os.path.join(HERE, 'Wingspan - Rulings.tsv')
+TSV_PATH = os.path.join(HERE, 'rulings.tsv')
 COMMENTS_PATH = os.path.join(HERE, 'stonemaier-comments.json')
-DATA_DIR = os.path.join(HERE, '..', 'src', 'assets', 'data')
+DATA_DIR = os.path.join(HERE, '..', '..', 'src', 'assets', 'data')
 
 # Authors whose answers may become rulings. Derived by measurement, not vibes:
 # ranked every author by how often they reply to someone *else*, then read their
-# comments. See rulings-domain-knowledge.md §2 for the evidence per name.
+# comments. See domain-knowledge.md §2 for the evidence per name.
 #
 #   Jamey Stegmaier / jameystegmaier  publisher; 1491 answers, two accounts
 #   Joe Aubrey                        Stonemaier staff (confirmed by Matej), so his

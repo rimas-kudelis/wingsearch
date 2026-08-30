@@ -103,29 +103,60 @@ Default art is `silhouette` (`assets/cards/birds/<id>.webp`). Alternative packs 
 
 ## Data pipeline
 
-Source spreadsheets in [scripts/](scripts/), transformed by Jupyter notebooks that **write straight into `src/assets/data/`** (there is no `scripts/generated/` step, despite what CONTRIBUTING.md says):
+`scripts/` is maintainer tooling in three groups — `transform/` (spreadsheets → JSON), `rulings/` (the official-rulings pipeline), `images/` (card art) — with Python deps in `scripts/requirements.txt` and an orientation map in [scripts/README.md](scripts/README.md). **None of it runs during a build or in CI**; the committed JSON under `src/assets/data/` is the only contract between `scripts/` and the app.
 
-- [scripts/json-transformer.ipynb](scripts/json-transformer.ipynb) reads `wingspan-card-list.xlsx` (sheets `Birds`, `Hummingbirds`, `Goals`), `wingspan-note-list.xlsx` (sheets `Bonus`, `Birds` for native names/notes, `Parameters`), and `Wingspan - Rulings.tsv`; assigns ids; converts LaTeX-ish ruling markup (`\textbf{}`, `\textit{}`, quotes) into HTML with `applink` attributes; attaches per-card `rulings` and `additionalRulings` (see "General rulings" below); and emits `master.json`, `hummingbirds.json`, `bonus.json`, `general.json`, `goals.json`, `parameters.json`.
-- [scripts/language-to-json.ipynb](scripts/language-to-json.ipynb) converts every `i18n/*.xlsx` (except `template.xlsx`) into `src/assets/data/i18n/<lang>.json`.
+Source spreadsheets in [scripts/transform/](scripts/transform/), transformed by Jupyter notebooks that **write straight into `src/assets/data/`** (there is no `scripts/generated/` step, whatever old docs say):
 
-`json-transformer.ipynb` is verified to regenerate all six JSON files **byte-identically** from the committed spreadsheets under pandas 3.0.1 (checked 2026-08-30). If you change it, re-verify that way before committing regenerated data: run the code cells with `data_dir` redirected to a temp directory and `cmp` against `src/assets/data/`. Beware chained assignment — pandas 3 copy-on-write makes `df['col'].loc[mask] = x` a silent no-op, which previously would have blanked `Nest type` on the 8 brood parasites. Use `df.loc[mask, 'col'] = x`.
+- [scripts/transform/json-transformer.ipynb](scripts/transform/json-transformer.ipynb) reads `wingspan-card-list.xlsx` (sheets `Birds`, `Hummingbirds`, `Goals`), `wingspan-note-list.xlsx` (sheets `Bonus`, `Birds` for native names/notes, `Parameters`), and `rulings/rulings.tsv`; assigns ids; converts LaTeX-ish ruling markup (`\textbf{}`, `\textit{}`, quotes) into HTML with `applink` attributes; attaches per-card `rulings` and `additionalRulings` (see "General rulings" below); and emits `master.json`, `hummingbirds.json`, `bonus.json`, `general.json`, `goals.json`, `parameters.json`.
+- [scripts/transform/language-to-json.ipynb](scripts/transform/language-to-json.ipynb) converts every `i18n/*.xlsx` (except `template.xlsx`) into `src/assets/data/i18n/<lang>.json`.
 
-Note `scripts/wingspan-bonuscard-list.xlsx` is *not* read by the notebook — bonus card data comes from `wingspan-note-list.xlsx`. Only `master.json`, `hummingbirds.json`, `bonus.json`, `extra-assets.json`, and `parameters.json` are consumed by the app; `general.json` and `goals.json` are generated but currently unused at runtime.
+Run either without Jupyter via `scripts/transform/run.py <notebook-name>`, which execs its code cells in order — that is how `rulings/refresh.sh` regenerates the data. Both notebooks resolve every path from the repo root, so they behave identically from Jupyter, from `run.py`, and from any cwd inside the checkout; don't reintroduce cwd-relative paths.
+
+`json-transformer.ipynb` is verified to regenerate all six JSON files **byte-identically** from the committed spreadsheets under pandas 3.0.1 (re-checked 2026-08-30 after the `scripts/` reorg). If you change it, re-verify that way before committing regenerated data: `git show HEAD:src/assets/data/<f>.json` into a temp dir, run the notebook, `cmp` each file. Beware chained assignment — pandas 3 copy-on-write makes `df['col'].loc[mask] = x` a silent no-op, which previously would have blanked `Nest type` on the 8 brood parasites. Use `df.loc[mask, 'col'] = x`.
+
+Note `scripts/transform/wingspan-bonuscard-list.xlsx` is *not* read by the notebook — bonus card data comes from `wingspan-note-list.xlsx`. Only `master.json`, `hummingbirds.json`, `bonus.json`, `extra-assets.json`, and `parameters.json` are consumed by the app; `general.json` and `goals.json` are generated but currently unused at runtime.
 
 ### General rulings (`additionalRulings`)
 
-A ruling row in `Wingspan - Rulings.tsv` with no card name is *general* and fans out to many birds. That fan-out is two gates, not one:
+A ruling row in `scripts/rulings/rulings.tsv` with no card name is *general* and fans out to many birds. That fan-out is two gates, not one:
 
-1. **Candidates** — a regex per ruling id in [scripts/general_rulings_map.py](scripts/general_rulings_map.py). Deliberately broad; a false positive is recoverable here, a false negative is not.
-2. **Decision** — [scripts/rulings-applicability.json](scripts/rulings-applicability.json), per-card verdicts with reasons, generated by `scripts/audit_rulings.py` (Claude on Bedrock, run by hand, ~$3.50 for a full pass) and corrected by hand in `rulings-applicability-overrides.json`, which the generator never overwrites.
+1. **Candidates** — a regex per ruling id in [scripts/rulings/general_map.py](scripts/rulings/general_map.py). Deliberately broad; a false positive is recoverable here, a false negative is not.
+2. **Decision** — [scripts/rulings/applicability.json](scripts/rulings/applicability.json), per-card verdicts with reasons, generated by `scripts/rulings/audit.py` (Claude on Bedrock, run by hand, ~$3.50 for a full pass) and corrected by hand in `applicability-overrides.json`, which the generator never overwrites.
 
 `rulings` — the name the notebook imports — is both gates combined, so the notebook needs no changes. **Only a high-confidence `does_not_apply` removes a ruling**; anything the model was unsure of stays attached and is queued under `uncertain`, so hedging cannot silently delete content. Delete the JSON and behaviour reverts to regex-only.
 
-Never put the audit in the build path — the committed JSON is what the build reads, which keeps CI hermetic, deterministic and free. `src/app/store/rulings.spec.ts` pins per-ruling attachment counts, so regenerating `master.json` or editing a predicate fails CI instead of quietly changing what players read; update the counts in the same commit and say why.
+Never put the audit — or any other model-calling stage — in the build path. The committed JSON is what the build reads, which keeps CI hermetic, deterministic and free. `src/app/store/rulings.spec.ts` pins per-ruling attachment counts, so regenerating `master.json` or editing a predicate fails CI instead of quietly changing what players read; update the counts in the same commit and say why.
 
-[scripts/rulings-domain-knowledge.md](scripts/rulings-domain-knowledge.md) is the substantive background — how rulings reach a card, which sources are trustworthy, known failure modes, and the rules for judging applicability. It is fed to the model as prompt context, so **an error in it is a prompt bug that produces wrong rulings**, not just stale docs. Read it before touching any of this.
+[scripts/rulings/domain-knowledge.md](scripts/rulings/domain-knowledge.md) is the substantive background — how rulings reach a card, which sources are trustworthy, known failure modes, and the rules for judging applicability. It is fed to the model as prompt context, so **an error in it is a prompt bug that produces wrong rulings**, not just stale docs. Read it before touching any of this.
 
-Image tooling (requires ImageMagick / cwebp / OpenCV, operates on the gitignored `new_assets/`): `scripts/psd-to-png.sh`, `scripts/organize-birds.py` (fuzzy-matches filenames to card names and renames to `<id>.png`), `scripts/process-silhouettes.py`, `scripts/flip-horizontal.sh`, `scripts/webp.sh` (bulk PNG/JPG → WebP), `scripts/index-extra-assets.sh` (regenerates `extra-assets.json` from directory listings), `scripts/ai-bird-art/`.
+### Refreshing the rulings
+
+[scripts/rulings/refresh.sh](scripts/rulings/refresh.sh) is the whole pipeline in one command. It needs Bedrock credentials (`export AWS_PROFILE=...`) and Node 14 for the last stage, and it never pushes, deploys or commits — the working tree diff is the review.
+
+```bash
+scripts/rulings/refresh.sh --dry-run     # report what every stage would do, call nothing
+scripts/rulings/refresh.sh               # the full pass
+scripts/rulings/refresh.sh --no-curate   # append new rulings but leave existing pages alone
+```
+
+Six stages, each incremental and safe to re-run — a thread already judged is not paid for twice, a ruling already in the TSV is not appended twice, a card whose ruling list has not changed is not re-curated. With nothing new upstream the whole run is a free no-op, so `--dry-run` is the cheap way to see where things stand:
+
+1. `fetch_stonemaier.py` — new comments from the FAQ pages into `stonemaier-comments.json`.
+2. `propose.py` — judge unseen threads into `proposals.json`.
+3. `propose.py --emit-tsv` — append accepted proposals as rows in `rulings.tsv`.
+4. `curate.py` — for each card that just gained a ruling, propose a merge/reorder/rewrite plan into `curation.json`, then apply the high-confidence ones.
+5. `transform/run.py json-transformer` — regenerate `src/assets/data`.
+6. `npm run test:ci`.
+
+Two things make this safe to automate. First, **`proposals.json` and `curation.json` are review queues, not caches**: only high-confidence output is applied, and anything the model hedged on stays queued as pending for a human, so hedging can never silently publish or delete a ruling. Second, `curate.py` wraps the model in deterministic gates — it may be wrong about ordering, but a plan that drops a ruling, invents an id, or emits markup the renderer cannot handle (anything beyond `\textbf`/`\textit`, an unknown `[icon]` marker, curly quotes) is rejected before it reaches the TSV.
+
+Curation edits `rulings.tsv` in place, and per-card display order *is* TSV row order (the notebook's `groupby().apply()` preserves it), so a reorder is a row reorder. Merging drops the absorbed rows' source URLs, which is why `propose.py` derives "already applied" from citations **unioned with** `curation.json`'s `superseded` list — from citations alone, every merged ruling would be re-appended on the next run, forever.
+
+After a run: read the TSV diff, then the queues (`proposals.json` entries with `"review": "pending"`, `curation.json` plans with `confidence != high` or a non-empty `warnings`). If `rulings.spec.ts` failed, a general ruling's fan-out changed — update the pinned counts in the same commit and say why.
+
+### Image tooling
+
+In [scripts/images/](scripts/images/); requires ImageMagick / cwebp / OpenCV and operates on the gitignored `new_assets/`: `psd-to-png.sh`, `organize-birds.py` (fuzzy-matches filenames to card names and renames to `<id>.png`), `process-silhouettes.py`, `flip-horizontal.sh`, `webp.sh` (bulk PNG/JPG → WebP), `index-extra-assets.sh` (regenerates `extra-assets.json` from directory listings), `ai-bird-art/`.
 
 ## Conventions
 

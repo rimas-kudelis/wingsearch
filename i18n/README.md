@@ -90,7 +90,7 @@ Some languages (such as Spanish) may use different wording for the bonus cards A
 | GAME END| Add local translation of respected yellow power text (Oceania expansion)|
 | of cards| `% of cards` is the text found at the bottom of bonus cards describing how many percent of bird cards fulfill the condition |
 
-In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/wingspan-card-list.xlsx) or open a GitHub issue.
+In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/transform/wingspan-card-list.xlsx) or open a GitHub issue.
 
 ## Submitting your file
 If you know how to work with git, just open the pull request. If not, you can email me the file at matej.cief@gmail.com

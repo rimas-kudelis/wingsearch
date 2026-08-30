@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """Audit which cards a general Wingspan ruling actually applies to.
 
-The regexes in `general_rulings_map.py` propose candidates; this script asks
+The regexes in `general_map.py` propose candidates; this script asks
 Claude (on Bedrock) to judge each candidate card against the ruling *and its
 original source comment*, and writes the verdicts to
-`rulings-applicability.json`, which the notebook then honours.
+`applicability.json`, which the notebook then honours.
 
 Run it by hand -- it costs money and is not deterministic, so it must never be
 part of the site build. The committed JSON is what the build consumes.
 
     export AWS_PROFILE=...            # needs bedrock:InvokeModel
-    python3 audit_rulings.py --dry-run
-    python3 audit_rulings.py --ruling 20200404      # one ruling
-    python3 audit_rulings.py                        # everything not yet judged
+    python3 audit.py --dry-run
+    python3 audit.py --ruling 20200404      # one ruling
+    python3 audit.py                        # everything not yet judged
 
 Only *confident* exclusions remove a ruling from a card. Anything the model is
 unsure about is recorded under `uncertain` and left attached, so hedging can
-never silently delete content -- see `general_rulings_map.applies`.
+never silently delete content -- see `general_map.applies`.
 """
 
 import argparse
@@ -35,17 +35,17 @@ import botocore.exceptions
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import general_rulings_map as grm  # noqa: E402
+import general_map as grm  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TSV_PATH = os.path.join(HERE, 'Wingspan - Rulings.tsv')
-MASTER_PATH = os.path.join(HERE, '..', 'src', 'assets', 'data', 'master.json')
-KNOWLEDGE_PATH = os.path.join(HERE, 'rulings-domain-knowledge.md')
+TSV_PATH = os.path.join(HERE, 'rulings.tsv')
+MASTER_PATH = os.path.join(HERE, '..', '..', 'src', 'assets', 'data', 'master.json')
+KNOWLEDGE_PATH = os.path.join(HERE, 'domain-knowledge.md')
 OUT_PATH = grm.APPLICABILITY_PATH
 # Committed on purpose. Half the corpus cites URLs that no longer resolve for an
 # anonymous reader (every Facebook link 400s), so the fetched text of a source
 # discussion is worth keeping in-repo as evidence, not treated as a throwaway cache.
-CACHE_PATH = os.path.join(HERE, 'rulings-source-comments.json')
+CACHE_PATH = os.path.join(HERE, 'source-comments.json')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
 REGION = os.environ.get('AWS_REGION') or 'us-east-1'

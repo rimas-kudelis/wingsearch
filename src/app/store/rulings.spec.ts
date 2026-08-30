@@ -3,12 +3,13 @@ import BirdCards from '../../assets/data/master.json'
 /**
  * Snapshot of the general-ruling fan-out in master.json.
  *
- * General rulings are attached at build time by scripts/general_rulings_map.py,
- * where a regex proposes candidate birds and scripts/rulings-applicability.json
- * (produced by scripts/audit_rulings.py, reviewed by hand) decides which of them
- * keep it. Neither step is visible from the app, so a mistake in either -- a
- * regenerated master.json, an edited predicate, a re-run audit -- would silently
- * change the rulings players read to settle rules disputes.
+ * General rulings are attached when master.json is regenerated, by
+ * scripts/rulings/general_map.py, where a regex proposes candidate birds and
+ * scripts/rulings/applicability.json (produced by scripts/rulings/audit.py,
+ * reviewed by hand) decides which of them keep it. Neither step is visible from
+ * the app, so a mistake in either -- a regenerated master.json, an edited
+ * predicate, a re-run audit -- would silently change the rulings players read to
+ * settle rules disputes.
  *
  * These counts pin that fan-out. A failure here is not necessarily a bug, but it
  * is always a deliberate content change: update the numbers in the same commit
@@ -61,7 +62,7 @@ describe('general rulings fan-out', () => {
         expect(total).toBe(EXPECTED.reduce((sum, [, n]) => sum + n, 0))
     })
 
-    // The pipeline strips the ruling id (see rulings-domain-knowledge.md), so text
+    // The pipeline strips the ruling id (see scripts/rulings/domain-knowledge.md), so text
     // is the only handle the app has on a ruling. Guard the shape it relies on.
     it('gives every attached ruling a non-empty text and source', () => {
         const bad: string[] = []

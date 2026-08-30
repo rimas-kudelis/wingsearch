@@ -6,14 +6,14 @@ matched 474 of 707 birds on the bare word "draw"), because a word-level match
 cannot tell a cost from a benefit, or cards from food.
 
 So the predicates are now only a **candidate generator**. The decision lives in
-`rulings-applicability.json`, a reviewed per-card verdict produced by
-`audit_rulings.py`. `rulings` -- the name the notebook imports -- is the two
+`applicability.json`, a reviewed per-card verdict produced by
+`audit.py`. `rulings` -- the name the notebook imports -- is the two
 gates combined, so `json-transformer.ipynb` needs no changes.
 
-If `rulings-applicability.json` is missing, every candidate is accepted and the
+If `applicability.json` is missing, every candidate is accepted and the
 behaviour is exactly what it was before the audit existed.
 
-See `rulings-domain-knowledge.md` for the full background.
+See `domain-knowledge.md` for the full background.
 """
 
 import functools
@@ -24,8 +24,8 @@ import re
 import pandas as pd
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-APPLICABILITY_PATH = os.path.join(_HERE, 'rulings-applicability.json')
-OVERRIDES_PATH = os.path.join(_HERE, 'rulings-applicability-overrides.json')
+APPLICABILITY_PATH = os.path.join(_HERE, 'applicability.json')
+OVERRIDES_PATH = os.path.join(_HERE, 'applicability-overrides.json')
 
 
 # Regexes that propose cards a general ruling *might* apply to. Deliberately

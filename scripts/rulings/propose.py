@@ -2,23 +2,23 @@
 """Propose new rulings from official Stonemaier FAQ answers.
 
 Reads the threads fetched by `fetch_stonemaier.py`, keeps the ones where a
-trusted author answered (`rulings_corpus.TRUSTED`), and asks Claude on Bedrock
-whether each thread contains a ruling worth adding to `Wingspan - Rulings.tsv` --
+trusted author answered (`corpus.TRUSTED`), and asks Claude on Bedrock
+whether each thread contains a ruling worth adding to `rulings.tsv` --
 given the rulings that card already has, so duplicates are rejected rather than
 piled on.
 
-Output is `rulings-proposals.json`: a reviewable queue, never a direct edit of
+Output is `proposals.json`: a reviewable queue, never a direct edit of
 the TSV. Accepting a proposal is a human step (`--emit-tsv` prints rows to
 paste). This is deliberate: a wrong ruling is worse than a missing one, because
 players use the site to settle arguments.
 
     export AWS_PROFILE=...
-    python3 propose_rulings.py --dry-run
-    python3 propose_rulings.py --limit 10        # validate on a few first
-    python3 propose_rulings.py --set asia        # target the coverage gap
-    python3 propose_rulings.py --emit-tsv        # print accepted rows
+    python3 propose.py --dry-run
+    python3 propose.py --limit 10        # validate on a few first
+    python3 propose.py --set asia        # target the coverage gap
+    python3 propose.py --emit-tsv        # print accepted rows
 
-See rulings-domain-knowledge.md for the trust model and the standards applied.
+See domain-knowledge.md for the trust model and the standards applied.
 """
 
 import argparse
@@ -36,13 +36,13 @@ import boto3
 import botocore.exceptions
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import rulings_corpus as rc  # noqa: E402
+import corpus as rc  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT_PATH = os.path.join(HERE, 'rulings-proposals.json')
-KNOWLEDGE_PATH = os.path.join(HERE, 'rulings-domain-knowledge.md')
-CURATION_PATH = os.path.join(HERE, 'rulings-curation.json')
-ICON_DIR = os.path.join(HERE, '..', 'src', 'assets', 'icons', 'png')
+OUT_PATH = os.path.join(HERE, 'proposals.json')
+KNOWLEDGE_PATH = os.path.join(HERE, 'domain-knowledge.md')
+CURATION_PATH = os.path.join(HERE, 'curation.json')
+ICON_DIR = os.path.join(HERE, '..', '..', 'src', 'assets', 'icons', 'png')
 
 MODEL_ID = 'us.anthropic.claude-opus-5'
 REGION = os.environ.get('AWS_REGION') or 'us-east-1'
@@ -306,7 +306,7 @@ def applied_comment_ids():
     """Comments whose ruling has already reached the corpus, cited or not.
 
     `cited_comment_ids()` reads the TSV's source column, which is almost the same thing --
-    except that `curate_rulings.py` merges restatements of one rule into a single row and
+    except that `curate.py` merges restatements of one rule into a single row and
     that row keeps only one link. The other comments stop being cited while their content
     is very much still published, so deriving "applied" from citations alone makes the
     next refresh re-append every ruling curation just merged away, forever.
@@ -370,7 +370,7 @@ def emit_tsv(store, cards):
     named row reaches the card page as soon as the notebook runs whereas a general row
     reaches nobody until someone writes a predicate for it. General rulings are listed
     separately afterwards as predicate candidates -- promoting one means adding it to
-    general_rulings_map.py and dropping the named rows it replaces.
+    general_map.py and dropping the named rows it replaces.
 
     Proposals whose source comment is already cited in the TSV are skipped, so this is safe
     to re-run after a review session: it emits only what is new. `accept` therefore means
@@ -420,7 +420,7 @@ def emit_tsv(store, cards):
     if general:
         print(f'\n# {len(general)} of these are general in scope. They are emitted above as '
               f'named rows so they reach players now; each is also a candidate for a\n'
-              f'# predicate in general_rulings_map.py, which would widen it past the cards '
+              f'# predicate in general_map.py, which would widen it past the cards '
               f'listed. Promoting one means dropping its named rows.', file=sys.stderr)
         for p in general:
             print(f'#   {p["_emitted_id"]}  {p["title"] or "(untitled)"}  '

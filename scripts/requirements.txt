@@ -1,0 +1,26 @@
+# Python dependencies for everything under scripts/. None of this is needed to build or
+# run the app -- see CLAUDE.md for that (Node 14 / npm 6). Install with:
+#
+#     python3 -m pip install -r scripts/requirements.txt
+#
+# Grouped by pipeline; if you only need one of them, install just its group.
+
+# --- transform/ : spreadsheets -> src/assets/data ------------------------------------
+# pandas is pinned because json-transformer.ipynb is verified to regenerate all six JSON
+# files byte-identically under this exact version (checked 2026-08-30). A different
+# pandas can change JSON formatting or NaN handling and produce a diff that looks like a
+# data change but is not. If you bump it, re-verify byte-identity before committing --
+# CLAUDE.md, "Data pipeline", says how.
+pandas==3.0.1
+openpyxl>=3.1          # pandas' .xlsx reader
+simplejson>=3.19       # language-to-json.ipynb only, for ignore_nan=True
+
+# --- rulings/ : official rulings pipeline --------------------------------------------
+# Needs AWS credentials for Bedrock; the fetch and corpus steps do not.
+boto3>=1.36
+
+# --- images/ : card art tooling (optional, heavy) ------------------------------------
+# Also needs ImageMagick and cwebp on PATH, which pip cannot install.
+# Skip this group unless you are actually processing card art.
+opencv-python>=4.10
+numpy>=1.26

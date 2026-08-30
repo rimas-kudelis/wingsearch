@@ -1,11 +1,11 @@
 {
   "_README": [
-    "Hand-written corrections layered on top of rulings-applicability.json by",
-    "general_rulings_map.load_applicability(). Keys present here REPLACE the",
+    "Hand-written corrections layered on top of applicability.json by",
+    "general_map.load_applicability(). Keys present here REPLACE the",
     "audit's list for that ruling; keys absent fall through to the audit.",
     "Only 'applies', 'excluded' and 'uncertain' are read -- anything else (like",
     "this note) is ignored, so explain yourself freely.",
-    "This file is authoritative: re-running audit_rulings.py never touches it."
+    "This file is authoritative: re-running audit.py never touches it."
   ],
 
   "20190601": {
@@ -31,7 +31,7 @@
       "",
       "TO RESOLVE: if the warning is wanted, delete this override's 'excluded' and",
       "nothing changes. If it is noise, invert the predicate to select birdfeeder",
-      "gains instead and re-audit. See rulings-domain-knowledge.md open questions."
+      "gains instead and re-audit. See domain-knowledge.md open questions."
     ],
     "excluded": {}
   }

@@ -11,7 +11,7 @@ re-checked rather than trusted.
 
 ## 1. How rulings reach a card today
 
-Two kinds of ruling live in `scripts/Wingspan - Rulings.tsv` (186 rows, **no header**,
+Two kinds of ruling live in `scripts/rulings/rulings.tsv` (552 rows, **no header**,
 tab-separated, 5 positional columns):
 
 The notebook reads it as columns `id, general, specific, text, source`:
@@ -32,7 +32,7 @@ there. That file is generated but unused at runtime.
 Those 34 general rows carry only **30 distinct ids**: `20201003` and `20201116a` appear
 twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
 row sharing that id — one predicate can deliver two or three separate rulings.
-`general_rulings_map.py` covers all 30 ids exactly, with none left over in either
+`general_map.py` covers all 30 ids exactly, with none left over in either
 direction, so the notebook's `Rule X not yet implemented` branch never fires. But the 13
 `lambda row: False` stubs suppress **17** rulings rather than 13, because three of those
 stubbed ids are multi-row.
@@ -41,7 +41,7 @@ stubbed ids are multi-row.
   One ruling id may repeat across many rows to hit many cards (e.g. `02a` appears for
   both Bewick's Wren and Blue Grosbeak).
 - **General rulings** (col 2 blank) fan out via a *predicate* in
-  `scripts/general_rulings_map.py`, keyed by ruling id → `card.additionalRulings`.
+  `scripts/rulings/general_map.py`, keyed by ruling id → `card.additionalRulings`.
 
 `json-transformer.ipynb` cell 5 runs each predicate over every row of `master`, then
 **sorts each card's `additionalRulings` by how many cards the rule matched, ascending**
@@ -71,7 +71,7 @@ stonemaiergames 44, discord 4.
 Derived by measurement over the 4,586 fetched comments (`fetch_stonemaier.py`), not by
 reputation: every author was ranked by how often they reply to *someone else* — the signal
 that separates answerers from askers — and the top names were then read. The live list is
-`rulings_corpus.TRUSTED`.
+`corpus.TRUSTED`.
 
 Measurement gets you candidates, not standing. Every name below is either confirmed
 Stonemaier/designer staff or explicitly rejected; where the two disagreed, the confirmation
@@ -94,7 +94,7 @@ with a wrong premise.
 
 ## 3. Known failure modes in the current fan-out
 
-`general_rulings_map.py` holds 30 predicates. Only **13 actually match any card**:
+`general_map.py` holds 30 predicates. Only **13 actually match any card**:
 
 - **13 are literal `lambda row: False`** — parked, never implemented. One is annotated
   `# TODO think about implementation for this one`. The rulings exist in the TSV and
@@ -234,7 +234,7 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
    104 birds where rerolling cannot arise at all?** The audit could not answer this and
    should not have tried — it is an editorial preference, not a fact, and the model split
    27/77 across indistinguishable cards when asked. Currently overridden back to status quo
-   (all attached) in `rulings-applicability-overrides.json`, which explains how to resolve
+   (all attached) in `applicability-overrides.json`, which explains how to resolve
    it either way. This is the one question that is blocking nothing but is worth a decision.
 3. The 13 `False` stubs: implement, or are some deliberately unfannable?
 4. Should general rulings be able to target hummingbird cards and bonus cards (§4.8)?
@@ -283,7 +283,7 @@ reroll when gaining food from the birdfeeder, not from the supply") is largely o
 it should stay attached to all ~104 supply-gaining birds for consistency rather than being
 present on 27 and absent on 77 indistinguishable cards. It is the archetype of a
 low-priority ruling: technically true, never surprising. The override in
-`rulings-applicability-overrides.json` keeps it attached; the ordering half is not
+`applicability-overrides.json` keeps it attached; the ordering half is not
 implemented.
 
 ### What has to change first
@@ -301,11 +301,11 @@ precisely because the id is missing; once ids survive, that spec should key on t
 
 ## 8. The 2026-08-30 applicability audit
 
-`audit_rulings.py` judged all 973 candidate (ruling, card) pairs with
+`audit.py` judged all 973 candidate (ruling, card) pairs with
 `us.anthropic.claude-opus-5` on Bedrock — 51 calls, 23 minutes, $3.58 — writing
-`rulings-applicability.json`. Verdicts are `applies` / `does_not_apply` × confidence;
+`applicability.json`. Verdicts are `applies` / `does_not_apply` × confidence;
 **only a high-confidence `does_not_apply` removes anything**, so hedging can never silently
-delete content (`general_rulings_map.applies`).
+delete content (`general_map.applies`).
 
 Net effect on `master.json`: 798 attachments, from 794. Only the `additionalRulings` field
 changed — card ids and all five other generated JSON files stayed byte-identical, so
@@ -354,14 +354,14 @@ been lost.
 ### Re-running
 
     export AWS_PROFILE=...                     # needs bedrock:InvokeModel
-    python3 audit_rulings.py --dry-run         # plan and cost only
-    python3 audit_rulings.py                   # judge anything not yet decided
-    python3 audit_rulings.py --ruling 20200404 --recheck   # re-judge one ruling
+    python3 audit.py --dry-run         # plan and cost only
+    python3 audit.py                   # judge anything not yet decided
+    python3 audit.py --ruling 20200404 --recheck   # re-judge one ruling
 
 It is incremental: already-decided pairs are skipped, so a new expansion costs only its own
 cards. It must never run in the site build — the committed JSON is what the build consumes,
 which keeps CI hermetic and free. Hand corrections go in
-`rulings-applicability-overrides.json`, which the audit never overwrites.
+`applicability-overrides.json`, which the audit never overwrites.
 
 `src/app/store/rulings.spec.ts` pins the resulting per-ruling attachment counts, so a
 regenerated `master.json` or an edited predicate fails CI rather than quietly changing what
@@ -383,14 +383,14 @@ Three scripts, each doing one thing, and only the middle one costs money:
    WordPress's open REST API into `stonemaier-comments.json` (**4,586 comments**,
    2018-12-07 → 2026-08-30, 1,753 threads). Incremental, so re-running costs only what is
    new. Wyrmspan (post 26515) is deliberately excluded: different game, different rules.
-2. `rulings_corpus.py` — deterministic reading: thread rooting via each comment's
+2. `corpus.py` — deterministic reading: thread rooting via each comment's
    `parent`, the trusted-author check (§2), card-name matching. Kept free of anything
    billable so it can be inspected and re-measured at will.
-3. `propose_rulings.py` — the one Bedrock stage. Judges four threads per call against the
+3. `propose.py` — the one Bedrock stage. Judges four threads per call against the
    cards named in them *and the rulings those cards already have*, and writes
-   `rulings-proposals.json`.
+   `proposals.json`.
 
-`rulings-proposals.json` is a **review queue, not an edit**. Nothing reaches the TSV until
+`proposals.json` is a **review queue, not an edit**. Nothing reaches the TSV until
 a proposal is marked `"review": "accept"` and `--emit-tsv` prints the rows. Same principle
 as §8: the model proposes, a reviewed artifact decides, and no LLM ever runs in the build.
 
@@ -422,7 +422,7 @@ it was measured:
 
 - **`Bird Feeder` is a bonus card *and* the dice tower.** 142 mentions, nearly all the
   component ("roll the dice not in the bird feeder"), dragging 38 threads into the queue on
-  a false positive. Now in `rulings_corpus.AMBIGUOUS`: such names only count when the
+  a false positive. Now in `corpus.AMBIGUOUS`: such names only count when the
   thread visibly discusses bonus cards.
 - **Diacritics broke recall on exactly the sets that needed it most.** Seven cards are
   spelled with macrons — `Tūī`, `Kākāpō`, `Kererū`, `Pūkeko`, `North Island Kōkako`,
@@ -457,10 +457,10 @@ the raw corpus rather than trusting that a name matcher matches names.
 
     export AWS_PROFILE=...
     python3 fetch_stonemaier.py                 # refresh the comment corpus
-    python3 propose_rulings.py --dry-run        # what would be judged
-    python3 propose_rulings.py --limit 12       # validate on a few and read them
-    python3 propose_rulings.py                  # judge the rest (~$0.09/call, 4 threads)
-    python3 propose_rulings.py --emit-tsv       # rows for accepted proposals
+    python3 propose.py --dry-run        # what would be judged
+    python3 propose.py --limit 12       # validate on a few and read them
+    python3 propose.py                  # judge the rest (~$0.09/call, 4 threads)
+    python3 propose.py --emit-tsv       # rows for accepted proposals
 
 Read the output before scaling: the first 12-thread run had every ruling scoped `general`
 and inconsistent markup, both fixed by sharpening the prompt rather than by post-processing.
