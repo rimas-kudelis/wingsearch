@@ -351,17 +351,34 @@ def emit_tsv(store, cards):
     reaches nobody until someone writes a predicate for it. General rulings are listed
     separately afterwards as predicate candidates -- promoting one means adding it to
     general_rulings_map.py and dropping the named rows it replaces.
+
+    Proposals whose source comment is already cited in the TSV are skipped, so this is safe
+    to re-run after a review session: it emits only what is new. `accept` therefore means
+    "approved", not "not yet applied", and needs no second state to track.
     """
-    accepted = [p for p in store['proposals'].values() if p.get('review') == 'accept']
+    cited = rc.cited_comment_ids()
+    accepted, applied = [], []
+    for p in store['proposals'].values():
+        if p.get('review') != 'accept':
+            continue
+        if re.search(r'#comment-(\d+)', p['source']).group(1) in cited:
+            applied.append(p)
+        else:
+            accepted.append(p)
+    if applied:
+        print(f'# {len(applied)} accepted proposals are already in the TSV; considering the '
+              f'other {len(accepted)}', file=sys.stderr)
     if not accepted:
-        print('no proposals marked "review": "accept" in rulings-proposals.json')
+        print('nothing to emit: no proposals are marked "review": "accept" and unapplied')
         return
 
     # Ids are the source comment's date, so two rulings answered the same day collide.
     # The corpus disambiguates with a/b/c suffixes; ids already in the TSV count as taken.
     named, general_rows = rc.load_rulings()
     used = {r['id'] for rows in named.values() for r in rows} | set(general_rows)
-    seen_clusters = {}
+    # Seed the dedup memory with clusters the TSV already covers, or a cluster whose
+    # representative was applied last time would re-emit a sibling restating it.
+    seen_clusters = {p['cluster']: p['thread'] for p in applied if p.get('cluster') is not None}
     for p in sorted(accepted, key=lambda p: p['thread']):
         cl = p.get('cluster')
         if cl is not None and cl in seen_clusters:
