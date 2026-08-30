@@ -3,6 +3,7 @@ import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.inter
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 
 @Component({
+  standalone: false,
   selector: 'app-card-detail',
   templateUrl: './card-detail.component.html',
   styleUrls: ['./card-detail.component.scss']

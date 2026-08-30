@@ -3,10 +3,11 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
 import { first, flatMap, map, tap } from 'rxjs/operators'
-import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
-import { bonusSearchMap, dynamicPercentage } from 'src/app/store/bonus-search-map'
+import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
+import { bonusSearchMap, dynamicPercentage } from '../../store/bonus-search-map'
 
 @Component({
+  standalone: false,
   selector: 'app-bonus-card-detail',
   templateUrl: './bonus-card-detail.component.html',
   styleUrls: ['./bonus-card-detail.component.scss']

@@ -3,11 +3,12 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
-import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
-import { bonusSearchMap } from 'src/app/store/bonus-search-map'
+import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
+import { bonusSearchMap } from '../../store/bonus-search-map'
 import { DomSanitizer } from '@angular/platform-browser'
 
 @Component({
+  standalone: false,
   selector: 'app-hummingbird-card-detail',
   templateUrl: './hummingbird-card-detail.component.html',
   styleUrls: ['./hummingbird-card-detail.component.scss']

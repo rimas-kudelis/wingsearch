@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
-import { selectCard, State, selectCardId } from '../store/router'
+import { selectCard, State } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
@@ -12,6 +12,7 @@ import { AnalyticsService } from '../analytics.service'
 import { ActivatedRoute, Router } from '@angular/router'
 
 @Component({
+  standalone: false,
   selector: 'app-display',
   templateUrl: './display.component.html',
   styleUrls: ['./display.component.scss']

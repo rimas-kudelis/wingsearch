@@ -1,7 +1,8 @@
-import { Directive, ElementRef, HostListener, Input, OnDestroy, OnInit, Renderer2 } from '@angular/core'
+import { Directive, ElementRef, Input, OnDestroy, OnInit, Renderer2 } from '@angular/core'
 import { AnalyticsService } from './analytics.service'
 
 @Directive({
+  standalone: false,
   selector: '[appAnalyticsEvent]'
 })
 export class AnalyticsEventDirective implements OnInit, OnDestroy {
@@ -16,7 +17,7 @@ export class AnalyticsEventDirective implements OnInit, OnDestroy {
   constructor(private analytics: AnalyticsService, private renderer: Renderer2, private elementRef: ElementRef) { }
 
   ngOnInit() {
-    this.dispose = this.renderer.listen(this.elementRef.nativeElement, this.eventListening, e =>
+    this.dispose = this.renderer.listen(this.elementRef.nativeElement, this.eventListening, () =>
       this.analytics.sendEvent(this.eventName, { event_category: this.eventCategory, event_label: this.eventLabel })
     )
   }

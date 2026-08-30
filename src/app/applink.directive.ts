@@ -1,7 +1,8 @@
-import { Directive, HostListener, Input } from '@angular/core'
+import { Directive, HostListener } from '@angular/core'
 import { Router } from '@angular/router'
 
 @Directive({
+  standalone: false,
   selector: '[appLinkWatcher]'
 })
 export class ApplinkDirective {

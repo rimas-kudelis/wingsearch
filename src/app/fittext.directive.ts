@@ -9,6 +9,7 @@ import {
   } from '@angular/core'
 
 @Directive({
+  standalone: false,
     selector: '[appFitText]'
   })
   export class FitTextDirective implements AfterViewInit, OnChanges {

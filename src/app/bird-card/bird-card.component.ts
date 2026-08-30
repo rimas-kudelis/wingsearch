@@ -7,6 +7,7 @@ import { TranslatePipe } from '../translate.pipe'
 import EasterEggAssets from '../../assets/data/extra-assets.json'
 
 @Component({
+  standalone: false,
   selector: 'app-bird-card',
   templateUrl: './bird-card.component.html',
   styleUrls: ['./bird-card.component.scss']
@@ -121,16 +122,16 @@ export class BirdCardComponent implements OnInit {
     const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean
     let bonusIcons = ''
     if (showBonusCardsMatchSymbols) {
-      if (!!card.Anatomist) {
+      if (card.Anatomist) {
         bonusIcons += ' [anatomist]'
       }
-      if (!!card.Cartographer) {
+      if (card.Cartographer) {
         bonusIcons += ' [cartographer]'
       }
-      if (!!card.Historian) {
+      if (card.Historian) {
         bonusIcons += ' [historian]'
       }
-      if (!!card.Photographer) {
+      if (card.Photographer) {
         bonusIcons += ' [photographer]'
       }
     }

@@ -1,19 +1,19 @@
 
 // Custom Theming for Angular Material
-// For more information: https://material.angular.io/guide/theming
-@import '~@angular/material/theming';
-// Plus imports for other components in your app.
+// https://material.angular.dev/guide/theming
+//
+// These are the Material 2 theming APIs, which Material still ships under an `m2-` prefix
+// alongside the newer Material 3 ones. Staying on M2 keeps the palettes below -- the brown
+// and teal the site has always used -- and the component look they produce, so the framework
+// upgrade does not double as a redesign. Moving to `mat.theme()` and M3 is its own change.
+@use '@angular/material' as mat;
 
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
-@include mat-core();
+// `mat-core()` split in two: elevation classes (`.mat-elevation-z20` is used by the consent
+// card) and the app background.
+@include mat.elevation-classes();
+@include mat.app-background();
 
-// Define the palettes for your theme using the Material Design palettes available in palette.scss
-// (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
-
-$wingsearch-primary: mat-palette((
+$wingsearch-primary: mat.m2-define-palette((
     50 : #ece8e2,
     100 : #d0c7b7,
     200 : #b1a187,
@@ -45,7 +45,7 @@ $wingsearch-primary: mat-palette((
         A700 : #000000,
     )
 ));
-$wingsearch-accent: mat-palette((
+$wingsearch-accent: mat.m2-define-palette((
     50 : #e5f4f3,
     100 : #bee4e1,
     200 : #93d3cd,
@@ -79,15 +79,23 @@ $wingsearch-accent: mat-palette((
 ));
 
 // The warn palette is optional (defaults to red).
-$wingsearch-warn: mat-palette($mat-red);
+$wingsearch-warn: mat.m2-define-palette(mat.$m2-red-palette);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$wingsearch-theme: mat-light-theme($wingsearch-primary, $wingsearch-accent, $wingsearch-warn);
+$wingsearch-theme: mat.m2-define-light-theme((
+    color: (
+        primary: $wingsearch-primary,
+        accent: $wingsearch-accent,
+        warn: $wingsearch-warn,
+    ),
+    typography: mat.m2-define-typography-config(),
+    density: 0,
+));
 
 // Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include angular-material-theme($wingsearch-theme);
+@include mat.all-component-themes($wingsearch-theme);
+// The `mat-typography` class on <body> comes from here.
+@include mat.typography-hierarchy($wingsearch-theme);
 
 /* You can add global styles to this file, and also import other style files */
 
@@ -160,20 +168,38 @@ body {
 .card-detail-panel {
     pointer-events: none !important;
 
-    .mat-dialog-container {
+    // The card detail view is the card art itself, so the dialog has to contribute no
+    // surface of its own. MDC puts the padding and elevation on an inner surface element,
+    // hence the two selectors where v9 needed one.
+    .mat-mdc-dialog-container {
         background-color: unset;
         padding: 0;
         border-radius: 0;
         box-shadow: none;
         overflow-x: hidden;
+
+        .mat-mdc-dialog-surface {
+            background-color: unset;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            overflow-x: hidden;
+        }
     }
 }
 
-.mat-dialog-content.detail-container {
+.mat-mdc-dialog-content.detail-container {
     height: 100vh;
     max-height: unset;
     margin: 0;
     padding: 0;
+}
+
+// MDC dropped the "standard" form field appearance (transparent box, underline only), which
+// is what every field here used. "fill" is the nearest survivor; removing its container
+// colour gets the old look back.
+.mat-mdc-form-field .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: transparent;
 }
 
 strong[applink] {

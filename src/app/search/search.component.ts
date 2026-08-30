@@ -3,7 +3,7 @@ import { Store } from '@ngrx/store'
 import { search, bonusCardSearch, changeLanguage, resetLanguage, changeAssetPack } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
-import { Options } from 'ng5-slider'
+import { Options } from '@angular-slider/ngx-slider'
 import { FormControl } from '@angular/forms'
 import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/material/autocomplete'
 import { CookiesService } from '../cookies.service'
@@ -11,9 +11,9 @@ import { MatDialog } from '@angular/material/dialog'
 import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
 import { AssetPackDialogComponent } from './asset-pack-dialog/asset-pack-dialog.component'
 import { AnalyticsService } from '../analytics.service'
-import { access } from 'fs'
 
 @Component({
+  standalone: false,
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss']

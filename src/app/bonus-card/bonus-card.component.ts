@@ -1,14 +1,15 @@
-import { Component, OnInit, Input } from '@angular/core'
+import { Component, Input } from '@angular/core'
 import { BonusCard } from '../store/app.interfaces'
 import { MatDialog } from '@angular/material/dialog'
 import { Observable } from 'rxjs'
 
 @Component({
+  standalone: false,
   selector: 'app-bonus-card',
   templateUrl: './bonus-card.component.html',
   styleUrls: ['./bonus-card.component.scss']
 })
-export class BonusCardComponent implements OnInit {
+export class BonusCardComponent {
 
   @Input()
   card: BonusCard
@@ -18,8 +19,6 @@ export class BonusCardComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
 
-  ngOnInit(): void {
-  }
 
   getPointConditions(): { value: string, point: boolean }[][] {
     return this.card.VP ? this.card.VP.split(';').reduce((acc, condition) => {

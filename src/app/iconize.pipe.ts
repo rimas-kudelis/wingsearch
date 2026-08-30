@@ -1,6 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core'
 
 @Pipe({
+  standalone: false,
   name: 'iconize'
 })
 export class IconizePipe implements PipeTransform {
@@ -16,7 +17,7 @@ export class IconizePipe implements PipeTransform {
     <img class="icon-image" src="assets/icons/png/$1.png" alt="$1" aria-hidden="false" aria-label="$1 icon">
   </picture>
   `
-  private readonly NOBR_HTML_STRING = `<span class="nobr">` + this.BASE_HTML_STRING + `$2` + `</span>`
+  private readonly NOBR_HTML_STRING = '<span class="nobr">' + this.BASE_HTML_STRING + '$2' + '</span>'
 
   private readonly DARK_MAP = {
     seed: 'seed-dark'

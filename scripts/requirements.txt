@@ -1,5 +1,5 @@
 # Python dependencies for everything under scripts/. None of this is needed to build or
-# run the app -- see CLAUDE.md for that (Node 14 / npm 6). Install with:
+# run the app -- see CLAUDE.md for that (Node 22 / npm 10). Install with:
 #
 #     python3 -m pip install -r scripts/requirements.txt
 #

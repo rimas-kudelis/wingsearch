@@ -1,7 +1,7 @@
 <mat-expansion-panel (window:resize)="onResize()">
     <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
-            <mat-form-field appAnalyticsEvent="Main search" appearance="standard" (click)="$event.stopPropagation()">
+            <mat-form-field appAnalyticsEvent="Main search" appearance="fill" (click)="$event.stopPropagation()">
                 <mat-label>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/flocking.webp">
@@ -22,8 +22,7 @@
                 (statsChange)="onStatsChange($event)"></app-stats>
         </mat-panel-title>
     </mat-expansion-panel-header>
-    <mat-form-field appAnalyticsEvent="Search by bonus cards" appearance="standard" class="long-field"
-        appearance="standard">
+    <mat-form-field appAnalyticsEvent="Search by bonus cards" appearance="fill" class="long-field">
         <mat-label>
             <picture>
                 <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
@@ -34,13 +33,13 @@
             Search birds by applicable bonus cards
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
-        <mat-chip-list #chipList aria-label="Bonus cards selection">
+        <mat-chip-grid #chipList aria-label="Bonus cards selection">
             <ng-container *ngFor="let bonus of bonusCards | async">
-                <mat-chip class="custom-chip" [removable]="true" *ngIf="query.bonus.includes(bonus.id)"
+                <mat-chip-row class="custom-chip" [removable]="true" *ngIf="query.bonus.includes(bonus.id)"
                     (removed)="removeBonus(bonus.id)">
                     {{ bonus['Bonus card'] }}
                     <mat-icon matChipRemove>cancel</mat-icon>
-                </mat-chip>
+                </mat-chip-row>
             </ng-container>
             <input #bonusInput [matChipInputFor]="chipList" type="text" matInput [formControl]="bonusControl"
                 [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''"
@@ -49,7 +48,7 @@
                 (click)="bonusControl.setValue(''); bonusInput.value = ''; query.bonus=[]; onBonusChange(); onQueryChange()">
                 <mat-icon>close</mat-icon>
             </button>
-        </mat-chip-list>
+        </mat-chip-grid>
         <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
             (optionSelected)="addBonus($event); bonusInput.value = ''">
             <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
@@ -267,8 +266,8 @@
             <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide eggs" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 272px">
-                        <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
-                            (userChangeEnd)="onEggsChange()"></ng5-slider>
+                        <ngx-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
+                            (userChangeEnd)="onEggsChange()"></ngx-slider>
                     </div>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/egg.webp">
@@ -282,8 +281,8 @@
             <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide points" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
-                        <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
-                            (userChangeEnd)="onPointsChange()"></ng5-slider>
+                        <ngx-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
+                            (userChangeEnd)="onPointsChange()"></ngx-slider>
                     </div>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/point.webp">
@@ -297,8 +296,8 @@
             <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide wingspan" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
-                        <ng5-slider [(value)]="wingspan.min" [(highValue)]="wingspan.max" [options]="wingspanOptions"
-                            (userChangeEnd)="onWingspanChange()"></ng5-slider>
+                        <ngx-slider [(value)]="wingspan.min" [(highValue)]="wingspan.max" [options]="wingspanOptions"
+                            (userChangeEnd)="onWingspanChange()"></ngx-slider>
                     </div>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/wingspan.webp">
@@ -312,8 +311,8 @@
             <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide foodCost" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
-                        <ng5-slider [(value)]="foodCost.min" [(highValue)]="foodCost.max" [options]="foodCostOptions"
-                            (userChangeEnd)="onFoodCostChange()"></ng5-slider>
+                        <ngx-slider [(value)]="foodCost.min" [(highValue)]="foodCost.max" [options]="foodCostOptions"
+                            (userChangeEnd)="onFoodCostChange()"></ngx-slider>
                     </div>
                     <img src="assets/icons/svg/food-cost.svg" alt="food cost" aria-hidden="false"
                             matTooltip="Filter by food cost" aria-label="Select food cost"
