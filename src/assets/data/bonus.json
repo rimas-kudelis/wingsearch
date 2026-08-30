@@ -19,6 +19,22 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"Both <i>\"beak\"<\/i> and <i>\"head\"<\/i> are on the <strong applink=\"\/card\/1000\">Anatomist<\/strong> list, so birds such as <strong applink=\"\/card\/42\">Blue Grosbeak<\/strong> and <strong applink=\"\/card\/164\">Loggerhead Shrike<\/strong> count. <i>\"Horn\"<\/i> is not on the list, so <strong applink=\"\/card\/150\">Horned Lark<\/strong> does not count; follow the printed list strictly, including the additions in the expansion rulebooks.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-19\/#comment-38985"
+      },
+      {
+        "text":"<i>Back<\/i> is a body part for this bonus card, as listed in the <i>European Expansion<\/i> rulebook (<i>\"Anatomist (birds with body parts in their names): back, leg, toe\"<\/i>), so <strong applink=\"\/card\/61\">Canvasback<\/strong> counts toward it.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-27\/#comment-42572"
+      },
+      {
+        "text":"The <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card was reprinted in the Asia expansion with 6 points instead of 7 for 4+ birds. The change was unintentional, but the most recent version of the card is the official one.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-16\/#comment-58045"
+      },
+      {
+        "text":"<strong applink=\"\/card\/380\">Desert Wheatear<\/strong> counts toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card (<i>\"ear\"<\/i>).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-70\/#comment-86747"
       }
     ]
   },
@@ -83,7 +99,10 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"For <strong applink=\"\/card\/1002\">Behaviorist<\/strong>, a column is a straight stack of card slots within a single row position across the three habitats. The birds with 3 different power colors must all be in the same column; colors matched diagonally or in other arrangements do not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-48\/#comment-54303"
+      }
     ]
   },
   {
@@ -99,7 +118,10 @@
     "VP Average":1.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      }
     ]
   },
   {
@@ -134,7 +156,18 @@
     "VP Average":0.75,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Birds that eat [wild] do not count toward <strong applink=\"\/card\/1005\">Bird Feeder<\/strong>; bonus cards that name a specific food icon only count birds showing that icon.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-13\/#comment-37276"
+      },
+      {
+        "text":"The food [die] symbol always means, <i>\"Remove a die from the birdfeeder and gain the food noted on it from the supply.\"<\/i>",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-13\/#comment-56608"
+      },
+      {
+        "text":"A [wild] food symbol does not count as [seed] for the <strong applink=\"\/card\/1005\">Bird Feeder<\/strong> bonus card; only birds showing a [seed] symbol qualify.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-75\/#comment-127995"
+      }
     ]
   },
   {
@@ -150,7 +183,14 @@
     "VP Average":1.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Any bird with 4 or more [egg] on it at game end counts toward this bonus card; the number does not have to be exactly 4.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-26\/#comment-42392"
+      },
+      {
+        "text":"Count only bird cards that have at least 4 [egg] tokens sitting on them at game end; eggs printed on the bird card do not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-33\/#comment-45468"
+      }
     ]
   },
   {
@@ -189,6 +229,26 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"<i>\"Turkey\"<\/i> does not count as a geography term for the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card, and neither does <i>\"turkey vulture\"<\/i> (turkey vultures are named after the bird, not the country).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37518"
+      },
+      {
+        "text":"<strong applink=\"\/card\/1007\">Cartographer<\/strong> awards a flat bonus, not points per qualifying bird: 3 points for 2--3 qualifying birds, 7 points for 4 or more.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-16\/#comment-38008"
+      },
+      {
+        "text":"A bonus card with tiered scoring awards only the amount for the tier reached, not points per qualifying bird. On <strong applink=\"\/card\/1007\">Cartographer<\/strong> you must have at least 2 qualifying birds to score 3 points and at least 4 to score 7 points.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-29\/#comment-43330"
+      },
+      {
+        "text":"<i>\"Wood\"<\/i> (singular) in a bird's name is not a geography term for the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card, so birds such as <strong applink=\"\/card\/256\">Wood Stork<\/strong> and woodswallows do not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-69\/#comment-69544"
+      },
+      {
+        "text":"<strong applink=\"\/card\/417\">Red Junglefowl<\/strong> counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card, since <i>\"jungle\"<\/i> appears in its name.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-20\/#comment-98217"
       }
     ]
   },
@@ -256,7 +316,26 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Score only one habitat for this bonus card, even if two or three habitats are tied for the fewest birds; the maximum score is therefore 10 points. A habitat with no birds counts as the habitat with the fewest birds, scoring 0 points.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-10\/#comment-36245"
+      },
+      {
+        "text":"Score only one habitat for the <strong applink=\"\/card\/1010\">Ecologist<\/strong> bonus card. If two or three of your habitats are tied for the fewest birds, you still score just one of those habitats.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-67\/#comment-66936"
+      },
+      {
+        "text":"If you have no birds in one of your habitats, your habitat with the fewest birds has 0 birds in it, so this bonus card scores 0 points.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-68\/#comment-68705"
+      },
+      {
+        "text":"A habitat with no birds counts as 0 birds for the <strong applink=\"\/card\/1010\">Ecologist<\/strong> bonus card, so a player who has left any habitat empty scores 0 points for it.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-71\/#comment-103099"
+      },
+      {
+        "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      }
     ]
   },
   {
@@ -304,7 +383,10 @@
     "VP Average":3.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"<strong applink=\"\/card\/424\">Rose-Ringed Parakeet<\/strong> does not count toward the <strong applink=\"\/card\/1040\">Endangered Species Protector<\/strong> bonus card even if it was used to copy a <i>\"When Played\"<\/i> power that scored or drew bonus cards. Only the abilities printed on the card matter during bonus scoring.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-13\/#comment-146650"
+      }
     ]
   },
   {
@@ -320,7 +402,22 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"At the end of the game, choose one habitat (row) of your birds and score 2 points per distinct power color present in that row, counting the four types of power color (including white\/no power). The maximum score is 8 points, achieved when at least 4 birds in a single row each have a different power color.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-16\/#comment-37971"
+      },
+      {
+        "text":"<strong applink=\"\/card\/1012\">Ethologist<\/strong> scores in a single habitat of your choice: choose one habitat (row), ignore the other two, and score 2 points for each different power color present in that row. Multiple birds of the same color in that row score only once for that color. For example, a row with 2 brown, 1 white, and 1 pink bird scores 6 points.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-10\/#comment-53774"
+      },
+      {
+        "text":"<strong applink=\"\/card\/1012\">Ethologist<\/strong> scores 2 points for each <i>distinct<\/i> power color present in the chosen habitat, not 2 points per bird. Four brown-powered birds and one white-powered bird in the same habitat score 4 points, because the four brown birds count as only one color.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-10\/#comment-59531"
+      },
+      {
+        "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      }
     ]
   },
   {
@@ -339,6 +436,10 @@
       {
         "text":"A bird with a [predator] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+      },
+      {
+        "text":"<strong applink=\"\/card\/35\">Black-Billed Magpie<\/strong> is not a predator bird and does not count for the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card; a bird is a predator only if it has the [predator] icon before its power text.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-32\/#comment-45312"
       }
     ]
   },
@@ -355,7 +456,14 @@
     "VP Average":1.5,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Only birds printed with the [fish] icon count toward this bonus card; birds with the [wild] (any food type) icon do not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33058"
+      },
+      {
+        "text":"A bird must have the [fish] symbol to count for <strong applink=\"\/card\/1014\">Fishery Manager<\/strong>. A bird whose food cost shows only a [wild] symbol does not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-39\/#comment-49006"
+      }
     ]
   },
   {
@@ -371,7 +479,10 @@
     "VP Average":2.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"<strong applink=\"\/card\/1015\">Food Web Expert<\/strong> counts only birds whose food cost is [invertebrate] and nothing else. A bird with any other food symbol in its cost, even as an alternative, counts for 0. The appendix reads: <i>\"Count the number of birds that have [invertebrate] in their food cost and no other symbols.\"<\/i>",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-74\/#comment-119182"
+      }
     ]
   },
   {
@@ -422,7 +533,18 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Tied scores do not count as ascending or descending\u20145 is not higher than 5\u2014so a run of birds worth 5, 5, 3, 3, 3 points does not form an ascending or descending sequence.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-13\/#comment-56613"
+      },
+      {
+        "text":"For <strong applink=\"\/card\/1042\">Forest Ranger<\/strong>, birds with equal scores do not continue a sequence, since a score is not higher (or lower) than an identical score. Scores of 1-2-2-3-5 in [forest] count as a sequence of three, not five.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-53\/#comment-57716"
+      },
+      {
+        "text":"The Ranger bonus cards use the strict definitions of ascending and descending, so repeated point values break the series (unlike the <strong>Data Analyst<\/strong> bonus card, which explicitly allows equal wingspans). With scores of 6, 5, 5, 4, 3 in [forest], <strong applink=\"\/card\/1042\">Forest Ranger<\/strong> scores only the longest strictly ascending or descending series: 5, 4, 3.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-59\/#comment-61075"
+      }
     ]
   },
   {
@@ -489,7 +611,10 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Tied scores do not count as ascending or descending\u20145 is not higher than 5\u2014so a run of birds worth 5, 5, 3, 3, 3 points does not form an ascending or descending sequence.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-13\/#comment-56613"
+      }
     ]
   },
   {
@@ -521,7 +646,10 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Score 1 point for each [hummingbird] space on your hummingbird track that you have reached or exceeded.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-14\/#comment-167903"
+      }
     ]
   },
   {
@@ -585,7 +713,14 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Only one scoring category on a bonus card is scored. With this bonus card you score either for 1 set of the 4 nest types or for 2 or more sets, not both.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-29\/#comment-43227"
+      },
+      {
+        "text":"A bonus card with tiered scoring awards only the amount for the tier reached, not points per qualifying bird. On <strong applink=\"\/card\/1007\">Cartographer<\/strong> you must have at least 2 qualifying birds to score 3 points and at least 4 to score 7 points.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-29\/#comment-43330"
+      }
     ]
   },
   {
@@ -601,7 +736,10 @@
     "VP Average":1.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33382"
+      }
     ]
   },
   {
@@ -652,7 +790,10 @@
     "VP Average":0.75,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      }
     ]
   },
   {
@@ -695,6 +836,22 @@
       {
         "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      },
+      {
+        "text":"<i>Rainbow<\/i> is not a color and does not count toward this bonus card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-32\/#comment-45517"
+      },
+      {
+        "text":"<i>Redstart<\/i> and <i>yellowthroat<\/i> both count toward this bonus card; a full list of qualifying colors appears on page 4 of the Appendix.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-47\/#comment-52687"
+      },
+      {
+        "text":"The point values on this bonus card are totals, not per-bird: if you have the number of qualifying birds shown, you gain that number of points in total.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-47\/#comment-53061"
+      },
+      {
+        "text":"<strong applink=\"\/card\/361\">Baya Weaver<\/strong> does not count toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card. That card looks for colors as words or as part of compound words, and <i>\"Baya\"<\/i> is its own word, not a compound of <i>\"bay\"<\/i> and <i>\"a\"<\/i>.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-59\/#comment-60794"
       }
     ]
   },
@@ -711,7 +868,10 @@
     "VP Average":1.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33382"
+      }
     ]
   },
   {
@@ -746,6 +906,18 @@
       {
         "text":"This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
         "source":"Card update pack."
+      },
+      {
+        "text":"<strong applink=\"\/card\/1026\">Rodentologist<\/strong> counts only birds with the [rodent] symbol specifically; a [wild] food symbol (e.g., <strong applink=\"\/card\/6\">American Crow<\/strong>) does not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-21\/#comment-39895"
+      },
+      {
+        "text":"Only birds with a [rodent] icon in their printed food cost count toward the <strong applink=\"\/card\/1026\">Rodentologist<\/strong> bonus card; a [wild] icon does not count.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-30\/#comment-43558"
+      },
+      {
+        "text":"A bird counts toward the <strong applink=\"\/card\/1026\">Rodentologist<\/strong> bonus card only if it shows the [rodent] symbol; a [wild] (any food) symbol does not qualify.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-42\/#comment-50542"
       }
     ]
   },
@@ -765,6 +937,10 @@
       {
         "text":"When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played. ",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
+      },
+      {
+        "text":"<strong applink=\"\/card\/54\">Brown-Headed Cowbird<\/strong> has no nest type, so it does not count toward the <strong applink=\"\/card\/1037\">Site Selection Expert<\/strong> bonus card; it is not treated as a [star] nest.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-30\/#comment-43473"
       }
     ]
   },
@@ -781,7 +957,10 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Hummingbird cards are birds and count toward bonus cards in the ordinary way, including <strong applink=\"\/card\/1003\">Bird Bander<\/strong>, <strong applink=\"\/card\/1010\">Ecologist<\/strong>, <strong applink=\"\/card\/1012\">Ethologist<\/strong>, <strong applink=\"\/card\/1022\">Passerine Specialist<\/strong>, <strong applink=\"\/card\/1046\">Small Clutch Specialist<\/strong>, and the Data Analyst and Ranger bonus cards.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-americas-expansion\/comment-page-7\/#comment-143888"
+      }
     ]
   },
   {
@@ -813,7 +992,18 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> caches [seed] equal to the bonus card's value at the time it is played (each cached [seed] is worth 1 point at game end), and the same bonus card is also scored normally at game end based on its condition at that time. For example, with <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and 6 [card] in hand when the Bustard is played, cache 4 [seed]; at game end score <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> again for the [card] then in hand.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-55\/#comment-58254"
+      },
+      {
+        "text":"The <strong>Endangered Species<\/strong> bonus card counts only birds you have played on your player mat. Birds in hand that score for <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> do not count for <strong>Endangered Species<\/strong>, since cards that refer to bird cards look only at played birds unless stated otherwise.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-56\/#comment-59162"
+      },
+      {
+        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> can score bonus cards that specify <i>\"at end of game\"<\/i> or <i>\"at game end,\"<\/i> such as <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and <strong applink=\"\/card\/1049\">Winter Feeder<\/strong>, when its power is used mid-game.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-72\/#comment-112572"
+      }
     ]
   },
   {
@@ -829,7 +1019,18 @@
     "VP Average":1.5,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Birds that eat [wild] do not count toward the <strong applink=\"\/card\/1028\">Viticulturalist<\/strong> bonus card; only birds showing the [fruit] icon qualify.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-9\/#comment-35836"
+      },
+      {
+        "text":"A bonus card that refers to birds that eat a specific food counts only birds printed with that exact food icon; a [wild] icon does not count for it. This applies to every food-based bonus card, including <strong applink=\"\/card\/1028\">Viticulturalist<\/strong>.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-37397"
+      },
+      {
+        "text":"<strong applink=\"\/card\/1028\">Viticulturalist<\/strong> counts only birds showing the [fruit] icon; [wild] and [nectar] icons do not count for it.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-59\/#comment-61023"
+      }
     ]
   },
   {
@@ -848,6 +1049,10 @@
       {
         "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+      },
+      {
+        "text":"Adjacent birds with the exact same wingspan count as part of an ascending or descending sequence for this bonus card.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-29\/#comment-43292"
       }
     ]
   },
@@ -880,7 +1085,10 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"Tied scores do not count as ascending or descending\u20145 is not higher than 5\u2014so a run of birds worth 5, 5, 3, 3, 3 points does not form an ascending or descending sequence.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-13\/#comment-56613"
+      }
     ]
   },
   {
@@ -928,7 +1136,18 @@
     "VP Average":0.0,
     "CardType":"Bonus",
     "rulings":[
-
+      {
+        "text":"When scoring a bonus card immediately with <strong applink=\"\/card\/418\">Red-Crowned Crane<\/strong>, ignore any <i>\"at game end\"<\/i> wording on the bonus card and score it based on the current game state. For <strong applink=\"\/card\/1049\">Winter Feeder<\/strong>, score based on the food currently in your personal supply.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-53\/#comment-57681"
+      },
+      {
+        "text":"[seed] cached on <strong applink=\"\/card\/76\">Coal Tit<\/strong> or <strong applink=\"\/card\/115\">Eurasian Nuthatch<\/strong> is not in your supply, so it does not count toward the <strong applink=\"\/card\/1049\">Winter Feeder<\/strong> bonus card even though you may spend it at any time.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-68\/#comment-124932"
+      },
+      {
+        "text":"<strong applink=\"\/card\/395\">Great Indian Bustard<\/strong> can score bonus cards that specify <i>\"at end of game\"<\/i> or <i>\"at game end,\"<\/i> such as <strong applink=\"\/card\/1027\">Visionary Leader<\/strong> and <strong applink=\"\/card\/1049\">Winter Feeder<\/strong>, when its power is used mid-game.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-72\/#comment-112572"
+      }
     ]
   },
   {
