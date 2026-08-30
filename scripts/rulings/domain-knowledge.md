@@ -246,9 +246,10 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
 
 ## 7. Target model: one reviewed "Rulings" list per bird
 
-**This section is direction, not description. Nothing here is built yet.** It is written for
-the future agent that will go bird by bird and curate that bird's rulings, so it states
-Matej's intent (2026-08-30) rather than current behaviour.
+**Half of this section is now built.** `curate.py` does the per-bird pass described under
+"Ordering" below, for the bird-specific `rulings` list. What remains direction rather than
+description is the *merge* of the two lists, and ordering within `additionalRulings`. It
+states Matej's intent (2026-08-30) alongside what shipped.
 
 Today a bird's card detail shows two lists: `rulings` (researched for that specific bird)
 and `additionalRulings` (generic rules fanned out by predicate), the second after the first.
@@ -283,16 +284,26 @@ reroll when gaining food from the birdfeeder, not from the supply") is largely o
 it should stay attached to all ~104 supply-gaining birds for consistency rather than being
 present on 27 and absent on 77 indistinguishable cards. It is the archetype of a
 low-priority ruling: technically true, never surprising. The override in
-`applicability-overrides.json` keeps it attached; the ordering half is not
-implemented.
+`applicability-overrides.json` keeps it attached; because it is a *general* ruling, the
+ordering half is still not implemented — see below.
 
-### What has to change first
+### What is implemented, and what the remaining blocker actually blocks
 
-Cell 5 **deletes the ruling `id`** before writing `master.json` (§1), so shipped entries are
-`{text, source}` with no stable handle. A per-bird ordering cannot be expressed — there is
-nothing to key it to, and text prefixes are fragile. **Preserve the id through to
-`master.json` before attempting any of this.** That single change also restores traceability
-from the site back to a TSV row, which nothing currently has.
+For **bird-specific `rulings`**, ordering needs no id at all: the notebook's
+`groupby().apply()` preserves within-group row order, so a card's display order simply *is*
+its TSV row order. `curate.py` exploits that — it rewrites a card's rows in the order it
+wants, and that is what players see. Merging restatements and rewriting for scanning work
+the same way. This is live as of 2026-08-30.
+
+For **`additionalRulings`** the blocker is real. Cell 5 **deletes the ruling `id`** before
+writing `master.json` (§1), so shipped entries are `{text, source}` with no stable handle,
+and their order comes from the fan-out-count proxy. A per-bird ordering cannot be expressed
+— there is nothing to key it to, and text prefixes are fragile. **Preserve the id through to
+`master.json` before attempting that half.** The same change restores traceability from the
+site back to a TSV row, which nothing currently has.
+
+Do not repeat the earlier mistake of reading this blocker as blocking *all* reordering. It
+does not.
 
 Note `src/app/store/rulings.spec.ts` pins per-ruling attachment counts by text prefix
 precisely because the id is missing; once ids survive, that spec should key on them instead.
@@ -306,6 +317,11 @@ precisely because the id is missing; once ids survive, that spec should key on t
 `applicability.json`. Verdicts are `applies` / `does_not_apply` × confidence;
 **only a high-confidence `does_not_apply` removes anything**, so hedging can never silently
 delete content (`general_map.applies`).
+
+Every stage that emits a confidence rating wants it to *report* how certain the judgement is,
+not to argue for the judgement. Rating something high because high ratings get acted on
+defeats the whole arrangement: the queue exists so that "I am not sure" is a useful, cheap
+answer, and a human reads every item in it. Say `low` when it is low.
 
 Net effect on `master.json`: 798 attachments, from 794. Only the `additionalRulings` field
 changed — card ids and all five other generated JSON files stayed byte-identical, so
