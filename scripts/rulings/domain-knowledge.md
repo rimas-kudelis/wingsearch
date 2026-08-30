@@ -11,7 +11,7 @@ re-checked rather than trusted.
 
 ## 1. How rulings reach a card today
 
-Two kinds of ruling live in `scripts/rulings/rulings.tsv` (575 rows, **no header**,
+Two kinds of ruling live in `scripts/rulings/rulings.tsv` (580 rows, **no header**,
 tab-separated, 5 positional columns):
 
 The notebook reads it as columns `id, general, specific, text, source`:
@@ -24,15 +24,15 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**44 rows are general** (col 2 blank) and **531 are named**. The 44 general rulings are
+**58 rows are general** (col 2 blank) and **522 are named**. The 58 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
-*position* `0`–`43`, not by ruling id — so you cannot look a general ruling up by id
+*position* `0`–`57`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
 
-Those 44 general rows carry only **40 distinct ids**: `20201003` and `20201116a` appear
+Those 58 general rows carry only **54 distinct ids**: `20201003` and `20201116a` appear
 twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
 row sharing that id — one predicate can deliver two or three separate rulings.
-`general_map.py` covers all 40 ids exactly, and the notebook now *asserts* that rather than
+`general_map.py` covers all 54 ids exactly, and the notebook now *asserts* that rather than
 printing `Rule X not yet implemented`: a general row with no predicate reaches no card, so
 it must fail the build, not scroll past.
 
@@ -146,7 +146,7 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
 
 ## 3. Known failure modes in the current fan-out
 
-`general_map.py` holds 40 predicates. **34 match at least one card**:
+`general_map.py` holds 54 predicates. **48 match at least one card**:
 
 - **7 of the 13 `lambda row: False` stubs were implemented on 2026-08-30**, taking the
   fan-out from 18 rulings / 861 attachments to 28 / 941; resolving the pending proposals the
@@ -183,6 +183,41 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
   Promotion is the preferred move whenever a named ruling's text says nothing specific to
   its card. It is cheaper than copying rows onto siblings and it cannot go stale as new
   birds are added.
+- **14 more predicates were added on 2026-08-30**, all promotions, working through
+  `graph.py --transferable` — rulings published on one card that state a rule true of every
+  card with that power. Fan-out went **37 rulings / 1186 attachments to 51 / 1954**:
+  `20200413` (no limit to cards tucked behind a bird, 152), `20210830d` (an `[egg]` a power
+  lays needs a nest with room, 139), `20210830b` (a "When Played" power resolves after the
+  bird is played, so its cost is paid first, 138 — every white power), `20220326` (activating
+  a power is optional, 114 — scoped to teal and pink, the powers that trigger without you
+  choosing to spend an action on them), `20220429b` (a power that says "Draw" without naming
+  a source may take from the tray or the deck, 57), `20230827` (powers that look at types of
+  birds mean birds on a mat, never in hand, 48 — the official answer generalised itself),
+  `20190617` / `20220516` / `20200423b` (food substitution, `[nectar]`, and skipping: three
+  different questions about the 21 powers that cost a named food), `20210830` and `20200504`
+  (where the dice are rolled, and that there can be at most 4 of them, 15 each),
+  `20260503` (a "you may cache" power is a genuine choice, 13), `20220429` ("Look at a
+  `[card]` from the deck" means the deck, 13), `20210830c` (a tie for "fewest" means everyone
+  tied benefits, 3).
+
+  Two mechanics of promotion are worth copying. First, **an omnibus row splits**:
+  `20210830` was one comment answering four unrelated questions, published whole on Anhinga
+  and Brown Pelican, so three of its four answers sat on cards they say nothing about while
+  the cards they do apply to had none of them. It is now four general rows, same source URL
+  on each. Second, where a card already states the rule as a named ruling with its own
+  source, the card is **excluded in `applicability-overrides.json`** rather than the named row
+  being deleted — that keeps the citation and stops the general row printing the same
+  sentence underneath it (Red-Tailed Hawk, American White Pelican, Sandhill Crane and the
+  four "may cache" birds).
+
+  Five rulings were **copied** instead of promoted, because they really are about one card
+  and only their identical-power sibling was missing them: Red Knot, Crested Ibis (two),
+  White-Backed Woodpecker and Common Nightingale.
+
+  What `--transferable` still lists after this pass is 9 groups / 17 cards, and every one is
+  a deliberate no-op: the sibling now carries the same rule as a *general* ruling in different
+  words, which the tool cannot see because it compares named rows only. Before acting on that
+  list again, check the card's `additionalRulings` first.
 - **4 were broken by a casing typo — fixed 2026-08-30.** They tested
   `row['Color'] == 'Pink'`, but Color is stored lowercase (`brown` 409, `white` 138,
   `teal` 63, `pink` 51, `yellow` 40) and the notebook applies no normalisation to
@@ -191,8 +226,9 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
   reaching nobody since 2019. They now go through `_is_pink()`, which lowercases. This was
   the only *under*-application found; everything else in this section over-applies.
 
-Of the 13 live predicates, fan-out is heavily skewed and was **never validated against
-cards released after early 2021** (Asia, Americas, and 150 promo birds):
+Of the 13 predicates that were live before the 2026-08-30 work, fan-out is heavily skewed
+and was **never validated against cards released after early 2021** (Asia, Americas, and
+150 promo birds):
 
 | ruling | cards matched | of those, released after the predicate was written |
 |--------|--------------:|---------------------------------------------------:|
@@ -203,8 +239,10 @@ cards released after early 2021** (Asia, Americas, and 150 promo birds):
 | `20200716b` | 18 | 6 |
 | others (8) | ≤10 each | 0–1 |
 
-**524 of 707 birds carry at least one `additionalRulings` entry, and 249 of those birds
-did not exist when the predicates were written.** Roughly half the fan-out is unreviewed.
+**524 of 707 birds carried at least one `additionalRulings` entry, and 249 of those birds
+did not exist when the predicates were written.** Roughly half of that fan-out was
+unreviewed. It is 644 of 707 birds after the promotions above, at a mean of 2.7 general
+rulings each and a maximum of 8.
 
 That table is the *pre-audit* state, kept because it is what the predicates still generate
 — the audit narrows the result afterwards. See §8 for what it narrowed to.
@@ -421,6 +459,10 @@ translations, artwork and `/card/:id` links are unaffected.
 | birds with more rulings | 51 |
 | birds with fewer | 147 |
 | birds with none | 183 → 227 |
+
+These are the audit's own before/after numbers and are not the current state: the stub
+implementations, the resolved proposals and the promotions of the same day took the fan-out
+to 51 rulings / 1954 attachments, with 63 birds carrying none (§3).
 
 The two clean wins were both *resource-kind* errors — the regex could not tell what was
 being drawn or discarded:

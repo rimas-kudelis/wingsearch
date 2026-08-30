@@ -50,6 +50,50 @@
     }
   },
 
+  "20220429": {
+    "_why": [
+      "Red-Tailed Hawk already says its power draws from the top of the deck, as a named",
+      "ruling with its own source (20241222), and adds that the power can therefore always",
+      "be activated. The general row would print the same sentence underneath it."
+    ],
+    "excluded": {
+      "Red-Tailed Hawk": "duplicates its own named ruling 20241222, which cites a different comment"
+    }
+  },
+
+  "20260503": {
+    "_why": [
+      "Four of the 17 ``may cache'' birds were asked about individually and carry the answer",
+      "already, each citing a different comment. Excluding them leaves the general row to the",
+      "cards that have never been asked about."
+    ],
+    "excluded": {
+      "Blue Jay": "carries 20231126, which states the same choice",
+      "Clark's Nutcracker": "carries 20210902, which states the same choice",
+      "Red-Bellied Woodpecker": "carries 20221224, which states the same choice",
+      "Red-Headed Woodpecker": "carries 20260818, which states the same choice"
+    }
+  },
+
+  "20190617": {
+    "_why": [
+      "American White Pelican carries 20220213a, the same rule with its own source and its",
+      "own [fish] example."
+    ],
+    "excluded": {
+      "American White Pelican": "carries 20220213a, which states the same rule"
+    }
+  },
+
+  "20220516": {
+    "_why": [
+      "Sandhill Crane carries 20211123, the nectar half of this rule, with its own source."
+    ],
+    "excluded": {
+      "Sandhill Crane": "carries 20211123, which states the same rule"
+    }
+  },
+
   "20200712": {
     "_why": [
       "'\"Trading\" counts as \"spending\".' The predicate is every bird with a trade power,",

@@ -347,6 +347,12 @@ def about_the_power(ruling, power):
     concepts = set(ruling['concepts'])
     # a name or art question, unless the text also engages with the power's mechanics
     per_card = concepts & {'bonus-eligibility', 'beak-direction'}
+    # ...and the third class from the docstring, which the concept table has no entry for: a
+    # ruling about the card's printed food cost, on a power that never mentions food cost.
+    # `20191007` (how the food-cost goal counts a ``/'' cost) was offered for transfer to
+    # Fish Crow's power-sharing sibling on the strength of sharing "food" and "cost".
+    if re.search(r'food cost', ruling['text'], re.I) and not re.search(r'food cost', power, re.I):
+        per_card = per_card | {'food-cost'}
     shared = _distinctive(ruling['text']) & _distinctive(power)
     if per_card and len(shared) < 3:
         return False

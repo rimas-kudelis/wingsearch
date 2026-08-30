@@ -72,6 +72,12 @@ candidates = {
     '2020022b': lambda row: not pd.isna(row['Power text']) and re.search(r"it becomes a tucked card", row['Power text'], re.IGNORECASE) is not None,
     '20200330': lambda row: _is_pink(row),
     '20200404': lambda row: not pd.isna(row['Power text']) and re.search(r"(\s|^)draw|(\s|^)lay|(\s|^)gain", row['Power text'], re.IGNORECASE) is not None,
+    # Promoted from Barn Swallow and Yellow-Headed Blackbird, which carried the identical
+    # sentence: how many cards fit behind a bird is a fact about tucking.
+    '20200413': lambda row: not pd.isna(row['Power text']) and re.search(r"\btuck", row['Power text'], re.IGNORECASE) is not None,
+    # Promoted from Eastern Screech-Owl. Same candidates as 20210830 -- one says where the
+    # dice are rolled, the other how many there can be.
+    '20200504': lambda row: not pd.isna(row['Power text']) and re.search(r"roll all dice not in birdfeeder", row['Power text'], re.IGNORECASE) is not None,
     '20200511': lambda row: not pd.isna(row['* (food cost)']),
     # Green Heron is excluded in applicability-overrides.json: it carries this sentence as a
     # named ruling already, with its own source.
@@ -92,6 +98,35 @@ candidates = {
     '20210199b': lambda row: not pd.isna(row['Power text']) and re.search(r"\bcopy\b", row['Power text'], re.IGNORECASE) is not None,
     '20210206': lambda row: not pd.isna(row['Power text']) and re.search(r"place this bird sideways", row['Power text'], re.IGNORECASE) is not None,
     '20210920': lambda row: _is_teal(row),
+    # One official comment answered four unrelated questions and was published whole on two
+    # cards, so three of the four answers sat on cards they say nothing about while the cards
+    # they do apply to had none of them. Split here into the four rules.
+    '20210830': lambda row: not pd.isna(row['Power text']) and re.search(r"roll all dice not in birdfeeder", row['Power text'], re.IGNORECASE) is not None,
+    '20210830b': lambda row: _is_white(row),
+    '20210830c': lambda row: not pd.isna(row['Power text']) and re.search(r"\bfewest\b", row['Power text'], re.IGNORECASE) is not None,
+    '20210830d': lambda row: not pd.isna(row['Power text']) and re.search(r"lay .*\[egg\]", row['Power text'], re.IGNORECASE) is not None,
+    # Both halves of one comment about which wording forces the top of the deck. Promoted from
+    # Great Horned Owl and Forster's Tern, the two cards it contrasted.
+    '20220429': lambda row: not pd.isna(row['Power text']) and re.search(r"look at a \[card\] from the deck", row['Power text'], re.IGNORECASE) is not None,
+    '20220429b': lambda row: not pd.isna(row['Power text']) and re.search(r"draw \d+ \[card\](?! from the deck)", row['Power text'], re.IGNORECASE) is not None,
+    # Promoted from Black Redstart. Scoped to teal and pink -- the powers that trigger without
+    # you choosing to spend an action on them, which is where "must I?" is actually asked.
+    '20220326': lambda row: _is_teal(row) or _is_pink(row),
+    # Promoted from Carrion Crow; the official answer generalised itself to "this and other
+    # abilities that look at types of birds".
+    '20230827': lambda row: not pd.isna(row['Power text']) and re.search(r"for each \[(predator|flocking)\]|\bother bird|birds? (in|with) (this|any|each) habitat|for each bird", row['Power text'], re.IGNORECASE) is not None,
+    # The two halves of "food substitution does not pay a power's cost", each promoted from
+    # Canada Goose. American White Pelican and Sandhill Crane are excluded in the overrides:
+    # they carry the same rule as named rulings with their own sources.
+    '20190617': lambda row: not pd.isna(row['Power text']) and re.search(r"discard \d+ \[(seed|invertebrate|fish|fruit|rodent|nectar)\]", row['Power text'], re.IGNORECASE) is not None,
+    '20220516': lambda row: not pd.isna(row['Power text']) and re.search(r"discard \d+ \[(seed|invertebrate|fish|fruit|rodent|nectar)\]", row['Power text'], re.IGNORECASE) is not None,
+    # The third question those 21 cards raise, promoted from Sandhill Crane: not what may pay
+    # the cost, but whether you may skip it. `b` because the Blue Jay row keeps the plain id
+    # for a different sentence, and a general predicate delivers every row sharing its id.
+    '20200423b': lambda row: not pd.isna(row['Power text']) and re.search(r"discard \d+ \[(seed|invertebrate|fish|fruit|rodent|nectar)\]", row['Power text'], re.IGNORECASE) is not None,
+    # Promoted from Clark's Nutcracker and White-Faced Heron, whose row was already worded for
+    # every ``may cache'' bird. Four cards that state it themselves are excluded in the overrides.
+    '20260503': lambda row: not pd.isna(row['Power text']) and re.search(r"may cache", row['Power text'], re.IGNORECASE) is not None,
     '20210318': lambda row: not pd.isna(row['Power text']) and re.search(r"this bird counts double toward the end-of-round goal", row['Power text'], re.IGNORECASE) is not None,
     # A [star] wingspan is not a wingspan at all; both rulings are about what to do with it.
     '20221013': lambda row: _is_star_wingspan(row),
@@ -122,6 +157,10 @@ def _is_pink(row):
 
 def _is_teal(row):
     return _is_color(row, 'teal')
+
+
+def _is_white(row):
+    return _is_color(row, 'white')
 
 
 def _is_star_wingspan(row):
