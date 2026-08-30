@@ -154,10 +154,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -244,10 +240,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -556,10 +548,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -640,8 +629,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -960,16 +961,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -1131,10 +1124,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -1477,10 +1467,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -1950,8 +1936,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -2431,8 +2429,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -2907,10 +2917,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      }
+
     ]
   },
   {
@@ -2988,12 +2995,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -3228,10 +3247,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -3388,10 +3404,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -3469,10 +3481,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -4032,12 +4041,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -4203,8 +4224,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -4607,12 +4640,24 @@
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
       },
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -4690,10 +4735,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -4854,10 +4895,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -5671,12 +5708,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -5919,12 +5968,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -6085,10 +6146,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -6167,16 +6224,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -6423,8 +6472,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -6825,10 +6886,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -6906,7 +6963,22 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -6986,10 +7058,6 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -7068,16 +7136,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -7155,10 +7215,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -7318,10 +7375,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -7556,7 +7609,22 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -7636,10 +7704,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -7797,10 +7861,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -8196,10 +8256,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      }
+
     ]
   },
   {
@@ -8354,16 +8411,28 @@
     ],
     "additionalRulings":[
       {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -8682,12 +8751,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
@@ -9009,10 +9078,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -9333,8 +9399,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -9808,8 +9886,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -10212,10 +10302,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -10375,10 +10461,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -10460,8 +10543,20 @@
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -11177,10 +11272,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -11589,10 +11681,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -11676,10 +11764,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -11916,10 +12001,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -12087,10 +12169,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -12259,10 +12337,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -12830,16 +12904,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -12918,8 +12984,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -12997,10 +13075,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -13246,10 +13321,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -13327,10 +13398,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -13410,10 +13478,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -13491,10 +13555,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -14291,10 +14352,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -14875,10 +14932,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -14956,10 +15009,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -15204,10 +15254,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -17151,12 +17197,24 @@
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
       },
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -18062,12 +18120,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -18389,10 +18459,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -18473,12 +18540,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -19056,10 +19135,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -19227,10 +19303,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -19389,8 +19461,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -19552,12 +19636,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -19719,10 +19815,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -19800,12 +19893,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -19890,10 +19995,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -20142,7 +20243,22 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -20303,10 +20419,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -20473,10 +20586,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -20720,10 +20829,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -20804,10 +20909,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -21049,10 +21150,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -21445,16 +21542,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -21616,10 +21705,6 @@
       {
         "text":"If you perform more than one action <i>\"at the end of your turn\"<\/i>, you may perform those actions in any order.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/414814145888860\/?comment_id=415023839201224&reply_comment_id=415302489173359"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -21697,10 +21782,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -21941,10 +22022,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -22506,16 +22583,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -22670,10 +22739,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -22753,10 +22819,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -23002,10 +23064,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -23245,10 +23304,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -23655,10 +23710,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -24049,10 +24100,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -24210,10 +24257,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -24294,10 +24337,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -25087,10 +25126,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -25648,10 +25684,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -26619,8 +26652,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -26870,10 +26915,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -27117,7 +27158,22 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -27195,8 +27251,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -27277,10 +27345,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -27930,10 +27994,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -28011,8 +28072,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -28337,10 +28410,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -28732,10 +28801,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -28893,10 +28958,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -28977,10 +29038,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -29058,10 +29115,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -29149,10 +29202,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -29397,10 +29446,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -29478,10 +29523,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -29636,12 +29678,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -29962,10 +30016,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -30381,10 +30431,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      }
+
     ]
   },
   {
@@ -30938,10 +30985,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -31019,10 +31062,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -31183,14 +31222,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -31267,10 +31299,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -31356,12 +31384,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -31440,8 +31480,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -31847,6 +31899,22 @@
     ],
     "additionalRulings":[
       {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -31929,10 +31997,6 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-      },
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       }
     ]
   },
@@ -32094,10 +32158,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -33060,7 +33121,22 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -33221,10 +33297,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -33801,10 +33873,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -33958,10 +34027,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -34199,6 +34265,22 @@
     ],
     "additionalRulings":[
       {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -34288,10 +34370,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -34450,10 +34528,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -34610,10 +34684,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -34690,10 +34761,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -35102,10 +35169,7 @@
       }
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -35185,10 +35249,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -36653,8 +36713,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -36975,10 +37047,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -37056,10 +37124,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -37137,12 +37202,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -37223,10 +37300,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -37548,10 +37621,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -37707,8 +37776,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -38433,12 +38514,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -39479,10 +39572,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -39640,12 +39730,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
@@ -39891,10 +39981,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -40479,16 +40566,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -40566,10 +40645,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -40818,10 +40893,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -41306,10 +41377,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -41390,10 +41457,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -41636,12 +41699,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
@@ -41726,10 +41789,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -41961,10 +42020,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -42041,10 +42097,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -42457,10 +42509,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -42547,10 +42595,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -42628,10 +42672,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -43025,10 +43066,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -43266,10 +43303,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -43347,10 +43380,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -43680,8 +43710,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -43840,16 +43882,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -44007,10 +44041,7 @@
       }
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -44324,10 +44355,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -44414,10 +44442,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -44744,12 +44768,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -45064,10 +45100,6 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -45552,10 +45584,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -45635,10 +45664,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -46123,8 +46148,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -46203,8 +46240,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -46372,10 +46421,6 @@
       {
         "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-      },
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       }
     ]
   },
@@ -46786,6 +46831,22 @@
     ],
     "additionalRulings":[
       {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -46865,10 +46926,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -47183,12 +47241,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -47503,10 +47573,6 @@
       }
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
@@ -47836,12 +47902,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
     ]
   },
@@ -48240,10 +48318,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -48563,10 +48638,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -48807,10 +48878,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -48968,10 +49035,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -49203,10 +49267,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -49293,10 +49353,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -49457,10 +49513,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -49702,10 +49754,6 @@
       {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -49786,10 +49834,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -50107,14 +50151,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -50441,12 +50478,12 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
@@ -50923,10 +50960,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -51004,16 +51038,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -51717,8 +51743,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -51797,12 +51835,24 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      },
+      {
+        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       }
     ]
   },
@@ -52695,16 +52745,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -52860,8 +52902,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -53253,7 +53307,22 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {
@@ -53578,10 +53647,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -53909,10 +53974,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -54070,10 +54131,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -54316,10 +54374,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -54400,10 +54454,6 @@
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -55360,10 +55410,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -56145,10 +56192,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -56554,10 +56598,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -56717,10 +56758,6 @@
       {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-      },
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
     ]
   },
@@ -56802,8 +56839,20 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
       }
     ]
   },
@@ -57039,10 +57088,6 @@
     ],
     "additionalRulings":[
       {
-        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
-        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
-      },
-      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -57205,7 +57250,22 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may use a pink power during another player's turn after your last turn of the game.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
+      },
+      {
+        "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
+      },
+      {
+        "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
+      },
+      {
+        "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
+      }
     ]
   },
   {

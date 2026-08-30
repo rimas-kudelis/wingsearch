@@ -1,0 +1,16 @@
+{
+  "37710": [
+    {
+      "author": "Travis W.",
+      "date": "2020-04-03",
+      "id": 37699,
+      "text": "When can a player at their discretion take some but not all of the resources to which they are entitled by some bird power? For example: * If I activate the Red-Legged Partridge&#8217;s brown power (&#8220;Lay 1 [egg] on each bird in this column, including this one.&#8221;), can I lay an egg on some birds in the column but not others? (I might want to do this, for example, if I have a Black Redstart on my mat [&#8220;Choose a habitat with no [egg]. Lay 1 [egg] on each bird in that habitat.&#8221;])? * If I play the Northern Flicker and activate its white power (&#8220;Gain all [invertebrate] that are in the birdfeeder.&#8221;), can I leave some of the invertebrates in the birdfeeder? (This could be advantageous, albeit mostly in contrived situations.) One can ask the analogous question about the Audouin&#8217;s Gull&#8217;s brown power (&#8220;Draw 2 [card] from the deck. Tuck 1 behind this bird and keep the other.&#8221;), though for card-drawing powers the question is largely academic, as there is rarely (if ever?) a reason to draw fewer than the maximum number of cards."
+    },
+    {
+      "author": "Joe Aubrey",
+      "date": "2020-04-04",
+      "id": 37710,
+      "text": "As a general premise in Wingspan, you can take less of an action beneficial to yourself. So yes, you can take fewer than &#8220;all&#8221; invertebrates from the feeder with the Northern Flicker. And the others apply in the same way. This premise applies as long as there is not a conditional statement in the bird power. For instance, if it said &#8220;Do [action1]. Then if you do, also do [action2].&#8221; You can&#8217;t do action2 without first having done action1 (but you can do action1 without doing action2 if you wish)."
+    }
+  ]
+}
