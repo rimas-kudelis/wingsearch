@@ -6,15 +6,19 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessNoSandbox --code-coverage",
     "lint": "ng lint",
-    "e2e": "ng e2e",
     "http-server": "http-server -p 8080 -c-1 dist/wingsearch",
     "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles && cp docs/index.html docs/404.html",
-    "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles && cp dist/wingsearch/index.html dist/wingsearch/404.html"
+    "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles && cp dist/wingsearch/index.html dist/wingsearch/404.html",
+    "build-pages": "ng build --prod --output-path dist/wingsearch --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles && cp dist/wingsearch/index.html dist/wingsearch/404.html",
+    "build-preview": "ng build --prod --output-path .preview/wingsearch --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles && cp .preview/wingsearch/index.html .preview/wingsearch/404.html",
+    "preview": "npm run build-preview && http-server .preview -p 8080 -c-1",
+    "serve-preview": "http-server .preview -p 8080 -c-1"
   },
   "engines": {
-    "node": "v14.17.4",
-    "npm": "8.12.2"
+    "node": ">=14 <15",
+    "npm": ">=6 <7"
   },
   "private": true,
   "dependencies": {
@@ -34,7 +38,6 @@
     "@ngrx/store": "^10.0.0",
     "@ngrx/store-devtools": "^10.0.0",
     "flexsearch": "^0.6.32",
-    "fs": "0.0.1-security",
     "ng5-slider": "^1.2.4",
     "ngx-infinite-scroll": "^9.1.0",
     "rxjs": "~6.5.4",
@@ -46,17 +49,15 @@
     "@angular/cli": "~9.1.12",
     "@angular/compiler-cli": "~9.1.12",
     "@types/jasmine": "~3.5.0",
-    "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.12.55",
     "codelyzer": "^5.1.2",
+    "http-server": "~14.1.1",
     "jasmine-core": "~3.5.0",
-    "jasmine-spec-reporter": "~4.2.1",
     "karma": "~5.0.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
-    "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
