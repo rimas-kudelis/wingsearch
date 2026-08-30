@@ -20,6 +20,37 @@ import { access } from 'fs'
 })
 export class SearchComponent implements OnInit {
 
+  constructor(
+    private store: Store<{ app: AppState }>,
+    private cookies: CookiesService,
+    public dialog: MatDialog,
+    private analytics: AnalyticsService
+  ) {
+    this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
+    this.bonusCards = this.store.select(({ app }) => app.bonusCards)
+    this.query = {
+      ...this.query,
+      expansion: {
+        core: cookies.getCookie('expansion.core') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        americas: cookies.getCookie('expansion.americas') !== '0',
+      },
+      promoPack: {
+        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
+        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
+        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
+        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
+        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
+        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
+      }
+    }
+
+    this.selectedExpansions = Object.entries(this.query.expansion).reduce((acc, entry) => entry[1] ? [...acc, entry[0]] : acc, [])
+    store.dispatch(search(this.query))
+  }
+
   readonly supportedLanguages = [
     { value: 'de', display: 'Deutsch' },
     { value: 'dk', display: 'dansk' },
@@ -44,9 +75,9 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly assetPacks = [
-    { value: 'silhouette', display: "Silhouettes" },
-    { value: 'robbie', display: "Robbie's birds" },
-    { value: 'diffusion', display: "Stable Diffusion"}
+    { value: 'silhouette', display: 'Silhouettes' },
+    { value: 'robbie', display: 'Robbie\'s birds' },
+    { value: 'diffusion', display: 'Stable Diffusion'}
   ]
 
   query = {
@@ -124,6 +155,65 @@ export class SearchComponent implements OnInit {
     }
   }
 
+  bonusControl = new FormControl()
+
+  filteredBonusCards: Observable<BonusCard[]>
+  bonusCards: Observable<BonusCard[]>
+
+  canFitStats: boolean
+
+  eggOptions: Options = {
+    showTicksValues: true,
+    stepsArray: Array.from(Array(7).keys()).map(key => ({ value: key }))
+  }
+
+  pointOptions: Options = {
+    showTicksValues: true,
+    stepsArray: Array.from(Array(10).keys()).map(key => ({ value: key }))
+  }
+
+  wingspanOptions: Options = {
+    showTicksValues: true,
+    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key })),
+    translate: value => {
+      if (value === 0) { return 'min' }
+      else if (value === 500) { return 'max' }
+      else { return value.toString() }
+    }
+  }
+
+  foodCostOptions: Options = {
+    showTicksValues: true,
+    stepsArray: Array.from(Array(4).keys()).map(key => ({ value: key })),
+  }
+
+  eggs = {
+    min: 0,
+    max: 6
+  }
+
+  points = {
+    min: 0,
+    max: 9
+  }
+
+  wingspan = {
+    min: 0,
+    max: 500
+  }
+
+  foodCost = {
+    min: 0,
+    max: 3
+  }
+
+  language = 'en'
+  selectedExpansions = ['core', 'european', 'oceania', 'asia', 'americas']
+  assetPack = 'silhouette'
+
+  @ViewChild(MatAutocompleteTrigger)
+  autocomplete: MatAutocompleteTrigger
+
   swiftStartEnabled(): boolean {
     return this.query.expansion.core
       || this.query.expansion.asia
@@ -160,102 +250,12 @@ export class SearchComponent implements OnInit {
       || this.query.promoPack.promoNZ
   }
 
-  bonusControl = new FormControl()
-
-  filteredBonusCards: Observable<BonusCard[]>
-  bonusCards: Observable<BonusCard[]>
-
-  canFitStats: boolean
-
-  eggOptions: Options = {
-    showTicksValues: true,
-    stepsArray: Array.from(Array(7).keys()).map(key => ({ value: key }))
-  }
-
-  pointOptions: Options = {
-    showTicksValues: true,
-    stepsArray: Array.from(Array(10).keys()).map(key => ({ value: key }))
-  }
-
-  wingspanOptions: Options = {
-    showTicksValues: true,
-    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key })),
-    translate: value => {
-      if (value === 0) { return 'min'; }
-      else if (value === 500) { return 'max'; }
-      else { return value.toString(); }
-    }
-  }
-
-  foodCostOptions: Options = {
-    showTicksValues: true,
-    stepsArray: Array.from(Array(4).keys()).map(key => ({ value: key })),
-  }
-
-  eggs = {
-    min: 0,
-    max: 6
-  }
-
-  points = {
-    min: 0,
-    max: 9
-  }
-
-  wingspan = {
-    min: 0,
-    max: 500
-  }
-
-  foodCost = {
-    min: 0,
-    max: 3
-  }
-
-  language = 'en'
-  selectedExpansions = ['core', 'european', 'oceania', 'asia', 'americas']
-  assetPack = 'silhouette'
-
-  @ViewChild(MatAutocompleteTrigger)
-  autocomplete: MatAutocompleteTrigger
-
-  constructor(
-    private store: Store<{ app: AppState }>,
-    private cookies: CookiesService,
-    public dialog: MatDialog,
-    private analytics: AnalyticsService
-  ) {
-    this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
-    this.bonusCards = this.store.select(({ app }) => app.bonusCards)
-    this.query = {
-      ...this.query,
-      expansion: {
-        core: cookies.getCookie('expansion.core') !== '0',
-        european: cookies.getCookie('expansion.european') !== '0',
-        oceania: cookies.getCookie('expansion.oceania') !== '0',
-        asia: cookies.getCookie('expansion.asia') !== '0',
-        americas: cookies.getCookie('expansion.americas') !== '0',
-      },
-      promoPack: {
-        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
-        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
-        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
-        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
-        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
-        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
-      }
-    }
-
-    this.selectedExpansions = Object.entries(this.query.expansion).reduce((acc, entry) => entry[1] ? [...acc, entry[0]] : acc, [])
-    store.dispatch(search(this.query))
-  }
-
   ngOnInit(): void {
     this.canFitStats = window.innerWidth >= 600
     this.bonusControl.valueChanges.subscribe(() => this.onBonusChange())
     if (this.cookies.hasConsent())
       this.language = this.cookies.getCookie('language') || this.language
-      this.assetPack = this.cookies.getCookie('assetPack') || this.assetPack
+    this.assetPack = this.cookies.getCookie('assetPack') || this.assetPack
   }
 
   onQueryChange() {
@@ -329,7 +329,7 @@ export class SearchComponent implements OnInit {
     this.query = { ...this.query, foodCost: { ...this.foodCost } }
     this.onQueryChange()
   }
-  
+
   addBonus(event: MatAutocompleteSelectedEvent) {
     this.query = { ...this.query, bonus: [...this.query.bonus, event.option.value] }
     this.bonusControl.setValue('')
@@ -388,7 +388,7 @@ export class SearchComponent implements OnInit {
       this.store.dispatch(resetLanguage({ expansion: this.query.expansion }))
     } else {
       this.cookies.setCookie('language', language, 180)
-      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion, promoPack: this.query.promoPack }))
+      this.store.dispatch(changeLanguage({ language, expansion: this.query.expansion, promoPack: this.query.promoPack }))
     }
 
     this.analytics.setLanguage(language)
@@ -410,7 +410,7 @@ export class SearchComponent implements OnInit {
   }
 
   currentAssetPackDisplay() {
-    return this.assetPacks.find(a => a.value == this.assetPack).display;
+    return this.assetPacks.find(a => a.value === this.assetPack).display
   }
 
   expansionChange(selectedExpansions: string[]) {

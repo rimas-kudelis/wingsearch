@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
-import { map } from 'rxjs/operators';
+import { map } from 'rxjs/operators'
 import { Store } from '@ngrx/store'
 import { BirdCard, AppState, ExpansionType, PackType } from '../store/app.interfaces'
 import { TranslatePipe } from '../translate.pipe'
@@ -38,8 +38,8 @@ export class BirdCardComponent implements OnInit {
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
     this.eggs = Array(this.card['Egg limit'])
-    this.wingspan = this.card['Wingspan'] + (this.card['Wingspan'] !== '*' ? 'cm' : '')
-    this.assetPack$ = this.store.select(({ app }) => app.assetPack);
+    this.wingspan = this.card.Wingspan + (this.card.Wingspan !== '*' ? 'cm' : '')
+    this.assetPack$ = this.store.select(({ app }) => app.assetPack)
     this.store.select(({ app }) => app.parameters)
       .subscribe(parameters =>
       {
@@ -75,7 +75,7 @@ export class BirdCardComponent implements OnInit {
       Flocking: '[flocking]',
       'Bonus card': '[bonus_cards]'
     }
-    return Object.entries(powerMap).map(([key, value]) => this.card[key] ? `<span>${value}</span>` : '').join('');
+    return Object.entries(powerMap).map(([key, value]) => this.card[key] ? `<span>${value}</span>` : '').join('')
   }
 
   getPowerTitle() {
@@ -87,22 +87,22 @@ export class BirdCardComponent implements OnInit {
       yellow: 'GAME END'
     }
 
-    const text = this.translate.transform(textMap[this.card.Color]);
-    return `<span class="intro">${text}: </span>`;
+    const text = this.translate.transform(textMap[this.card.Color])
+    return `<span class="intro">${text}: </span>`
   }
 
   get powerFontSize(): number {
-    const charCount = this.card['Power text']?.replace(/\[.*?\]/g, '1').length || 0;
+    const charCount = this.card['Power text']?.replace(/\[.*?\]/g, '1').length || 0
     if (charCount <= 100) {
-      return 0.039;
+      return 0.039
     }
     if (charCount > 100 && charCount <= 150) {
-      return 0.036;
+      return 0.036
     }
     if (charCount > 150 && charCount <= 200) {
-      return 0.033;
+      return 0.033
     }
-    return 0.031;
+    return 0.031
   }
 
   getBirdSilhouette() {
@@ -118,36 +118,36 @@ export class BirdCardComponent implements OnInit {
   }
 
   displayName(card: BirdCard): string {
-    const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean;
-    let bonusIcons = "";
+    const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean
+    let bonusIcons = ''
     if (showBonusCardsMatchSymbols) {
       if (!!card.Anatomist) {
-        bonusIcons += ' [anatomist]';
+        bonusIcons += ' [anatomist]'
       }
       if (!!card.Cartographer) {
-        bonusIcons += ' [cartographer]';
+        bonusIcons += ' [cartographer]'
       }
       if (!!card.Historian) {
-        bonusIcons += ' [historian]';
+        bonusIcons += ' [historian]'
       }
       if (!!card.Photographer) {
-        bonusIcons += ' [photographer]';
+        bonusIcons += ' [photographer]'
       }
     }
-    return card['Common name'] + " " + bonusIcons;
+    return card['Common name'] + ' ' + bonusIcons
   }
 
   isExpansion(): boolean {
-    const packNames: string[] = Object.values(ExpansionType);
+    const packNames: string[] = Object.values(ExpansionType)
     return packNames.includes(this.card.Set)
   }
 
   get flavorFontSize(): number {
-    const charCount = this.card['Flavor text'].length;
+    const charCount = this.card['Flavor text'].length
     if (charCount < 85) {
-      return 0.025;
+      return 0.025
     }
-    return 0.023;
+    return 0.023
   }
 
   getSwiftStartIcon(): string {
@@ -160,17 +160,17 @@ export class BirdCardComponent implements OnInit {
 
   getBeakDirectionIcon(): string {
     const beakMap = {
-      'L': '[beak_pointing_left]',
-      'R': '[beak_pointing_right]',
-      'LR': '[beak_pointing_left][beak_pointing_right]',
-      'N': ''
+      L: '[beak_pointing_left]',
+      R: '[beak_pointing_right]',
+      LR: '[beak_pointing_left][beak_pointing_right]',
+      N: ''
     }
     return beakMap[this.card['Beak direction']] || ''
   }
 
   isPromo(): boolean {
-    const packNames: string[] = Object.values(PackType);
-    return packNames.includes(this.card.Set);
+    const packNames: string[] = Object.values(PackType)
+    return packNames.includes(this.card.Set)
   }
 
   getPackTitle() {
@@ -183,7 +183,7 @@ export class BirdCardComponent implements OnInit {
       promoUS: 'Birds of U.S.A.'
     }
 
-    return this.translate.transform(packTitleMap[this.card.Set]);
+    return this.translate.transform(packTitleMap[this.card.Set])
   }
 
   getPackIcon() {

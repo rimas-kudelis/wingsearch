@@ -36,7 +36,13 @@ export class DisplayComponent implements OnInit, AfterViewInit {
   cardHeight$ = new BehaviorSubject<number>(0)
   selectedCardType: 'bird' | 'hummingbird' | 'bonus' | null = null
 
-  constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService, private router: Router, private route: ActivatedRoute) {
+  constructor(
+    private store: Store<State>,
+    public dialog: MatDialog,
+    private analytics: AnalyticsService,
+    private router: Router,
+    private route: ActivatedRoute
+  ) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
     this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
     this.selectedCard$ = this.store.select(selectCard)
@@ -63,7 +69,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
           : newCardType === 'hummingbird' ? this.HUMMINGBIRD_DIALOG_ID
           : this.BONUS_DIALOG_ID
         const dialogRef = this.dialog.getDialogById(dialogId).componentInstance
-        dialogRef.data = { card: card }
+        dialogRef.data = { card }
         dialogRef.initBonuses()
       } else {
         // Open new dialog

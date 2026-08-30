@@ -1,21 +1,21 @@
 <div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [ngClass]="card.Set" [ngStyle]="{'height.px': cardHeight}">
     <div class="title" [innerHTML]="card['Bonus card'] | iconize"
-    fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.056"></div>
+    [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.056"></div>
 
     <div class="description" [innerHTML]="card['Condition'] | iconize"
         [ngStyle]="{'font-size.px': cardHeight * descriptionFontSize, 'line-height.px': cardHeight * descriptionFontSize + 1}"></div>
 
     <div class="points">
         <div class="condition c{{c}}-{{i}}" *ngFor="let condition of getPointConditions(); index as i; count as c"
-            fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.05">
+            [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.05">
             <div class="part" [ngClass]="{point: part.point}" *ngFor="let part of condition"
                 [innerHTML]="part.value | iconize"></div>
         </div>
     </div>
     <div class="explanation" *ngIf="card['Explanatory text']" [innerHTML]="card['Explanatory text'] | iconize"
-        fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.042"></div>
+        [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.042"></div>
     <div class="percentage" *ngIf="card['%'] !== '-'"
-        fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.034">
+        [appFitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.034">
         ({{card['%'] + '% ' + ('of cards' | translate)}})
     </div>
 </div>

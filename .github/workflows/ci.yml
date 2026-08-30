@@ -31,11 +31,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # The codebase has never been linted (172 outstanding violations), so lint
-      # reports without failing the build. Flip this to blocking once the
-      # backlog is cleared.
+      # Blocking since the 172-violation backlog was cleared (2026-08-30). Keep it
+      # that way: the point of a clean baseline is that the next violation is
+      # visible, and a lint step that only reports is one nobody reads.
       - name: Lint
-        continue-on-error: true
         run: npm run lint
 
       - name: Locate Chrome for Karma

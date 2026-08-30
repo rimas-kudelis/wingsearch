@@ -56,7 +56,7 @@
             </picture>
         </div>
     </div>
-    <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()" fitText [fitText]="card['Power text']"
+    <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()" [appFitText]="card['Power text']"
         [minFontSize]="7" [maxFontSize]="cardHeight * powerFontSize">
         <div class="power">
             <div class='icons' *ngIf="getPowerIcon().length" [innerHtml]="(getPowerIcon() | iconize)"></div>

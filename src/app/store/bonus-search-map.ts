@@ -194,10 +194,10 @@ export const bonusSearchMap = {
 
 function getPercentage(card: BonusCard, selectedBirds: BirdCard[]): number | string
 {
-  const bonusMatch: BonusMatch = bonusSearchMap[card.id];
+  const bonusMatch: BonusMatch = bonusSearchMap[card.id]
   if (!bonusMatch.isPercentage || selectedBirds.length === 0)
-    return '-';
-  return (selectedBirds.filter(birdCard => bonusMatch.callbackfn(birdCard)).length / selectedBirds.length * 100).toFixed(1);
+    return '-'
+  return (selectedBirds.filter(birdCard => bonusMatch.callbackfn(birdCard)).length / selectedBirds.length * 100).toFixed(1)
 }
 
 export function dynamicPercentage(birds: BirdCard[], expansion: Expansion) {

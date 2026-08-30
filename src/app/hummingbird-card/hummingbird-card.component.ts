@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
-import { map } from 'rxjs/operators';
+import { map } from 'rxjs/operators'
 import { Store } from '@ngrx/store'
 import { BirdCard, AppState, GroupType, BenefitType } from '../store/app.interfaces'
 import { TranslatePipe } from '../translate.pipe'
@@ -29,7 +29,7 @@ export class HummingbirdCardComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.assetPack$ = this.store.select(({ app }) => app.assetPack);
+    this.assetPack$ = this.store.select(({ app }) => app.assetPack)
     this.store.select(({ app }) => app.parameters)
       .subscribe(parameters =>
       {
@@ -50,20 +50,20 @@ export class HummingbirdCardComponent implements OnInit {
   }
 
   displayName(card: BirdCard): string {
-    const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean;
-    let bonusIcons = "";
+    const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean
+    let bonusIcons = ''
     if (showBonusCardsMatchSymbols) {
       if (!!card.Anatomist) {
-        bonusIcons += ' [anatomist]';
+        bonusIcons += ' [anatomist]'
       }
       if (!!card.Cartographer) {
-        bonusIcons += ' [cartographer]';
+        bonusIcons += ' [cartographer]'
       }
       if (!!card.Photographer) {
-        bonusIcons += ' [photographer]';
+        bonusIcons += ' [photographer]'
       }
     }
-    return card['Common name'] + " " + bonusIcons;
+    return card['Common name'] + ' ' + bonusIcons
   }
 
   getGroupIcon() {
@@ -75,7 +75,7 @@ export class HummingbirdCardComponent implements OnInit {
       [GroupType.Topaz]: 'topaz'
     }
 
-    return this.translate.transform(groupMap[this.card.Group]);
+    return this.translate.transform(groupMap[this.card.Group])
   }
 
   getBenefitIcon() {

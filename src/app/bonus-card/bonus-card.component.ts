@@ -35,7 +35,7 @@ export class BonusCardComponent implements OnInit {
   }
 
   get descriptionFontSize(): number {
-    const charCount = this.card['Condition'].replace(/\[.*?\]/g, '1').length;
-    return charCount <= 100 ? 0.052 : 0.045;
+    const charCount = this.card.Condition.replace(/\[.*?\]/g, '1').length
+    return charCount <= 100 ? 0.052 : 0.045
   }
 }

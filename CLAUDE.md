@@ -14,7 +14,7 @@ Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node 14 / npm 6 (s
 npm start              # dev server on :4200
 npm run test:ci        # specs in headless Chrome, non-interactive (what CI runs)
 npm test               # specs in watch mode
-npm run lint           # tslint; currently reports 172 pre-existing violations
+npm run lint           # tslint; clean, and blocking in CI — keep it that way
 npm run preview        # build + serve an exact production replica (see below)
 npm run build-pages    # production build into dist/wingsearch (what CI deploys)
 ```
@@ -35,9 +35,9 @@ Angular schematics are configured with `skipTests: true`, so generated component
 
 ## Deployment
 
-`.github/workflows/ci.yml` owns the build. Every PR and every push to master installs from the lockfile, lints (non-blocking), runs the specs, and builds. On master the `deploy` job is gated on the protected `github-pages` environment, so **a push builds and then waits for manual approval** — nothing reaches users without a click. Every run also uploads the built site as a downloadable artifact for local inspection.
+`.github/workflows/ci.yml` owns the build. Every PR and every push to master installs from the lockfile, lints, runs the specs, and builds. On master the `deploy` job is gated on the protected `github-pages` environment, so **a push builds and then waits for manual approval** — nothing reaches users without a click. Every run also uploads the built site as a downloadable artifact for local inspection.
 
-Lint is `continue-on-error` because of the 172-violation backlog. Clear it, then make it blocking.
+Lint is blocking as of 2026-08-30, when the 172-violation backlog was cleared. 159 of those were `ng lint --fix`; the 13 judgement calls are described in the commit that cleared them.
 
 The site used to be published by committing a production build into `docs/` (`npm run build-prod` + a "Publish changes" commit) and pointing Pages at that directory. Both the directory and the script are gone as of the first Actions deploy (run 33307156204, 2026-08-30) — never re-add a committed build artifact. Old commits still contain `docs/`, so `git log`/`git blame` over that path will turn up ~2300 files of generated output; ignore them.
 
@@ -162,4 +162,4 @@ In [scripts/images/](scripts/images/); requires ImageMagick / cwebp / OpenCV and
 
 - Semicolons are omitted in TypeScript. Store files use 4-space indentation; components use 2-space.
 - Card fields are accessed by their human-readable spreadsheet names (`card['Egg limit']`, `card['Nest type']`, `card['Victory points']`) — bracket notation with spaces is normal here.
-- tslint config exists and is `tslint:recommended`-based, but the lint target can't run (see above).
+- tslint config is `tslint:recommended` plus `semicolon: never`, `quotemark: single`, `object-literal-key-quotes: as-needed`, `max-line-length: 140` and the codelyzer rules; directive selectors must therefore be `app`-prefixed camelCase (`appLinkWatcher`, `appFitText`).

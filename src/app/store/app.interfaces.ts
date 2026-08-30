@@ -21,7 +21,7 @@ export interface AppState {
 export interface BirdCard {
     id: number
     'Common name': string
-    'Native name': String
+    'Native name': string
     'Scientific name': string
     Set: ExpansionType
     Pack: PackType
@@ -132,7 +132,7 @@ export const LeftBeakDirections = [
     BeakDirection.Left,
     BeakDirection.LeftLeft,
     BeakDirection.LeftRight
-];
+]
 
 export const RightBeakDirections = [
     BeakDirection.LeftRight,

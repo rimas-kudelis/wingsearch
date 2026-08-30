@@ -32,7 +32,7 @@ export class AppEffects {
                   promoUS: this.cookies.getCookie('expansion.promoUS') !== '0'
               }
               return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
-                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion, promoPack: promoPack }))
+                map((data) => ({ type: '[App] Set language', payload: data, language, expansion, promoPack }))
               )
             }
             else

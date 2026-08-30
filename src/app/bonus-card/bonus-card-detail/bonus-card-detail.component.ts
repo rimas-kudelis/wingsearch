@@ -43,7 +43,7 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
         this.birds = birds
         this.compatibleBirdIds = birds.filter((bird) => bonusSearchMap[this.data.card.id].callbackfn(bird)).map(bird => bird.id)
       }),
-      flatMap(() => this.store.select(({ app }) =>app.bonusCards.map(dynamicPercentage(this.birds, app.expansion)))),
+      flatMap(() => this.store.select(({ app }) => app.bonusCards.map(dynamicPercentage(this.birds, app.expansion)))),
       map(cards => cards.filter(card => card['VP Average'] && card.id !== this.data.card.id)
         .map(bonus => ({
           ...bonus,

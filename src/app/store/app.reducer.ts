@@ -62,7 +62,7 @@ const eatsMustNotFood = (card: BirdCard, mustNotFood: string[]): boolean => {
         (!mustNotFood.includes('no-food') || birdFood.length > 0)
 }
 
-const cookies: CookiesService = new CookiesService();
+const cookies: CookiesService = new CookiesService()
 
 export const initialState: AppState = {
     // @ts-ignore
@@ -192,7 +192,7 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || card['Wingspan'] === '*' || (action.wingspan.min <= card['Wingspan'] && action.wingspan.max >= card['Wingspan'])
+            isBonusCard(card) || card.Wingspan === '*' || (action.wingspan.min <= card.Wingspan && action.wingspan.max >= card.Wingspan)
         )
 
         displayedCards = displayedCards.filter(card =>
@@ -204,7 +204,7 @@ const reducer = createReducer(
             || (action.beak?.left && action.beak?.right)
             || (action.beak?.left && LeftBeakDirections.includes(card['Beak direction']))
             || (action.beak?.right && RightBeakDirections.includes(card['Beak direction']))
-            || (!action.beak?.left && !action.beak?.right && card['Beak direction'] == BeakDirection.Neither)
+            || (!action.beak?.left && !action.beak?.right && card['Beak direction'] === BeakDirection.Neither)
         )
 
         displayedCards = displayedCards.filter(card =>
@@ -290,8 +290,9 @@ const reducer = createReducer(
         }
 
         const translateBonuses = (card: BonusCard) => {
-            const renameKeys = {'Name': 'Bonus card'}
-            const translated = Object.keys(action.payload.bonuses[card.id] || {}).reduce((acc, key) => ({...acc, [renameKeys[key] || key]: action.payload.bonuses[card.id][key]}), {})
+            const renameKeys = {Name: 'Bonus card'}
+            const translated = Object.keys(action.payload.bonuses[card.id] || {}).reduce((acc, key) =>
+                ({...acc, [renameKeys[key] || key]: action.payload.bonuses[card.id][key]}), {})
             const translatedKeys = ['Bonus card', 'Condition', 'Explanatory text', 'VP', 'Note']
             const englishBonus = englishBonusCardsMap[card.id]
 

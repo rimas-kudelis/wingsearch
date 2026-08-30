@@ -7,7 +7,7 @@ export class IconizePipe implements PipeTransform {
 
   private static readonly NON_SEPARATION_SPECIAL_CHARACTERS = ['\\.', ',', ';', '\\-', '\\_', '\\)']
 
-  static nonSeparationSpecialCharactersRegex: string = IconizePipe.NON_SEPARATION_SPECIAL_CHARACTERS.join('|');
+  static nonSeparationSpecialCharactersRegex: string = IconizePipe.NON_SEPARATION_SPECIAL_CHARACTERS.join('|')
 
   private readonly BASE_HTML_STRING = `
   <picture class="icon-picture">
@@ -19,36 +19,38 @@ export class IconizePipe implements PipeTransform {
   private readonly NOBR_HTML_STRING = `<span class="nobr">` + this.BASE_HTML_STRING + `$2` + `</span>`
 
   private readonly DARK_MAP = {
-    'seed': 'seed-dark'
+    seed: 'seed-dark'
   }
 
   private readonly GLOW_MAP = {
-    'forest': 'forest-glow',
-    'grassland': 'grassland-glow',
-    'wetland': 'wetland-glow',
-    'seed': 'seed-glow',
+    forest: 'forest-glow',
+    grassland: 'grassland-glow',
+    wetland: 'wetland-glow',
+    seed: 'seed-glow',
     'seed-dark': 'seed-dark-glow',
-    'invertebrate': 'invertebrate-glow',
-    'fish': 'fish-glow',
-    'fruit': 'fruit-glow',
-    'rodent': 'rodent-glow',
-    'nectar': 'nectar-glow',
-    'wild': 'wild-glow'
+    invertebrate: 'invertebrate-glow',
+    fish: 'fish-glow',
+    fruit: 'fruit-glow',
+    rodent: 'rodent-glow',
+    nectar: 'nectar-glow',
+    wild: 'wild-glow'
   }
 
   transform(value: string, dark = false, glow = false): string {
+    const marker = '\\[([a-z\\-\\_]+)\\]'
+    const specials = IconizePipe.nonSeparationSpecialCharactersRegex
     let result = value && value
-      .replace(new RegExp('\\[([a-z\\-\\_]+)\\]' + '(?!' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.BASE_HTML_STRING)
-      .replace(new RegExp('\\[([a-z\\-\\_]+)\\]' + '(' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.NOBR_HTML_STRING)
+      .replace(new RegExp(marker + '(?!' + specials + ')', 'g'), this.BASE_HTML_STRING)
+      .replace(new RegExp(marker + '(' + specials + ')', 'g'), this.NOBR_HTML_STRING)
 
     if (dark)
-      Object.entries(this.DARK_MAP).forEach(([key, value]) =>
-        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(key + suffix, "g"), value + suffix))
+      Object.entries(this.DARK_MAP).forEach(([icon, variant]) =>
+        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(icon + suffix, 'g'), variant + suffix))
       )
-    
+
     if (glow)
-      Object.entries(this.GLOW_MAP).forEach(([key, value]) =>
-        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(key + suffix, "g"), value + suffix))
+      Object.entries(this.GLOW_MAP).forEach(([icon, variant]) =>
+        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(icon + suffix, 'g'), variant + suffix))
       )
 
     return result
