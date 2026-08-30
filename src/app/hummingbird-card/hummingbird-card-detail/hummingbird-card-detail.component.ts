@@ -1,7 +1,7 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
+import { Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
-import { BehaviorSubject, Observable } from 'rxjs'
+import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
 import { bonusSearchMap } from '../../store/bonus-search-map'
@@ -13,7 +13,7 @@ import { DomSanitizer } from '@angular/platform-browser'
   templateUrl: './hummingbird-card-detail.component.html',
   styleUrls: ['./hummingbird-card-detail.component.scss']
 })
-export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
+export class HummingbirdCardDetailComponent implements OnInit {
   data = inject<{
     card: BirdCard;
 }>(MAT_DIALOG_DATA)
@@ -22,16 +22,12 @@ export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
 }>>(Store)
   private sanitizer = inject(DomSanitizer)
 
-  @ViewChild('cardElement', { read: ElementRef })
-  cardElement: ElementRef
   @ViewChild('cardWrapper', { read: ElementRef })
   cardWrapper: ElementRef
   @ViewChild('carousel', { read: ElementRef })
   carousel: ElementRef
 
   layout: 'desktop' | 'mobile'
-  cardHeight$ = new BehaviorSubject<number>(0)
-  bonusCardHeight$ = new BehaviorSubject<number>(0)
   bonusCards$: Observable<BonusCard[]>
 
   ngOnInit(): void {
@@ -52,19 +48,11 @@ export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
     this.carousel?.nativeElement.scroll(0, 0)
   }
 
-  ngAfterViewInit(): void {
-    setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
-    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
-  }
-
-  calcBonusCardHeight(): number {
-    return (this.layout === 'desktop') ? window.innerWidth / 5 * 1.50 : this.cardHeight$.value
-  }
-
+  // The card and carousel sizes are pure CSS now; only the layout switch is left, and it has to
+  // stay in TypeScript because the template branches on it (the stats strip moves inside the card
+  // on mobile, and the close-target column disappears).
   onResize(event) {
     this.layout = this.calculateLayout(event.target.innerWidth)
-    setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
-    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
   }
 
   calculateLayout(width): 'desktop' | 'mobile' {
@@ -72,28 +60,5 @@ export class HummingbirdCardDetailComponent implements OnInit, AfterViewInit {
       return 'mobile'
     else
       return 'desktop'
-  }
-
-  bonusCardStyle(i: number) {
-    return this.bonusCardHeight$.pipe(
-      map(height => {
-        const styles = { 'height.px': height, 'z-index': i }
-        if (this.layout === 'desktop')
-          return { 'border-radius.px': height * 0.025, ...styles }
-        else
-          return { 'border-top-left-radius.px': height * 0.025, 'border-top-right-radius.px': height * 0.025, ...styles }
-      })
-    )
-  }
-
-  cardStatsStyle() {
-    return this.bonusCardHeight$.pipe(
-      map(height => {
-        if (this.layout === 'desktop')
-          return {}
-        else
-          return { 'border-bottom-left-radius.px': height * 0.025, 'border-bottom-right-radius.px': height * 0.025 }
-      })
-    )
   }
 }

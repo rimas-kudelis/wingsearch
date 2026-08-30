@@ -22,6 +22,11 @@
     max-width: 400px;
     min-width: 250px;
     width: 35vw;
+    // 2.5% of the card's height, which was an `offsetHeight` read piped through `cardHeight$`. The
+    // card is `35vw * 1.56` clamped the same way its width is, so the radius is `1.365vw` between
+    // 9.75px and 15.6px. (`offsetHeight` rounds to whole pixels, so the old value was 10.925px
+    // where 436.8px * 0.025 is 10.92px -- the CSS one is the accurate one.)
+    border-radius: clamp(9.75px, 1.365vw, 15.6px);
     background-color: #f5f6f1;
     padding: 0;
     z-index: 1000;
@@ -30,6 +35,12 @@
 
 .card-content {
     width: 100%;
+    // `.card-wrapper` is a scrolling flex column (mat-card, `max-height: 90vh`) and the card is the
+    // only shrinkable item in it, so a bird with a long appendix used to squash the card itself:
+    // 400x624 collapsed to 400x390, its `min-height` floor, an aspect ratio of 1.03 instead of
+    // 1.56. Now the panel scrolls, which is what its `overflow-y: auto` is for -- and the card's
+    // height becomes a pure function of the viewport, which is what lets the radius above be CSS.
+    flex-shrink: 0;
     height: 35vw * 1.56;
     max-height: 400px * 1.56;
     min-height: 250px * 1.56;
@@ -68,6 +79,8 @@
 
     .card-wrapper {
         width: 80vw;
+        // The same 2.5%, against the mobile card height of `80vw * 1.56`.
+        border-radius: clamp(9.75px, 3.12vw, 15.6px);
     }
 
     .flex-content {
@@ -182,7 +195,11 @@ button {
 }
 
 .bonus-card-wrapper {
-    border-radius: 4px;
+    // `window.innerWidth / 5 * 1.50` in CSS -- five carousel cards across, at the 1:1.5 the
+    // carousel draws them -- with the same 2.5% radius as the main card. This came from
+    // `bonusCardHeight$` via a fresh Observable built per item on every change detection pass.
+    height: 30vw;
+    border-radius: 0.75vw;
     background-color: #f5f6f1;
     transition: .2s;
     // The carousel scrolls, so these keep the height the component gives them. Spelling that out
@@ -279,8 +296,11 @@ button {
     }
 
     .bonus-card-wrapper {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        // Mobile stacks the carousel under the card and matches the card's height, so this is the
+        // same expression `.card-content` gets, and only the top corners are rounded -- the stats
+        // strip below carries the bottom two.
+        height: clamp(390px, 124.8vw, 624px);
+        border-radius: clamp(9.75px, 3.12vw, 15.6px) clamp(9.75px, 3.12vw, 15.6px) 0 0;
     }
 
     .bonus-card-stats {
@@ -289,7 +309,7 @@ button {
         width: -webkit-fill-available;
         background-color: #f5f6f1;
         padding: 4px;
-        border-radius: 0 0 4px 4px;
+        border-radius: 0 0 clamp(9.75px, 3.12vw, 15.6px) clamp(9.75px, 3.12vw, 15.6px);
         font-size: 1.5em;
 
         .bonus-card-vp-average {

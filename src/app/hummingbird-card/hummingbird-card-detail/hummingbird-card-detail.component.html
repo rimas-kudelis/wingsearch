@@ -1,7 +1,7 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
   <div class="flex-content">
-    <mat-card #cardWrapper class="card-wrapper" [ngStyle]="{'border-radius.px': (cardHeight$ | async) * 0.025}">
-      <div #cardElement class="card-content">
+    <mat-card #cardWrapper class="card-wrapper">
+      <div class="card-content">
         <app-hummingbird-card [card]="data.card"></app-hummingbird-card>
       </div>
       @if (data.card.Note) {
@@ -70,10 +70,9 @@
       </div>
       <div #carousel class="carousel">
         @for (bonus of bonusCards$ | async; track bonus; let i = $index) {
-          <div #bonusCardElement class="bonus-card-wrapper"
-            [ngStyle]="bonusCardStyle(i) | async">
+          <div class="bonus-card-wrapper" [style.z-index]="i">
             <app-bonus-card [card]="bonus"></app-bonus-card>
-            <div class="bonus-card-stats" [ngStyle]="cardStatsStyle() | async">
+            <div class="bonus-card-stats">
               @if (layout !== 'mobile') {
                 <div class="bonus-card-title">{{bonus['Bonus card']}}</div>
               }
