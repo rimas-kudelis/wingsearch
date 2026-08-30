@@ -27,9 +27,15 @@ The notebook reads it as columns `id, general, specific, text, source`:
 **34 rows are general** (col 2 blank) and **152 are named**. The 34 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
 *position* `0`–`33`, not by ruling id — so you cannot look a general ruling up by id
-there. That file is generated but unused at runtime. `general_rulings_map.py` supplies
-predicates for only 30 of the 34; the notebook prints `Rule X not yet implemented` for
-the rest.
+there. That file is generated but unused at runtime.
+
+Those 34 general rows carry only **30 distinct ids**: `20201003` and `20201116a` appear
+twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
+row sharing that id — one predicate can deliver two or three separate rulings.
+`general_rulings_map.py` covers all 30 ids exactly, with none left over in either
+direction, so the notebook's `Rule X not yet implemented` branch never fires. But the 13
+`lambda row: False` stubs suppress **17** rulings rather than 13, because three of those
+stubbed ids are multi-row.
 
 - **Named rulings** (col 2 filled) attach to exactly that card → `card.rulings`.
   One ruling id may repeat across many rows to hit many cards (e.g. `02a` appears for
@@ -60,15 +66,29 @@ New rulings should therefore be numbered from their source comment's date.
 The existing corpus cites, in order of volume: facebook 66, boardgamegeek 63,
 stonemaiergames 44, discord 4.
 
-Authors treated as authoritative (**needs Matej's confirmation before being used as an
-allowlist**):
+### The allowlist
 
-- **Jamey Stegmaier** — publisher (Stonemaier Games). Answers most FAQ comments.
-- **Elizabeth Hargrave** — designer.
-- **Joe Aubrey** — community answerer; authored comment 37710, which Matej cited as the
-  source for ruling `20200404`. Proof that the allowlist is *not* just official staff.
+Derived by measurement over the 4,586 fetched comments (`fetch_stonemaier.py`), not by
+reputation: every author was ranked by how often they reply to *someone else* — the signal
+that separates answerers from askers — and the top names were then read. The live list is
+`rulings_corpus.TRUSTED`.
 
-Being on the allowlist is necessary, not sufficient — see §4.
+Measurement gets you candidates, not standing. Every name below is either confirmed
+Stonemaier/designer staff or explicitly rejected; where the two disagreed, the confirmation
+won (Joe Aubrey looked like a fan from the comments alone, and is not one).
+
+| author | answers | verdict |
+|---|---:|---|
+| `Jamey Stegmaier` | 1464 | publisher. Trusted. |
+| `jameystegmaier` | 5 | **the same person, second account.** Answers real rulings ("It's upside down, so none of the content on the tucked card matters"). Easy to miss — match both. |
+| `Joe Aubrey` | 337 | **Stonemaier official** (confirmed by Matej, 2026-08-30 — do not downgrade him to "trusted community member"). His answers carry the same weight as Jamey's. The comment record agrees: never once corrected in 337 answers (Jamey's only two replies are thanks), and the designer backs him explicitly — *"I'll just chime in to back up Joe on this one."* — Elizabeth Hargrave, 2020-04-20. |
+| `Elizabeth Hargrave` | 2 | designer. **Exact string only.** A *different* person posts as bare `Elizabeth` and is asking a question about the Pileated Woodpecker, not answering one. |
+| `David Studley`, `studleygamer` | 30 | same person, designs the **Automa** (solo mode) and signs as the Automa Team; never corrected. Authoritative, but almost entirely about solo play, which wingsearch does not cover. Kept in a separate `TRUSTED_AUTOMA` set so an Automa answer cannot silently become a card ruling. |
+| `Lauren` (50), `Caracara` (22), `Marc Stephens` (16) | — | rejected. High reply counts, but reading the comments they are conversational community members, not answerers. Volume alone is a bad proxy. |
+
+Being on the allowlist is necessary, not sufficient — see §4. An authoritative author can
+still be answering a shipping question, speculating about a future expansion, or agreeing
+with a wrong premise.
 
 ---
 
@@ -103,7 +123,7 @@ cards released after early 2021** (Asia, Americas, and 150 promo birds):
 did not exist when the predicates were written.** Roughly half the fan-out is unreviewed.
 
 That table is the *pre-audit* state, kept because it is what the predicates still generate
-— the audit narrows the result afterwards. See §7 for what it narrowed to.
+— the audit narrows the result afterwards. See §8 for what it narrowed to.
 
 ### Worked example: `20200404`, the 474-card fan-out
 
@@ -224,7 +244,62 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
 
 ---
 
-## 7. The 2026-08-30 applicability audit
+## 7. Target model: one reviewed "Rulings" list per bird
+
+**This section is direction, not description. Nothing here is built yet.** It is written for
+the future agent that will go bird by bird and curate that bird's rulings, so it states
+Matej's intent (2026-08-30) rather than current behaviour.
+
+Today a bird's card detail shows two lists: `rulings` (researched for that specific bird)
+and `additionalRulings` (generic rules fanned out by predicate), the second after the first.
+The split exists only because the second list is not trustworthy per-bird — it is a
+category of *provenance*, which is an implementation detail leaking into the UI. Players
+want to know what is true for the bird in front of them, not which mechanism attached it.
+
+**The target: a single "Rulings" section per bird.** The precondition is that every entry has
+been reviewed *for that bird* rather than generically applied. So merging the two lists is
+the last step of the per-bird review, not a display change that can be made first — merge
+early and generic noise becomes indistinguishable from researched content, which is worse
+than the current honest split.
+
+### Ordering: least obvious first
+
+Cell 5 currently sorts `additionalRulings` by how many birds the rule matched, ascending,
+using rarity as a proxy for specificity. That proxy is weak. The intent is **least obvious
+first**: the ruling a competent player is most likely to get *wrong* about this bird goes
+top, and rules that merely restate what the card already implies go last.
+
+This is a per-bird judgement and cannot be computed from fan-out counts. Some signals:
+
+- A ruling that *contradicts* a natural reading of the card text is maximally non-obvious.
+- A ruling covering an interaction with another card or a later expansion's mechanic ranks
+  above one about the card in isolation.
+- A ruling that only says "yes, the obvious reading is correct" ranks last.
+- A ruling saying an option is *unavailable* on a card where it never looked available
+  ranks last — see `20190601` below.
+
+**`20190601` is settled: keep it, rank it last.** Matej's decision — the rule ("you may only
+reroll when gaining food from the birdfeeder, not from the supply") is largely obsolete, but
+it should stay attached to all ~104 supply-gaining birds for consistency rather than being
+present on 27 and absent on 77 indistinguishable cards. It is the archetype of a
+low-priority ruling: technically true, never surprising. The override in
+`rulings-applicability-overrides.json` keeps it attached; the ordering half is not
+implemented.
+
+### What has to change first
+
+Cell 5 **deletes the ruling `id`** before writing `master.json` (§1), so shipped entries are
+`{text, source}` with no stable handle. A per-bird ordering cannot be expressed — there is
+nothing to key it to, and text prefixes are fragile. **Preserve the id through to
+`master.json` before attempting any of this.** That single change also restores traceability
+from the site back to a TSV row, which nothing currently has.
+
+Note `src/app/store/rulings.spec.ts` pins per-ruling attachment counts by text prefix
+precisely because the id is missing; once ids survive, that spec should key on them instead.
+
+---
+
+## 8. The 2026-08-30 applicability audit
 
 `audit_rulings.py` judged all 973 candidate (ruling, card) pairs with
 `us.anthropic.claude-opus-5` on Bedrock — 51 calls, 23 minutes, $3.58 — writing
@@ -291,3 +366,103 @@ which keeps CI hermetic and free. Hand corrections go in
 `src/app/store/rulings.spec.ts` pins the resulting per-ruling attachment counts, so a
 regenerated `master.json` or an edited predicate fails CI rather than quietly changing what
 players read.
+
+---
+
+## 9. The 2026-08-30 Stonemaier ingestion
+
+Phase 2 of Track B: the audit in §8 fixed *over*-application of the rulings we had; this
+adds the ones we never had. Coverage before was 98 of 707 birds, nothing at all for Asia,
+Americas or any promo pack, and nothing dated after March 2021.
+
+### Pipeline
+
+Three scripts, each doing one thing, and only the middle one costs money:
+
+1. `fetch_stonemaier.py` — pulls every comment from the six Wingspan FAQ pages through
+   WordPress's open REST API into `stonemaier-comments.json` (**4,586 comments**,
+   2018-12-07 → 2026-08-30, 1,753 threads). Incremental, so re-running costs only what is
+   new. Wyrmspan (post 26515) is deliberately excluded: different game, different rules.
+2. `rulings_corpus.py` — deterministic reading: thread rooting via each comment's
+   `parent`, the trusted-author check (§2), card-name matching. Kept free of anything
+   billable so it can be inspected and re-measured at will.
+3. `propose_rulings.py` — the one Bedrock stage. Judges four threads per call against the
+   cards named in them *and the rulings those cards already have*, and writes
+   `rulings-proposals.json`.
+
+`rulings-proposals.json` is a **review queue, not an edit**. Nothing reaches the TSV until
+a proposal is marked `"review": "accept"` and `--emit-tsv` prints the rows. Same principle
+as §8: the model proposes, a reviewed artifact decides, and no LLM ever runs in the build.
+
+### Yield
+
+Of 1,753 threads, 1,489 have a reply from a trusted author. Filtering to those that name a
+card and are not already cited in the TSV leaves **452 candidates**, judged for ~$13:
+
+| | |
+|---|---:|
+| threads judged | 459 |
+| became a proposed ruling | 323 |
+| already covered by an existing ruling (`duplicates`) | 70 |
+| rejected as not a ruling | 102 |
+| after clustering restatements | **314 distinct** |
+| TSV rows they would produce | 424 |
+| cards touched | 233 |
+| cards going from *no* ruling to having one | 173 |
+
+Per set, birds with at least one ruling: core 51 → 90, european 38 → 55, oceania 9 → 41,
+**asia 0 → 35, americas 0 → 16**, promo 0 → 12, bonus cards 12 → 34. Americas stays thin
+because its FAQ page is the newest and yields only 19 candidate threads — that gap is a
+sourcing problem, not a pipeline one.
+
+### Four bugs this phase found, all of them in my own code
+
+Worth reading before extending any of this, because each was invisible in the output until
+it was measured:
+
+- **`Bird Feeder` is a bonus card *and* the dice tower.** 142 mentions, nearly all the
+  component ("roll the dice not in the bird feeder"), dragging 38 threads into the queue on
+  a false positive. Now in `rulings_corpus.AMBIGUOUS`: such names only count when the
+  thread visibly discusses bonus cards.
+- **Diacritics broke recall on exactly the sets that needed it most.** Seven cards are
+  spelled with macrons — `Tūī`, `Kākāpō`, `Kererū`, `Pūkeko`, `North Island Kōkako`,
+  `South Island Takahē`, `Chiloé Wigeon` — and almost nobody types them that way. Matching
+  unfolded found `Tūī` 10 times; folded finds 36. All NZ/Oceania.
+- **Hyphens are optional in the wild.** 176 card names are hyphenated and people drop them
+  ("California Scrub Jay"). Hyphen and space are now equivalent.
+- **A thread can hold two unrelated questions.** People reply to a stranger's comment to
+  ask something new, so WordPress threading is correct but a thread is not one Q&A. Taking
+  "the last official comment" as the source miscited **23 of 115** multi-answer threads.
+  The model now reports `source_comment` explicitly and it is validated against the thread.
+
+The general lesson matches §8's: the deterministic half of the pipeline is where the silent
+errors live. The model's judgement was good; my regexes were not. Measure recall against
+the raw corpus rather than trusting that a name matcher matches names.
+
+### Two things the model cannot do, by construction
+
+- **Cross-thread duplicates.** Four threads per call means it cannot know the same question
+  was answered in 2020 and again in 2023. `cluster()` groups near-identical proposals that
+  share a card — it found the Galah "is the tuck conditional?" question **asked and answered
+  six separate times over five years**. It cannot catch restatements that share no card, so
+  the same rule proposed for `Lineated Woodpecker` and for `Great Kiskadee`/`Tropical
+  Kingbird` (identical powers) arrives as two proposals.
+- **Wingspan Pocket.** Pocket reworks card texts and wingsearch carries no Pocket cards, so
+  a Pocket thread's card names resolve to full-game cards with different powers. The prompt
+  tells the model to propose from a Pocket thread only where the rule holds in the full
+  game, and it does decline correctly — but only 5 of 452 candidates come from that page, so
+  this is a small risk either way.
+
+### Re-running
+
+    export AWS_PROFILE=...
+    python3 fetch_stonemaier.py                 # refresh the comment corpus
+    python3 propose_rulings.py --dry-run        # what would be judged
+    python3 propose_rulings.py --limit 12       # validate on a few and read them
+    python3 propose_rulings.py                  # judge the rest (~$0.09/call, 4 threads)
+    python3 propose_rulings.py --emit-tsv       # rows for accepted proposals
+
+Read the output before scaling: the first 12-thread run had every ruling scoped `general`
+and inconsistent markup, both fixed by sharpening the prompt rather than by post-processing.
+`validate()` catches markup that would reach a player literally — an icon marker the app
+does not ship renders as the text `[food]`.
