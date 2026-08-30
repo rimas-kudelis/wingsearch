@@ -34,5 +34,17 @@
       "gains instead and re-audit. See domain-knowledge.md open questions."
     ],
     "excluded": {}
+  },
+
+  "20200712": {
+    "_why": [
+      "'\"Trading\" counts as \"spending\".' The predicate is every bird with a trade power,",
+      "which is Green Heron, Surfbird and Wattled Jacana. Green Heron already carries this",
+      "exact sentence as a named ruling with its own source, so attaching the general one",
+      "too would print it twice on the one card players actually look at."
+    ],
+    "excluded": {
+      "Green Heron": "duplicates its own named ruling, which cites a different comment"
+    }
   }
 }

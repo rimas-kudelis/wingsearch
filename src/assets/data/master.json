@@ -639,6 +639,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
@@ -2472,6 +2476,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
@@ -2887,6 +2895,14 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Cards discarded to the discard pile are placed face up.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
+        "text":"Players may look through the discard pile at any time.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -3540,7 +3556,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -4289,6 +4308,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
@@ -6506,6 +6529,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       },
@@ -6772,6 +6799,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -7687,7 +7718,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -10011,7 +10045,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -11044,6 +11081,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -11529,7 +11570,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -11789,6 +11833,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
       {
         "text":"This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
@@ -12210,6 +12258,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       },
@@ -12293,7 +12345,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -12986,6 +13041,10 @@
       {
         "text":"If you use a bird's power to play in the same habitat a bird an alternative food cost specified via an asterisk next to its food cost, you may pay the alternative cost (which thus counts as paying the bird's <i>\"normal food cost\"<\/i>) instead of paying its food cost.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/709127448922423368"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
       }
     ]
   },
@@ -13225,6 +13284,14 @@
     ],
     "additionalRulings":[
       {
+        "text":"Cards discarded to the discard pile are placed face up.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
+        "text":"Players may look through the discard pile at any time.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       }
@@ -13307,6 +13374,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
@@ -13734,7 +13805,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -14299,7 +14373,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -16460,6 +16537,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -19110,6 +19191,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
+      {
         "text":"This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
       },
@@ -19215,6 +19300,10 @@
       {
         "text":"If you use a bird's power to play in the same habitat a bird an alternative food cost specified via an asterisk next to its food cost, you may pay the alternative cost (which thus counts as paying the bird's <i>\"normal food cost\"<\/i>) instead of paying its food cost.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/709127448922423368"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
       }
     ]
   },
@@ -19883,6 +19972,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -20937,7 +21030,14 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Cards discarded to the discard pile are placed face up.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
+        "text":"Players may look through the discard pile at any time.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      }
     ]
   },
   {
@@ -21529,6 +21629,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
@@ -23328,7 +23432,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -23492,7 +23599,22 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong applink=\"\/card\/148\">Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -25139,7 +25261,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -25300,7 +25425,10 @@
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"This bird counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card: <i>prairie<\/i> is a qualifying keyword. (Early printings of that bonus card did not list it; the omission was corrected in print by December 2019.)",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      }
     ],
     "additionalRulings":[
       {
@@ -25383,7 +25511,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -25697,6 +25828,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
@@ -26107,6 +26242,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -26698,6 +26837,10 @@
       }
     ],
     "additionalRulings":[
+      {
+        "text":"A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+      },
       {
         "text":"This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
@@ -27566,7 +27709,18 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong applink=\"\/card\/148\">Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      }
     ]
   },
   {
@@ -28930,6 +29084,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
       },
@@ -29103,7 +29261,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -29350,7 +29511,14 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Cards discarded to the discard pile are placed face up.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
+        "text":"Players may look through the discard pile at any time.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      }
     ]
   },
   {
@@ -30414,7 +30582,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -30929,7 +31100,10 @@
     "Note":null,
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"This bird counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card: <i>prairie<\/i> is a qualifying keyword. (Early printings of that bonus card did not list it; the omission was corrected in print by December 2019.)",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      }
     ],
     "additionalRulings":[
       {
@@ -31588,6 +31762,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -32340,6 +32518,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
@@ -32678,6 +32860,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -33176,6 +33362,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
       },
@@ -33668,7 +33858,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -34433,6 +34626,10 @@
       {
         "text":"If you use a bird's power to play in the same habitat a bird an alternative food cost specified via an asterisk next to its food cost, you may pay the alternative cost (which thus counts as paying the bird's <i>\"normal food cost\"<\/i>) instead of paying its food cost.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/709127448922423368"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
       }
     ]
   },
@@ -35078,7 +35275,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -36563,7 +36763,22 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong applink=\"\/card\/148\">Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      }
     ]
   },
   {
@@ -39216,6 +39431,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -39712,7 +39931,10 @@
     "Note":null,
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"This bird counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card: <i>prairie<\/i> is a qualifying keyword. (Early printings of that bonus card did not list it; the omission was corrected in print by December 2019.)",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      }
     ],
     "additionalRulings":[
 
@@ -40767,6 +40989,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -41040,6 +41266,10 @@
       {
         "text":"If you use a bird's power to play in the same habitat a bird an alternative food cost specified via an asterisk next to its food cost, you may pay the alternative cost (which thus counts as paying the bird's <i>\"normal food cost\"<\/i>) instead of paying its food cost.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/709127448922423368"
+      },
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
       }
     ]
   },
@@ -41612,6 +41842,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -43262,6 +43496,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
       },
@@ -44163,7 +44401,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -45576,6 +45817,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       },
@@ -46098,6 +46343,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -46257,6 +46506,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -47317,6 +47570,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
       },
@@ -48175,6 +48432,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -49453,7 +49714,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -51402,7 +51666,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -51479,6 +51746,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Trading\"<\/i> (e.g., when using the <strong applink=\"\/card\/141\">Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -52517,6 +52788,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -53307,7 +53582,10 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+      }
     ]
   },
   {
@@ -53544,6 +53822,14 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"Cards discarded to the discard pile are placed face up.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
+      {
+        "text":"Players may look through the discard pile at any time.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -54106,9 +54392,17 @@
       {
         "text":"This bird's power may be used to lay an [egg] on a bird with an egg limit of 0, since it allows going 2 over the egg limit.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-asia\/comment-page-15\/#comment-57767"
+      },
+      {
+        "text":"<i>Violet<\/i> is a qualifying keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, so <strong applink=\"\/card\/440\">Violet Cuckoo<\/strong> counts toward it.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980"
       }
     ],
     "additionalRulings":[
+      {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
       {
         "text":"You may use a pink power during another player's turn after your last turn of the game.",
         "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
@@ -54198,7 +54492,10 @@
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
     "CardType":"Bird",
     "rulings":[
-
+      {
+        "text":"<i>Violet<\/i> is a qualifying keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, though <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong> also contains <i>green<\/i>, so it counts either way.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980"
+      }
     ],
     "additionalRulings":[
       {
@@ -54361,7 +54658,10 @@
 
     ],
     "additionalRulings":[
-
+      {
+        "text":"<i>\"Trading\"<\/i> (e.g., when using the <strong applink=\"\/card\/141\">Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
+      }
     ]
   },
   {
@@ -54687,6 +54987,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -56723,6 +57027,10 @@
     ],
     "additionalRulings":[
       {
+        "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+      },
+      {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
       }
@@ -57949,6 +58257,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"

@@ -11,7 +11,7 @@ re-checked rather than trusted.
 
 ## 1. How rulings reach a card today
 
-Two kinds of ruling live in `scripts/rulings/rulings.tsv` (552 rows, **no header**,
+Two kinds of ruling live in `scripts/rulings/rulings.tsv` (549 rows, **no header**,
 tab-separated, 5 positional columns):
 
 The notebook reads it as columns `id, general, specific, text, source`:
@@ -24,18 +24,23 @@ The notebook reads it as columns `id, general, specific, text, source`:
 | 3 | `text` | ruling text (LaTeX-ish: `` ``quoted'' ``, `\textbf{}`, `\textit{}`, `---`, `--`) |
 | 4 | `source` | URL, or free text like "Card update pack." |
 
-**35 rows are general** (col 2 blank) and **510 are named**. The 35 general rulings are
+**35 rows are general** (col 2 blank) and **514 are named**. The 35 general rulings are
 also emitted verbatim to `src/assets/data/general.json` as `{name, text, source}` keyed by
 *position* `0`–`34`, not by ruling id — so you cannot look a general ruling up by id
 there. That file is generated but unused at runtime.
 
-Those 34 general rows carry only **30 distinct ids**: `20201003` and `20201116a` appear
+Those 35 general rows carry only **31 distinct ids**: `20201003` and `20201116a` appear
 twice each and `20210199a` three times. A predicate is keyed by *id*, so it attaches every
 row sharing that id — one predicate can deliver two or three separate rulings.
-`general_map.py` covers all 30 ids exactly, with none left over in either
-direction, so the notebook's `Rule X not yet implemented` branch never fires. But the 13
-`lambda row: False` stubs suppress **17** rulings rather than 13, because three of those
-stubbed ids are multi-row.
+`general_map.py` covers all 31 ids exactly, and the notebook now *asserts* that rather than
+printing `Rule X not yet implemented`: a general row with no predicate reaches no card, so
+it must fail the build, not scroll past.
+
+**6 ids remain `lambda row: False`**, each annotated with which of three reasons applies —
+`scope` (the ruling is about a bonus card, a goal tile or the game as a whole, and the
+predicate can only see birds), `glossary` (it defines a word rather than deciding a case),
+or `covered` (the card that needs it carries it as a named ruling). The other 7 stubs were
+implemented on 2026-08-30; see §3.
 
 - **Named rulings** (col 2 filled) attach to exactly that card → `card.rulings`.
   One ruling id may repeat across many rows to hit many cards (e.g. `02a` appears for
@@ -63,8 +68,11 @@ New rulings should therefore be numbered from their source comment's date.
 
 ## 2. Trust model
 
-The existing corpus cites, in order of volume: facebook 66, boardgamegeek 63,
-stonemaiergames 44, discord 4.
+The corpus cites, in order of volume: stonemaiergames 407, facebook 67, boardgamegeek 62,
+discord 4, and 9 rows citing a rulebook or the card update pack in prose. The Stonemaier
+share grew from 44 to 407 with the automated pipeline; the 67 Facebook rows are the
+pre-existing ones, and are the only citations a reader cannot follow without being logged
+in to the group.
 
 ### The allowlist
 
@@ -133,11 +141,24 @@ any plan that drops a ruling, so a model cannot delete one; deletions go through
 
 ## 3. Known failure modes in the current fan-out
 
-`general_map.py` holds 30 predicates. Only **13 actually match any card**:
+`general_map.py` holds 31 predicates. **25 match at least one card**:
 
-- **13 are literal `lambda row: False`** — parked, never implemented. One is annotated
-  `# TODO think about implementation for this one`. The rulings exist in the TSV and
-  reach nobody.
+- **7 of the 13 `lambda row: False` stubs were implemented on 2026-08-30**, taking the
+  fan-out from 18 rulings / 861 attachments to 28 / 941. `20191202` (a "counts double" card
+  in hand does not count) reuses `20210318`'s regex; `20200712` (trading counts as
+  spending), `20201003` (you may read the discard pile), `20210101` (giving is not
+  spending), `20210199a` (repeat of a copy power) and `20210199b` (a copy retains effects
+  until end of turn) key off the corresponding word in the power text; `20200109a` (your
+  actions affect only your own mat) matches powers acting on "any bird" or "another bird",
+  which is the wording that raises the question and the wording of American Avocet, the
+  ruling's own example.
+- **6 remain `False` on purpose**, and say so: `02c` (prairie), `20191203c` (violet) and
+  `20201009` (honey) are bonus-card keyword rulings that Cartographer and Photographer
+  already state on their own pages, and this map cannot reach a bonus card at all;
+  `20190122` is a goal tile, and `goals.json` is not read at runtime; `20201116a` is a
+  game-end sequencing rule belonging to no bird; `20201211` ("ability" means "power") is a
+  glossary entry. The three keyword rulings now also have named rows on the birds that
+  carry the keyword — including two prairie birds and two violet birds that had none.
 - **4 were broken by a casing typo — fixed 2026-08-30.** They tested
   `row['Color'] == 'Pink'`, but Color is stored lowercase (`brown` 409, `white` 138,
   `teal` 63, `pink` 51, `yellow` 40) and the notebook applies no normalisation to
@@ -275,7 +296,10 @@ deliberate (warning the reader) or inverted. **Do not silently "fix" it — ask.
    27/77 across indistinguishable cards when asked. Currently overridden back to status quo
    (all attached) in `applicability-overrides.json`, which explains how to resolve
    it either way. This is the one question that is blocking nothing but is worth a decision.
-3. The 13 `False` stubs: implement, or are some deliberately unfannable?
+3. ~~The 13 `False` stubs~~ — resolved 2026-08-30: 7 implemented, 6 deliberately
+   unfannable and annotated with why. What is left of this question is whether the three
+   bonus-card keyword rulings should stop being general rows at all, which depends on
+   question 4.
 4. Should general rulings be able to target hummingbird cards and bonus cards (§4.8)?
 5. 44 birds now show **no** rulings at all where they previously showed one (always the
    over-applied `20200404`). Is "no rulings" the right presentation, or should the card
