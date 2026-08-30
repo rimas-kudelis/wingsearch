@@ -34,7 +34,6 @@ import { HummingbirdCardComponent } from './hummingbird-card/hummingbird-card.co
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
 import { IconizePipe } from './iconize.pipe'
 import { StatsComponent } from './stats/stats.component'
-import { CardDetailComponent } from './card-detail/card-detail.component'
 import { CookiesService } from './cookies.service'
 import { AnalyticsService } from './analytics.service'
 import { ConsentComponent } from './consent/consent.component'
@@ -61,7 +60,6 @@ import { SafePipe } from './safe.pipe'
     BonusCardComponent,
     IconizePipe,
     StatsComponent,
-    CardDetailComponent,
     ConsentComponent,
     BirdCardDetailComponent,
     BonusCardDetailComponent,
