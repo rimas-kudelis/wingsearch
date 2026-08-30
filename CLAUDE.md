@@ -17,7 +17,6 @@ npm test               # specs in watch mode
 npm run lint           # tslint; currently reports 172 pre-existing violations
 npm run preview        # build + serve an exact production replica (see below)
 npm run build-pages    # production build into dist/wingsearch (what CI deploys)
-npm run build-prod     # legacy: production build into docs/
 ```
 
 Docker alternative (avoids installing Node 14 locally): `docker compose up` serves the dev server on `$WEB_PORT` (default 8080) with `src/` mounted read-only.
@@ -40,7 +39,7 @@ Angular schematics are configured with `skipTests: true`, so generated component
 
 Lint is `continue-on-error` because of the 172-violation backlog. Clear it, then make it blocking.
 
-`docs/` is a committed build artifact from the old manual workflow (`npm run build-prod` + a "Publish changes" commit). The Pages source has been switched to GitHub Actions, so `docs/` is no longer the deploy source — but the last branch-based deployment is what's still live until the first Actions deploy replaces it. Delete `docs/` only after an approved CI deploy succeeds. Don't hand-edit it, and don't add to it.
+The site used to be published by committing a production build into `docs/` (`npm run build-prod` + a "Publish changes" commit) and pointing Pages at that directory. Both the directory and the script are gone as of the first Actions deploy (run 33307156204, 2026-08-30) — never re-add a committed build artifact. Old commits still contain `docs/`, so `git log`/`git blame` over that path will turn up ~2300 files of generated output; ignore them.
 
 ## Architecture
 
