@@ -543,6 +543,44 @@ evidence of a rules change.** Check both against their sources before believing 
 Rejected rulings and the reasons are recorded permanently in `rejections.json`, which also
 blocks the comment from being re-proposed.
 
+### A hedge attached to a condition is not a hedge you can drop
+
+`"Yes, unless X"` is not a yes. `20201206` published Jamey's *"based on the information you
+provided, yes, it counts"* as a flat conclusion and dropped what followed it: *"However, if
+the ability on the Spangled Drongo looks for other players to gain nectar while taking the
+'gain food' action, it would not count."* Dropping the `unless` publishes a stronger claim
+than the author made.
+
+The condition is usually answerable, and the corpus usually answers it — here comment 109108,
+four years later, established that the Drongo triggers on a nectar gain by any means. So the
+move is not to delete and not to publish flat, but to **resolve X against the corpus and carry
+the resolution into the ruling text**, recording the second comment in
+`extra-citations.json` so the verifier can see what licenses the clause.
+
+### The review loop, and why the queue has to be able to shrink
+
+`verify.py` re-surfaces every medium-confidence and flagged item on every run. Without a way
+to record that something was looked at, the same items get re-read forever and the queue
+stops carrying information. Three files, each with a distinct meaning:
+
+| file | meaning | effect |
+|---|---|---|
+| `rejections.json` | do not publish | blocks the comment from being re-proposed, forever |
+| `reviewed.json` | a human read it; the verdict stands but needs no action | settles the item |
+| `extra-citations.json` | this comment licenses part of the text but is not the `source` | widens what counts as supported |
+
+A `reviewed.json` approval is scoped to the signature of the ruling text and its sources at
+review time. Rewrite the ruling and the approval lapses. Without that scoping the file is a
+permanent silencer, which is the only real risk it carries.
+
+Do not loosen a gate to make an item green. The Red-Winged Parrot entry in `reviewed.json`
+is the worked example: the model's objection was correct about the comment it was shown and
+moot given a second comment, so the right output is an approval that explains why — not a
+weaker gate, which would cost the next inversion.
+
+**When judging a queued item, read `graph.py --related <ruling_id>` first.** Judging a ruling
+alone is what let `20260617` through; the same rule stated six other times is what exposes it.
+
 ### Re-running
 
     export AWS_PROFILE=...

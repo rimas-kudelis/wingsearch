@@ -291,39 +291,39 @@
     "20190405@Loggerhead Shrike": {
       "ruling_id": "20190405",
       "card": "Loggerhead Shrike",
-      "question_restated": "Is a bird power activation (e.g. Anna's Hummingbird gaining a rodent during the gain-food action) still considered the 'gain food' action, such that it triggers Loggerhead Shrike?",
+      "question_restated": "Is a bird power activation that gains a rodent considered the \"gain food\" action, so that it triggers Loggerhead Shrike?",
       "answer_polarity": "no",
       "licensing_quote": "The activation is not considered to be the Gain Food action.",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "First clause is a faithful transcription (no = the activation is not the action, so no Shrike trigger). The second clause about a bird moved to another habitat not being 'played' and paying no egg cost is not addressed anywhere in this thread; it is an unsupported extension bundled into the same ruling.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Polarity correct: the ruling says an activation does NOT trigger Shrike, matching the official \"not considered to be the Gain Food action\". The second half (moving a bird by a power is not playing it, so no egg cost) is licensed by the later official comment 32122 \"That's correct!\" answering exactly that question. Consistent with 20191218 and 20260708 on this card.",
       "contradicts": [],
       "problems": [],
-      "signature": "ea16c6fff37bd443",
+      "flags": [],
+      "signature": "660dfebfc025b0da",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "31916"
-      ],
-      "flags": []
+      ]
     },
     "20190416@Osprey": {
       "ruling_id": "20190416",
       "card": "Osprey",
-      "question_restated": "Since powers are optional, may the Osprey's owner decline to activate it entirely so nobody gains a fish (option a), rather than the power always activating with each player choosing individually (option b)?",
+      "question_restated": "For Osprey, does \"powers are optional\" mean the owner may decline to activate the power at all (option a), rather than only each player choosing whether to take a fish (option b)?",
       "answer_polarity": "yes",
       "licensing_quote": "(a) is correct :)",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The (a)/(b) choice was exclusive: by picking (a) the official reply implicitly rejected (b), yet the ruling's second sentence ('another player may still decline to take their [fish]') asserts (b)'s content as also true. That is not licensed by this comment.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Second sentence (another player may still decline their fish) is licensed by the later official comment 39897 in the same thread, which quotes Elizabeth: \"you can pass up the food if you really want to.\" Legitimate merge of two official comments.",
       "contradicts": [],
       "problems": [],
-      "signature": "de32920b1c2b317d",
+      "flags": [
+        "terse source: the licensing quote is 17 chars ('(a) is correct :)'), so the ruling's direction rests on the question"
+      ],
+      "signature": "4a383a21420f3a93",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "32087"
-      ],
-      "flags": [
-        "terse source: the licensing quote is 17 chars ('(a) is correct :)'), so the ruling's direction rests on the question"
       ]
     },
     "20190617@Canada Goose": {
@@ -347,41 +347,41 @@
     "20190629@Nest Box Builder": {
       "ruling_id": "20190629",
       "card": "Nest Box Builder",
-      "question_restated": "Can the same star-nest bird count toward two different end-of-game bonus cards (e.g. Nest Box Builder and Platform Builder)?",
+      "question_restated": "Can the same [star] nest bird(s) count toward two different end-game bonus cards at once (e.g. Nest Box Builder and Platform Builder)?",
       "answer_polarity": "yes",
       "licensing_quote": "Indeed they do!",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The source only confirms one star-nest bird counting toward multiple bonus cards. The ruling generalises to 'every bonus card and end-of-round goal it can satisfy' and 'toward goals in every round of the game' -- end-of-round goals and the per-round claim are not addressed by comment 33382 (the question was solely about end-game bonus cards). Right direction, broader than the source.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Terse 'Indeed they do!' answers a yes/no question whose direction is set by the parent asking whether the same star nest birds can count toward two bonus cards; the ruling states that yes-direction.",
       "contradicts": [],
       "problems": [],
-      "signature": "f9d64b93948bd869",
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Indeed they do!'), so the ruling's direction rests on the question"
+      ],
+      "signature": "9da44f90e5ab578f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "33382"
-      ],
-      "flags": [
-        "terse source: the licensing quote is 15 chars ('Indeed they do!'), so the ruling's direction rests on the question"
       ]
     },
     "20190629@Platform Builder": {
       "ruling_id": "20190629",
       "card": "Platform Builder",
-      "question_restated": "Can the same star-nest bird count toward two different end-of-game bonus cards (e.g. Nest Box Builder and Platform Builder)?",
+      "question_restated": "Can the same [star] nest bird(s) count toward two different end-game bonus cards at once (e.g. Nest Box Builder and Platform Builder)?",
       "answer_polarity": "yes",
       "licensing_quote": "Indeed they do!",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "Same source and same issue as the Nest Box Builder copy: the star-nest/multiple-bonus-card part is supported, but the extension to end-of-round goals in every round is not addressed by the official comment. Correctly shown on Platform Builder since it is named in the question.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Platform Builder is explicitly named in the asker's example, so applicability is direct.",
       "contradicts": [],
       "problems": [],
-      "signature": "f9d64b93948bd869",
+      "flags": [
+        "terse source: the licensing quote is 15 chars ('Indeed they do!'), so the ruling's direction rests on the question"
+      ],
+      "signature": "9da44f90e5ab578f",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "33382"
-      ],
-      "flags": [
-        "terse source: the licensing quote is 15 chars ('Indeed they do!'), so the ruling's direction rests on the question"
       ]
     },
     "20190718@Bronzed Cowbird": {
@@ -708,6 +708,42 @@
         "36281"
       ],
       "flags": []
+    },
+    "20200125@Nest Box Builder": {
+      "ruling_id": "20200125",
+      "card": "Nest Box Builder",
+      "question_restated": "Can a [star] nest bird that counted toward a nest goal in one round also count toward a nest goal in a later round?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes, the stars can be used for goals throughout the game.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The question was asked about end-of-round goals across rounds; the answer confirms stars count throughout the game. Ruling attached to a bonus card rather than a goal tile, but the rule transfers and the content matches the source.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "7790bee021c5ed98",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36448"
+      ]
+    },
+    "20200125@Platform Builder": {
+      "ruling_id": "20200125",
+      "card": "Platform Builder",
+      "question_restated": "Can a [star] nest bird that counted toward a nest goal in one round also count toward a nest goal in a later round?",
+      "answer_polarity": "yes",
+      "licensing_quote": "Yes, the stars can be used for goals throughout the game.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Same thread as the Nest Box Builder instance; content matches the cited comment 36448.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "7790bee021c5ed98",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "36448"
+      ]
     },
     "20200204a@Horned Lark": {
       "ruling_id": "20200204a",
@@ -1153,74 +1189,73 @@
     "20200522@Turkey Vulture": {
       "ruling_id": "20200522",
       "card": "Turkey Vulture",
-      "question_restated": "Does a predator \"succeed\" when the bird is played, or when its action is successful (caching food / tucking a card)?",
+      "question_restated": "Does a predator 'succeed' when it is played, or when its action succeeds (caching food / tucking a card)?",
       "answer_polarity": "not-a-yes-no-question",
       "licensing_quote": "A predator bird \"succeeds\" when its action is successful (not when it's played). So yes, that usually means either cacheing a food or tucking a card.",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "First sentence is faithful. The second sentence about Northern Goshawk tucking cards to pay its food cost counting as both a tuck and a predator success is nowhere in this official comment; it may have been merged from another source not shown here.",
-      "contradicts": [],
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "First sentence of the ruling is a direct transcription of cited comment 38841. The Northern Goshawk sentence is licensed by comment 41169 in the same thread quoting the appendix ('this counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly') - a legitimate merge of two official comments in one thread. No conflict with the other rulings on the card.",
       "problems": [],
-      "signature": "e7b55b1f468b71ab",
+      "flags": [],
+      "signature": "27d76b0c1dcd51d6",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38841"
-      ],
-      "flags": []
+      ]
     },
     "20200528@Anatomist": {
       "ruling_id": "20200528",
       "card": "Anatomist",
-      "question_restated": "Do Blue Grosbeak and Loggerhead Shrike count for the Anatomist bonus card?",
+      "question_restated": "Do birds whose names contain \"beak\" or \"head\" count for Anatomist, and does Horned Lark count?",
       "answer_polarity": "yes",
       "licensing_quote": "Both \"beak\" and \"head\" count for Anatomist (they're on the list). So both birds count. :)",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The beak/head part is faithful. The added claims that \"Horn\" is not on the list so Horned Lark does not count, and the instruction to follow the printed list strictly including expansion rulebook additions, are not in this official comment (nor asked about); they may come from ruling 20190724 but are not licensed by comment 38985.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Combines cited comment 38985 with official comment 38988 for the Horned Lark / follow-the-list-strictly part. Both are official and in-thread.",
       "contradicts": [],
       "problems": [],
-      "signature": "c668d68c3c10390b",
+      "flags": [],
+      "signature": "efd13326ef1685ed",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38985"
-      ],
-      "flags": []
+      ]
     },
     "20200528@Blue Grosbeak": {
       "ruling_id": "20200528",
       "card": "Blue Grosbeak",
-      "question_restated": "Do birds such as Blue Grosbeak and Loggerhead Shrike count for the Anatomist bonus card?",
+      "question_restated": "Do birds with \"beak\" or \"head\" in their names (Blue Grosbeak, Loggerhead Shrike) count for the Anatomist bonus card?",
       "answer_polarity": "yes",
       "licensing_quote": "Both \"beak\" and \"head\" count for Anatomist (they're on the list). So both birds count. :)",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The \"beak\"/\"head\" half is faithful. But the source says nothing about \"horn\", Horned Lark, following the printed list strictly, or additions in the expansion rulebooks; those clauses have no licensing span in comment 38985. Possibly merged from another comment not supplied.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Ruling merges comment 38985 (beak/head count) with the follow-up official comment 38988 (horn not on list; follow the list strictly, European Expansion additions). Both spans exist in the thread; licensing quote taken from cited comment 38985. Shown on Blue Grosbeak although thread is about the Anatomist bonus card — rule transfers legitimately since Blue Grosbeak is named in the source. Minor: source mentions only the European Expansion rulebook, ruling generalises to \"expansion rulebooks\" (plural) — trivially broader.",
       "contradicts": [],
       "problems": [],
-      "signature": "c668d68c3c10390b",
+      "flags": [],
+      "signature": "efd13326ef1685ed",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38985"
-      ],
-      "flags": []
+      ]
     },
     "20200528@Horned Lark": {
       "ruling_id": "20200528",
       "card": "Horned Lark",
-      "question_restated": "Do birds such as Blue Grosbeak and Loggerhead Shrike count for the Anatomist bonus card?",
-      "answer_polarity": "yes",
-      "licensing_quote": "Both \"beak\" and \"head\" count for Anatomist (they're on the list). So both birds count. :)",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The parenthetical about Blue Grosbeak/Loggerhead Shrike is exactly supported. But the source says nothing about 'Horn'/Horned Lark, nothing about 'follow the printed list strictly', and nothing about expansion rulebook additions; the ruling's lead conclusion (Horned Lark does not count) is an inference from the list, not from this comment. Likely merged from another source not shown.",
+      "question_restated": "Does Horned Lark count for the Anatomist bonus card (is \"horn\" a qualifying body part)?",
+      "answer_polarity": "no",
+      "licensing_quote": "The horned lark doesn't have a horn, so it's not on the list. To be technically correct in the rules, follow the list strictly (and the European Expansion has some additions in its rulebook).",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Licensing span comes from official comment 38988, not the cited 38985; citation metadata is arguably incomplete but the content is fully supported by an official reply in the same thread. Note the ruling drops Joe's closing permission to house-rule it otherwise, which is a dropped caveat but not a scope error.",
       "contradicts": [],
       "problems": [],
-      "signature": "fcd4944ca180b588",
+      "flags": [],
+      "signature": "0442dfb168b4a479",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "38985"
-      ],
-      "flags": []
+      ]
     },
     "20200531@European Goldfinch": {
       "ruling_id": "20200531",
@@ -1369,38 +1404,40 @@
     "20201002@Mourning Dove": {
       "ruling_id": "20201002",
       "card": "Mourning Dove",
-      "question_restated": "Can nectar be used as a wild food for playing birds, but not when a bird's power requires a specific food type?",
+      "question_restated": "Can one nectar be used to pay Mourning Dove's cost of 1 grain, and is nectar barred when a bird's power names a specific food?",
       "answer_polarity": "qualified",
       "licensing_quote": "Nectar is wild for playing birds. You cannot use nectar when a bird's power refers to a specific food type",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "contradicts": [],
-      "note": "Core claim is faithful, but the specific detail \"including a single [nectar] to pay a cost of 1 [seed]\" is not stated in the cited comment (41634) or elsewhere in this thread; it is an added extrapolation (true by rulebook, but unsupported by this source). Also the ruling is attached to Mourning Dove, whose power involves no food, so relevance is via the thread's example only.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Same ruling text on the card that was explicitly asked about; 'a single [nectar] to pay a cost of 1 [seed]' matches comment 41624 ('Yes, 1 nectar can be used to play the Mourning Dove', whose cost is 1 grain/seed).",
       "problems": [],
-      "signature": "8d880fc1dfc0535c",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "f3d6dacbf968be61",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "41634"
-      ],
-      "flags": []
+      ]
     },
     "20201002@Ruby-Throated Hummingbird": {
       "ruling_id": "20201002",
       "card": "Ruby-Throated Hummingbird",
-      "question_restated": "Is nectar wild for paying birds' costs but unusable when a bird's power calls for a specific food type?",
-      "answer_polarity": "yes",
+      "question_restated": "Since Mourning Dove needs no specific food for its power, may nectar pay its cost, whereas nectar may not be used where a bird's power requires a specific food?",
+      "answer_polarity": "qualified",
       "licensing_quote": "Nectar is wild for playing birds. You cannot use nectar when a bird's power refers to a specific food type",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "Main conclusion is licensed verbatim. The clause \"including a single [nectar] to pay a cost of 1 [seed]\" (the 1:1 substitution rate) is not addressed anywhere in the quoted thread. Also note this ruling is attached to Ruby-Throated Hummingbird, whose power does not reference a specific food type; that is an applicability question, not a faithfulness one.",
-      "contradicts": [],
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The 'including a single [nectar] to pay a cost of 1 [seed]' detail is licensed by comments 41621/41624 in the same thread ('1 nectar can be used to play the Mourning Dove', cost 1 grain). Ruling is attached to Ruby-Throated Hummingbird, which is named in the thread as a wild-cost bird; the rule transfers.",
       "problems": [],
-      "signature": "fcfb1bfb39af6927",
+      "flags": [
+        "official answer was qualified; check the caveat survived into the ruling"
+      ],
+      "signature": "3f86b083a44902a8",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "41634"
-      ],
-      "flags": []
+      ]
     },
     "20201005@Kākāpō": {
       "ruling_id": "20201005",
@@ -1716,38 +1753,20 @@
     "20201206@Red-Winged Parrot": {
       "ruling_id": "20201206",
       "card": "Red-Winged Parrot",
-      "question_restated": "Does receiving nectar as a gift from Red-Winged Parrot count as 'gaining' nectar, triggering another player's Spangled Drongo?",
-      "answer_polarity": "yes",
-      "licensing_quote": "based on the information you provided, yes, it counts",
+      "question_restated": "When Player 1 gives a nectar to Player 2 via Red-Winged Parrot, does that count as the receiving player 'gaining nectar' so a third player's Spangled Drongo triggers?",
+      "answer_polarity": "qualified",
+      "licensing_quote": "based on the information you provided, yes, it counts. However, if the ability on the Spangled Drongo looks for other players to gain nectar while taking the \"gain food\" action, it would not count.",
       "verdict": "overstated",
       "confidence": "medium",
-      "note": "Direction is right, but the official answer is hedged twice ('I don't have those specific birds in front of me') and carries an explicit caveat the ruling drops: 'However, if the ability on the Spangled Drongo looks for other players to gain nectar while taking the \"gain food\" action, it would not count.' The ruling states the Drongo may be activated flatly.",
-      "contradicts": [],
+      "note": "Direction is correct (yes, being given nectar counts as gaining). But Jamey's answer was explicitly hedged (\"I don't have those specific birds in front of me\") and conditional: it counts UNLESS Spangled Drongo's power is scoped to the \"gain food\" action. The ruling flips that caveat into a positive assertion that Spangled Drongo \"triggers on a [nectar] gain by any means and not only on the 'gain food' action\" -- Jamey never determined which case Spangled Drongo actually is. The second cited comment (109108) does support the broad reading (\"it does mean what you described\", i.e. any reason, not just gaining food), so the conclusion is defensible, but that comment's actual point is the once-between-turns limit, which the ruling drops entirely. No contradiction with 20210101 (spending vs gaining are separate matters).",
       "problems": [],
-      "signature": "90e71eef196a0025",
+      "flags": [],
+      "signature": "9970247d6e3276ae",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
-        "42903"
-      ],
-      "flags": []
-    },
-    "20201206@Spangled Drongo": {
-      "ruling_id": "20201206",
-      "card": "Spangled Drongo",
-      "question_restated": "Does receiving nectar as a gift (from Red-Winged Parrot) count as gaining nectar, so that a third player's Spangled Drongo triggers?",
-      "answer_polarity": "yes",
-      "licensing_quote": "based on the information you provided, yes, it counts",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Jamey's conditional caveat (\"if the ability ... looks for other players to gain nectar while taking the 'gain food' action, it would not count\") is dropped, but the actual card text does not restrict to the gain-food action, and 20241228 confirms it triggers by any means. Direction preserved.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "32025d0160a549f4",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "42903"
-      ],
-      "flags": []
+        "42903",
+        "109108"
+      ]
     },
     "20201227@Mechanical Engineer": {
       "ruling_id": "20201227",
@@ -2418,20 +2437,19 @@
     "20220111@Budgerigar": {
       "ruling_id": "20220111",
       "card": "Budgerigar",
-      "question_restated": "Is Budgerigar a 'when activated' bird, with the appendix's 'when played' listing being a typo?",
+      "question_restated": "Is Budgerigar a 'when activated' bird, making the Oceania appendix's 'when played' text an error?",
       "answer_polarity": "yes",
       "licensing_quote": "Budgerigar (in Oceania) is a \"when activated\" bird. So it may be a typo in the appendix, but the bird is definitely a \"when activated\" bird.",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "Jamey hedges on the appendix (\"it may be a typo in the appendix\"); the ruling asserts flatly that the appendix listing 'is an error'. The card-text half ('is a when activated bird') is firmly supported.",
-      "contradicts": [],
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Source hedges slightly ('may be a typo') but is definite about the card being 'when activated'; ruling's 'is an error' is within the stated meaning.",
       "problems": [],
+      "flags": [],
       "signature": "d725b485df3038dd",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "49808"
-      ],
-      "flags": []
+      ]
     },
     "20220130@Spotless Crake": {
       "ruling_id": "20220130",
@@ -3715,42 +3733,6 @@
       ],
       "flags": []
     },
-    "20230225@Common Grackle": {
-      "ruling_id": "20230225",
-      "card": "Common Grackle",
-      "question_restated": "When Wilson's Storm Petrel makes you draw cards and keep 1, discarding the rest, may I dispose of the extra drawn cards by other means during the turn (e.g. tucking one behind Common Grackle) so that I don't have to discard them?",
-      "answer_polarity": "yes",
-      "licensing_quote": "The key is that you get to end the turn with at least 1 card from those that you drew. So in the situations you described, you wouldn't need to discard anything.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Derived from a thread primarily about Wilson's Storm Petrel; correctly attached to Common Grackle since the asker's example was tucking behind the Grackle. Official confirms both that at least 1 drawn card must remain and that no discard is needed in the described tucking scenarios.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "7bae10034bf21928",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "59298"
-      ],
-      "flags": []
-    },
-    "20230225@Wilson's Storm Petrel": {
-      "ruling_id": "20230225",
-      "card": "Wilson's Storm Petrel",
-      "question_restated": "Can cards drawn with Wilson's Storm Petrel be disposed of by other means (e.g. tucked under Common Grackle) instead of discarded, so long as I end the turn keeping 1?",
-      "answer_polarity": "yes",
-      "licensing_quote": "The key is that you get to end the turn with at least 1 card from those that you drew. So in the situations you described, you wouldn't need to discard anything.",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Official confirms the tuck-instead-of-discard plays described in the question, and states the at-least-1 requirement.",
-      "contradicts": [],
-      "problems": [],
-      "signature": "2fa5d4a24b36d62e",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "59298"
-      ],
-      "flags": []
-    },
     "20230226a@Red-Crowned Crane": {
       "ruling_id": "20230226a",
       "card": "Red-Crowned Crane",
@@ -4866,28 +4848,6 @@
       ],
       "flags": []
     },
-    "20240903@Wilson's Storm Petrel": {
-      "ruling_id": "20240903",
-      "card": "Wilson's Storm Petrel",
-      "question_restated": "Must cards drawn by a draw-then-discard bird power be kept for the end-of-turn discard, or may they all be tucked away? (Official distinguishes Wilson's Storm Petrel/Great Crested Grebe.)",
-      "answer_polarity": "qualified",
-      "licensing_quote": "Only the Great Crested Grebe and Wilson's Storm Petrel work differently, asking you to keep the cards drawn with those powers separate until the end of turn when you keep 1 and discard the rest (as confirmed by the appendix entries for those).",
-      "verdict": "faithful",
-      "confidence": "high",
-      "note": "Faithful to comment 85569. Note tension with ruling 20230225 on the same card (Jamey 2023 allowed tucking the drawn cards elsewhere; Joe 2024 says they are kept separate until end of turn) — flagged as a genuine conflict for a reviewer, not resolved here.",
-      "contradicts": [
-        "20230225"
-      ],
-      "problems": [],
-      "signature": "6c7b4e167292557e",
-      "model": "us.anthropic.claude-opus-5",
-      "comment_ids": [
-        "85569"
-      ],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
-      ]
-    },
     "20240909@Anatomist": {
       "ruling_id": "20240909",
       "card": "Anatomist",
@@ -5039,17 +4999,15 @@
     "20241228@Spangled Drongo": {
       "ruling_id": "20241228",
       "card": "Spangled Drongo",
-      "question_restated": "Does Spangled Drongo trigger when another player gains nectar for any reason (not just the gain-food action), and does it trigger every time?",
-      "answer_polarity": "qualified",
+      "question_restated": "Does Spangled Drongo trigger when another player gains nectar for any reason (e.g. from the supply via a bird power), not only via the 'gain food' action - and how often can it trigger?",
+      "answer_polarity": "yes",
       "licensing_quote": "This is a \"once between turns\" power, so while it does mean what you described, it can only trigger once between each of your turns, not every time.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "\"Any means\" is licensed by 109108 (\"it does mean what you described\") and the bird-power example by 48984 (\"That is correct!\"). The once-between-turns caveat is preserved rather than dropped.",
+      "note": "Legitimately merges two comments: 48984 confirms a bird-power nectar gain from the supply triggers Drongo, and 109108 confirms 'any reason, not just gaining food' while adding the once-between-turns limit, which the ruling retains.",
       "contradicts": [],
       "problems": [],
-      "flags": [
-        "official answer was qualified; check the caveat survived into the ruling"
-      ],
+      "flags": [],
       "signature": "d3abecd2e2bcb8e2",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
@@ -5621,20 +5579,19 @@
     "20251105@Western Screech-Owl": {
       "ruling_id": "20251105",
       "card": "Western Screech-Owl",
-      "question_restated": "Can you reset the birdfeeder before using Western Screech-Owl's power when only one food type is in it?",
+      "question_restated": "May you reset the birdfeeder before using Western Screech-Owl's power when it holds only one food type?",
       "answer_polarity": "no",
       "licensing_quote": "Since you're not gaining food, I would say you can't reset it.",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "contradicts": [],
-      "note": "Direction is correct, but the official answer is hedged (\"I would say\"); the ruling presents it as a flat prohibition, dropping the hedge.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Polarity checked: question asks 'can you reset', answer is no, and the ruling says 'may not reset'. Ruling drops the mild hedge 'I would say', which is minor.",
       "problems": [],
+      "flags": [],
       "signature": "f51511d39c18a1da",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "137155"
-      ],
-      "flags": []
+      ]
     },
     "20251108@Great Indian Bustard": {
       "ruling_id": "20251108",
@@ -5674,20 +5631,19 @@
     "20251108a@European Serin": {
       "ruling_id": "20251108a",
       "card": "European Serin",
-      "question_restated": "Does 'discard all [wild] (minimum 1)' mean discard every food token in your supply rather than all of one food type?",
-      "answer_polarity": "yes",
+      "question_restated": "Does 'Discard all [wild] (minimum 1) from your supply' mean discard all of one food type, or every food token in your supply?",
+      "answer_polarity": "not-a-yes-no-question",
       "licensing_quote": "It means to discard all food tokens from your supply.",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "contradicts": [],
-      "note": "First sentence is faithful. The second sentence (\"You must have at least 1 food to activate it\") is not addressed by the official comment; it is read off the card's printed \"(minimum 1)\" rather than the source.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Second sentence ('You must have at least 1 food to activate it') is not from the official comment but restates the card's printed '(minimum 1)', so it adds no unsupported rules content.",
       "problems": [],
+      "flags": [],
       "signature": "1ff9b39be7942d57",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "137380"
-      ],
-      "flags": []
+      ]
     },
     "20251123@Tufted Puffin": {
       "ruling_id": "20251123",
@@ -5782,12 +5738,12 @@
     "20260111@Hooded Merganser": {
       "ruling_id": "20260111",
       "card": "Hooded Merganser",
-      "question_restated": "Can Hooded Merganser only copy brown powers, or can it copy a power of another colour?",
-      "answer_polarity": "qualified",
+      "question_restated": "Can Hooded Merganser only copy brown powers (specifically predator powers), rather than powers of other colours?",
+      "answer_polarity": "yes",
       "licensing_quote": "Since you're activating this as a brown power, it can only copy other brown powers (in this case, specifically a predator power).",
-      "verdict": "overstated",
-      "confidence": "medium",
-      "note": "The brown-only / predator-only conclusion is directly licensed. The added clause 'and the repeated bird must be in the same habitat' is not addressed in the cited comment (it is on the card text and in other rulings, but not in this source), so that fragment is unsupported by comment 62307.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "The \"same habitat\" clause is not in the official reply but is printed on the card itself and was stated in the asker's quote; it adds no new claim beyond the card text.",
       "contradicts": [],
       "problems": [],
       "flags": [],

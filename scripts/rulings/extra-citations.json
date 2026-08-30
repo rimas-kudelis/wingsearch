@@ -1,0 +1,41 @@
+{
+  "_README": [
+    "Comments that license part of a ruling but are not in its `source` column.",
+    "",
+    "A TSV row holds one URL because the front end binds `[href]=\"ruling.source\"` directly,",
+    "but a ruling's text is often derived from more than one official comment: a curation",
+    "merge folds two restatements into one row, or an answer's caveat is resolved by a later",
+    "comment on the same rule. Verifying such a row against its single cited comment reports",
+    "`overstated` on text that is fully supported -- 12 of the first 15 overstated verdicts",
+    "were this, and the rest were real.",
+    "",
+    "verify.py reads this file and adds the listed comments to the context and to the set of",
+    "official text the licensing-quote gate greps. So an entry widens what counts as",
+    "*supported*; it does not weaken the gate, which still requires a verbatim span.",
+    "",
+    "Keys are `<ruling_id>@<card>`, matching verification.json. Add an entry only when the",
+    "extra comment genuinely licenses a clause -- an entry that does not is how a real",
+    "`overstated` gets silenced.",
+    "",
+    "curate.py's merges are recovered automatically from curation.json's `superseded` lists",
+    "(see verify.py's merged_sources); this file is for everything else, added by hand.",
+    "",
+    "58 rows currently under-cite their sources after merges. They are not all listed here:",
+    "entries get added as rows are reviewed, so an absent row means unreviewed, not clean."
+  ],
+  "citations": {
+    "20201206@Red-Winged Parrot": {
+      "comments": ["109108"],
+      "why": [
+        "Comment 42903 is the only official answer that addresses this scenario -- David",
+        "described the Red-Winged Parrot / Spangled Drongo interaction and Jamey said 'yes, it",
+        "counts' -- but he attached a condition: 'if the ability on the Spangled Drongo looks",
+        "for other players to gain nectar while taking the \"gain food\" action, it would not",
+        "count.' Comment 109108 (Jamey, 2024-12-28) resolves that condition: the Drongo",
+        "triggers on a nectar gain by any means, not only via the 'gain food' action. The",
+        "ruling carries the resolution instead of dropping the caveat, so it is licensed by",
+        "both comments."
+      ]
+    }
+  }
+}

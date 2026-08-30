@@ -13,6 +13,7 @@
     "20200330@Once between turns",
     "20200411@Brown-Headed Cowbird",
     "20200411@Eurasian Tree Sparrow",
+    "20201206@Red-Winged Parrot",
     "20241228@Spangled Drongo",
     "20251220@Australian Owlet-Nightjar",
     "20251220@Laughing Gull",
@@ -151,7 +152,6 @@
     "20201204a@Chihuahuan Raven",
     "20201205@Grey Shrikethrush",
     "20201206@Red-Winged Parrot",
-    "20201206@Spangled Drongo",
     "20210101@Red-Winged Parrot",
     "20210108b@Common Starling",
     "20210108b@Common Swift",
@@ -344,6 +344,8 @@
     "20190921@Bronzed Cowbird",
     "20190921@Brown-Headed Cowbird",
     "20190921@Yellow-Billed Cuckoo",
+    "20200125@Nest Box Builder",
+    "20200125@Platform Builder",
     "20201011@Long-Tailed Tit",
     "20201011@Site Selection Expert",
     "20201020@Common Cuckoo",
@@ -606,8 +608,6 @@
    "rulings": [
     "03a@Powers",
     "20190122@Sets of [egg][egg][egg] in [forest][grassland][wetland]",
-    "20190629@Nest Box Builder",
-    "20190629@Platform Builder",
     "20190921@American Avocet",
     "20190921@Barrow's Goldeneye",
     "20190921@Bronzed Cowbird",
@@ -618,6 +618,8 @@
     "20191007@Fish Crow",
     "20191007@Song Sparrow",
     "20191202@End-of-round goal",
+    "20200125@Nest Box Builder",
+    "20200125@Platform Builder",
     "20200210@Cetti's Warbler",
     "20200210@Eurasian Green Woodpecker",
     "20200210@Greylag Goose",
@@ -901,7 +903,6 @@
     "20201203a@Black-Billed Magpie",
     "20201203a@Laughing Kookaburra",
     "20201206@Red-Winged Parrot",
-    "20201206@Spangled Drongo",
     "20210108b@Common Starling",
     "20210108b@Common Swift",
     "20210108b@Eurasian Collared-Dove",
@@ -976,7 +977,7 @@
     "20201010@Emu",
     "20201203a@Black-Billed Magpie",
     "20201203a@Laughing Kookaburra",
-    "20201206@Spangled Drongo",
+    "20201206@Red-Winged Parrot",
     "20210101@Giving",
     "20210101@Red-Winged Parrot",
     "20210119a@Superb Lyrebird",
@@ -1200,9 +1201,9 @@
     "beak-direction",
     "bonus-eligibility"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20221228@Blue Grosbeak": {
@@ -2392,9 +2393,9 @@
     "power-activation",
     "predation"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20230918@Northern Mockingbird": {
@@ -3209,9 +3210,9 @@
     "beak-direction",
     "bonus-eligibility"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20201116@Anatomist": {
@@ -5228,9 +5229,9 @@
     "beak-direction",
     "bonus-eligibility"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20200405@Horned Lark": {
@@ -6379,7 +6380,7 @@
    "ruling_id": "20201206",
    "card": "Red-Winged Parrot",
    "topic": null,
-   "text": "Receiving [nectar] as a gift counts as gaining [nectar], so the player given a [nectar] by \\textbf{Red-Winged Parrot} has gained it and \\textbf{Spangled Drongo} may be activated.",
+   "text": "Being given [nectar] by \\textbf{Red-Winged Parrot} counts as gaining [nectar] for the receiving player, so it may activate another player's \\textbf{Spangled Drongo}, which triggers on a [nectar] gain by any means and not only on the ``gain food'' action.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-27/#comment-42903",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -6388,7 +6389,9 @@
     "Spangled Drongo"
    ],
    "concepts": [
+    "gain-food-action-scope",
     "nectar",
+    "other-players",
     "power-activation"
    ],
    "verified": "overstated",
@@ -6540,9 +6543,9 @@
     "playing-birds",
     "power-activation"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20191218@Loggerhead Shrike": {
@@ -6602,8 +6605,8 @@
     "other-players",
     "power-activation"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -6667,11 +6670,30 @@
    "settled": true,
    "contradicts": []
   },
+  "20200125@Nest Box Builder": {
+   "ruling_id": "20200125",
+   "card": "Nest Box Builder",
+   "topic": null,
+   "text": "A [star] nest counts toward end-of-round goals in every round of the game: a bird whose [star] counted toward a nest goal in one round still counts toward a nest goal in a later round.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-14/#comment-36448",
+   "source_kind": "stonemaier",
+   "author": "Jamey Stegmaier",
+   "date": "2020-01-25",
+   "mentions": [],
+   "concepts": [
+    "end-of-round-goals",
+    "nests"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
+   "contradicts": []
+  },
   "20190629@Nest Box Builder": {
    "ruling_id": "20190629",
    "card": "Nest Box Builder",
    "topic": null,
-   "text": "A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+   "text": "A bird with a [star] nest counts as any nest type, so it counts toward every bonus card whose nest requirement it can satisfy, and toward more than one of them at the same time.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-5/#comment-33382",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -6679,19 +6701,37 @@
    "mentions": [],
    "concepts": [
     "bonus-eligibility",
+    "nests"
+   ],
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": false,
+   "contradicts": []
+  },
+  "20200125@Platform Builder": {
+   "ruling_id": "20200125",
+   "card": "Platform Builder",
+   "topic": null,
+   "text": "A [star] nest counts toward end-of-round goals in every round of the game: a bird whose [star] counted toward a nest goal in one round still counts toward a nest goal in a later round.",
+   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-14/#comment-36448",
+   "source_kind": "stonemaier",
+   "author": "Jamey Stegmaier",
+   "date": "2020-01-25",
+   "mentions": [],
+   "concepts": [
     "end-of-round-goals",
     "nests"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20190629@Platform Builder": {
    "ruling_id": "20190629",
    "card": "Platform Builder",
    "topic": null,
-   "text": "A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+   "text": "A bird with a [star] nest counts as any nest type, so it counts toward every bonus card whose nest requirement it can satisfy, and toward more than one of them at the same time.",
    "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-5/#comment-33382",
    "source_kind": "stonemaier",
    "author": "Jamey Stegmaier",
@@ -6699,11 +6739,10 @@
    "mentions": [],
    "concepts": [
     "bonus-eligibility",
-    "end-of-round-goals",
     "nests"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -7044,9 +7083,9 @@
     "predation",
     "tucking"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20210104@Turkey Vulture": {
@@ -7391,8 +7430,8 @@
     "nectar",
     "wild-food"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -7605,8 +7644,8 @@
     "nectar",
     "wild-food"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
+   "verified": "faithful",
+   "verified_confidence": "high",
    "settled": false,
    "contradicts": []
   },
@@ -8053,28 +8092,6 @@
    "settled": true,
    "contradicts": []
   },
-  "20201206@Spangled Drongo": {
-   "ruling_id": "20201206",
-   "card": "Spangled Drongo",
-   "topic": null,
-   "text": "Receiving [nectar] as a gift counts as gaining [nectar], so when a player uses \\textbf{Red-Winged Parrot} to give [nectar] to another player, the receiving player has gained [nectar] and \\textbf{Spangled Drongo} may be activated.",
-   "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-27/#comment-42903",
-   "source_kind": "stonemaier",
-   "author": "Jamey Stegmaier",
-   "date": "2020-12-06",
-   "mentions": [
-    "Red-Winged Parrot"
-   ],
-   "concepts": [
-    "nectar",
-    "other-players",
-    "power-activation"
-   ],
-   "verified": "faithful",
-   "verified_confidence": "high",
-   "settled": true,
-   "contradicts": []
-  },
   "20230722@Spangled Drongo": {
    "ruling_id": "20230722",
    "card": "Spangled Drongo",
@@ -8117,7 +8134,7 @@
    ],
    "verified": "faithful",
    "verified_confidence": "high",
-   "settled": false,
+   "settled": true,
    "contradicts": []
   },
   "20220820@Kea": {
@@ -8809,9 +8826,9 @@
    "concepts": [
     "power-activation"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20231010@Budgerigar": {
@@ -10607,9 +10624,9 @@
    "concepts": [
     "birdfeeder"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20251108a@European Serin": {
@@ -10627,9 +10644,9 @@
     "power-activation",
     "supply"
    ],
-   "verified": "overstated",
-   "verified_confidence": "medium",
-   "settled": false,
+   "verified": "faithful",
+   "verified_confidence": "high",
+   "settled": true,
    "contradicts": []
   },
   "20251123@Tufted Puffin": {
@@ -18404,7 +18421,8 @@
    "habitats": [],
    "general_rulings": 0,
    "rulings": [
-    "20190629@Nest Box Builder"
+    "20190629@Nest Box Builder",
+    "20200125@Nest Box Builder"
    ],
    "mentioned_by": []
   },
@@ -19262,7 +19280,8 @@
    "habitats": [],
    "general_rulings": 0,
    "rulings": [
-    "20190629@Platform Builder"
+    "20190629@Platform Builder",
+    "20200125@Platform Builder"
    ],
    "mentioned_by": []
   },
@@ -19971,9 +19990,7 @@
     "20201206@Red-Winged Parrot",
     "20210101@Red-Winged Parrot"
    ],
-   "mentioned_by": [
-    "20201206@Spangled Drongo"
-   ]
+   "mentioned_by": []
   },
   "Regent Bowerbird": {
    "id": 334,
@@ -21141,7 +21158,6 @@
    ],
    "general_rulings": 5,
    "rulings": [
-    "20201206@Spangled Drongo",
     "20220509@Spangled Drongo",
     "20220605@Spangled Drongo",
     "20230722@Spangled Drongo",

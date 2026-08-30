@@ -308,20 +308,79 @@ def show_concept(g, key):
               f'a change of policy.')
 
 
+_STOP = set('''a an and any are as at be behind but by can card cards do does each every for
+from have if in is it its may no not of on one or other others that the their them then there
+this those to when whether which with you your'''.split())
+
+
+def _distinctive(text):
+    """Content words of a power text, for deciding whether a ruling is about that power.
+
+    Crudely stemmed, because the mismatch that matters is exactly this shape: a power says
+    "Tuck 1 [card]" and the ruling about it says "cards that may be tucked". Without
+    stemming that pair shares only the word "bird" and the ruling looks unrelated.
+    """
+    t = re.sub(r'\\text(bf|it)\{([^}]*)\}', r'\2', text)
+    words = (w for w in re.findall(r"[a-z']{3,}", t.lower()) if w not in _STOP)
+    return {re.sub(r'(ing|ed|es|s)$', '', w) or w for w in words}
+
+
+def about_the_power(ruling, power):
+    """Is this ruling about the shared power, or about something particular to its card?
+
+    The same-power edge looked far more productive than it is, because a card's rulings are
+    not all about its power. Most are about facts particular to the card:
+
+    - its **name** -- whether "Wood" in Wood Stork is a geography term for Cartographer,
+      whether Burrowing Owl counts for Anatomist. Bonus-card eligibility is a name question.
+    - its **art** -- Eastern Screech-Owl's beak points in neither direction.
+    - its **food cost** -- how a two-food-type end-of-round goal counts its icons.
+
+    Those must not transfer: two birds with the same power have different names, art and
+    costs. Only a ruling about the power's mechanics can move to a sibling, so this is the
+    filter that turns a noisy 57 into a list worth reading.
+
+    Deliberately conservative in the direction of showing too much: it returns a candidate
+    for a human, and a false positive is one wasted read while a false negative is a rule a
+    player never sees.
+    """
+    concepts = set(ruling['concepts'])
+    # a name or art question, unless the text also engages with the power's mechanics
+    per_card = concepts & {'bonus-eligibility', 'beak-direction'}
+    shared = _distinctive(ruling['text']) & _distinctive(power)
+    if per_card and len(shared) < 3:
+        return False
+    return len(shared) >= 2
+
+
 def show_transferable(g):
     """Cards whose rulings exist, researched and answered, on an identical-power sibling."""
-    gaps = [grp for grp in g['power_groups'] if grp['ruled'] and grp['unruled']]
-    gaps.sort(key=lambda grp: -len(grp['unruled']))
-    total = sum(len(grp['unruled']) for grp in gaps)
-    print(f'{len(gaps)} power groups are split: some cards have rulings, others have none.')
-    print(f'{total} cards could inherit a ruling from an identical-power sibling.\n')
-    print('A ruling naming its own card needs rewording, and one about a board interaction')
-    print('may not transfer at all -- so this is a queue for a reviewer, not an auto-apply.\n')
-    for grp in gaps:
+    gaps = []
+    for grp in g['power_groups']:
+        if not grp['unruled']:
+            continue
+        movable = [(n, k) for n in grp['ruled'] for k in g['cards'][n]['rulings']
+                   if about_the_power(g['rulings'][k], grp['power'])]
+        if movable:
+            gaps.append((grp, movable))
+    gaps.sort(key=lambda gm: -len(gm[0]['unruled']))
+    cards = {n for grp, _ in gaps for n in grp['unruled']}
+    rulings = {k for _, mv in gaps for _, k in mv}
+
+    print(f'{len(gaps)} power groups have a ruling about the power itself that some cards '
+          f'with that\npower do not carry: {len(rulings)} distinct rulings, '
+          f'{len(cards)} cards that could inherit one.\n')
+    print('Rulings about a card\'s name, art or food cost are excluded -- those do not')
+    print('transfer between birds that merely share a power. See about_the_power().\n')
+    print('Several of these are general rules stated on one card by accident of which')
+    print('thread they came from. Prefer a general ruling in general_map.py over copying a')
+    print('row onto every sibling: same result for players, one place to correct.\n')
+    for grp, movable in gaps:
         print(_wrap(f'power: {grp["power"]}', 2))
-        for n in grp['ruled']:
-            ks = g['cards'][n]['rulings']
-            print(f'    has ({n}): ' + '; '.join(g['rulings'][k]['ruling_id'] for k in ks))
+        for n, k in movable:
+            r = g['rulings'][k]
+            print(f'    [{r["ruling_id"]}] on {n} ({r["author"] or r["source_kind"]})')
+            print(_wrap(r['text'], 8))
         print(f'    lacks ({len(grp["unruled"])}): {", ".join(grp["unruled"])}')
         sets = collections.Counter(g['cards'][n]['set'] for n in grp['unruled'])
         print(f'    sets: {dict(sets)}\n')

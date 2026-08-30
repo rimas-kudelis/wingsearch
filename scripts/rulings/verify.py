@@ -28,8 +28,18 @@ allowed to be wrong about how well a ruling reads, never about whether the sourc
 
 This script changes no card data. It writes `verification.json`, a per-ruling verdict,
 and every ruling it cannot clear is queued for the escalation tier -- a reviewer with
-tools that can research the card properly, rather than a fixed context window. Removing
-a ruling stays a human act, recorded in `rejections.json`.
+tools that can research the card properly, rather than a fixed context window
+(`graph.py --related <id>` assembles what that reviewer needs to read).
+
+Three files close the loop, and the queue does not shrink without them:
+
+- `rejections.json` -- do not publish. Blocks the comment from being re-proposed.
+- `reviewed.json` -- a human read it and it stands. Scoped to the text's signature, so
+  rewriting a ruling drops it back into the queue instead of inheriting the approval.
+- `extra-citations.json` -- comments that license part of a ruling but are not in its
+  single `source` URL. Widens what counts as supported without weakening the quote gate.
+
+Removing a ruling stays a human act.
 
     export AWS_PROFILE=...
     python3 verify.py --dry-run
@@ -281,8 +291,9 @@ def citation_context(db, comment_ids):
     Threads run to twenty-odd comments about unrelated cards, so sending whole ones wastes
     context and buries the pair that matters. What matters is the cited official reply plus
     every ancestor of it: the reply inherits its polarity from the question it answers, and
-    that question may itself be a follow-up to an earlier one. Later official replies in the
-    same thread are included too, since a publisher sometimes corrects himself downthread.
+    that question may itself be a follow-up to an earlier one. Official replies anywhere
+    below the citation are included too, since a publisher sometimes corrects himself
+    downthread and readers routinely ask follow-ups that get their own official answer.
 
     Returns (rendered_text, [official comment texts]) -- the second is what check() greps
     for the licensing quote, so it holds exactly the comments the model was told are
@@ -300,11 +311,29 @@ def citation_context(db, comment_ids):
         while c:
             keep[str(c['id'])] = c
             c = db.get(str(c['parent'])) if c.get('parent') else None
+    # Official replies anywhere in the subtree below what we kept, at any depth -- not just
+    # direct children. A reader asks a follow-up under the official answer and the official
+    # answer to *that* sits two levels down, which is the normal shape of these threads: the
+    # Osprey ruling's second sentence is licensed by Joe Aubrey quoting Elizabeth under a
+    # fan's follow-up, and a one-level scan cannot see it. It reported `overstated` on a
+    # ruling that was merely under-cited, which is a false alarm that costs a human read.
+    # Non-official comments on the path are kept too, since the official reply inherits its
+    # polarity from the question directly above it.
+    children = collections.defaultdict(list)
     for c in db.values():
-        # an official reply under anything we kept: the answer to a cited question, or a
-        # later self-correction by the publisher
-        if c['author'] in rc.TRUSTED and str(c.get('parent') or '') in keep:
-            keep[str(c['id'])] = c
+        if c.get('parent'):
+            children[str(c['parent'])].append(c)
+
+    def descend(cid, path):
+        for c in children.get(cid, ()):
+            here = path + [c]
+            if c['author'] in rc.TRUSTED:
+                for p in here:
+                    keep[str(p['id'])] = p
+            descend(str(c['id']), here)
+
+    for cid in list(keep):
+        descend(cid, [])
 
     parts = []
     for c in sorted(keep.values(), key=lambda c: c['date']):
@@ -343,6 +372,21 @@ def merged_sources():
     return out
 
 
+def extra_citations():
+    """`<ruling_id>@<card>` -> comment ids that license part of the text but are not cited.
+
+    The hand-maintained counterpart to `merged_sources()`, which only recovers curate.py's
+    own merges. See extra-citations.json for why a row can have more sources than its one
+    `source` URL, and for the rule about not adding an entry that does not truly license
+    anything.
+    """
+    path = os.path.join(HERE, 'extra-citations.json')
+    if not os.path.exists(path):
+        return {}
+    d = json.load(open(path, encoding='utf-8'))['citations']
+    return {k: v['comments'] for k, v in d.items()}
+
+
 def collect(rows, cards, db, pages):
     """One verifiable item per TSV row that cites a Stonemaier comment we hold."""
     by_card = collections.defaultdict(list)
@@ -350,11 +394,13 @@ def collect(rows, cards, db, pages):
         if r[2].strip():
             by_card[r[2].strip()].append(r)
     absorbed = merged_sources()
+    extra = extra_citations()
 
     items, skipped = [], collections.Counter()
     for r in rows:
         name = r[2].strip()
-        ids = re.findall(r'#comment-(\d+)', r[4]) + absorbed.get(r[0], [])
+        ids = (re.findall(r'#comment-(\d+)', r[4]) + absorbed.get(r[0], [])
+               + extra.get(f'{r[0]}@{name}', []))
         have = [i for i in dict.fromkeys(ids) if i in db]
         if not name:
             skipped['general ruling (fanned out by predicate, not per-card)'] += 1
@@ -474,8 +520,25 @@ def flags(verdict, item):
 SETTLED = 'faithful'
 
 
-def is_settled(v):
-    """Verdicts needing no human attention at all."""
+def load_reviews():
+    """`<ruling_id>@<card>` -> human adjudication. See reviewed.json."""
+    path = os.path.join(HERE, 'reviewed.json')
+    if not os.path.exists(path):
+        return {}
+    return json.load(open(path, encoding='utf-8'))['reviews']
+
+
+def is_settled(k, v, reviews=None):
+    """Verdicts needing no human attention: clean from the model, or adjudicated by a human.
+
+    A human approval is scoped to the signature it was given, so re-writing a ruling drops
+    it back into the queue rather than inheriting an approval of different text. Without
+    that scoping the file would be a permanent silencer.
+    """
+    if reviews:
+        r = reviews.get(k)
+        if r and (r.get('signature') is None or r['signature'] == v.get('signature')):
+            return True
     return (v['verdict'] == SETTLED and v['confidence'] == 'high'
             and not v['problems'] and not v.get('flags') and not v.get('contradicts'))
 
@@ -529,7 +592,10 @@ def rederive(items, store):
 
 def report(items, store, skipped):
     v = store['verdicts']
-    done = [v[key(i)] for i in items if key(i) in v]
+    reviews = load_reviews()
+    # `_key` is attached here rather than stored, so verification.json stays purely the
+    # model's output and the human adjudications live only in reviewed.json.
+    done = [dict(v[key(i)], _key=key(i)) for i in items if key(i) in v]
     print(f'{len(items)} rulings verifiable against a held source, {len(done)} judged\n')
 
     if done:
@@ -537,13 +603,13 @@ def report(items, store, skipped):
         for name, n in collections.Counter(d['verdict'] for d in done).most_common():
             print(f'{n:5d}  {name}')
 
-        settled = [d for d in done if is_settled(d)]
+        settled = [d for d in done if is_settled(d['_key'], d, reviews)]
         print(f'\n{len(settled)} settled: faithful, high confidence, and the licensing quote '
               f'checked out against the official comment.')
         print(f'{sum(1 for d in done if d["problems"])} failed the integrity gate '
               f'(quote not in source, or no explanation given)')
 
-        queued = [d for d in done if not is_settled(d)]
+        queued = [d for d in done if not is_settled(d['_key'], d, reviews)]
         print(f'{len(queued)} queued for review, by reason:')
         reasons = collections.Counter()
         for d in queued:
@@ -581,7 +647,12 @@ def report(items, store, skipped):
                 continue
             print(f'\n{name} ({len(group)})')
             for d in group:
-                print(f'  {d["ruling_id"]:<12} {d["card"][:28]:<29} {d["confidence"]}')
+                # an adjudicated item still appears here -- the verdict stands, and a reader
+                # comparing runs should see it -- but marked so it is not re-reviewed
+                r = reviews.get(d['_key'])
+                seen = f'  [{r["verdict"]} {r["date"]}, see reviewed.json]' if r else ''
+                print(f'  {d["ruling_id"]:<12} {d["card"][:28]:<29} '
+                      f'{d["confidence"]}{seen}')
                 if d.get('note'):
                     print('\n'.join(textwrap.wrap(d['note'], 92,
                                                   initial_indent='       ',
@@ -616,6 +687,18 @@ def main():
     rows = [r for r in rows if len(r) == 5]
     items, skipped = collect(rows, rc.load_cards(), comments, pages)
     store = load_store()
+
+    # Drop verdicts for rows that no longer exist. A deleted or re-sourced row otherwise
+    # keeps its old verdict forever and goes on showing up in --report, which is how a
+    # reviewer ends up re-reading a ruling that is not published any more. Keyed off the
+    # unfiltered `items`, so --cards / --rulings cannot cause a mass prune.
+    live = {key(i) for i in items}
+    stale = [k for k in store['verdicts'] if k not in live]
+    for k in stale:
+        del store['verdicts'][k]
+    if stale:
+        print(f'pruned {len(stale)} verdict(s) whose TSV row is gone: '
+              f'{", ".join(sorted(stale)[:6])}{" ..." if len(stale) > 6 else ""}')
 
     if args.rederive:
         n = rederive(items, store)
@@ -683,7 +766,8 @@ def main():
                 log(f'    ! no verdict returned for {miss}')
             n_done[0] += len(batch)
             log(f'  [{n_done[0]}/{len(todo)}] '
-                f'{sum(1 for v in store["verdicts"].values() if is_settled(v))} settled so far')
+                f'{sum(1 for kk, vv in store["verdicts"].items() if is_settled(kk, vv))} '
+                f'settled so far')
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         list(pool.map(run, batches))

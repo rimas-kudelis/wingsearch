@@ -1,0 +1,53 @@
+{
+  "_README": [
+    "Human adjudications that settle a queued ruling. The other half of rejections.json:",
+    "that file records 'do not publish', this one records 'a person read this and it is",
+    "fine'. Without it the review queue cannot shrink -- verify.py re-surfaces every",
+    "medium-confidence and flagged item on every run, so the same items get re-read forever",
+    "and the queue stops meaning anything.",
+    "",
+    "An approval is scoped to the exact text and sources it was given. `signature` is",
+    "verify.py's fingerprint of (ruling text + cited comment ids + thread context) at review",
+    "time; if any of those change the approval lapses and the item returns to the queue. So",
+    "an approval cannot silence a ruling that was later rewritten, which is the whole risk of",
+    "a file like this.",
+    "",
+    "Write `signature: null` to approve regardless of future edits. Do that only for a",
+    "finding about the *source* rather than the ruling -- e.g. 'this answer is terse because",
+    "the question carried the polarity, and that is correct here'.",
+    "",
+    "verdict is one of:",
+    "  approved   the ruling is faithful and well-sourced; the model's objection is wrong or moot",
+    "  accepted   the objection is fair but the ruling is the best available; reason says why",
+    "",
+    "A ruling that should change is not recorded here -- change it. A ruling that should go",
+    "is not recorded here either -- that is rejections.json."
+  ],
+  "reviews": {
+    "20201206@Red-Winged Parrot": {
+      "verdict": "approved",
+      "date": "2026-08-30",
+      "by": "matej + claude",
+      "signature": "9970247d6e3276ae",
+      "reason": [
+        "The verifier holds this at `overstated`/medium on the grounds that Jamey hedged twice",
+        "and never himself determined whether Spangled Drongo's power is scoped to the 'gain",
+        "food' action, so the ruling's flat 'by any means' clause is stronger than comment 42903",
+        "supports. That objection is accurate about 42903 and moot about the corpus: comment",
+        "109108 answers exactly that question ('does this mean that during a round a player gains",
+        "a nectar for any reason - not just gaining food' / 'it does mean what you described'),",
+        "and is listed in extra-citations.json. The verifier itself concedes the conclusion is",
+        "defensible on that basis.",
+        "",
+        "Its remaining objection -- that 109108's once-between-turns point is dropped -- is",
+        "correct but not a defect here. That limit is published on Spangled Drongo's own card as",
+        "ruling 20241228. A player reading Red-Winged Parrot needs to know that a gift counts as",
+        "a gain; they do not need the Drongo's timing rule on the Parrot's page.",
+        "",
+        "Keeping the verdict rather than forcing it to faithful: the model is reasoning correctly",
+        "from what it was given, and loosening the gate to make one item green would cost the",
+        "next inversion."
+      ]
+    }
+  }
+}

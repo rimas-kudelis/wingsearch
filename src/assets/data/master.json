@@ -43034,7 +43034,7 @@
         "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
       },
       {
-        "text":"Receiving [nectar] as a gift counts as gaining [nectar], so the player given a [nectar] by <strong applink=\"\/card\/333\">Red-Winged Parrot<\/strong> has gained it and <strong applink=\"\/card\/343\">Spangled Drongo<\/strong> may be activated.",
+        "text":"Being given [nectar] by <strong applink=\"\/card\/333\">Red-Winged Parrot<\/strong> counts as gaining [nectar] for the receiving player, so it may activate another player's <strong applink=\"\/card\/343\">Spangled Drongo<\/strong>, which triggers on a [nectar] gain by any means and not only on the <i>\"gain food\"<\/i> action.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-27\/#comment-42903"
       }
     ],
@@ -48768,10 +48768,6 @@
       {
         "text":"When another player uses <strong applink=\"\/card\/141\">Green Heron<\/strong>'s power to trade a food token for [nectar], that counts as gaining [nectar], so <strong applink=\"\/card\/343\">Spangled Drongo<\/strong> triggers - it is not a net gain of food, but it is still a gain.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-46\/#comment-52467"
-      },
-      {
-        "text":"Receiving [nectar] as a gift counts as gaining [nectar], so when a player uses <strong applink=\"\/card\/333\">Red-Winged Parrot<\/strong> to give [nectar] to another player, the receiving player has gained [nectar] and <strong applink=\"\/card\/343\">Spangled Drongo<\/strong> may be activated.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-27\/#comment-42903"
       },
       {
         "text":"<strong applink=\"\/card\/343\">Spangled Drongo<\/strong> triggers when another player gains [nectar] from the supply by discarding [fruit] with <strong applink=\"\/card\/314\">Mistletoebird<\/strong>'s power.",

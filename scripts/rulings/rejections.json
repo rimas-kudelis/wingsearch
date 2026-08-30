@@ -23,7 +23,10 @@
   "rejections": [
     {
       "ruling_id": "20230225",
-      "cards": ["Wilson's Storm Petrel", "Common Grackle"],
+      "cards": [
+        "Wilson's Storm Petrel",
+        "Common Grackle"
+      ],
       "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-56/#comment-59298",
       "comment": "59298",
       "verdict": "superseded",
@@ -54,7 +57,10 @@
     },
     {
       "ruling_id": "20260617",
-      "cards": ["Loggerhead Shrike", "Grey Shrikethrush"],
+      "cards": [
+        "Loggerhead Shrike",
+        "Grey Shrikethrush"
+      ],
       "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-76/#comment-159953",
       "comment": "159953",
       "verdict": "misreads-source",

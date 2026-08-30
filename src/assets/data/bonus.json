@@ -705,7 +705,11 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+        "text":"A [star] nest counts toward end-of-round goals in every round of the game: a bird whose [star] counted toward a nest goal in one round still counts toward a nest goal in a later round.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-36448"
+      },
+      {
+        "text":"A bird with a [star] nest counts as any nest type, so it counts toward every bonus card whose nest requirement it can satisfy, and toward more than one of them at the same time.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33382"
       }
     ]
@@ -837,7 +841,11 @@
     "CardType":"Bonus",
     "rulings":[
       {
-        "text":"A bird with a [star] nest counts as any nest type for every bonus card and end-of-round goal it can satisfy; the same bird may count toward multiple bonus cards at once, and toward goals in every round of the game.",
+        "text":"A [star] nest counts toward end-of-round goals in every round of the game: a bird whose [star] counted toward a nest goal in one round still counts toward a nest goal in a later round.",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-14\/#comment-36448"
+      },
+      {
+        "text":"A bird with a [star] nest counts as any nest type, so it counts toward every bonus card whose nest requirement it can satisfy, and toward more than one of them at the same time.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33382"
       }
     ]
