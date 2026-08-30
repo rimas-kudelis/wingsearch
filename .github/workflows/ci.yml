@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+# Pull requests can cancel their own superseded runs; deploys must not be
+# interrupted half-way through publishing.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    # Angular 9 / Node 14 predate ubuntu-24.04. Pinning 22.04 keeps the
+    # toolchain on an image it was actually tested against; revisit when the
+    # Angular upgrade lands.
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # The codebase has never been linted (172 outstanding violations), so lint
+      # reports without failing the build. Flip this to blocking once the
+      # backlog is cleared.
+      - name: Lint
+        continue-on-error: true
+        run: npm run lint
+
+      - name: Locate Chrome for Karma
+        run: |
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium-browser || command -v chromium)"
+          if [ -z "$CHROME" ]; then
+            echo "No Chrome found on the runner" >&2
+            exit 1
+          fi
+          echo "CHROME_BIN=$CHROME" >> "$GITHUB_ENV"
+          echo "Using $CHROME"
+
+      - name: Test
+        run: npm run test:ci
+
+      - name: Build
+        run: npm run build-pages
+
+      # Downloadable on any run, so a PR (or a master build awaiting approval)
+      # can be inspected locally before it ever reaches users:
+      #   unzip wingsearch-site.zip -d .preview/wingsearch && npm run serve-preview
+      - name: Upload inspectable site build
+        uses: actions/upload-artifact@v4
+        with:
+          name: wingsearch-site
+          path: dist/wingsearch
+          retention-days: 7
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/wingsearch
+
+  deploy:
+    # Gated on the protected `github-pages` environment, so master builds wait
+    # for a manual approval instead of going straight to live users.
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-22.04
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
