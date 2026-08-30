@@ -90,6 +90,45 @@ Being on the allowlist is necessary, not sufficient — see §4. An authoritativ
 still be answering a shipping question, speculating about a future expansion, or agreeing
 with a wrong premise.
 
+### Not all answers by a trusted author are equally strong
+
+These comments are written in a browser, from memory, at the rate of several a day. The
+text often says which it is, and that tells you how far to trust it:
+
+| the source reads like | strength |
+|---|---|
+| quotes the rulebook or Appendix, or says "as confirmed by the appendix" | strongest. This *is* the rules text. |
+| a flat statement of the rule, no hedge | strong |
+| "I'm pretty sure that's how I've heard Elizabeth answer it", "I believe", "I'll look up those birds to see what they do" | **improvisation marker.** The author is reasoning from the card text in the moment. Keep looking before publishing. |
+| "I'll ask Elizabeth and get back to you" with no later reply | not an answer. Do not publish (`hedged`). |
+
+An improvisation marker is not a reason to reject — it is a reason to search the corpus for
+the same author revisiting the question. `20230225` was published from Jamey answering
+whether a card drawn with Wilson's Storm Petrel could be tucked with Common Grackle; he
+opened with *"I'll look up those birds to see what they do"*, quoted the card text back, and
+answered the adjacent question instead. Nine months later, in comment 64737, he quoted the
+Appendix — *"These cards should be kept separate… They cannot be spent during this turn."* —
+which makes the published answer the reverse of the rule. Joe Aubrey confirmed the Appendix
+reading again in 85569. Two later citations of published rules text beat one improvised
+reply, and the improvisation marker was visible in the source from the start.
+
+### Newer usually wins, but check whether the conflict is real first
+
+When two official answers on the same card disagree, the later one is normally the one to
+keep: the corpus spans 2019 to 2026, cards were errata'd, and the Appendix was written
+after much of the early Q&A. Two caveats, both learned the hard way:
+
+- **Rank by source strength before date.** An Appendix citation from 2023 beats an
+  improvised reply from 2024. Date is the tiebreaker, not the first test.
+- **A contradiction is evidence of a transcription bug before it is evidence of a rules
+  change** — see §9. Read both sources before concluding either is superseded. Of the two
+  conflicts found so far, one (`20260617`) was our own inversion and one (`20230225`) was a
+  genuine self-correction by the author.
+
+Removing a superseded ruling is a human step. `curate.py`'s `check()` hard-gates against
+any plan that drops a ruling, so a model cannot delete one; deletions go through
+`rejections.json`, which is what stops `propose.py` re-proposing the comment forever.
+
 ---
 
 ## 3. Known failure modes in the current fan-out

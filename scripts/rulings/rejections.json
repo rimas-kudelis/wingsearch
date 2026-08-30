@@ -22,6 +22,37 @@
   ],
   "rejections": [
     {
+      "ruling_id": "20230225",
+      "cards": ["Wilson's Storm Petrel", "Common Grackle"],
+      "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-56/#comment-59298",
+      "comment": "59298",
+      "verdict": "superseded",
+      "date": "2026-08-30",
+      "by": "matej + claude",
+      "reason": [
+        "Brendan Dunne asked whether a [card] drawn with Wilson's Storm Petrel could be tucked",
+        "with Common Grackle instead of discarded. Jamey Stegmaier said yes -- but opened with",
+        "\"I'll look up those birds to see what they do\", quoted only the card text back, and",
+        "answered the wrong half of the question (whether you must discard) without addressing",
+        "whether the drawn cards are in your hand at all.",
+        "",
+        "He corrected himself nine months later in comment 64737, quoting the Appendix: \"These",
+        "cards should be kept separate from the other cards you draw and your bird cards in",
+        "hand. They cannot be spent during this turn.\" Joe Aubrey confirmed it again in 85569",
+        "(\"as confirmed by the appendix entries for those\"). Cards that cannot be spent during",
+        "the turn cannot be tucked with Common Grackle, whose power tucks from your hand -- so",
+        "the published answer was the reverse of the rule.",
+        "",
+        "Replaced on all three cards by rows citing 64737, which state the Appendix rule",
+        "directly and answer the tucking question that prompted the thread.",
+        "",
+        "Failure mode to watch for: an official reply that visibly reasons from the card text",
+        "in the moment (\"let me look that up\", \"I'm pretty sure\", \"I believe\") is weaker",
+        "evidence than the same author citing the Appendix later. Improvisation markers in the",
+        "source are a signal to keep looking, not a reason to publish faster."
+      ]
+    },
+    {
       "ruling_id": "20260617",
       "cards": ["Loggerhead Shrike", "Grey Shrikethrush"],
       "source": "https://stonemaiergames.com/games/wingspan/rules/comment-page-76/#comment-159953",

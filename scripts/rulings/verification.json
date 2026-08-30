@@ -4360,38 +4360,92 @@
     "20231204@Common Chiffchaff": {
       "ruling_id": "20231204",
       "card": "Common Chiffchaff",
-      "question_restated": "Is it legal to draw 2 cards with Wood Duck, tuck them all with Common Chiffchaff, and end your turn with no card to discard?",
+      "question_restated": "Is it legal to draw 2 cards with Wood Duck, tuck your whole hand with Common Chiffchaff, and end the turn with no card to discard?",
       "answer_polarity": "yes",
       "licensing_quote": "The answer is that what you described this is legal; you don’t need to hold onto a card to meet the condition of the Wood Duck.",
       "verdict": "faithful",
       "confidence": "high",
-      "note": "Ruling is about Wood Duck but shown on Common Chiffchaff, which is the card that empties the hand in the sourced scenario — a legitimate cross-card attachment. The Grebe/Storm Petrel wrinkle in the official comment is dropped, which does not affect the stated conclusion.",
+      "note": "Directly answers the asked scenario; ruling shown on Common Chiffchaff, one of the two cards in the question.",
       "contradicts": [],
       "problems": [],
+      "flags": [],
       "signature": "39bf2b23758863b6",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "64737"
-      ],
-      "flags": []
+      ]
+    },
+    "20231204@Common Grackle": {
+      "ruling_id": "20231204",
+      "card": "Common Grackle",
+      "question_restated": "Can a card drawn with Wilson's Storm Petrel / Great Crested Grebe be tucked (spent) that same turn, e.g. with Common Grackle?",
+      "answer_polarity": "no",
+      "licensing_quote": "These cards should be kept separate from the other cards you draw and your bird cards in hand. They cannot be spent during this turn.",
+      "verdict": "faithful",
+      "confidence": "medium",
+      "note": "The thread asked about Wood Duck/Common Chiffchaff; the official reply volunteered the Grebe/Petrel Appendix wrinkle. The ruling applies that Appendix quote to Common Grackle's tuck, a card not named in the thread. Direction is right (cannot be spent this turn) and the Appendix span licenses it; the Common Grackle instantiation is a legitimate transfer of the rule, though the specific card was not discussed. Note this is the same ruling id whose earlier published version (20230225) was the inversion described in the reference notes; this text now matches the Appendix.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "5fecfcd45bcca0e9",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "64737"
+      ]
+    },
+    "20231204@Great Crested Grebe": {
+      "ruling_id": "20231204",
+      "card": "Great Crested Grebe",
+      "question_restated": "Are the cards drawn with Great Crested Grebe part of your hand and spendable during that turn?",
+      "answer_polarity": "no",
+      "licensing_quote": "These cards should be kept separate from the other cards you draw and your bird cards in hand. They cannot be spent during this turn.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Same Appendix span; Great Crested Grebe is named explicitly in the official comment. Consistent with the card's other ruling 20240903, not contradictory.",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "e0652c8efed7810d",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "64737"
+      ]
+    },
+    "20231204@Wilson's Storm Petrel": {
+      "ruling_id": "20231204",
+      "card": "Wilson's Storm Petrel",
+      "question_restated": "Are the cards drawn with Wilson's Storm Petrel part of your hand and spendable during that turn?",
+      "answer_polarity": "no",
+      "licensing_quote": "These cards should be kept separate from the other cards you draw and your bird cards in hand. They cannot be spent during this turn.",
+      "verdict": "faithful",
+      "confidence": "high",
+      "note": "Ruling restates the Appendix quote volunteered in the official reply, including the keep-1-discard-rest timing printed on the card. The \"may not be played or tucked\" gloss is a fair reading of \"cannot be spent during this turn\".",
+      "contradicts": [],
+      "problems": [],
+      "flags": [],
+      "signature": "d4e79e693fea656e",
+      "model": "us.anthropic.claude-opus-5",
+      "comment_ids": [
+        "64737"
+      ]
     },
     "20231204@Wood Duck": {
       "ruling_id": "20231204",
       "card": "Wood Duck",
-      "question_restated": "Is it legal to draw 2 with Wood Duck and then tuck your whole hand, leaving nothing to discard at end of turn — i.e. need you keep a card in hand?",
-      "answer_polarity": "yes",
+      "question_restated": "Must you keep a card in hand to satisfy Wood Duck's end-of-turn discard, or is having nothing to discard legal?",
+      "answer_polarity": "no",
       "licensing_quote": "The answer is that what you described this is legal; you don’t need to hold onto a card to meet the condition of the Wood Duck.",
       "verdict": "faithful",
       "confidence": "high",
+      "note": "Answers the question as asked (no, you need not keep a card). The official reply carries an improvisation marker (\"I'm pretty sure that's how I've heard Elizabeth answer it\") which the ruling drops, but the statement itself is flat and prefaced as the official answer.",
       "contradicts": [],
-      "note": "Ruling drops the Great Crested Grebe / Wilson's Storm Petrel wrinkle, which concerns differently worded cards and is not needed for the conclusion.",
       "problems": [],
+      "flags": [],
       "signature": "3dd842b4527dcde2",
       "model": "us.anthropic.claude-opus-5",
       "comment_ids": [
         "64737"
-      ],
-      "flags": []
+      ]
     },
     "20231208@Eastern Imperial Eagle": {
       "ruling_id": "20231208",

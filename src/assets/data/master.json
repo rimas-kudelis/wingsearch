@@ -13493,8 +13493,8 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"<strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong>'s power requires you to end the turn with at least 1 of the [card] you drew with it, but any of the others may be disposed of in other ways during the turn (for example, tucked with <strong applink=\"\/card\/83\">Common Grackle<\/strong>) instead of being discarded.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-56\/#comment-59298"
+        "text":"A [card] drawn with <strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong> or <strong applink=\"\/card\/134\">Great Crested Grebe<\/strong> may not be tucked with <strong applink=\"\/card\/83\">Common Grackle<\/strong>. Those [card] are kept separate from your hand and cannot be spent during the turn in which they were drawn (Appendix).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-11\/#comment-64737"
       },
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -23761,7 +23761,7 @@
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30546"
       }
     ],
     "additionalRulings":[
@@ -23843,7 +23843,11 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"With <strong applink=\"\/card\/126\">Forster's Tern<\/strong> you are not required to keep a card in hand for the end-of-turn discard; if you have tucked or otherwise used all of your cards, there is nothing to discard. <strong applink=\"\/card\/134\">Great Crested Grebe<\/strong> and <strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong> work differently: keep the cards drawn with those powers separate from your hand until the end of your turn, when you keep 1 of them and discard the rest.",
+        "text":"The [card] drawn with <strong applink=\"\/card\/134\">Great Crested Grebe<\/strong> are kept separate from your hand and from the other [card] you draw, and cannot be spent during this turn: they may not be played or tucked before the end of your turn, when you keep 1 of them and discard the rest (Appendix).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-11\/#comment-64737"
+      },
+      {
+        "text":"The [card] drawn with <strong applink=\"\/card\/134\">Great Crested Grebe<\/strong> are kept separate from your hand until the end of your turn, when you keep 1 of them and discard the rest. Contrast <strong applink=\"\/card\/126\">Forster's Tern<\/strong>, whose drawn [card] goes into your hand, so there is nothing to discard if you have used your whole hand.",
         "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-70\/#comment-85569"
       }
     ],
@@ -29000,7 +29004,7 @@
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30546"
       }
     ],
     "additionalRulings":[
@@ -43831,7 +43835,7 @@
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30546"
       }
     ],
     "additionalRulings":[
@@ -54916,7 +54920,7 @@
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30546"
       }
     ],
     "additionalRulings":[
@@ -57236,12 +57240,8 @@
     "CardType":"Bird",
     "rulings":[
       {
-        "text":"You must end the turn with at least 1 of the [card] drawn with <strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong>, but the others may be disposed of in other ways during the turn (for example, tucked with <strong applink=\"\/card\/83\">Common Grackle<\/strong>) instead of being discarded.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-56\/#comment-59298"
-      },
-      {
-        "text":"Keep the [card] drawn with <strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong> separate from your hand until the end of your turn, when you keep 1 of them and discard the rest.",
-        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-70\/#comment-85569"
+        "text":"The [card] drawn with <strong applink=\"\/card\/254\">Wilson's Storm Petrel<\/strong> are kept separate from your hand and from the other [card] you draw, and cannot be spent during this turn: they may not be played or tucked before the end of your turn, when you keep 1 of them and discard the rest (Appendix).",
+        "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-11\/#comment-64737"
       }
     ],
     "additionalRulings":[
