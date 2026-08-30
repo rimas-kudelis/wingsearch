@@ -1,17 +1,12 @@
-import {
-    Directive,
-    ElementRef,
-    Input,
-    AfterViewInit,
-    NgZone,
-    OnChanges,
-    SimpleChanges
-  } from '@angular/core'
+import { Directive, ElementRef, Input, AfterViewInit, NgZone, OnChanges, SimpleChanges, inject } from '@angular/core'
 
 @Directive({
+  standalone: false,
     selector: '[appFitText]'
   })
   export class FitTextDirective implements AfterViewInit, OnChanges {
+    private elementRef = inject(ElementRef)
+    private ngZone = inject(NgZone)
 
     @Input() minFontSize = 8
     @Input() maxFontSize = 24
@@ -19,10 +14,7 @@ import {
 
     private el: HTMLElement
 
-    constructor(
-      private elementRef: ElementRef,
-      private ngZone: NgZone
-    ) {
+    constructor() {
       this.el = this.elementRef.nativeElement
     }
 

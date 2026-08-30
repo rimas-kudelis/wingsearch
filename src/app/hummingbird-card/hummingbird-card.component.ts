@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core'
+import { Component, OnInit, Input, inject } from '@angular/core'
 import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 import { Store } from '@ngrx/store'
@@ -7,11 +7,16 @@ import { TranslatePipe } from '../translate.pipe'
 import EasterEggAssets from '../../assets/data/extra-assets.json'
 
 @Component({
+  standalone: false,
   selector: 'app-hummingbird-card',
   templateUrl: './hummingbird-card.component.html',
   styleUrls: ['./hummingbird-card.component.scss']
 })
 export class HummingbirdCardComponent implements OnInit {
+  private translate = inject(TranslatePipe)
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
 
   @Input()
   card: BirdCard
@@ -22,11 +27,6 @@ export class HummingbirdCardComponent implements OnInit {
   assetPack$: Observable<string>
 
   parameters$: { [key: string]: { Value: unknown }}
-
-  constructor(
-    private translate: TranslatePipe,
-    private store: Store<{ app: AppState }>
-  ) { }
 
   ngOnInit(): void {
     this.assetPack$ = this.store.select(({ app }) => app.assetPack)
@@ -53,13 +53,13 @@ export class HummingbirdCardComponent implements OnInit {
     const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean
     let bonusIcons = ''
     if (showBonusCardsMatchSymbols) {
-      if (!!card.Anatomist) {
+      if (card.Anatomist) {
         bonusIcons += ' [anatomist]'
       }
-      if (!!card.Cartographer) {
+      if (card.Cartographer) {
         bonusIcons += ' [cartographer]'
       }
-      if (!!card.Photographer) {
+      if (card.Photographer) {
         bonusIcons += ' [photographer]'
       }
     }

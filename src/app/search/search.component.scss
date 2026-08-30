@@ -227,22 +227,22 @@ mat-select-trigger {
 }
 
 ::ng-deep {
-    .custom-slider .ng5-slider {
+    .custom-slider .ngx-slider {
         margin: 10px 0 18px;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-bar {
+    .custom-slider .ngx-slider .ngx-slider-bar {
         background: #cecece;
         height: 2px;
         width: calc(100% - 8px);
         margin-left: 8px;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-selection {
+    .custom-slider .ngx-slider .ngx-slider-selection {
         background: #666666;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-pointer {
+    .custom-slider .ngx-slider .ngx-slider-pointer {
         width: 12px;
         height: 12px;
         top: auto;
@@ -250,34 +250,34 @@ mat-select-trigger {
         background-color: #666666;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-pointer:after {
+    .custom-slider .ngx-slider .ngx-slider-pointer:after {
         display: none;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-bubble {
+    .custom-slider .ngx-slider .ngx-slider-bubble {
         bottom: 14px;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-limit {
+    .custom-slider .ngx-slider .ngx-slider-limit {
         font-weight: bold;
         color: #666666;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-tick {
+    .custom-slider .ngx-slider .ngx-slider-tick {
         width: 8px;
         height: 8px;
         margin-left: 4px;
         background: #cecece;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-tick-value {
+    .custom-slider .ngx-slider .ngx-slider-tick-value {
         top: unset;
         color: #666666;
         font-family: Pangolin;
         text-transform: uppercase;
     }
 
-    .custom-slider .ng5-slider .ng5-slider-tick.ng5-slider-selected {
+    .custom-slider .ngx-slider .ngx-slider-tick.ngx-slider-selected {
        background: #666666;
     }
 }
@@ -295,7 +295,7 @@ mat-select-trigger {
     margin-right: 14px;
 }
 
-mat-chip.custom-chip {
+mat-chip-row.custom-chip {
     color: #555555;
     font-family: Pangolin;
     background-color: #e8e8e8;

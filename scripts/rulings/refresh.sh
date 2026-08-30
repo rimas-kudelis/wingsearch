@@ -12,7 +12,7 @@
 # not changed is not re-curated. Running this with nothing new upstream is a no-op that
 # costs nothing.
 #
-# Needs AWS credentials for Bedrock (export AWS_PROFILE=...) and Node 14 for the specs.
+# Needs AWS credentials for Bedrock (export AWS_PROFILE=...) and Node 22 for the specs.
 # Nothing here pushes, deploys, or commits -- the working tree diff is the review.
 
 set -euo pipefail
@@ -101,9 +101,10 @@ step '6/6  Specs'
 if [[ -n $DRY_RUN ]]; then
     echo '(would run npm run test:ci)'
 else
-    # Node 14 only -- see CLAUDE.md. npm 8 would rewrite package-lock.json.
-    NODE14="$HOME/.nvm/versions/node/v14.21.3/bin"
-    [[ -d $NODE14 ]] && export PATH="$NODE14:$PATH"
+    # Angular 22 needs the Node in .nvmrc; a system Node that is too old fails the
+    # build rather than the specs, which is a confusing way to end a rulings run.
+    NODE_BIN="$HOME/.nvm/versions/node/$(cat ../../.nvmrc)/bin"
+    [[ -d $NODE_BIN ]] && export PATH="$NODE_BIN:$PATH"
     (cd ../.. && npm run test:ci)
 fi
 

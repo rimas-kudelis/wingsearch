@@ -1,17 +1,24 @@
-import { AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core'
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
 import { first, flatMap, map, tap } from 'rxjs/operators'
-import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
-import { bonusSearchMap, dynamicPercentage } from 'src/app/store/bonus-search-map'
+import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
+import { bonusSearchMap, dynamicPercentage } from '../../store/bonus-search-map'
 
 @Component({
+  standalone: false,
   selector: 'app-bonus-card-detail',
   templateUrl: './bonus-card-detail.component.html',
   styleUrls: ['./bonus-card-detail.component.scss']
 })
 export class BonusCardDetailComponent implements OnInit, AfterViewInit {
+  data = inject<{
+    card: BonusCard;
+}>(MAT_DIALOG_DATA)
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
 
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
@@ -26,9 +33,6 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
   bonusCards$: Observable<BonusCard[]>
   birds: BirdCard[]
   compatibleBirdIds: number[]
-
-
-  constructor(@Inject(MAT_DIALOG_DATA) public data: { card: BonusCard }, private store: Store<{ app: AppState }>) { }
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)

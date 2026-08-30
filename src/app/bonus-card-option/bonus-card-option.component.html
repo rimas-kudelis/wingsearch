@@ -1,17 +1,23 @@
 <div class="option-container">
-    <div class="row">
-        <div class="description-container">
-            <div class="name" [innerHTML]="card['Bonus card'] | iconize">
-            </div>
-            <div class="description" [innerHTML]="card.Condition | iconize">
-            </div>
-        </div>
-        <div class="points">
-            <div class="condition" *ngFor="let condition of getPointConditions()">
-                <div class="part" [ngClass]="{point: part.point}" *ngFor="let part of condition"
-                    [innerHTML]="part.value | iconize"></div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="description-container">
+      <div class="name" [innerHTML]="card['Bonus card'] | iconize">
+      </div>
+      <div class="description" [innerHTML]="card.Condition | iconize">
+      </div>
     </div>
-    <div class="explanation" *ngIf="card['Explanatory text']" [innerHTML]="card['Explanatory text'] | iconize"></div>
+    <div class="points">
+      @for (condition of getPointConditions(); track condition) {
+        <div class="condition">
+          @for (part of condition; track part) {
+            <div class="part" [ngClass]="{point: part.point}"
+            [innerHTML]="part.value | iconize"></div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+  @if (card['Explanatory text']) {
+    <div class="explanation" [innerHTML]="card['Explanatory text'] | iconize"></div>
+  }
 </div>

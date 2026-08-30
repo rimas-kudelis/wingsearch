@@ -1,12 +1,12 @@
-import { Directive, HostListener, Input } from '@angular/core'
+import { Directive, HostListener, inject } from '@angular/core'
 import { Router } from '@angular/router'
 
 @Directive({
+  standalone: false,
   selector: '[appLinkWatcher]'
 })
 export class ApplinkDirective {
-
-  constructor(private router: Router) {}
+  private router = inject(Router)
 
   @HostListener('click', ['$event.target']) onClick($event) {
     const url: string = $event.getAttribute('applink')

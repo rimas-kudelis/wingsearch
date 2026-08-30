@@ -265,7 +265,7 @@ const reducer = createReducer(
         return { ...state, activeBonusCards }
     }),
 
-    on(appActions.scroll, (state, action) => {
+    on(appActions.scroll, (state) => {
         const displayedCards = state.displayedCards.concat(state.displayedCardsHidden.slice(0, SLICE_WINDOW))
         const displayedCardsHidden = state.displayedCardsHidden.slice(SLICE_WINDOW)
 

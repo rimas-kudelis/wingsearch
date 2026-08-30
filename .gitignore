@@ -6,8 +6,8 @@
 /out-tsc
 # Local production preview served at http://localhost:8080/wingsearch/
 /.preview
-# Only exists if Bazel was run
-/bazel-out
+# Angular CLI's incremental build cache
+/.angular
 
 # dependencies
 /node_modules

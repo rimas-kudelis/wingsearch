@@ -1,7 +1,7 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
-import { selectCard, State, selectCardId } from '../store/router'
+import { selectCard, State } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
@@ -12,11 +12,17 @@ import { AnalyticsService } from '../analytics.service'
 import { ActivatedRoute, Router } from '@angular/router'
 
 @Component({
+  standalone: false,
   selector: 'app-display',
   templateUrl: './display.component.html',
   styleUrls: ['./display.component.scss']
 })
 export class DisplayComponent implements OnInit, AfterViewInit {
+  private store = inject<Store<State>>(Store)
+  dialog = inject(MatDialog)
+  private analytics = inject(AnalyticsService)
+  private router = inject(Router)
+  private route = inject(ActivatedRoute)
 
   cards$: Observable<(BirdCard | BonusCard)[]>
   selectedCard$: Observable<BirdCard | BonusCard>
@@ -36,13 +42,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
   cardHeight$ = new BehaviorSubject<number>(0)
   selectedCardType: 'bird' | 'hummingbird' | 'bonus' | null = null
 
-  constructor(
-    private store: Store<State>,
-    public dialog: MatDialog,
-    private analytics: AnalyticsService,
-    private router: Router,
-    private route: ActivatedRoute
-  ) {
+  constructor() {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
     this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
     this.selectedCard$ = this.store.select(selectCard)

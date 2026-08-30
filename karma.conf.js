@@ -1,35 +1,45 @@
 // Karma configuration file, see link for more information
 // https://karma-runner.github.io/latest/config/configuration-file.html
 
-// Chrome is discovered from CHROME_BIN or the system install. Both macOS dev
-// machines and GitHub's ubuntu runners ship a Chrome that karma-chrome-launcher
-// finds unaided, so we deliberately avoid a puppeteer devDependency (the
-// versions that still support Node 14 are long unmaintained).
+// This is the config `ng generate config karma` emits, plus three local
+// additions: the headless launcher `test:ci` selects, longer timeouts, and a
+// coverage directory. `frameworks` and `plugins` have to be listed explicitly —
+// without them Karma autoloads every sibling `karma-*` package in whatever order
+// it finds them, and the Jasmine HTML reporter then runs before Jasmine itself
+// and dies with `require is not defined`.
 
 module.exports = function (config) {
   config.set({
     basePath: '',
-    frameworks: ['jasmine', '@angular-devkit/build-angular'],
+    frameworks: ['jasmine'],
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
-      require('karma-coverage-istanbul-reporter'),
-      require('@angular-devkit/build-angular/plugins/karma')
+      require('karma-coverage'),
     ],
     client: {
-      clearContext: false // leave Jasmine Spec Runner output visible in browser
+      jasmine: {}
     },
-    coverageIstanbulReporter: {
+    jasmineHtmlReporter: {
+      suppressAll: true // removes the duplicated traces
+    },
+    coverageReporter: {
       dir: require('path').join(__dirname, './coverage/wingsearch'),
-      reports: ['html', 'lcovonly', 'text-summary'],
-      fixWebpackSourcePaths: true
+      subdir: '.',
+      reporters: [
+        { type: 'html' },
+        { type: 'text-summary' }
+      ]
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
+    // Chrome is discovered from CHROME_BIN or the system install. Both macOS dev
+    // machines and GitHub's ubuntu runners ship a Chrome that karma-chrome-launcher
+    // finds unaided, so we deliberately avoid a puppeteer devDependency.
     browsers: ['ChromeHeadlessNoSandbox'],
     customLaunchers: {
       // CI runners have no sandbox and a small /dev/shm; the reducer specs also

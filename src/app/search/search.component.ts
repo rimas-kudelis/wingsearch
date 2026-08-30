@@ -1,9 +1,9 @@
-import { Component, OnInit, ViewChild } from '@angular/core'
+import { Component, OnInit, ViewChild, inject } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { search, bonusCardSearch, changeLanguage, resetLanguage, changeAssetPack } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
-import { Options } from 'ng5-slider'
+import { Options } from '@angular-slider/ngx-slider'
 import { FormControl } from '@angular/forms'
 import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/material/autocomplete'
 import { CookiesService } from '../cookies.service'
@@ -11,21 +11,25 @@ import { MatDialog } from '@angular/material/dialog'
 import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
 import { AssetPackDialogComponent } from './asset-pack-dialog/asset-pack-dialog.component'
 import { AnalyticsService } from '../analytics.service'
-import { access } from 'fs'
 
 @Component({
+  standalone: false,
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss']
 })
 export class SearchComponent implements OnInit {
+  private store = inject<Store<{
+    app: AppState;
+}>>(Store)
+  private cookies = inject(CookiesService)
+  dialog = inject(MatDialog)
+  private analytics = inject(AnalyticsService)
 
-  constructor(
-    private store: Store<{ app: AppState }>,
-    private cookies: CookiesService,
-    public dialog: MatDialog,
-    private analytics: AnalyticsService
-  ) {
+  constructor() {
+    const store = this.store
+    const cookies = this.cookies
+
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
     this.bonusCards = this.store.select(({ app }) => app.bonusCards)
     this.query = {

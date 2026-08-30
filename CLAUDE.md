@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Wingsearch is a client-side search app for the Wingspan board game card collection, published as a PWA at https://navarog.github.io/wingsearch/. There is no backend — all card data ships as JSON bundled into the app, and all searching/filtering happens in the NgRx reducer.
 
-Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node 14 / npm 6 (see `engines` and `.nvmrc`, pinned to v14.21.3) — newer Node will fail the build. Node 14 ships npm 6, which matches `package-lock.json`'s lockfileVersion 1; installing under npm 8 rewrites the lockfile, so don't.
+Angular 22 + NgRx 22 + Angular Material, TypeScript 6.0, SCSS. Node 22 / npm 10 (see `engines` and `.nvmrc`, pinned to v22.23.2). Upgraded from Angular 9 / Node 14 on 2026-08-30 in one hand-written step — see "The Angular 22 upgrade" below for what that means for anything you read in an older commit.
 
 ## Commands
 
@@ -14,12 +14,12 @@ Angular 9 + NgRx 10 + Angular Material, TypeScript 3.8, SCSS. Node 14 / npm 6 (s
 npm start              # dev server on :4200
 npm run test:ci        # specs in headless Chrome, non-interactive (what CI runs)
 npm test               # specs in watch mode
-npm run lint           # tslint; clean, and blocking in CI — keep it that way
+npm run lint           # eslint (angular-eslint); clean, and blocking in CI — keep it that way
 npm run preview        # build + serve an exact production replica (see below)
 npm run build-pages    # production build into dist/wingsearch (what CI deploys)
 ```
 
-Docker alternative (avoids installing Node 14 locally): `docker compose up` serves the dev server on `$WEB_PORT` (default 8080) with `src/` mounted read-only.
+Docker alternative (avoids installing Node 22 locally): `docker compose up` serves the dev server on `$WEB_PORT` (default 8080) with `src/` mounted read-only.
 
 ### Verifying a change looks right in production
 
@@ -27,11 +27,42 @@ Docker alternative (avoids installing Node 14 locally): `docker compose up` serv
 
 ### Tests
 
-`src/app/store/app.reducer.spec.ts` holds 61 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, and the `setLanguage`/`resetLanguage` round trip (~91% statement coverage of the store).
+`src/app/store/app.reducer.spec.ts` holds 61 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, and the `setLanguage`/`resetLanguage` round trip (~91% statement coverage of the store). `src/app/store/app.effects.spec.ts` constructs `AppEffects` for real against `HttpTestingController`; it exists because the one effect is a class field initialized from a constructor parameter property, which a compiler-flag default silently broke during the Angular 22 upgrade (see below). 124 specs in total.
 
 These specs deliberately **pin current behaviour, including where it is wrong**. Known-buggy behaviour is pinned with a comment naming the issue rather than corrected, so a fix is always a deliberate test change. Don't "fix" a failing spec by loosening the assertion — work out which side is wrong first.
 
 Angular schematics are configured with `skipTests: true`, so generated components come without specs.
+
+Specs are the only automated check on the app shell, and they do not render it. A green suite plus a green AOT build **does not** mean the page works — the upgrade below produced exactly that state while serving a blank page. Before shipping anything that touches bootstrap, module providers, or a compiler flag, serve the real artifact and look at it:
+
+```bash
+npm run preview   # then http://localhost:8080/wingsearch/
+```
+
+A headless equivalent, useful when there is no browser to hand — an empty `<app-root>` is the failure signature:
+
+```bash
+npm run build-pages && cp -R dist/wingsearch /tmp/pagesroot/wingsearch
+npx http-server /tmp/pagesroot -p 8126 -c-1 &
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu \
+  --virtual-time-budget=20000 --enable-logging=stderr --v=0 \
+  --dump-dom http://localhost:8126/wingsearch/ 2>&1 | grep -a CONSOLE
+```
+
+## The Angular 22 upgrade
+
+Angular 9 → 22, NgRx 10 → 22, TypeScript 3.8 → 6.0, Node 14 → 22, tslint → eslint, webpack → esbuild, done by hand on 2026-08-30 (branch `upgrade/angular`). The sequential `ng update` chain was not used and could not be: the CLI it installs to run the first hop already refuses to start on Node 14, and v15's Material MDC migration only emits the `legacy-*` imports that v17 deleted, so the MDC work was manual either way.
+
+What this costs you when reading older material: anything written before this date about the toolchain — Node 14, npm 6, `lockfileVersion 1`, `tslint.json`, `src/polyfills.ts`, `src/test.ts`, `platformBrowserDynamic`, `browserslist`, `mat.core()`, `mat-chip-list` — is describing a stack that no longer exists. The lockfile is deliberately rewritten at lockfileVersion 3; the old warning not to touch it is void.
+
+Deliberately kept out of the upgrade commit so that each is reviewable on its own. Landed since, as follow-ups on the same branch: `inject()` instead of constructor DI (`ng generate @angular/core:inject`, which also let `useDefineForClassFields` go back to the default — see below), and `@if`/`@for` instead of `*ngIf`/`*ngFor` (`ng generate @angular/core:control-flow`; every template, one commit, `prefer-control-flow` blocking afterwards). Still open: standalone components (every declarable carries `standalone: false`), `strict`/`strictTemplates`, and flexsearch 0.8's `Document` API (pinned at exactly 0.6.32 because 0.8 changes what the search returns). The lint rules covering the not-yet-done migrations are switched off in `eslint.config.js` with a note saying so; turn each back on in the commit that does the migration.
+
+Two things bite anyone repeating this kind of change:
+
+- **`useDefineForClassFields`.** An ES2022 target defaults it to `true`, which emits native class fields, which run *before* the constructor body rather than after it. `AppEffects.loadLanguage$ = createEffect(() => this.actions$.pipe(...))` therefore read an `undefined` constructor parameter property and threw during bootstrap — a blank page and one console line, with the build and all 119 specs green. The `inject()` migration removed the hazard rather than working around it (native fields initialize in declaration order, and the DI fields are declared first), so the flag is back at the modern default and `tsconfig.json` no longer pins it. `app.effects.spec.ts` constructs the effect for real and fails if the field order regresses.
+- **`--output-path` on the command line.** `angular.json` sets `outputPath` to `{base, browser: ""}` so `index.html` lands flat, which is what `404.html` copying and the Pages artifact path expect. Passing `--output-path` as a *string* resets `browser` to its default and buries the build in a `browser/` subdirectory. That is why `build-preview` uses a `preview` configuration rather than a flag, and why `build-pages` no longer passes one at all.
+
+Measured against the Angular 9 baseline: **production build 81s → ~22s** (esbuild), `npm ci` ~20s, specs 119 → 124 at the same runtime. Bundle size barely moved — `main.js` gzips to 536 kB against the old 556 kB, about 3.5% — because the bundle is mostly card JSON, not framework. The `~338 kB` the CLI prints is its own brotli estimate and is not comparable to that gzip figure. `dist/wingsearch` is 97M, of which 87M is card art copied verbatim from `src/assets`; the fonts and CSS-referenced images that `--resourcesOutputPath=assets/generated` used to place under `assets/` now sit in `media/` (5.8M), still duplicating files that the wholesale `assets` copy also ships. Deduplicating that is Track D work, not upgrade work.
 
 ## Deployment
 
@@ -131,7 +162,7 @@ Never put the audit — or any other model-calling stage — in the build path. 
 
 ### Refreshing the rulings
 
-[scripts/rulings/refresh.sh](scripts/rulings/refresh.sh) is the whole pipeline in one command. It needs Bedrock credentials (`export AWS_PROFILE=...`) and Node 14 for the last stage, and it never pushes, deploys or commits — the working tree diff is the review.
+[scripts/rulings/refresh.sh](scripts/rulings/refresh.sh) is the whole pipeline in one command. It needs Bedrock credentials (`export AWS_PROFILE=...`) and Node 22 for the last stage, and it never pushes, deploys or commits — the working tree diff is the review.
 
 ```bash
 scripts/rulings/refresh.sh --dry-run     # report what every stage would do, call nothing
@@ -162,4 +193,4 @@ In [scripts/images/](scripts/images/); requires ImageMagick / cwebp / OpenCV and
 
 - Semicolons are omitted in TypeScript. Store files use 4-space indentation; components use 2-space.
 - Card fields are accessed by their human-readable spreadsheet names (`card['Egg limit']`, `card['Nest type']`, `card['Victory points']`) — bracket notation with spaces is normal here.
-- tslint config is `tslint:recommended` plus `semicolon: never`, `quotemark: single`, `object-literal-key-quotes: as-needed`, `max-line-length: 140` and the codelyzer rules; directive selectors must therefore be `app`-prefixed camelCase (`appLinkWatcher`, `appFitText`).
+- `eslint.config.js` (flat config, angular-eslint) mirrors what tslint enforced: `semi: never`, single quotes, `max-len` 140 with regex literals exempt, `eqeqeq`. Directive selectors must be `app`-prefixed camelCase (`appLinkWatcher`, `appFitText`), components `app`-prefixed kebab-case. Four rules are off on purpose and each carries the reason inline — read those before turning one on.

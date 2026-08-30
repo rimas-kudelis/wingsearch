@@ -14,10 +14,7 @@ concurrency:
 
 jobs:
   build:
-    # Angular 9 / Node 14 predate ubuntu-24.04. Pinning 22.04 keeps the
-    # toolchain on an image it was actually tested against; revisit when the
-    # Angular upgrade lands.
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -74,7 +71,7 @@ jobs:
     # for a manual approval instead of going straight to live users.
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
     needs: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     permissions:
       pages: write

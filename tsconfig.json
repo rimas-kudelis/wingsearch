@@ -1,25 +1,42 @@
+/* Angular 22 scaffolds this file with `strict: true`, `strictTemplates` and
+ * `noPropertyAccessFromIndexSignature`. Wingsearch cannot adopt those wholesale: the card
+ * model is addressed by its spreadsheet column names (`card['Egg limit']`) and the JSON
+ * imports are typed structurally by resolveJsonModule, which is why the store is full of
+ * `@ts-ignore`. Turning strictness on is a worthwhile separate change; bundling it with the
+ * framework upgrade would have meant rewriting the store to prove the upgrade worked.
+ */
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    // TypeScript 6 turns `strict` on by default, so this has to be said out loud.
+    "strict": false,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
     "experimentalDecorators": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
-    "target": "es2015",
+    "skipLibCheck": true,
+    "target": "ES2022",
     "lib": [
-      "es2018",
+      "ES2022",
       "dom"
     ],
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },
   "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+    "strictInjectionParameters": true,
+    "strictTemplates": false
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
 }

@@ -1,14 +1,15 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core'
+import { Component, Input, Output, EventEmitter, inject } from '@angular/core'
 import { Observable } from 'rxjs'
 import { DisplayedStats, AppState } from '../store/app.interfaces'
 import { Store } from '@ngrx/store'
 
 @Component({
+  standalone: false,
   selector: 'app-stats',
   templateUrl: './stats.component.html',
   styleUrls: ['./stats.component.scss']
 })
-export class StatsComponent implements OnInit {
+export class StatsComponent {
 
   @Input()
   mobile: boolean
@@ -26,11 +27,12 @@ export class StatsComponent implements OnInit {
 
   stats$: Observable<DisplayedStats>
 
-  constructor(store: Store<{ app: AppState }>) {
-    this.stats$ = store.select(({ app }) => app.displayedStats)
-  }
+  constructor() {
+    const store = inject<Store<{
+    app: AppState;
+}>>(Store)
 
-  ngOnInit(): void {
+    this.stats$ = store.select(({ app }) => app.displayedStats)
   }
 
   toggleHabitat(habitat: 'forest' | 'grassland' | 'wetland', event: MouseEvent) {
