@@ -3,9 +3,15 @@
 // height is what `cardHeight` measured. `container-type: size` (rather than `inline-size`) is what
 // makes `cqh` resolve, and it is safe here only because the height never depends on the contents
 // -- it comes from `:host`, which fills a parent the grid or the dialog has already sized.
+// `isolation: isolate` keeps the `z-index`es below (the continent overlay, the swift-start
+// indicator) inside the card. Without it they join the root stacking context -- neither
+// `.continent` nor `container-type: size` makes one -- and paint over anything outside that
+// merely relies on DOM order, which is how the active continent came through the fixed cookie
+// banner.
 :host {
     display: block;
     height: 100%;
+    isolation: isolate;
 }
 
 .content-wrapper {

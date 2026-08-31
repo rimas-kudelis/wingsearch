@@ -7,7 +7,12 @@
 
 mat-card {
     border-radius: 10px;
-    max-width: 315px;
+    // 347px, not the 315px this was, because v9's `.mat-card` had `padding: 16px` and nothing
+    // here sets `box-sizing`, so `max-width: 315px` described the *content* box and the card
+    // measured 347px on screen. Restoring the 16px inset below (MDC's card has none) inside a
+    // 315px box would instead have taken it out of the text, which is what turned the banner
+    // from four lines into five.
+    max-width: 347px;
     background: unset;
     background-image: url('../../assets/falcon.webp');
     background-size: contain;
@@ -17,6 +22,9 @@ mat-card {
 
 mat-card-actions {
     display: flex;
+    // MDC reserves 52px here for a row of icon buttons. This row is one text link, and v9's
+    // card actions had no minimum, so the banner was 16px shorter.
+    min-height: unset;
 }
 
 .choice {
@@ -40,7 +48,10 @@ mat-card-actions {
 
 .body {
     display: flex;
-    
+    // MDC's `mat-card` has no padding of its own (v9's `.mat-card` had 16px), and this text
+    // is a bare div rather than a `mat-card-content`, so nothing else supplies one.
+    padding: 16px;
+
     img {
         max-width: 55px;
     }

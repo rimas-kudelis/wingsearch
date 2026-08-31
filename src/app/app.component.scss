@@ -54,4 +54,8 @@ app-consent {
     position: fixed;
     bottom: 5px;
     right: 5px;
+    // It had none, so it sat at the bottom of the positioned layer and lost to any card that
+    // raised a child (see bird-card's `isolation`). Well below the CDK overlay's 1000, so a card
+    // detail dialog still covers it.
+    z-index: 100;
 }

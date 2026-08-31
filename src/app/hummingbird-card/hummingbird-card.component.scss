@@ -2,9 +2,13 @@
 // the template is now `k*100` in `cqh`, which needs `container-type: size` rather than
 // `inline-size`. Safe because this element's height never depends on its contents -- it comes from
 // `:host`, filling a parent the grid or the dialog has already sized. See bird-card.component.scss.
+// `isolation: isolate` for the same reason as bird-card: `.attract-icon`'s `z-index` is live
+// (z-index applies to a flex item even when statically positioned) and would otherwise paint in
+// the root stacking context, above anything outside the card that only has DOM order on its side.
 :host {
     display: block;
     height: 100%;
+    isolation: isolate;
 }
 
 .content-wrapper {
