@@ -29,6 +29,16 @@
     }
 }
 
+// The one entry without an artwork icon -- there is no ruling in the card art -- so it borrows the
+// Material Icons font already loaded in index.html, sized to sit level with the 36px images.
+.stats-entry.rulings mat-icon {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    color: #666666;
+}
+
 .habitat-container {
     display: flex;
     flex-direction: column;

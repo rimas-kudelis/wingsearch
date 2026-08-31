@@ -96,6 +96,9 @@ export class SearchComponent implements OnInit {
       birds: true,
       hummingbirds: true,
       bonuses: true,
+      // Off by default: the rulings view adds a second corpus to the results rather than filtering the
+      // cards, so a player who has not asked for it sees exactly what they saw before (issue #46).
+      rulings: false,
     },
     expansion: {
       core: true,
@@ -298,7 +301,8 @@ export class SearchComponent implements OnInit {
         habitat: { forest: 0, grassland: 0, wetland: 0 },
         birds: true,
         hummingbirds: true,
-        bonuses: true
+        bonuses: true,
+        rulings: false
       },
       eggs: { ...this.eggs },
       points: { ...this.points },

@@ -1,295 +1,354 @@
 {
   "0":{
+    "id":"02c",
     "name":"Prairie",
     "text":"The word <i>prairie<\/i> is a keyword for the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card. (This omission was corrected in print by December 2019.)",
     "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
   },
   "1":{
+    "id":"02g",
     "name":"Rerolling dice",
     "text":"Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder: whenever you go to the birdfeeder to gain food for any reason\u2014caching included, and including a power that gains 1 [die] or that gains a specific food <i>\"if available\"<\/i>\u2014you may reroll if all the [die] in the birdfeeder show the same face. A single remaining [die] trivially shows the same face, so it may be rerolled. You may also take fewer food than the birdfeeder offers and reroll before choosing the next.",
     "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
   },
   "2":{
+    "id":"03a",
     "name":"Powers",
     "text":"Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
     "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
   },
   "3":{
+    "id":"20190122",
     "name":"Sets of [egg][egg][egg] in [forest][grassland][wetland]",
     "text":"A player's score for this goal tile is the minimum of the counts of eggs in each of their habitats.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2134349\/article\/31052545#31052545"
   },
   "4":{
+    "id":"20190205",
     "name":"Once between turns",
     "text":"You may use a pink power during another player's turn after your last turn of the game.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2145421\/article\/31177235#31177235"
   },
   "5":{
+    "id":"20190313",
     "name":"Once between turns",
     "text":"You may activate each <i>\"once between turns\"<\/i> power on a bird on your player mat once between each of your turns.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/312352352801707\/?comment_id=312354036134872&reply_comment_id=312437246126551"
   },
   "6":{
+    "id":"20190601",
     "name":"Rerolling dice",
     "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
   },
   "7":{
+    "id":"20190908",
     "name":"End of your turn",
     "text":"You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
   },
   "8":{
+    "id":"20191010",
     "name":"End of your turn",
     "text":"If you perform more than one action <i>\"at the end of your turn\"<\/i>, you may perform those actions in any order.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/414814145888860\/?comment_id=415023839201224&reply_comment_id=415302489173359"
   },
   "9":{
+    "id":"20191202",
     "name":"End-of-round goal",
     "text":"A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
   },
   "10":{
+    "id":"20191203c",
     "name":"Violet",
     "text":"The word <i>violet<\/i> is a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card. (This keyword currently occurs only on the <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong>, which already contains another keyword for <strong applink=\"\/card\/1023\">Photographer<\/strong>.) ",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980"
   },
   "11":{
+    "id":"20200109a",
     "name":"Action",
     "text":"Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
   },
   "12":{
+    "id":"20200208",
     "name":"Once between turns",
     "text":"You may not use a pink power during your turn (when an opponent performs an action that would otherwise enable using such a power).",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/499161054120835\/?comment_id=499167897453484"
   },
   "13":{
+    "id":"2020022b",
     "name":"It becomes a tucked card",
     "text":"Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
   },
   "14":{
+    "id":"20200330",
     "name":"Once between turns",
     "text":"If a pink power is triggered by a player using the <i>\"gain food\"<\/i>, <i>\"lay eggs\"<\/i>, or <i>\"draw bird cards\"<\/i> action, the pink power is resolved after the player collects the resources indicated on the player mat but before any brown powers in the corresponding row are activated. If a pink power is triggered by another bird's power, the pink power is resolved after the other bird's power has been resolved.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2397920\/article\/34412077#34412077"
   },
   "15":{
+    "id":"20200404",
     "name":"Resources",
     "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
     "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
   },
   "16":{
+    "id":"20200511",
     "name":"Alternative cost",
     "text":"If you use a bird's power to play in the same habitat a bird an alternative food cost specified via an asterisk next to its food cost, you may pay the alternative cost (which thus counts as paying the bird's <i>\"normal food cost\"<\/i>) instead of paying its food cost.",
     "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/709127448922423368"
   },
   "17":{
+    "id":"20200712",
     "name":"Trade",
     "text":"<i>\"Trading\"<\/i> (e.g., when using the <strong applink=\"\/card\/141\">Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
   },
   "18":{
+    "id":"20200716a",
     "name":"Appendix",
     "text":"If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong applink=\"\/card\/9\">American Oystercatcher<\/strong>, <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>, and <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>.)",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
   },
   "19":{
+    "id":"20200716b",
     "name":"[wild] [wild] \u2794 [wild]",
     "text":"You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
   },
   "20":{
+    "id":"20201003",
     "name":"Discard pile",
     "text":"Cards discarded to the discard pile are placed face up.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
   },
   "21":{
+    "id":"20201003",
     "name":"Discard pile",
     "text":"Players may look through the discard pile at any time.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/644780639558875\/?comment_id=644981886205417&reply_comment_id=644982936205312"
   },
   "22":{
+    "id":"20201009",
     "name":"Honey",
     "text":"As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
     "source":"Oceania Expansion rulebook"
   },
   "23":{
+    "id":"20201116a",
     "name":"End of Round Reference",
     "text":"When playing with the Oceania Expansion, follow the order of steps on the (Oceania Expansion) End of Round Reference, not the order given in the Oceania Expansion rulebook.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2542100\/article\/36292121#36292121"
   },
   "24":{
+    "id":"20201116a",
     "name":"Game end",
     "text":"When playing with the Oceania Expansion, follow the order of steps on the (Oceania Expansion) End of Round Reference, not the order given in the Oceania Expansion rulebook.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2542100\/article\/36292121#36292121"
   },
   "25":{
+    "id":"20201117",
     "name":"Discard",
     "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
     "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
   },
   "26":{
+    "id":"20201211",
     "name":"Ability",
     "text":"<i>\"Ability\"<\/i> is a synonym of <i>\"power\"<\/i>.",
     "source":"https:\/\/www.boardgamegeek.com\/thread\/2558020\/article\/36492150#36492150"
   },
   "27":{
+    "id":"20210101",
     "name":"Giving",
     "text":"<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
     "source":"https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
   },
   "28":{
+    "id":"20210199a",
     "name":"Copy",
     "text":"When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
   },
   "29":{
+    "id":"20210199a",
     "name":"Copy",
     "text":"Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong applink=\"\/card\/148\">Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
   },
   "30":{
+    "id":"20210199a",
     "name":"Repeat",
     "text":"When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
   },
   "31":{
+    "id":"20210199b",
     "name":"Copy",
     "text":"When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/348\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/255\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
   },
   "32":{
+    "id":"20210206",
     "name":"Beak pointing left\/right",
     "text":"A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
   },
   "33":{
+    "id":"20210318",
     "name":"Beak pointing left\/right",
     "text":"This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
     "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
   },
   "34":{
+    "id":"20210920",
     "name":"Round end",
     "text":"Teal ROUND END powers trigger at the end of every round after the bird is played, not only the round in which it was played, so a bird played in round 1 may activate its round end power up to 4 times.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-37\/#comment-48177"
   },
   "35":{
+    "id":"20191004",
     "name":"Round end powers",
     "text":"Each player chooses the order in which they activate their own round end (teal) powers.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-2\/#comment-35191"
   },
   "36":{
+    "id":"20260520b",
     "name":"End of turn",
     "text":"Powers that trigger <i>\"at the end of your turn\"<\/i> trigger after hummingbird actions, since hummingbird actions happen during your turn.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-80\/#comment-157465"
   },
   "37":{
+    "id":"20260605",
     "name":"Resolving powers that involve all players",
     "text":"When a bird power has each player make a selection, all players make their selections in turn order; the active player then carries on activating the remaining brown powers in that habitat until their turn ends.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-81\/#comment-159055"
   },
   "38":{
+    "id":"20260814",
     "name":"Laying eggs with bird powers",
     "text":"The restriction that [egg] must be laid on different birds belongs to the lay eggs action, not to bird powers. When a power lets you lay more than one [egg], you may lay them all on the same bird, up to that bird's [egg] limit.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-pocket\/comment-page-6\/#comment-168218"
   },
   "39":{
+    "id":"20260816",
     "name":"Gaining specific foods from the birdfeeder",
     "text":"When a power tells you to gain more than one specific type of food from the birdfeeder, gain only the types actually in the birdfeeder; the food that is not there is simply not gained, and the birdfeeder is not reset or refilled to look for it.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-pocket\/comment-page-6\/#comment-168532"
   },
   "40":{
+    "id":"20221116",
     "name":"Drawn cards enter your hand",
     "text":"[card] you draw enter your hand immediately, so a [card] you have just drawn is eligible when a power tells you to discard a [card] from your hand.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-51\/#comment-56989"
   },
   "41":{
+    "id":"20231228",
     "name":"Wingspan of flightless birds",
     "text":"A bird with a [star] wingspan has no printed wingspan. Per page 3 of the <i>Oceania<\/i> rulebook, treat its wingspan as any length you want it to be, whether for an end-of-round goal, a bonus card, or a power that looks at wingspan.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-64\/#comment-65152"
   },
   "42":{
+    "id":"20221013",
     "name":"Wild wingspan",
     "text":"A [star] wingspan is wild for each bonus card separately, in the same way a [wild] nest can act as a different nest type for each bonus card, goal or power. <strong applink=\"\/card\/286\">Emu<\/strong> can count as a mid-sized wingspan for <strong applink=\"\/card\/1035\">Grassland Data Analyst<\/strong> and as a wingspan over 65 cm for <strong applink=\"\/card\/1018\">Large Bird Specialist<\/strong> at the same time.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-oceania-expansion\/comment-page-36\/#comment-55544"
   },
   "43":{
+    "id":"20240713",
     "name":"Rerolling dice",
     "text":"Unless a card says otherwise, the birdfeeder [die] are rerolled in exactly two situations: when the birdfeeder is empty of [die], refill it immediately by rolling all 5; and when a player is about to gain food and every [die] in the birdfeeder shows the same face, that player may refill it by rolling all 5. There is no default option to pay food to reset the birdfeeder.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-69\/#comment-71887"
   },
   "44":{
+    "id":"20200413",
     "name":"Tucking",
     "text":"There is no limit to the number of [card] that may be tucked behind a bird.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-16\/#comment-37939"
   },
   "45":{
+    "id":"20210830",
     "name":"Rolling dice outside the birdfeeder",
     "text":"Powers that say <i>\"Roll all dice not in birdfeeder\"<\/i> are always resolved outside of the birdfeeder: do not roll those dice back into the birdfeeder, and consider only the dice rolled outside it, not the dice sitting in the birdfeeder. If there are no dice outside the birdfeeder, the power has no dice to roll and gains nothing.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
   },
   "46":{
+    "id":"20210830b",
     "name":"When Played",
     "text":"A <i>\"When Played\"<\/i> power resolves only after the bird has been played, so the bird's cost must be paid first\u2014you cannot use <strong applink=\"\/card\/53\">Brown Pelican<\/strong>'s power to gain the [fish] needed to pay for it.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
   },
   "47":{
+    "id":"20210830c",
     "name":"Ties",
     "text":"When a power refers to the <i>\"player(s) with the fewest\"<\/i> something, the <i>\"(s)\"<\/i> means that if several players are tied for the fewest, they all gain the benefit.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
   },
   "48":{
+    "id":"20210830d",
     "name":"Laying eggs with bird powers",
     "text":"[egg] laid by a bird power must always be placed on a nest with available space; you may not hold [egg] to the side of your player mat.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-36\/#comment-47869"
   },
   "49":{
+    "id":"20200504",
     "name":"Rolling dice outside the birdfeeder",
     "text":"When the birdfeeder becomes empty, all 5 [die] are immediately refilled and rerolled before anything else happens, so a power that rolls the dice not in the birdfeeder can roll at most 4 of them.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-18\/#comment-38364"
   },
   "50":{
+    "id":"20220429",
     "name":"Drawing cards",
     "text":"A power that says <i>\"Look at a [card] from the deck\"<\/i> must use the top card of the deck; a face-up card from the bird tray may not be used.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-46\/#comment-52245"
   },
   "51":{
+    "id":"20220429b",
     "name":"Drawing cards",
     "text":"A power that says <i>\"Draw [card]\"<\/i> without naming a source lets you take either a face-up [card] from the bird tray or the top [card] of the deck. (Contrast <strong applink=\"\/card\/136\">Great Horned Owl<\/strong>, whose <i>\"Look at a [card] from the deck\"<\/i> must use the top card of the deck.)",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-46\/#comment-52245"
   },
   "52":{
+    "id":"20260503",
     "name":"Caching",
     "text":"A <i>\"you may cache\"<\/i> power is literal and the <i>\"may\"<\/i> is a genuine choice: food you gain goes to your personal supply, and you may instead choose to cache any or all of it on this bird, where it scores 1 point at the end of the game instead of being available to spend.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-80\/#comment-155493"
   },
   "53":{
+    "id":"20190617",
     "name":"Food cost of bird powers",
     "text":"Paying 2 food of one type in place of 1 food of another type applies only when playing a bird; it cannot pay a food cost inside a bird's power, such as discarding 1 [seed] for <strong applink=\"\/card\/60\">Canada Goose<\/strong>.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-5\/#comment-33198"
   },
   "54":{
+    "id":"20220516",
     "name":"Nectar",
     "text":"[nectar] is not wild for a bird power that names a specific food type: <strong applink=\"\/card\/60\">Canada Goose<\/strong> requires discarding a [seed], and [nectar] may not be discarded instead. [nectar] is wild only when paying food to play a bird, using an <i>\"any food\"<\/i> bird power, or upgrading an action.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-43\/#comment-52571"
   },
   "55":{
+    "id":"20220326",
     "name":"Powers",
     "text":"Activating a bird power is optional, including a teal (round end) or pink (once between turns) power. A player may decline to activate one\u2014for example, to avoid laying [egg] on a bird when the end-of-round goal counts birds with no [egg].",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/comment-page-9\/#comment-51436"
   },
   "56":{
+    "id":"20230827",
     "name":"Powers",
     "text":"Powers that refer to types of birds (e.g., <strong applink=\"\/card\/64\">Carrion Crow<\/strong>, which caches 1 [rodent] for each [predator] a player has) always refer to birds played on a player mat, never to birds in hand.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-60\/#comment-62523"
   },
   "57":{
+    "id":"20200423b",
     "name":"Food cost of bird powers",
     "text":"The food a power tells you to discard is a cost, not something you may substitute or skip: if you cannot pay it you cannot use the power, and you may not take the benefit without paying\u2014no [seed], no tuck for <strong applink=\"\/card\/215\">Sandhill Crane<\/strong>.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-17\/#comment-38179"
   },
   "58":{
+    "id":"20221121b",
     "name":"Powers",
     "text":"Any player may decline a benefit, whether it comes from their own power or from another player's power. Having food stolen is not a benefit, so a player being stolen from has no choice.",
     "source":"https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/comment-page-52\/#comment-57095"

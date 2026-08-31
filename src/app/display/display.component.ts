@@ -1,6 +1,8 @@
 import { Component, OnInit, inject } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
+import {
+  BirdCard, BonusCard, RulingCard, isBirdCard, isHummingbirdCard, isBonusCard, isRulingCard
+} from '../store/app.interfaces'
 import { selectCard, State } from '../store/router'
 import { Observable } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
@@ -24,7 +26,7 @@ export class DisplayComponent implements OnInit {
   private router = inject(Router)
   private route = inject(ActivatedRoute)
 
-  cards$: Observable<(BirdCard | BonusCard)[]>
+  cards$: Observable<(BirdCard | BonusCard | RulingCard)[]>
   selectedCard$: Observable<BirdCard | BonusCard>
   scrollDisabled$: Observable<boolean>
 
@@ -75,16 +77,20 @@ export class DisplayComponent implements OnInit {
     })
   }
 
-  isBirdCard(card: BirdCard | BonusCard): card is BirdCard {
+  isBirdCard(card: BirdCard | BonusCard | RulingCard): card is BirdCard {
     return isBirdCard(card)
   }
 
-  isHummingbirdCard(card: BirdCard | BonusCard): card is BirdCard {
+  isHummingbirdCard(card: BirdCard | BonusCard | RulingCard): card is BirdCard {
     return isHummingbirdCard(card)
   }
 
-  isBonusCard(card: BirdCard | BonusCard): card is BonusCard {
+  isBonusCard(card: BirdCard | BonusCard | RulingCard): card is BonusCard {
     return isBonusCard(card)
+  }
+
+  isRulingCard(card: BirdCard | BonusCard | RulingCard): card is RulingCard {
+    return isRulingCard(card)
   }
 
   openBirdDialog(card: BirdCard) {

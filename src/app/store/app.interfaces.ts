@@ -6,8 +6,10 @@ export interface AppState {
         bonusCards: any
     }
     query: SearchQuery
-    displayedCards: (BirdCard | BonusCard)[]
-    displayedCardsHidden: (BirdCard | BonusCard)[]
+    // No `rulingCards` beside these: the rulings corpus is derived from them and memoized in rulings.ts
+    // rather than stored, so that a view which is off by default costs nothing until it is switched on.
+    displayedCards: (BirdCard | BonusCard | RulingCard)[]
+    displayedCardsHidden: (BirdCard | BonusCard | RulingCard)[]
     activeBonusCards: BonusCard[]
     expansion: Expansion
     swiftstart: boolean
@@ -90,6 +92,7 @@ export enum CardType {
     Bird = 'Bird',
     Hummingbird = 'Hummingbird',
     Bonus = 'Bonus',
+    Ruling = 'Ruling',
 }
 
 export function isBirdCard(object: any): object is BirdCard {
@@ -161,6 +164,30 @@ export interface Ruling {
     id: string
     text: string
     source: string
+}
+
+/**
+ * One ruling turned around: the cards carry their rulings, and this carries a ruling's cards, so that
+ * the same corpus can be searched from either end (issue #46). Built by `buildRulingCards` in
+ * rulings.ts from the same `rulings`/`additionalRulings` arrays the detail dialogs render, which is why
+ * nothing here is a new contract with the data pipeline -- the only addition was the ruling id in
+ * general.json, so a general ruling can be titled.
+ */
+export interface RulingCard extends Ruling {
+    /**
+     * The FlexSearch document id, and the only unique handle a ruling has. The ruling id is not one:
+     * three ids (20201003, 20201116a, 20210199a) carry two general rows each, because one comment can
+     * settle two rules and the fan-out predicate in general_map.py is keyed per id, not per row.
+     */
+    key: number
+    /** The general ruling's heading from general.json; null for a ruling that belongs to named cards. */
+    name: string | null
+    cards: (BirdCard | BonusCard)[]
+    CardType: CardType
+}
+
+export function isRulingCard(object: any): object is RulingCard {
+    return object?.CardType === CardType.Ruling
 }
 
 export interface BonusCard {
@@ -235,7 +262,10 @@ export interface SearchQuery {
         },
         birds: boolean,
         bonuses: boolean,
-        hummingbirds: boolean
+        hummingbirds: boolean,
+        // Off by default, and the only one of these that adds rather than filters: the rulings view is
+        // a second corpus rather than a subset of the cards. See `applySearch` in app.reducer.ts.
+        rulings: boolean
     },
     expansion: Expansion,
     promoPack: PromoPack,
@@ -290,6 +320,7 @@ export interface DisplayedStats {
     birdCards: number
     hummingbirdCards: number
     bonusCards: number
+    rulingCards: number
     habitat: {
         forest: number
         grassland: number

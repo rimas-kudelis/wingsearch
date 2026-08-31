@@ -31,6 +31,7 @@ import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.
 import { BirdCardComponent } from './bird-card/bird-card.component'
 import { HummingbirdCardComponent } from './hummingbird-card/hummingbird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
+import { RulingCardComponent } from './ruling-card/ruling-card.component'
 import { IconizePipe } from './iconize.pipe'
 import { StatsComponent } from './stats/stats.component'
 import { CookiesService } from './cookies.service'
@@ -57,6 +58,7 @@ import { SafePipe } from './safe.pipe'
     BirdCardComponent,
     HummingbirdCardComponent,
     BonusCardComponent,
+    RulingCardComponent,
     IconizePipe,
     StatsComponent,
     ConsentComponent,

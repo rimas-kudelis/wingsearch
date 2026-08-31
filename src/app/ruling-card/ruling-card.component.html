@@ -1,0 +1,34 @@
+<div class="ruling-wrapper">
+  <div class="ruling-header">
+    <!-- Iconized like the body: a heading is a rulings.tsv cell like any other, and some of them are
+    written in icons -- `[wild] [wild] ➔ [wild]` is a heading, not a sentence. -->
+    <h2 [innerHTML]="(card.name || ('Official ruling' | translate)) | iconize"></h2>
+    @if (card.source.startsWith('http')) {
+      <a appAnalyticsEvent="Ruling source" [eventLabel]="card.id"
+        [href]="card.source" target="_blank" rel="noopener noreferrer">
+        <mat-icon svgIcon="externalLink"></mat-icon>
+      </a>
+    }
+    @if (!card.source.startsWith('http')) {
+      <a [matTooltip]="card.source">
+        <mat-icon svgIcon="externalLink"></mat-icon>
+      </a>
+    }
+  </div>
+  <div class="ruling-text" [innerHTML]="card.text | iconize | safe" appLinkWatcher></div>
+  @if (card.cards.length) {
+    <div class="ruling-cards">
+      <span class="label">{{'Applies to' | translate}}:</span>
+      @for (applies of shownCards; track applies.id) {
+        <a class="card-link" appAnalyticsEvent="Ruling card link" [eventLabel]="cardName(applies)"
+          routerLink="/card/{{applies.id}}" [innerHTML]="cardName(applies) | iconize"></a>
+      }
+      @if (hiddenCount) {
+        <button type="button" class="more" (click)="toggle($event)">+{{hiddenCount}}</button>
+      }
+      @if (expanded) {
+        <button type="button" class="more" (click)="toggle($event)">{{'Show less' | translate}}</button>
+      }
+    </div>
+  }
+</div>

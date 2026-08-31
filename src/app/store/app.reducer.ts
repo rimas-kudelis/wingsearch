@@ -9,16 +9,19 @@ import {
     BonusCard,
     DisplayedStats,
     isBonusCard,
+    isRulingCard,
     BeakDirection,
     LeftBeakDirections,
     RightBeakDirections,
-    SearchQuery
+    SearchQuery,
+    RulingCard
 } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import HummingbirdCards from '../../assets/data/hummingbirds.json'
 import Parameters from '../../assets/data/parameters.json'
 import { birdCardsSearch, bonusCardsSearch } from './cards-search'
+import { restrictRuling, rulingCorpus } from './rulings'
 import { bonusSearchMap, dynamicPercentage } from './bonus-search-map'
 import { CookiesService } from '../cookies.service'
 
@@ -31,11 +34,12 @@ const englishBirdCardsMap: BirdCard[] = BirdCardsWithHummingbirds.reduce((acc, c
 // @ts-ignore
 const englishBonusCardsMap: BonusCard[] = BonusCards.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
 
-const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
+const calculateDisplayedStats = (cards: (BirdCard | BonusCard | RulingCard)[]): DisplayedStats => {
 
     const birdCards = cards.filter(isBirdCard).length
     const bonusCards = cards.filter(isBonusCard).length
     const hummingbirdCards = cards.filter(isHummingbirdCard).length
+    const rulingCards = cards.filter(isRulingCard).length
 
     const habitat = cards.filter(isBirdOrHummingbirdCard).reduce((acc, val: BirdCard) => {
         acc.forest += val.Forest ? 1 : 0
@@ -44,7 +48,7 @@ const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStat
         return acc
     }, { forest: 0, grassland: 0, wetland: 0 })
 
-    return { birdCards, hummingbirdCards, bonusCards, habitat }
+    return { birdCards, hummingbirdCards, bonusCards, rulingCards, habitat }
 }
 
 const eatsMustFood = (card: BirdCard, mustFood: string[]): boolean => {
@@ -80,6 +84,7 @@ const UNFILTERED_QUERY: SearchQuery = {
         birds: true,
         bonuses: true,
         hummingbirds: true,
+        rulings: false,
     },
     expansion: {
         core: cookies.getCookie('expansion.core') !== '0',
@@ -135,6 +140,50 @@ export const initialState: AppState = {
     expansion: UNFILTERED_QUERY.expansion,
     promoPack: UNFILTERED_QUERY.promoPack,
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
+}
+
+/**
+ * The rulings the current query should show (issue #46), which is a union rather than a filter: a ruling
+ * is here if its own text matches the query, *or* if it is attached to a card the query and the filters
+ * left standing. Both readings of "search the rulings" therefore work -- type a bird's name and get what
+ * has been ruled about that bird, type `brood parasite` and get the rulings that say it -- and neither
+ * needs the player to know which of the two they are doing.
+ *
+ * `matchedCards` is the result set before the card-type toggles, so switching birds, hummingbirds and
+ * bonus cards off to read nothing but rulings still draws on every card. `allowedSets` narrows each
+ * ruling's own card list, and only by expansion: a ruling that reaches 63 birds should say so rather than
+ * listing the one bird whose name was typed, but an Americas ruling is not one this player can apply if
+ * they do not have Americas.
+ *
+ * Rulings come before the cards in the result, not after. With no query there are 800-odd cards, and
+ * appending would bury the rulings 45 scroll pages down -- unreachable, for a view the player switched on
+ * deliberately.
+ */
+const matchingRulings = (
+    state: AppState, query: SearchQuery, matchedCards: (BirdCard | BonusCard)[], allowedSets: string[]
+): RulingCard[] => {
+    const corpus = rulingCorpus(state.birdCards, state.bonusCards)
+
+    // Run for the empty query too, where FlexSearch answers [] on every field: that call is also what
+    // schedules the index build for the keystroke that follows it (see cards-search.ts).
+    const byText = new Set<number>(['name', 'text'].reduce((acc, field) => [
+        ...acc,
+        ...corpus.search.search({ query: query.main, field }).map((ruling: RulingCard) => ruling.key)
+    ], []))
+
+    const matchedIds = new Set(matchedCards.map(card => card.id))
+    const inPlay = new Set(state.birdCards.concat(
+        // @ts-ignore
+        state.bonusCards).filter(card => allowedSets.includes(card.Set)).map(card => card.id))
+
+    return corpus.rulingCards
+        .filter(ruling => byText.has(ruling.key)
+            || ruling.cards.some(card => matchedIds.has(card.id))
+            // The six rulings that reach no card are rules of the game -- goal tile scoring, the order of
+            // the end of a round -- so nothing but a text query narrows them away.
+            || (!ruling.cards.length && !query.main))
+        .map(ruling => restrictRuling(ruling, inPlay))
+        .filter(ruling => ruling)
 }
 
 /**
@@ -247,29 +296,42 @@ const applySearch = (state: AppState, query: SearchQuery): AppState => {
         || (!query.beak?.left && !query.beak?.right && card['Beak direction'] === BeakDirection.Neither)
     )
 
+    // The habitat toggles and the card-type toggles used to be one expression. They are the same filter
+    // split in two -- every card is a bird, a hummingbird or a bonus card, so `habitat && type` selects
+    // exactly what `(bonus && bonuses) || (birdOfAKindWanted && habitat)` did -- because the rulings
+    // below are drawn from what is standing *between* them. See `matchingRulings`.
     displayedCards = displayedCards.filter(card =>
-        (isBonusCard(card) && query.stats.bonuses)
-        || (((isBirdCard(card) && query.stats.birds)
-            || (isHummingbirdCard(card) && query.stats.hummingbirds))
+        isBonusCard(card)
+        || (
+            (
+                query.stats.habitat.forest === 0
+                || (query.stats.habitat.forest === 1 && card.Forest)
+                || (query.stats.habitat.forest === 2 && !card.Forest)
+            )
             && (
-                (
-                    query.stats.habitat.forest === 0
-                    || (query.stats.habitat.forest === 1 && card.Forest)
-                    || (query.stats.habitat.forest === 2 && !card.Forest)
-                )
-                && (
-                    query.stats.habitat.grassland === 0
-                    || (query.stats.habitat.grassland === 1 && card.Grassland)
-                    || (query.stats.habitat.grassland === 2 && !card.Grassland)
-                )
-                && (
-                    query.stats.habitat.wetland === 0
-                    || (query.stats.habitat.wetland === 1 && card.Wetland)
-                    || (query.stats.habitat.wetland === 2 && !card.Wetland)
-                )
+                query.stats.habitat.grassland === 0
+                || (query.stats.habitat.grassland === 1 && card.Grassland)
+                || (query.stats.habitat.grassland === 2 && !card.Grassland)
+            )
+            && (
+                query.stats.habitat.wetland === 0
+                || (query.stats.habitat.wetland === 1 && card.Wetland)
+                || (query.stats.habitat.wetland === 2 && !card.Wetland)
             )
         )
     )
+
+    const matchedCards = displayedCards
+
+    displayedCards = displayedCards.filter(card =>
+        (isBonusCard(card) && query.stats.bonuses)
+        || (isBirdCard(card) && query.stats.birds)
+        || (isHummingbirdCard(card) && query.stats.hummingbirds)
+    )
+
+    if (query.stats.rulings)
+        displayedCards = matchingRulings(state, query, matchedCards, [...allowedExpansions, ...allowedPromoPacks])
+            .concat(displayedCards)
 
     const displayedStats = calculateDisplayedStats(displayedCards)
 

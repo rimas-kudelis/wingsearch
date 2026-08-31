@@ -1,5 +1,5 @@
 import FlexSearch from 'flexsearch'
-import { BirdCard, BonusCard } from './app.interfaces'
+import { BirdCard, BonusCard, RulingCard } from './app.interfaces'
 
 // Building the bird index is 24-43ms of synchronous work (747 cards across three fields, `Power text`
 // at `resolution: 9` doing nearly all of it); the bonus index is another 1-2ms. `initialState` in
@@ -100,6 +100,41 @@ export const bonusCardsSearch = (cards: BonusCard[]) => lazyIndex(() => {
     search.add(cards)
     return search
 })
+
+// The rulings corpus is 74KB of prose across 470 documents (see rulings.ts), so this index is small next
+// to the bird one even though every ruling is a paragraph rather than a name. `name` is only present on
+// the 59 general rulings and is what a player searching for "nectar" or "brood parasite" is most likely
+// to be aiming at, so it is indexed the way a card name is: whole-word, no fuzziness.
+export const rulingCardsSearch = (rulings: RulingCard[]) => lazyIndex(() => {
+    const search = FlexSearch.create({
+        doc: {
+            id: 'key',
+            field: {
+                name: {
+                    encode: (value: string): string => removeDiacritics((value || '').toLowerCase()),
+                    tokenize: 'full',
+                    threshold: false,
+                },
+                text: {
+                    encode: (value: string): string => removeDiacritics(stripMarkup(value).toLowerCase()),
+                    tokenize: 'reverse',
+                    threshold: 3,
+                    resolution: 9
+                },
+            }
+        }
+    })
+
+    search.add(rulings)
+    return search
+})
+
+// Ruling text is HTML with icon markers: `<strong applink="/card/53">Brown Pelican</strong>` and
+// `[fish]`. Indexed raw, a search for "card" would match every applink and a search for "strong" would
+// match half the corpus, so the tags and the brackets come out while the words they wrap stay in.
+const stripMarkup = (text: string): string => (text || '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/[[\]]/g, ' ')
 
 const removeDiacritics = (str: string): string => {
     return defaultDiacriticsRemovalMap.reduce((acc, val) => acc.replace(val.letters, val.base), str)

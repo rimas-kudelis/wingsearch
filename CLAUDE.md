@@ -27,7 +27,7 @@ Docker alternative (avoids installing Node 22 locally): `docker compose up` serv
 
 ### Tests
 
-`src/app/store/app.reducer.spec.ts` holds 70 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, the `setLanguage`/`resetLanguage` round trip, and what a language change does to an active bonus filter (~91% statement coverage of the store). `src/app/store/carousel-bonuses.spec.ts` pins the detail dialogs' bonus carousels. `src/app/store/app.effects.spec.ts` constructs `AppEffects` for real against `HttpTestingController`; it exists because the one effect is a class field initialized from a constructor parameter property, which a compiler-flag default silently broke during the Angular 22 upgrade (see below). 149 specs in total.
+`src/app/store/app.reducer.spec.ts` holds 80 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, the `setLanguage`/`resetLanguage` round trip, what a language change does to an active bonus filter, and the rulings view (~91% statement coverage of the store). `src/app/store/carousel-bonuses.spec.ts` pins the detail dialogs' bonus carousels. `src/app/store/app.effects.spec.ts` constructs `AppEffects` for real against `HttpTestingController`; it exists because the one effect is a class field initialized from a constructor parameter property, which a compiler-flag default silently broke during the Angular 22 upgrade (see below). 159 specs in total.
 
 These specs deliberately **pin current behaviour, including where it is wrong**. Known-buggy behaviour is pinned with a comment naming the issue rather than corrected, so a fix is always a deliberate test change. Don't "fix" a failing spec by loosening the assertion — work out which side is wrong first.
 
@@ -83,8 +83,9 @@ The `search` action carries the *entire* query object (`SearchQuery` in `app.int
 1. Runs the FlexSearch text query across bird fields (`Common name`, `Scientific name`, `Power text`) and bonus fields (`Bonus card`, `Condition`, `VP`), unioning results.
 2. Falls back to the full card list when the query is empty.
 3. If bonus cards are selected as filters, drops all bonus cards from the result and keeps only birds satisfying every selected bonus predicate; otherwise appends matching bonus cards.
-4. Applies the remaining attribute filters in sequence.
-5. Recomputes `displayedStats` and re-paginates.
+4. Applies the remaining attribute filters in sequence — habitat first, then the card-type toggles, which are deliberately two passes because the rulings view needs the set between them (see below).
+5. Prepends matching rulings when `query.stats.rulings` is on.
+6. Recomputes `displayedStats` and re-paginates.
 
 Pagination is manual: `SLICE_WINDOW = 18`. Results are split into `displayedCards` (rendered) and `displayedCardsHidden` (rest); `ngx-infinite-scroll` in [src/app/display/display.component.ts](src/app/display/display.component.ts) dispatches `scroll` to move the next 18 across, and `scrollDisabled` flips true when the hidden list empties.
 
@@ -105,9 +106,26 @@ Both handlers used to translate the previous result set card by card, so an acti
 - Results now follow the query into the new language, so a text search for `Osprey` goes empty when you switch to German rather than freezing the English match set. That is deliberate — the old set was already inconsistent with the search box and changed silently on the next keystroke.
 - `resetLanguage` no longer re-sorts, because it restores the module-level English arrays, which are already in English order. Card order after it therefore matches a fresh English load exactly (hummingbirds after the birds rather than merged in among them).
 
+### The rulings view
+
+Issue #46: the same rulings the detail dialog shows per card, searchable from the ruling end. The gavel toggle in the stats bar (off by default) adds them to the result list; nothing else about the search changes.
+
+[src/app/store/rulings.ts](src/app/store/rulings.ts) inverts the corpus. Cards carry their rulings (`rulings` written about that card, `additionalRulings` fanned out by `general_map.py`), and each of the 59 general rulings therefore repeats on many cards: grouping them back gives **469 distinct rulings out of 2564 attachments**, 74 KB of text rather than 813 KB. Details that bite:
+
+- **A ruling is identified by id *and* text, never id alone.** Three ids (`20201003`, `20201116a`, `20210199a`) carry two general rows each, and `20201116a`'s two rows have *identical* text under two headings — so the corpus has 58 titled rulings for 59 rows, and that one's headings are joined (`End of Round Reference / Game end`) instead of one silently winning.
+- **Six general rulings reach no card** (goal-tile scoring, end-of-round order). They become ruling cards with `cards: []`, immune to every set filter, narrowable only by text.
+- **Not in `AppState`.** `rulingCorpus` memoizes on the bird array's identity in a `WeakMap`. Building is ~1.4 ms warm but ~9.5 ms on a cold JIT — the same order as the bird index `cards-search.ts` goes to some length to defer — and `initialState` is evaluated during initial script evaluation, so a view that is off by default would otherwise be paid for by every session. Keying on the array means `setLanguage` rebuilds for free and `resetLanguage` lands back on the English corpus it already had.
+- **Inclusion is a union, not a filter**: a ruling shows if its own text/heading matches the query *or* it is attached to a card that survived. So typing a bird name surfaces its rulings and typing rule words surfaces the rulings, without the player having to know which they did.
+- **Two different card sets.** Membership is judged against the result *before* the card-type toggles, so switching birds/bonuses/hummingbirds all off gives a rulings-only view rather than nothing. Each ruling's own "applies to" list is narrowed only by expansion/promo, so a ruling covering 63 birds still says so instead of listing the one bird you typed — but an Americas ruling disappears with Americas unchecked.
+- Rulings are **prepended**. With ~800 cards, appending would put them 45 scroll pages down.
+
+`RulingCardComponent` renders each as a full-width panel (`grid-column: 1 / -1`) above the card grid rather than in a 28:43 tile, and opens no dialog — there is no `/ruling/:id` route. Headings go through `IconizePipe` like the body, because some of them are written in icons.
+
+`app.reducer.spec.ts` pins `TOTAL_RULINGS = 469`, the 58 names including the joined one, and the 6 card-less ones. Those numbers move whenever `rulings.tsv` or a general predicate changes, exactly like `rulings.spec.ts`'s per-ruling counts — update both in the same commit and say why.
+
 ### Card model and the CardType discriminator
 
-Bird cards, hummingbird cards, and bonus cards live in the same arrays and are distinguished by a `CardType` field (`'Bird' | 'Hummingbird' | 'Bonus'`) via the type guards in [src/app/store/app.interfaces.ts](src/app/store/app.interfaces.ts) (`isBirdCard`, `isHummingbirdCard`, `isBirdOrHummingbirdCard`, `isBonusCard`). Hummingbirds share the `BirdCard` interface but the notebook synthesizes their missing fields (0 VP, no nest, all three habitats, etc.). `state.birdCards` is always birds **and** hummingbirds concatenated — most filter code must therefore branch on the guards rather than assuming a shape.
+Bird cards, hummingbird cards, and bonus cards live in the same arrays and are distinguished by a `CardType` field (`'Bird' | 'Hummingbird' | 'Bonus'`, plus `'Ruling'` for the synthetic cards above) via the type guards in [src/app/store/app.interfaces.ts](src/app/store/app.interfaces.ts) (`isBirdCard`, `isHummingbirdCard`, `isBirdOrHummingbirdCard`, `isBonusCard`). Hummingbirds share the `BirdCard` interface but the notebook synthesizes their missing fields (0 VP, no nest, all three habitats, etc.). `state.birdCards` is always birds **and** hummingbirds concatenated — most filter code must therefore branch on the guards rather than assuming a shape.
 
 The reducer is full of `// @ts-ignore`: the JSON imports are typed structurally by `resolveJsonModule` and don't line up with the hand-written interfaces. Match the existing style rather than trying to fix the typing wholesale.
 
@@ -217,7 +235,7 @@ Run either without Jupyter via `scripts/transform/run.py <notebook-name>`, which
 
 `json-transformer.ipynb` is verified to regenerate all six JSON files **byte-identically** from the committed spreadsheets under pandas 3.0.1 (re-checked 2026-08-30 after the `scripts/` reorg). If you change it, re-verify that way before committing regenerated data: `git show HEAD:src/assets/data/<f>.json` into a temp dir, run the notebook, `cmp` each file. Beware chained assignment — pandas 3 copy-on-write makes `df['col'].loc[mask] = x` a silent no-op, which previously would have blanked `Nest type` on the 8 brood parasites. Use `df.loc[mask, 'col'] = x`.
 
-Note `scripts/transform/wingspan-bonuscard-list.xlsx` is *not* read by the notebook — bonus card data comes from `wingspan-note-list.xlsx`. Only `master.json`, `hummingbirds.json`, `bonus.json`, `extra-assets.json`, and `parameters.json` are consumed by the app; `general.json` and `goals.json` are generated but currently unused at runtime.
+Note `scripts/transform/wingspan-bonuscard-list.xlsx` is *not* read by the notebook — bonus card data comes from `wingspan-note-list.xlsx`. Only `master.json`, `hummingbirds.json`, `bonus.json`, `general.json`, `extra-assets.json`, and `parameters.json` are consumed by the app; `goals.json` is generated but currently unused at runtime. `general.json` is read by [src/app/store/rulings.ts](src/app/store/rulings.ts) for the *headings* of the general rulings (the cards themselves already carry the text), and the notebook now keeps each row's ruling `id` for that — it is keyed by row position, not by id, because three ids appear twice.
 
 ### General rulings (`additionalRulings`)
 

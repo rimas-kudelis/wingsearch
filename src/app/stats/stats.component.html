@@ -1,5 +1,13 @@
 @if (stats$ | async; as stats) {
   <div class="stats-container" [ngClass]="{mobile: mobile}">
+    <!-- Adds rather than filters, hence "Show"/"Hide" where the others count in and filter out. -->
+    <span appAnalyticsEvent="Toggle rulings" class="stats-entry rulings"
+      [ngClass]="{inactive: !statsControls.rulings}"
+      (click)="toggleCards('rulings', $event)"
+      matTooltip="{{statsControls.rulings ? 'Hide' : 'Show'}} official rulings">
+      {{stats.rulingCards}}
+      <mat-icon>gavel</mat-icon>
+    </span>
     <span appAnalyticsEvent="Toggle bonuses" class="stats-entry" [ngClass]="{inactive: !statsControls.bonuses}"
       (click)="toggleCards('bonuses', $event)"
       matTooltip="{{statsControls.bonuses ? 'Filter out' : 'Count in'}} all bonuses">

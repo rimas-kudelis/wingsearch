@@ -1,6 +1,9 @@
 import { appReducer, initialState } from './app.reducer'
 import * as appActions from './app.actions'
-import { AppState, BirdCard, BonusCard, CardType, isBonusCard, isBirdOrHummingbirdCard } from './app.interfaces'
+import {
+  AppState, BirdCard, BonusCard, CardType, RulingCard,
+  isBonusCard, isBirdOrHummingbirdCard, isRulingCard
+} from './app.interfaces'
 import { bonusSearchMap } from './bonus-search-map'
 
 /**
@@ -20,6 +23,9 @@ const TOTAL_CARDS = TOTAL_BIRDS + TOTAL_HUMMINGBIRDS + TOTAL_BONUS
 
 type SearchAction = ReturnType<typeof appActions.search>
 
+/** `stats` is partial in its own right, so a spec can flip one toggle and leave the rest alone. */
+type SearchOverrides = Partial<Omit<SearchAction, 'stats'>> & { stats?: Partial<SearchAction['stats']> }
+
 const allExpansions = () => ({
   core: true, european: true, oceania: true, asia: true, americas: true,
 })
@@ -38,19 +44,24 @@ const noPromoPacks = () => ({
   promoNZ: false, promoUS: false, promoUK: false,
 })
 
+/** Every card type shown, no habitat filter, rulings off -- the form's own defaults. */
+const allStats = () => ({
+  habitat: { forest: 0, grassland: 0, wetland: 0 },
+  birds: true,
+  bonuses: true,
+  hummingbirds: true,
+  rulings: false,
+})
+
 /**
  * A search action that excludes nothing, so each spec can vary exactly one
- * dimension. Ranges are the true min/max present in the card data.
+ * dimension. Ranges are the true min/max present in the card data. `stats` is
+ * merged rather than replaced, so a spec that varies one toggle need not
+ * restate the others.
  */
-const searchAction = (overrides: Partial<SearchAction> = {}): SearchAction => appActions.search({
+const searchAction = (overrides: SearchOverrides = {}): SearchAction => appActions.search({
   main: '',
   bonus: [],
-  stats: {
-    habitat: { forest: 0, grassland: 0, wetland: 0 },
-    birds: true,
-    bonuses: true,
-    hummingbirds: true,
-  },
   expansion: allExpansions(),
   promoPack: allPromoPacks(),
   eggs: { min: 0, max: 6 },
@@ -65,13 +76,14 @@ const searchAction = (overrides: Partial<SearchAction> = {}): SearchAction => ap
   nest: { bowl: true, cavity: true, ground: true, none: true, platform: true, wild: true },
   beak: { left: true, right: true },
   ...overrides,
+  stats: { ...allStats(), ...overrides.stats },
 } as any)
 
 /** Filters are applied before pagination, so assert against both halves. */
-const allResults = (state: AppState): (BirdCard | BonusCard)[] =>
+const allResults = (state: AppState): (BirdCard | BonusCard | RulingCard)[] =>
   state.displayedCards.concat(state.displayedCardsHidden)
 
-const search = (overrides: Partial<SearchAction> = {}, from: AppState = initialState): AppState =>
+const search = (overrides: SearchOverrides = {}, from: AppState = initialState): AppState =>
   appReducer(from, searchAction(overrides))
 
 const names = (state: AppState): string[] =>
@@ -164,7 +176,7 @@ describe('appReducer', () => {
       })
 
       expect(allResults(state).length).toBeGreaterThan(0)
-      allResults(state).forEach(card => expect(card.Set).toBe('core'))
+      allResults(state).forEach(card => expect((card as BirdCard | BonusCard).Set).toBe('core'))
     })
 
     it('keeps only cards from the enabled promo packs', () => {
@@ -174,7 +186,7 @@ describe('appReducer', () => {
       })
 
       expect(allResults(state).length).toBeGreaterThan(0)
-      allResults(state).forEach(card => expect(card.Set).toBe('promoUS'))
+      allResults(state).forEach(card => expect((card as BirdCard | BonusCard).Set).toBe('promoUS'))
     })
 
     it('returns nothing when every set is disabled', () => {
@@ -714,6 +726,102 @@ describe('appReducer', () => {
 
       expect(matchedIds(german)).not.toContain(OSPREY)
       expect(matchedIds(search({ main: 'Fischadler' }, german))).toContain(OSPREY)
+    })
+  })
+
+  /**
+   * Issue #46. The rulings toggle adds a second corpus rather than filtering the cards: a ruling is in
+   * the result when its own text matches the query *or* when it is attached to a card that survived the
+   * filters. `TOTAL_RULINGS` is pinned the way rulings.spec.ts pins per-ruling attachment counts -- if
+   * regenerating master.json changes it, that is a change to what players read and belongs in the same
+   * commit as an updated number.
+   */
+  describe('rulings view', () => {
+    const TOTAL_RULINGS = 469
+    const OSPREY = 182
+
+    const rulings = (state: AppState): RulingCard[] => allResults(state).filter(isRulingCard)
+    const withRulings = (overrides: SearchOverrides = {}, from: AppState = initialState) =>
+      search({ ...overrides, stats: { ...overrides.stats, rulings: true } }, from)
+
+    it('adds nothing while the toggle is off', () => {
+      expect(rulings(search()).length).toBe(0)
+      expect(search().displayedStats.rulingCards).toBe(0)
+      expect(allResults(search()).length).toBe(TOTAL_CARDS)
+    })
+
+    it('lists every ruling when nothing else is asked for', () => {
+      const state = withRulings()
+
+      expect(rulings(state).length).toBe(TOTAL_RULINGS)
+      expect(state.displayedStats.rulingCards).toBe(TOTAL_RULINGS)
+      expect(allResults(state).length).toBe(TOTAL_CARDS + TOTAL_RULINGS)
+    })
+
+    // 800-odd cards would otherwise bury them 45 scroll pages down.
+    it('puts the rulings before the cards', () => {
+      expect(withRulings().displayedCards.every(isRulingCard)).toBe(true)
+    })
+
+    it('shows what has been ruled about the bird whose name was typed', () => {
+      const osprey = initialState.birdCards.find(card => card.id === OSPREY)
+      const own = [...osprey.rulings, ...osprey.additionalRulings]
+      const shown = rulings(withRulings({ main: 'Osprey' })).map(ruling => `${ruling.id} ${ruling.text}`)
+
+      expect(own.length).toBe(5)
+      own.forEach(ruling => expect(shown).toContain(`${ruling.id} ${ruling.text}`))
+    })
+
+    // The other reading of "search the rulings": words that appear in a ruling but in no card text.
+    it('matches the ruling text itself', () => {
+      const shown = rulings(withRulings({ main: 'brood parasite' }))
+
+      expect(shown.length).toBeGreaterThan(0)
+      shown.forEach(ruling => expect(ruling.text.toLowerCase()).toContain('brood parasite'))
+    })
+
+    it('names the general rulings and leaves the card-specific ones untitled', () => {
+      const titled = rulings(withRulings()).filter(ruling => ruling.name)
+
+      expect(titled.length).toBe(58)
+      expect(titled.map(ruling => ruling.name)).toContain('End of Round Reference / Game end')
+    })
+
+    it('keeps rulings when every card type is switched off', () => {
+      const state = withRulings({ stats: { birds: false, hummingbirds: false, bonuses: false } })
+
+      expect(rulings(state).length).toBe(TOTAL_RULINGS)
+      expect(allResults(state).length).toBe(TOTAL_RULINGS)
+    })
+
+    it('narrows each ruling to the cards from the enabled expansions', () => {
+      const state = withRulings({
+        expansion: { ...noExpansions(), core: true },
+        promoPack: noPromoPacks(),
+      })
+      const listed = rulings(state).reduce((acc, ruling) => [...acc, ...ruling.cards], [])
+
+      expect(listed.length).toBeGreaterThan(0)
+      listed.forEach(card => expect(card.Set).toBe('core'))
+    })
+
+    it('drops a ruling the filters have left no cards for', () => {
+      const core = rulings(withRulings({
+        expansion: { ...noExpansions(), core: true },
+        promoPack: noPromoPacks(),
+      }))
+
+      expect(core.length).toBeGreaterThan(0)
+      expect(core.length).toBeLessThan(TOTAL_RULINGS)
+    })
+
+    // The six that were attached to no card are rules of the game -- goal tile scoring, the order of
+    // the end of a round -- so they are the ones a set filter cannot take away.
+    it('keeps the unattached rulings whatever is filtered out', () => {
+      const state = withRulings({ expansion: noExpansions(), promoPack: noPromoPacks() })
+
+      expect(rulings(state).length).toBe(6)
+      expect(rulings(state).every(ruling => !ruling.cards.length)).toBe(true)
     })
   })
 

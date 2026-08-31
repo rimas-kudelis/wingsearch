@@ -19,7 +19,8 @@ export class StatsComponent {
     habitat: { forest: number, grassland: number, wetland: number }
     birds: boolean,
     bonuses: boolean,
-    hummingbirds: boolean
+    hummingbirds: boolean,
+    rulings: boolean
   }
 
   @Output()
@@ -49,7 +50,7 @@ export class StatsComponent {
     this.statsChange.emit(newStats)
   }
 
-  toggleCards(cards: 'birds' | 'bonuses' | 'hummingbirds', event: MouseEvent) {
+  toggleCards(cards: 'birds' | 'bonuses' | 'hummingbirds' | 'rulings', event: MouseEvent) {
     event.stopPropagation()
 
     const newStats = {

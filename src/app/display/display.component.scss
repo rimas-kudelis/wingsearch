@@ -48,6 +48,13 @@
     .card-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
 
+// Rulings come before the cards in the result list, so a run of them stacks as full-width panels above
+// the grid: the text needs the width, and a paragraph in a 150px-wide column would not be readable.
+// No aspect ratio -- the panel is as tall as its text -- which the implicit grid row sizes for free.
+.ruling-tile {
+    grid-column: 1 / -1;
+}
+
 .card-tile {
     // `rowHeight="28:43"` -- 28 units wide for every 43 tall.
     aspect-ratio: 28 / 43;

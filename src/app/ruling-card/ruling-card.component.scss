@@ -1,0 +1,95 @@
+// Typography follows the detail dialog's `.rulings` block, which is where these same paragraphs are
+// already read: Jost 300 at 18px, the heading in CardenioModern. Nothing here is in `cqh` -- a ruling
+// panel is sized by its text rather than by a card's aspect ratio, so there is no container to
+// resolve against and no fitting pass to run.
+// The element is `display: inline` by default, which makes it size to its text rather than to the row
+// it was given: a one-line ruling ended up a fifth as wide as the panel below it.
+:host {
+    display: block;
+}
+
+.ruling-wrapper {
+    font-family: Jost, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #f5f6f1;
+    border-radius: 8px;
+    padding: 12px 16px 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ruling-header {
+    display: flex;
+    align-items: baseline;
+
+    h2 {
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    a {
+        margin-left: 6px;
+
+        mat-icon {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+
+.ruling-text {
+    margin-top: 6px;
+}
+
+.ruling-cards {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666666;
+
+    .label {
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        margin-right: 4px;
+    }
+
+    // A comma between the links, drawn rather than written: the list is a run of anchors, and a
+    // literal comma in the template would end up inside one of them.
+    .card-link:not(:last-of-type)::after {
+        content: ",";
+        color: #666666;
+    }
+
+    .card-link {
+        color: #33691e;
+        cursor: pointer;
+        margin-right: 4px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .more {
+        font: inherit;
+        color: #33691e;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ruling-wrapper {
+        font-size: 16px;
+    }
+
+    .ruling-header h2 {
+        font-size: 18px;
+    }
+}
