@@ -112,16 +112,18 @@ def normalise_power(text):
 def load_cards():
     """Every card, with the fields a reviewer needs, keyed by common name."""
     out = {}
+    rows = rc.general_rows()
     for fn, kind in (('master.json', 'bird'), ('hummingbirds.json', 'hummingbird')):
         for c in json.load(open(os.path.join(DATA_DIR, fn), encoding='utf-8')):
+            general = rc.general_for(c, rows)
             out[c['Common name']] = {
                 'id': c['id'], 'kind': kind, 'set': c.get('Set'),
                 'color': c.get('Color'), 'power': c.get('Power text') or '',
                 'habitats': [h for h in ('Forest', 'Grassland', 'Wetland') if c.get(h)],
-                'general_rulings': len(c.get('additionalRulings') or []),
+                'general_rulings': len(general),
                 # The texts, not just the count: --transferable needs them to say whether a
                 # sibling's ruling would tell this card anything it is not already told.
-                'general_texts': [r['text'] for r in (c.get('additionalRulings') or [])],
+                'general_texts': [r['text'] for r in general],
             }
     for c in json.load(open(os.path.join(DATA_DIR, 'bonus.json'), encoding='utf-8')):
         out[c['Bonus card']] = {

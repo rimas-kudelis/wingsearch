@@ -1,5 +1,5 @@
 import { BirdCard, BonusCard, CardType, Ruling, RulingCard } from './app.interfaces'
-import GeneralRulings from '../../assets/data/general.json'
+import { generalRulings } from './card-data'
 import { rulingCardsSearch } from './cards-search'
 
 /**
@@ -13,11 +13,9 @@ import { rulingCardsSearch } from './cards-search'
  * each. `key` is the surrogate the FlexSearch document id needs.
  */
 
-// The 59 general rulings, keyed the way the notebook writes them -- by row position, with the ruling id
-// as a field. `name` is the heading its rulings.tsv row gave it, which is the only title any ruling has;
-// a ruling written about specific cards is titled by those cards instead.
-const generalRulings: { id: string, name: string, text: string, source: string }[] = Object.values(GeneralRulings)
-
+// `generalRulings` is the 59 rows of general.json in file order (see card-data.ts). `name` is the
+// heading its rulings.tsv row gave it, which is the only title any ruling has; a ruling written about
+// specific cards is titled by those cards instead.
 const rulingKey = (ruling: Ruling): string => `${ruling.id} ${ruling.text}`
 
 // 59 rows but 58 distinct rulings: the Oceania end-of-round comment (20201116a) is filed under both

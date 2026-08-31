@@ -55,6 +55,23 @@ def load_cards():
     return cards
 
 
+def general_rows():
+    """general.json in file order, which is the order master.json's references index into."""
+    with open(os.path.join(DATA_DIR, 'general.json'), encoding='utf-8') as f:
+        return list(json.load(f).values())
+
+
+def general_for(card, rows=None):
+    """The general rulings attached to a card, as {id, name, text, source} dicts.
+
+    A card holds row indices into general.json, not copies of the text: 59 general
+    rulings reach 2564 birds between them, and inlining them was 628KB of master.json.
+    Pass `rows` when resolving many cards, so general.json is read once.
+    """
+    rows = general_rows() if rows is None else rows
+    return [rows[i] for i in card.get('additionalRulings') or []]
+
+
 def load_rulings():
     """(named, general) -- named is card name -> [rows], general is id -> row."""
     df = pd.read_csv(TSV_PATH, sep='\t', header=None,

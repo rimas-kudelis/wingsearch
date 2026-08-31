@@ -16,7 +16,7 @@ import {
     SearchQuery,
     RulingCard
 } from './app.interfaces'
-import BirdCards from '../../assets/data/master.json'
+import { birdCards as BirdCards } from './card-data'
 import BonusCards from '../../assets/data/bonus.json'
 import HummingbirdCards from '../../assets/data/hummingbirds.json'
 import Parameters from '../../assets/data/parameters.json'

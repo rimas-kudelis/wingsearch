@@ -1,4 +1,7 @@
-import BirdCards from '../../assets/data/master.json'
+// The resolved cards, not the raw JSON: master.json holds each bird's general rulings as row indices
+// into general.json, and card-data.ts is what turns them back into rulings. Reading the file directly
+// would pin the indices instead of the fan-out, and would not notice a resolution that went wrong.
+import { birdCards as BirdCards } from './card-data'
 
 /**
  * Snapshot of the general-ruling fan-out in master.json.

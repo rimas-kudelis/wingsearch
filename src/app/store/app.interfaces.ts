@@ -167,6 +167,15 @@ export interface Ruling {
 }
 
 /**
+ * A general ruling as `general.json` holds it: a `Ruling` plus the heading its TSV row gave it, which
+ * only the general ones have. Birds reference these by row index rather than carrying a copy -- see
+ * card-data.ts, which resolves the references before anything else sees a card.
+ */
+export interface GeneralRuling extends Ruling {
+    name: string
+}
+
+/**
  * One ruling turned around: the cards carry their rulings, and this carries a ruling's cards, so that
  * the same corpus can be searched from either end (issue #46). Built by `buildRulingCards` in
  * rulings.ts from the same `rulings`/`additionalRulings` arrays the detail dialogs render, which is why

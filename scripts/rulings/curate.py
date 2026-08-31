@@ -318,9 +318,10 @@ def general_by_card():
     matters here is what a player currently sees, and that is what shipped.
     """
     out = {}
+    rows = rc.general_rows()
     for c in json.load(open(MASTER_PATH, encoding='utf-8')):
         out[c['Common name']] = [re.sub(r'<[^>]+>', '', r['text'])
-                                 for r in c.get('additionalRulings') or []]
+                                 for r in rc.general_for(c, rows)]
     return out
 
 
