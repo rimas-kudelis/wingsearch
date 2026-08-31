@@ -2,7 +2,6 @@
   "birds": {
     "2": {
       "English name": "Acorn Woodpecker",
-      "Scientific name": "Melanerpes formicivorus",
       "Common name": "Eikelspecht",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -14,7 +13,6 @@
     },
     "3": {
       "English name": "American Avocet",
-      "Scientific name": "Recurvirostra americana",
       "Common name": "Amerikaanse kluut",
       "Power text": "als een andere speler de actie \"Eieren leggen\" uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [ground]-nest.",
       "Flavor text": null,
@@ -26,7 +24,6 @@
     },
     "4": {
       "English name": "American Bittern",
-      "Scientific name": "Botaurus lentiginosus",
       "Common name": "Noord-Amerikaanse roerdomp",
       "Power text": "de speler(s) met de minste [wetland]-vogels: trek 1 [card].",
       "Flavor text": null,
@@ -38,7 +35,6 @@
     },
     "5": {
       "English name": "American Coot",
-      "Scientific name": "Fulica americana",
       "Common name": "Amerikaanse meerkoet",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -50,7 +46,6 @@
     },
     "6": {
       "English name": "American Crow",
-      "Scientific name": "Corvus brachyrhynchos",
       "Common name": "Amerikaanse kraai",
       "Power text": "leg 1 [egg] van \u00e9\u00e9n van je andere vogels af om 1 [wild] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -62,7 +57,6 @@
     },
     "7": {
       "English name": "American Goldfinch",
-      "Scientific name": "Spinus tristis",
       "Common name": "Goudsijs",
       "Power text": "pak 3 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -74,7 +68,6 @@
     },
     "8": {
       "English name": "American Kestrel",
-      "Scientific name": "Falco sparverius",
       "Common name": "Amerikaanse torenvalk",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -86,7 +79,6 @@
     },
     "9": {
       "English name": "American Oystercatcher",
-      "Scientific name": "Haematopus palliatus",
       "Common name": "Amerikaanse bonte scholekster",
       "Power text": "trek zoveel [card] als het aantal spelers + 1. Te beginnen bij jou en daarna met de klok mee, kiest iedere speler 1 van deze kaarten en doet die in zijn hand. Jij houdt de overgebleven kaart.",
       "Flavor text": null,
@@ -98,7 +90,6 @@
     },
     "10": {
       "English name": "American Redstart",
-      "Scientific name": "Setophaga ruticilla",
       "Common name": "Amerikaanse roodstaart",
       "Power text": "pak 1 [wild] uit het vogelhuisje.",
       "Flavor text": null,
@@ -110,7 +101,6 @@
     },
     "11": {
       "English name": "American Robin",
-      "Scientific name": "Turdus migratorius",
       "Common name": "Roodborstlijster",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -122,7 +112,6 @@
     },
     "12": {
       "English name": "American White Pelican",
-      "Scientific name": "Pelecanus erythrorhynchos",
       "Common name": "Witte pelikaan",
       "Power text": "leg 1 [fish] af om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -134,7 +123,6 @@
     },
     "13": {
       "English name": "American Woodcock",
-      "Scientific name": "Scolopax minor",
       "Common name": "Amerikaanse houtsnip",
       "Power text": null,
       "Flavor text": null,
@@ -146,7 +134,6 @@
     },
     "14": {
       "English name": "Anhinga",
-      "Scientific name": "Anhinga anhinga",
       "Common name": "Amerikaanse slangenhalsvogel",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -158,7 +145,6 @@
     },
     "15": {
       "English name": "Anna's Hummingbird",
-      "Scientific name": "Calypte anna",
       "Common name": "Anna's kolibrie",
       "Power text": "iedere speler pakt 1 [die] uit het vogelhuisje, te beginnen bij de speler naar jouw keuze.",
       "Flavor text": null,
@@ -170,7 +156,6 @@
     },
     "16": {
       "English name": "Ash-Throated Flycatcher",
-      "Scientific name": "Myiarchus cinerascens",
       "Common name": "Grijskeeltiran",
       "Power text": "leg 1 [egg] op elk van je vogels met een [cavity]-nest.",
       "Flavor text": null,
@@ -182,7 +167,6 @@
     },
     "17": {
       "English name": "Atlantic Puffin",
-      "Scientific name": "Fratercula arctica",
       "Common name": "Papegaaiduiker",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -194,7 +178,6 @@
     },
     "18": {
       "English name": "Audouin's Gull",
-      "Scientific name": "Ichthyaetus audouinii",
       "Common name": "Audouins meeuw",
       "Power text": "trek 2 [card] van de gedekte stapel. Stop er 1 van onder deze vogel weg en hou de andere.",
       "Flavor text": null,
@@ -206,7 +189,6 @@
     },
     "19": {
       "English name": "Baird's Sparrow",
-      "Scientific name": "Ammodramus bairdii",
       "Common name": "Bairds gors",
       "Power text": "leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -218,7 +200,6 @@
     },
     "20": {
       "English name": "Bald Eagle",
-      "Scientific name": "Haliaeetus leucocephalus",
       "Common name": "Amerikaanse zeearend",
       "Power text": "pak alle [fish] die in het vogelhuisje liggen.",
       "Flavor text": null,
@@ -230,7 +211,6 @@
     },
     "21": {
       "English name": "Baltimore Oriole",
-      "Scientific name": "Icterus galbula",
       "Common name": "Baltimoretroepiaal",
       "Power text": "alle spelers pakken 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -242,7 +222,6 @@
     },
     "22": {
       "English name": "Barn Owl",
-      "Scientific name": "Tyto alba",
       "Common name": "Kerkuil",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -254,7 +233,6 @@
     },
     "23": {
       "English name": "Barn Swallow",
-      "Scientific name": "Hirundo rustica",
       "Common name": "Boerenzwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -266,7 +244,6 @@
     },
     "24": {
       "English name": "Barred Owl",
-      "Scientific name": "Strix varia",
       "Common name": "Gestreepte bosuil",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -278,7 +255,6 @@
     },
     "25": {
       "English name": "Barrow's Goldeneye",
-      "Scientific name": "Bucephala islandica",
       "Common name": "IJslandse brilduiker",
       "Power text": "als een andere speler de actie \"Eieren leggen\" uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [cavity]-nest.",
       "Flavor text": null,
@@ -290,7 +266,6 @@
     },
     "26": {
       "English name": "Bell's Vireo",
-      "Scientific name": "Vireo bellii",
       "Common name": "Bells vireo",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -302,7 +277,6 @@
     },
     "27": {
       "English name": "Belted Kingfisher",
-      "Scientific name": "Megaceryle alcyon",
       "Common name": "Bandijsvogel",
       "Power text": "als een andere speler een [wetland]-vogel speelt, pak jij 1 [fish] uit de voorraad.",
       "Flavor text": null,
@@ -314,7 +288,6 @@
     },
     "28": {
       "English name": "Bewick's Wren",
-      "Scientific name": "Thryomanes bewickii",
       "Common name": "Bewicks winterkoning",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -326,7 +299,6 @@
     },
     "29": {
       "English name": "Black Redstart",
-      "Scientific name": "Phoenicurus ochruros",
       "Common name": "Zwarte roodstaart",
       "Power text": "kies een leefomgeving zonder [egg]. Leg 1 [egg] op elke vogel in die leefomgeving.",
       "Flavor text": null,
@@ -338,7 +310,6 @@
     },
     "30": {
       "English name": "Black Skimmer",
-      "Scientific name": "Rynchops niger",
       "Common name": "Amerikaanse schaarbek",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -350,7 +321,6 @@
     },
     "31": {
       "English name": "Black Tern",
-      "Scientific name": "Chlidonias niger",
       "Common name": "Zwarte stern",
       "Power text": "trek 1 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -362,7 +332,6 @@
     },
     "32": {
       "English name": "Black Vulture",
-      "Scientific name": "Coragyps atratus",
       "Common name": "Zwarte gier",
       "Power text": "als een [predator] van een andere speler lukt, pak jij 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -374,7 +343,6 @@
     },
     "33": {
       "English name": "Black Woodpecker",
-      "Scientific name": "Dryocopus martius",
       "Common name": "Zwarte specht",
       "Power text": "pak alle [invertebrate] uit het vogelhuisje.",
       "Flavor text": null,
@@ -386,7 +354,6 @@
     },
     "34": {
       "English name": "Black-Bellied Whistling-Duck",
-      "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Zwartbuikfluiteend",
       "Power text": "leg 1 [seed] af om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -398,7 +365,6 @@
     },
     "35": {
       "English name": "Black-Billed Magpie",
-      "Scientific name": "Pica hudsonia",
       "Common name": "Amerikaanse ekster",
       "Power text": "als een [predator] van een andere speler lukt, pak jij 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -410,7 +376,6 @@
     },
     "36": {
       "English name": "Black-Chinned Hummingbird",
-      "Scientific name": "Archilochus alexandri",
       "Common name": "Zwartkinkolibrie",
       "Power text": "iedere speler pakt 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -422,7 +387,6 @@
     },
     "37": {
       "English name": "Black-Crowned Night-Heron",
-      "Scientific name": "Nycticorax nycticorax",
       "Common name": "Kwak",
       "Power text": "leg 1 [egg] van \u00e9\u00e9n van je andere vogels af om 1 [wild] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -434,7 +398,6 @@
     },
     "38": {
       "English name": "Black-Headed Gull",
-      "Scientific name": "Chroicocephalus ridibundus",
       "Common name": "Kokmeeuw",
       "Power text": "steel 1 [wild] uit de voorraad van een andere speler en doe het in je persoonlijke voorraad. Hij pakt 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -446,7 +409,6 @@
     },
     "39": {
       "English name": "Black-Necked Stilt",
-      "Scientific name": "Himantopus mexicanus",
       "Common name": "Amerikaanse steltkluut",
       "Power text": "trek 2 [card].",
       "Flavor text": null,
@@ -458,7 +420,6 @@
     },
     "40": {
       "English name": "Black-Tailed Godwit",
-      "Scientific name": "Limosa limosa",
       "Common name": "Grutto",
       "Power text": "trek 1 nieuwe bonuskaart. Trek dan 3 [card] en hou er 1 van.",
       "Flavor text": null,
@@ -470,7 +431,6 @@
     },
     "41": {
       "English name": "Black-Throated Diver",
-      "Scientific name": "Gavia arctica",
       "Common name": "Parelduiker",
       "Power text": "leg alle resterende open [card] af en vul de vogelhouder aan. Doe je dat, trek dan 1 van de nieuwe open [card].",
       "Flavor text": null,
@@ -482,7 +442,6 @@
     },
     "42": {
       "English name": "Blue Grosbeak",
-      "Scientific name": "Passerina caerulea",
       "Common name": "Blauwe bisschop",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -494,7 +453,6 @@
     },
     "43": {
       "English name": "Blue Jay",
-      "Scientific name": "Cyanocitta cristata",
       "Common name": "Blauwe gaai",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -506,7 +464,6 @@
     },
     "44": {
       "English name": "Blue-Gray Gnatcatcher",
-      "Scientific name": "Polioptila caerulea",
       "Common name": "Blauwgrijze muggenvanger",
       "Power text": "pak 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -518,7 +475,6 @@
     },
     "45": {
       "English name": "Blue-Winged Warbler",
-      "Scientific name": "Vermivora cyanoptera",
       "Common name": "Blauwvleugelzanger",
       "Power text": null,
       "Flavor text": null,
@@ -530,7 +486,6 @@
     },
     "46": {
       "English name": "Bluethroat",
-      "Scientific name": "Luscinia svecica",
       "Common name": "Blauwborst",
       "Power text": "kies een voedselsoort. Iedere speler pakt 1 fiche van deze soort uit de voorraad.",
       "Flavor text": null,
@@ -542,7 +497,6 @@
     },
     "47": {
       "English name": "Bobolink",
-      "Scientific name": "Dolichonyx oryzivorus",
       "Common name": "Bobolink",
       "Power text": "leg 1 [egg] op elk van je vogels met een [ground]-nest.",
       "Flavor text": null,
@@ -554,7 +508,6 @@
     },
     "48": {
       "English name": "Bonelli's Eagle",
-      "Scientific name": "Aquila fasciata",
       "Common name": "Havikarend",
       "Power text": "voor elke [rodent] in de kosten van deze vogel mag je in plaats daarvan 1 [card] uit je hand betalen. Doe je dat, stop de betaalde [card] dan onder deze kaart weg.",
       "Flavor text": null,
@@ -566,7 +519,6 @@
     },
     "49": {
       "English name": "Brant",
-      "Scientific name": "Branta bernicla",
       "Common name": "Rotgans",
       "Power text": "trek de 3 open [card] in de vogelhouder.",
       "Flavor text": null,
@@ -578,7 +530,6 @@
     },
     "50": {
       "English name": "Brewer's Blackbird",
-      "Scientific name": "Euphagus cyanocephalus",
       "Common name": "Brewers troepiaal",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -590,7 +541,6 @@
     },
     "51": {
       "English name": "Broad-Winged Hawk",
-      "Scientific name": "Buteo platypterus",
       "Common name": "Breedvleugelbuizerd",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -602,7 +552,6 @@
     },
     "52": {
       "English name": "Bronzed Cowbird",
-      "Scientific name": "Molothrus aeneus",
       "Common name": "Roodoogkoevogel",
       "Power text": "als een andere speler de actie \"Eieren leggen\" uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [bowl]-nest.",
       "Flavor text": null,
@@ -614,7 +563,6 @@
     },
     "53": {
       "English name": "Brown Pelican",
-      "Scientific name": "Pelecanus occidentalis",
       "Common name": "Bruine pelikaan",
       "Power text": "pak 3 [fish] uit de voorraad.",
       "Flavor text": null,
@@ -626,7 +574,6 @@
     },
     "54": {
       "English name": "Brown-Headed Cowbird",
-      "Scientific name": "Molothrus ater",
       "Common name": "Bruinkopkoevogel",
       "Power text": "als een andere speler de actie \"Eieren leggen\" uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [bowl]-nest.",
       "Flavor text": null,
@@ -638,7 +585,6 @@
     },
     "55": {
       "English name": "Bullfinch",
-      "Scientific name": "Pyrrhula pyrrhula",
       "Common name": "Goudvink",
       "Power text": "gooi alle dobbelstenen opnieuw in het vogelhuisje. Doe je dat, dan pak je daarna 1 [seed] of 1 [fruit] uit het vogelhuisje.",
       "Flavor text": null,
@@ -650,7 +596,6 @@
     },
     "56": {
       "English name": "Burrowing Owl",
-      "Scientific name": "Athene cunicularia",
       "Common name": "Holenuil",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -662,7 +607,6 @@
     },
     "57": {
       "English name": "Bushtit",
-      "Scientific name": "Psaltriparus minimus",
       "Common name": "Struikmees",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -674,7 +618,6 @@
     },
     "58": {
       "English name": "California Condor",
-      "Scientific name": "Gymnogyps californianus",
       "Common name": "Californische condor",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -686,7 +629,6 @@
     },
     "59": {
       "English name": "California Quail",
-      "Scientific name": "Callipepla californica",
       "Common name": "Californische kuifkwartel",
       "Power text": "leg 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -698,7 +640,6 @@
     },
     "60": {
       "English name": "Canada Goose",
-      "Scientific name": "Branta canadensis",
       "Common name": "Grote Canadese gans",
       "Power text": "leg 1 [seed] af om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -710,7 +651,6 @@
     },
     "61": {
       "English name": "Canvasback",
-      "Scientific name": "Aythya valisineria",
       "Common name": "Grote tafeleend",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -722,7 +662,6 @@
     },
     "62": {
       "English name": "Carolina Chickadee",
-      "Scientific name": "Poecile carolinensis",
       "Common name": "Carolinamees",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -734,7 +673,6 @@
     },
     "63": {
       "English name": "Carolina Wren",
-      "Scientific name": "Thryothorus ludovicianus",
       "Common name": "Carolinawinterkoning",
       "Power text": "trek 2 [card].",
       "Flavor text": null,
@@ -746,7 +684,6 @@
     },
     "64": {
       "English name": "Carrion Crow",
-      "Scientific name": "Corvus corone",
       "Common name": "Zwarte kraai",
       "Power text": "kies 1 speler (jezelf mag ook). Bewaar voor elke [predator] die hij heeft 1 [rodent] uit de vooraad op deze vogel.",
       "Flavor text": null,
@@ -758,7 +695,6 @@
     },
     "65": {
       "English name": "Cassin's Finch",
-      "Scientific name": "Haemorhous cassinii",
       "Common name": "Cassins roodmus",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -770,7 +706,6 @@
     },
     "66": {
       "English name": "Cassin's Sparrow",
-      "Scientific name": "Peucaea cassinii",
       "Common name": "Cassins gors",
       "Power text": "leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -782,7 +717,6 @@
     },
     "67": {
       "English name": "Cedar Waxwing",
-      "Scientific name": "Bombycilla cedrorum",
       "Common name": "Cederpestvogel",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -794,7 +728,6 @@
     },
     "68": {
       "English name": "Cerulean Warbler",
-      "Scientific name": "Setophaga cerulea",
       "Common name": "Azuurzanger",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -806,7 +739,6 @@
     },
     "69": {
       "English name": "Cetti's Warbler",
-      "Scientific name": "Cettia cetti",
       "Common name": "Cetti's zanger",
       "Power text": "als deze vogel aan de voorwaarden van het \"Einde ronde\"-doel voldoet, telt hij dubbel.",
       "Flavor text": null,
@@ -818,7 +750,6 @@
     },
     "70": {
       "English name": "Chestnut-Collared Longspur",
-      "Scientific name": "Calcarius ornatus",
       "Common name": "Roodhalsgors",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -830,7 +761,6 @@
     },
     "71": {
       "English name": "Chihuahuan Raven",
-      "Scientific name": "Corvus cryptoleucus",
       "Common name": "Woestijnraaf",
       "Power text": "leg 1 [egg] van \u00e9\u00e9n van je andere vogels af om 2 [wild] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -842,7 +772,6 @@
     },
     "72": {
       "English name": "Chimney Swift",
-      "Scientific name": "Chaetura pelagica",
       "Common name": "Schoorsteengierzwaluw",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -854,7 +783,6 @@
     },
     "73": {
       "English name": "Chipping Sparrow",
-      "Scientific name": "Spizella passerina",
       "Common name": "Musgors",
       "Power text": "leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -866,7 +794,6 @@
     },
     "74": {
       "English name": "Clark's Grebe",
-      "Scientific name": "Aechmophorus clarkii",
       "Common name": "Clarks fuut",
       "Power text": "trek 1 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -878,7 +805,6 @@
     },
     "75": {
       "English name": "Clark's Nutcracker",
-      "Scientific name": "Nucifraga columbiana",
       "Common name": "Grijze notenkraker",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -890,7 +816,6 @@
     },
     "76": {
       "English name": "Coal Tit",
-      "Scientific name": "Periparus ater",
       "Common name": "Zwarte mees",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar het op deze kaart. Je mag [seed] dat op deze kaart ligt op elk moment gebruiken.",
       "Flavor text": null,
@@ -902,7 +827,6 @@
     },
     "77": {
       "English name": "Common Blackbird",
-      "Scientific name": "Turdus merula",
       "Common name": "Merel",
       "Power text": "leg deze vogel horizontaal neer, zodat deze 2 [forest]-velden bedekt. Betaal de lagere eikosten.",
       "Flavor text": null,
@@ -914,7 +838,6 @@
     },
     "78": {
       "English name": "Common Buzzard",
-      "Scientific name": "Buteo buteo",
       "Common name": "Buizerd",
       "Power text": "in plaats van kosten te betalen, mag je deze vogel op een andere vogel op je tableau leggen. Leg eventuele eieren en voedsel erop af. De onderste vogel wordt een weggestopte kaart.",
       "Flavor text": null,
@@ -926,7 +849,6 @@
     },
     "79": {
       "English name": "Common Chaffinch",
-      "Scientific name": "Fringilla coelebs",
       "Common name": "Vink",
       "Power text": "kies 1\u20135 vogels in deze leefomgeving. Stop 1 [card] uit je hand onder elk ervan weg.",
       "Flavor text": null,
@@ -938,7 +860,6 @@
     },
     "80": {
       "English name": "Common Chiffchaff",
-      "Scientific name": "Phylloscopus collybita",
       "Common name": "Tjiftjaf",
       "Power text": "kies 1\u20135 vogels in deze leefomgeving. Stop 1 [card] uit je hand onder elk ervan weg.",
       "Flavor text": null,
@@ -950,7 +871,6 @@
     },
     "81": {
       "English name": "Common Cuckoo",
-      "Scientific name": "Cuculus canorus",
       "Common name": "Koekoek",
       "Power text": "als een andere speler de \"leg eieren\"-actie uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [bowl]- of [ground] nest.",
       "Flavor text": null,
@@ -962,7 +882,6 @@
     },
     "82": {
       "English name": "Common Goldeneye",
-      "Scientific name": "Bucephala clangula",
       "Common name": "Brilduiker",
       "Power text": "leg 1 [egg] op deze vogel voor elke andere vogel met een [cavity]-nest die je hebt.",
       "Flavor text": null,
@@ -974,7 +893,6 @@
     },
     "83": {
       "English name": "Common Grackle",
-      "Scientific name": "Quiscalus quiscula",
       "Common name": "Glanstroepiaal",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -986,7 +904,6 @@
     },
     "84": {
       "English name": "Common Kingfisher",
-      "Scientific name": "Alcedo atthis",
       "Common name": "IJsvogel",
       "Power text": "steel 1 [fish] uit de voorraad van een andere speler en bewaar het op deze kaart. Hij pakt 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -998,7 +915,6 @@
     },
     "85": {
       "English name": "Common Little Bittern",
-      "Scientific name": "Ixobrychus minutus",
       "Common name": "Woudaap",
       "Power text": "pak 1 open [card] die in [grassland] kan leven.",
       "Flavor text": null,
@@ -1010,7 +926,6 @@
     },
     "86": {
       "English name": "Common Loon",
-      "Scientific name": "Gavia immer",
       "Common name": "IJsduiker",
       "Power text": "de speler(s) met de minste [wetland]-vogels: trek 1 [card].",
       "Flavor text": null,
@@ -1022,7 +937,6 @@
     },
     "87": {
       "English name": "Common Merganser",
-      "Scientific name": "Mergus merganser",
       "Common name": "Grote zaagbek",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -1034,7 +948,6 @@
     },
     "88": {
       "English name": "Common Moorhen",
-      "Scientific name": "Gallinula chloropus",
       "Common name": "Waterhoen",
       "Power text": "leg 1 [wild] uit je voorraad af. Doe je dat, speel dan nog een vogel in je [wetland]. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -1046,7 +959,6 @@
     },
     "89": {
       "English name": "Common Nighthawk",
-      "Scientific name": "Chordeiles minor",
       "Common name": "Amerikaanse nachtzwaluw",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -1058,7 +970,6 @@
     },
     "90": {
       "English name": "Common Nightingale",
-      "Scientific name": "Luscinia megarhynchos",
       "Common name": "Nachtegaal",
       "Power text": "kies een voedselsoort. Iedere speler pakt 1 fiche van deze soort uit de voorraad.",
       "Flavor text": null,
@@ -1070,7 +981,6 @@
     },
     "91": {
       "English name": "Common Raven",
-      "Scientific name": "Corvus corax",
       "Common name": "Raaf",
       "Power text": "leg 1 [egg] van \u00e9\u00e9n van je andere vogels af om 2 [wild] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -1082,7 +992,6 @@
     },
     "92": {
       "English name": "Common Starling",
-      "Scientific name": "Sturnus vulgaris",
       "Common name": "Spreeuw",
       "Power text": "leg ten hoogste 5 [wild] uit je voorraad af. Stop voor elk ervan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -1094,7 +1003,6 @@
     },
     "93": {
       "English name": "Common Swift",
-      "Scientific name": "Apus apus",
       "Common name": "Gierzwaluw",
       "Power text": "leg ten hoogste 5 [invertebrate] uit je voorraad af. Stop voor elk ervan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -1106,7 +1014,6 @@
     },
     "94": {
       "English name": "Common Yellowthroat",
-      "Scientific name": "Geothlypis trichas",
       "Common name": "Gewone maskerzanger",
       "Power text": "trek 2 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -1118,7 +1025,6 @@
     },
     "95": {
       "English name": "Cooper's Hawk",
-      "Scientific name": "Accipiter cooperii",
       "Common name": "Coopers sperwer",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -1130,7 +1036,6 @@
     },
     "96": {
       "English name": "Corsican Nuthatch",
-      "Scientific name": "Sitta whiteheadi",
       "Common name": "Corsicaanse boomklever",
       "Power text": "trek 1 nieuwe bonuskaart. Trek dan 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1142,7 +1047,6 @@
     },
     "97": {
       "English name": "Dark-Eyed Junco",
-      "Scientific name": "Junco hyemalis",
       "Common name": "Grijze junco",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -1154,7 +1058,6 @@
     },
     "98": {
       "English name": "Dickcissel",
-      "Scientific name": "Spiza americana",
       "Common name": "Dickcissel",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -1166,7 +1069,6 @@
     },
     "99": {
       "English name": "Double-Crested Cormorant",
-      "Scientific name": "Phalacrocorax auritus",
       "Common name": "Geoorde aalscholver",
       "Power text": "leg 1 [fish] af om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -1178,7 +1080,6 @@
     },
     "100": {
       "English name": "Downy Woodpecker",
-      "Scientific name": "Picoides pubescens",
       "Common name": "Donsspecht",
       "Power text": "speel een tweede vogel in je [forest]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -1190,7 +1091,6 @@
     },
     "101": {
       "English name": "Dunnock",
-      "Scientific name": "Prunella modularis",
       "Common name": "Heggenmus",
       "Power text": "kies 1 andere speler. Voor elke actiesteen op zijn [grassland], leg je 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -1202,7 +1102,6 @@
     },
     "102": {
       "English name": "Eastern Bluebird",
-      "Scientific name": "Sialia sialis",
       "Common name": "Roodkeelsialia",
       "Power text": "speel een tweede vogel in je [grassland]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -1214,7 +1113,6 @@
     },
     "103": {
       "English name": "Eastern Imperial Eagle",
-      "Scientific name": "Aquila heliaca",
       "Common name": "Keizerarend",
       "Power text": "voor elke [rodent] in de kosten van deze vogel mag je in plaats daarvan 1 [card] uit je hand betalen. Doe je dat, stop de betaalde [card] dan onder deze kaart weg.",
       "Flavor text": null,
@@ -1226,7 +1124,6 @@
     },
     "104": {
       "English name": "Eastern Kingbird",
-      "Scientific name": "Tyrannus tyrannus",
       "Common name": "Koningstiran",
       "Power text": "als een andere speler een [forest]-vogel speelt, pak jij 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -1238,7 +1135,6 @@
     },
     "105": {
       "English name": "Eastern Phoebe",
-      "Scientific name": "Sayornis phoebe",
       "Common name": "Phoebe",
       "Power text": "alle spelers pakken 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -1250,7 +1146,6 @@
     },
     "106": {
       "English name": "Eastern Screech-Owl",
-      "Scientific name": "Megascops asio",
       "Common name": "Oostelijke schreeuwuil",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -1262,7 +1157,6 @@
     },
     "107": {
       "English name": "Eleonora's Falcon",
-      "Scientific name": "Falco eleonorae",
       "Common name": "Eleonora's valk",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], leg dan 1 [egg] op deze kaart.",
       "Flavor text": null,
@@ -1274,7 +1168,6 @@
     },
     "108": {
       "English name": "Eurasian Collared-Dove",
-      "Scientific name": "Streptopelia decaocto",
       "Common name": "Turkse tortel",
       "Power text": "leg ten hoogste 5 [wild] uit je voorraad af. Stop voor elk ervan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -1286,7 +1179,6 @@
     },
     "109": {
       "English name": "Eurasian Golden Oriole",
-      "Scientific name": "Oriolus oriolus",
       "Common name": "Wielewaal",
       "Power text": "als een andere speler de \"pak voedsel\"-actie uitvoert, pak dan aan het einde van zijn beurt 1 [invertebrate] of [fruit] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1298,7 +1190,6 @@
     },
     "110": {
       "English name": "Eurasian Green Woodpecker",
-      "Scientific name": "Picus viridis",
       "Common name": "Groene specht",
       "Power text": "als deze vogel aan de voorwaarden van het \"Einde ronde\"-doel voldoet, telt hij dubbel.",
       "Flavor text": null,
@@ -1310,7 +1201,6 @@
     },
     "111": {
       "English name": "Eurasian Hobby",
-      "Scientific name": "Falco subbuteo",
       "Common name": "Boomvalk",
       "Power text": "in plaats van kosten te betalen, mag je deze vogel op een andere vogel op je tableau leggen. Leg eventuele eieren en voedsel erop af. De onderste vogel wordt een weggestopte kaart.",
       "Flavor text": null,
@@ -1322,7 +1212,6 @@
     },
     "112": {
       "English name": "Eurasian Jay",
-      "Scientific name": "Garrulus glandarius",
       "Common name": "Gaai",
       "Power text": "steel 1 [seed] uit de voorraad van een andere speler en bewaar het op deze kaart. Hij pakt 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1334,7 +1223,6 @@
     },
     "113": {
       "English name": "Eurasian Magpie",
-      "Scientific name": "Pica pica",
       "Common name": "Ekster",
       "Power text": "kies 1 andere speler. Bewaar voor elke actiesteen op zijn [grassland] 1 [wild] uit de voorraad op \u00e9\u00e9n van je vogels.",
       "Flavor text": null,
@@ -1346,7 +1234,6 @@
     },
     "114": {
       "English name": "Eurasian Nutcracker",
-      "Scientific name": "Nucifraga caryocatactes",
       "Common name": "Notenkraker",
       "Power text": "kies 1\u20135 vogels in je [forest]. Bewaar op elk ervan 1 [seed] uit je voorraad.",
       "Flavor text": null,
@@ -1358,7 +1245,6 @@
     },
     "115": {
       "English name": "Eurasian Nuthatch",
-      "Scientific name": "Sitta europaea",
       "Common name": "Boomklever",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar het op deze kaart. Je mag [seed] dat op deze kaart ligt op elk moment gebruiken.",
       "Flavor text": null,
@@ -1370,7 +1256,6 @@
     },
     "116": {
       "English name": "Eurasian Sparrowhawk",
-      "Scientific name": "Accipiter nisus",
       "Common name": "Sperwer",
       "Power text": "voor elke [rodent] in de kosten van deze vogel mag je in plaats daarvan 1 [card] uit je hand betalen. Doe je dat, stop de betaalde [card] dan onder deze kaart weg.",
       "Flavor text": null,
@@ -1382,7 +1267,6 @@
     },
     "117": {
       "English name": "Eurasian Tree Sparrow",
-      "Scientific name": "Passer montanus",
       "Common name": "Ringmus",
       "Power text": "als een andere speler de \"pak voedsel\"-actie uitvoert, pak dan aan het einde van zijn beurt 1 [seed] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1394,7 +1278,6 @@
     },
     "118": {
       "English name": "European Bee-Eater",
-      "Scientific name": "Merops apiaster",
       "Common name": "Bijeneter",
       "Power text": "gooi alle dobbelstenen opnieuw in het vogelhuisje. Doe je dat, dan pak je daarna 1 [invertebrate] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1406,7 +1289,6 @@
     },
     "119": {
       "English name": "European Goldfinch",
-      "Scientific name": "Carduelis carduelis",
       "Common name": "Putter",
       "Power text": "als een andere speler om welke reden dan ook een [card] wegstopt, stop dan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -1418,7 +1300,6 @@
     },
     "120": {
       "English name": "European Honey Buzzard",
-      "Scientific name": "Pernis apivorus",
       "Common name": "Wespendief",
       "Power text": "gooi alle dobbelstenen opnieuw in het vogelhuisje. Doe je dat, dan pak je daarna alle [invertebrate] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1430,7 +1311,6 @@
     },
     "121": {
       "English name": "European Robin",
-      "Scientific name": "Erithacus rubecula",
       "Common name": "Roodborst",
       "Power text": "neem 1 voedselfiche uit de voorraad van een soort die je deze beurt al hebt gepakt.",
       "Flavor text": null,
@@ -1442,7 +1322,6 @@
     },
     "122": {
       "English name": "European Roller",
-      "Scientific name": "Coracias garrulus",
       "Common name": "Scharrelaar",
       "Power text": "leg deze vogel horizontaal neer, zodat deze 2 [grassland]-velden bedekt. Betaal de lagere eikosten.",
       "Flavor text": null,
@@ -1454,7 +1333,6 @@
     },
     "123": {
       "English name": "European Turtle Dove",
-      "Scientific name": "Streptopelia turtur",
       "Common name": "Zomertortel",
       "Power text": "trek 1 nieuwe bonuskaart. Pak dan 1 [die] uit het vogelhuisje, leg 1 [egg] op een vogel naar keuze of trek 1 [card].",
       "Flavor text": null,
@@ -1466,7 +1344,6 @@
     },
     "124": {
       "English name": "Ferruginous Hawk",
-      "Scientific name": "Buteo regalis",
       "Common name": "Rosse ruigpootbuizerd",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -1478,7 +1355,6 @@
     },
     "125": {
       "English name": "Fish Crow",
-      "Scientific name": "Corvus ossifragus",
       "Common name": "Viskraai",
       "Power text": "leg 1 [egg] van \u00e9\u00e9n van je andere vogels af om 1 [wild] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -1490,7 +1366,6 @@
     },
     "126": {
       "English name": "Forster's Tern",
-      "Scientific name": "Sterna forsteri",
       "Common name": "Forsters stern",
       "Power text": "trek 1 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -1502,7 +1377,6 @@
     },
     "127": {
       "English name": "Franklin's Gull",
-      "Scientific name": "Leucophaeus pipixcan",
       "Common name": "Franklins meeuw",
       "Power text": "leg 1 [egg] af om 2 [card] te pakken.",
       "Flavor text": null,
@@ -1514,7 +1388,6 @@
     },
     "128": {
       "English name": "Goldcrest",
-      "Scientific name": "Regulus regulus",
       "Common name": "Goudhaan",
       "Power text": "leg 1 [card] uit je hand af. Doe je dat, speel dan nog een vogel in je [forest]. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -1526,7 +1399,6 @@
     },
     "129": {
       "English name": "Golden Eagle",
-      "Scientific name": "Aquila chrysaetos",
       "Common name": "Steenarend",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 100 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -1538,7 +1410,6 @@
     },
     "130": {
       "English name": "Grasshopper Sparrow",
-      "Scientific name": "Ammodramus savannarum",
       "Common name": "Sprinkhaangors",
       "Power text": "leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -1550,7 +1421,6 @@
     },
     "131": {
       "English name": "Gray Catbird",
-      "Scientific name": "Dumetella carolinensis",
       "Common name": "Katvogel",
       "Power text": "herhaal een bruine eigenschap van een andere vogel in deze leefomgeving.",
       "Flavor text": null,
@@ -1562,7 +1432,6 @@
     },
     "132": {
       "English name": "Great Blue Heron",
-      "Scientific name": "Ardea herodias",
       "Common name": "Amerikaanse blauwe reiger",
       "Power text": "speel een tweede vogel in je [wetland]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -1574,7 +1443,6 @@
     },
     "133": {
       "English name": "Great Crested Flycatcher",
-      "Scientific name": "Myiarchus crinitus",
       "Common name": "Grote kuiftiran",
       "Power text": "pak 1 [invertebrate] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -1586,7 +1454,6 @@
     },
     "134": {
       "English name": "Great Crested Grebe",
-      "Scientific name": "Podiceps cristatus",
       "Common name": "Fuut",
       "Power text": "trek 1 [card] voor elk leeg veld in deze rij. Hou er aan het einde van je beurt 1 en leg de rest af.",
       "Flavor text": null,
@@ -1598,7 +1465,6 @@
     },
     "135": {
       "English name": "Great Egret",
-      "Scientific name": "Ardea alba",
       "Common name": "Grote zilverreiger",
       "Power text": "speel een tweede vogel in je [wetland]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -1610,7 +1476,6 @@
     },
     "136": {
       "English name": "Great Horned Owl",
-      "Scientific name": "Bubo virginianus",
       "Common name": "Amerikaanse oehoe",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 100 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -1622,7 +1487,6 @@
     },
     "137": {
       "English name": "Great Tit",
-      "Scientific name": "Parus major",
       "Common name": "Koolmees",
       "Power text": "gooi alle dobbelstenen opnieuw in het vogelhuisje. Doe je dat, dan pak je daarna 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1634,7 +1498,6 @@
     },
     "138": {
       "English name": "Greater Flamingo",
-      "Scientific name": "Phoenicopterus roseus",
       "Common name": "Flamingo",
       "Power text": "kies 1 andere speler. Voor elke actiesteen die hij op zijn [wetland] heeft, stop je 1 [card] uit je hand onder deze vogel weg. Trek dan hetzelfde aantal [card].",
       "Flavor text": null,
@@ -1646,7 +1509,6 @@
     },
     "139": {
       "English name": "Greater Prairie-Chicken",
-      "Scientific name": "Tympanuchus cupido",
       "Common name": "Prairiehoen",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -1658,7 +1520,6 @@
     },
     "140": {
       "English name": "Greater Roadrunner",
-      "Scientific name": "Geococcyx californianus",
       "Common name": "Grote renkoekoek",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 50 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -1670,7 +1531,6 @@
     },
     "141": {
       "English name": "Green Heron",
-      "Scientific name": "Butorides virescens",
       "Common name": "Groene reiger",
       "Power text": "ruil 1 [wild] tegen 1 ander [wild] uit de voorraad.",
       "Flavor text": null,
@@ -1682,7 +1542,6 @@
     },
     "142": {
       "English name": "Grey Heron",
-      "Scientific name": "Ardea cinerea",
       "Common name": "Blauwe reiger",
       "Power text": "leg deze vogel horizontaal neer, zodat deze 2 [wetland]-velden bedekt. Betaal de lagere eikosten.",
       "Flavor text": null,
@@ -1694,7 +1553,6 @@
     },
     "143": {
       "English name": "Greylag Goose",
-      "Scientific name": "Anser anser",
       "Common name": "Grauwe gans",
       "Power text": "als deze vogel aan de voorwaarden van het \"Einde ronde\"-doel voldoet, telt hij dubbel.",
       "Flavor text": null,
@@ -1706,7 +1564,6 @@
     },
     "144": {
       "English name": "Griffon Vulture",
-      "Scientific name": "Gyps fulvus",
       "Common name": "Vale gier",
       "Power text": "kies 1 speler (jezelf mag ook). Bewaar voor elke [predator] die hij heeft 1 [rodent] uit de vooraad op deze vogel.",
       "Flavor text": null,
@@ -1718,7 +1575,6 @@
     },
     "145": {
       "English name": "Hawfinch",
-      "Scientific name": "Coccothraustes coccothraustes",
       "Common name": "Appelvink",
       "Power text": "gooi alle dobbelstenen opnieuw in het vogelhuisje. Doe je dat, dan pak je daarna 1 [seed] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1730,7 +1586,6 @@
     },
     "146": {
       "English name": "Hermit Thrush",
-      "Scientific name": "Catharus guttatus",
       "Common name": "Heremietlijster",
       "Power text": "de speler(s) met de minste [forest]-vogels pakt/pakken 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1742,7 +1597,6 @@
     },
     "147": {
       "English name": "Hooded Crow",
-      "Scientific name": "Corvus cornix",
       "Common name": "Bonte kraai",
       "Power text": "kies 1 andere speler. Voor elke actiesteen die hij op zijn [grassland] heeft, stop je 1 [card] uit je hand onder deze vogel weg. Trek dan hetzelfde aantal [card].",
       "Flavor text": null,
@@ -1754,7 +1608,6 @@
     },
     "148": {
       "English name": "Hooded Merganser",
-      "Scientific name": "Lophodytes cucullatus",
       "Common name": "Kokardezaagbek",
       "Power text": "herhaal een [predator]-eigenschap in deze leefomgeving.",
       "Flavor text": null,
@@ -1766,7 +1619,6 @@
     },
     "149": {
       "English name": "Hooded Warbler",
-      "Scientific name": "Setophaga citrina",
       "Common name": "Monnikszanger",
       "Power text": null,
       "Flavor text": null,
@@ -1778,7 +1630,6 @@
     },
     "150": {
       "English name": "Horned Lark",
-      "Scientific name": "Eremophila alpestris",
       "Common name": "Strandleeuwerik",
       "Power text": "als een andere speler een [grassland]-vogel speelt, stop jij een [card] uit je hand weg onder deze vogel.",
       "Flavor text": null,
@@ -1790,7 +1641,6 @@
     },
     "151": {
       "English name": "House Finch",
-      "Scientific name": "Haemorhous mexicanus",
       "Common name": "Mexicaanse roodmus",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -1802,7 +1652,6 @@
     },
     "152": {
       "English name": "House Sparrow",
-      "Scientific name": "Passer domesticus",
       "Common name": "Huismus",
       "Power text": "leg ten hoogste 5 [seed] uit je voorraad af. Stop voor elk ervan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -1814,7 +1663,6 @@
     },
     "153": {
       "English name": "House Wren",
-      "Scientific name": "Troglodytes aedon",
       "Common name": "Noordelijke huiswinterkoning",
       "Power text": "speel een tweede vogel in je [grassland] of [forest]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -1826,7 +1674,6 @@
     },
     "154": {
       "English name": "Inca Dove",
-      "Scientific name": "Columbina inca",
       "Common name": "Incaduif",
       "Power text": "leg 1 [egg] op elk van je vogels met een [platform]-nest.",
       "Flavor text": null,
@@ -1838,7 +1685,6 @@
     },
     "155": {
       "English name": "Indigo Bunting",
-      "Scientific name": "Passerina cyanea",
       "Common name": "Indigogors",
       "Power text": "pak 1 [invertebrate] of [fruit] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -1850,7 +1696,6 @@
     },
     "156": {
       "English name": "Juniper Titmouse",
-      "Scientific name": "Baeolophus ridgwayi",
       "Common name": "Ridgways mees",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -1862,7 +1707,6 @@
     },
     "157": {
       "English name": "Killdeer",
-      "Scientific name": "Charadrius vociferus",
       "Common name": "Killdeerplevier",
       "Power text": "leg 1 [egg] af om 2 [card] te pakken.",
       "Flavor text": null,
@@ -1874,7 +1718,6 @@
     },
     "158": {
       "English name": "King Rail",
-      "Scientific name": "Rallus elegans",
       "Common name": "Koningsral",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -1886,7 +1729,6 @@
     },
     "159": {
       "English name": "Lazuli Bunting",
-      "Scientific name": "Passerina amoena",
       "Common name": "Lazuligors",
       "Power text": "alle spelers leggen 1 [egg] op een [bowl]-vogel naar keuze. Jij mag daarnaast nog 1 [egg] op 1 andere [bowl]-vogel naar keuze leggen.",
       "Flavor text": null,
@@ -1898,7 +1740,6 @@
     },
     "160": {
       "English name": "Lesser Whitethroat",
-      "Scientific name": "Sylvia curruca",
       "Common name": "Braamsluiper",
       "Power text": "kies een leefomgeving zonder [egg]. Leg 1 [egg] op elke vogel in die leefomgeving.",
       "Flavor text": null,
@@ -1910,7 +1751,6 @@
     },
     "161": {
       "English name": "Lincoln's Sparrow",
-      "Scientific name": "Melospiza lincolnii",
       "Common name": "Lincolns gors",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -1922,7 +1762,6 @@
     },
     "162": {
       "English name": "Little Bustard",
-      "Scientific name": "Tetrax tetrax",
       "Common name": "Kleine trap",
       "Power text": "trek 1 nieuwe bonuskaart. Trek dan 1 [card] of leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -1934,7 +1773,6 @@
     },
     "163": {
       "English name": "Little Owl",
-      "Scientific name": "Athene noctua",
       "Common name": "Steenuil",
       "Power text": "steel 1 [rodent] uit de voorraad van een andere speler en bewaar het op deze kaart. Hij pakt 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -1946,7 +1784,6 @@
     },
     "164": {
       "English name": "Loggerhead Shrike",
-      "Scientific name": "Lanius ludovicianus",
       "Common name": "Amerikaanse klapekster",
       "Power text": "als een andere speler de actie \"Voedsel pakken\" uitvoert en ten minste 1 [rodent] pakt, dan pak jij ook 1 [rodent] en bewaar je die op deze kaart.",
       "Flavor text": null,
@@ -1958,7 +1795,6 @@
     },
     "165": {
       "English name": "Long-Tailed Tit",
-      "Scientific name": "Aegithalos caudatus",
       "Common name": "Staartmees",
       "Power text": "leg deze vogel horizontaal neer, zodat deze 2 [forest]-velden bedekt. Betaal de lagere eikosten.",
       "Flavor text": null,
@@ -1970,7 +1806,6 @@
     },
     "166": {
       "English name": "Mallard",
-      "Scientific name": "Anas platyrhynchos",
       "Common name": "Wilde eend",
       "Power text": "trek 1 [card].",
       "Flavor text": null,
@@ -1982,7 +1817,6 @@
     },
     "167": {
       "English name": "Mississippi Kite",
-      "Scientific name": "Ictinia mississippiensis",
       "Common name": "Mississippiwouw",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [rodent], pak dan 1 [rodent] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -1994,7 +1828,6 @@
     },
     "168": {
       "English name": "Moltoni's Warbler",
-      "Scientific name": "Sylvia subalpina",
       "Common name": "Moltoni's baardgrasmus",
       "Power text": "heb je deze ronde alle 4 soorten acties uitgevoerd, speel dan nog een vogel. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -2006,7 +1839,6 @@
     },
     "169": {
       "English name": "Montagu's Harrier",
-      "Scientific name": "Circus pygargus",
       "Common name": "Grauwe kiekendief",
       "Power text": "in plaats van kosten te betalen, mag je deze vogel op een andere vogel op je tableau leggen. Leg eventuele eieren en voedsel erop af. De onderste vogel wordt een weggestopte kaart.",
       "Flavor text": null,
@@ -2018,7 +1850,6 @@
     },
     "170": {
       "English name": "Mountain Bluebird",
-      "Scientific name": "Sialia currucoides",
       "Common name": "Bergsialia",
       "Power text": "speel een tweede vogel in je [grassland]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -2030,7 +1861,6 @@
     },
     "171": {
       "English name": "Mountain Chickadee",
-      "Scientific name": "Poecile gambeli",
       "Common name": "Gambels mees",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -2042,7 +1872,6 @@
     },
     "172": {
       "English name": "Mourning Dove",
-      "Scientific name": "Zenaida macroura",
       "Common name": "Treurduif",
       "Power text": "leg 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -2054,7 +1883,6 @@
     },
     "173": {
       "English name": "Mute Swan",
-      "Scientific name": "Cygnus olor",
       "Common name": "Knobbelzwaan",
       "Power text": "kies 1\u20133 vogels in je [wetland]. Stop onder elk ervan 1 [card] weg. Stop je ten minste 1 kaart weg, trek dan 1 [card].",
       "Flavor text": null,
@@ -2066,7 +1894,6 @@
     },
     "174": {
       "English name": "Northern Bobwhite",
-      "Scientific name": "Colinus virginianus",
       "Common name": "Boomkwartel",
       "Power text": "leg 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -2078,7 +1905,6 @@
     },
     "175": {
       "English name": "Northern Cardinal",
-      "Scientific name": "Cardinalis cardinalis",
       "Common name": "Rode kardinaal",
       "Power text": "pak 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -2090,7 +1916,6 @@
     },
     "176": {
       "English name": "Northern Flicker",
-      "Scientific name": "Colaptes auratus",
       "Common name": "Gouden grondspecht",
       "Power text": "pak alle [invertebrate] die in het vogelhuisje liggen.",
       "Flavor text": null,
@@ -2102,7 +1927,6 @@
     },
     "177": {
       "English name": "Northern Gannet",
-      "Scientific name": "Morus bassanus",
       "Common name": "Jan-van-gent",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Pak zoveel [fish] uit de voorraad als je hebt geworpen en bewaar die op deze vogel.",
       "Flavor text": null,
@@ -2114,7 +1938,6 @@
     },
     "178": {
       "English name": "Northern Goshawk",
-      "Scientific name": "Accipiter gentilis",
       "Common name": "Havik",
       "Power text": "voor elke [rodent] in de kosten van deze vogel mag je in plaats daarvan 1 [card] uit je hand betalen. Doe je dat, stop de betaalde [card] dan onder deze kaart weg.",
       "Flavor text": null,
@@ -2126,7 +1949,6 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus hudsonius",
       "Common name": "Blauwe kiekendief",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -2138,7 +1960,6 @@
     },
     "180": {
       "English name": "Northern Mockingbird",
-      "Scientific name": "Mimus polyglottos",
       "Common name": "Spotlijster",
       "Power text": "herhaal een bruine eigenschap van een andere vogel in deze leefomgeving.",
       "Flavor text": null,
@@ -2150,7 +1971,6 @@
     },
     "181": {
       "English name": "Northern Shoveler",
-      "Scientific name": "Spatula clypeata",
       "Common name": "Slobeend",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -2162,7 +1982,6 @@
     },
     "182": {
       "English name": "Osprey",
-      "Scientific name": "Pandion haliaetus",
       "Common name": "Visarend",
       "Power text": "alle spelers pakken 1 [fish] uit de voorraad.",
       "Flavor text": null,
@@ -2174,7 +1993,6 @@
     },
     "183": {
       "English name": "Painted Bunting",
-      "Scientific name": "Passerina ciris",
       "Common name": "Purpergors",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2186,7 +2004,6 @@
     },
     "184": {
       "English name": "Painted Whitestart",
-      "Scientific name": "Myioborus pictus",
       "Common name": "Roodbuikzanger",
       "Power text": "pak 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -2198,7 +2015,6 @@
     },
     "185": {
       "English name": "Parrot Crossbill",
-      "Scientific name": "Loxia pytyopsittacus",
       "Common name": "Grote kruisbek",
       "Power text": "verwijder 1 [die] naar keuze uit het vogelhuisje. Pak dan 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -2210,7 +2026,6 @@
     },
     "186": {
       "English name": "Peregrine Falcon",
-      "Scientific name": "Falco peregrinus",
       "Common name": "Slechtvalk",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 100 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -2222,7 +2037,6 @@
     },
     "187": {
       "English name": "Pied-Billed Grebe",
-      "Scientific name": "Podilymbus podiceps",
       "Common name": "Dikbekfuut",
       "Power text": "trek 2 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -2234,7 +2048,6 @@
     },
     "188": {
       "English name": "Pileated Woodpecker",
-      "Scientific name": "Dryocopus pileatus",
       "Common name": "Noord-Amerikaanse helmspecht",
       "Power text": "alle spelers leggen 1 [egg] op een [cavity]-vogel naar keuze. Jij mag daarnaast nog 1 [egg] op 1 andere [cavity]-vogel naar keuze leggen.",
       "Flavor text": null,
@@ -2246,7 +2059,6 @@
     },
     "189": {
       "English name": "Pine Siskin",
-      "Scientific name": "Spinus pinus",
       "Common name": "Dennensijs",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -2258,7 +2070,6 @@
     },
     "190": {
       "English name": "Prothonotary Warbler",
-      "Scientific name": "Protonotaria citrea",
       "Common name": "Citroenzanger",
       "Power text": null,
       "Flavor text": null,
@@ -2270,7 +2081,6 @@
     },
     "191": {
       "English name": "Purple Gallinule",
-      "Scientific name": "Porphyrio martinicus",
       "Common name": "Amerikaans purperhoen",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -2282,7 +2092,6 @@
     },
     "192": {
       "English name": "Purple Martin",
-      "Scientific name": "Progne subis",
       "Common name": "Purperzwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -2294,7 +2103,6 @@
     },
     "193": {
       "English name": "Pygmy Nuthatch",
-      "Scientific name": "Sitta pygmaea",
       "Common name": "Dwergboomklever",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [invertebrate] of [seed] uit de voorraad.",
       "Flavor text": null,
@@ -2306,7 +2114,6 @@
     },
     "194": {
       "English name": "Red Crossbill",
-      "Scientific name": "Loxia curvirostra",
       "Common name": "Kruisbek",
       "Power text": "alle spelers pakken 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -2318,7 +2125,6 @@
     },
     "195": {
       "English name": "Red Kite",
-      "Scientific name": "Milvus milvus",
       "Common name": "Rode wouw",
       "Power text": "in plaats van kosten te betalen, mag je deze vogel op een andere vogel op je tableau leggen. Leg eventuele eieren en voedsel erop af. De onderste vogel wordt een weggestopte kaart.",
       "Flavor text": null,
@@ -2330,7 +2136,6 @@
     },
     "196": {
       "English name": "Red Knot",
-      "Scientific name": "Calidris canutus",
       "Common name": "Kanoet",
       "Power text": "trek 1 nieuwe bonuskaart. Trek dan 3 [card] en hou er 1 van.",
       "Flavor text": null,
@@ -2342,7 +2147,6 @@
     },
     "197": {
       "English name": "Red-Backed Shrike",
-      "Scientific name": "Lanius collurio",
       "Common name": "Grauwe klauwier",
       "Power text": "steel 1 [invertebrate] uit de voorraad van een andere speler en bewaar het op deze kaart. Hij pakt 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -2354,7 +2158,6 @@
     },
     "198": {
       "English name": "Red-Bellied Woodpecker",
-      "Scientific name": "Melanerpes carolinus",
       "Common name": "Roodbuikspecht",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -2366,7 +2169,6 @@
     },
     "199": {
       "English name": "Red-Breasted Merganser",
-      "Scientific name": "Mergus serrator",
       "Common name": "Middelste zaagbek",
       "Power text": "trek 2 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] af.",
       "Flavor text": null,
@@ -2378,7 +2180,6 @@
     },
     "200": {
       "English name": "Red-Breasted Nuthatch",
-      "Scientific name": "Sitta canadensis",
       "Common name": "Canadese boomklever",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -2390,7 +2191,6 @@
     },
     "201": {
       "English name": "Red-Cockaded Woodpecker",
-      "Scientific name": "Picoides borealis",
       "Common name": "Kokardespecht",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2402,7 +2202,6 @@
     },
     "202": {
       "English name": "Red-Eyed Vireo",
-      "Scientific name": "Vireo olivaceus",
       "Common name": "Roodoogvireo",
       "Power text": "speel een tweede vogel in je [forest]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -2414,7 +2213,6 @@
     },
     "203": {
       "English name": "Red-Headed Woodpecker",
-      "Scientific name": "Melanerpes erythrocephalus",
       "Common name": "Roodkopspecht",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -2426,7 +2224,6 @@
     },
     "204": {
       "English name": "Red-Legged Partridge",
-      "Scientific name": "Alectoris rufa",
       "Common name": "Rode patrijs",
       "Power text": "leg 1 [egg] op elke vogel in deze kolom, met inbegrip van deze.",
       "Flavor text": null,
@@ -2438,7 +2235,6 @@
     },
     "205": {
       "English name": "Red-Shouldered Hawk",
-      "Scientific name": "Buteo lineatus",
       "Common name": "Roodschouderbuizerd",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -2450,7 +2246,6 @@
     },
     "206": {
       "English name": "Red-Tailed Hawk",
-      "Scientific name": "Buteo jamaicensis",
       "Common name": "Roodstaartbuizerd",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -2462,7 +2257,6 @@
     },
     "207": {
       "English name": "Red-Winged Blackbird",
-      "Scientific name": "Agelaius phoeniceus",
       "Common name": "Epauletspreeuw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -2474,7 +2268,6 @@
     },
     "208": {
       "English name": "Ring-Billed Gull",
-      "Scientific name": "Larus delawarensis",
       "Common name": "Ringsnavelmeeuw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -2486,7 +2279,6 @@
     },
     "209": {
       "English name": "Rose-Breasted Grosbeak",
-      "Scientific name": "Pheucticus ludovicianus",
       "Common name": "Roodborstkardinaal",
       "Power text": "pak 1 [seed] of [fruit] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -2498,7 +2290,6 @@
     },
     "210": {
       "English name": "Roseate Spoonbill",
-      "Scientific name": "Platalea ajaja",
       "Common name": "Rode lepelaar",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2510,7 +2301,6 @@
     },
     "211": {
       "English name": "Ruby-Crowned Kinglet",
-      "Scientific name": "Regulus calendula",
       "Common name": "Roodkroonhaan",
       "Power text": "speel een tweede vogel in je [forest]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -2522,7 +2312,6 @@
     },
     "212": {
       "English name": "Ruby-Throated Hummingbird",
-      "Scientific name": "Archilochus colubris",
       "Common name": "Robijnkeelkolibrie",
       "Power text": "iedere speler pakt 1 [die] uit het vogelhuisje, te beginnen bij de speler naar jouw keuze.",
       "Flavor text": null,
@@ -2534,7 +2323,6 @@
     },
     "213": {
       "English name": "Ruddy Duck",
-      "Scientific name": "Oxyura jamaicensis",
       "Common name": "Rosse stekelstaart",
       "Power text": "trek 2 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] af.",
       "Flavor text": null,
@@ -2546,7 +2334,6 @@
     },
     "214": {
       "English name": "Ruff",
-      "Scientific name": "Calidris pugnax",
       "Common name": "Kemphaan",
       "Power text": "stop ten hoogste 3 [card] uit je hand onder deze vogel weg. Trek 1 [card] voor elke kaart die je hebt weggestopt.",
       "Flavor text": null,
@@ -2558,7 +2345,6 @@
     },
     "215": {
       "English name": "Sandhill Crane",
-      "Scientific name": "Antigone canadensis",
       "Common name": "Canadese kraanvogel",
       "Power text": "leg 1 [seed] af om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -2570,7 +2356,6 @@
     },
     "216": {
       "English name": "Savannah Sparrow",
-      "Scientific name": "Passerculus sandwichensis",
       "Common name": "Savannahgors",
       "Power text": "speel een tweede vogel in je [grassland]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -2582,7 +2367,6 @@
     },
     "217": {
       "English name": "Savi's Warbler",
-      "Scientific name": "Locustella luscinioides",
       "Common name": "Snor",
       "Power text": "trek 2 [card]. Iedere andere speler trekt 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -2594,7 +2378,6 @@
     },
     "218": {
       "English name": "Say's Phoebe",
-      "Scientific name": "Sayornis saya",
       "Common name": "Says phoebe",
       "Power text": "leg 1 [egg] op elk van je vogels met een [bowl]-nest.",
       "Flavor text": null,
@@ -2606,7 +2389,6 @@
     },
     "219": {
       "English name": "Scaled Quail",
-      "Scientific name": "Callipepla squamata",
       "Common name": "Geschubde kwartel",
       "Power text": "leg 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -2618,7 +2400,6 @@
     },
     "220": {
       "English name": "Scissor-Tailed Flycatcher",
-      "Scientific name": "Tyrannus forficatus",
       "Common name": "Zwaluwstaartkoningstiran",
       "Power text": "alle spelers pakken 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -2630,7 +2411,6 @@
     },
     "221": {
       "English name": "Short-Toed Treecreeper",
-      "Scientific name": "Certhia brachydactyla",
       "Common name": "Boomkruiper",
       "Power text": "leg 1 [egg] van een vogel naar keuze af. Doe je dat, speel dan nog een vogel in je [forest]. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -2642,7 +2422,6 @@
     },
     "222": {
       "English name": "Snow Bunting",
-      "Scientific name": "Plectrophenax nivalis",
       "Common name": "Sneeuwgors",
       "Power text": "als een andere speler een [card] wegstopt, stop dan 1 [card] uit je hand onder deze vogel weg en trek aan het einde van zijn beurt 1 [card].",
       "Flavor text": null,
@@ -2654,7 +2433,6 @@
     },
     "223": {
       "English name": "Snowy Egret",
-      "Scientific name": "Egretta thula",
       "Common name": "Amerikaanse kleine zilverreiger",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -2666,7 +2444,6 @@
     },
     "224": {
       "English name": "Snowy Owl",
-      "Scientific name": "Bubo scandiacus",
       "Common name": "Sneeuwuil",
       "Power text": "trek 1 nieuwe bonuskaart. Trek dan 1 [card] of leg 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -2678,7 +2455,6 @@
     },
     "225": {
       "English name": "Song Sparrow",
-      "Scientific name": "Melospiza melodia",
       "Common name": "Zanggors",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -2690,7 +2466,6 @@
     },
     "226": {
       "English name": "Spotted Owl",
-      "Scientific name": "Strix occidentalis",
       "Common name": "Gevlekte bosuil",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2702,7 +2477,6 @@
     },
     "227": {
       "English name": "Spotted Sandpiper",
-      "Scientific name": "Actitis macularius",
       "Common name": "Amerikaanse oeverloper",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -2714,7 +2488,6 @@
     },
     "228": {
       "English name": "Spotted Towhee",
-      "Scientific name": "Pipilo maculatus",
       "Common name": "Gevlekte towie",
       "Power text": "pak 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -2726,7 +2499,6 @@
     },
     "229": {
       "English name": "Sprague's Pipit",
-      "Scientific name": "Anthus spragueii",
       "Common name": "Prairiepieper",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2738,7 +2510,6 @@
     },
     "230": {
       "English name": "Squacco Heron",
-      "Scientific name": "Ardeola ralloides",
       "Common name": "Ralreiger",
       "Power text": "pak 1 open [card] die in [wetland] kan leven.",
       "Flavor text": null,
@@ -2750,7 +2521,6 @@
     },
     "231": {
       "English name": "Steller's Jay",
-      "Scientific name": "Cyanocitta stelleri",
       "Common name": "Stellers gaai",
       "Power text": "pak 1 [seed] uit het vogelhuisje (indien beschikbaar). Je mag die op deze kaart bewaren.",
       "Flavor text": null,
@@ -2762,7 +2532,6 @@
     },
     "232": {
       "English name": "Swainson's Hawk",
-      "Scientific name": "Buteo swainsoni",
       "Common name": "Prairiebuizerd",
       "Power text": "bekijk een [card] van de gedekte stapel. Is die < 75 cm, stop hem dan weg onder deze kaart. Zo niet, leg hem dan af.",
       "Flavor text": null,
@@ -2774,7 +2543,6 @@
     },
     "233": {
       "English name": "Thekla's Lark",
-      "Scientific name": "Galerida theklae",
       "Common name": "Thekla's leeuwerik",
       "Power text": "leg 1 [seed] uit je voorraad af. Doe je dat, leg dan 2 [egg] op deze vogel.",
       "Flavor text": null,
@@ -2786,7 +2554,6 @@
     },
     "234": {
       "English name": "Tree Swallow",
-      "Scientific name": "Tachycineta bicolor",
       "Common name": "Boomzwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -2798,7 +2565,6 @@
     },
     "235": {
       "English name": "Trumpeter Swan",
-      "Scientific name": "Cygnus buccinator",
       "Common name": "Trompetzwaan",
       "Power text": null,
       "Flavor text": null,
@@ -2810,7 +2576,6 @@
     },
     "236": {
       "English name": "Tufted Titmouse",
-      "Scientific name": "Baeolophus bicolor",
       "Common name": "Tweekleurige mees",
       "Power text": "speel een tweede vogel in je [forest]. Betaal de normale kosten ervan.",
       "Flavor text": null,
@@ -2822,7 +2587,6 @@
     },
     "237": {
       "English name": "Turkey Vulture",
-      "Scientific name": "Cathartes aura",
       "Common name": "Roodkopgier",
       "Power text": "als een [predator] van een andere speler lukt, pak jij 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -2834,7 +2598,6 @@
     },
     "238": {
       "English name": "Vaux's Swift",
-      "Scientific name": "Chaetura vauxi",
       "Common name": "Vaux' gierzwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -2846,7 +2609,6 @@
     },
     "239": {
       "English name": "Violet-Green Swallow",
-      "Scientific name": "Tachycineta thalassina",
       "Common name": "Groene zwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -2858,7 +2620,6 @@
     },
     "240": {
       "English name": "Western Meadowlark",
-      "Scientific name": "Sturnella neglecta",
       "Common name": "Geelkaakweidespreeuw",
       "Power text": "alle spelers leggen 1 [egg] op een [ground]-vogel naar keuze. Jij mag daarnaast nog 1 [egg] op 1 andere [ground]-vogel naar keuze leggen.",
       "Flavor text": null,
@@ -2870,7 +2631,6 @@
     },
     "241": {
       "English name": "Western Tanager",
-      "Scientific name": "Piranga ludoviciana",
       "Common name": "Louisianatangare",
       "Power text": "pak 1 [invertebrate] of [fruit] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -2882,7 +2642,6 @@
     },
     "242": {
       "English name": "White Stork",
-      "Scientific name": "Ciconia ciconia",
       "Common name": "Ooievaar",
       "Power text": "leg alle resterende open [card] af en vul de vogelhouder aan. Doe je dat, trek dan 1 van de nieuwe open [card].",
       "Flavor text": null,
@@ -2894,7 +2653,6 @@
     },
     "243": {
       "English name": "White Wagtail",
-      "Scientific name": "Motacilla alba",
       "Common name": "Witte kwikstaart",
       "Power text": "heb je deze ronde alle 4 soorten acties uitgevoerd, speel dan nog een vogel. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -2906,7 +2664,6 @@
     },
     "244": {
       "English name": "White-Backed Woodpecker",
-      "Scientific name": "Dendrocopos leucotos",
       "Common name": "Witrugspecht",
       "Power text": "pak 1 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -2918,7 +2675,6 @@
     },
     "245": {
       "English name": "White-Breasted Nuthatch",
-      "Scientific name": "Sitta carolinensis",
       "Common name": "Witborstboomklever",
       "Power text": "pak 1 [seed] uit de voorraad en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -2930,7 +2686,6 @@
     },
     "246": {
       "English name": "White-Crowned Sparrow",
-      "Scientific name": "Zonotrichia leucophrys",
       "Common name": "Witkruingors",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -2942,7 +2697,6 @@
     },
     "247": {
       "English name": "White-Faced Ibis",
-      "Scientific name": "Plegadis chihi",
       "Common name": "Witmaskeribis",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -2954,7 +2708,6 @@
     },
     "248": {
       "English name": "White-Throated Dipper",
-      "Scientific name": "Cinclus cinclus",
       "Common name": "Waterspreeuw",
       "Power text": "leg alle resterende open [card] af en vul de vogelhouder aan. Doe je dat, trek dan 1 van de nieuwe open [card].",
       "Flavor text": null,
@@ -2966,7 +2719,6 @@
     },
     "249": {
       "English name": "White-Throated Swift",
-      "Scientific name": "Aeronautes saxatalis",
       "Common name": "Bonte gierzwaluw",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan 1 [egg] op een vogel naar keuze.",
       "Flavor text": null,
@@ -2978,7 +2730,6 @@
     },
     "250": {
       "English name": "Whooping Crane",
-      "Scientific name": "Grus americana",
       "Common name": "Trompetkraanvogel",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -2990,7 +2741,6 @@
     },
     "251": {
       "English name": "Wild Turkey",
-      "Scientific name": "Meleagris gallopavo",
       "Common name": "Kalkoen",
       "Power text": null,
       "Flavor text": null,
@@ -3002,7 +2752,6 @@
     },
     "252": {
       "English name": "Willet",
-      "Scientific name": "Tringa semipalmata",
       "Common name": "Willet",
       "Power text": "werp alle dobbelstenen die niet in het vogelhuisje liggen. Gooi je ten minste 1 [fish], pak dan 1 [fish] en bewaar die op deze kaart.",
       "Flavor text": null,
@@ -3014,7 +2763,6 @@
     },
     "253": {
       "English name": "Wilson's Snipe",
-      "Scientific name": "Gallinago delicata",
       "Common name": "Amerikaanse watersnip",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -3026,7 +2774,6 @@
     },
     "254": {
       "English name": "Wilson's Storm Petrel",
-      "Scientific name": "Oceanites oceanicus",
       "Common name": "Wilsons stormvogeltje",
       "Power text": "trek 1 [card] voor elk leeg veld in deze rij. Hou er aan het einde van je beurt 1 en leg de rest af.",
       "Flavor text": null,
@@ -3038,7 +2785,6 @@
     },
     "255": {
       "English name": "Wood Duck",
-      "Scientific name": "Aix sponsa",
       "Common name": "Carolina-eend",
       "Power text": "trek 2 [card]. Doe je dat, leg dan aan het einde van je beurt 1 [card] uit je hand af.",
       "Flavor text": null,
@@ -3050,7 +2796,6 @@
     },
     "256": {
       "English name": "Wood Stork",
-      "Scientific name": "Mycteria americana",
       "Common name": "Kaalkopooievaar",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -3062,7 +2807,6 @@
     },
     "257": {
       "English name": "Yellow-Bellied Sapsucker",
-      "Scientific name": "Sphyrapicus varius",
       "Common name": "Geelbuiksapspecht",
       "Power text": "pak 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -3074,7 +2818,6 @@
     },
     "258": {
       "English name": "Yellow-Billed Cuckoo",
-      "Scientific name": "Coccyzus americanus",
       "Common name": "Geelsnavelkoekoek",
       "Power text": "als een andere speler de actie \"Eieren leggen\" uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [bowl]-nest.",
       "Flavor text": null,
@@ -3086,7 +2829,6 @@
     },
     "259": {
       "English name": "Yellow-Breasted Chat",
-      "Scientific name": "Icteria virens",
       "Common name": "Geelborstzanger",
       "Power text": "als deze vogel zich rechts van alle andere vogels in zijn leefomgeving bevindt, verplaats deze dan naar een andere leefomgeving.",
       "Flavor text": null,
@@ -3098,7 +2840,6 @@
     },
     "260": {
       "English name": "Yellow-Headed Blackbird",
-      "Scientific name": "Xanthocephalus xanthocephalus",
       "Common name": "Geelkoptroepiaal",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ook 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -3110,7 +2851,6 @@
     },
     "261": {
       "English name": "Yellow-Rumped Warbler",
-      "Scientific name": "Setophaga coronata",
       "Common name": "Mirtezanger",
       "Power text": "stop een [card] uit je hand onder deze vogel weg. Doe je dat, trek dan 1 [card].",
       "Flavor text": null,
@@ -3122,7 +2862,6 @@
     },
     "262": {
       "English name": "Yellowhammer",
-      "Scientific name": "Emberiza citrinella",
       "Common name": "Geelgors",
       "Power text": "heb je deze ronde alle 4 soorten acties uitgevoerd, speel dan nog een vogel. Betaal de gebruikelijke voedsel- en eikosten.",
       "Flavor text": null,
@@ -3134,7 +2873,6 @@
     },
     "263": {
       "English name": "Abbott's Booby",
-      "Scientific name": "Papasula abbotti",
       "Common name": "Abbotts gent",
       "Power text": "trek 3 bonuskaarten en leg er daarna 2 af. Je mag bonuskaarten afleggen die je niet deze beurt hebt getrokken.",
       "Flavor text": null,
@@ -3146,7 +2884,6 @@
     },
     "264": {
       "English name": "Australasian Pipit",
-      "Scientific name": "Anthus novaeseelandiae",
       "Common name": "Nieuw-Zeelandse Pieper",
       "Power text": "stop 1 [card] uit de trekstapel onder elke vogel in je [grassland] weg, met inbegrip van deze.",
       "Flavor text": null,
@@ -3158,7 +2895,6 @@
     },
     "265": {
       "English name": "Australasian Shoveler",
-      "Scientific name": "Spatula rhynchotis",
       "Common name": "Australische slobeend",
       "Power text": "kies 1 andere speler. Jullie trekken beiden 1 [card] van de trekstapel.",
       "Flavor text": null,
@@ -3170,7 +2906,6 @@
     },
     "266": {
       "English name": "Australian Ibis",
-      "Scientific name": "Threskiornis moluccus",
       "Common name": "Australische witte ibis",
       "Power text": "schud de aflegstapel en trek er dan 2 [card] van. Kies er 1 en stop deze onder deze vogel weg of neem de kaart in je hand. Leg de andere af.",
       "Flavor text": null,
@@ -3182,7 +2917,6 @@
     },
     "267": {
       "English name": "Australian Magpie",
-      "Scientific name": "Gymnorhina tibicen",
       "Common name": "Zwartrugfluitvogel",
       "Power text": "leg 1 [egg] af van elke vogel in deze rij en kolom die een [egg] heeft, met uitzondering van deze vogel. Voor elk afgelegd [egg] bewaar je 2 [seed] uit de voorraad op deze vogel.",
       "Flavor text": null,
@@ -3194,7 +2928,6 @@
     },
     "268": {
       "English name": "Australian Owlet-Nightjar",
-      "Scientific name": "Aegotheles cristatus",
       "Common name": "Australische dwergnachtzwaluw",
       "Power text": "als een andere speler de actie \"pak voedsel\" uitvoert, pak jij aan het einde van zijn beurt 1 [invertebrate] uit het vogelhuisje, indien mogelijk.",
       "Flavor text": null,
@@ -3206,7 +2939,6 @@
     },
     "269": {
       "English name": "Australian Raven",
-      "Scientific name": "Corvus coronoides",
       "Common name": "Australische raaf",
       "Power text": "bewaar ten hoogste 5 [wild] uit je voorraad op deze vogel",
       "Flavor text": null,
@@ -3218,7 +2950,6 @@
     },
     "270": {
       "English name": "Australian Reed Warbler",
-      "Scientific name": "Acrocephalus australis",
       "Common name": "Australische karekiet",
       "Power text": "speel nog een vogel in je [wetland]. Betaal de normale prijs met 1 [egg] korting.",
       "Flavor text": null,
@@ -3230,7 +2961,6 @@
     },
     "271": {
       "English name": "Australian Shelduck",
-      "Scientific name": "Tadorna tadornoides",
       "Common name": "Australische bergeend",
       "Power text": "trek 1 open [card] met een [cavity]- of [star]-nest uit de vogelhouder. Je mag de vogelhouder daarvoor opnieuw samenstellen of aanvullen.",
       "Flavor text": null,
@@ -3242,7 +2972,6 @@
     },
     "272": {
       "English name": "Australian Zebra Finch",
-      "Scientific name": "Taeniopygia castanotis",
       "Common name": "Australische zebravink",
       "Power text": "als de speler rechts van je [seed] in zijn persoonlijke voorraad heeft, stop dan een [card] van de trekstapel onder deze vogel weg.",
       "Flavor text": null,
@@ -3254,7 +2983,6 @@
     },
     "273": {
       "English name": "Black Noddy",
-      "Scientific name": "Anous minutus",
       "Common name": "Witkapnoddy",
       "Power text": "werp alle dobbelstenen in het vogelhuisje en pak alle [fish], indien aanwezig. Je mag zoveel van deze [fish] afleggen als je wilt om hetzelfde aantal [card] van de trekstapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -3266,7 +2994,6 @@
     },
     "274": {
       "English name": "Black Swan",
-      "Scientific name": "Cygnus atratus",
       "Common name": "Zwarte Zwaan",
       "Power text": "keg 1 [egg] op elk van je vogels met een spanwijdte groter dan 100 cm, met inbegrip van deze vogel.",
       "Flavor text": null,
@@ -3278,7 +3005,6 @@
     },
     "275": {
       "English name": "Black-Shouldered Kite",
-      "Scientific name": "Elanus axillaris",
       "Common name": "Australische grijze wouw",
       "Power text": "werp alle dobbelstenen in het vogelhuisje en pak 1 [rodent], indien aanwezig. Je mag die aan een andere speler geven. Doe je dat, leg dan ten hoogste 3 [egg] op deze vogel.",
       "Flavor text": null,
@@ -3290,7 +3016,6 @@
     },
     "276": {
       "English name": "Blyth's Hornbill",
-      "Scientific name": "Rhyticeros plicatus",
       "Common name": "Papoea-jaarvogel",
       "Power text": "leg alle [egg] van 1 van je vogels met een [cavity]-nest af. Stop 2 keer zoveel [card] van de trekstapel onder deze vogel weg.",
       "Flavor text": null,
@@ -3302,7 +3027,6 @@
     },
     "277": {
       "English name": "Brolga",
-      "Scientific name": "Antigone rubicunda",
       "Common name": "Brolgakraanvogel",
       "Power text": "kies 1 andere speler. Die legt 1 [egg]; jij trekt 2 [card].",
       "Flavor text": null,
@@ -3314,7 +3038,6 @@
     },
     "278": {
       "English name": "Brown Falcon",
-      "Scientific name": "Falco berigora",
       "Common name": "Grote bruine valk",
       "Power text": "bekijk een [card] van de trekstapel. Bevatten de voedselkosten een [invertebrate] of een [rodent], stop deze kaart dan onder deze vogel weg. Zo niet, leg de kaart dan af.",
       "Flavor text": null,
@@ -3326,7 +3049,6 @@
     },
     "279": {
       "English name": "Budgerigar",
-      "Scientific name": "Melopsittacus undulatus",
       "Common name": "Grasparkiet",
       "Power text": "stop de kleinste vogel uit de vogelhouder onder deze vogel weg.",
       "Flavor text": null,
@@ -3338,7 +3060,6 @@
     },
     "280": {
       "English name": "Cockatiel",
-      "Scientific name": "Nymphicus hollandicus",
       "Common name": "Valkparkiet",
       "Power text": "leg 1 [seed] af om een [card] uit de vogelhouder te kiezen en onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -3350,7 +3071,6 @@
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
-      "Scientific name": "Paradisaea raggiana",
       "Common name": "Raggi's paradijsvogel",
       "Power text": "kies 1 andere speler. Jullie pakken beiden 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -3362,7 +3082,6 @@
     },
     "282": {
       "English name": "Crested Pigeon",
-      "Scientific name": "Ocyphaps lophotes",
       "Common name": "Spitskuifduif",
       "Power text": "bewaar ten hoogste 8 [seed] uit je persoonlijke voorraad op deze vogel.",
       "Flavor text": null,
@@ -3374,7 +3093,6 @@
     },
     "283": {
       "English name": "Crimson Chat",
-      "Scientific name": "Epthianura tricolor",
       "Common name": "Scharlaken schijnpaapje",
       "Power text": "leg 1 [wild] after om 1 [card] van de trekstapel onder deze vogel weg te stoppen.",
       "Flavor text": null,
@@ -3386,7 +3104,6 @@
     },
     "284": {
       "English name": "Eastern Rosella",
-      "Scientific name": "Platycercus eximius",
       "Common name": "Prachtrosella",
       "Power text": "alle spelers pakken 1 [nectar] uit de voorraad. Jij pakt ook 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -3398,7 +3115,6 @@
     },
     "285": {
       "English name": "Eastern Whipbird",
-      "Scientific name": "Psophodes olivaceus",
       "Common name": "Zwartkopzwiepfluiter",
       "Power text": "kies 1 andere speler. Jullie pakken beiden 1 [seed] uit de voorraad.",
       "Flavor text": null,
@@ -3410,7 +3126,6 @@
     },
     "286": {
       "English name": "Emu",
-      "Scientific name": "Dromaius novaehollandiae",
       "Common name": "Emoe",
       "Power text": "pak alle [seed] die zich in het vogelhuisje bevinden. Hou de helft (naar boven afgerond) en kies dan hoe je de rest onder de andere spelers verdeelt.",
       "Flavor text": null,
@@ -3422,7 +3137,6 @@
     },
     "287": {
       "English name": "Galah",
-      "Scientific name": "Eolophus roseicapilla",
       "Common name": "Roze kaketoe",
       "Power text": "kies 1 andere speler. Die werpt alle dobbelstenen in het vogelhuisje en pakt een [seed], indien aanwezig. Jij stopt 2 [card] van de trekstapel onder deze vogel weg.",
       "Flavor text": null,
@@ -3434,7 +3148,6 @@
     },
     "288": {
       "English name": "Golden-Headed Cisticola",
-      "Scientific name": "Cisticola exilis",
       "Common name": "Goudkopgraszanger",
       "Power text": "speel nog een vogel in je [grassland]. Betaal de normale kosten met 1 [egg] korting.",
       "Flavor text": null,
@@ -3446,7 +3159,6 @@
     },
     "289": {
       "English name": "Gould's Finch",
-      "Scientific name": "Erythrura gouldiae",
       "Common name": "Gouldamadine",
       "Power text": "speel een vogel. Betaal de normale voedsel- en eikosten. Heeft de vogel een \"als gespeeld\"- of \"einde spel\"-eigenschap, dan mag je die gebruiken.",
       "Flavor text": null,
@@ -3458,7 +3170,6 @@
     },
     "290": {
       "English name": "Green Pygmy-Goose",
-      "Scientific name": "Nettapus pulchellus",
       "Common name": "Groene dwergeend",
       "Power text": "trek 2 [card] van de trekstapel. Hou er 1 en geef de andere aan een andere speler.",
       "Flavor text": null,
@@ -3470,7 +3181,6 @@
     },
     "291": {
       "English name": "Grey Butcherbird",
-      "Scientific name": "Cracticus torquatus",
       "Common name": "Grijsrugorgelvogel",
       "Power text": "bekijk een [card] van de trekstapel. Is de spanwijdte kleiner dan 40 cm, stop de kaart dan onder deze vogel weg en bewaar 1 [rodent] uit de voorraad op deze vogel. Zo niet, leg de kaart dan af.",
       "Flavor text": null,
@@ -3482,7 +3192,6 @@
     },
     "292": {
       "English name": "Grey Shrikethrush",
-      "Scientific name": "Colluricincla harmonica",
       "Common name": "Grijze lijsterdikkop",
       "Power text": "werp alle dobbelstenen in het vogelhuisje en pak alle [rodent], indien aanwezig. Je mag er daarvan zoveel op deze vogel bewaren als je wilt.",
       "Flavor text": null,
@@ -3494,7 +3203,6 @@
     },
     "293": {
       "English name": "Grey Teal",
-      "Scientific name": "Anas gracilis",
       "Common name": "Australische taling",
       "Power text": "bekijk 3 [card] van de trekstapel. Hou 1 [wetland]-vogel, indien aanwezig. Je mag deze aan je hand toevoegen of onder deze vogel wegstoppen. Leg de andere kaarten af.",
       "Flavor text": null,
@@ -3506,7 +3214,6 @@
     },
     "294": {
       "English name": "Grey Warbler",
-      "Scientific name": "Gerygone igata",
       "Common name": "Maorimangrovezanger",
       "Power text": "speel nog een vogel in je [forest]. Betaal de normale kosten met 1 [egg] korting.",
       "Flavor text": null,
@@ -3518,7 +3225,6 @@
     },
     "295": {
       "English name": "Grey-Headed Mannikin",
-      "Scientific name": "Lonchura caniceps",
       "Common name": "Grijskopnon",
       "Power text": "speel een vogel. Betaal de normale kosten met 1 [egg] korting. Heeft de vogel een \"als gespeeld\"- of \"einde spel\"-eigenschap, dan mag je die gebruiken.",
       "Flavor text": null,
@@ -3530,7 +3236,6 @@
     },
     "296": {
       "English name": "Horsfield's Bronze-Cuckoo",
-      "Scientific name": "Chrysococcyx basalis",
       "Common name": "Horsfields bronskoekoek",
       "Power text": "als een andere speler de actie \"leg eieren\" uitvoert, leg dan 1 [egg] op een vogel met spanwijdte kleiner dan 30 cm.",
       "Flavor text": null,
@@ -3542,7 +3247,6 @@
     },
     "297": {
       "English name": "Horsfield's Bushlark",
-      "Scientific name": "Mirafra javanica",
       "Common name": "Oosterse struikleeuwerik",
       "Power text": "leg 1 [seed] af. Doe je dat, leg dan ten hoogste 2 [egg] op deze vogel.",
       "Flavor text": null,
@@ -3554,7 +3258,6 @@
     },
     "298": {
       "English name": "K\u0101k\u0101p\u014d",
-      "Scientific name": "Strigops habroptila",
       "Common name": "Kakapo",
       "Power text": "trek 4 bonuskaarten. Hou er 1 en leg de andere 3 af.",
       "Flavor text": null,
@@ -3566,7 +3269,6 @@
     },
     "299": {
       "English name": "Kea",
-      "Scientific name": "Nestor notabilis",
       "Common name": "Kea",
       "Power text": "trek 1 bonuskaart. Je mag zoveel [wild] afleggen als je wilt om hetzelfde aantal extra bonuskaarten te trekken. Hou 1 van de getrokken kaarten en leg de rest af.",
       "Flavor text": null,
@@ -3578,7 +3280,6 @@
     },
     "300": {
       "English name": "Kelp Gull",
-      "Scientific name": "Larus dominicanus",
       "Common name": "Kelpmeeuw",
       "Power text": "leg zoveel [wild] als je wilt af om hetzelfde aantal [card] te trekken.",
       "Flavor text": null,
@@ -3590,7 +3291,6 @@
     },
     "301": {
       "English name": "Kerer\u016b",
-      "Scientific name": "Hemiphaga novaeseelandiae",
       "Common name": "Nieuw-Zeelandse vruchtenduif",
       "Power text": "als de speler links van je een [nectar] in zijn persoonlijke voorraad heeft, pak je 1 [nectar] uit de algemene voorraad.",
       "Flavor text": null,
@@ -3602,7 +3302,6 @@
     },
     "302": {
       "English name": "Korimako",
-      "Scientific name": "Anthornis melanura",
       "Common name": "Maori-belhoningvogel",
       "Power text": "leg zoveel [rodent] als je wilt af om hetzelfde aantal [nectar] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -3614,7 +3313,6 @@
     },
     "303": {
       "English name": "Laughing Kookaburra",
-      "Scientific name": "Dacelo novaeguineae",
       "Common name": "Kookaburra",
       "Power text": "werp alle dobbelstenen in het vogelhuisje. Doe je dat, pak dan 1 [invertebrate], [fish] of [rodent], indien aanwezig.",
       "Flavor text": null,
@@ -3626,7 +3324,6 @@
     },
     "304": {
       "English name": "Lesser Frigatebird",
-      "Scientific name": "Fregata ariel",
       "Common name": "Kleine fregatvogel",
       "Power text": "alle spelers mogen 1 [egg] van een [wetland]-vogel afleggen. Iedere speler die 1 [egg] aflegt, pak 1 [wild] uit de voorraad.",
       "Flavor text": null,
@@ -3638,7 +3335,6 @@
     },
     "305": {
       "English name": "Lewin's Honeyeater",
-      "Scientific name": "Meliphaga lewinii",
       "Common name": "Geeloorhoningeter",
       "Power text": "kies 1 andere speler. Jullie pakken beiden 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -3650,7 +3346,6 @@
     },
     "306": {
       "English name": "Little Penguin",
-      "Scientific name": "Eudyptula minor",
       "Common name": "Dwergpingu\u00efn",
       "Power text": "trek 5 [card] van de trekstapel en leg die af. Bewaar voor elke [fish] in de voedselkosten ervan 1 [fish] uit de voorraad op deze vogel.",
       "Flavor text": null,
@@ -3662,7 +3357,6 @@
     },
     "307": {
       "English name": "Little Pied Cormorant",
-      "Scientific name": "Microcarbo melanoleucos",
       "Common name": "Kleine bonte aalscholver",
       "Power text": "leg 1 [egg] op elk van je vogels met een [platform]-nest, met inbegrip van deze.",
       "Flavor text": null,
@@ -3674,7 +3368,6 @@
     },
     "308": {
       "English name": "Magpie-Lark",
-      "Scientific name": "Grallina cyanoleuca",
       "Common name": "Australische slijkekster",
       "Power text": "leg 2 [egg] van je [forest] af. Doe je dat, speel dan 1 vogel in je [grassland] tegen de normale voedselkosten (negeer de eikosten). Heeft de vogel een \"als gespeeld\"- of \"einde spel\"-eigenschap, dan mag je die gebruiken.",
       "Flavor text": null,
@@ -3686,7 +3379,6 @@
     },
     "309": {
       "English name": "Major Mitchell's Cockatoo",
-      "Scientific name": "Lophochroa leadbeateri",
       "Common name": "Inka-kaketoe",
       "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, dan pakken alle spelers 1 [seed] iot de voorraad.",
       "Flavor text": null,
@@ -3698,7 +3390,6 @@
     },
     "310": {
       "English name": "Malleefowl",
-      "Scientific name": "Leipoa ocellata",
       "Common name": "Thermometervogel",
       "Power text": "leg 1 [egg] op elk van je vogels met een [ground]-nest, met inbegrip van deze.",
       "Flavor text": null,
@@ -3710,7 +3401,6 @@
     },
     "311": {
       "English name": "Maned Duck",
-      "Scientific name": "Chenonetta jubata",
       "Common name": "Manengans",
       "Power text": "stop ten hoogste 3 [card] uit je hand onder deze vogel weg. Trek 1 [card] voor elke kaart die je hebt weggestopt.",
       "Flavor text": null,
@@ -3722,7 +3412,6 @@
     },
     "312": {
       "English name": "Many-Colored Fruit-Dove",
-      "Scientific name": "Ptilinopus perousii",
       "Common name": "Regenboogjufferduif",
       "Power text": "alle spelers pakken 1 [fruit] uit de voorraad. Jij pakt 1 extra [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -3734,7 +3423,6 @@
     },
     "313": {
       "English name": "Masked Lapwing",
-      "Scientific name": "Vanellus miles",
       "Common name": "Maskerkievit",
       "Power text": "werp alle dobbelstenen in het vogelhuisje. Doe je dat, pak dan 1 [invertebrate], [fish] of [rodent], indien aanwezig.",
       "Flavor text": null,
@@ -3746,7 +3434,6 @@
     },
     "314": {
       "English name": "Mistletoebird",
-      "Scientific name": "Dicaeum hirundinaceum",
       "Common name": "Roodstuithoningvogel",
       "Power text": "pak 1 [fruit] uit de voorraad of leg 1 [fruit] af om 1 [nectar] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -3758,7 +3445,6 @@
     },
     "315": {
       "English name": "Musk Duck",
-      "Scientific name": "Biziura lobata",
       "Common name": "Australische muskuseend",
       "Power text": "trek 1 open [card] met een [ground]- of [star]-nest uit de vogelhouder. Je mag de vogelhouder daarvoor opnieuw samenstellen of aanvullen.",
       "Flavor text": null,
@@ -3770,7 +3456,6 @@
     },
     "316": {
       "English name": "New Holland Honeyeater",
-      "Scientific name": "Phylidonyris novaehollandiae",
       "Common name": "Witooghoningeter",
       "Power text": "pak 1 [nectar] uit het vogelhuisje, indien aanwezig.",
       "Flavor text": null,
@@ -3782,7 +3467,6 @@
     },
     "317": {
       "English name": "Noisy Miner",
-      "Scientific name": "Manorina melanocephala",
       "Common name": "Tuinhoningeter",
       "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, leg dan ten hoogste 2 [egg] op deze vogel. Alle andere spelers mogen 1 [egg] leggen.",
       "Flavor text": null,
@@ -3794,7 +3478,6 @@
     },
     "318": {
       "English name": "North Island Brown Kiwi",
-      "Scientific name": "Apteryx mantelli",
       "Common name": "Noordereilandkiwi",
       "Power text": "leg een bonuskaart af. Doe je dat, trek dan 4 bonuskaarten, hou er 2 en leg de andere 2 af.",
       "Flavor text": null,
@@ -3806,7 +3489,6 @@
     },
     "319": {
       "English name": "Orange-Footed Scrubfowl",
-      "Scientific name": "Megapodius reinwardt",
       "Common name": "Rood boshoen",
       "Power text": "leg 1 [egg] op elk van je vogels met een [ground]-nest, met inbegrip van deze.",
       "Flavor text": null,
@@ -3818,7 +3500,6 @@
     },
     "320": {
       "English name": "Pacific Black Duck",
-      "Scientific name": "Anas superciliosa",
       "Common name": "Wenkbrauweend",
       "Power text": "leg voor elke 2 [egg] in je [wetland] 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -3830,7 +3511,6 @@
     },
     "321": {
       "English name": "Peaceful Dove",
-      "Scientific name": "Geopelia placida",
       "Common name": "Goulds zebraduif",
       "Power text": "leg zoveel [seed] af als je wilt. Leg 1 [egg] op deze vogel voor elk afgelegd [seed].",
       "Flavor text": null,
@@ -3842,7 +3522,6 @@
     },
     "322": {
       "English name": "Pesquet's Parrot",
-      "Scientific name": "Psittrichas fulgidus",
       "Common name": "Borstelkoppapegaai",
       "Power text": "als de speler rechts van je een [nectar] in zijn persoonlijke voorraad heeft, pak je 1 [nectar] uit de algemene voorraad.",
       "Flavor text": null,
@@ -3854,7 +3533,6 @@
     },
     "323": {
       "English name": "Pheasant Coucal",
-      "Scientific name": "Centropus phasianinus",
       "Common name": "Fazantspoorkoekoek",
       "Power text": "als een andere speler de actie \"leg eieren\" uitvoert, leg je 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -3866,7 +3544,6 @@
     },
     "324": {
       "English name": "Pink-Eared Duck",
-      "Scientific name": "Malacorhynchus membranaceus",
       "Common name": "Lepelbekeend",
       "Power text": "trek 2 [card] van de trekstapel. Hou er 1 en geef de andere aan een andere speler.",
       "Flavor text": null,
@@ -3878,7 +3555,6 @@
     },
     "325": {
       "English name": "Plains-Wanderer",
-      "Scientific name": "Pedionomus torquatus",
       "Common name": "Trapvechtkwartel",
       "Power text": "trek 1 bonuskaart voor elke vogel in je [grassland]. Hou er 1 en leg de rest af.",
       "Flavor text": null,
@@ -3890,7 +3566,6 @@
     },
     "326": {
       "English name": "Princess Stephanie's Astrapia",
-      "Scientific name": "Astrapia stephaniae",
       "Common name": "Stephanie-astrapia",
       "Power text": "kies 1 andere speler. Jullie leggen beiden 1 [egg].",
       "Flavor text": null,
@@ -3902,7 +3577,6 @@
     },
     "327": {
       "English name": "P\u016bkeko",
-      "Scientific name": "Porphyrio melanotus",
       "Common name": "Australische purperkoet",
       "Power text": "leg 1 [egg] op een aangrenzende vogel.",
       "Flavor text": null,
@@ -3914,7 +3588,6 @@
     },
     "328": {
       "English name": "Rainbow Lorikeet",
-      "Scientific name": "Trichoglossus moluccanus",
       "Common name": "Lori van de Blauwe Bergen",
       "Power text": "leg 1 [nectar] op het \"bestede nectar\"-veld voor je [forest]. Doe je dat, pak dan 2 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -3926,7 +3599,6 @@
     },
     "329": {
       "English name": "Red Wattlebird",
-      "Scientific name": "Anthochaera carunculata",
       "Common name": "Roodlelhoningeter",
       "Power text": "pak 1 [nectar] uit de voorraad voor elke vogel in je [forest] met een spanwijdte kleiner dan 49 cm.",
       "Flavor text": null,
@@ -3938,7 +3610,6 @@
     },
     "330": {
       "English name": "Red-Backed Fairywren",
-      "Scientific name": "Malurus melanocephalus",
       "Common name": "Roodrugelfje",
       "Power text": "leg 1 [egg] op elk van je vogels met een [star]-nest, met inbegrip van deze.",
       "Flavor text": null,
@@ -3950,7 +3621,6 @@
     },
     "331": {
       "English name": "Red-Capped Robin",
-      "Scientific name": "Petroica goodenovii",
       "Common name": "Roodkapvliegenvanger",
       "Power text": "als de speler links van je een [invertebrate] in zijn persoonlijke voorraad heeft, pak je 1 [invertebrate] uit de algemene voorraad.",
       "Flavor text": null,
@@ -3962,7 +3632,6 @@
     },
     "332": {
       "English name": "Red-Necked Avocet",
-      "Scientific name": "Recurvirostra novaehollandiae",
       "Common name": "Australische kluut",
       "Power text": "als de speler links of rechts van je een [invertebrate] in zijn persoonlijke voorraad heeft, pak je 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -3974,7 +3643,6 @@
     },
     "333": {
       "English name": "Red-Winged Parrot",
-      "Scientific name": "Aprosmictus erythropterus",
       "Common name": "Roodvleugelparkiet",
       "Power text": "geef 1 [nectar] uit je voorraad aan een andere speler. Doe je dat, leg dan 2 [egg] op deze vogel of pak 2 [die] uit het vogelhuisje.",
       "Flavor text": null,
@@ -3986,7 +3654,6 @@
     },
     "334": {
       "English name": "Regent Bowerbird",
-      "Scientific name": "Sericulus chrysocephalus",
       "Common name": "Geelnekprieelvogel",
       "Power text": "kies 1 andere speler. Jullie pakken beiden 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -3998,7 +3665,6 @@
     },
     "335": {
       "English name": "Royal Spoonbill",
-      "Scientific name": "Platalea regia",
       "Common name": "Koningslepelaar",
       "Power text": "trek 1 open [card] met een [platform]- of [star]-nest uit de vogelhouder. Je mag de vogelhouder daarvoor opnieuw samenstellen of aanvullen.",
       "Flavor text": null,
@@ -4010,7 +3676,6 @@
     },
     "336": {
       "English name": "Rufous Night-Heron",
-      "Scientific name": "Nycticorax caledonicus",
       "Common name": "Rosse kwak",
       "Power text": "bekijk een [card] van de trekstapel. Kan die in [wetland] leven, stop de kaart dan onder deze vogel weg. Zo niet, leg de kaart dan af.",
       "Flavor text": null,
@@ -4022,7 +3687,6 @@
     },
     "337": {
       "English name": "Rufous Owl",
-      "Scientific name": "Ninox rufa",
       "Common name": "Rosse valkuil",
       "Power text": "trek 1 open [card] met een spanwijdte kleiner dan 75 cm uit de vogelhouder en stop die onder deze vogel weg.",
       "Flavor text": null,
@@ -4034,7 +3698,6 @@
     },
     "338": {
       "English name": "Rufous-Banded Honeyeater",
-      "Scientific name": "Conopophila albogularis",
       "Common name": "Roodborsthoningeter",
       "Power text": "leg 1 [invertebrate] af. Doe je dat, dan pak je 1 [nectar] uit de voorraad.",
       "Flavor text": null,
@@ -4046,7 +3709,6 @@
     },
     "339": {
       "English name": "Sacred Kingfisher",
-      "Scientific name": "Todiramphus sanctus",
       "Common name": "Heilige ijsvogel",
       "Power text": "als een andere speler de actie \"pak voedsel\" uitvoert, pak je aan het einde van zijn beurt 1 [invertebrate], [fish], of [rodent] uit het vogelhuisje, indien aanwezig.",
       "Flavor text": null,
@@ -4058,7 +3720,6 @@
     },
     "340": {
       "English name": "Silvereye",
-      "Scientific name": "Zosterops lateralis",
       "Common name": "Grijsrugbrilvogel",
       "Power text": "alle spelers pakken 1 [nectar] uit de voorraad.",
       "Flavor text": null,
@@ -4070,7 +3731,6 @@
     },
     "341": {
       "English name": "South Island Robin",
-      "Scientific name": "Petroica australis",
       "Common name": "Zuidereilandvliegenvanger",
       "Power text": "als de speler rechts van je een [invertebrate] in zijn persoonlijke voorraad heeft, bewaar je 1 [invertebrate] uit de algemene voorraad op deze vogel.",
       "Flavor text": null,
@@ -4082,7 +3742,6 @@
     },
     "342": {
       "English name": "Southern Cassowary",
-      "Scientific name": "Casuarius casuarius",
       "Common name": "Helmkasuaris",
       "Power text": "leg een vogel uit je [forest] af en eg deze vogel ervoor in de plaats (betaal geen eikosten). Doe je dat, leg dan 4 [egg] op deze vogel en pak 2 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -4094,7 +3753,6 @@
     },
     "343": {
       "English name": "Spangled Drongo",
-      "Scientific name": "Dicrurus bracteatus",
       "Common name": "Glansvlekdrongo",
       "Power text": "als een andere speler [nectar] pakt, pak jij 1 [nectar] uit de voorraad.",
       "Flavor text": null,
@@ -4106,7 +3764,6 @@
     },
     "344": {
       "English name": "Splendid Fairywren",
-      "Scientific name": "Malurus splendens",
       "Common name": "Prachtelfje",
       "Power text": "leg 1 [egg] op elk van je vogels met een spanwijdte kleiner dan 30 cm, met inbegrip van deze.",
       "Flavor text": null,
@@ -4118,7 +3775,6 @@
     },
     "345": {
       "English name": "Spotless Crake",
-      "Scientific name": "Zapornia tabuensis",
       "Common name": "Pacifisch porseleinhoen",
       "Power text": "leg 1 [egg] op elke vogel in je [wetland], met inbegrip van deze.",
       "Flavor text": null,
@@ -4130,7 +3786,6 @@
     },
     "346": {
       "English name": "Stubble Quail",
-      "Scientific name": "Coturnix pectoralis",
       "Common name": "Stoppelveldkwartel",
       "Power text": "leg ten hoogste 6 [wild] af. Leg 1 [egg] op deze vogel voor elk afgelegd voedsel.",
       "Flavor text": null,
@@ -4142,7 +3797,6 @@
     },
     "347": {
       "English name": "Sulphur-Crested Cockatoo",
-      "Scientific name": "Cacatua galerita",
       "Common name": "Grote geelkuifkaketoe",
       "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, dan pakken alle spelers 1 [nectar] uit de voorraad.",
       "Flavor text": null,
@@ -4154,7 +3808,6 @@
     },
     "348": {
       "English name": "Superb Lyrebird",
-      "Scientific name": "Menura novaehollandiae",
       "Common name": "Liervogel",
       "Power text": "kopieer een bruine eigenschap op een vogel in de [forest] van de speler rechts van je.",
       "Flavor text": null,
@@ -4166,7 +3819,6 @@
     },
     "349": {
       "English name": "Tawny Frogmouth",
-      "Scientific name": "Podargus strigoides",
       "Common name": "Uilnachtzwaluw",
       "Power text": "werp alle dobbelstenen in het vogelhuisje. Bewaar 1 [invertebrate] of [rodent] uit het vogelhuisje (indien aanwezig) op deze vogel.",
       "Flavor text": null,
@@ -4178,7 +3830,6 @@
     },
     "350": {
       "English name": "T\u016b\u012b",
-      "Scientific name": "Prosthemadera novaeseelandiae",
       "Common name": "Toei",
       "Power text": "kopieer een bruine eigenschap van een vogel in de [forest] van de speler links van je.",
       "Flavor text": null,
@@ -4190,7 +3841,6 @@
     },
     "351": {
       "English name": "Wedge-Tailed Eagle",
-      "Scientific name": "Aquila audax",
       "Common name": "Wigstaartarend",
       "Power text": "bekijk een [card] van de trekstapel. Is de spanwijdte groter dan 65 cm, stop deze dan onder deze vogel weg en bewaar er 1 [rodent] uit de voorraad op. Zo niet, leg de kaart dan af.",
       "Flavor text": null,
@@ -4202,7 +3852,6 @@
     },
     "352": {
       "English name": "Welcome Swallow",
-      "Scientific name": "Hirundo neoxena",
       "Common name": "Welkomzwaluw",
       "Power text": "stop onder elke vogel in deze leefomgeving 1 [card] van de trekstapel weg, met inbegrip van deze.",
       "Flavor text": null,
@@ -4214,7 +3863,6 @@
     },
     "353": {
       "English name": "White-Bellied Sea-Eagle",
-      "Scientific name": "Haliaeetus leucogaster",
       "Common name": "Witbuikzeearend",
       "Power text": "werp alle dobbelstenen in het vogelhuisje. Bewaar 1 [fish] of [rodent] uit het vogelhuisje (indien aanwezig) op deze vogel.",
       "Flavor text": null,
@@ -4226,7 +3874,6 @@
     },
     "354": {
       "English name": "White-Breasted Woodswallow",
-      "Scientific name": "Artamus leucoryn",
       "Common name": "Witborstspitsvogel",
       "Power text": "leg 1 [egg] op elke vogel in je [grassland], met inbegrip van deze.",
       "Flavor text": null,
@@ -4238,7 +3885,6 @@
     },
     "355": {
       "English name": "White-Faced Heron",
-      "Scientific name": "Egretta novaehollandiae",
       "Common name": "Witwangreiger",
       "Power text": "werp alle dobbelstenen in het vogelhuisje en pak alle [fish], indien aanwezig. Je mag er daarvan zoveel op deze vogel bewaren als je wilt.",
       "Flavor text": null,
@@ -4250,7 +3896,6 @@
     },
     "356": {
       "English name": "Willie-Wagtail",
-      "Scientific name": "Rhipidura leucophrys",
       "Common name": "Tuinwaaierstaart",
       "Power text": "trek 1 open [card] met een [bowl]- of [star]-nest uit de vogelhouder. Je mag de vogelhouder daarvoor opnieuw samenstellen of aanvullen.",
       "Flavor text": null,
@@ -4262,7 +3907,6 @@
     },
     "357": {
       "English name": "Wrybill",
-      "Scientific name": "Anarhynchus frontalis",
       "Common name": "Scheefsnavelplevier",
       "Power text": "bekijk alle afgelegde bonuskaarten. Hou er 1 van.",
       "Flavor text": null,
@@ -4274,7 +3918,6 @@
     },
     "358": {
       "English name": "Asian Emerald Dove",
-      "Scientific name": "Chalcophaps indica",
       "Common name": "Smaragdduif",
       "Power text": "leg 2 [egg] op elke andere vogel in deze kolom.",
       "Flavor text": null,
@@ -4286,7 +3929,6 @@
     },
     "359": {
       "English name": "Asian Koel",
-      "Scientific name": "Eudynamys scolopaceus",
       "Common name": "Indische ko\u00ebl",
       "Power text": "als een andere speler de \"leg eieren\"-actie uitvoert, legt deze vogel 1 [egg] op een andere vogel met een [platform]-nest. Je mag bij gebruik van deze eigenschap de eilimiet van die vgoel met ten hoogste 3 overschrijden.",
       "Flavor text": null,
@@ -4298,7 +3940,6 @@
     },
     "360": {
       "English name": "Azure Tit",
-      "Scientific name": "Cyanistes cyanus",
       "Common name": "Azuurmees",
       "Power text": "pak 1 [invertebrate], [seed] of [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -4310,7 +3951,6 @@
     },
     "361": {
       "English name": "Baya Weaver",
-      "Scientific name": "Ploceus philippinus",
       "Common name": "Bayawever",
       "Power text": "stop ten hoogste 3 [card] uit je hand onder deze vogel weg. Stop je ten minste 1 [card] weg, leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4322,7 +3962,6 @@
     },
     "362": {
       "English name": "Bearded Reedling",
-      "Scientific name": "Panurus biarmicus",
       "Common name": "Baardmannetje",
       "Power text": "leg 1 [egg] op deze vogel voor elke andere vogel in deze kolom met een ei erop.",
       "Flavor text": null,
@@ -4334,7 +3973,6 @@
     },
     "363": {
       "English name": "Black Drongo",
-      "Scientific name": "Dicrurus macrocercus",
       "Common name": "Koningsdrongo",
       "Power text": "leg een aantal [card] naar keuze uit de vogelhouder af en vul deze aan. Is ten minste 1 van de afgelegde vogels een [grassland]-vogel, leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4346,7 +3984,6 @@
     },
     "364": {
       "English name": "Black Stork",
-      "Scientific name": "Ciconia nigra",
       "Common name": "Zwarte ooievaar",
       "Power text": "leg 1 [egg] op elk van je vogels die direct links en rechts aan deze vogel grenzen.",
       "Flavor text": null,
@@ -4358,7 +3995,6 @@
     },
     "365": {
       "English name": "Black-Naped Oriole",
-      "Scientific name": "Oriolus chinensis",
       "Common name": "Chinese wielewaal",
       "Power text": "heb je deze ronde alle 4 actiesoorten gebruikt, pak dan 1 [wild] uit de voorraad, leg 1 [egg] op een vogel naar keuze en trek 1 [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -4370,7 +4006,6 @@
     },
     "366": {
       "English name": "Blue Rock-Thrush",
-      "Scientific name": "Monticola solitarius",
       "Common name": "Blauwe Rotslijster",
       "Power text": "als er rechts van deze vogel geen vogels liggen, mag je hem (alleen de kaart) naar het spelertableau van de speler links van je verplaatsen (jij kiest de leefomgeving). Doe je dat, trek dan 3 [card].",
       "Flavor text": null,
@@ -4382,7 +4017,6 @@
     },
     "367": {
       "English name": "Brahminy Kite",
-      "Scientific name": "Haliastur indus",
       "Common name": "Brahmaanse wouw",
       "Power text": "kies 3 [die]. Werp die ten hoogste driemaal. Elke keer dat je ten minste 1 [fish] of [rodent] werpt, bewaar je er hier 1. Zo niet, stop dan en geef al het deze beurt hier bewaarde voedsel terug.",
       "Flavor text": null,
@@ -4394,7 +4028,6 @@
     },
     "368": {
       "English name": "Brambling",
-      "Scientific name": "Fringilla montifringilla",
       "Common name": "Keep",
       "Power text": "trek 2 [card] van de gedekte stapel en neem die in je hand. Stop dan ten hoogste 2 [card] uit je hand onder deze vogel ieg.",
       "Flavor text": null,
@@ -4406,7 +4039,6 @@
     },
     "369": {
       "English name": "Brown Shrike",
-      "Scientific name": "Lanius cristatus",
       "Common name": "Bruine klauwier",
       "Power text": "alle spelers mogen 1 [invertebrate] uit hun persoonlijke voorraad op een vogel in hun [grassland] bewaren.",
       "Flavor text": null,
@@ -4418,7 +4050,6 @@
     },
     "370": {
       "English name": "Common Green Magpie",
-      "Scientific name": "Cissa chinensis",
       "Common name": "Groene kitta",
       "Power text": "pak 1 [invertebrate] of [rodent] uit het vogelhuisje, indien aanwezig. Je mag die op deze vogel bewaren.",
       "Flavor text": null,
@@ -4430,7 +4061,6 @@
     },
     "371": {
       "English name": "Common Iora",
-      "Scientific name": "Aegithina tiphia",
       "Common name": "Gewone iora",
       "Power text": "leg 1 [egg] op een andere vogel in deze kolom.",
       "Flavor text": null,
@@ -4442,7 +4072,6 @@
     },
     "372": {
       "English name": "Common Myna",
-      "Scientific name": "Acridotheres tristis",
       "Common name": "Treurmaina",
       "Power text": "imiteer de \"ALS GEACTIVEERD\"- eigenschap (bruin) van een vogel in de [grassland] van de speler links van je.",
       "Flavor text": null,
@@ -4454,7 +4083,6 @@
     },
     "373": {
       "English name": "Common Sandpiper",
-      "Scientific name": "Actitis hypoleucos",
       "Common name": "Oeverloper",
       "Power text": "trek 1 [card] voor elke vogel in je [wetland] met een [egg] erop. Houd er 1 en leg de rest af.",
       "Flavor text": null,
@@ -4466,7 +4094,6 @@
     },
     "374": {
       "English name": "Common Tailorbird",
-      "Scientific name": "Orthotomus sutorius",
       "Common name": "Langstaartsnijdervogel",
       "Power text": "zoek een aaneengesloten groep vogels op je tableau met dezelfde nestsoort. Leg op elk van die vogels 1 [egg]. [star]-nesten gelden als nesten naar keuze.",
       "Flavor text": null,
@@ -4478,7 +4105,6 @@
     },
     "375": {
       "English name": "Common Teal",
-      "Scientific name": "Anas crecca",
       "Common name": "Wintertaling",
       "Power text": "trek voor elke 3 [egg] in je [wetland] 1 [card] van de gedekte stapel. Je mag ten hoogste 2 [card] uit je hand onder deze vogel wegstoppen.",
       "Flavor text": null,
@@ -4490,7 +4116,6 @@
     },
     "376": {
       "English name": "Coppersmith Barbet",
-      "Scientific name": "Psilopogon haemacephalus",
       "Common name": "Kopersmid",
       "Power text": "pak 1 [invertebrate] of [fruit] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -4502,7 +4127,6 @@
     },
     "377": {
       "English name": "Crested Ibis",
-      "Scientific name": "Nipponia nippon",
       "Common name": "Japanse ibis",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1. Andere spelers mogen 2 middelen naar keuze ([wild], [egg] of [card]) afleggen om hetzelfde te doen.",
       "Flavor text": null,
@@ -4514,7 +4138,6 @@
     },
     "378": {
       "English name": "Crested Lark",
-      "Scientific name": "Galerida cristata",
       "Common name": "Kuifleeuwerik",
       "Power text": "leg 1 [seed] after. Doe je dat, leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4526,7 +4149,6 @@
     },
     "379": {
       "English name": "Desert Finch",
-      "Scientific name": "Rhodospiza obsoleta",
       "Common name": "Vale woestijnvink",
       "Power text": "leg voor elke andere vogel in je [grassland] 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4538,7 +4160,6 @@
     },
     "380": {
       "English name": "Desert Wheatear",
-      "Scientific name": "Oenanthe deserti",
       "Common name": "Woestijntapuit",
       "Power text": "werp 1 [die] naar keuze voor elke vogel in je [grassland] met een [egg] erop. Kies 1 soort voedsel dat je hebt geworpen en pak er daarvan 1 uit de voorraad.",
       "Flavor text": null,
@@ -4550,7 +4171,6 @@
     },
     "381": {
       "English name": "Eurasian Coot",
-      "Scientific name": "Fulica atra",
       "Common name": "Meerkoet",
       "Power text": "stop ten hoogste 3 [card] uit je hand onder deze vogel weg. Trek 1 [card] voor elke kaart die je hebt weggestopt.",
       "Flavor text": null,
@@ -4562,7 +4182,6 @@
     },
     "382": {
       "English name": "Eurasian Eagle-Owl",
-      "Scientific name": "Bubo bubo",
       "Common name": "Oehoe",
       "Power text": "trek ten hoogste 3 keer 1 [card] van de gedekte stapel. Als je stapt en de totale vleugelwijdte van de getrokken vogels is kleiner dan 110 cm, stop deze dan onder deze vogel weg. Zo niet, leg ze dan af.",
       "Flavor text": null,
@@ -4574,7 +4193,6 @@
     },
     "383": {
       "English name": "Eurasian Hoopoe",
-      "Scientific name": "Upupa epops",
       "Common name": "Hop",
       "Power text": "steel 1 [invertebrate] van elk van je buren. Elke buurman van wie een [invertebrate] werd gestolen mag 1 [wild] uit de voorraad pakken.",
       "Flavor text": null,
@@ -4586,7 +4204,6 @@
     },
     "384": {
       "English name": "Eurasian Kestrel",
-      "Scientific name": "Falco tinnunculus",
       "Common name": "Torenvalk",
       "Power text": "werp 3 [die] naar keuze. Werp je ten minste 1 [rodent], bewaar dan 1 [rodent] uit de voorraad op deze vogel.",
       "Flavor text": null,
@@ -4598,7 +4215,6 @@
     },
     "385": {
       "English name": "Eurasian Marsh-Harrier",
-      "Scientific name": "Circus aeruginosus",
       "Common name": "Bruine kiekendief",
       "Power text": "trek ten hoogste 3 keer 1 [card] van de gedekte stapel. Als je stopt en de totale vleugelwijdte van de getrokken vogels is kleiner dan 110 cm, stop deze dan onder deze vogel weg. Zo niet, leg ze dan af.",
       "Flavor text": null,
@@ -4610,7 +4226,6 @@
     },
     "386": {
       "English name": "Eurasian Treecreeper",
-      "Scientific name": "Certhia familiaris",
       "Common name": "Taigaboomkruiper",
       "Power text": "pak voor elke 3 [egg] in je [forest] 1 [invertebrate] of 1 [seed] uit de voorraad. Je mag er ten hoogste 2 van op deze vogel bewaren.",
       "Flavor text": null,
@@ -4622,7 +4237,6 @@
     },
     "387": {
       "English name": "Fire-Fronted Serin",
-      "Scientific name": "Serinus pusillus",
       "Common name": "Roodvoorhoofdkanarie",
       "Power text": "leg voor elke vogel die links van deze vogel in deze rij ligt 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4634,7 +4248,6 @@
     },
     "388": {
       "English name": "Forest Owlet",
-      "Scientific name": "Athene blewitti",
       "Common name": "Bossteenuil",
       "Power text": "kies 2 [die]. Werp die ten hoogste driemaal. Elke keer dat je ten minste 1 [invertebrate] of [rodent] werpt, bewaar je er hier 1. Zo niet, stop dan en geef al het deze beurt hier bewaarde voedsel terug.",
       "Flavor text": null,
@@ -4646,7 +4259,6 @@
     },
     "389": {
       "English name": "Golden Pheasant",
-      "Scientific name": "Chrysolophus pictus",
       "Common name": "Goudfazant",
       "Power text": "alle spelers leggen 2 [egg]. Jij legt 2 extra [egg].",
       "Flavor text": null,
@@ -4658,7 +4270,6 @@
     },
     "390": {
       "English name": "Graceful Prinia",
-      "Scientific name": "Prinia gracilis",
       "Common name": "Westelijke gestreepte prinia",
       "Power text": "leg 1 [egg] af. Doe je dat, dan pak je 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -4670,7 +4281,6 @@
     },
     "391": {
       "English name": "Grandala",
-      "Scientific name": "Grandala coelicolor",
       "Common name": "Grandala",
       "Power text": "heb je deze beurt een [egg] op deze vogel gelegd, stop dan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -4682,7 +4292,6 @@
     },
     "392": {
       "English name": "Gray Wagtail",
-      "Scientific name": "Motacilla cinerea",
       "Common name": "Grote gele kwikstaart",
       "Power text": "heb je deze ronde alle 4 actiesoorten gebruikt, pak dan 2 [wild] uit de voorraad.",
       "Flavor text": null,
@@ -4694,7 +4303,6 @@
     },
     "393": {
       "English name": "Great Cormorant",
-      "Scientific name": "Phalacrocorax carbo",
       "Common name": "Aalscholver",
       "Power text": "je mag 1 [fish] van deze vogel naar je voorraad verplaatsen. Werp dan 2 [die] naar keuze. Werp je ten minste 1 [fish], bewaar dan 1 [fish] uit de voorraad op deze vogel.",
       "Flavor text": null,
@@ -4706,7 +4314,6 @@
     },
     "394": {
       "English name": "Great Hornbill",
-      "Scientific name": "Buceros bicornis",
       "Common name": "Dubbelhoornige neushoornvogel",
       "Power text": "alle spelers mogen een [card] uit hun hand onder een vogel in hun [forest] wegstoppen en/of 1 [fruit] uit hun voorraad op een vogel in hun [forest] bewaren.",
       "Flavor text": null,
@@ -4718,7 +4325,6 @@
     },
     "395": {
       "English name": "Great Indian Bustard",
-      "Scientific name": "Ardeotis nigriceps",
       "Common name": "Indische trap",
       "Power text": "scoor 1 van je bonuskaarten nu door voor elk punt 1 [seed] uit de voorraad op deze vogel te bewaren. Scoor de bonuskaart ook zoals gebruikelijk aa het einde van het spel.",
       "Flavor text": null,
@@ -4730,7 +4336,6 @@
     },
     "396": {
       "English name": "Great Spotted Woodpecker",
-      "Scientific name": "Dendrocopos major",
       "Common name": "Grote bonte specht",
       "Power text": "pak 1 [invertebrate] of 1 [seed] uit het vogelhuisje, indien beschikbaar.",
       "Flavor text": null,
@@ -4742,7 +4347,6 @@
     },
     "397": {
       "English name": "Greater Adjutant",
-      "Scientific name": "Leptoptilos dubius",
       "Common name": "Indische maraboe",
       "Power text": "imiteer 1 bonuskaart van de speler links van je alsof het je eigen kaart zou zijn (scoor deze op basis van je eigen vogels).",
       "Flavor text": null,
@@ -4754,7 +4358,6 @@
     },
     "398": {
       "English name": "Green Bee-Eater",
-      "Scientific name": "Merops orientalis",
       "Common name": "Aziatische kleine groene bijeneter",
       "Power text": "is er ten minste 1 vogel in de vogelhouder met [invertebrate] in zijn voedselkosten, stop dan 1 ervan onder deze vogel weg.",
       "Flavor text": null,
@@ -4766,7 +4369,6 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": "Groene fazant",
       "Power text": "alle spelers leggen 1 [egg].",
       "Flavor text": null,
@@ -4778,7 +4380,6 @@
     },
     "400": {
       "English name": "Himalayan Monal",
-      "Scientific name": "Lophophorus impejanus",
       "Common name": "Himalayaglansfazant",
       "Power text": "alle spelers pakken 1 [seed] uit de voorraad. Jij legt daarnaast ook 1 [egg].",
       "Flavor text": null,
@@ -4790,7 +4391,6 @@
     },
     "401": {
       "English name": "House Crow",
-      "Scientific name": "Corvus splendens",
       "Common name": "Huiskraai",
       "Power text": "je mag op elke vogel in deze rij 1 [wild] uit je voorraad bewaren.",
       "Flavor text": null,
@@ -4802,7 +4402,6 @@
     },
     "402": {
       "English name": "Ibisbill",
-      "Scientific name": "Ibidorhyncha struthersii",
       "Common name": "Ibissnavel",
       "Power text": "alle spelers trekken 1 [card] van de gedekte stapel en pakken 1 [invertebrate] uit de voorraad. Jij trekt 1 extra [card] van de gedekte stapel.",
       "Flavor text": null,
@@ -4814,7 +4413,6 @@
     },
     "403": {
       "English name": "Indian Peafowl",
-      "Scientific name": "Pavo cristatus",
       "Common name": "Blauwe pauw",
       "Power text": "alle spelers trekken 2 [card] van de gedekte stapel. Jij trekt 1 extra [card].",
       "Flavor text": null,
@@ -4826,7 +4424,6 @@
     },
     "404": {
       "English name": "Indian Vulture",
-      "Scientific name": "Gyps indicus",
       "Common name": "Indische gier",
       "Power text": "imiteer 1 bonuskaart van de speler rechts van je alsof het je eigen kaart zou zijn (scoor deze op basis van je eigen vogels).",
       "Flavor text": null,
@@ -4838,7 +4435,6 @@
     },
     "405": {
       "English name": "Large-Billed Crow",
-      "Scientific name": "Corvus macrorhynchos",
       "Common name": "Dikbekkraai",
       "Power text": "bewaar 1 [wild] uit je voorraad op een vogel naar keuze. Doe je dat, dan mag je 1 [card] uit je hand onder deze vogel wegstoppen.",
       "Flavor text": null,
@@ -4850,7 +4446,6 @@
     },
     "406": {
       "English name": "Little Egret",
-      "Scientific name": "Egretta garzetta",
       "Common name": "Kleine zilverreiger",
       "Power text": "trek 1 [card] van de gedekte stapel en neem die in je hand. Alle andere spelers trekken 1 [card] van de gedekte stapel en houden deze als de vogel in [wetland] kan leven.",
       "Flavor text": null,
@@ -4862,7 +4457,6 @@
     },
     "407": {
       "English name": "Little Grebe",
-      "Scientific name": "Tachybaptus ruficollis",
       "Common name": "Dodaars",
       "Power text": "trek 1 [card] voor elke vogel in deze kolom met een [egg] erop. Houd er 1 en leg de rest af.",
       "Flavor text": null,
@@ -4874,7 +4468,6 @@
     },
     "408": {
       "English name": "Little Ringed Plover",
-      "Scientific name": "Charadrius dubius",
       "Common name": "Kleine plevier",
       "Power text": "leg 1 [card] uit je hand af. Doe je dat, dan leg je 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4886,7 +4479,6 @@
     },
     "409": {
       "English name": "Mandarin Duck",
-      "Scientific name": "Aix galericulata",
       "Common name": "Mandarijneend",
       "Power text": "trek 5 [card] van de gedekte stapel. Neem er 1 van in je hand, stop er 1 van onder deze vogel weg, geef er 1 van aan een andere speler en leg de rest af.",
       "Flavor text": null,
@@ -4898,7 +4490,6 @@
     },
     "410": {
       "English name": "Olive-Backed Sunbird",
-      "Scientific name": "Cinnyris jugularis",
       "Common name": "Staalborsthoningzuiger",
       "Power text": "iedere speler mag 1 [die] naar keuze werpe en dat voedsel uit de voorraad pakken.",
       "Flavor text": null,
@@ -4910,7 +4501,6 @@
     },
     "411": {
       "English name": "Oriental Bay-Owl",
-      "Scientific name": "Phodilus badius",
       "Common name": "Bruine uil",
       "Power text": "activeer de \"ALS GEACTIVEERD\"-eigenschappen (bruin) van al je andere [predator].",
       "Flavor text": null,
@@ -4922,7 +4512,6 @@
     },
     "412": {
       "English name": "Oriental Magpie-Robin",
-      "Scientific name": "Copsychus saularis",
       "Common name": "Dayallijster",
       "Power text": "pak voor elke 3 [egg] in je [grassland] 1 [invertebrate] of 1 [seed] uit de voorraad. Je mag er ten hoogste 2 van op deze vogel bewaren.",
       "Flavor text": null,
@@ -4934,7 +4523,6 @@
     },
     "413": {
       "English name": "Philippine Eagle",
-      "Scientific name": "Pithecophaga jefferyi",
       "Common name": "Apenarend",
       "Power text": "werp alle 5 [die]. Je mag ten hoogste tweemaal opnieuw dobbelen met zoveel [die] als je wilt. Tonen deze ten minste 3 [rodent] als je stopt, trek dan 2 bonuskaarten en houd er 1. Stel het vogelhuisje opnieuw samen.",
       "Flavor text": null,
@@ -4946,7 +4534,6 @@
     },
     "414": {
       "English name": "Plumbeous Redstart",
-      "Scientific name": "Phoenicurus fuliginosus",
       "Common name": "Waterroodstaart",
       "Power text": "trek 1 [card] van de gedekte stapel en neem die in je hand. Alle andere spelers trekken 1 [card] van de gedekte stapel en nemen die in hun hand als de vogel een [invertebrate] of [seed] in zijn voedselkosten heeft.",
       "Flavor text": null,
@@ -4958,7 +4545,6 @@
     },
     "415": {
       "English name": "Purple Heron",
-      "Scientific name": "Ardea purpurea",
       "Common name": "Purperreiger",
       "Power text": "kies 2 [die]. Werp die ten hoogste 3 keer. Elke keer dat je ten minste 1 [invertebrate] of 1 [fish] werpt, bewaar je er hier 1. Zo niet, stop dan en geef al het deze beurt hier bewaarde voedsel terug.",
       "Flavor text": null,
@@ -4970,7 +4556,6 @@
     },
     "416": {
       "English name": "Red Avadavat",
-      "Scientific name": "Amandava amandava",
       "Common name": "Tijgervink",
       "Power text": "geef 1 [card] uit je hand aan een andere speler. Doe je dat, trek dan 2 [card].",
       "Flavor text": null,
@@ -4982,7 +4567,6 @@
     },
     "417": {
       "English name": "Red Junglefowl",
-      "Scientific name": "Gallus gallus",
       "Common name": "Bankivahoen",
       "Power text": "tel de [egg] op al je vogels. Als het totaal lager is dan 6 [egg], leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -4994,7 +4578,6 @@
     },
     "418": {
       "English name": "Red-Crowned Crane",
-      "Scientific name": "Grus japonensis",
       "Common name": "Chinese kraanvogel",
       "Power text": "scoor 1 van je bonuskaarten nu door voor elk punt 1 [wild] uit de voorraad op deze vogel te bewaren. Leg die bonuskaart af en trek 1 nieuwe.",
       "Flavor text": null,
@@ -5006,7 +4589,6 @@
     },
     "419": {
       "English name": "Red-Vented Bulbul",
-      "Scientific name": "Pycnonotus cafer",
       "Common name": "Roodbuikbuulbuul",
       "Power text": "heb je ten minste 1 [fruit] in je voorraad, leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -5018,7 +4600,6 @@
     },
     "420": {
       "English name": "Red-Wattled Lapwing",
-      "Scientific name": "Vanellus indicus",
       "Common name": "Indische kievit",
       "Power text": "leg een aantal [card] naar keuze uit de vogelhouder af en vul deze aan. Is ten minste 1 van de afgelegde vogels een [predator]-vogel, leg dan 1 [egg] op deze vogel.",
       "Flavor text": null,
@@ -5030,7 +4611,6 @@
     },
     "421": {
       "English name": "Rhinoceros Auklet",
-      "Scientific name": "Cerorhinca monocerata",
       "Common name": "Neushoornalk",
       "Power text": "werp 2 [die] naar keuze. Werp je ten minste 1 [fish], bewaar dan 1 [fish] uit de voorraad op deze vogel. Alle spelers mogen 1 [card] uit hun hand afleggen om 1 [fish] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -5042,7 +4622,6 @@
     },
     "422": {
       "English name": "Rock Pigeon",
-      "Scientific name": "Columba livia",
       "Common name": "Rotsduif",
       "Power text": "alle spelers leggen 1 [egg]. Jij legt 1 extra [egg].",
       "Flavor text": null,
@@ -5054,7 +4633,6 @@
     },
     "423": {
       "English name": "Rook",
-      "Scientific name": "Corvus frugilegus",
       "Common name": "Roek",
       "Power text": "bewaar 1 [wild] uit je voorraad op deze vogel of stop 1 [card] uit je hand onder deze vogel weg. Doe je \u00e9\u00e9n van beide, stop dan 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -5066,7 +4644,6 @@
     },
     "424": {
       "English name": "Rose-Ringed Parakeet",
-      "Scientific name": "Psittacula krameri",
       "Common name": "Halsbandparkiet",
       "Power text": "imiteer een \"ALS GESPEELD\"-eigenschap (wit) van 1 van de vogels van je buren.",
       "Flavor text": null,
@@ -5078,7 +4655,6 @@
     },
     "425": {
       "English name": "Rosy Starling",
-      "Scientific name": "Pastor roseus",
       "Common name": "Roze spreeuw",
       "Power text": "stop ten hoogste 3 [card] uit je hand onder deze vogel weg. Stop je ten minste 1 [card] weg, pak dan 1 [invertebrate] uit de voorraad.",
       "Flavor text": null,
@@ -5090,7 +4666,6 @@
     },
     "426": {
       "English name": "Ruddy Shelduck",
-      "Scientific name": "Tadorna ferruginea",
       "Common name": "Casarca",
       "Power text": "trek 5 [card] van de gedekte stapel. Neem er 1 van in je hand, stop er 1 van onder deze vogel weg en leg de rest af.",
       "Flavor text": null,
@@ -5102,7 +4677,6 @@
     },
     "427": {
       "English name": "Sarus Crane",
-      "Scientific name": "Antigone antigone",
       "Common name": "Saruskraanvogel",
       "Power text": "iedere speler mag 1 [egg] afleggen om 1 [card] van de gedekte stapel te trekken.",
       "Flavor text": null,
@@ -5114,7 +4688,6 @@
     },
     "428": {
       "English name": "Satyr Tragopan",
-      "Scientific name": "Tragopan satyra",
       "Common name": "Rood saterhoen",
       "Power text": "geef 1 [card] uit je hand aan een andere speler. Doe je dat, dan leg je 2 [egg] op deze vogel.",
       "Flavor text": null,
@@ -5126,7 +4699,6 @@
     },
     "429": {
       "English name": "Scaly-Breasted Munia",
-      "Scientific name": "Lonchura punctulata",
       "Common name": "Muskaatvink",
       "Power text": "pak 1 [seed] uit de voorraad of stop 1 [card] van de gedekte stapel onder deze vogel weg.",
       "Flavor text": null,
@@ -5138,7 +4710,6 @@
     },
     "430": {
       "English name": "Small Minivet",
-      "Scientific name": "Pericrocotus cinnamomeus",
       "Common name": "Kleine menievogel",
       "Power text": "speel 1 vogel extra in je [forest]. Je mag 1 [invertebrate] of 1 [egg] in de kosten ervan negeren.",
       "Flavor text": null,
@@ -5150,7 +4721,6 @@
     },
     "431": {
       "English name": "Smew",
-      "Scientific name": "Mergellus albellus",
       "Common name": "Nonnetje",
       "Power text": "trek 4 [card]. Stop er 2 [card] van onder deze vogel weg en neem de andere 2 [card] in je hand.",
       "Flavor text": null,
@@ -5162,7 +4732,6 @@
     },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
-      "Scientific name": "Calidris pygmaea",
       "Common name": "Lepelbekstrandloper",
       "Power text": "trek 2 nieuwe bonuskaarten en houd er 1. Andere spelers mogen 2 middelen naar keuze ([wild], [egg] of [card]) afleggen om hetzelfde te doen.",
       "Flavor text": null,
@@ -5174,7 +4743,6 @@
     },
     "433": {
       "English name": "Spotted Dove",
-      "Scientific name": "Streptopelia chinensis",
       "Common name": "Parelhalstortel",
       "Power text": "als er rechts van deze vogel geen vogels liggen, mag je hem (alleen de kaart) naar het spelertableau van de speler rechts van je verplaatsen (jij kiest de leefomgeving). Doe je dat, trek dan 3 [card].",
       "Flavor text": null,
@@ -5186,7 +4754,6 @@
     },
     "434": {
       "English name": "Sri Lanka Blue-Magpie",
-      "Scientific name": "Urocissa ornata",
       "Common name": "Blauwe kitta",
       "Power text": "je mag 1 [wild] uit je voorraad op elk van je andere vogels bewaren.",
       "Flavor text": null,
@@ -5198,7 +4765,6 @@
     },
     "435": {
       "English name": "Sri Lanka Frogmouth",
-      "Scientific name": "Batrachostomus moniliger",
       "Common name": "Ceylonkikkerbek",
       "Power text": "werp 1 [die] naar keuze. Werp je een [invertebrate], bewaar dan 1 [invertebrate] uit de voorraad op deze vogel. Alle spelers mogen 1 [card] uit hun hand afleggen om 1 [invertebrate] uit de voorraad te pakken.",
       "Flavor text": null,
@@ -5210,7 +4776,6 @@
     },
     "436": {
       "English name": "Stork-Billed Kingfisher",
-      "Scientific name": "Pelargopsis capensis",
       "Common name": "Ooievaarsbekijsvogel",
       "Power text": "kies 1 [die]. Werp die voor elk van je [wetland]-vogels eenmaal. Werp je ten minste 1 [fish], pak er dan 1 uit de voorraad. Je mag het op deze vogel bewaren.",
       "Flavor text": null,
@@ -5222,7 +4787,6 @@
     },
     "437": {
       "English name": "Trumpeter Finch",
-      "Scientific name": "Bucanetes githagineus",
       "Common name": "Woestijnvink",
       "Power text": "speel 1 vogel extra in je [grassland]. Je mag 1 [seed] of 1 [egg] in de kosten ervan negeren.",
       "Flavor text": null,
@@ -5234,7 +4798,6 @@
     },
     "438": {
       "English name": "Twite",
-      "Scientific name": "Linaria flavirostris",
       "Common name": "Frater",
       "Power text": "trek 2 [card] van de gedekte stapel en neem die in je hand. Stop dan 2 [card] naar keuze uit je hand onder deze vogel weg.",
       "Flavor text": null,
@@ -5246,7 +4809,6 @@
     },
     "439": {
       "English name": "Verditer Flycatcher",
-      "Scientific name": "Eumyias thalassinus",
       "Common name": "Azuurvliegenvanger",
       "Power text": "heb je deze ronde een [invertebrate] uit het vogelhuisje gepakt, pak dan 1 [fruit] uit de voorraad.",
       "Flavor text": null,
@@ -5258,7 +4820,6 @@
     },
     "440": {
       "English name": "Violet Cuckoo",
-      "Scientific name": "Chrysococcyx xanthorhynchus",
       "Common name": "Amethistkoekoek",
       "Power text": "als een andere speler de \"leg eieren\"-actie uitvoert, leg je 1 [egg] op een andere vogel met een vleugelwijdte kleiner dan 30 cm. Je mag bij gebruik van deze actie de eilimiet van deze vogel met ten hoogste 2 overschrijden.",
       "Flavor text": null,
@@ -5270,7 +4831,6 @@
     },
     "441": {
       "English name": "White-Browed Tit-Warbler",
-      "Scientific name": "Leptopoecile sophiae",
       "Common name": "Struikhaantje",
       "Power text": "werp 1 [die] naar keuze voor elke vogel in je [forest] met een ei erop. Kies 1 gedobbelde voedselsoort en pak er 1 van uit de voorraad.",
       "Flavor text": null,
@@ -5282,7 +4842,6 @@
     },
     "442": {
       "English name": "White-Crested Laughingthrush",
-      "Scientific name": "Garrulax leucolophus",
       "Common name": "Witkuiflijstergaai",
       "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, pak dan 1 [invertebrate], [seed] of [fruit] uit het vogelhuisje.",
       "Flavor text": null,
@@ -5294,7 +4853,6 @@
     },
     "443": {
       "English name": "White-Headed Duck",
-      "Scientific name": "Oxyura leucocephala",
       "Common name": "Witkopeend",
       "Power text": "trek 3 nieuwe bonuskaarten en houd er 1.",
       "Flavor text": null,
@@ -5306,7 +4864,6 @@
     },
     "444": {
       "English name": "White-Throated Kingfisher",
-      "Scientific name": "Halcyon smyrnensis",
       "Common name": "Smyrna-ijsvogel",
       "Power text": "kies 1 [die]. Werp die ten hoogste 3 keer. Elke keer dat je een [invertebrate], [fish] of [rodent] werpt, bewaar je die hier. Zo niet, stop dan en geef al het deze beurt hier bewaarde voedsel terug.",
       "Flavor text": null,
@@ -5318,7 +4875,6 @@
     },
     "445": {
       "English name": "Willow Tit",
-      "Scientific name": "Poecile montanus",
       "Common name": "Matkop",
       "Power text": "bewaar 1 [invertebrate], [seed] of [fruit] uit het vogelhuisje op deze vogel, indien beschikbaar.",
       "Flavor text": null,
@@ -5330,7 +4886,6 @@
     },
     "446": {
       "English name": "Yellow Bittern",
-      "Scientific name": "Ixobrychus sinensis",
       "Common name": "Chinese woudaap",
       "Power text": "trek de [card] in het middelste vak van de vogelhouder.",
       "Flavor text": null,
@@ -5342,7 +4897,6 @@
     },
     "447": {
       "English name": "Zebra Dove",
-      "Scientific name": "Geopelia striata",
       "Common name": "Zebraduif",
       "Power text": "alle spelers mogen 1 [seed] uit hun voorraad afleggen om 1 [egg] te leggen.",
       "Flavor text": null,
@@ -5351,6 +4905,1227 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
+    },
+    "607": {
+      "English name": "Barred Antshrike",
+      "Common name": "Gebandeerde mierklauwier",
+      "Power text": "is er direct nadat een andere speler het vogelhuisje opnieuw heeft samengesteld een [invertebrate] in het vogelhuisje, kan dan 1 [invertebrate] uit de algemene voorraad.",
+      "Flavor text": "Deze vogels eten veel soorten insecten, maar maar profiteren van legermierzwermen als die in de buurt zijn.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "606": {
+      "English name": "Bananaquit",
+      "Common name": "Suikerdiefje",
+      "Power text": "is er een kolibrie in je [forest], geef die dan terug.",
+      "Flavor text": "Deze vogels gebruiken hun gebogen snavel om naar nectar te zoeken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "605": {
+      "English name": "Antioquia Brushfinch",
+      "Common name": "Antioquiastruikgors",
+      "Power text": "trek voor elke kolibrie op je tableau 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
+      "Flavor text": "Deze zeer zeldzame vogel kreeg pas in 2007 een naam; er loven mogelijk slechts 50.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "598": {
+      "English name": "Altamira Oriole",
+      "Common name": "Altimiratroepiaal",
+      "Power text": "lok 1 kolibire naar een andere rij.",
+      "Flavor text": "Deze vogel wweft wekenlang aan een buidelnest, dat we wel 65 centimeter onder de tak kan bungelen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "599": {
+      "English name": "Amazon Kingfisher",
+      "Common name": "Amazone-ijsvogel",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar alle [fish] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "Deze vogels duiken naar vissen en schaaldieren, waarna ze die o hun zitplaats opeten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "600": {
+      "English name": "Amazonian Parrotlet",
+      "Common name": "Amazoneparkiet",
+      "Power text": "trek 2 [card] van de gedekte stapel. Je mag 1 ervan of beide onder deze vogel wegstoppen.",
+      "Flavor text": "Dit vogeletje dat in de jaren \u201870 voor het eerst nwerd beschreven, houdt van bamboezaden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "601": {
+      "English name": "American Flamingo",
+      "Common name": "Rode flamingo",
+      "Power text": "stop maximaal 2 [card] uit je hand onder deze vogel weg. Stop je er minimaal 1 weg, pak dan 1 [invertebrate] uit de voorraad.",
+      "Flavor text": "Flamingo\u2019s steken hun kop onder water om ongewervelden door hun snavel te filteren.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "602": {
+      "English name": "American Golden-Plover",
+      "Common name": "Amerikaanse goudplevier",
+      "Power text": "leg 1 [egg] op een vogel zonder [egg].",
+      "Flavor text": "Deze vogels vliegen van de Noordpool in 1 keer naar Zuid-Amerika.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "603": {
+      "English name": "Andean Cock-of-the-Rock",
+      "Common name": "Rode rotshaan",
+      "Power text": "geef maximaal 2 kolibries terug.",
+      "Flavor text": "Deze opvallende vogel bouwt moddernesten die aan een rotswand vastzitten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "604": {
+      "English name": "Andean Condor",
+      "Common name": "Andescondor",
+      "Power text": "stopt een andere speler in zijn beurt een [card] weg, trek dan aan het einde van zijn beurt 1 [card] van de gedekte stapel.",
+      "Flavor text": "Door de oude associatie met de Inca-zongod staat deze enorme vogel symbool voor Zuid-Amerika.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "608": {
+      "English name": "Bat Falcon",
+      "Common name": "Vleermuisvalk",
+      "Power text": "bekijk 2 kolibries van de stapel. Is minimaal 1 ervan van een soort kolibrie die je hebt, stop er dan een onder deze vogel weg. Leg de rest af.",
+      "Flavor text": "Deze vogels eten vaak meer vogels en insecten dan vleermuizen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "609": {
+      "English name": "Black Rail",
+      "Common name": "Zwarte dwergral",
+      "Power text": "trek voor elke vogel met een [ground]-nest op je tableau 1 nieuwe bonuskaart. Houdt er 1 van en leg de rest af.",
+      "Flavor text": "Deze vogels zijn bedreigd en lastig te tellen omdat ze zich verschuilen in dichte moerasgrassen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "610": {
+      "English name": "Blue-Black Grassquit",
+      "Common name": "Jacarinagors",
+      "Power text": "kopieer de bruine eigenschap van een vogel in de weide van een andere speler.",
+      "Flavor text": "Voor de show springen mannetjes meerdere keren per minuut recht omhoog van een tak.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "611": {
+      "English name": "Blue-Footed Booby",
+      "Common name": "Blauwvoetgent",
+      "Power text": "voert een andere speler de actie \u201cEieren leggen\u201d uit, stop dan 1 [card] uit je hand onder deze vogel weg.",
+      "Flavor text": "Jan-van-genten tillen hun felblauwe voeten op om indruk te maken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "612": {
+      "English name": "Blue-Grey Tanager",
+      "Common name": "Bischopstangare",
+      "Power text": "lok 1 kolibrie naar je spelerstableau.",
+      "Flavor text": "Deze fruitetende tangare houdt meer van open plekken en bosranden dan van diep bos.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "613": {
+      "English name": "Blue-Headed Parrot",
+      "Common name": "Zwartoortmargrietje",
+      "Power text": "trek 1 [card] van de gedekte stapel. Zit er een [seed] of [fruit] in kosten ervan, leg de kaart dan af en pak 1 van dat voedsel uit de algemene voorraad. Zo niet, stop de kaart dan onder deze vogel weg.",
+      "Flavor text": "Deze veelzijdige papegaaien eten veel fruit, maar in landbouwgebieden ook ma\u00efs en rijst.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "614": {
+      "English name": "Blue-and-Yellow Macaw",
+      "Common name": "Blauw-gele ara",
+      "Power text": "stop 1 [card] uit je hand onder deze vogel weg om 1 kolibrie te lokken.",
+      "Flavor text": "Het veerpatroon op de kop van de blauw-gele ara is uniek, net als een vingerafdruk.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "615": {
+      "English name": "Boat-Billed Heron",
+      "Common name": "Schuitbekreiger",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar alle [invertebrate] en [fish] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "Deze nachtactieve vogel gebruikt zijn grote snavel om kleine waterprooi te vangen.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "616": {
+      "English name": "Brazilian Merganser",
+      "Common name": "Braziliaanse zaagbek",
+      "Power text": "trek voor elke vogel in je [wetland] 1 nieuwe bonuskaart. Houd er 1 en leg de rest af.",
+      "Flavor text": "Deze zoetwatereend is een van de meest bedreigde vogels van Amerika.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "617": {
+      "English name": "Brazilian Teal",
+      "Common name": "Amazonetaling",
+      "Power text": "heeft de speler direct rechts van je minimaal 2 [card] in zijn hand, trek dan 1 [card].",
+      "Flavor text": "In rust lijkt deze eend geheel bruin, maar in vlucht toont hij zijn blauwe vleugels.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "618": {
+      "English name": null,
+      "Common name": "Chileense smient",
+      "Power text": "heeft de speler direct links van je mininmaal 2 [card] in zijn hand, trek dan 1 [card].",
+      "Flavor text": "Het woord \u2018sibilatrix\u2019 in de wetenschappelijke naam van deze eend betekent \u2018zij die fluit\u2019.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "619": {
+      "English name": "Clay-Colored Thrush",
+      "Common name": "Grays lijster",
+      "Power text": "is er een kolibrie in je [wetland], geef die dan terug.",
+      "Flavor text": "De nationale vogel van Costa Rica zingt een mooi lied aan het begin van het regenseizoen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": "x",
+      "Photographer": null
+    },
+    "620": {
+      "English name": "Cocoi Heron",
+      "Common name": "Sokoireiger",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [fish] of [rodent] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "De sokoireiger is de grootste reigersoort van Zuid-Amerika.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "621": {
+      "English name": "Common Pauraque",
+      "Common name": "Pauraque",
+      "Power text": "iedere speler mag 1 kolibrie lokken, te beginnen bij de speler naar jouw keuze.",
+      "Flavor text": "In diverse volksverhalen verschillen meningen of pauraques ongeluk, regen of liefde brengen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "622": {
+      "English name": "Correndera Pipit",
+      "Common name": "Correnderapieper",
+      "Power text": "speel een andere vogel in deze kolom zonder links ervan lege velden over te laten. Betaal de gebruikelijke kosten ervan.",
+      "Flavor text": "Dit geslacht telt 45 soorten; elle gespecialiseerd in het zoeken naar insecten in graslanden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "623": {
+      "English name": "Crested Oropendola",
+      "Common name": "Kuiforopendola",
+      "Power text": "zet je kolibriesteen 1 veld terug om 2 [card] van de gedekte stapel onder deze vogel weg te stoppen.",
+      "Flavor text": "Bij de balts hangen mannetjes ondersteboven aan een tak terwijl ze luid roepen.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "624": {
+      "English name": "Elegant Trogon",
+      "Common name": "Koperstaarttrogon",
+      "Power text": "leg 1 [invertebrate] af om 1 [egg] op deze vogel te leggen.",
+      "Flavor text": "Trogons maken hun nest vaak door een hol te graven in een termietennest in een boom.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "625": {
+      "English name": "Ferruginous Pygmy-Owl",
+      "Common name": "Braziliaanse dwerguil",
+      "Power text": "stop 1 vogel met een vleugelwijdte van minder dan 75 cm uit je hand onder deze vogel weg. Doe je dat, bewaar dan 1 [invertebrate] of [rodent] uit de algemene voorraad op deze vogel.",
+      "Flavor text": "Vogelgidsen bootsen vaak de roep van deze uil na om zangvogels uit hun schuilplaats te lokken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "626": {
+      "English name": "Firewood-Gatherer",
+      "Common name": "Sprokkelaar",
+      "Power text": "verplaats maximaal 3 [egg] van (een) andere vogel vogel(s) naar deze vogel of verplaats maximaal 3 [egg] van deze vogel naar (een) andere vogel(s). ",
+      "Flavor text": "Deze vogel maakt een enorme bundel twijgen als nest.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "627": {
+      "English name": "Golden-Headed Manakin",
+      "Common name": "Goudkopmanakin",
+      "Power text": "lok 1 [emerald]- of [mango]-kolibrie, of geef er 1 terug. ",
+      "Flavor text": "Manakins staan bekend om uitgebreide baltsrituelen met sierlijk voetenwerk en showvluchten.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "628": {
+      "English name": "Grassland Sparrow",
+      "Common name": "Graslandgors",
+      "Power text": "leg een aantal [seed] naar keuze af om dat aantal [egg] op deze vogel te leggen. Overschrijd de eilimiet niet.",
+      "Flavor text": "Deze op de grond nestelende mus mijdt overbegraasde plekken waar het gras te kort is.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "629": {
+      "English name": "Great Curassow",
+      "Common name": "Bruine hokko",
+      "Power text": "pak 1 [wild] uit de algemene voorraad. Daarna pakt iedere speler die minder van het gekozen voedsel heeft dan jij  van dat voedsel uit de algemene voorraad.",
+      "Flavor text": "Deze vogels maken dreunende lage baltsroepen maar hoge, scherpe waarschuwingsfluitjes.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "630": {
+      "English name": "Great Kiskadee",
+      "Common name": "Grote kiskadie",
+      "Power text": "is dit de meest rechtse vogel in zijn leefomgeving, verplaats deze dan met de actiesteen naar een andere leefomgeving en vervolg je beurt in de nieuwe leefomgeving.",
+      "Flavor text": "De zwarte streep rond de ogen van de grote kiskadie vermindert schittering en helpt bij jagen in fel licht.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "631": {
+      "English name": "Great Potoo",
+      "Common name": "Vale reuzennachtzwaluw",
+      "Power text": "pak 1 [invertebrate] uit het vogelhuisje, indien beschikbaar. Je mag het vogelhuisje eerst opnieuw samenstellen.",
+      "Flavor text": "Deze nachtactieve vogel laat zijn vreemde roep vooral horen tijdens maanverlichte nachten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "632": {
+      "English name": "Great-Tailed Grackle",
+      "Common name": "Langstaarttroepiaal",
+      "Power text": "Stop 1 [card] van de gedekte stapel onder deze vogel weg of stop maximaal 3 [card] uit je hand onder deze vogel weg.",
+      "Flavor text": "In 1990 leefge deze vogel vrijwel alleen ten zuiden van de VS; in 2020 strekte zijn verspreiding zich uit tot in Canada.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "633": {
+      "English name": "Greater Rhea",
+      "Common name": "Nandoe",
+      "Power text": "grenst minimaal 1 [ground]-vogel aan deze vogel, leg dan 1 [egg] op deze vogel. Grenzen minimaal 3 [ground]-vogels aan deze vogel, leg dan 1 extra [egg] op deze vogel.",
+      "Flavor text": "De grootste vogel van Zuid-Amerika kan niet vliegen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "634": {
+      "English name": "Harpy Eagle",
+      "Common name": "Harpij",
+      "Power text": "bewaar 1 [rodent] uit de algemene voorraad op deze vogel.",
+      "Flavor text": "Harpijarenden jagen vooral op middelgrote zoogdieren, zoals luiaards en apen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "635": {
+      "English name": "Hoatzin",
+      "Common name": "Hoatzin",
+      "Power text": "speelt een andere speler een vogel die geen bruine eigenschap heeft, tek dan aan het einde van zijn beurt 1 [card].",
+      "Flavor text": "De hoatzin is niet nauw verwant aan andere vogels; zijn anatomie om bladeren te verteren is uniek.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "636": {
+      "English name": "Hooded Siskin",
+      "Common name": "Kapsijs",
+      "Power text": "trek 1 [card] van de gedekte stapel. Zit er [seed] in zijn voedselkosten, stop de kaart dan onder deze vogel weg. Leg de kaart anders af en pak 1 [seed] uit de voorraad.",
+      "Flavor text": "Dit kleine vinkje heeft geen vast trekpatroon, maar trekt rond binnen zijn leefgebied.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "637": {
+      "English name": "Horned Guan",
+      "Common name": "Hoorngoean",
+      "Power text": "trek voor elke vogel met een [platform]-nest op jet tableau 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
+      "Flavor text": "De rode uitwas op de kop va deze grote, bedreigde vogel kan wel 6 centimeter hoog worden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "638": {
+      "English name": "Inca Tern",
+      "Common name": "Incastern",
+      "Power text": "leg maximaal 3 [card] uit je hand af om hetzelfde aantal [card] te trekken.",
+      "Flavor text": "De \u2018snorveren\u2019 van deze sterns tonen vitaliteit, bij gezonde vogels zijn ze langer.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "639": {
+      "English name": "Jabiru",
+      "Common name": "Jariboe",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [invertebrate] of [fish] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "Het gevarieerde dieet van deze ooievaars omvat insecten, vissen, kikkers, schildpadden, krabben en zelfs jonge krokodillen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "640": {
+      "English name": "Keel-Billed Toucan",
+      "Common name": "Zwavelborsttoekan",
+      "Power text": "kies maximaal 3 vogels met [fruit] in hun voedselkosten. Bewaar 1 [fruit] uit de algemene voorraad op elk ervan.",
+      "Flavor text": "De snavel beslaat een derde van de lengte van een toekan, maar slechts drie procent van zijn gewicht.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "641": {
+      "English name": "King Vulture",
+      "Common name": "Koningsgier",
+      "Power text": "leg 1 [egg] op elke vogel met [rodent] in zijn voedselkosten.",
+      "Flavor text": "De koningsgier volgt andere vogels naar een karkas en overheerst daar met zijn grootte en sterke snavel.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "642": {
+      "English name": "Least Seedsnipe",
+      "Common name": "Patagonische kwartelsnip",
+      "Power text": "leg voor elke vogel in jet [wetland] 1 [egg] op deze vogel.",
+      "Flavor text": "Van deze vogels zijn geen drinkwaarnemingen bekend, ze halen vocht uit sappige planten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "643": {
+      "English name": "Limpkin",
+      "Common name": "Koerlan",
+      "Power text": "leg 1 [card] met [invertebrate] in zijn voedselkosten uit de vogelhouder of je hand af. Doe je dat, bewaar dan 1 [invertebrate] uit de algemene voorraad op deze vogel.",
+      "Flavor text": null,
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "644": {
+      "English name": "Lineated Woodpecker",
+      "Common name": "Gestreepte helmspecht",
+      "Power text": "is dit de meest rechtse vogel in zijn leefomgeving, verplaats deze dan met de actiesteen naar een andere leefomgeving en vervolg je beurt in de nieuwe leefomgeving.",
+      "Flavor text": "Toekans, papegaaien en tityra\u2019s gebruiken soms de nestholtes die deze spechten hebben uitgegraven.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "645": {
+      "English name": "Little Blue Heron",
+      "Common name": "Kleine blauwe reiger",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [invertebrate] of [fish] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "De jongen van deze soort hebben wit verenkleed en worden vaak aangezien voor gewone reigers.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "646": {
+      "English name": "Little Tinamou",
+      "Common name": "Kleine tinamoe",
+      "Power text": "iedere speler mag 1 [egg] uit zijn [forest] afleggen om 1 [wild] (maar geen nectar) uit de algemene voorraad te pakken.",
+      "Flavor text": "Tinamoe-eieren zijn opvallend glanzend en vaak kleurrijk; de eieren van deze soort zijn paars.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "647": {
+      "English name": "Long-Wattled Umbrellabird",
+      "Common name": "Ecuadorparasolvogel",
+      "Power text": "leg 1 [egg] op elke vogel met een [bowl] nest.",
+      "Flavor text": "De met veren bedekte lel van het mannetje kan tot 35 cm lang worden, maar hij trekt die in om beter te vliegen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "648": {
+      "English name": "Magnificent Frigatebird",
+      "Common name": "Amerikaanse fregatvogel",
+      "Power text": "voert een andere speler de actie \u201cKaarten trekken\u201d uit, dan trekken jullie ieder 1 [card] van de gedekte stapel.",
+      "Flavor text": "Bij de balts blaast het mannetje van de fregatvogel lucht in zijn rode keelzak, die dan als een ballon opbolt.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "649": {
+      "English name": "Marsh Seedeater",
+      "Common name": "Moerasdikbekje",
+      "Power text": "trek voor elke vogel met een [bowl]-nest op je tableau 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
+      "Flavor text": "Deze bedreigde soort trekt van het Amazonebekken naar Argentini\u00eb en Uruguay om te broeden.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "650": {
+      "English name": "Monk Parakett",
+      "Common name": "Monniksparkiet",
+      "Power text": "leg 1 [egg] op elke vogel met een [star]-nest.",
+      "Flavor text": "Monniksparkieten bouwen grote nesten, soms in een complex met twaalf of meer nestkamers.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "651": {
+      "English name": "Muscovy Duck",
+      "Common name": "Muskuseend",
+      "Power text": "lok maximaal 2 kolibries.",
+      "Flavor text": "Voor de Azteken was deze vogel het totemdier van de windgod.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "652": {
+      "English name": "Nanday Parakett",
+      "Common name": "Nandayparkiet",
+      "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, kopieer dan een bruine eigenschap op het tableau van de speler direct rechts van je.",
+      "Flavor text": "Als huisdier kunnen deze sociale vogels leren woorden en zinnen na te bootsen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "653": {
+      "English name": "Neotropic Cormorant",
+      "Common name": "Bigua-Aalsgolver",
+      "Power text": "voert een andere speler de actie \u201cEieren leggen\u201d uit, dan pakt iedere peler 1 [fish] uit de algemene voorraad. Jij pakt 1 extra [fish].",
+      "Flavor text": "Deze vogels sluiten zich vaak aan bij grote broedkolonies met andere watervogels en jagen soms samen op vis.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "654": {
+      "English name": "Ocellated Turkey",
+      "Common name": "Pauwkalkoen",
+      "Power text": "leg 1 [egg] op elke vogel die geen bruine eigenschap heeft.",
+      "Flavor text": "Deze neef van de wilde kalkoen uit Noord-Amerika leeft in Yucat\u00e1n, Belize en Guatamala.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "655": {
+      "English name": "Oilbird",
+      "Common name": "Vetvogel",
+      "Power text": "kies een voedselsoort. Iedere speler die er geen van in zijn persoonlijke voorraad heeft, mag er 1 van uit de algemene voorraad pakken.",
+      "Flavor text": "s Nachts ori\u00ebnteren deze vogels zich met echolocatie en hun hoge klikgeluiden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "656": {
+      "English name": "Orange-Breated Bunting",
+      "Common name": "Regenbooggors",
+      "Power text": "lok 1 [mango]- of [topaz]-kolibrie of geef die terug.",
+      "Flavor text": "Deze soort is familie van de even bontgekleurde geelgors van Noord-Amerika.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "657": {
+      "English name": "Orinoco Goose",
+      "Common name": "Orinocogans",
+      "Power text": "grenst minimaal 1 [cavity]-vogel aan deze vogel, leg dan 1 [egg]. Grenzen minimaal 3 [cavity]-vogels aan deze vogel, leg dan 1 extra [egg] op deze vogel.",
+      "Flavor text": "De geslachtsnaam \u2018Oressochen\u2019 betekent \u2018berggans\u2019, maar deze soort leeft liever in de laaglanden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "658": {
+      "English name": "Paradise Tanager",
+      "Common name": "Paradijstangare",
+      "Power text": "is er direct nadat een andere speler het vogelhuisje opnieuw heeft samengesteld een [fruit] in het vogelhuisje, kan dan 1 [fruit] uit de algemene voorraad.",
+      "Flavor text": "Bij deze soort lijken mannetjes en vrouwtjes sterk op elkaar, wat wijst op camouflage in plaats van show.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "659": {
+      "English name": "Peruvian Sierra-Finch",
+      "Common name": "Punasierragors",
+      "Power text": "grenst minimaal 1 [bowl]-vogel aan deze vogel, leg dan 1 [egg] op deze vogel. Grenzen minimaal 3 [bowl]-vogels aan deze vogel, leg dan 1 extra [egg] op deze vogel.",
+      "Flavor text": "Deze vogels houden van struikgewas op helingen in de hooglanden.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "660": {
+      "English name": "Plain Chachalaca",
+      "Common name": "Bruine chachalaca",
+      "Power text": "is er direct nadat een andere speler het vogelhuisje opnieuw heeft samengesteld een [seed] in het vogelhuisje, pak dan 1 [seed] uit de algemene voorraad.",
+      "Flavor text": "Deze vogels herhalen luidruchtig hun roep: \u2018tsjatsjalaka\u2019.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "661": {
+      "English name": "Red-Billed Scythebill",
+      "Common name": "Kolibriemuisspecht",
+      "Power text": "pak 1 [wild] (geen nectar) van een soort die niet in het vogelhuisje ligt uit de algemene voorraad.",
+      "Flavor text": "De kromme snavel van deze vogel speurt boomholten, bromelia\u2019s en andere moeilijk bereikbare plekken af.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "662": {
+      "English name": "Red-Breated Meadowlark",
+      "Common name": "Zwartkopsoldatenspreeuw",
+      "Power text": "leg 1 [card] uit je hand af om 1 [egg] op een vogel naar keuze te leggen.",
+      "Flavor text": "Het verenkleed gaf deze soort de naam \u2018militaris\u2019; op Trinidad heet hij de \u2018soldaatvogel\u2019.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "663": {
+      "English name": "Red-Crested Cardinal",
+      "Common name": "Roodkuifkardiaal",
+      "Power text": "speel een andere vogel in deze kolom zonder links ervan lege velden over te laten. Betaal de gebruikelijke kosten ervan.",
+      "Flavor text": "Ooit gerekend tot de vinken en kardinalen maar DNA-onderzoek plaatste dit geslacht bij de tangaren.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "664": {
+      "English name": "Red-Headed Barbet",
+      "Common name": "Roodkopbaardvogel",
+      "Power text": "pak 1 [wild] van een soort die zich in de vooraad van een andere speler bevindt uit de algemene voorraad.",
+      "Flavor text": "Deze soort was voor Wingspan-ontwerper Elizabeth Hargrave de \u2018inspiratievogel\u2019, de vogel die haar tot vogelaar maakte.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "665": {
+      "English name": "Red-Legged Seriema",
+      "Common name": "Kuifseriema",
+      "Power text": "leg 1 [seed] ad om het vogelhuisje opnieuw samen te stellen. Doe je dat, pak dan alle beschikbare [seed] uit het vogelhuisje en bewaar alle [rodent] uit het vogelhuisje op deze vogel.",
+      "Flavor text": "Doordat hij op slangen en knaagdieren jaagt, moedigen boeren deze vogel soms aan.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "666": {
+      "English name": "Resplendent Quetzal",
+      "Common name": "Quetzal",
+      "Power text": "lok 1 [brilliant]- of [emerald]-kolibrie of geef die terug.",
+      "Flavor text": "Quetzals speelden een rol in de Mayamythen en gaven hun naam aan het Guatamalteekse geld.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "667": {
+      "English name": "Roadside Hawk",
+      "Common name": "Wegbuizerd",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar alle [invertebrate] en [rodent] uit het vogelhuisje, indien beschikbaar.",
+      "Flavor text": "Deze alleseters benutten soms branden en legermierenzwermen om op vluchtende prooien te jagen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "668": {
+      "English name": "Ruddy Ground Dove",
+      "Common name": "Steenduif",
+      "Power text": "stelt een andere speler het vogelhuisje opnieuw samen, leg dan 1 [egg] op deze vogel.",
+      "Flavor text": "Deze vogels brengen slechts 2 kuikens tegelijk groot, maar broeden soms wel 5 keer per jaar.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "669": {
+      "English name": "Rufescent Tiger-Heron",
+      "Common name": "Rosse tijgerroerdomp",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [invertebrate], [fish] of [rodent] uit het vogelhuisje op deze vogel, indien beschikbaar.",
+      "Flavor text": "Van deze reiger is gezien dat die broodkruimels als aas gebruikt om kleine vissen te lokken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "670": {
+      "English name": "Rufous Hornero",
+      "Common name": "Rosse ovenvogel",
+      "Power text": "leg 1 [egg] op het eerste lege veld van elk van de leefomgevingen. Speel je een vogel op zo\u2019n veld, leg het ei dan af en trek het van eikosten van die vogel af.",
+      "Flavor text": "Deze vogels maken een koepelnest van klei dat op een traditionele houtoven lijkt.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "671": {
+      "English name": "Rufous-Collared Sparrow",
+      "Common name": "Roodkraaggors",
+      "Power text": "leg 1 [wild] van een vogel naar keuze af om 2 [egg] op deze vogel te leggen.",
+      "Flavor text": "Deze vogel werd gebruikt om te testen hoe de akoestiek van leefgebieden tot variatie in zang leidt.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "672": {
+      "English name": "Rufous-Naped Wren",
+      "Common name": "Veracruzwinterkoning",
+      "Power text": "pak voor elk leeg veld in je [forest] 1 [invertebrate] uit de voorraad. Je mag er zoveel van op deze vogel bewaren als je wilt.",
+      "Flavor text": "Bij het zingen om hun terretorium te verdedigen spreiden deze winterkoningen hun staart of zetten ze hun borst op.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "673": {
+      "English name": "Savanna Hawk",
+      "Common name": "Savannebuizerd",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [invertebrate] of [rodent] uit het vogelhuisje op deze vogel indien beschikbaar. Doe je dat, dan pakt iedere speler 1 van dat voedsel uit de algemene voorraad.",
+      "Flavor text": "Savannebuizerds volgen grasbranden en ploegen om prooien te vangen die op de vlucht slaan.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "674": {
+      "English name": "Scarlet Ibis",
+      "Common name": "Rode ibis",
+      "Power text": "Stop 1 [card] uit je hand onder deze vogel weg om 1 [card] te trekken. Je mag de vogelhouder eerst opnieuw samenstellen.",
+      "Flavor text": "Deze vogels foerageren in zout- en zoetwater, maar de jongen zoetwaterprooi nodig.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "675": {
+      "English name": "Scarlet Macaw",
+      "Common name": "Geelvleugelara",
+      "Power text": "Stop 1 [card] uit je hand onder deze vogel weg om 1 kolibrie terug te geven.",
+      "Flavor text": "Dit is de nationale vogel van Honduras, waar hij in mayabeelden voorkomt.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "676": {
+      "English name": "Screaming Piha",
+      "Common name": "Schreeuwpiha",
+      "Power text": "iedere speler mag een kolibrieactie uitvoeren, te beginnen bij de speler naar jouw keuze.",
+      "Flavor text": "De roep van de schreeuwpiha haalt meer dan 100 decibel en is tot 400 meter ver te horen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "677": {
+      "English name": "Shiny Cowbird",
+      "Common name": "Glanskoevogel",
+      "Power text": "voert een andere speler de actie \u201cleg eieren\u201duit, leg dan 1 [egg] op een andere vogel in deze rij.",
+      "Flavor text": "Glanskoevogels bleken eieren te leggen in de nesten van meer dan 200 vogelsoorten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "678": {
+      "English name": "Smooth-Billed Ani",
+      "Common name": "Kleine ani",
+      "Power text": "grenst minimaal 1 [platform]-vogel aan deze vogel, leg dan 1 [egg] op deze vogel. Grenzen er minimaal 3 [platform]-vogels aan deze vogel leg dan 1 extra [egg] op deze vogel.",
+      "Flavor text": "Deze soort legt haar eieren vaak in een gemeenschappelijk nest.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "679": {
+      "English name": "Snowy Albatross",
+      "Common name": "Grote albatros",
+      "Power text": "trek de [card] in de vogelhouder die de grootste vleugelwijdte heeft.",
+      "Flavor text": "De sneeuwalbatros heeft de grootste vleugelwijdte van alle vogels ter wereld.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "680": {
+      "English name": "Southern Lapwing",
+      "Common name": "Chileense kievit",
+      "Power text": "leg voor elk leeg veld in je [forest] 1 [egg] op deze vogel of trek 1 [card] van de gedekte stapel.",
+      "Flavor text": "Het leefgebied van deze plevieren groeit mee met de ontbossing.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "681": {
+      "English name": "Southern Rough-Winged Swallow",
+      "Common name": "Zuid-Amerikaanse ruwvleugelzwaluw",
+      "Power text": "Leg 1 [invertebrate] af om 2 [card] te trekken. Je mag er 1 van of beide onder deze vogel wegstoppen. ",
+      "Flavor text": "Deze zwaluwen jagen boven water op insecten en nestelen in holen aan oevers.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "682": {
+      "English name": "Southern Screamer",
+      "Common name": "Kuifhoenderkoet",
+      "Power text": "Stop 1 [card] uit je hand onder deze vogel weg of leg 1 onder deze vogel weggestopte [card] af om 3 [card] te trekken.",
+      "Flavor text": "Deze vogels vechten om partners met scherpe sporen, maar vormen grote zwermen na de broedtijd.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "683": {
+      "English name": "Spectacled Owl",
+      "Common name": "Briluil",
+      "Power text": "stel het vogelhuisje opnieuw samen. Bewaar 1 [rodent] uit het vogelhuisje, indien beschikbaar.",
+      "Flavor text": "Deze nachtelijke jager vangt prooien tot de grootte van oppossums, konijnen en stinkdieren.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "684": {
+      "English name": "Spotted Nothura",
+      "Common name": "Gevlekte nothura",
+      "Power text": "Leg 1 [egg] op elke vogel met een eilimiet van 5 of meer.",
+      "Flavor text": "De eieren van deze tinamoe zijn chocoladebruin, mogelijk om ze op de grond te verbergen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "685": {
+      "English name": "Spotted Puffbird",
+      "Common name": "Gevlekte baardkoekoek",
+      "Power text": "Pak 1 [invertebrate] uit de algemene voorraad.",
+      "Flavor text": "De borstelveren rond de snavel van de baardkoekoeken beschermen waarschijnlijk tegen steken bij het eten van insecten.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "686": {
+      "English name": "Squirrel Cuckoo",
+      "Common name": "Eekhoornkoekoek",
+      "Power text": "Bewaar 1 [wild] uit je voorraad op deze vogel.",
+      "Flavor text": "Van deze vogel wordt gezegd dat hij als een eekhoorn beweegt, rennend en springend tussen takken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "687": {
+      "English name": "Strange-Tailed Tyrant",
+      "Common name": "Wimpelstaarttiran",
+      "Power text": "Stop 1 [card] uit je hand onder deze vogel weg om de kolibrie uit deze rij terug te geven.",
+      "Flavor text": "Bij dee soort zijn de buitenste twee staartveren van het mannetje langer dan zijn lichaam.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "688": {
+      "English name": "Sun Parakett",
+      "Common name": "Zonparkiet",
+      "Power text": "trek voor elke vogel met een [cavity]-nest op je tableau 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
+      "Flavor text": "Deze parkiet word in het wild bedreigd door vangst voor de kooivogelhandel.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "689": {
+      "English name": "Sunbittern",
+      "Common name": "Zonneral",
+      "Power text": "iedere speler trekt 4 [card] van de gedekte stapel, neemt er 1 van in zij hand en legt de rest af. Jij mag 1 kaart onder deze vogel wegstoppen in plaats van die af te leggen.",
+      "Flavor text": "De verder onopvallende zonneral spreidt bij gevaar zijn vleugels en toont twee felle oogvlekken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "690": {
+      "English name": "Sungrebe",
+      "Common name": "Kleine fuutkoet",
+      "Power text": "Leg 1 [egg] af om 1 [card] te trekken. Je mag 1 extra [egg] afleggen om 2 extra [card] te trekken.",
+      "Flavor text": "Voor hun kuikens kunnen zwemmen, dragen mannetjes ze in huidplooien onder hun vleugels.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "691": {
+      "English name": "Titicaca Grebe",
+      "Common name": "Titicacafuut",
+      "Power text": "trek zoveel nieuwe bonuskaarten als het aantal spelers +1. Te beginnen bij jou kiest iedere speler er 1 om te houden en houd jij ook de laatste bonuskaart.",
+      "Flavor text": "Deze bedreigde , niet vliegende fuut raakt tijdens het duiken vaak in visnetten verstrikt.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "692": {
+      "English name": "Toco Toucan",
+      "Common name": "Reuzentoekan",
+      "Power text": "activeer in een volgorde naar keuze zoveel bruine eigenschappen in deze rij als je wilt.",
+      "Flavor text": "Toekans regelen hun lichaamstemperatuur door extra bloed naar un snavel te sturen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "693": {
+      "English name": "Tropical Kingbird",
+      "Common name": "Tropische koningstiran",
+      "Power text": "is dit de meest rechtse vogel in zijn leefomgeving, verplaats deze dan met de actiesteen naar een andere leefomgeving en vervolg je beurt in de nieuwe leefomgeving.",
+      "Flavor text": "Deze vogels zoeken een hoge zitplaats in open terrein, vliegen o[ een insect af en keren terug naar dezelfde plek.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "694": {
+      "English name": "Tropical Parula",
+      "Common name": "Maskerparulazanger",
+      "Power text": "Lok 1 [bee]- of [topaz]-kolibrie of geef die terug.",
+      "Flavor text": "De naam \u2018pitiayumi\u2019 in de wetenschappelijke naam van deze vogel komt uit het Guarani en betekent \u2018kleine gele borst\u2019.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "695": {
+      "English name": "Tropical Royal Flycatcher",
+      "Common name": "Amazonekroontiran",
+      "Power text": "Geef 1 [invertebrate] uit jouw voorraad aan een andere speler naar keuze om 2 [invertebrate] uit de algemene voorraad te pakken.",
+      "Flavor text": "Mannetjes van deze soort hebben een schitterende kuif, maar tonen die zelden buiten de balts.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "696": {
+      "English name": "Turquisoe-Browed Motmot",
+      "Common name": "Wenkbrouwmotmot",
+      "Power text": "iedere speler mag 1 kolibrie teruggeven te beginnen bij de speler naar jouw keuze.",
+      "Flavor text": "De motmot waarschuwt vaak voor gevaar door zijn staart als een slinger heen en weer te zwaaien.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "697": {
+      "English name": "Ultramarine Grosbreak",
+      "Common name": "Ultramarijnbisschop",
+      "Power text": "speel een andere vogel in deze kolom zonder links ervan lege velden over te laten. Betaal de gebruikelijke kosten ervan.",
+      "Flavor text": "Cyanoloxia betekent \u2018blauwe kruisbe\u2019, maar deze vogels zijn niet nauw verwant aan kruisbekken.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "698": {
+      "English name": "Vampire Ground-Finch",
+      "Common name": "Vampiergrondvink",
+      "Power text": "leg 1 [egg] op elke vogel met een [wild]-symbool in zijn voedselkosten.",
+      "Flavor text": "Het dieet van deze Gal\u00e1pagosvink bestaat uit guano, eieren, parasieten en soms vogelbloed.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "699": {
+      "English name": "Variable Seedeater",
+      "Common name": "Noordelijk bont dikbekje",
+      "Power text": "leg 1 [seed] af om 1 [egg] op elk van de vogels direct links en rechts van deze vogel te leggen. Je mag 1 extra [seed] afleggen om 1 [egg] op deze vogel te leggen.",
+      "Flavor text": "Het verenkleed van deze soort is in Mexico bijna geheel zwart, maar in Panama half wit.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "700": {
+      "English name": "Verdin",
+      "Common name": "Geelkopmees",
+      "Power text": "leg 1 [invertebrate] af om 1 kolibrieactie uit te voeren.",
+      "Flavor text": "Deze kleine vogels eten vooral insecten, maar dinken ook uit bloemen.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "701": {
+      "English name": "Vermillion Flycatcher",
+      "Common name": "Rode tiran",
+      "Power text": "lok 1 [bee]- of [brilliant]-kolibrie.",
+      "Flavor text": "In de Zapoteekse folklore brengt het geluk om de felrode borst van een mannetjes-rode tiran te zien.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "702": {
+      "English name": "Wattled Jacana",
+      "Common name": "Leljacana",
+      "Power text": "Vul de vogelhouder aan. Doe je dat, dan mag je 1 [card] uit je hand tegen 1 [card] uit de vogelhouder ruilen.",
+      "Flavor text": "De lange tenen van de jacana\u2019s laten hen zonder te zinken over drijvende planten lopen.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "703": {
+      "English name": "Western Rockhopper Penguin",
+      "Common name": "Westelijke rotspingu\u00efn",
+      "Power text": "Leg 1 [fish] af om 2 [card] te trekken. Je mag er 1 van of beide onder deze vogel wegstoppen.",
+      "Flavor text": "In Chili zijn twee kolonies met naar schatting meer dan 100.000 oaren van deze luidruchtige vogels.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": "x",
+      "Historian": null,
+      "Photographer": null
+    },
+    "704": {
+      "English name": "White-Browed Tit-Spinetail",
+      "Common name": "Witbrauwmeesstekelstaart",
+      "Power text": "trek voor elke vogel in je [forest] 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
+      "Flavor text": "Deze bedeigde soort komt alleen voor op enkele plekken in Peru, waaronder Machu Picchu.",
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
+    },
+    "705": {
+      "English name": "White-Throated Magpie-Jay",
+      "Common name": "Ekstergaai",
+      "Power text": "kies zoveel aan dee vogel grenzende vogels als je wilt en stop onder elk ervan 1 [card] uit je hand weg. Trek voor elk ervan 1 [card] van de gedekte stapel.",
+      "Flavor text": "Deze sociale vogels broeden samen, waarbij dochters bij ouders blijven om te helpen.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "706": {
+      "English name": "White-Tipped Dove",
+      "Common name": "Verraeauxs duif",
+      "Power text": "kies maximaal 3 vogels met [seed] in hun voedselkosten. Bewaar op elk ervan 1 [seed] uit de algemene voorraad.",
+      "Flavor text": "Het leefgebied van deze vogel loopt van Texas tot Argentini\u00eb, maar hij wordt vaker gehoor dan gezien.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "707": {
+      "English name": "Yellow Warbler",
+      "Common name": "Mangrovezanger",
+      "Power text": "iedere andere speler trekt 2 [card] van de gedekte stapel, houd er 1  van en geeft er 1 aan jou. Trek 2 extra [card] van de gedekte stapel. Houd er 2 van leg de rest af.",
+      "Flavor text": "Mangrovezangers keren vaak terug naar dezelfde plek en bouwen binnen 75 meter van hun vorige nest.",
+      "Note": null,
+      "Anatomist": null,
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": null
+    },
+    "708": {
+      "English name": "Yellow-Headed Caracara",
+      "Common name": "Geelkopcaracara",
+      "Power text": "is er direct nadat een andere speler het vogelhuisje opnieuw heeft samengesteld een [invertebrate] of [rodent] in het vogelhuisje, bewaar dan 1 van dat voedsel uit de voorraad op deze vogel.",
+      "Flavor text": null,
+      "Note": null,
+      "Anatomist": "x",
+      "Cartographer": null,
+      "Historian": null,
+      "Photographer": "x"
     }
   },
   "bonuses": {
@@ -6063,7 +6838,7 @@
   },
   "parameters": {
     "Show bonus cards match symbols": {
-      "Value": false
+      "Value": 0
     }
   }
 }

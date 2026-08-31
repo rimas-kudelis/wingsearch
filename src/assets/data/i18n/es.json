@@ -2,7 +2,6 @@
   "birds": {
     "2": {
       "English name": "Acorn Woodpecker",
-      "Scientific name": "Melanerpes formicivorus",
       "Common name": "Carpintero bellotero",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -14,7 +13,6 @@
     },
     "3": {
       "English name": "American Avocet",
-      "Scientific name": "Recurvirostra americana",
       "Common name": "Avoceta americana",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de poner huevos, esta ave pone 1 [egg] en otra ave con un nido [ground].",
       "Flavor text": null,
@@ -26,7 +24,6 @@
     },
     "4": {
       "English name": "American Bittern",
-      "Scientific name": "Botaurus lentiginosus",
       "Common name": "Avetoro lentiginoso",
       "Power text": "Los jugadores con menos aves en su h\u00e1bitat [wetland] roban 1 [card]",
       "Flavor text": null,
@@ -38,7 +35,6 @@
     },
     "5": {
       "English name": "American Coot",
-      "Scientific name": "Fulica americana",
       "Common name": "Focha americana",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -50,7 +46,6 @@
     },
     "6": {
       "English name": "American Crow",
-      "Scientific name": "Corvus brachyrhynchos",
       "Common name": "Cuervo americano",
       "Power text": "Descarta 1 [egg] de cualquiera de tus otras aves para obtener 1 [wild] del suministro.",
       "Flavor text": null,
@@ -62,7 +57,6 @@
     },
     "7": {
       "English name": "American Goldfinch",
-      "Scientific name": "Spinus tristis",
       "Common name": "Jilguero norteamericano",
       "Power text": "Obt\u00e9n 3 [seed] del suministro.",
       "Flavor text": null,
@@ -74,7 +68,6 @@
     },
     "8": {
       "English name": "American Kestrel",
-      "Scientific name": "Falco sparverius",
       "Common name": "Cern\u00edcalo americano",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -86,7 +79,6 @@
     },
     "9": {
       "English name": "American Oystercatcher",
-      "Scientific name": "Haematopus palliatus",
       "Common name": "Ostrero p\u00edo americano",
       "Power text": "Roba tantas [card] como el n\u00famero de jugadores +1. Empezando por ti y en el sentido de las agujas del reloj, cada jugador elige 1 de ellas y la pone en su mano. T\u00fa te quedas la carta extra.",
       "Flavor text": null,
@@ -98,7 +90,6 @@
     },
     "10": {
       "English name": "American Redstart",
-      "Scientific name": "Setophaga ruticilla",
       "Common name": "Candelita norte\u00f1a",
       "Power text": "Obten 1 [wild] del comedero.",
       "Flavor text": null,
@@ -110,7 +101,6 @@
     },
     "11": {
       "English name": "American Robin",
-      "Scientific name": "Turdus migratorius",
       "Common name": "Zorzal rob\u00edn",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -122,7 +112,6 @@
     },
     "12": {
       "English name": "American White Pelican",
-      "Scientific name": "Pelecanus erythrorhynchos",
       "Common name": "Pel\u00edcano norteamericano",
       "Power text": "Descarta 1 [fish] para solapar 2 [card] del mazo bajo esta ave.",
       "Flavor text": null,
@@ -134,7 +123,6 @@
     },
     "13": {
       "English name": "American Woodcock",
-      "Scientific name": "Scolopax minor",
       "Common name": "Agachadiza americana",
       "Power text": null,
       "Flavor text": null,
@@ -146,7 +134,6 @@
     },
     "14": {
       "English name": "Anhinga",
-      "Scientific name": "Anhinga anhinga",
       "Common name": "Aninga americana",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -158,7 +145,6 @@
     },
     "15": {
       "English name": "Anna's Hummingbird",
-      "Scientific name": "Calypte anna",
       "Common name": "Colibr\u00ed de Ana",
       "Power text": "Cada jugador obtiene 1 [die] del comedero, empezando por el jugador que elijas.",
       "Flavor text": null,
@@ -170,7 +156,6 @@
     },
     "16": {
       "English name": "Ash-Throated Flycatcher",
-      "Scientific name": "Myiarchus cinerascens",
       "Common name": "Copet\u00f3n cenizo",
       "Power text": "Pon 1 [egg] en cada una de tus aves con un nido [cavity].",
       "Flavor text": null,
@@ -182,7 +167,6 @@
     },
     "17": {
       "English name": "Atlantic Puffin",
-      "Scientific name": "Fratercula arctica",
       "Common name": "Frailecillo atl\u00e1ntico",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -194,7 +178,6 @@
     },
     "18": {
       "English name": "Audouin's Gull",
-      "Scientific name": "Ichthyaetus audouinii",
       "Common name": "Gaviota de Audouin",
       "Power text": null,
       "Flavor text": null,
@@ -206,7 +189,6 @@
     },
     "19": {
       "English name": "Baird's Sparrow",
-      "Scientific name": "Ammodramus bairdii",
       "Common name": "Chingolo de Baird",
       "Power text": "Pon 1 [egg] en cualquier ave.",
       "Flavor text": null,
@@ -218,7 +200,6 @@
     },
     "20": {
       "English name": "Bald Eagle",
-      "Scientific name": "Haliaeetus leucocephalus",
       "Common name": "\u00c1guila calva",
       "Power text": "Obt\u00e9n todos los [fish] que haya en el comedero.",
       "Flavor text": null,
@@ -230,7 +211,6 @@
     },
     "21": {
       "English name": "Baltimore Oriole",
-      "Scientific name": "Icterus galbula",
       "Common name": "Turpial de Baltimore",
       "Power text": "Todos los jugadores obtienen 1 [fruit] del suministro.",
       "Flavor text": null,
@@ -242,7 +222,6 @@
     },
     "22": {
       "English name": "Barn Owl",
-      "Scientific name": "Tyto alba",
       "Common name": "Lechuza com\u00fan",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -254,7 +233,6 @@
     },
     "23": {
       "English name": "Barn Swallow",
-      "Scientific name": "Hirundo rustica",
       "Common name": "Golondrina com\u00fan",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -266,7 +244,6 @@
     },
     "24": {
       "English name": "Barred Owl",
-      "Scientific name": "Strix varia",
       "Common name": "C\u00e1rabo norteamericano",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -278,7 +255,6 @@
     },
     "25": {
       "English name": "Barrow's Goldeneye",
-      "Scientific name": "Bucephala islandica",
       "Common name": "Porr\u00f3n isl\u00e1ndico",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de poner huevos, esta ave pone 1 [egg] en otra ave con un nido [cavity].",
       "Flavor text": null,
@@ -290,7 +266,6 @@
     },
     "26": {
       "English name": "Bell's Vireo",
-      "Scientific name": "Vireo bellii",
       "Common name": "Vireo de Bell",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -302,7 +277,6 @@
     },
     "27": {
       "English name": "Belted Kingfisher",
-      "Scientific name": "Megaceryle alcyon",
       "Common name": "Mart\u00edn gigante norteamericano",
       "Power text": "Cuando otro jugador juegue un ave en [wetland], obtienes 1 [fish] del suministro.",
       "Flavor text": null,
@@ -314,7 +288,6 @@
     },
     "28": {
       "English name": "Bewick's Wren",
-      "Scientific name": "Thryomanes bewickii",
       "Common name": "Cucarachero colinegro",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -326,7 +299,6 @@
     },
     "29": {
       "English name": "Black Redstart",
-      "Scientific name": "Phoenicurus ochruros",
       "Common name": "Colirrojo tiz\u00f3n",
       "Power text": null,
       "Flavor text": null,
@@ -338,7 +310,6 @@
     },
     "30": {
       "English name": "Black Skimmer",
-      "Scientific name": "Rynchops niger",
       "Common name": "Rayador americano",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -350,7 +321,6 @@
     },
     "31": {
       "English name": "Black Tern",
-      "Scientific name": "Chlidonias niger",
       "Common name": "Fumarel com\u00fan",
       "Power text": "Roba 1 [card]. Si lo haces, descarta 1 [card] de tu mano al final del turno.",
       "Flavor text": null,
@@ -362,7 +332,6 @@
     },
     "32": {
       "English name": "Black Vulture",
-      "Scientific name": "Coragyps atratus",
       "Common name": "Zopilote negro",
       "Power text": "Cuando otro jugador tenga \u00e9xito en su [predator], obtienes 1 [die] del comedero.",
       "Flavor text": null,
@@ -374,7 +343,6 @@
     },
     "33": {
       "English name": "Black Woodpecker",
-      "Scientific name": "Dryocopus martius",
       "Common name": "Picamaderos negro",
       "Power text": null,
       "Flavor text": null,
@@ -386,7 +354,6 @@
     },
     "34": {
       "English name": "Black-Bellied Whistling-Duck",
-      "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Suirir\u00ed piquirrojo",
       "Power text": "Descarta 1 [seed] para solapar 2 [card] del mazo bajo esta ave.",
       "Flavor text": null,
@@ -398,7 +365,6 @@
     },
     "35": {
       "English name": "Black-Billed Magpie",
-      "Scientific name": "Pica hudsonia",
       "Common name": "Urraca de Hudson",
       "Power text": "Cuando otro jugador tenga \u00e9xito en su [predator], obtienes 1 [die] del comedero.",
       "Flavor text": null,
@@ -410,7 +376,6 @@
     },
     "36": {
       "English name": "Black-Chinned Hummingbird",
-      "Scientific name": "Archilochus alexandri",
       "Common name": "Colibr\u00ed gorjinegro",
       "Power text": "Todos los jugadores obtienen 1 [fruit] del suministro.",
       "Flavor text": null,
@@ -422,7 +387,6 @@
     },
     "37": {
       "English name": "Black-Crowned Night-Heron",
-      "Scientific name": "Nycticorax nycticorax",
       "Common name": "Martinete com\u00fan",
       "Power text": "Descarta 1 [egg] de cualquiera de tus otras aves para obtener 1 [wild] del suministro.",
       "Flavor text": null,
@@ -434,7 +398,6 @@
     },
     "38": {
       "English name": "Black-Headed Gull",
-      "Scientific name": "Chroicocephalus ridibundus",
       "Common name": "Gaviota reidora",
       "Power text": null,
       "Flavor text": null,
@@ -446,7 +409,6 @@
     },
     "39": {
       "English name": "Black-Necked Stilt",
-      "Scientific name": "Himantopus mexicanus",
       "Common name": "Cig\u00fce\u00f1uela cuellinegra",
       "Power text": "Roba 2 [card].",
       "Flavor text": null,
@@ -458,7 +420,6 @@
     },
     "40": {
       "English name": "Black-Tailed Godwit",
-      "Scientific name": "Limosa limosa",
       "Common name": "Aguja colinegra",
       "Power text": null,
       "Flavor text": null,
@@ -470,7 +431,6 @@
     },
     "41": {
       "English name": "Black-Throated Diver",
-      "Scientific name": "Gavia arctica",
       "Common name": "Colimbo \u00e1rtico",
       "Power text": null,
       "Flavor text": null,
@@ -482,7 +442,6 @@
     },
     "42": {
       "English name": "Blue Grosbeak",
-      "Scientific name": "Passerina caerulea",
       "Common name": "Azulillo grande",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -494,7 +453,6 @@
     },
     "43": {
       "English name": "Blue Jay",
-      "Scientific name": "Cyanocitta cristata",
       "Common name": "Chara azul",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -506,7 +464,6 @@
     },
     "44": {
       "English name": "Blue-Gray Gnatcatcher",
-      "Scientific name": "Polioptila caerulea",
       "Common name": "Perlita grisilla",
       "Power text": "Obten 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -518,7 +475,6 @@
     },
     "45": {
       "English name": "Blue-Winged Warbler",
-      "Scientific name": "Vermivora cyanoptera",
       "Common name": "Reinita aliazul",
       "Power text": null,
       "Flavor text": null,
@@ -530,7 +486,6 @@
     },
     "46": {
       "English name": "Bluethroat",
-      "Scientific name": "Luscinia svecica",
       "Common name": "Ruise\u00f1or pechiazul",
       "Power text": null,
       "Flavor text": null,
@@ -542,7 +497,6 @@
     },
     "47": {
       "English name": "Bobolink",
-      "Scientific name": "Dolichonyx oryzivorus",
       "Common name": "Tordo charlat\u00e1n",
       "Power text": "Pon 1 [egg] en cada una de tus aves con un nido [ground].",
       "Flavor text": null,
@@ -554,7 +508,6 @@
     },
     "48": {
       "English name": "Bonelli's Eagle",
-      "Scientific name": "Aquila fasciata",
       "Common name": "\u00c1guila perdicera",
       "Power text": null,
       "Flavor text": null,
@@ -566,7 +519,6 @@
     },
     "49": {
       "English name": "Brant",
-      "Scientific name": "Branta bernicla",
       "Common name": "Barnacla carinegra",
       "Power text": "Roba las 3 [card] bocarriba de la bandeja de aves.",
       "Flavor text": null,
@@ -578,7 +530,6 @@
     },
     "50": {
       "English name": "Brewer's Blackbird",
-      "Scientific name": "Euphagus cyanocephalus",
       "Common name": "Zanate de Brewer",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -590,7 +541,6 @@
     },
     "51": {
       "English name": "Broad-Winged Hawk",
-      "Scientific name": "Buteo platypterus",
       "Common name": "Busardo aliancho",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -602,7 +552,6 @@
     },
     "52": {
       "English name": "Bronzed Cowbird",
-      "Scientific name": "Molothrus aeneus",
       "Common name": "Tordo ojirrojo",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de poner huevos, esta ave pone 1 [egg] en otra ave con un nido [bowl].",
       "Flavor text": null,
@@ -614,7 +563,6 @@
     },
     "53": {
       "English name": "Brown Pelican",
-      "Scientific name": "Pelecanus occidentalis",
       "Common name": "Pel\u00edcano alcatraz",
       "Power text": "Obt\u00e9n 3 [fish] del suministo.",
       "Flavor text": null,
@@ -626,7 +574,6 @@
     },
     "54": {
       "English name": "Brown-Headed Cowbird",
-      "Scientific name": "Molothrus ater",
       "Common name": "Tordo cabecipardo",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de poner huevos, esta ave pone 1 [egg] en otra ave con un nido [bowl].",
       "Flavor text": null,
@@ -638,7 +585,6 @@
     },
     "55": {
       "English name": "Bullfinch",
-      "Scientific name": "Pyrrhula pyrrhula",
       "Common name": "Camachuelo com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -650,7 +596,6 @@
     },
     "56": {
       "English name": "Burrowing Owl",
-      "Scientific name": "Athene cunicularia",
       "Common name": "Mochuelo de madriguera",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -662,7 +607,6 @@
     },
     "57": {
       "English name": "Bushtit",
-      "Scientific name": "Psaltriparus minimus",
       "Common name": "Mito sastrecillo",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -674,7 +618,6 @@
     },
     "58": {
       "English name": "California Condor",
-      "Scientific name": "Gymnogyps californianus",
       "Common name": "C\u00f3ndor californiano",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -686,7 +629,6 @@
     },
     "59": {
       "English name": "California Quail",
-      "Scientific name": "Callipepla californica",
       "Common name": "Codorniz californiana",
       "Power text": "Pon 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -698,7 +640,6 @@
     },
     "60": {
       "English name": "Canada Goose",
-      "Scientific name": "Branta canadensis",
       "Common name": "Barnacla canadiense",
       "Power text": "Descarta 1 [seed] para solapar 2 [card] del mazo bajo esta ave.",
       "Flavor text": null,
@@ -710,7 +651,6 @@
     },
     "61": {
       "English name": "Canvasback",
-      "Scientific name": "Aythya valisineria",
       "Common name": "Porr\u00f3n coacoxtle",
       "Power text": "Todos los jugadores roban 1 [card] del mazo.",
       "Flavor text": null,
@@ -722,7 +662,6 @@
     },
     "62": {
       "English name": "Carolina Chickadee",
-      "Scientific name": "Poecile carolinensis",
       "Common name": "Carbonero de Carolina",
       "Power text": "Obt\u00e9n 1 [seed] del suministro y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -734,7 +673,6 @@
     },
     "63": {
       "English name": "Carolina Wren",
-      "Scientific name": "Thryothorus ludovicianus",
       "Common name": "Cucarachero de Carolina",
       "Power text": "Roba 2 [card].",
       "Flavor text": null,
@@ -746,7 +684,6 @@
     },
     "64": {
       "English name": "Carrion Crow",
-      "Scientific name": "Corvus corone",
       "Common name": "Corneja negra",
       "Power text": null,
       "Flavor text": null,
@@ -758,7 +695,6 @@
     },
     "65": {
       "English name": "Cassin's Finch",
-      "Scientific name": "Haemorhous cassinii",
       "Common name": "Camachuelo de Cassin",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -770,7 +706,6 @@
     },
     "66": {
       "English name": "Cassin's Sparrow",
-      "Scientific name": "Peucaea cassinii",
       "Common name": "Chingolo de Cassin",
       "Power text": "Pon 1 [egg] en cualquier ave.",
       "Flavor text": null,
@@ -782,7 +717,6 @@
     },
     "67": {
       "English name": "Cedar Waxwing",
-      "Scientific name": "Bombycilla cedrorum",
       "Common name": "Ampelis americano",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, obt\u00e9n 1 [fruit] del suministro.",
       "Flavor text": null,
@@ -794,7 +728,6 @@
     },
     "68": {
       "English name": "Cerulean Warbler",
-      "Scientific name": "Setophaga cerulea",
       "Common name": "Reinita cer\u00falea",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -806,7 +739,6 @@
     },
     "69": {
       "English name": "Cetti's Warbler",
-      "Scientific name": "Cettia cetti",
       "Common name": "Cetia ruise\u00f1or",
       "Power text": null,
       "Flavor text": null,
@@ -818,7 +750,6 @@
     },
     "70": {
       "English name": "Chestnut-Collared Longspur",
-      "Scientific name": "Calcarius ornatus",
       "Common name": "Escribano collarejo",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -830,7 +761,6 @@
     },
     "71": {
       "English name": "Chihuahuan Raven",
-      "Scientific name": "Corvus cryptoleucus",
       "Common name": "Cuervo llanero",
       "Power text": "Descarta 1 [egg] de cualquiera de tus otras aves para obtener 2 [wild] del suministro.",
       "Flavor text": null,
@@ -842,7 +772,6 @@
     },
     "72": {
       "English name": "Chimney Swift",
-      "Scientific name": "Chaetura pelagica",
       "Common name": "Vencejo de chimenea",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -854,7 +783,6 @@
     },
     "73": {
       "English name": "Chipping Sparrow",
-      "Scientific name": "Spizella passerina",
       "Common name": "Chingolo cejiblanco",
       "Power text": "Pon 1 [egg] en cualquier ave.",
       "Flavor text": null,
@@ -866,7 +794,6 @@
     },
     "74": {
       "English name": "Clark's Grebe",
-      "Scientific name": "Aechmophorus clarkii",
       "Common name": "Achichilique de Clark",
       "Power text": "Roba 1 [card]. Si lo haces, descarta 1 [card] de tu mano al final del turno.",
       "Flavor text": null,
@@ -878,7 +805,6 @@
     },
     "75": {
       "English name": "Clark's Nutcracker",
-      "Scientific name": "Nucifraga columbiana",
       "Common name": "Cascanueces americano",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -890,7 +816,6 @@
     },
     "76": {
       "English name": "Coal Tit",
-      "Scientific name": "Periparus ater",
       "Common name": "Carbonero garrapinos",
       "Power text": null,
       "Flavor text": null,
@@ -902,7 +827,6 @@
     },
     "77": {
       "English name": "Common Blackbird",
-      "Scientific name": "Turdus merula",
       "Common name": "Mirlo com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -914,7 +838,6 @@
     },
     "78": {
       "English name": "Common Buzzard",
-      "Scientific name": "Buteo buteo",
       "Common name": "Busardo ratonero",
       "Power text": null,
       "Flavor text": null,
@@ -926,7 +849,6 @@
     },
     "79": {
       "English name": "Common Chaffinch",
-      "Scientific name": "Fringilla coelebs",
       "Common name": "Pinz\u00f3n vulgar",
       "Power text": null,
       "Flavor text": null,
@@ -938,7 +860,6 @@
     },
     "80": {
       "English name": "Common Chiffchaff",
-      "Scientific name": "Phylloscopus collybita",
       "Common name": "Mosquitero com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -950,7 +871,6 @@
     },
     "81": {
       "English name": "Common Cuckoo",
-      "Scientific name": "Cuculus canorus",
       "Common name": "Cuco com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -962,7 +882,6 @@
     },
     "82": {
       "English name": "Common Goldeneye",
-      "Scientific name": "Bucephala clangula",
       "Common name": "Porr\u00f3n osculado",
       "Power text": null,
       "Flavor text": null,
@@ -974,7 +893,6 @@
     },
     "83": {
       "English name": "Common Grackle",
-      "Scientific name": "Quiscalus quiscula",
       "Common name": "Zanate com\u00fan",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -986,7 +904,6 @@
     },
     "84": {
       "English name": "Common Kingfisher",
-      "Scientific name": "Alcedo atthis",
       "Common name": "Mart\u00edn pescador com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -998,7 +915,6 @@
     },
     "85": {
       "English name": "Common Little Bittern",
-      "Scientific name": "Ixobrychus minutus",
       "Common name": "Avetorillo com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1010,7 +926,6 @@
     },
     "86": {
       "English name": "Common Loon",
-      "Scientific name": "Gavia immer",
       "Common name": "Colimbo grande",
       "Power text": "Los jugadores con menos aves en su h\u00e1bitat [wetland] obtienen 1 [card] del comedero.",
       "Flavor text": null,
@@ -1022,7 +937,6 @@
     },
     "87": {
       "English name": "Common Merganser",
-      "Scientific name": "Mergus merganser",
       "Common name": "Serreta grande",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -1034,7 +948,6 @@
     },
     "88": {
       "English name": "Common Moorhen",
-      "Scientific name": "Gallinula chloropus",
       "Common name": "Gallineta com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1046,7 +959,6 @@
     },
     "89": {
       "English name": "Common Nighthawk",
-      "Scientific name": "Chordeiles minor",
       "Common name": "A\u00f1apero yanqui",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -1058,7 +970,6 @@
     },
     "90": {
       "English name": "Common Nightingale",
-      "Scientific name": "Luscinia megarhynchos",
       "Common name": "Ruise\u00f1or com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1070,7 +981,6 @@
     },
     "91": {
       "English name": "Common Raven",
-      "Scientific name": "Corvus corax",
       "Common name": "Cuervo grande",
       "Power text": "Descarta 1 [egg] de cualquiera de tus otras aves para obtener 2 [wild] del suministro.",
       "Flavor text": null,
@@ -1082,7 +992,6 @@
     },
     "92": {
       "English name": "Common Starling",
-      "Scientific name": "Sturnus vulgaris",
       "Common name": "Estornino pinto",
       "Power text": null,
       "Flavor text": null,
@@ -1094,7 +1003,6 @@
     },
     "93": {
       "English name": "Common Swift",
-      "Scientific name": "Apus apus",
       "Common name": "Vencejo com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1106,7 +1014,6 @@
     },
     "94": {
       "English name": "Common Yellowthroat",
-      "Scientific name": "Geothlypis trichas",
       "Common name": "Mascarita com\u00fan",
       "Power text": "Roba 2 [card]. Si lo haces, descarta 1 [card] de tu mano al final de tu turno.",
       "Flavor text": null,
@@ -1118,7 +1025,6 @@
     },
     "95": {
       "English name": "Cooper's Hawk",
-      "Scientific name": "Accipiter cooperii",
       "Common name": "Gavil\u00e1n de Cooper",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -1130,7 +1036,6 @@
     },
     "96": {
       "English name": "Corsican Nuthatch",
-      "Scientific name": "Sitta whiteheadi",
       "Common name": "Trepador corso",
       "Power text": null,
       "Flavor text": null,
@@ -1142,7 +1047,6 @@
     },
     "97": {
       "English name": "Dark-Eyed Junco",
-      "Scientific name": "Junco hyemalis",
       "Common name": "Junco pizarroso",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, obt\u00e9n 1 [seed] del suministro.",
       "Flavor text": null,
@@ -1154,7 +1058,6 @@
     },
     "98": {
       "English name": "Dickcissel",
-      "Scientific name": "Spiza americana",
       "Common name": "Arrocero",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -1166,7 +1069,6 @@
     },
     "99": {
       "English name": "Double-Crested Cormorant",
-      "Scientific name": "Phalacrocorax auritus",
       "Common name": "Cormor\u00e1n orejudo",
       "Power text": "Descarta 1 [fish] para solapar 2 [card] del mazo bajo esta ave.",
       "Flavor text": null,
@@ -1178,7 +1080,6 @@
     },
     "100": {
       "English name": "Downy Woodpecker",
-      "Scientific name": "Picoides pubescens",
       "Common name": "Pico pubescente",
       "Power text": "Juega una segunda ave en tu [forest]. Paga su coste normal.",
       "Flavor text": null,
@@ -1190,7 +1091,6 @@
     },
     "101": {
       "English name": "Dunnock",
-      "Scientific name": "Prunella modularis",
       "Common name": "Acentor com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1202,7 +1102,6 @@
     },
     "102": {
       "English name": "Eastern Bluebird",
-      "Scientific name": "Sialia sialis",
       "Common name": "Azulejo oriental",
       "Power text": "Juega una segunda ave en tu [grassland]. Paga su coste normal.",
       "Flavor text": null,
@@ -1214,7 +1113,6 @@
     },
     "103": {
       "English name": "Eastern Imperial Eagle",
-      "Scientific name": "Aquila heliaca",
       "Common name": "\u00c1guila imperial oriental",
       "Power text": null,
       "Flavor text": null,
@@ -1226,7 +1124,6 @@
     },
     "104": {
       "English name": "Eastern Kingbird",
-      "Scientific name": "Tyrannus tyrannus",
       "Common name": "Tirano oriental",
       "Power text": "Cuando otro jugador juegue un ave en [forest], obtienes 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -1238,7 +1135,6 @@
     },
     "105": {
       "English name": "Eastern Phoebe",
-      "Scientific name": "Sayornis phoebe",
       "Common name": "Mosquero fib\u00ed",
       "Power text": "Todos los jugadores obtienen 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -1250,7 +1146,6 @@
     },
     "106": {
       "English name": "Eastern Screech-Owl",
-      "Scientific name": "Megascops asio",
       "Common name": "Autillo yanqui",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -1262,7 +1157,6 @@
     },
     "107": {
       "English name": "Eleonora's Falcon",
-      "Scientific name": "Falco eleonorae",
       "Common name": "Halc\u00f3n de Eleonora",
       "Power text": null,
       "Flavor text": null,
@@ -1274,7 +1168,6 @@
     },
     "108": {
       "English name": "Eurasian Collared-Dove",
-      "Scientific name": "Streptopelia decaocto",
       "Common name": "T\u00f3rtola turca",
       "Power text": null,
       "Flavor text": null,
@@ -1286,7 +1179,6 @@
     },
     "109": {
       "English name": "Eurasian Golden Oriole",
-      "Scientific name": "Oriolus oriolus",
       "Common name": "Orop\u00e9ndola europea",
       "Power text": null,
       "Flavor text": null,
@@ -1298,7 +1190,6 @@
     },
     "110": {
       "English name": "Eurasian Green Woodpecker",
-      "Scientific name": "Picus viridis",
       "Common name": "Carpintero verde europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1310,7 +1201,6 @@
     },
     "111": {
       "English name": "Eurasian Hobby",
-      "Scientific name": "Falco subbuteo",
       "Common name": "Alcot\u00e1n europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1322,7 +1212,6 @@
     },
     "112": {
       "English name": "Eurasian Jay",
-      "Scientific name": "Garrulus glandarius",
       "Common name": "Arrendajo euroasi\u00e1tico",
       "Power text": null,
       "Flavor text": null,
@@ -1334,7 +1223,6 @@
     },
     "113": {
       "English name": "Eurasian Magpie",
-      "Scientific name": "Pica pica",
       "Common name": "Urraca com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1346,7 +1234,6 @@
     },
     "114": {
       "English name": "Eurasian Nutcracker",
-      "Scientific name": "Nucifraga caryocatactes",
       "Common name": "Cascanueces com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1358,7 +1245,6 @@
     },
     "115": {
       "English name": "Eurasian Nuthatch",
-      "Scientific name": "Sitta europaea",
       "Common name": "Trepador azul",
       "Power text": null,
       "Flavor text": null,
@@ -1370,7 +1256,6 @@
     },
     "116": {
       "English name": "Eurasian Sparrowhawk",
-      "Scientific name": "Accipiter nisus",
       "Common name": "Gavil\u00e1n com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1382,7 +1267,6 @@
     },
     "117": {
       "English name": "Eurasian Tree Sparrow",
-      "Scientific name": "Passer montanus",
       "Common name": "Gorri\u00f3n molinero",
       "Power text": null,
       "Flavor text": null,
@@ -1394,7 +1278,6 @@
     },
     "118": {
       "English name": "European Bee-Eater",
-      "Scientific name": "Merops apiaster",
       "Common name": "Abejaruco europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1406,7 +1289,6 @@
     },
     "119": {
       "English name": "European Goldfinch",
-      "Scientific name": "Carduelis carduelis",
       "Common name": "Jilguero europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1418,7 +1300,6 @@
     },
     "120": {
       "English name": "European Honey Buzzard",
-      "Scientific name": "Pernis apivorus",
       "Common name": "Abejero europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1430,7 +1311,6 @@
     },
     "121": {
       "English name": "European Robin",
-      "Scientific name": "Erithacus rubecula",
       "Common name": "Petirrojo europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1442,7 +1322,6 @@
     },
     "122": {
       "English name": "European Roller",
-      "Scientific name": "Coracias garrulus",
       "Common name": "Carraca europea",
       "Power text": null,
       "Flavor text": null,
@@ -1454,7 +1333,6 @@
     },
     "123": {
       "English name": "European Turtle Dove",
-      "Scientific name": "Streptopelia turtur",
       "Common name": "T\u00f3rtola europea",
       "Power text": null,
       "Flavor text": null,
@@ -1466,7 +1344,6 @@
     },
     "124": {
       "English name": "Ferruginous Hawk",
-      "Scientific name": "Buteo regalis",
       "Common name": "Busardo herrumbroso",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -1478,7 +1355,6 @@
     },
     "125": {
       "English name": "Fish Crow",
-      "Scientific name": "Corvus ossifragus",
       "Common name": "Cuervo pescador",
       "Power text": "Descarta 1 [egg] de cualquiera de tus otras aves para obtener 1 [wild] del suministro.",
       "Flavor text": null,
@@ -1490,7 +1366,6 @@
     },
     "126": {
       "English name": "Forster's Tern",
-      "Scientific name": "Sterna forsteri",
       "Common name": "Charr\u00e1n de Forster",
       "Power text": "Roba 1 [card]. Si lo haces, descarta 1 [card] de tu mano al final del turno.",
       "Flavor text": null,
@@ -1502,7 +1377,6 @@
     },
     "127": {
       "English name": "Franklin's Gull",
-      "Scientific name": "Leucophaeus pipixcan",
       "Common name": "Gaviota de Franklin",
       "Power text": "Descarta 1 [egg] para robar 2 [card].",
       "Flavor text": null,
@@ -1514,7 +1388,6 @@
     },
     "128": {
       "English name": "Goldcrest",
-      "Scientific name": "Regulus regulus",
       "Common name": "Reyezuelo sencillo",
       "Power text": null,
       "Flavor text": null,
@@ -1526,7 +1399,6 @@
     },
     "129": {
       "English name": "Golden Eagle",
-      "Scientific name": "Aquila chrysaetos",
       "Common name": "\u00c1guila real",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 100 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -1538,7 +1410,6 @@
     },
     "130": {
       "English name": "Grasshopper Sparrow",
-      "Scientific name": "Ammodramus savannarum",
       "Common name": "Chingolo saltamontes",
       "Power text": "Pon 1 [egg] en cualquier ave.",
       "Flavor text": null,
@@ -1550,7 +1421,6 @@
     },
     "131": {
       "English name": "Gray Catbird",
-      "Scientific name": "Dumetella carolinensis",
       "Common name": "P\u00e1jaro-gato gris",
       "Power text": "Repite un poder marr\u00f3n de otra ave de este h\u00e1bitat.",
       "Flavor text": null,
@@ -1562,7 +1432,6 @@
     },
     "132": {
       "English name": "Great Blue Heron",
-      "Scientific name": "Ardea herodias",
       "Common name": "Garza azulada",
       "Power text": "Juega una segunda ave en tu [wetland]. Paga su coste normal.",
       "Flavor text": null,
@@ -1574,7 +1443,6 @@
     },
     "133": {
       "English name": "Great Crested Flycatcher",
-      "Scientific name": "Myiarchus crinitus",
       "Common name": "Copet\u00f3n viajero",
       "Power text": "Obt\u00e9n 1 [invertebrate] del comedero, si lo hay.",
       "Flavor text": null,
@@ -1586,7 +1454,6 @@
     },
     "134": {
       "English name": "Great Crested Grebe",
-      "Scientific name": "Podiceps cristatus",
       "Common name": "Somormujo lavanco",
       "Power text": null,
       "Flavor text": null,
@@ -1598,7 +1465,6 @@
     },
     "135": {
       "English name": "Great Egret",
-      "Scientific name": "Ardea alba",
       "Common name": "Garceta grande",
       "Power text": "Juega una segunda ave en tu [wetland]. Paga su coste normal.",
       "Flavor text": null,
@@ -1610,7 +1476,6 @@
     },
     "136": {
       "English name": "Great Horned Owl",
-      "Scientific name": "Bubo virginianus",
       "Common name": "B\u00faho americano",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 100 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -1622,7 +1487,6 @@
     },
     "137": {
       "English name": "Great Tit",
-      "Scientific name": "Parus major",
       "Common name": "Carbonero com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1634,7 +1498,6 @@
     },
     "138": {
       "English name": "Greater Flamingo",
-      "Scientific name": "Phoenicopterus roseus",
       "Common name": "Flamenco com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1646,7 +1509,6 @@
     },
     "139": {
       "English name": "Greater Prairie-Chicken",
-      "Scientific name": "Tympanuchus cupido",
       "Common name": "Gallo de las praderas grande",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -1658,7 +1520,6 @@
     },
     "140": {
       "English name": "Greater Roadrunner",
-      "Scientific name": "Geococcyx californianus",
       "Common name": "Correcaminos grande",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 50 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -1670,7 +1531,6 @@
     },
     "141": {
       "English name": "Green Heron",
-      "Scientific name": "Butorides virescens",
       "Common name": "Garcita verdosa",
       "Power text": "Cambia 1 [wild] por cualquier otro [wild] del suministro.",
       "Flavor text": null,
@@ -1682,7 +1542,6 @@
     },
     "142": {
       "English name": "Grey Heron",
-      "Scientific name": "Ardea cinerea",
       "Common name": "Garza real",
       "Power text": null,
       "Flavor text": null,
@@ -1694,7 +1553,6 @@
     },
     "143": {
       "English name": "Greylag Goose",
-      "Scientific name": "Anser anser",
       "Common name": "\u00c1nsar com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1706,7 +1564,6 @@
     },
     "144": {
       "English name": "Griffon Vulture",
-      "Scientific name": "Gyps fulvus",
       "Common name": "Buitre leonado",
       "Power text": "Elige a 1 jugadar (puedes ser t\u00fa). Coloca 1 [rodent] del suministro en esta ave por cada [predator] que tenga ese jugador.",
       "Flavor text": null,
@@ -1718,7 +1575,6 @@
     },
     "145": {
       "English name": "Hawfinch",
-      "Scientific name": "Coccothraustes coccothraustes",
       "Common name": "Picogordo com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1730,7 +1586,6 @@
     },
     "146": {
       "English name": "Hermit Thrush",
-      "Scientific name": "Catharus guttatus",
       "Common name": "Zorzalito colirrufo",
       "Power text": "Los jugadores con menos aves en su h\u00e1bitat [forest] obtienen 1 [die] del comedero.",
       "Flavor text": null,
@@ -1742,7 +1597,6 @@
     },
     "147": {
       "English name": "Hooded Crow",
-      "Scientific name": "Corvus cornix",
       "Common name": "Corneja cenicienta",
       "Power text": null,
       "Flavor text": null,
@@ -1754,7 +1608,6 @@
     },
     "148": {
       "English name": "Hooded Merganser",
-      "Scientific name": "Lophodytes cucullatus",
       "Common name": "Serreta capuchona",
       "Power text": "Repite un poder [predator] en este h\u00e1bitat.",
       "Flavor text": null,
@@ -1766,7 +1619,6 @@
     },
     "149": {
       "English name": "Hooded Warbler",
-      "Scientific name": "Setophaga citrina",
       "Common name": "Reinita encapuchada",
       "Power text": null,
       "Flavor text": null,
@@ -1778,7 +1630,6 @@
     },
     "150": {
       "English name": "Horned Lark",
-      "Scientific name": "Eremophila alpestris",
       "Common name": "Alondra cornuda",
       "Power text": "Cuando otro jugador juegue un ave en [grassland], solapa 1 [card] de tu mano bajo esta ave.",
       "Flavor text": null,
@@ -1790,7 +1641,6 @@
     },
     "151": {
       "English name": "House Finch",
-      "Scientific name": "Haemorhous mexicanus",
       "Common name": "Camachuelo mejicano",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -1802,7 +1652,6 @@
     },
     "152": {
       "English name": "House Sparrow",
-      "Scientific name": "Passer domesticus",
       "Common name": "Gorri\u00f3n com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1814,7 +1663,6 @@
     },
     "153": {
       "English name": "House Wren",
-      "Scientific name": "Troglodytes aedon",
       "Common name": "Choch\u00edn criollo",
       "Power text": "Juega una segunda ave en tu [grassland] o en tu [forest]. Paga su coste normal.",
       "Flavor text": null,
@@ -1826,7 +1674,6 @@
     },
     "154": {
       "English name": "Inca Dove",
-      "Scientific name": "Columbina inca",
       "Common name": "Tortolita mexicana",
       "Power text": "Pon 1 [egg] en cada una de tus aves con un nido [platform].",
       "Flavor text": null,
@@ -1838,7 +1685,6 @@
     },
     "155": {
       "English name": "Indigo Bunting",
-      "Scientific name": "Passerina cyanea",
       "Common name": "Azulillo \u00edndigo",
       "Power text": "Obt\u00e9n 1 [invertebrate] o [fruit] del comedero, si lo hay.",
       "Flavor text": null,
@@ -1850,7 +1696,6 @@
     },
     "156": {
       "English name": "Juniper Titmouse",
-      "Scientific name": "Baeolophus ridgwayi",
       "Common name": "Herrerillo de Ridgway",
       "Power text": "Obt\u00e9n 1 [seed] del suministro y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -1862,7 +1707,6 @@
     },
     "157": {
       "English name": "Killdeer",
-      "Scientific name": "Charadrius vociferus",
       "Common name": "Chorlitejo culirrojo",
       "Power text": "Descarta 1 [egg] para robar 2 [card].",
       "Flavor text": null,
@@ -1874,7 +1718,6 @@
     },
     "158": {
       "English name": "King Rail",
-      "Scientific name": "Rallus elegans",
       "Common name": "Rasc\u00f3n elegante",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -1886,7 +1729,6 @@
     },
     "159": {
       "English name": "Lazuli Bunting",
-      "Scientific name": "Passerina amoena",
       "Common name": "Azulillo lapisl\u00e1zuli",
       "Power text": "Todos los jugadores ponen 1 [egg] en 1 ave [bowl] cualquiera. Puedes poner 1 [egg] en 1 ave [bowl] adicional.",
       "Flavor text": null,
@@ -1898,7 +1740,6 @@
     },
     "160": {
       "English name": "Lesser Whitethroat",
-      "Scientific name": "Sylvia curruca",
       "Common name": "Curruca zarcerilla",
       "Power text": null,
       "Flavor text": null,
@@ -1910,7 +1751,6 @@
     },
     "161": {
       "English name": "Lincoln's Sparrow",
-      "Scientific name": "Melospiza lincolnii",
       "Common name": "Chingolo de Lincoln",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -1922,7 +1762,6 @@
     },
     "162": {
       "English name": "Little Bustard",
-      "Scientific name": "Tetrax tetrax",
       "Common name": "Sis\u00f3n com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1934,7 +1773,6 @@
     },
     "163": {
       "English name": "Little Owl",
-      "Scientific name": "Athene noctua",
       "Common name": "Mochuelo europeo",
       "Power text": null,
       "Flavor text": null,
@@ -1946,7 +1784,6 @@
     },
     "164": {
       "English name": "Loggerhead Shrike",
-      "Scientific name": "Lanius ludovicianus",
       "Common name": "Alcaud\u00f3n americano",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de obtener alimento, si obtiene cualquier n\u00famero de [rodent], obtienes 1 [rodent] del suministro y lo almacenas en esta carta.",
       "Flavor text": null,
@@ -1958,7 +1795,6 @@
     },
     "165": {
       "English name": "Long-Tailed Tit",
-      "Scientific name": "Aegithalos caudatus",
       "Common name": "Mito com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -1970,7 +1806,6 @@
     },
     "166": {
       "English name": "Mallard",
-      "Scientific name": "Anas platyrhynchos",
       "Common name": "\u00c1nade azul\u00f3n",
       "Power text": "Roba 1 [card].",
       "Flavor text": null,
@@ -1982,7 +1817,6 @@
     },
     "167": {
       "English name": "Mississippi Kite",
-      "Scientific name": "Ictinia mississippiensis",
       "Common name": "Elanio del Mississippi",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -1994,7 +1828,6 @@
     },
     "168": {
       "English name": "Moltoni's Warbler",
-      "Scientific name": "Sylvia subalpina",
       "Common name": "Curruca subalpina",
       "Power text": "Si usaste los 4 tipos de acciones en esta ronda, juega otra ave. Paga su coste normal en comida y huevas.",
       "Flavor text": null,
@@ -2006,7 +1839,6 @@
     },
     "169": {
       "English name": "Montagu's Harrier",
-      "Scientific name": "Circus pygargus",
       "Common name": "Aguilucho cenizo",
       "Power text": null,
       "Flavor text": null,
@@ -2018,7 +1850,6 @@
     },
     "170": {
       "English name": "Mountain Bluebird",
-      "Scientific name": "Sialia currucoides",
       "Common name": "Azulejo claro",
       "Power text": "Juega una segunda ave en tu [grassland]. Paga su coste normal.",
       "Flavor text": null,
@@ -2030,7 +1861,6 @@
     },
     "171": {
       "English name": "Mountain Chickadee",
-      "Scientific name": "Poecile gambeli",
       "Common name": "Carbonero monta\u00f1\u00e9s",
       "Power text": "Obt\u00e9n 1 [seed] del suministro y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -2042,7 +1872,6 @@
     },
     "172": {
       "English name": "Mourning Dove",
-      "Scientific name": "Zenaida macroura",
       "Common name": "Zenaida huilota",
       "Power text": "Pon 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -2054,7 +1883,6 @@
     },
     "173": {
       "English name": "Mute Swan",
-      "Scientific name": "Cygnus olor",
       "Common name": "Cisne blanco",
       "Power text": null,
       "Flavor text": null,
@@ -2066,7 +1894,6 @@
     },
     "174": {
       "English name": "Northern Bobwhite",
-      "Scientific name": "Colinus virginianus",
       "Common name": "Col\u00edn de Virginia",
       "Power text": "Pon 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -2078,7 +1905,6 @@
     },
     "175": {
       "English name": "Northern Cardinal",
-      "Scientific name": "Cardinalis cardinalis",
       "Common name": "Cardenal norte\u00f1o",
       "Power text": "Obt\u00e9n 1 [fruit] del suministro.",
       "Flavor text": null,
@@ -2090,7 +1916,6 @@
     },
     "176": {
       "English name": "Northern Flicker",
-      "Scientific name": "Colaptes auratus",
       "Common name": "Carpintero escapulario",
       "Power text": "Obt\u00e9n todos los [invertebrate] que haya en el comedero.",
       "Flavor text": null,
@@ -2102,7 +1927,6 @@
     },
     "177": {
       "English name": "Northern Gannet",
-      "Scientific name": "Morus bassanus",
       "Common name": "Alcatraz com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -2114,7 +1938,6 @@
     },
     "178": {
       "English name": "Northern Goshawk",
-      "Scientific name": "Accipiter gentilis",
       "Common name": "Azor com\u00fan",
       "Power text": null,
       "Flavor text": null,
@@ -2126,7 +1949,6 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus hudsonius",
       "Common name": "Aguilucho p\u00e1lido",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -2138,7 +1960,6 @@
     },
     "180": {
       "English name": "Northern Mockingbird",
-      "Scientific name": "Mimus polyglottos",
       "Common name": "Sinsonte norte\u00f1o",
       "Power text": "Repite un poder marr\u00f3n de otra ave de este h\u00e1bitat.",
       "Flavor text": null,
@@ -2150,7 +1971,6 @@
     },
     "181": {
       "English name": "Northern Shoveler",
-      "Scientific name": "Spatula clypeata",
       "Common name": "Cuchara com\u00fan",
       "Power text": "Todos los jugadores roban 1 [card] del mazo.",
       "Flavor text": null,
@@ -2162,7 +1982,6 @@
     },
     "182": {
       "English name": "Osprey",
-      "Scientific name": "Pandion haliaetus",
       "Common name": "\u00c1guila pescadora",
       "Power text": "Todos los jugadores obtienen 1 [fish] del suministro.",
       "Flavor text": null,
@@ -2174,7 +1993,6 @@
     },
     "183": {
       "English name": "Painted Bunting",
-      "Scientific name": "Passerina ciris",
       "Common name": "Azulillo sietecolores",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2186,7 +2004,6 @@
     },
     "184": {
       "English name": "Painted Whitestart",
-      "Scientific name": "Myioborus pictus",
       "Common name": "Candelita aliblanca",
       "Power text": "Obten 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -2198,7 +2015,6 @@
     },
     "185": {
       "English name": "Parrot Crossbill",
-      "Scientific name": "Loxia pytyopsittacus",
       "Common name": "Piquituerto lorito",
       "Power text": null,
       "Flavor text": null,
@@ -2210,7 +2026,6 @@
     },
     "186": {
       "English name": "Peregrine Falcon",
-      "Scientific name": "Falco peregrinus",
       "Common name": "Halc\u00f3n peregrino",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 100 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -2222,7 +2037,6 @@
     },
     "187": {
       "English name": "Pied-Billed Grebe",
-      "Scientific name": "Podilymbus podiceps",
       "Common name": "Zampull\u00edn picogrueso",
       "Power text": "Roba 2 [card]. Si lo haces, descarta 1 [card] de tu mano al final de tu turno.",
       "Flavor text": null,
@@ -2234,7 +2048,6 @@
     },
     "188": {
       "English name": "Pileated Woodpecker",
-      "Scientific name": "Dryocopus pileatus",
       "Common name": "Picamaderos norteamericano",
       "Power text": "Todos los jugadores ponen 1 [egg] en 1 ave [cavity] cualquiera. Puedes poner 1 [egg] en 1 ave [cavity] adicional.",
       "Flavor text": null,
@@ -2246,7 +2059,6 @@
     },
     "189": {
       "English name": "Pine Siskin",
-      "Scientific name": "Spinus pinus",
       "Common name": "Jilguero de los pinos",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, obt\u00e9n 1 [seed] del suministro.",
       "Flavor text": null,
@@ -2258,7 +2070,6 @@
     },
     "190": {
       "English name": "Prothonotary Warbler",
-      "Scientific name": "Protonotaria citrea",
       "Common name": "Reinita protonotaria",
       "Power text": null,
       "Flavor text": null,
@@ -2270,7 +2081,6 @@
     },
     "191": {
       "English name": "Purple Gallinule",
-      "Scientific name": "Porphyrio martinicus",
       "Common name": "Calamoncillo americano",
       "Power text": "Todos los jugadores roban 1 [card] del mazo.",
       "Flavor text": null,
@@ -2282,7 +2092,6 @@
     },
     "192": {
       "English name": "Purple Martin",
-      "Scientific name": "Progne subis",
       "Common name": "Golondrina purp\u00farea",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -2294,7 +2103,6 @@
     },
     "193": {
       "English name": "Pygmy Nuthatch",
-      "Scientific name": "Sitta pygmaea",
       "Common name": "Trepador enano",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, obt\u00e9n 1 [invertebrate] o 1 [seed] del suministro.",
       "Flavor text": null,
@@ -2306,7 +2114,6 @@
     },
     "194": {
       "English name": "Red Crossbill",
-      "Scientific name": "Loxia curvirostra",
       "Common name": "Piquituerto com\u00fan",
       "Power text": "Todos los jugadores obtienen 1 [seed] del suministro.",
       "Flavor text": null,
@@ -2318,7 +2125,6 @@
     },
     "195": {
       "English name": "Red Kite",
-      "Scientific name": "Milvus milvus",
       "Common name": "Milano real",
       "Power text": null,
       "Flavor text": null,
@@ -2330,7 +2136,6 @@
     },
     "196": {
       "English name": "Red Knot",
-      "Scientific name": "Calidris canutus",
       "Common name": "Correlimos gordo",
       "Power text": null,
       "Flavor text": null,
@@ -2342,7 +2147,6 @@
     },
     "197": {
       "English name": "Red-Backed Shrike",
-      "Scientific name": "Lanius collurio",
       "Common name": "Alcaud\u00f3n dorsirrojo",
       "Power text": null,
       "Flavor text": null,
@@ -2354,7 +2158,6 @@
     },
     "198": {
       "English name": "Red-Bellied Woodpecker",
-      "Scientific name": "Melanerpes carolinus",
       "Common name": "Carpintero de Carolina",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -2366,7 +2169,6 @@
     },
     "199": {
       "English name": "Red-Breasted Merganser",
-      "Scientific name": "Mergus serrator",
       "Common name": "Serreta mediana",
       "Power text": "Roba 2 [card]. Si lo haces, descarta 1 [card] de tu mano al final de tu turno.",
       "Flavor text": null,
@@ -2378,7 +2180,6 @@
     },
     "200": {
       "English name": "Red-Breasted Nuthatch",
-      "Scientific name": "Sitta canadensis",
       "Common name": "Trepador canadiense",
       "Power text": "Obt\u00e9n 1 [seed] del suministro y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -2390,7 +2191,6 @@
     },
     "201": {
       "English name": "Red-Cockaded Woodpecker",
-      "Scientific name": "Picoides borealis",
       "Common name": "Pico de Florida",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2402,7 +2202,6 @@
     },
     "202": {
       "English name": "Red-Eyed Vireo",
-      "Scientific name": "Vireo olivaceus",
       "Common name": "Vireo chiv\u00ed",
       "Power text": "Juega una segunda ave en tu [forest]. Paga su coste normal.",
       "Flavor text": null,
@@ -2414,7 +2213,6 @@
     },
     "203": {
       "English name": "Red-Headed Woodpecker",
-      "Scientific name": "Melanerpes erythrocephalus",
       "Common name": "Carpintero cabecirrojo",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -2426,7 +2224,6 @@
     },
     "204": {
       "English name": "Red-Legged Partridge",
-      "Scientific name": "Alectoris rufa",
       "Common name": "Perdiz roja",
       "Power text": null,
       "Flavor text": null,
@@ -2438,7 +2235,6 @@
     },
     "205": {
       "English name": "Red-Shouldered Hawk",
-      "Scientific name": "Buteo lineatus",
       "Common name": "Busardo hombrorrojo",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -2450,7 +2246,6 @@
     },
     "206": {
       "English name": "Red-Tailed Hawk",
-      "Scientific name": "Buteo jamaicensis",
       "Common name": "Busardo colirrojo",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -2462,7 +2257,6 @@
     },
     "207": {
       "English name": "Red-Winged Blackbird",
-      "Scientific name": "Agelaius phoeniceus",
       "Common name": "Sargento alirrojo",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -2474,7 +2268,6 @@
     },
     "208": {
       "English name": "Ring-Billed Gull",
-      "Scientific name": "Larus delawarensis",
       "Common name": "Gaviota de Delaware",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -2486,7 +2279,6 @@
     },
     "209": {
       "English name": "Rose-Breasted Grosbeak",
-      "Scientific name": "Pheucticus ludovicianus",
       "Common name": "Picogrueso pechirrosado",
       "Power text": "Obt\u00e9n 1 [seed] o 1 [fruit] del comedero si lo hay.",
       "Flavor text": null,
@@ -2498,7 +2290,6 @@
     },
     "210": {
       "English name": "Roseate Spoonbill",
-      "Scientific name": "Platalea ajaja",
       "Common name": "Esp\u00e1tula rosada",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2510,7 +2301,6 @@
     },
     "211": {
       "English name": "Ruby-Crowned Kinglet",
-      "Scientific name": "Regulus calendula",
       "Common name": "Reyezuelo rub\u00ed",
       "Power text": "Juega una segunda ave en tu [forest]. Paga su coste normal.",
       "Flavor text": null,
@@ -2522,7 +2312,6 @@
     },
     "212": {
       "English name": "Ruby-Throated Hummingbird",
-      "Scientific name": "Archilochus colubris",
       "Common name": "Colibr\u00ed gorgirrub\u00ed",
       "Power text": "Cada jugador obtiene 1 [die] del comedero, empezando por el jugador que elijas.",
       "Flavor text": null,
@@ -2534,7 +2323,6 @@
     },
     "213": {
       "English name": "Ruddy Duck",
-      "Scientific name": "Oxyura jamaicensis",
       "Common name": "Malvas\u00eda canela",
       "Power text": "Roba 2 [card]. Si lo haces, descarta 1 [card] de tu mano al final de tu turno.",
       "Flavor text": null,
@@ -2546,7 +2334,6 @@
     },
     "214": {
       "English name": "Ruff",
-      "Scientific name": "Calidris pugnax",
       "Common name": "Combatiente",
       "Power text": null,
       "Flavor text": null,
@@ -2558,7 +2345,6 @@
     },
     "215": {
       "English name": "Sandhill Crane",
-      "Scientific name": "Antigone canadensis",
       "Common name": "Grulla canadiense",
       "Power text": "Decarta 1 [seed] para solapar 2 [card] del mazo bajo esta ave.",
       "Flavor text": null,
@@ -2570,7 +2356,6 @@
     },
     "216": {
       "English name": "Savannah Sparrow",
-      "Scientific name": "Passerculus sandwichensis",
       "Common name": "Chingolo sabanero",
       "Power text": "Juega una segunda ave en tu [grassland]. Paga su coste normal.",
       "Flavor text": null,
@@ -2582,7 +2367,6 @@
     },
     "217": {
       "English name": "Savi's Warbler",
-      "Scientific name": "Locustella luscinioides",
       "Common name": "Buscarla unicolor",
       "Power text": null,
       "Flavor text": null,
@@ -2594,7 +2378,6 @@
     },
     "218": {
       "English name": "Say's Phoebe",
-      "Scientific name": "Sayornis saya",
       "Common name": "Mosquero llanero",
       "Power text": "Pon 1 [egg] en cada una de tus aves con un nido [bowl]",
       "Flavor text": null,
@@ -2606,7 +2389,6 @@
     },
     "219": {
       "English name": "Scaled Quail",
-      "Scientific name": "Callipepla squamata",
       "Common name": "Col\u00edn escamado",
       "Power text": "Pon 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -2618,7 +2400,6 @@
     },
     "220": {
       "English name": "Scissor-Tailed Flycatcher",
-      "Scientific name": "Tyrannus forficatus",
       "Common name": "Tijereta rosada",
       "Power text": "Todos los jugadores obtienen 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -2630,7 +2411,6 @@
     },
     "221": {
       "English name": "Short-Toed Treecreeper",
-      "Scientific name": "Certhia brachydactyla",
       "Common name": "Agateador europeo",
       "Power text": null,
       "Flavor text": null,
@@ -2642,7 +2422,6 @@
     },
     "222": {
       "English name": "Snow Bunting",
-      "Scientific name": "Plectrophenax nivalis",
       "Common name": "Escribano nival",
       "Power text": null,
       "Flavor text": null,
@@ -2654,7 +2433,6 @@
     },
     "223": {
       "English name": "Snowy Egret",
-      "Scientific name": "Egretta thula",
       "Common name": "Garceta n\u00edvea",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -2666,7 +2444,6 @@
     },
     "224": {
       "English name": "Snowy Owl",
-      "Scientific name": "Bubo scandiacus",
       "Common name": "B\u00faho nival",
       "Power text": null,
       "Flavor text": null,
@@ -2678,7 +2455,6 @@
     },
     "225": {
       "English name": "Song Sparrow",
-      "Scientific name": "Melospiza melodia",
       "Common name": "Chingolo cantor",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -2690,7 +2466,6 @@
     },
     "226": {
       "English name": "Spotted Owl",
-      "Scientific name": "Strix occidentalis",
       "Common name": "C\u00e1rabo californiano",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2702,7 +2477,6 @@
     },
     "227": {
       "English name": "Spotted Sandpiper",
-      "Scientific name": "Actitis macularius",
       "Common name": "Andarr\u00edos maculado",
       "Power text": "Todos los jugadores roban 1 [card] del mazo.",
       "Flavor text": null,
@@ -2714,7 +2488,6 @@
     },
     "228": {
       "English name": "Spotted Towhee",
-      "Scientific name": "Pipilo maculatus",
       "Common name": "Toqu\u00ed moteado",
       "Power text": "Obten 1 [seed] del suministro.",
       "Flavor text": null,
@@ -2726,7 +2499,6 @@
     },
     "229": {
       "English name": "Sprague's Pipit",
-      "Scientific name": "Anthus spragueii",
       "Common name": "Bisbita llanero",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2738,7 +2510,6 @@
     },
     "230": {
       "English name": "Squacco Heron",
-      "Scientific name": "Ardeola ralloides",
       "Common name": "Garcilla cangrejera",
       "Power text": null,
       "Flavor text": null,
@@ -2750,7 +2521,6 @@
     },
     "231": {
       "English name": "Steller's Jay",
-      "Scientific name": "Cyanocitta stelleri",
       "Common name": "Chara de Steller",
       "Power text": "Obt\u00e9n 1 [seed] (si lo hay) del comedero. Puedes almacenarlo en esta carta.",
       "Flavor text": null,
@@ -2762,7 +2532,6 @@
     },
     "232": {
       "English name": "Swainson's Hawk",
-      "Scientific name": "Buteo swainsoni",
       "Common name": "Busardo chapulinero",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Flavor text": null,
@@ -2774,7 +2543,6 @@
     },
     "233": {
       "English name": "Thekla's Lark",
-      "Scientific name": "Galerida theklae",
       "Common name": "Cogujada montesina",
       "Power text": null,
       "Flavor text": null,
@@ -2786,7 +2554,6 @@
     },
     "234": {
       "English name": "Tree Swallow",
-      "Scientific name": "Tachycineta bicolor",
       "Common name": "Golondrina bicolor",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -2798,7 +2565,6 @@
     },
     "235": {
       "English name": "Trumpeter Swan",
-      "Scientific name": "Cygnus buccinator",
       "Common name": "Cisne trompetero",
       "Power text": null,
       "Flavor text": null,
@@ -2810,7 +2576,6 @@
     },
     "236": {
       "English name": "Tufted Titmouse",
-      "Scientific name": "Baeolophus bicolor",
       "Common name": "Herrerillo bicolor",
       "Power text": "Juega una segunda ave en tu [forest]. Paga su coste normal.",
       "Flavor text": null,
@@ -2822,7 +2587,6 @@
     },
     "237": {
       "English name": "Turkey Vulture",
-      "Scientific name": "Cathartes aura",
       "Common name": "Aura gallipavo",
       "Power text": "Cuando otro jugador tenga \u00e9xito en su [predator], obtienes 1 [die] del comedero.",
       "Flavor text": null,
@@ -2834,7 +2598,6 @@
     },
     "238": {
       "English name": "Vaux's Swift",
-      "Scientific name": "Chaetura vauxi",
       "Common name": "Vencejo de Vaux",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, obt\u00e9n 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -2846,7 +2609,6 @@
     },
     "239": {
       "English name": "Violet-Green Swallow",
-      "Scientific name": "Tachycineta thalassina",
       "Common name": "Golondrina verdemar",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -2858,7 +2620,6 @@
     },
     "240": {
       "English name": "Western Meadowlark",
-      "Scientific name": "Sturnella neglecta",
       "Common name": "Pradero occidental",
       "Power text": "Todos los jugadores ponen 1 [egg] en 1 ave [ground] cualquiera. Puedes poner 1 [egg] en 1 ave [ground] adicional.",
       "Flavor text": null,
@@ -2870,7 +2631,6 @@
     },
     "241": {
       "English name": "Western Tanager",
-      "Scientific name": "Piranga ludoviciana",
       "Common name": "Piranga carirroja",
       "Power text": "Obt\u00e9n 1 [invertebrate] o 1 [fruit] del comedero si lo hay.",
       "Flavor text": null,
@@ -2882,7 +2642,6 @@
     },
     "242": {
       "English name": "White Stork",
-      "Scientific name": "Ciconia ciconia",
       "Common name": "Cig\u00fce\u00f1a blanca",
       "Power text": null,
       "Flavor text": null,
@@ -2894,7 +2653,6 @@
     },
     "243": {
       "English name": "White Wagtail",
-      "Scientific name": "Motacilla alba",
       "Common name": "Lavandera blanca",
       "Power text": "Si usaste los 4 tipos de acciones en esta ronda, juega otra ave. Paga su coste normal en comida y huevas.",
       "Flavor text": null,
@@ -2906,7 +2664,6 @@
     },
     "244": {
       "English name": "White-Backed Woodpecker",
-      "Scientific name": "Dendrocopos leucotos",
       "Common name": "Pico dorsiblanco",
       "Power text": null,
       "Flavor text": null,
@@ -2918,7 +2675,6 @@
     },
     "245": {
       "English name": "White-Breasted Nuthatch",
-      "Scientific name": "Sitta carolinensis",
       "Common name": "Trepador pechiblanco",
       "Power text": "Obten 1 [seed] del suministro y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -2930,7 +2686,6 @@
     },
     "246": {
       "English name": "White-Crowned Sparrow",
-      "Scientific name": "Zonotrichia leucophrys",
       "Common name": "Chingolo coroniblanco",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -2942,7 +2697,6 @@
     },
     "247": {
       "English name": "White-Faced Ibis",
-      "Scientific name": "Plegadis chihi",
       "Common name": "Morito cariblanco",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -2954,7 +2708,6 @@
     },
     "248": {
       "English name": "White-Throated Dipper",
-      "Scientific name": "Cinclus cinclus",
       "Common name": "Mirlo acu\u00e1tico europeo",
       "Power text": null,
       "Flavor text": null,
@@ -2966,7 +2719,6 @@
     },
     "249": {
       "English name": "White-Throated Swift",
-      "Scientific name": "Aeronautes saxatalis",
       "Common name": "Vencejo gorjiblanco",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon 1 [egg] en cualquier ave.",
       "Flavor text": null,
@@ -2978,7 +2730,6 @@
     },
     "250": {
       "English name": "Whooping Crane",
-      "Scientific name": "Grus americana",
       "Common name": "Grulla trompetera",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -2990,7 +2741,6 @@
     },
     "251": {
       "English name": "Wild Turkey",
-      "Scientific name": "Meleagris gallopavo",
       "Common name": "Pavo salvaje",
       "Power text": null,
       "Flavor text": null,
@@ -3002,7 +2752,6 @@
     },
     "252": {
       "English name": "Willet",
-      "Scientific name": "Tringa semipalmata",
       "Common name": "Playero aliblanco",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [fish], obt\u00e9n 1 [fish] y almac\u00e9nalo en esta carta.",
       "Flavor text": null,
@@ -3014,7 +2763,6 @@
     },
     "253": {
       "English name": "Wilson's Snipe",
-      "Scientific name": "Gallinago delicata",
       "Common name": "Agachadiza de Wilson",
       "Power text": "Todos los jugadores roban 1 [card] del mazo.",
       "Flavor text": null,
@@ -3026,7 +2774,6 @@
     },
     "254": {
       "English name": "Wilson's Storm Petrel",
-      "Scientific name": "Oceanites oceanicus",
       "Common name": "Pa\u00ed\u00f1o de Wilson",
       "Power text": null,
       "Flavor text": null,
@@ -3038,7 +2785,6 @@
     },
     "255": {
       "English name": "Wood Duck",
-      "Scientific name": "Aix sponsa",
       "Common name": "Pato joyuyo",
       "Power text": "Roba 2 [card]. Si lo haces, descarta 1 [card] de tu mano al final de tu turno.",
       "Flavor text": null,
@@ -3050,7 +2796,6 @@
     },
     "256": {
       "English name": "Wood Stork",
-      "Scientific name": "Mycteria americana",
       "Common name": "T\u00e1ntalo americano",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
       "Flavor text": null,
@@ -3062,7 +2807,6 @@
     },
     "257": {
       "English name": "Yellow-Bellied Sapsucker",
-      "Scientific name": "Sphyrapicus varius",
       "Common name": "Chupasavia norte\u00f1o",
       "Power text": "Obt\u00e9n 1 [invertebrate] del suministro.",
       "Flavor text": null,
@@ -3074,7 +2818,6 @@
     },
     "258": {
       "English name": "Yellow-Billed Cuckoo",
-      "Scientific name": "Coccyzus americanus",
       "Common name": "Cuclillo piquigualdo",
       "Power text": "Cuando otro jugador realice la acci\u00f3n de poner huevos, esta ave pone 1 [egg] en otra ave con un nido [bowl].",
       "Flavor text": null,
@@ -3086,7 +2829,6 @@
     },
     "259": {
       "English name": "Yellow-Breasted Chat",
-      "Scientific name": "Icteria virens",
       "Common name": "Reinita grande",
       "Power text": "Si esta ave est\u00e1 a la derecha del resto de aves de su h\u00e1bitat, mu\u00e9vela a otro h\u00e1bitat.",
       "Flavor text": null,
@@ -3098,7 +2840,6 @@
     },
     "260": {
       "English name": "Yellow-Headed Blackbird",
-      "Scientific name": "Xanthocephalus xanthocephalus",
       "Common name": "Tordo cabeciamarillo",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, pon tambi\u00e9n 1 [egg] en esta ave.",
       "Flavor text": null,
@@ -3110,7 +2851,6 @@
     },
     "261": {
       "English name": "Yellow-Rumped Warbler",
-      "Scientific name": "Setophaga coronata",
       "Common name": "Reinita coronada",
       "Power text": "Solapa una [card] de tu mano bajo esta ave. Si lo haces, roba 1 [card].",
       "Flavor text": null,
@@ -3122,7 +2862,6 @@
     },
     "262": {
       "English name": "Yellowhammer",
-      "Scientific name": "Emberiza citrinella",
       "Common name": "Escribano cerillo",
       "Power text": "Si usaste los 4 tipos de acciones en esta ronda, juega otra ave. Paga su coste normal en comida y huevas.",
       "Flavor text": null,
@@ -3134,7 +2873,6 @@
     },
     "263": {
       "English name": "Abbott's Booby",
-      "Scientific name": "Papasula abbotti",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3146,7 +2884,6 @@
     },
     "264": {
       "English name": "Australasian Pipit",
-      "Scientific name": "Anthus novaeseelandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3158,7 +2895,6 @@
     },
     "265": {
       "English name": "Australasian Shoveler",
-      "Scientific name": "Spatula rhynchotis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3170,7 +2906,6 @@
     },
     "266": {
       "English name": "Australian Ibis",
-      "Scientific name": "Threskiornis moluccus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3182,7 +2917,6 @@
     },
     "267": {
       "English name": "Australian Magpie",
-      "Scientific name": "Gymnorhina tibicen",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3194,7 +2928,6 @@
     },
     "268": {
       "English name": "Australian Owlet-Nightjar",
-      "Scientific name": "Aegotheles cristatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3206,7 +2939,6 @@
     },
     "269": {
       "English name": "Australian Raven",
-      "Scientific name": "Corvus coronoides",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3218,7 +2950,6 @@
     },
     "270": {
       "English name": "Australian Reed Warbler",
-      "Scientific name": "Acrocephalus australis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3230,7 +2961,6 @@
     },
     "271": {
       "English name": "Australian Shelduck",
-      "Scientific name": "Tadorna tadornoides",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3242,7 +2972,6 @@
     },
     "272": {
       "English name": "Australian Zebra Finch",
-      "Scientific name": "Taeniopygia castanotis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3254,7 +2983,6 @@
     },
     "273": {
       "English name": "Black Noddy",
-      "Scientific name": "Anous minutus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3266,7 +2994,6 @@
     },
     "274": {
       "English name": "Black Swan",
-      "Scientific name": "Cygnus atratus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3278,7 +3005,6 @@
     },
     "275": {
       "English name": "Black-Shouldered Kite",
-      "Scientific name": "Elanus axillaris",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3290,7 +3016,6 @@
     },
     "276": {
       "English name": "Blyth's Hornbill",
-      "Scientific name": "Rhyticeros plicatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3302,7 +3027,6 @@
     },
     "277": {
       "English name": "Brolga",
-      "Scientific name": "Antigone rubicunda",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3314,7 +3038,6 @@
     },
     "278": {
       "English name": "Brown Falcon",
-      "Scientific name": "Falco berigora",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3326,7 +3049,6 @@
     },
     "279": {
       "English name": "Budgerigar",
-      "Scientific name": "Melopsittacus undulatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3338,7 +3060,6 @@
     },
     "280": {
       "English name": "Cockatiel",
-      "Scientific name": "Nymphicus hollandicus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3350,7 +3071,6 @@
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
-      "Scientific name": "Paradisaea raggiana",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3362,7 +3082,6 @@
     },
     "282": {
       "English name": "Crested Pigeon",
-      "Scientific name": "Ocyphaps lophotes",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3374,7 +3093,6 @@
     },
     "283": {
       "English name": "Crimson Chat",
-      "Scientific name": "Epthianura tricolor",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3386,7 +3104,6 @@
     },
     "284": {
       "English name": "Eastern Rosella",
-      "Scientific name": "Platycercus eximius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3398,7 +3115,6 @@
     },
     "285": {
       "English name": "Eastern Whipbird",
-      "Scientific name": "Psophodes olivaceus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3410,7 +3126,6 @@
     },
     "286": {
       "English name": "Emu",
-      "Scientific name": "Dromaius novaehollandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3422,7 +3137,6 @@
     },
     "287": {
       "English name": "Galah",
-      "Scientific name": "Eolophus roseicapilla",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3434,7 +3148,6 @@
     },
     "288": {
       "English name": "Golden-Headed Cisticola",
-      "Scientific name": "Cisticola exilis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3446,7 +3159,6 @@
     },
     "289": {
       "English name": "Gould's Finch",
-      "Scientific name": "Erythrura gouldiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3458,7 +3170,6 @@
     },
     "290": {
       "English name": "Green Pygmy-Goose",
-      "Scientific name": "Nettapus pulchellus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3470,7 +3181,6 @@
     },
     "291": {
       "English name": "Grey Butcherbird",
-      "Scientific name": "Cracticus torquatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3482,7 +3192,6 @@
     },
     "292": {
       "English name": "Grey Shrikethrush",
-      "Scientific name": "Colluricincla harmonica",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3494,7 +3203,6 @@
     },
     "293": {
       "English name": "Grey Teal",
-      "Scientific name": "Anas gracilis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3506,7 +3214,6 @@
     },
     "294": {
       "English name": "Grey Warbler",
-      "Scientific name": "Gerygone igata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3518,7 +3225,6 @@
     },
     "295": {
       "English name": "Grey-Headed Mannikin",
-      "Scientific name": "Lonchura caniceps",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3530,7 +3236,6 @@
     },
     "296": {
       "English name": "Horsfield's Bronze-Cuckoo",
-      "Scientific name": "Chrysococcyx basalis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3542,7 +3247,6 @@
     },
     "297": {
       "English name": "Horsfield's Bushlark",
-      "Scientific name": "Mirafra javanica",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3554,7 +3258,6 @@
     },
     "298": {
       "English name": "K\u0101k\u0101p\u014d",
-      "Scientific name": "Strigops habroptila",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3566,7 +3269,6 @@
     },
     "299": {
       "English name": "Kea",
-      "Scientific name": "Nestor notabilis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3578,7 +3280,6 @@
     },
     "300": {
       "English name": "Kelp Gull",
-      "Scientific name": "Larus dominicanus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3590,7 +3291,6 @@
     },
     "301": {
       "English name": "Kerer\u016b",
-      "Scientific name": "Hemiphaga novaeseelandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3602,7 +3302,6 @@
     },
     "302": {
       "English name": "Korimako",
-      "Scientific name": "Anthornis melanura",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3614,7 +3313,6 @@
     },
     "303": {
       "English name": "Laughing Kookaburra",
-      "Scientific name": "Dacelo novaeguineae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3626,7 +3324,6 @@
     },
     "304": {
       "English name": "Lesser Frigatebird",
-      "Scientific name": "Fregata ariel",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3638,7 +3335,6 @@
     },
     "305": {
       "English name": "Lewin's Honeyeater",
-      "Scientific name": "Meliphaga lewinii",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3650,7 +3346,6 @@
     },
     "306": {
       "English name": "Little Penguin",
-      "Scientific name": "Eudyptula minor",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3662,7 +3357,6 @@
     },
     "307": {
       "English name": "Little Pied Cormorant",
-      "Scientific name": "Microcarbo melanoleucos",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3674,7 +3368,6 @@
     },
     "308": {
       "English name": "Magpie-Lark",
-      "Scientific name": "Grallina cyanoleuca",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3686,7 +3379,6 @@
     },
     "309": {
       "English name": "Major Mitchell's Cockatoo",
-      "Scientific name": "Lophochroa leadbeateri",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3698,7 +3390,6 @@
     },
     "310": {
       "English name": "Malleefowl",
-      "Scientific name": "Leipoa ocellata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3710,7 +3401,6 @@
     },
     "311": {
       "English name": "Maned Duck",
-      "Scientific name": "Chenonetta jubata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3722,7 +3412,6 @@
     },
     "312": {
       "English name": "Many-Colored Fruit-Dove",
-      "Scientific name": "Ptilinopus perousii",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3734,7 +3423,6 @@
     },
     "313": {
       "English name": "Masked Lapwing",
-      "Scientific name": "Vanellus miles",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3746,7 +3434,6 @@
     },
     "314": {
       "English name": "Mistletoebird",
-      "Scientific name": "Dicaeum hirundinaceum",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3758,7 +3445,6 @@
     },
     "315": {
       "English name": "Musk Duck",
-      "Scientific name": "Biziura lobata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3770,7 +3456,6 @@
     },
     "316": {
       "English name": "New Holland Honeyeater",
-      "Scientific name": "Phylidonyris novaehollandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3782,7 +3467,6 @@
     },
     "317": {
       "English name": "Noisy Miner",
-      "Scientific name": "Manorina melanocephala",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3794,7 +3478,6 @@
     },
     "318": {
       "English name": "North Island Brown Kiwi",
-      "Scientific name": "Apteryx mantelli",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3806,7 +3489,6 @@
     },
     "319": {
       "English name": "Orange-Footed Scrubfowl",
-      "Scientific name": "Megapodius reinwardt",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3818,7 +3500,6 @@
     },
     "320": {
       "English name": "Pacific Black Duck",
-      "Scientific name": "Anas superciliosa",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3830,7 +3511,6 @@
     },
     "321": {
       "English name": "Peaceful Dove",
-      "Scientific name": "Geopelia placida",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3842,7 +3522,6 @@
     },
     "322": {
       "English name": "Pesquet's Parrot",
-      "Scientific name": "Psittrichas fulgidus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3854,7 +3533,6 @@
     },
     "323": {
       "English name": "Pheasant Coucal",
-      "Scientific name": "Centropus phasianinus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3866,7 +3544,6 @@
     },
     "324": {
       "English name": "Pink-Eared Duck",
-      "Scientific name": "Malacorhynchus membranaceus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3878,7 +3555,6 @@
     },
     "325": {
       "English name": "Plains-Wanderer",
-      "Scientific name": "Pedionomus torquatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3890,7 +3566,6 @@
     },
     "326": {
       "English name": "Princess Stephanie's Astrapia",
-      "Scientific name": "Astrapia stephaniae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3902,7 +3577,6 @@
     },
     "327": {
       "English name": "P\u016bkeko",
-      "Scientific name": "Porphyrio melanotus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3914,7 +3588,6 @@
     },
     "328": {
       "English name": "Rainbow Lorikeet",
-      "Scientific name": "Trichoglossus moluccanus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3926,7 +3599,6 @@
     },
     "329": {
       "English name": "Red Wattlebird",
-      "Scientific name": "Anthochaera carunculata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3938,7 +3610,6 @@
     },
     "330": {
       "English name": "Red-Backed Fairywren",
-      "Scientific name": "Malurus melanocephalus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3950,7 +3621,6 @@
     },
     "331": {
       "English name": "Red-Capped Robin",
-      "Scientific name": "Petroica goodenovii",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3962,7 +3632,6 @@
     },
     "332": {
       "English name": "Red-Necked Avocet",
-      "Scientific name": "Recurvirostra novaehollandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3974,7 +3643,6 @@
     },
     "333": {
       "English name": "Red-Winged Parrot",
-      "Scientific name": "Aprosmictus erythropterus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3986,7 +3654,6 @@
     },
     "334": {
       "English name": "Regent Bowerbird",
-      "Scientific name": "Sericulus chrysocephalus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -3998,7 +3665,6 @@
     },
     "335": {
       "English name": "Royal Spoonbill",
-      "Scientific name": "Platalea regia",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4010,7 +3676,6 @@
     },
     "336": {
       "English name": "Rufous Night-Heron",
-      "Scientific name": "Nycticorax caledonicus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4022,7 +3687,6 @@
     },
     "337": {
       "English name": "Rufous Owl",
-      "Scientific name": "Ninox rufa",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4034,7 +3698,6 @@
     },
     "338": {
       "English name": "Rufous-Banded Honeyeater",
-      "Scientific name": "Conopophila albogularis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4046,7 +3709,6 @@
     },
     "339": {
       "English name": "Sacred Kingfisher",
-      "Scientific name": "Todiramphus sanctus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4058,7 +3720,6 @@
     },
     "340": {
       "English name": "Silvereye",
-      "Scientific name": "Zosterops lateralis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4070,7 +3731,6 @@
     },
     "341": {
       "English name": "South Island Robin",
-      "Scientific name": "Petroica australis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4082,7 +3742,6 @@
     },
     "342": {
       "English name": "Southern Cassowary",
-      "Scientific name": "Casuarius casuarius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4094,7 +3753,6 @@
     },
     "343": {
       "English name": "Spangled Drongo",
-      "Scientific name": "Dicrurus bracteatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4106,7 +3764,6 @@
     },
     "344": {
       "English name": "Splendid Fairywren",
-      "Scientific name": "Malurus splendens",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4118,7 +3775,6 @@
     },
     "345": {
       "English name": "Spotless Crake",
-      "Scientific name": "Zapornia tabuensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4130,7 +3786,6 @@
     },
     "346": {
       "English name": "Stubble Quail",
-      "Scientific name": "Coturnix pectoralis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4142,7 +3797,6 @@
     },
     "347": {
       "English name": "Sulphur-Crested Cockatoo",
-      "Scientific name": "Cacatua galerita",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4154,7 +3808,6 @@
     },
     "348": {
       "English name": "Superb Lyrebird",
-      "Scientific name": "Menura novaehollandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4166,7 +3819,6 @@
     },
     "349": {
       "English name": "Tawny Frogmouth",
-      "Scientific name": "Podargus strigoides",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4178,7 +3830,6 @@
     },
     "350": {
       "English name": "T\u016b\u012b",
-      "Scientific name": "Prosthemadera novaeseelandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4190,7 +3841,6 @@
     },
     "351": {
       "English name": "Wedge-Tailed Eagle",
-      "Scientific name": "Aquila audax",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4202,7 +3852,6 @@
     },
     "352": {
       "English name": "Welcome Swallow",
-      "Scientific name": "Hirundo neoxena",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4214,7 +3863,6 @@
     },
     "353": {
       "English name": "White-Bellied Sea-Eagle",
-      "Scientific name": "Haliaeetus leucogaster",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4226,7 +3874,6 @@
     },
     "354": {
       "English name": "White-Breasted Woodswallow",
-      "Scientific name": "Artamus leucoryn",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4238,7 +3885,6 @@
     },
     "355": {
       "English name": "White-Faced Heron",
-      "Scientific name": "Egretta novaehollandiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4250,7 +3896,6 @@
     },
     "356": {
       "English name": "Willie-Wagtail",
-      "Scientific name": "Rhipidura leucophrys",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4262,7 +3907,6 @@
     },
     "357": {
       "English name": "Wrybill",
-      "Scientific name": "Anarhynchus frontalis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4274,7 +3918,6 @@
     },
     "358": {
       "English name": "Asian Emerald Dove",
-      "Scientific name": "Chalcophaps indica",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4286,7 +3929,6 @@
     },
     "359": {
       "English name": "Asian Koel",
-      "Scientific name": "Eudynamys scolopaceus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4298,7 +3940,6 @@
     },
     "360": {
       "English name": "Azure Tit",
-      "Scientific name": "Cyanistes cyanus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4310,7 +3951,6 @@
     },
     "361": {
       "English name": "Baya Weaver",
-      "Scientific name": "Ploceus philippinus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4322,7 +3962,6 @@
     },
     "362": {
       "English name": "Bearded Reedling",
-      "Scientific name": "Panurus biarmicus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4334,7 +3973,6 @@
     },
     "363": {
       "English name": "Black Drongo",
-      "Scientific name": "Dicrurus macrocercus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4346,7 +3984,6 @@
     },
     "364": {
       "English name": "Black Stork",
-      "Scientific name": "Ciconia nigra",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4358,7 +3995,6 @@
     },
     "365": {
       "English name": "Black-Naped Oriole",
-      "Scientific name": "Oriolus chinensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4370,7 +4006,6 @@
     },
     "366": {
       "English name": "Blue Rock-Thrush",
-      "Scientific name": "Monticola solitarius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4382,7 +4017,6 @@
     },
     "367": {
       "English name": "Brahminy Kite",
-      "Scientific name": "Haliastur indus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4394,7 +4028,6 @@
     },
     "368": {
       "English name": "Brambling",
-      "Scientific name": "Fringilla montifringilla",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4406,7 +4039,6 @@
     },
     "369": {
       "English name": "Brown Shrike",
-      "Scientific name": "Lanius cristatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4418,7 +4050,6 @@
     },
     "370": {
       "English name": "Common Green Magpie",
-      "Scientific name": "Cissa chinensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4430,7 +4061,6 @@
     },
     "371": {
       "English name": "Common Iora",
-      "Scientific name": "Aegithina tiphia",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4442,7 +4072,6 @@
     },
     "372": {
       "English name": "Common Myna",
-      "Scientific name": "Acridotheres tristis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4454,7 +4083,6 @@
     },
     "373": {
       "English name": "Common Sandpiper",
-      "Scientific name": "Actitis hypoleucos",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4466,7 +4094,6 @@
     },
     "374": {
       "English name": "Common Tailorbird",
-      "Scientific name": "Orthotomus sutorius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4478,7 +4105,6 @@
     },
     "375": {
       "English name": "Common Teal",
-      "Scientific name": "Anas crecca",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4490,7 +4116,6 @@
     },
     "376": {
       "English name": "Coppersmith Barbet",
-      "Scientific name": "Psilopogon haemacephalus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4502,7 +4127,6 @@
     },
     "377": {
       "English name": "Crested Ibis",
-      "Scientific name": "Nipponia nippon",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4514,7 +4138,6 @@
     },
     "378": {
       "English name": "Crested Lark",
-      "Scientific name": "Galerida cristata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4526,7 +4149,6 @@
     },
     "379": {
       "English name": "Desert Finch",
-      "Scientific name": "Rhodospiza obsoleta",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4538,7 +4160,6 @@
     },
     "380": {
       "English name": "Desert Wheatear",
-      "Scientific name": "Oenanthe deserti",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4550,7 +4171,6 @@
     },
     "381": {
       "English name": "Eurasian Coot",
-      "Scientific name": "Fulica atra",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4562,7 +4182,6 @@
     },
     "382": {
       "English name": "Eurasian Eagle-Owl",
-      "Scientific name": "Bubo bubo",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4574,7 +4193,6 @@
     },
     "383": {
       "English name": "Eurasian Hoopoe",
-      "Scientific name": "Upupa epops",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4586,7 +4204,6 @@
     },
     "384": {
       "English name": "Eurasian Kestrel",
-      "Scientific name": "Falco tinnunculus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4598,7 +4215,6 @@
     },
     "385": {
       "English name": "Eurasian Marsh-Harrier",
-      "Scientific name": "Circus aeruginosus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4610,7 +4226,6 @@
     },
     "386": {
       "English name": "Eurasian Treecreeper",
-      "Scientific name": "Certhia familiaris",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4622,7 +4237,6 @@
     },
     "387": {
       "English name": "Fire-Fronted Serin",
-      "Scientific name": "Serinus pusillus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4634,7 +4248,6 @@
     },
     "388": {
       "English name": "Forest Owlet",
-      "Scientific name": "Athene blewitti",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4646,7 +4259,6 @@
     },
     "389": {
       "English name": "Golden Pheasant",
-      "Scientific name": "Chrysolophus pictus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4658,7 +4270,6 @@
     },
     "390": {
       "English name": "Graceful Prinia",
-      "Scientific name": "Prinia gracilis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4670,7 +4281,6 @@
     },
     "391": {
       "English name": "Grandala",
-      "Scientific name": "Grandala coelicolor",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4682,7 +4292,6 @@
     },
     "392": {
       "English name": "Gray Wagtail",
-      "Scientific name": "Motacilla cinerea",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4694,7 +4303,6 @@
     },
     "393": {
       "English name": "Great Cormorant",
-      "Scientific name": "Phalacrocorax carbo",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4706,7 +4314,6 @@
     },
     "394": {
       "English name": "Great Hornbill",
-      "Scientific name": "Buceros bicornis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4718,7 +4325,6 @@
     },
     "395": {
       "English name": "Great Indian Bustard",
-      "Scientific name": "Ardeotis nigriceps",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4730,7 +4336,6 @@
     },
     "396": {
       "English name": "Great Spotted Woodpecker",
-      "Scientific name": "Dendrocopos major",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4742,7 +4347,6 @@
     },
     "397": {
       "English name": "Greater Adjutant",
-      "Scientific name": "Leptoptilos dubius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4754,7 +4358,6 @@
     },
     "398": {
       "English name": "Green Bee-Eater",
-      "Scientific name": "Merops orientalis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4766,7 +4369,6 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4778,7 +4380,6 @@
     },
     "400": {
       "English name": "Himalayan Monal",
-      "Scientific name": "Lophophorus impejanus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4790,7 +4391,6 @@
     },
     "401": {
       "English name": "House Crow",
-      "Scientific name": "Corvus splendens",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4802,7 +4402,6 @@
     },
     "402": {
       "English name": "Ibisbill",
-      "Scientific name": "Ibidorhyncha struthersii",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4814,7 +4413,6 @@
     },
     "403": {
       "English name": "Indian Peafowl",
-      "Scientific name": "Pavo cristatus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4826,7 +4424,6 @@
     },
     "404": {
       "English name": "Indian Vulture",
-      "Scientific name": "Gyps indicus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4838,7 +4435,6 @@
     },
     "405": {
       "English name": "Large-Billed Crow",
-      "Scientific name": "Corvus macrorhynchos",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4850,7 +4446,6 @@
     },
     "406": {
       "English name": "Little Egret",
-      "Scientific name": "Egretta garzetta",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4862,7 +4457,6 @@
     },
     "407": {
       "English name": "Little Grebe",
-      "Scientific name": "Tachybaptus ruficollis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4874,7 +4468,6 @@
     },
     "408": {
       "English name": "Little Ringed Plover",
-      "Scientific name": "Charadrius dubius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4886,7 +4479,6 @@
     },
     "409": {
       "English name": "Mandarin Duck",
-      "Scientific name": "Aix galericulata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4898,7 +4490,6 @@
     },
     "410": {
       "English name": "Olive-Backed Sunbird",
-      "Scientific name": "Cinnyris jugularis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4910,7 +4501,6 @@
     },
     "411": {
       "English name": "Oriental Bay-Owl",
-      "Scientific name": "Phodilus badius",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4922,7 +4512,6 @@
     },
     "412": {
       "English name": "Oriental Magpie-Robin",
-      "Scientific name": "Copsychus saularis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4934,7 +4523,6 @@
     },
     "413": {
       "English name": "Philippine Eagle",
-      "Scientific name": "Pithecophaga jefferyi",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4946,7 +4534,6 @@
     },
     "414": {
       "English name": "Plumbeous Redstart",
-      "Scientific name": "Phoenicurus fuliginosus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4958,7 +4545,6 @@
     },
     "415": {
       "English name": "Purple Heron",
-      "Scientific name": "Ardea purpurea",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4970,7 +4556,6 @@
     },
     "416": {
       "English name": "Red Avadavat",
-      "Scientific name": "Amandava amandava",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4982,7 +4567,6 @@
     },
     "417": {
       "English name": "Red Junglefowl",
-      "Scientific name": "Gallus gallus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -4994,7 +4578,6 @@
     },
     "418": {
       "English name": "Red-Crowned Crane",
-      "Scientific name": "Grus japonensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5006,7 +4589,6 @@
     },
     "419": {
       "English name": "Red-Vented Bulbul",
-      "Scientific name": "Pycnonotus cafer",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5018,7 +4600,6 @@
     },
     "420": {
       "English name": "Red-Wattled Lapwing",
-      "Scientific name": "Vanellus indicus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5030,7 +4611,6 @@
     },
     "421": {
       "English name": "Rhinoceros Auklet",
-      "Scientific name": "Cerorhinca monocerata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5042,7 +4622,6 @@
     },
     "422": {
       "English name": "Rock Pigeon",
-      "Scientific name": "Columba livia",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5054,7 +4633,6 @@
     },
     "423": {
       "English name": "Rook",
-      "Scientific name": "Corvus frugilegus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5066,7 +4644,6 @@
     },
     "424": {
       "English name": "Rose-Ringed Parakeet",
-      "Scientific name": "Psittacula krameri",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5078,7 +4655,6 @@
     },
     "425": {
       "English name": "Rosy Starling",
-      "Scientific name": "Pastor roseus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5090,7 +4666,6 @@
     },
     "426": {
       "English name": "Ruddy Shelduck",
-      "Scientific name": "Tadorna ferruginea",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5102,7 +4677,6 @@
     },
     "427": {
       "English name": "Sarus Crane",
-      "Scientific name": "Antigone antigone",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5114,7 +4688,6 @@
     },
     "428": {
       "English name": "Satyr Tragopan",
-      "Scientific name": "Tragopan satyra",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5126,7 +4699,6 @@
     },
     "429": {
       "English name": "Scaly-Breasted Munia",
-      "Scientific name": "Lonchura punctulata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5138,7 +4710,6 @@
     },
     "430": {
       "English name": "Small Minivet",
-      "Scientific name": "Pericrocotus cinnamomeus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5150,7 +4721,6 @@
     },
     "431": {
       "English name": "Smew",
-      "Scientific name": "Mergellus albellus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5162,7 +4732,6 @@
     },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
-      "Scientific name": "Calidris pygmaea",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5174,7 +4743,6 @@
     },
     "433": {
       "English name": "Spotted Dove",
-      "Scientific name": "Streptopelia chinensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5186,7 +4754,6 @@
     },
     "434": {
       "English name": "Sri Lanka Blue-Magpie",
-      "Scientific name": "Urocissa ornata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5198,7 +4765,6 @@
     },
     "435": {
       "English name": "Sri Lanka Frogmouth",
-      "Scientific name": "Batrachostomus moniliger",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5210,7 +4776,6 @@
     },
     "436": {
       "English name": "Stork-Billed Kingfisher",
-      "Scientific name": "Pelargopsis capensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5222,7 +4787,6 @@
     },
     "437": {
       "English name": "Trumpeter Finch",
-      "Scientific name": "Bucanetes githagineus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5234,7 +4798,6 @@
     },
     "438": {
       "English name": "Twite",
-      "Scientific name": "Linaria flavirostris",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5246,7 +4809,6 @@
     },
     "439": {
       "English name": "Verditer Flycatcher",
-      "Scientific name": "Eumyias thalassinus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5258,7 +4820,6 @@
     },
     "440": {
       "English name": "Violet Cuckoo",
-      "Scientific name": "Chrysococcyx xanthorhynchus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5270,7 +4831,6 @@
     },
     "441": {
       "English name": "White-Browed Tit-Warbler",
-      "Scientific name": "Leptopoecile sophiae",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5282,7 +4842,6 @@
     },
     "442": {
       "English name": "White-Crested Laughingthrush",
-      "Scientific name": "Garrulax leucolophus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5294,7 +4853,6 @@
     },
     "443": {
       "English name": "White-Headed Duck",
-      "Scientific name": "Oxyura leucocephala",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5306,7 +4864,6 @@
     },
     "444": {
       "English name": "White-Throated Kingfisher",
-      "Scientific name": "Halcyon smyrnensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5318,7 +4875,6 @@
     },
     "445": {
       "English name": "Willow Tit",
-      "Scientific name": "Poecile montanus",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5330,7 +4886,6 @@
     },
     "446": {
       "English name": "Yellow Bittern",
-      "Scientific name": "Ixobrychus sinensis",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,
@@ -5342,7 +4897,6 @@
     },
     "447": {
       "English name": "Zebra Dove",
-      "Scientific name": "Geopelia striata",
       "Common name": null,
       "Power text": null,
       "Flavor text": null,

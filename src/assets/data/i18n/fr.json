@@ -2,7 +2,6 @@
   "birds": {
     "2": {
       "English name": "Acorn Woodpecker",
-      "Scientific name": "Melanerpes formicivorus",
       "Common name": "Pic glandivore",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -14,7 +13,6 @@
     },
     "3": {
       "English name": "American Avocet",
-      "Scientific name": "Recurvirostra americana",
       "Common name": "Avocette d'Am\u00e9rique",
       "Power text": "Quand un autre joueur effectue l\u2019action pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant 1 nid [ground].",
       "Flavor text": null,
@@ -26,7 +24,6 @@
     },
     "4": {
       "English name": "American Bittern",
-      "Scientific name": "Botaurus lentiginosus",
       "Common name": "Butor d'Am\u00e9rique",
       "Power text": "Le ou les joueurs avec le moins d\u2019oiseaux [wetland] piochent 1 [card].",
       "Flavor text": null,
@@ -38,7 +35,6 @@
     },
     "5": {
       "English name": "American Coot",
-      "Scientific name": "Fulica americana",
       "Common name": "Foulque d'Am\u00e9rique",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -50,7 +46,6 @@
     },
     "6": {
       "English name": "American Crow",
-      "Scientific name": "Corvus brachyrhynchos",
       "Common name": "Corneille d'Am\u00e9rique",
       "Power text": "D\u00e9faussez 1 [egg] d\u2019un de vos autres oiseaux pour gagner 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -62,7 +57,6 @@
     },
     "7": {
       "English name": "American Goldfinch",
-      "Scientific name": "Spinus tristis",
       "Common name": "Chardonneret jaune",
       "Power text": "Gagnez 3 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -74,7 +68,6 @@
     },
     "8": {
       "English name": "American Kestrel",
-      "Scientific name": "Falco sparverius",
       "Common name": "Cr\u00e9cerelle d'Am\u00e9rique",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -86,7 +79,6 @@
     },
     "9": {
       "English name": "American Oystercatcher",
-      "Scientific name": "Haematopus palliatus",
       "Common name": "Hu\u00eetrier d'Am\u00e9rique",
       "Power text": "Piochez autant de que le nombre de joueurs +1. En commen\u00e7ant par vous, puis dans le sens horaire, chaque joueur choisit 1 de ces cartes et la prend en main. Gardez la carte restante.",
       "Flavor text": null,
@@ -98,7 +90,6 @@
     },
     "10": {
       "English name": "American Redstart",
-      "Scientific name": "Setophaga ruticilla",
       "Common name": "Paruline flamboyante",
       "Power text": "Gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -110,7 +101,6 @@
     },
     "11": {
       "English name": "American Robin",
-      "Scientific name": "Turdus migratorius",
       "Common name": "Merle d'Am\u00e9rique",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -122,7 +112,6 @@
     },
     "12": {
       "English name": "American White Pelican",
-      "Scientific name": "Pelecanus erythrorhynchos",
       "Common name": "P\u00e9lican d'Am\u00e9rique",
       "Power text": "D\u00e9faussez 1 [fish] pour glisser 2 [card] de la pioche sous cette carte.",
       "Flavor text": null,
@@ -134,7 +123,6 @@
     },
     "13": {
       "English name": "American Woodcock",
-      "Scientific name": "Scolopax minor",
       "Common name": "B\u00e9casse d'Am\u00e9rique",
       "Power text": null,
       "Flavor text": null,
@@ -146,7 +134,6 @@
     },
     "14": {
       "English name": "Anhinga",
-      "Scientific name": "Anhinga anhinga",
       "Common name": "Anhinga d'Am\u00e9rique",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -158,7 +145,6 @@
     },
     "15": {
       "English name": "Anna's Hummingbird",
-      "Scientific name": "Calypte anna",
       "Common name": "Colibri d'Anna",
       "Power text": "Chaque joueur gagne 1 [die] de la mangeoire, en commen\u00e7ant par le joueur de votre choix.",
       "Flavor text": null,
@@ -170,7 +156,6 @@
     },
     "16": {
       "English name": "Ash-Throated Flycatcher",
-      "Scientific name": "Myiarchus cinerascens",
       "Common name": "Tyran \u00e0 gorge cendr\u00e9e",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un nid [cavity].",
       "Flavor text": null,
@@ -182,7 +167,6 @@
     },
     "17": {
       "English name": "Atlantic Puffin",
-      "Scientific name": "Fratercula arctica",
       "Common name": "Macareux moine",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -194,7 +178,6 @@
     },
     "18": {
       "English name": "Audouin's Gull",
-      "Scientific name": "Ichthyaetus audouinii",
       "Common name": "Go\u00e9land d'Audouin",
       "Power text": "Piochez 2 [card] de la pioche. Glissez-en 1 sous cet oiseau et gardez l\u2019autre.",
       "Flavor text": null,
@@ -206,7 +189,6 @@
     },
     "19": {
       "English name": "Baird's Sparrow",
-      "Scientific name": "Ammodramus bairdii",
       "Common name": "Bruant de Baird",
       "Power text": "Pondez 1 [egg] sur un oiseau.",
       "Flavor text": null,
@@ -218,7 +200,6 @@
     },
     "20": {
       "English name": "Bald Eagle",
-      "Scientific name": "Haliaeetus leucocephalus",
       "Common name": "Pygargue \u00e0 t\u00eate blanche",
       "Power text": "Gagnez tous les [fish] de la mangeoire.",
       "Flavor text": null,
@@ -230,7 +211,6 @@
     },
     "21": {
       "English name": "Baltimore Oriole",
-      "Scientific name": "Icterus galbula",
       "Common name": "Oriole de Baltimore",
       "Power text": "Chaque joueur gagne 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -242,7 +222,6 @@
     },
     "22": {
       "English name": "Barn Owl",
-      "Scientific name": "Tyto alba",
       "Common name": "Chouette effraie",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -254,7 +233,6 @@
     },
     "23": {
       "English name": "Barn Swallow",
-      "Scientific name": "Hirundo rustica",
       "Common name": "Hirondelle rustique",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -266,7 +244,6 @@
     },
     "24": {
       "English name": "Barred Owl",
-      "Scientific name": "Strix varia",
       "Common name": "Chouette ray\u00e9e",
       "Power text": "Regardez une [card] de la pioche. Si < 100, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -278,7 +255,6 @@
     },
     "25": {
       "English name": "Barrow's Goldeneye",
-      "Scientific name": "Bucephala islandica",
       "Common name": "Garrot d'Islande",
       "Power text": "Quand un autre joueur effectue l\u2019action pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant 1 nid [cavity].",
       "Flavor text": null,
@@ -290,7 +266,6 @@
     },
     "26": {
       "English name": "Bell's Vireo",
-      "Scientific name": "Vireo bellii",
       "Common name": "Vir\u00e9o de Bell",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -302,7 +277,6 @@
     },
     "27": {
       "English name": "Belted Kingfisher",
-      "Scientific name": "Megaceryle alcyon",
       "Common name": "Martin-p\u00eacheur d'Am\u00e9rique",
       "Power text": "Lorsqu\u2019un autre joueur joue un oiseau [wetland], gagnez 1 [fish] de la r\u00e9serve.",
       "Flavor text": null,
@@ -314,7 +288,6 @@
     },
     "28": {
       "English name": "Bewick's Wren",
-      "Scientific name": "Thryomanes bewickii",
       "Common name": "Troglodyte de Bewick",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -326,7 +299,6 @@
     },
     "29": {
       "English name": "Black Redstart",
-      "Scientific name": "Phoenicurus ochruros",
       "Common name": "Rougequeue noir",
       "Power text": "Choisissez un habitat sans [egg]. Pondez 1 [egg] sur chaque oiseau dans cet habitat.",
       "Flavor text": null,
@@ -338,7 +310,6 @@
     },
     "30": {
       "English name": "Black Skimmer",
-      "Scientific name": "Rynchops niger",
       "Common name": "Bec-en-ciseaux noir",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -350,7 +321,6 @@
     },
     "31": {
       "English name": "Black Tern",
-      "Scientific name": "Chlidonias niger",
       "Common name": "Guifette noire",
       "Power text": "Piochez 1 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -362,7 +332,6 @@
     },
     "32": {
       "English name": "Black Vulture",
-      "Scientific name": "Coragyps atratus",
       "Common name": "Urubu noir",
       "Power text": "Lorsque le pouvoir [predator] d\u2019un autre joueur r\u00e9ussit, gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -374,7 +343,6 @@
     },
     "33": {
       "English name": "Black Woodpecker",
-      "Scientific name": "Dryocopus martius",
       "Common name": "Pic noir",
       "Power text": "Gagnez tous les [invertebrate] de la mangeoire.",
       "Flavor text": null,
@@ -386,7 +354,6 @@
     },
     "34": {
       "English name": "Black-Bellied Whistling-Duck",
-      "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Dendrocygne \u00e0 ventre noir",
       "Power text": "D\u00e9faussez 1 [seed] pour glisser 2 [card] de la pioche sous cette carte.",
       "Flavor text": null,
@@ -398,7 +365,6 @@
     },
     "35": {
       "English name": "Black-Billed Magpie",
-      "Scientific name": "Pica hudsonia",
       "Common name": "Pie d'Am\u00e9rique",
       "Power text": "Lorsque le pouvoir [predator] d\u2019un autre joueur r\u00e9ussit, gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -410,7 +376,6 @@
     },
     "36": {
       "English name": "Black-Chinned Hummingbird",
-      "Scientific name": "Archilochus alexandri",
       "Common name": "Colibri \u00e0 gorge noire",
       "Power text": "Chaque joueur gagne 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -422,7 +387,6 @@
     },
     "37": {
       "English name": "Black-Crowned Night-Heron",
-      "Scientific name": "Nycticorax nycticorax",
       "Common name": "Bihoreau gris",
       "Power text": "D\u00e9faussez 1 [egg] d\u2019un de vos autres oiseaux pour gagner 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -434,7 +398,6 @@
     },
     "38": {
       "English name": "Black-Headed Gull",
-      "Scientific name": "Chroicocephalus ridibundus",
       "Common name": "Mouette rieuse",
       "Power text": "Volez 1 [wild] de la r\u00e9serve d\u20191 autre joueur et mettez-le dans votre r\u00e9serve. Ce joueur gagne 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -446,7 +409,6 @@
     },
     "39": {
       "English name": "Black-Necked Stilt",
-      "Scientific name": "Himantopus mexicanus",
       "Common name": "\u00c9chasse d'Am\u00e9rique",
       "Power text": "Piochez 2 [card].",
       "Flavor text": null,
@@ -458,7 +420,6 @@
     },
     "40": {
       "English name": "Black-Tailed Godwit",
-      "Scientific name": "Limosa limosa",
       "Common name": "Barge \u00e0 queue noire",
       "Power text": "Piochez 1 carte Bonus. Puis piochez 3 [card] et gardez-en 1.",
       "Flavor text": null,
@@ -470,7 +431,6 @@
     },
     "41": {
       "English name": "Black-Throated Diver",
-      "Scientific name": "Gavia arctica",
       "Common name": "Plongeon arctique",
       "Power text": "D\u00e9faussez les [card] face visible restantes et remplacez-les. Si vous le faites, piochez 1 des nouvelles [card] face visible.",
       "Flavor text": null,
@@ -482,7 +442,6 @@
     },
     "42": {
       "English name": "Blue Grosbeak",
-      "Scientific name": "Passerina caerulea",
       "Common name": "Gros-bec bleu",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -494,7 +453,6 @@
     },
     "43": {
       "English name": "Blue Jay",
-      "Scientific name": "Cyanocitta cristata",
       "Common name": "Geai bleu",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -506,7 +464,6 @@
     },
     "44": {
       "English name": "Blue-Gray Gnatcatcher",
-      "Scientific name": "Polioptila caerulea",
       "Common name": "Gobemoucheron gris-bleu",
       "Power text": "Gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -518,7 +475,6 @@
     },
     "45": {
       "English name": "Blue-Winged Warbler",
-      "Scientific name": "Vermivora cyanoptera",
       "Common name": "Paruline \u00e0 ailes bleues",
       "Power text": null,
       "Flavor text": null,
@@ -530,7 +486,6 @@
     },
     "46": {
       "English name": "Bluethroat",
-      "Scientific name": "Luscinia svecica",
       "Common name": "Gorgebleue \u00e0 miroir",
       "Power text": "Choisissez un type de nourriture. Tous les joueurs gagnent 1 [wild] de ce type de la r\u00e9serve.",
       "Flavor text": null,
@@ -542,7 +497,6 @@
     },
     "47": {
       "English name": "Bobolink",
-      "Scientific name": "Dolichonyx oryzivorus",
       "Common name": "Goglu des pr\u00e9s",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un nid [ground].",
       "Flavor text": null,
@@ -554,7 +508,6 @@
     },
     "48": {
       "English name": "Bonelli's Eagle",
-      "Scientific name": "Aquila fasciata",
       "Common name": "Aigle de Bonelli",
       "Power text": "Pour chaque [rodent] qu\u2019il co\u00fbte, vous pouvez payer 1 [card] de votre main \u00e0 la place. Si vous le faites, glissez la ou les [card] d\u00e9pens\u00e9es sous cet oiseau.",
       "Flavor text": null,
@@ -566,7 +519,6 @@
     },
     "49": {
       "English name": "Brant",
-      "Scientific name": "Branta bernicla",
       "Common name": "Bernache cravant",
       "Power text": "Piochez les 3 [card] du plateaux",
       "Flavor text": null,
@@ -578,7 +530,6 @@
     },
     "50": {
       "English name": "Brewer's Blackbird",
-      "Scientific name": "Euphagus cyanocephalus",
       "Common name": "Quiscale de Brewer",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -590,7 +541,6 @@
     },
     "51": {
       "English name": "Broad-Winged Hawk",
-      "Scientific name": "Buteo platypterus",
       "Common name": "Petite buse",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -602,7 +552,6 @@
     },
     "52": {
       "English name": "Bronzed Cowbird",
-      "Scientific name": "Molothrus aeneus",
       "Common name": "Vacher bronz\u00e9",
       "Power text": "Quand un autre joueur effectue l\u2019action pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant 1 nid [bowl].",
       "Flavor text": null,
@@ -614,7 +563,6 @@
     },
     "53": {
       "English name": "Brown Pelican",
-      "Scientific name": "Pelecanus occidentalis",
       "Common name": "P\u00e9lican brun",
       "Power text": "Gagnez 3 [fish] de la r\u00e9serve.",
       "Flavor text": null,
@@ -626,7 +574,6 @@
     },
     "54": {
       "English name": "Brown-Headed Cowbird",
-      "Scientific name": "Molothrus ater",
       "Common name": "Vacher \u00e0 t\u00eate brune",
       "Power text": "Quand un autre joueur effectue l\u2019action pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant 1 nid [bowl].",
       "Flavor text": null,
@@ -638,7 +585,6 @@
     },
     "55": {
       "English name": "Bullfinch",
-      "Scientific name": "Pyrrhula pyrrhula",
       "Common name": "Bouvreuil Pivoine",
       "Power text": "Relancez les 5 d\u00e9s de nourriture dans la mangeoire. Si vous le faites, gagnez 1 [seed] ou 1 [fruit] obtenu dans la mangeoire.",
       "Flavor text": null,
@@ -650,7 +596,6 @@
     },
     "56": {
       "English name": "Burrowing Owl",
-      "Scientific name": "Athene cunicularia",
       "Common name": "Chev\u00eache des terriers",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -662,7 +607,6 @@
     },
     "57": {
       "English name": "Bushtit",
-      "Scientific name": "Psaltriparus minimus",
       "Common name": "M\u00e9sange buissonni\u00e8re",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -674,7 +618,6 @@
     },
     "58": {
       "English name": "California Condor",
-      "Scientific name": "Gymnogyps californianus",
       "Common name": "Condor de Californie",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -686,7 +629,6 @@
     },
     "59": {
       "English name": "California Quail",
-      "Scientific name": "Callipepla californica",
       "Common name": "Colin de Californie",
       "Power text": "Pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -698,7 +640,6 @@
     },
     "60": {
       "English name": "Canada Goose",
-      "Scientific name": "Branta canadensis",
       "Common name": "Bernache du Canada",
       "Power text": "D\u00e9faussez 1 [seed] pour glisser 2 [card] de la pioche sous cette carte.",
       "Flavor text": null,
@@ -710,7 +651,6 @@
     },
     "61": {
       "English name": "Canvasback",
-      "Scientific name": "Aythya valisineria",
       "Common name": "Fuligule \u00e0 dos blanc",
       "Power text": "Tous les joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -722,7 +662,6 @@
     },
     "62": {
       "English name": "Carolina Chickadee",
-      "Scientific name": "Poecile carolinensis",
       "Common name": "M\u00e9sange de Caroline",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -734,7 +673,6 @@
     },
     "63": {
       "English name": "Carolina Wren",
-      "Scientific name": "Thryothorus ludovicianus",
       "Common name": "Troglodyte de Caroline",
       "Power text": "Piochez 2 [card].",
       "Flavor text": null,
@@ -746,7 +684,6 @@
     },
     "64": {
       "English name": "Carrion Crow",
-      "Scientific name": "Corvus corone",
       "Common name": "Corneille noire",
       "Power text": "Choisissez 1 joueur (vous inclus). Stockez 1 [rodent] de la r\u00e9serve sur cet oiseau pour chaque [predator] poss\u00e9d\u00e9 par ce joueur.",
       "Flavor text": null,
@@ -758,7 +695,6 @@
     },
     "65": {
       "English name": "Cassin's Finch",
-      "Scientific name": "Haemorhous cassinii",
       "Common name": "Roselin de Cassin",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -770,7 +706,6 @@
     },
     "66": {
       "English name": "Cassin's Sparrow",
-      "Scientific name": "Peucaea cassinii",
       "Common name": "Bruant de Cassin",
       "Power text": "Pondez 1 [egg] sur un oiseau.",
       "Flavor text": null,
@@ -782,7 +717,6 @@
     },
     "67": {
       "English name": "Cedar Waxwing",
-      "Scientific name": "Bombycilla cedrorum",
       "Common name": "Jaseur d'Am\u00e9rique",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, gagnez 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -794,7 +728,6 @@
     },
     "68": {
       "English name": "Cerulean Warbler",
-      "Scientific name": "Setophaga cerulea",
       "Common name": "Paruline azur\u00e9e",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -806,7 +739,6 @@
     },
     "69": {
       "English name": "Cetti's Warbler",
-      "Scientific name": "Cettia cetti",
       "Common name": "Bouscarle de Cetti",
       "Power text": "Cet oiseau compte double pour les objectifs de fin de manche, s\u2019il se qualifie pour l\u2019objectif.",
       "Flavor text": null,
@@ -818,7 +750,6 @@
     },
     "70": {
       "English name": "Chestnut-Collared Longspur",
-      "Scientific name": "Calcarius ornatus",
       "Common name": "Plectrophane \u00e0 ventre noir",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -830,7 +761,6 @@
     },
     "71": {
       "English name": "Chihuahuan Raven",
-      "Scientific name": "Corvus cryptoleucus",
       "Common name": "Corbeau \u00e0 cou blanc",
       "Power text": "D\u00e9faussez 1 [egg] d\u2019un de vos autres oiseaux pour gagner 2 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -842,7 +772,6 @@
     },
     "72": {
       "English name": "Chimney Swift",
-      "Scientific name": "Chaetura pelagica",
       "Common name": "Martinet ramoneur",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -854,7 +783,6 @@
     },
     "73": {
       "English name": "Chipping Sparrow",
-      "Scientific name": "Spizella passerina",
       "Common name": "Bruant familier",
       "Power text": "Pondez 1 sur un oiseau.",
       "Flavor text": null,
@@ -866,7 +794,6 @@
     },
     "74": {
       "English name": "Clark's Grebe",
-      "Scientific name": "Aechmophorus clarkii",
       "Common name": "Gr\u00e8be de Clark",
       "Power text": "Piochez 1 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -878,7 +805,6 @@
     },
     "75": {
       "English name": "Clark's Nutcracker",
-      "Scientific name": "Nucifraga columbiana",
       "Common name": "Cassenoix d'Am\u00e9rique",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -890,7 +816,6 @@
     },
     "76": {
       "English name": "Coal Tit",
-      "Scientific name": "Periparus ater",
       "Common name": "M\u00e9sange noire",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte. Vous pouvez \u00e0 tout moment d\u00e9penser les stock\u00e9s sur cette carte.",
       "Flavor text": null,
@@ -902,7 +827,6 @@
     },
     "77": {
       "English name": "Common Blackbird",
-      "Scientific name": "Turdus merula",
       "Common name": "Merle noir",
       "Power text": "Placez cet oiseau horizontalement afin de couvrir 2 cases [forest]. Payez le plus petit co\u00fbt en \u0153ufs.",
       "Flavor text": null,
@@ -914,7 +838,6 @@
     },
     "78": {
       "English name": "Common Buzzard",
-      "Scientific name": "Buteo buteo",
       "Common name": "Buse variable",
       "Power text": "Au lieu de payer son co\u00fbt, vous pouvez jouer cet oiseau par- dessus un oiseau sur votre plateau. D\u00e9faussez les \u0153ufs et la nourriture sur l\u2019oiseau, et laissez-le gliss\u00e9 sous cette carte.",
       "Flavor text": null,
@@ -926,7 +849,6 @@
     },
     "79": {
       "English name": "Common Chaffinch",
-      "Scientific name": "Fringilla coelebs",
       "Common name": "Pinson des arbres",
       "Power text": "Choisissez 1 \u00e0 5 oiseaux dans cet habitat. Glissez 1 [card] de votre main sous chacun d\u2019eux.",
       "Flavor text": null,
@@ -938,7 +860,6 @@
     },
     "80": {
       "English name": "Common Chiffchaff",
-      "Scientific name": "Phylloscopus collybita",
       "Common name": "Pouillot v\u00e9loce",
       "Power text": "Choisissez 1 \u00e0 5 oiseaux dans cet habitat. Glissez 1 [card] de votre main sous chacun d\u2019eux.",
       "Flavor text": null,
@@ -950,7 +871,6 @@
     },
     "81": {
       "English name": "Common Cuckoo",
-      "Scientific name": "Cuculus canorus",
       "Common name": "Coucou gris",
       "Power text": "Quand un autre joueur effectue l\u2019action Pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant un nid [bowl] ou [ground].",
       "Flavor text": null,
@@ -962,7 +882,6 @@
     },
     "82": {
       "English name": "Common Goldeneye",
-      "Scientific name": "Bucephala clangula",
       "Common name": "Garrot \u00e0 \u0153il d'or",
       "Power text": "Pondez 1 [egg] sur cet oiseau pour chaque autre oiseau avec un nid [cavity] que vous poss\u00e9dez.",
       "Flavor text": null,
@@ -974,7 +893,6 @@
     },
     "83": {
       "English name": "Common Grackle",
-      "Scientific name": "Quiscalus quiscula",
       "Common name": "Quiscale bronz\u00e9",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -986,7 +904,6 @@
     },
     "84": {
       "English name": "Common Kingfisher",
-      "Scientific name": "Alcedo atthis",
       "Common name": "Martin-p\u00eacheur d'Europe",
       "Power text": "Volez 1 [fish] de la r\u00e9serve d\u20191 autre joueur et stockez-le sur cette carte. Ce joueur gagne 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -998,7 +915,6 @@
     },
     "85": {
       "English name": "Common Little Bittern",
-      "Scientific name": "Ixobrychus minutus",
       "Common name": "Blongios nain",
       "Power text": "Piochez 1 [card] face visible qui puisse \u00eatre jou\u00e9e dans [grassland].",
       "Flavor text": null,
@@ -1010,7 +926,6 @@
     },
     "86": {
       "English name": "Common Loon",
-      "Scientific name": "Gavia immer",
       "Common name": "Plongeon imbrin",
       "Power text": "Le ou les joueurs avec le moins d\u2019oiseaux [wetland] piochent 1 [card].",
       "Flavor text": null,
@@ -1022,7 +937,6 @@
     },
     "87": {
       "English name": "Common Merganser",
-      "Scientific name": "Mergus merganser",
       "Common name": "Grand Harle",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1034,7 +948,6 @@
     },
     "88": {
       "English name": "Common Moorhen",
-      "Scientific name": "Gallinula chloropus",
       "Common name": "Gallinule poule-d'eau",
       "Power text": "D\u00e9faussez 1 [wild]. Si vous le faites, jouez 1 autre oiseau dans votre [wetland]. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -1046,7 +959,6 @@
     },
     "89": {
       "English name": "Common Nighthawk",
-      "Scientific name": "Chordeiles minor",
       "Common name": "Engoulevent d'Am\u00e9rique",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -1058,7 +970,6 @@
     },
     "90": {
       "English name": "Common Nightingale",
-      "Scientific name": "Luscinia megarhynchos",
       "Common name": "Rossignol philom\u00e8le",
       "Power text": "Choisissez un type de nourriture. Tous les joueurs gagnent 1 [wild] de ce type de la r\u00e9serve.",
       "Flavor text": null,
@@ -1070,7 +981,6 @@
     },
     "91": {
       "English name": "Common Raven",
-      "Scientific name": "Corvus corax",
       "Common name": "Grand corbeau",
       "Power text": "D\u00e9faussez 1 [egg] d\u2019un de vos autres oiseaux pour gagner 2 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1082,7 +992,6 @@
     },
     "92": {
       "English name": "Common Starling",
-      "Scientific name": "Sturnus vulgaris",
       "Common name": "\u00c9tourneau sansonnet",
       "Power text": "D\u00e9faussez jusqu\u2019\u00e0 5 [wild] de votre r\u00e9serve. Pour chacun, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -1094,7 +1003,6 @@
     },
     "93": {
       "English name": "Common Swift",
-      "Scientific name": "Apus apus",
       "Common name": "Martinet noir",
       "Power text": "D\u00e9faussez jusqu\u2019\u00e0 5 [invertebrate] de votre r\u00e9serve. Pour chacun, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -1106,7 +1014,6 @@
     },
     "94": {
       "English name": "Common Yellowthroat",
-      "Scientific name": "Geothlypis trichas",
       "Common name": "Paruline masqu\u00e9e",
       "Power text": "Piochez 2 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -1118,7 +1025,6 @@
     },
     "95": {
       "English name": "Cooper's Hawk",
-      "Scientific name": "Accipiter cooperii",
       "Common name": "\u00c9pervier de Cooper",
       "Power text": "Regardez une [card] de la pioche. Si <75cm, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -1130,7 +1036,6 @@
     },
     "96": {
       "English name": "Corsican Nuthatch",
-      "Scientific name": "Sitta whiteheadi",
       "Common name": "Sittelle corse",
       "Power text": "Piochez 1 carte Bonus. Puis gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -1142,7 +1047,6 @@
     },
     "97": {
       "English name": "Dark-Eyed Junco",
-      "Scientific name": "Junco hyemalis",
       "Common name": "Junco ardois\u00e9",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, gagnez 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1154,7 +1058,6 @@
     },
     "98": {
       "English name": "Dickcissel",
-      "Scientific name": "Spiza americana",
       "Common name": "Dickcissel d'Am\u00e9rique",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -1166,7 +1069,6 @@
     },
     "99": {
       "English name": "Double-Crested Cormorant",
-      "Scientific name": "Phalacrocorax auritus",
       "Common name": "Cormoran \u00e0 aigrettes",
       "Power text": "D\u00e9faussez 1 [fish] pour glisser 2 [card] de la pioche sous cette carte.",
       "Flavor text": null,
@@ -1178,7 +1080,6 @@
     },
     "100": {
       "English name": "Downy Woodpecker",
-      "Scientific name": "Picoides pubescens",
       "Common name": "Pic mineur",
       "Power text": "Jouez un second oiseau dans votre [forest]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -1190,7 +1091,6 @@
     },
     "101": {
       "English name": "Dunnock",
-      "Scientific name": "Prunella modularis",
       "Common name": "Accenteur mouchet",
       "Power text": "Choisissez 1 autre joueur. Pour chaque cube Action sur sa ligne [grassland], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -1202,7 +1102,6 @@
     },
     "102": {
       "English name": "Eastern Bluebird",
-      "Scientific name": "Sialia sialis",
       "Common name": "Merlebleu de l'est",
       "Power text": "Jouez un second oiseau dans votre [grassland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -1214,7 +1113,6 @@
     },
     "103": {
       "English name": "Eastern Imperial Eagle",
-      "Scientific name": "Aquila heliaca",
       "Common name": "Aigle imp\u00e9rial",
       "Power text": "Pour chaque [rodent] qu\u2019il co\u00fbte, vous pouvez payer 1 [card] de votre main \u00e0 la place. Si vous le faites, glissez la ou les [card] d\u00e9pens\u00e9es sous cet oiseau.",
       "Flavor text": null,
@@ -1226,7 +1124,6 @@
     },
     "104": {
       "English name": "Eastern Kingbird",
-      "Scientific name": "Tyrannus tyrannus",
       "Common name": "Tyran tritri",
       "Power text": "Lorsqu\u2019un autre joueur joue un oiseau [forest], gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1238,7 +1135,6 @@
     },
     "105": {
       "English name": "Eastern Phoebe",
-      "Scientific name": "Sayornis phoebe",
       "Common name": "Moucherolle ph\u00e9bi",
       "Power text": "Chaque joueur gagne 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1250,7 +1146,6 @@
     },
     "106": {
       "English name": "Eastern Screech-Owl",
-      "Scientific name": "Megascops asio",
       "Common name": "Petit duc macul\u00e9",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1262,7 +1157,6 @@
     },
     "107": {
       "English name": "Eleonora's Falcon",
-      "Scientific name": "Falco eleonorae",
       "Common name": "Faucon d'\u00c9l\u00e9onore",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -1274,7 +1168,6 @@
     },
     "108": {
       "English name": "Eurasian Collared-Dove",
-      "Scientific name": "Streptopelia decaocto",
       "Common name": "Tourterelle turque",
       "Power text": "D\u00e9faussez jusqu\u2019\u00e0 5 [wild] de votre r\u00e9serve. Pour chacun, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -1286,7 +1179,6 @@
     },
     "109": {
       "English name": "Eurasian Golden Oriole",
-      "Scientific name": "Oriolus oriolus",
       "Common name": "Loriot d'Europe",
       "Power text": "Quand un autre joueur effectue l\u2019action Gagner de la nourriture, gagnez 1 [invertebrate] ou [fruit] de la mangeoire \u00e0 la fin de son tour.",
       "Flavor text": null,
@@ -1298,7 +1190,6 @@
     },
     "110": {
       "English name": "Eurasian Green Woodpecker",
-      "Scientific name": "Picus viridis",
       "Common name": "Pic vert",
       "Power text": "Cet oiseau compte double pour les objectifs de fin de manche, s\u2019il se qualifie pour l\u2019objectif.",
       "Flavor text": null,
@@ -1310,7 +1201,6 @@
     },
     "111": {
       "English name": "Eurasian Hobby",
-      "Scientific name": "Falco subbuteo",
       "Common name": "Faucon hobereau",
       "Power text": "Au lieu de payer son co\u00fbt, vous pouvez jouer cet oiseau par- dessus un oiseau sur votre plateau. D\u00e9faussez les \u0153ufs et la nourriture sur l\u2019oiseau, et laissez-le gliss\u00e9 sous cette carte.",
       "Flavor text": null,
@@ -1322,7 +1212,6 @@
     },
     "112": {
       "English name": "Eurasian Jay",
-      "Scientific name": "Garrulus glandarius",
       "Common name": "Geai des ch\u00eanes",
       "Power text": "Volez 1 [seed] de la r\u00e9serve d\u20191 autre joueur et stockez-le sur cette carte. Ce joueur gagne 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -1334,7 +1223,6 @@
     },
     "113": {
       "English name": "Eurasian Magpie",
-      "Scientific name": "Pica pica",
       "Common name": "Pie bavarde",
       "Power text": "Choisissez 1 autre joueur. Pour chaque cube Action sur sa ligne [grassland], stockez 1 [wild] de la r\u00e9serve sur 1 de vos oiseaux.",
       "Flavor text": null,
@@ -1346,7 +1234,6 @@
     },
     "114": {
       "English name": "Eurasian Nutcracker",
-      "Scientific name": "Nucifraga caryocatactes",
       "Common name": "Cassenoix mouchet\u00e9",
       "Power text": "Choisissez 1 \u00e0 5 oiseaux dans votre [forest]. Stockez 1 [seed] de votre r\u00e9serve sur chacun d\u2019eux.",
       "Flavor text": null,
@@ -1358,7 +1245,6 @@
     },
     "115": {
       "English name": "Eurasian Nuthatch",
-      "Scientific name": "Sitta europaea",
       "Common name": "Sittelle torchepot",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte. Vous pouvez \u00e0 tout moment d\u00e9penser les stock\u00e9s sur cette carte.",
       "Flavor text": null,
@@ -1370,7 +1256,6 @@
     },
     "116": {
       "English name": "Eurasian Sparrowhawk",
-      "Scientific name": "Accipiter nisus",
       "Common name": "\u00c9pervier d'Europe",
       "Power text": "Pour chaque [rodent] qu\u2019il co\u00fbte, vous pouvez payer 1 [card] de votre main \u00e0 la place. Si vous le faites, glissez la ou les [card] d\u00e9pens\u00e9es sous cet oiseau.",
       "Flavor text": null,
@@ -1382,7 +1267,6 @@
     },
     "117": {
       "English name": "Eurasian Tree Sparrow",
-      "Scientific name": "Passer montanus",
       "Common name": "Moineau friquet",
       "Power text": "Quand un autre joueur effectue l\u2019action Gagner de la nourriture, gagnez 1 [seed] de la mangeoire \u00e0 la fin de son tour.",
       "Flavor text": null,
@@ -1394,7 +1278,6 @@
     },
     "118": {
       "English name": "European Bee-Eater",
-      "Scientific name": "Merops apiaster",
       "Common name": "Gu\u00eapier d'Europe",
       "Power text": "Relancez les 5 d\u00e9s de nourriture dans la mangeoire. Si vous le faites, gagnez 1 [invertebrate] obtenu dans la mangeoire.",
       "Flavor text": null,
@@ -1406,7 +1289,6 @@
     },
     "119": {
       "English name": "European Goldfinch",
-      "Scientific name": "Carduelis carduelis",
       "Common name": "Chardonneret \u00e9l\u00e9gant",
       "Power text": "Lorsqu\u2019un autre joueur glisse une [card] sous un oiseau, quelle qu\u2019en soit la raison, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -1418,7 +1300,6 @@
     },
     "120": {
       "English name": "European Honey Buzzard",
-      "Scientific name": "Pernis apivorus",
       "Common name": "Bondr\u00e9e apivore",
       "Power text": "Relancez les 5 d\u00e9s de nourriture dans la mangeoire. Si vous le faites, gagnez tous les [invertebrate] obtenus.",
       "Flavor text": null,
@@ -1430,7 +1311,6 @@
     },
     "121": {
       "English name": "European Robin",
-      "Scientific name": "Erithacus rubecula",
       "Common name": "Rouge-gorge familier",
       "Power text": "Gagnez 1 [wild] de la r\u00e9serve d\u2019un type que vous avez d\u00e9j\u00e0 gagn\u00e9 ce tour-ci.",
       "Flavor text": null,
@@ -1442,7 +1322,6 @@
     },
     "122": {
       "English name": "European Roller",
-      "Scientific name": "Coracias garrulus",
       "Common name": "Rollier d'Europe",
       "Power text": "Placez cet oiseau horizontalement afin de couvrir 2 cases [grassland]. Payez le plus petit co\u00fbt en \u0153ufs.",
       "Flavor text": null,
@@ -1454,7 +1333,6 @@
     },
     "123": {
       "English name": "European Turtle Dove",
-      "Scientific name": "Streptopelia turtur",
       "Common name": "Tourterelle des bois",
       "Power text": "Piochez 1 carte Bonus. Puis gagnez 1 [die] de la mangeoire, ou pondez 1 [egg] sur un oiseau, ou piochez 1 [card].",
       "Flavor text": null,
@@ -1466,7 +1344,6 @@
     },
     "124": {
       "English name": "Ferruginous Hawk",
-      "Scientific name": "Buteo regalis",
       "Common name": "Buse rouilleuse",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1478,7 +1355,6 @@
     },
     "125": {
       "English name": "Fish Crow",
-      "Scientific name": "Corvus ossifragus",
       "Common name": "Corneille de rivage",
       "Power text": "D\u00e9faussez 1 [egg] d\u2019un de vos autres oiseaux pour gagner 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1490,7 +1366,6 @@
     },
     "126": {
       "English name": "Forster's Tern",
-      "Scientific name": "Sterna forsteri",
       "Common name": "Sterne de Forster",
       "Power text": "Piochez 1 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -1502,7 +1377,6 @@
     },
     "127": {
       "English name": "Franklin's Gull",
-      "Scientific name": "Leucophaeus pipixcan",
       "Common name": "Mouette de Franklin",
       "Power text": "D\u00e9faussez 1 [egg] pour piocher 2 [card].",
       "Flavor text": null,
@@ -1514,7 +1388,6 @@
     },
     "128": {
       "English name": "Goldcrest",
-      "Scientific name": "Regulus regulus",
       "Common name": "Roitelet Hupp\u00e9",
       "Power text": "D\u00e9faussez 1 [card]. Si vous le faites, jouez 1 autre oiseau dans votre [forest]. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -1526,7 +1399,6 @@
     },
     "129": {
       "English name": "Golden Eagle",
-      "Scientific name": "Aquila chrysaetos",
       "Common name": "Aigle royal",
       "Power text": "Regardez une [card] de la pioche. Si < 100, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -1538,7 +1410,6 @@
     },
     "130": {
       "English name": "Grasshopper Sparrow",
-      "Scientific name": "Ammodramus savannarum",
       "Common name": "Bruant sauterelle",
       "Power text": "Pondez 1 sur un oiseau.",
       "Flavor text": null,
@@ -1550,7 +1421,6 @@
     },
     "131": {
       "English name": "Gray Catbird",
-      "Scientific name": "Dumetella carolinensis",
       "Common name": "Moqueur chat",
       "Power text": "Copiez le pouvoir marron d\u2019un autre oiseau dans cet habitat.",
       "Flavor text": null,
@@ -1562,7 +1432,6 @@
     },
     "132": {
       "English name": "Great Blue Heron",
-      "Scientific name": "Ardea herodias",
       "Common name": "Grand h\u00e9ron",
       "Power text": "Jouez un second oiseau dans votre [wetland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -1574,7 +1443,6 @@
     },
     "133": {
       "English name": "Great Crested Flycatcher",
-      "Scientific name": "Myiarchus crinitus",
       "Common name": "Tyran hupp\u00e9",
       "Power text": "Gagnez 1 [invertebrate] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -1586,7 +1454,6 @@
     },
     "134": {
       "English name": "Great Crested Grebe",
-      "Scientific name": "Podiceps cristatus",
       "Common name": "Gr\u00e8be hupp\u00e9",
       "Power text": "Piochez 1 [card] pour chaque case vide dans cet habitat. \u00c0 la fin de votre tour, gardez-en 1 et d\u00e9faussez les autres.",
       "Flavor text": null,
@@ -1598,7 +1465,6 @@
     },
     "135": {
       "English name": "Great Egret",
-      "Scientific name": "Ardea alba",
       "Common name": "Grande aigrette",
       "Power text": "Jouez un second oiseau dans votre [wetland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -1610,7 +1476,6 @@
     },
     "136": {
       "English name": "Great Horned Owl",
-      "Scientific name": "Bubo virginianus",
       "Common name": "Grand duc d'Am\u00e9rique",
       "Power text": "Regardez une [card] de la pioche. Si < 100, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -1622,7 +1487,6 @@
     },
     "137": {
       "English name": "Great Tit",
-      "Scientific name": "Parus major",
       "Common name": "M\u00e9sange charbonni\u00e8re",
       "Power text": "Relancez les 5 d\u00e9s de nourriture dans la mangeoire. Si vous le faites, gagnez 1 [die] obtenu dans la mangeoire.",
       "Flavor text": null,
@@ -1634,7 +1498,6 @@
     },
     "138": {
       "English name": "Greater Flamingo",
-      "Scientific name": "Phoenicopterus roseus",
       "Common name": "Flamant rose",
       "Power text": "Choisissez 1 autre joueur. Pour chaque cube Action sur sa ligne [wetland], glissez 1 [card] de votre main sous cet oiseau, puis piochez autant de [card].",
       "Flavor text": null,
@@ -1646,7 +1509,6 @@
     },
     "139": {
       "English name": "Greater Prairie-Chicken",
-      "Scientific name": "Tympanuchus cupido",
       "Common name": "T\u00e9tras des prairies",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -1658,7 +1520,6 @@
     },
     "140": {
       "English name": "Greater Roadrunner",
-      "Scientific name": "Geococcyx californianus",
       "Common name": "Grand g\u00e9ocoucou",
       "Power text": "Regardez une [card] de la pioche. Si < 50, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -1670,7 +1531,6 @@
     },
     "141": {
       "English name": "Green Heron",
-      "Scientific name": "Butorides virescens",
       "Common name": "H\u00e9ron vert",
       "Power text": "\u00c9changez 1 [wild] contre 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -1682,7 +1542,6 @@
     },
     "142": {
       "English name": "Grey Heron",
-      "Scientific name": "Ardea cinerea",
       "Common name": "H\u00e9ron cendr\u00e9",
       "Power text": "Placez cet oiseau horizontalement afin de couvrir 2 cases [wetland]. Payez le plus petit co\u00fbt en \u0153ufs.",
       "Flavor text": null,
@@ -1694,7 +1553,6 @@
     },
     "143": {
       "English name": "Greylag Goose",
-      "Scientific name": "Anser anser",
       "Common name": "Oie cendr\u00e9e",
       "Power text": "Cet oiseau compte double pour les objectifs de fin de manche, s\u2019il se qualifie pour l\u2019objectif.",
       "Flavor text": null,
@@ -1706,7 +1564,6 @@
     },
     "144": {
       "English name": "Griffon Vulture",
-      "Scientific name": "Gyps fulvus",
       "Common name": "Vautour fauve",
       "Power text": "Choisissez 1 joueur (vous inclus). Stockez 1 [rodent] de la r\u00e9serve sur cet oiseau pour chaque [predator] poss\u00e9d\u00e9 par ce joueur.",
       "Flavor text": null,
@@ -1718,7 +1575,6 @@
     },
     "145": {
       "English name": "Hawfinch",
-      "Scientific name": "Coccothraustes coccothraustes",
       "Common name": "Gros-bec casse-noyaux",
       "Power text": "Relancez les 5 d\u00e9s de nourriture dans la mangeoire. Si vous le faites, gagnez 1 [seed] obtenu dans la mangeoire.",
       "Flavor text": null,
@@ -1730,7 +1586,6 @@
     },
     "146": {
       "English name": "Hermit Thrush",
-      "Scientific name": "Catharus guttatus",
       "Common name": "Grive solitaire",
       "Power text": "Le ou les joueur(s) avec le moins d\u2019oiseaux [forest] gagnent 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -1742,7 +1597,6 @@
     },
     "147": {
       "English name": "Hooded Crow",
-      "Scientific name": "Corvus cornix",
       "Common name": "Corneille mantel\u00e9e",
       "Power text": "Choisissez 1 autre joueur. Pour chaque cube Action sur sa ligne [grassland], glissez 1 [card] de votre main sous cet oiseau, puis piochez autant de [card].",
       "Flavor text": null,
@@ -1754,7 +1608,6 @@
     },
     "148": {
       "English name": "Hooded Merganser",
-      "Scientific name": "Lophodytes cucullatus",
       "Common name": "Harle couronn\u00e9",
       "Power text": "Copiez un pouvoir [predator] dans cet habitat.",
       "Flavor text": null,
@@ -1766,7 +1619,6 @@
     },
     "149": {
       "English name": "Hooded Warbler",
-      "Scientific name": "Setophaga citrina",
       "Common name": "Paruline \u00e0 capuchon",
       "Power text": null,
       "Flavor text": null,
@@ -1778,7 +1630,6 @@
     },
     "150": {
       "English name": "Horned Lark",
-      "Scientific name": "Eremophila alpestris",
       "Common name": "Alouette hausse-col",
       "Power text": "Lorsqu\u2019un autre joueur joue un oiseau [grassland], glissez une [card] de votre main sous cette carte.",
       "Flavor text": null,
@@ -1790,7 +1641,6 @@
     },
     "151": {
       "English name": "House Finch",
-      "Scientific name": "Haemorhous mexicanus",
       "Common name": "Roselin familier",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -1802,7 +1652,6 @@
     },
     "152": {
       "English name": "House Sparrow",
-      "Scientific name": "Passer domesticus",
       "Common name": "Moineau domestique",
       "Power text": "D\u00e9faussez jusqu\u2019\u00e0 5 [seed] de votre r\u00e9serve. Pour chacun, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -1814,7 +1663,6 @@
     },
     "153": {
       "English name": "House Wren",
-      "Scientific name": "Troglodytes aedon",
       "Common name": "Troglodyte familier",
       "Power text": "Jouez un second oiseau dans votre [forest] ou [grassland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -1826,7 +1674,6 @@
     },
     "154": {
       "English name": "Inca Dove",
-      "Scientific name": "Columbina inca",
       "Common name": "Colombe inca",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un nid [platform].",
       "Flavor text": null,
@@ -1838,7 +1685,6 @@
     },
     "155": {
       "English name": "Indigo Bunting",
-      "Scientific name": "Passerina cyanea",
       "Common name": "Passerin indigo",
       "Power text": "Gagnez 1 [invertebrate] ou [fruit] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -1850,7 +1696,6 @@
     },
     "156": {
       "English name": "Juniper Titmouse",
-      "Scientific name": "Baeolophus ridgwayi",
       "Common name": "M\u00e9sange des gen\u00e9vriers",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1862,7 +1707,6 @@
     },
     "157": {
       "English name": "Killdeer",
-      "Scientific name": "Charadrius vociferus",
       "Common name": "Pluvier kildir",
       "Power text": "D\u00e9faussez 1 [egg] pour piocher 2 [card].",
       "Flavor text": null,
@@ -1874,7 +1718,6 @@
     },
     "158": {
       "English name": "King Rail",
-      "Scientific name": "Rallus elegans",
       "Common name": "R\u00e2le \u00e9l\u00e9gant",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -1886,7 +1729,6 @@
     },
     "159": {
       "English name": "Lazuli Bunting",
-      "Scientific name": "Passerina amoena",
       "Common name": "Passerin azur\u00e9",
       "Power text": "Tous les joueurs pondent 1 [egg] sur 1 oiseau [bowl]. Vous pouvez pondre 1 [egg] sur 1 oiseau [bowl] additionnel.",
       "Flavor text": null,
@@ -1898,7 +1740,6 @@
     },
     "160": {
       "English name": "Lesser Whitethroat",
-      "Scientific name": "Sylvia curruca",
       "Common name": "Fauvette babillarde",
       "Power text": "Choisissez un habitat sans [egg]. Pondez 1 [egg] sur chaque oiseau dans cet habitat.",
       "Flavor text": null,
@@ -1910,7 +1751,6 @@
     },
     "161": {
       "English name": "Lincoln's Sparrow",
-      "Scientific name": "Melospiza lincolnii",
       "Common name": "Bruant de Lincoln",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -1922,7 +1762,6 @@
     },
     "162": {
       "English name": "Little Bustard",
-      "Scientific name": "Tetrax tetrax",
       "Common name": "Outarde canepeti\u00e8re",
       "Power text": "Piochez 1 carte Bonus. Puis gagnez 1 [card] ou pondez 1 [egg] sur un oiseau.",
       "Flavor text": null,
@@ -1934,7 +1773,6 @@
     },
     "163": {
       "English name": "Little Owl",
-      "Scientific name": "Athene noctua",
       "Common name": "Chev\u00eache d'Ath\u00e9na",
       "Power text": "Volez 1 [rodent] de la r\u00e9serve d\u20191 autre joueur et stockez-le sur cette carte. Ce joueur gagne 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -1946,7 +1784,6 @@
     },
     "164": {
       "English name": "Loggerhead Shrike",
-      "Scientific name": "Lanius ludovicianus",
       "Common name": "Pie-gri\u00e8che migratrice",
       "Power text": "Quand un autre joueur effectue l\u2019action Gagner de la nourriture, s\u2019il gagne au moins 1 [rodent], gagnez 1 [rodent] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1958,7 +1795,6 @@
     },
     "165": {
       "English name": "Long-Tailed Tit",
-      "Scientific name": "Aegithalos caudatus",
       "Common name": "M\u00e9sange \u00e0 longue queue",
       "Power text": "Placez cet oiseau horizontalement afin de couvrir 2 cases [forest]. Payez le plus petit co\u00fbt en \u0153ufs.",
       "Flavor text": null,
@@ -1970,7 +1806,6 @@
     },
     "166": {
       "English name": "Mallard",
-      "Scientific name": "Anas platyrhynchos",
       "Common name": "Canard colvert",
       "Power text": "Piochez 1 [card].",
       "Flavor text": null,
@@ -1982,7 +1817,6 @@
     },
     "167": {
       "English name": "Mississippi Kite",
-      "Scientific name": "Ictinia mississippiensis",
       "Common name": "Milan du Mississippi",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [rodent], gagnez 1 [rodent] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -1994,7 +1828,6 @@
     },
     "168": {
       "English name": "Moltoni's Warbler",
-      "Scientific name": "Sylvia subalpina",
       "Common name": "Fauvette de Moltoni",
       "Power text": "Si vous avez utilis\u00e9 les 4 actions diff\u00e9rentes lors de cette manche, jouez un autre oiseau. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -2006,7 +1839,6 @@
     },
     "169": {
       "English name": "Montagu's Harrier",
-      "Scientific name": "Circus pygargus",
       "Common name": "Busard cendr\u00e9",
       "Power text": "Au lieu de payer son co\u00fbt, vous pouvez jouer cet oiseau par- dessus un oiseau sur votre plateau. D\u00e9faussez les \u0153ufs et la nourriture sur l\u2019oiseau, et laissez-le gliss\u00e9 sous cette carte.",
       "Flavor text": null,
@@ -2018,7 +1850,6 @@
     },
     "170": {
       "English name": "Mountain Bluebird",
-      "Scientific name": "Sialia currucoides",
       "Common name": "Merlebleu azur\u00e9",
       "Power text": "Jouez un second oiseau dans votre [grassland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -2030,7 +1861,6 @@
     },
     "171": {
       "English name": "Mountain Chickadee",
-      "Scientific name": "Poecile gambeli",
       "Common name": "M\u00e9sange de Gambel",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -2042,7 +1872,6 @@
     },
     "172": {
       "English name": "Mourning Dove",
-      "Scientific name": "Zenaida macroura",
       "Common name": "Tourterelle triste",
       "Power text": "Pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -2054,7 +1883,6 @@
     },
     "173": {
       "English name": "Mute Swan",
-      "Scientific name": "Cygnus olor",
       "Common name": "Cygne tubercul\u00e9",
       "Power text": "Choisissez 1 \u00e0 3 oiseaux dans votre [wetland]. Glissez 1 [card] de votre main sous chacun d\u2019eux. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -2066,7 +1894,6 @@
     },
     "174": {
       "English name": "Northern Bobwhite",
-      "Scientific name": "Colinus virginianus",
       "Common name": "Colin de virginie",
       "Power text": "Pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -2078,7 +1905,6 @@
     },
     "175": {
       "English name": "Northern Cardinal",
-      "Scientific name": "Cardinalis cardinalis",
       "Common name": "Cardinal rouge",
       "Power text": "Gagnez 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2090,7 +1916,6 @@
     },
     "176": {
       "English name": "Northern Flicker",
-      "Scientific name": "Colaptes auratus",
       "Common name": "Pic flamboyant",
       "Power text": "Gagnez tous les [invertebrate] de la mangeoire.",
       "Flavor text": null,
@@ -2102,7 +1927,6 @@
     },
     "177": {
       "English name": "Northern Gannet",
-      "Scientific name": "Morus bassanus",
       "Common name": "Fou de Bassan",
       "Power text": "Lancez les [die] qui sont hors de la mangeoire. Gagnez tous les [fish] obtenus de la r\u00e9serve et stockez-les sur cet oiseau.",
       "Flavor text": null,
@@ -2114,7 +1938,6 @@
     },
     "178": {
       "English name": "Northern Goshawk",
-      "Scientific name": "Accipiter gentilis",
       "Common name": "Autour des palombes",
       "Power text": "Pour chaque [rodent] qu\u2019il co\u00fbte, vous pouvez payer 1 [card] de votre main \u00e0 la place. Si vous le faites, glissez la ou les [card] d\u00e9pens\u00e9es sous cet oiseau.",
       "Flavor text": null,
@@ -2126,7 +1949,6 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus hudsonius",
       "Common name": "Busard saint-martin",
       "Power text": "Regardez une [card] de la pioche. Si < 75, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -2138,7 +1960,6 @@
     },
     "180": {
       "English name": "Northern Mockingbird",
-      "Scientific name": "Mimus polyglottos",
       "Common name": "Moqueur polyglotte",
       "Power text": "Copiez le pouvoir marron d\u2019un autre oiseau dans cet habitat.",
       "Flavor text": null,
@@ -2150,7 +1971,6 @@
     },
     "181": {
       "English name": "Northern Shoveler",
-      "Scientific name": "Spatula clypeata",
       "Common name": "Canard souchet",
       "Power text": "Tous les joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -2162,7 +1982,6 @@
     },
     "182": {
       "English name": "Osprey",
-      "Scientific name": "Pandion haliaetus",
       "Common name": "Balbuzard p\u00eacheur",
       "Power text": "Chaque joueur gagne 1 [fish] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2174,7 +1993,6 @@
     },
     "183": {
       "English name": "Painted Bunting",
-      "Scientific name": "Passerina ciris",
       "Common name": "Passerin Nonpareil",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2186,7 +2004,6 @@
     },
     "184": {
       "English name": "Painted Whitestart",
-      "Scientific name": "Myioborus pictus",
       "Common name": "Paruline \u00e0 ailes blanches",
       "Power text": "Gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2198,7 +2015,6 @@
     },
     "185": {
       "English name": "Parrot Crossbill",
-      "Scientific name": "Loxia pytyopsittacus",
       "Common name": "bec-crois\u00e9 perroquet",
       "Power text": "Retirez 1 [die] au choix de la mangeoire, puis gagnez 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2210,7 +2026,6 @@
     },
     "186": {
       "English name": "Peregrine Falcon",
-      "Scientific name": "Falco peregrinus",
       "Common name": "Faucon p\u00e8lerin",
       "Power text": "Regardez une [card] de la pioche. Si < 100, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -2222,7 +2037,6 @@
     },
     "187": {
       "English name": "Pied-Billed Grebe",
-      "Scientific name": "Podilymbus podiceps",
       "Common name": "Gr\u00e8be \u00e0 bec bigarr\u00e9",
       "Power text": "Piochez 2 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -2234,7 +2048,6 @@
     },
     "188": {
       "English name": "Pileated Woodpecker",
-      "Scientific name": "Dryocopus pileatus",
       "Common name": "Grand pic",
       "Power text": "Tous les joueurs pondent 1 [egg] sur 1 oiseau [cavity]. Vous pouvez pondre 1 [egg] sur 1 oiseau [cavity] additionnel.",
       "Flavor text": null,
@@ -2246,7 +2059,6 @@
     },
     "189": {
       "English name": "Pine Siskin",
-      "Scientific name": "Spinus pinus",
       "Common name": "Tarin des pins",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, gagnez 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2258,7 +2070,6 @@
     },
     "190": {
       "English name": "Prothonotary Warbler",
-      "Scientific name": "Protonotaria citrea",
       "Common name": "Paruline orang\u00e9e",
       "Power text": null,
       "Flavor text": null,
@@ -2270,7 +2081,6 @@
     },
     "191": {
       "English name": "Purple Gallinule",
-      "Scientific name": "Porphyrio martinicus",
       "Common name": "Tal\u00e8ve violac\u00e9e",
       "Power text": "Tous les joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -2282,7 +2092,6 @@
     },
     "192": {
       "English name": "Purple Martin",
-      "Scientific name": "Progne subis",
       "Common name": "Hirondelle noire",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -2294,7 +2103,6 @@
     },
     "193": {
       "English name": "Pygmy Nuthatch",
-      "Scientific name": "Sitta pygmaea",
       "Common name": "Sittelle pygm\u00e9e",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, gagnez 1 [invertebrate] ou [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2306,7 +2114,6 @@
     },
     "194": {
       "English name": "Red Crossbill",
-      "Scientific name": "Loxia curvirostra",
       "Common name": "Bec-crois\u00e9 rouge",
       "Power text": "Chaque joueur gagne 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2318,7 +2125,6 @@
     },
     "195": {
       "English name": "Red Kite",
-      "Scientific name": "Milvus milvus",
       "Common name": "Milan royal",
       "Power text": "Au lieu de payer son co\u00fbt, vous pouvez jouer cet oiseau par- dessus un oiseau sur votre plateau. D\u00e9faussez les \u0153ufs et la nourriture sur l\u2019oiseau, et laissez-le gliss\u00e9 sous cette carte.",
       "Flavor text": null,
@@ -2330,7 +2136,6 @@
     },
     "196": {
       "English name": "Red Knot",
-      "Scientific name": "Calidris canutus",
       "Common name": "B\u00e9casseau maub\u00e8che",
       "Power text": "Piochez 1 carte Bonus. Puis piochez 3 [card] et gardez-en 1.",
       "Flavor text": null,
@@ -2342,7 +2147,6 @@
     },
     "197": {
       "English name": "Red-Backed Shrike",
-      "Scientific name": "Lanius collurio",
       "Common name": "Pie-gri\u00e8che \u00e9corcheur",
       "Power text": "Volez 1 [invertebrate] de la r\u00e9serve d\u20191 autre joueur et stockez-le sur cette carte. Ce joueur gagne 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -2354,7 +2158,6 @@
     },
     "198": {
       "English name": "Red-Bellied Woodpecker",
-      "Scientific name": "Melanerpes carolinus",
       "Common name": "Pic \u00e0 ventre roux",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -2366,7 +2169,6 @@
     },
     "199": {
       "English name": "Red-Breasted Merganser",
-      "Scientific name": "Mergus serrator",
       "Common name": "Harle hupp\u00e9",
       "Power text": "Piochez 2 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -2378,7 +2180,6 @@
     },
     "200": {
       "English name": "Red-Breasted Nuthatch",
-      "Scientific name": "Sitta canadensis",
       "Common name": "Sittelle \u00e0 poitrine rousse",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -2390,7 +2191,6 @@
     },
     "201": {
       "English name": "Red-Cockaded Woodpecker",
-      "Scientific name": "Picoides borealis",
       "Common name": "Pic \u00e0 face blanche",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2402,7 +2202,6 @@
     },
     "202": {
       "English name": "Red-Eyed Vireo",
-      "Scientific name": "Vireo olivaceus",
       "Common name": "Vir\u00e9o aux yeux rouges",
       "Power text": "Jouez un second oiseau dans votre [forest]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -2414,7 +2213,6 @@
     },
     "203": {
       "English name": "Red-Headed Woodpecker",
-      "Scientific name": "Melanerpes erythrocephalus",
       "Common name": "Pic \u00e0 t\u00eate rouge",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -2426,7 +2224,6 @@
     },
     "204": {
       "English name": "Red-Legged Partridge",
-      "Scientific name": "Alectoris rufa",
       "Common name": "Perdrix rouge",
       "Power text": "Pondez 1 [egg] sur chaque oiseau dans cette colonne, celui-ci inclus.",
       "Flavor text": null,
@@ -2438,7 +2235,6 @@
     },
     "205": {
       "English name": "Red-Shouldered Hawk",
-      "Scientific name": "Buteo lineatus",
       "Common name": "Buse \u00e0 \u00e9paulettes",
       "Power text": "Regardez une [card] de la pioche. Si < 75, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -2450,7 +2246,6 @@
     },
     "206": {
       "English name": "Red-Tailed Hawk",
-      "Scientific name": "Buteo jamaicensis",
       "Common name": "Buse \u00e0 queue rousse",
       "Power text": "Regardez une [card] de la pioche. Si < 75, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -2462,7 +2257,6 @@
     },
     "207": {
       "English name": "Red-Winged Blackbird",
-      "Scientific name": "Agelaius phoeniceus",
       "Common name": "Carouge \u00e0 \u00e9paulettes",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -2474,7 +2268,6 @@
     },
     "208": {
       "English name": "Ring-Billed Gull",
-      "Scientific name": "Larus delawarensis",
       "Common name": "Go\u00e9land \u00e0 bec cercl\u00e9",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -2486,7 +2279,6 @@
     },
     "209": {
       "English name": "Rose-Breasted Grosbeak",
-      "Scientific name": "Pheucticus ludovicianus",
       "Common name": "Cardinal \u00e0 poitrine rose",
       "Power text": "Gagnez 1 [seed] ou [fruit] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -2498,7 +2290,6 @@
     },
     "210": {
       "English name": "Roseate Spoonbill",
-      "Scientific name": "Platalea ajaja",
       "Common name": "Spatule ros\u00e9e",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2510,7 +2301,6 @@
     },
     "211": {
       "English name": "Ruby-Crowned Kinglet",
-      "Scientific name": "Regulus calendula",
       "Common name": "Roitelet \u00e0 couronne rubis",
       "Power text": "Jouez un second oiseau dans votre [forest]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -2522,7 +2312,6 @@
     },
     "212": {
       "English name": "Ruby-Throated Hummingbird",
-      "Scientific name": "Archilochus colubris",
       "Common name": "Colibri \u00e0 gorge rubis",
       "Power text": "Chaque joueur gagne 1 [die] de la mangeoire, en commen\u00e7ant par le joueur de votre choix.",
       "Flavor text": null,
@@ -2534,7 +2323,6 @@
     },
     "213": {
       "English name": "Ruddy Duck",
-      "Scientific name": "Oxyura jamaicensis",
       "Common name": "\u00c9rismature rousse",
       "Power text": "Piochez 2 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -2546,7 +2334,6 @@
     },
     "214": {
       "English name": "Ruff",
-      "Scientific name": "Calidris pugnax",
       "Common name": "Combattant vari\u00e9",
       "Power text": "Glissez jusqu\u2019\u00e0 3 [card] de votre main sous cet oiseau. Piochez 1 [card] pour chaque carte ainsi gliss\u00e9e.",
       "Flavor text": null,
@@ -2558,7 +2345,6 @@
     },
     "215": {
       "English name": "Sandhill Crane",
-      "Scientific name": "Antigone canadensis",
       "Common name": "Grue du Canada",
       "Power text": "D\u00e9faussez 1 [seed] pour glisser 2 [card] de la pioche sous cette carte.",
       "Flavor text": null,
@@ -2570,7 +2356,6 @@
     },
     "216": {
       "English name": "Savannah Sparrow",
-      "Scientific name": "Passerculus sandwichensis",
       "Common name": "Bruant des pr\u00e9s",
       "Power text": "Jouez un second oiseau dans votre [grassland]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -2582,7 +2367,6 @@
     },
     "217": {
       "English name": "Savi's Warbler",
-      "Scientific name": "Locustella luscinioides",
       "Common name": "Locustelle luscinio\u00efde",
       "Power text": "Piochez 2 [card]. Les autres joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -2594,7 +2378,6 @@
     },
     "218": {
       "English name": "Say's Phoebe",
-      "Scientific name": "Sayornis saya",
       "Common name": "Moucherolle de say",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un nid [bowl].",
       "Flavor text": null,
@@ -2606,7 +2389,6 @@
     },
     "219": {
       "English name": "Scaled Quail",
-      "Scientific name": "Callipepla squamata",
       "Common name": "Colin \u00e9caill\u00e9",
       "Power text": "Pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -2618,7 +2400,6 @@
     },
     "220": {
       "English name": "Scissor-Tailed Flycatcher",
-      "Scientific name": "Tyrannus forficatus",
       "Common name": "Tyran \u00e0 longue queue",
       "Power text": "Chaque joueur gagne 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2630,7 +2411,6 @@
     },
     "221": {
       "English name": "Short-Toed Treecreeper",
-      "Scientific name": "Certhia brachydactyla",
       "Common name": "Grimpereau des jardins",
       "Power text": "D\u00e9faussez 1 [egg]. Si vous le faites, jouez 1 autre oiseau dans votre [forest]. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -2642,7 +2422,6 @@
     },
     "222": {
       "English name": "Snow Bunting",
-      "Scientific name": "Plectrophenax nivalis",
       "Common name": "Plectrophane des neiges",
       "Power text": "Lorsqu\u2019un autre joueur glisse une [card] sous un oiseau, quelle qu\u2019en soit la raison, glissez 1 [card] de votre main sous cet oiseau. Puis piochez 1 [card] \u00e0 la fin de son tour.",
       "Flavor text": null,
@@ -2654,7 +2433,6 @@
     },
     "223": {
       "English name": "Snowy Egret",
-      "Scientific name": "Egretta thula",
       "Common name": "Aigrette neigeuse",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -2666,7 +2444,6 @@
     },
     "224": {
       "English name": "Snowy Owl",
-      "Scientific name": "Bubo scandiacus",
       "Common name": "Harfang des neiges",
       "Power text": "Piochez 1 carte Bonus. Puis gagnez 1 [card] ou pondez 1 [egg] sur un oiseau.",
       "Flavor text": null,
@@ -2678,7 +2455,6 @@
     },
     "225": {
       "English name": "Song Sparrow",
-      "Scientific name": "Melospiza melodia",
       "Common name": "Bruant chanteur",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -2690,7 +2466,6 @@
     },
     "226": {
       "English name": "Spotted Owl",
-      "Scientific name": "Strix occidentalis",
       "Common name": "Chouette tachet\u00e9e",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2702,7 +2477,6 @@
     },
     "227": {
       "English name": "Spotted Sandpiper",
-      "Scientific name": "Actitis macularius",
       "Common name": "Chevalier grivel\u00e9",
       "Power text": "Tous les joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -2714,7 +2488,6 @@
     },
     "228": {
       "English name": "Spotted Towhee",
-      "Scientific name": "Pipilo maculatus",
       "Common name": "Tohi tachet\u00e9",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2726,7 +2499,6 @@
     },
     "229": {
       "English name": "Sprague's Pipit",
-      "Scientific name": "Anthus spragueii",
       "Common name": "Pipit de Sprague",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2738,7 +2510,6 @@
     },
     "230": {
       "English name": "Squacco Heron",
-      "Scientific name": "Ardeola ralloides",
       "Common name": "Crabier chevelu",
       "Power text": "Piochez 1 [card] face visible qui puisse \u00eatre jou\u00e9e dans [wetland].",
       "Flavor text": null,
@@ -2750,7 +2521,6 @@
     },
     "231": {
       "English name": "Steller's Jay",
-      "Scientific name": "Cyanocitta stelleri",
       "Common name": "Geai de Steller",
       "Power text": "Gagnez 1 [seed] de la mangeoire (si disponible). Vous pouvez le stocker sur cette carte.",
       "Flavor text": null,
@@ -2762,7 +2532,6 @@
     },
     "232": {
       "English name": "Swainson's Hawk",
-      "Scientific name": "Buteo swainsoni",
       "Common name": "Buse de Swainson",
       "Power text": "Regardez une [card] de la pioche. Si < 100, glissez-la sous cette carte. Sinon d\u00e9faussez- la.",
       "Flavor text": null,
@@ -2774,7 +2543,6 @@
     },
     "233": {
       "English name": "Thekla's Lark",
-      "Scientific name": "Galerida theklae",
       "Common name": "Cochevis de Th\u00e9kla",
       "Power text": "D\u00e9faussez 1 [seed] de votre r\u00e9serve. Si vous le faites, pondez 2 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -2786,7 +2554,6 @@
     },
     "234": {
       "English name": "Tree Swallow",
-      "Scientific name": "Tachycineta bicolor",
       "Common name": "Hirondelle bicolore",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -2798,7 +2565,6 @@
     },
     "235": {
       "English name": "Trumpeter Swan",
-      "Scientific name": "Cygnus buccinator",
       "Common name": "Cygne trompette",
       "Power text": null,
       "Flavor text": null,
@@ -2810,7 +2576,6 @@
     },
     "236": {
       "English name": "Tufted Titmouse",
-      "Scientific name": "Baeolophus bicolor",
       "Common name": "M\u00e9sange bicolore",
       "Power text": "Jouez un second oiseau dans votre [forest]. Payez son co\u00fbt normalement.",
       "Flavor text": null,
@@ -2822,7 +2587,6 @@
     },
     "237": {
       "English name": "Turkey Vulture",
-      "Scientific name": "Cathartes aura",
       "Common name": "Urubu \u00e0 t\u00eate rouge",
       "Power text": "Lorsque le pouvoir [predator] d\u2019un autre joueur r\u00e9ussit, gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -2834,7 +2598,6 @@
     },
     "238": {
       "English name": "Vaux's Swift",
-      "Scientific name": "Chaetura vauxi",
       "Common name": "Martinet de vaux",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -2846,7 +2609,6 @@
     },
     "239": {
       "English name": "Violet-Green Swallow",
-      "Scientific name": "Tachycineta thalassina",
       "Common name": "Hirondelle \u00e0 face blanche",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -2858,7 +2620,6 @@
     },
     "240": {
       "English name": "Western Meadowlark",
-      "Scientific name": "Sturnella neglecta",
       "Common name": "Sturnelle de l'Ouest",
       "Power text": "Tous les joueurs pondent 1 [egg] sur 1 oiseau [ground]. Vous pouvez pondre 1 [egg] sur 1 oiseau [ground] additionnel.",
       "Flavor text": null,
@@ -2870,7 +2631,6 @@
     },
     "241": {
       "English name": "Western Tanager",
-      "Scientific name": "Piranga ludoviciana",
       "Common name": "Piranga \u00e0 t\u00eate rouge",
       "Power text": "Gagnez 1 [invertebrate] ou [fruit] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -2882,7 +2642,6 @@
     },
     "242": {
       "English name": "White Stork",
-      "Scientific name": "Ciconia ciconia",
       "Common name": "Cigogne blanche",
       "Power text": "D\u00e9faussez les [card] face visible restantes et remplacez-les. Si vous le faites, piochez 1 des nouvelles [card] face visible.",
       "Flavor text": null,
@@ -2894,7 +2653,6 @@
     },
     "243": {
       "English name": "White Wagtail",
-      "Scientific name": "Motacilla alba",
       "Common name": "Bergeronnette grise",
       "Power text": "Si vous avez utilis\u00e9 les 4 actions diff\u00e9rentes lors de cette manche, jouez un autre oiseau. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -2906,7 +2664,6 @@
     },
     "244": {
       "English name": "White-Backed Woodpecker",
-      "Scientific name": "Dendrocopos leucotos",
       "Common name": "Pic \u00e0 dos blanc",
       "Power text": "Gagnez 1 [die] de la mangeoire.",
       "Flavor text": null,
@@ -2918,7 +2675,6 @@
     },
     "245": {
       "English name": "White-Breasted Nuthatch",
-      "Scientific name": "Sitta carolinensis",
       "Common name": "Sittelle \u00e0 poitrine blanche",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -2930,7 +2686,6 @@
     },
     "246": {
       "English name": "White-Crowned Sparrow",
-      "Scientific name": "Zonotrichia leucophrys",
       "Common name": "Bruant \u00e0 couronne blanche",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -2942,7 +2697,6 @@
     },
     "247": {
       "English name": "White-Faced Ibis",
-      "Scientific name": "Plegadis chihi",
       "Common name": "Ibis \u00e0 face blanche",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -2954,7 +2708,6 @@
     },
     "248": {
       "English name": "White-Throated Dipper",
-      "Scientific name": "Cinclus cinclus",
       "Common name": "Cincle plongeur",
       "Power text": "D\u00e9faussez les [card] face visible restantes et remplacez-les. Si vous le faites, piochez 1 des nouvelles [card] face visible.",
       "Flavor text": null,
@@ -2966,7 +2719,6 @@
     },
     "249": {
       "English name": "White-Throated Swift",
-      "Scientific name": "Aeronautes saxatalis",
       "Common name": "Martinet \u00e0 gorge blanche",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur un oiseau.",
       "Flavor text": null,
@@ -2978,7 +2730,6 @@
     },
     "250": {
       "English name": "Whooping Crane",
-      "Scientific name": "Grus americana",
       "Common name": "Grue blanche",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -2990,7 +2741,6 @@
     },
     "251": {
       "English name": "Wild Turkey",
-      "Scientific name": "Meleagris gallopavo",
       "Common name": "Dindon sauvage",
       "Power text": null,
       "Flavor text": null,
@@ -3002,7 +2752,6 @@
     },
     "252": {
       "English name": "Willet",
-      "Scientific name": "Tringa semipalmata",
       "Common name": "Chevalier semipalm\u00e9",
       "Power text": "Lancez les d\u00e9s qui sont hors de la mangeoire. Si vous obtenez au moins 1 [fish], gagnez 1 [fish] et stockez-le sur cette carte.",
       "Flavor text": null,
@@ -3014,7 +2763,6 @@
     },
     "253": {
       "English name": "Wilson's Snipe",
-      "Scientific name": "Gallinago delicata",
       "Common name": "B\u00e9cassine de Wilson",
       "Power text": "Tous les joueurs piochent 1 [card] au sommet de la pioche.",
       "Flavor text": null,
@@ -3026,7 +2774,6 @@
     },
     "254": {
       "English name": "Wilson's Storm Petrel",
-      "Scientific name": "Oceanites oceanicus",
       "Common name": "Oc\u00e9anite de Wilson",
       "Power text": "Piochez 1 [card] pour chaque case vide dans cet habitat. \u00c0 la fin de votre tour, gardez-en 1 et d\u00e9faussez les autres.",
       "Flavor text": null,
@@ -3038,7 +2785,6 @@
     },
     "255": {
       "English name": "Wood Duck",
-      "Scientific name": "Aix sponsa",
       "Common name": "Canard carolin",
       "Power text": "Piochez 2 [card]. Si vous le faites, d\u00e9faussez 1 [card] de votre main \u00e0 la fin de votre tour.",
       "Flavor text": null,
@@ -3050,7 +2796,6 @@
     },
     "256": {
       "English name": "Wood Stork",
-      "Scientific name": "Mycteria americana",
       "Common name": "Tantale d'Am\u00e9rique",
       "Power text": "Piochez 2 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -3062,7 +2807,6 @@
     },
     "257": {
       "English name": "Yellow-Bellied Sapsucker",
-      "Scientific name": "Sphyrapicus varius",
       "Common name": "Pic macul\u00e9",
       "Power text": "Gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3074,7 +2818,6 @@
     },
     "258": {
       "English name": "Yellow-Billed Cuckoo",
-      "Scientific name": "Coccyzus americanus",
       "Common name": "Coulicou \u00e0 bec jaune",
       "Power text": "Quand un autre joueur effectue l\u2019action pondre des \u0153ufs, cet oiseau pond 1 [egg] sur un autre oiseau ayant 1 nid [bowl].",
       "Flavor text": null,
@@ -3086,7 +2829,6 @@
     },
     "259": {
       "English name": "Yellow-Breasted Chat",
-      "Scientific name": "Icteria virens",
       "Common name": "Paruline polyglotte",
       "Power text": "Si cet oiseau est le plus \u00e0 droite dans son habitat, d\u00e9placez-le dans un autre habitat.",
       "Flavor text": null,
@@ -3098,7 +2840,6 @@
     },
     "260": {
       "English name": "Yellow-Headed Blackbird",
-      "Scientific name": "Xanthocephalus xanthocephalus",
       "Common name": "Carouge \u00e0 t\u00eate jaune",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, pondez \u00e9galement 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -3110,7 +2851,6 @@
     },
     "261": {
       "English name": "Yellow-Rumped Warbler",
-      "Scientific name": "Setophaga coronata",
       "Common name": "Paruline \u00e0 croupion jaune",
       "Power text": "Glissez 1 [card] de votre main sous cette carte. Si vous le faites, piochez 1 [card].",
       "Flavor text": null,
@@ -3122,7 +2862,6 @@
     },
     "262": {
       "English name": "Yellowhammer",
-      "Scientific name": "Emberiza citrinella",
       "Common name": "Bruant jaune",
       "Power text": "Si vous avez utilis\u00e9 les 4 actions diff\u00e9rentes lors de cette manche, jouez un autre oiseau. Payez son co\u00fbt normalement (\u0153ufs et nourriture).",
       "Flavor text": null,
@@ -3134,7 +2873,6 @@
     },
     "263": {
       "English name": "Abbott's Booby",
-      "Scientific name": "Papasula abbotti",
       "Common name": "Fou d'Abbott",
       "Power text": "Piochez 3 cartes Bonus, puis d\u00e9faussez-en 2. Vous pouvez d\u00e9fausser des cartes que vous aviez d\u00e9j\u00e0 au lieu de celles pioch\u00e9es.",
       "Flavor text": null,
@@ -3146,7 +2884,6 @@
     },
     "264": {
       "English name": "Australasian Pipit",
-      "Scientific name": "Anthus novaeseelandiae",
       "Common name": "Pipit de Nouvelle-Ze\u0301lande",
       "Power text": "Glissez 1 [card] de la pioche sous chaque oiseau dans votre [grassland] dont celui-ci.",
       "Flavor text": null,
@@ -3158,7 +2895,6 @@
     },
     "265": {
       "English name": "Australasian Shoveler",
-      "Scientific name": "Spatula rhynchotis",
       "Common name": "Souchet d'Australie",
       "Power text": "Choisissez 1 autre joueur. Piochez tous les deux 1 [card].",
       "Flavor text": null,
@@ -3170,7 +2906,6 @@
     },
     "266": {
       "English name": "Australian Ibis",
-      "Scientific name": "Threskiornis moluccus",
       "Common name": "Ibis Blanc d'Australie",
       "Power text": "M\u00e9langez la d\u00e9fausse puis piochez-y 2 [card]. Choisissez-en une et glissez-la sous cet oiseau, ou ajoutez-la \u00e0 votre main, puis d\u00e9faussez l'autre.",
       "Flavor text": null,
@@ -3182,7 +2917,6 @@
     },
     "267": {
       "English name": "Australian Magpie",
-      "Scientific name": "Gymnorhina tibicen",
       "Common name": "Cassican Flu\u0302teur d'Australie",
       "Power text": "D\u00e9faussez 1 [egg] de chaque oiseau (sauf celui-ci) dans cette ligne et dans cette colonne avec au moins un [egg] dessus. Pour chaque [egg] ainsi d\u00e9fauss\u00e9, stockez 2 [seed] de la r\u00e9serve sur cet oiseau.",
       "Flavor text": null,
@@ -3194,7 +2928,6 @@
     },
     "268": {
       "English name": "Australian Owlet-Nightjar",
-      "Scientific name": "Aegotheles cristatus",
       "Common name": "E\u0301gothe\u0300le d'Australie",
       "Power text": "Quand un autre joueur effectue l\u2019action \u00abGagner de la nourriture\u00bb, gagnez 1 [invertebrate] de la mangeoire \u00e0 la fin de son tour, si disponible.",
       "Flavor text": null,
@@ -3206,7 +2939,6 @@
     },
     "269": {
       "English name": "Australian Raven",
-      "Scientific name": "Corvus coronoides",
       "Common name": "Corbeau d'Australie",
       "Power text": "Stockez jusqu'\u00e0 5 [wild] de votre r\u00e9serve sur cet oiseau.",
       "Flavor text": null,
@@ -3218,7 +2950,6 @@
     },
     "270": {
       "English name": "Australian Reed Warbler",
-      "Scientific name": "Acrocephalus australis",
       "Common name": "Rousserolle d'Australie",
       "Power text": "Jouez un oiseau suppl\u00e9mentaire dans votre [wetland]. Vous pouvez payer 1 [egg] de moins que le co\u00fbt indiqu\u00e9. Payez le co\u00fbt en nourriture normalement.",
       "Flavor text": null,
@@ -3230,7 +2961,6 @@
     },
     "271": {
       "English name": "Australian Shelduck",
-      "Scientific name": "Tadorna tadornoides",
       "Common name": "Tadorne d'Australie",
       "Power text": "Prenez 1 [card] du plateau avec [bowl] ou un nid [star]. Vous pouvez remplir le plateau ou d\u00e9fausser toutes les cartes du plateau et les remplacer avant de le faire.",
       "Flavor text": null,
@@ -3242,7 +2972,6 @@
     },
     "272": {
       "English name": "Australian Zebra Finch",
-      "Scientific name": "Taeniopygia castanotis",
       "Common name": "Diamant Mandarin d'Australie",
       "Power text": "Si le joueur \u00e0 votre droite poss\u00e8de au moins 1 [seed] dans sa r\u00e9serve, glissez une [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -3254,7 +2983,6 @@
     },
     "273": {
       "English name": "Black Noddy",
-      "Scientific name": "Anous minutus",
       "Common name": "Noddi Noir",
       "Power text": "Relancez les d\u00e9s de la mangeoire et gagnez tous les [fish], s\u2019il y en a. Vous pouvez d\u00e9fausser les [fish] ainsi gagn\u00e9s (tous ou en partie) pour glisser autant de [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -3266,7 +2994,6 @@
     },
     "274": {
       "English name": "Black Swan",
-      "Scientific name": "Cygnus atratus",
       "Common name": "Cygne noir",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux >100cm dont celui-ci.",
       "Flavor text": null,
@@ -3278,7 +3005,6 @@
     },
     "275": {
       "English name": "Black-Shouldered Kite",
-      "Scientific name": "Elanus axillaris",
       "Common name": "\u00c9lanion d'Australie",
       "Power text": "Relancez les d\u00e9s de la mangeoire et gagnez 1 [rodent], si disponible. Vous pouvez le donner \u00e0 un autre joueur. Si vous le faites, pondez jusqu'\u00e0 3 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -3290,7 +3016,6 @@
     },
     "276": {
       "English name": "Blyth's Hornbill",
-      "Scientific name": "Rhyticeros plicatus",
       "Common name": "Calao Papou",
       "Power text": "D\u00e9faussez tous les [egg] d'un de vos oiseaux \u00e0 nid [cavity]. Glissez deux fois plus de [card] de la pioche sous cet oiseau que d'\u0153ufs d\u00e9fauss\u00e9s.",
       "Flavor text": null,
@@ -3302,7 +3027,6 @@
     },
     "277": {
       "English name": "Brolga",
-      "Scientific name": "Antigone rubicunda",
       "Common name": "Grue Brolga",
       "Power text": "Choisissez 1 autre joueur. Il pond 1 [egg] et vous piochez 2 [card].",
       "Flavor text": null,
@@ -3314,7 +3038,6 @@
     },
     "278": {
       "English name": "Brown Falcon",
-      "Scientific name": "Falco berigora",
       "Common name": "Faucon Brun",
       "Power text": "Regardez une [card] de la pioche. Si le co\u00fbt en nourriture inclut [invertebrate] ou [rodent], glissez-la sous cet oiseau, sinon d\u00e9faussez-la.",
       "Flavor text": null,
@@ -3326,7 +3049,6 @@
     },
     "279": {
       "English name": "Budgerigar",
-      "Scientific name": "Melopsittacus undulatus",
       "Common name": "Perruche Ondule\u0301e",
       "Power text": "Glissez le plus petit oiseau du plateau Oiseaux sous cet oiseau.",
       "Flavor text": null,
@@ -3338,7 +3060,6 @@
     },
     "280": {
       "English name": "Cockatiel",
-      "Scientific name": "Nymphicus hollandicus",
       "Common name": "Calopsitte E\u0301le\u0301gante",
       "Power text": "D\u00e9faussez 1 [seed] pour choisir une [card] du plateau et la glisser sous cet oiseau.",
       "Flavor text": null,
@@ -3350,7 +3071,6 @@
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
-      "Scientific name": "Paradisaea raggiana",
       "Common name": "Paradisier de Raggi",
       "Power text": "Choisissez 1 autre joueur. Gagnez tous les deux 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3362,7 +3082,6 @@
     },
     "282": {
       "English name": "Crested Pigeon",
-      "Scientific name": "Ocyphaps lophotes",
       "Common name": "Colombine Longup",
       "Power text": "Stockez jusqu'\u00e0 8 [seed] de votre r\u00e9serve sur cet oiseau.",
       "Flavor text": null,
@@ -3374,7 +3093,6 @@
     },
     "283": {
       "English name": "Crimson Chat",
-      "Scientific name": "Epthianura tricolor",
       "Common name": "Epthianura Tricolore",
       "Power text": "D\u00e9faussez 1 [wild] pour glisser 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -3386,7 +3104,6 @@
     },
     "284": {
       "English name": "Eastern Rosella",
-      "Scientific name": "Platycercus eximius",
       "Common name": "Perruche Omnicolore",
       "Power text": "Tous les joueurs gagnent 1 [nectar] de la r\u00e9serve. Vous gagnez aussi 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3398,7 +3115,6 @@
     },
     "285": {
       "English name": "Eastern Whipbird",
-      "Scientific name": "Psophodes olivaceus",
       "Common name": "Psophode a\u0300 Te\u0302te Noire",
       "Power text": "Choisissez 1 autre joueur. Gagnez tous les deux 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3410,7 +3126,6 @@
     },
     "286": {
       "English name": "Emu",
-      "Scientific name": "Dromaius novaehollandiae",
       "Common name": "E\u0301meu d'Australie",
       "Power text": "Prenez tous les [seed] de la mangeoire. Gardez-en la moiti\u00e9 (arrondi au chiffre sup\u00e9rieur) et distribuez le reste aux autres joueurs comme vous le souhaitez.",
       "Flavor text": null,
@@ -3422,7 +3137,6 @@
     },
     "287": {
       "English name": "Galah",
-      "Scientific name": "Eolophus roseicapilla",
       "Common name": "Cacatoe\u0300s Rosalbin",
       "Power text": "Choisissez 1 autre joueur. Il relance les d\u00e9s de la mangeoire et gagne 1 [seed], si disponible. Glissez 2 [card] de la pioche\nsous cet oiseau.",
       "Flavor text": null,
@@ -3434,7 +3148,6 @@
     },
     "288": {
       "English name": "Golden-Headed Cisticola",
-      "Scientific name": "Cisticola exilis",
       "Common name": "Cisticole a\u0300 Couronne Dore\u0301e",
       "Power text": "Jouez un oiseau suppl\u00e9mentaire dans votre [grassland]. Vous pouvez payer 1 [egg] de moins que le co\u00fbt indiqu\u00e9. Payez le co\u00fbt en nourriture normalement.",
       "Flavor text": null,
@@ -3446,7 +3159,6 @@
     },
     "289": {
       "English name": "Gould's Finch",
-      "Scientific name": "Erythrura gouldiae",
       "Common name": "Diamant de Gould",
       "Power text": "Jouez un oiseau. Payez son co\u00fbt en \u0153ufs et en nourriture normalement. S'il a un pouvoir \u00abpose\u00bb ou \u00abfin de partie\u00bb, vous pouvez l'utiliser.",
       "Flavor text": null,
@@ -3458,7 +3170,6 @@
     },
     "290": {
       "English name": "Green Pygmy-Goose",
-      "Scientific name": "Nettapus pulchellus",
       "Common name": "Anserelle E\u0301le\u0301gante",
       "Power text": "Piochez 2 [card]. Gardez-en 1 et donnez l'autre \u00e0 un autre joueur.",
       "Flavor text": null,
@@ -3470,7 +3181,6 @@
     },
     "291": {
       "English name": "Grey Butcherbird",
-      "Scientific name": "Cracticus torquatus",
       "Common name": "Cassican a\u0300 Collier",
       "Power text": "Regardez une [card] de la pioche. Si <40 cm, glissez-la sous cet oiseau et stockez 1 [rodent] de la r\u00e9serve dessus, sinon d\u00e9faussez-la.",
       "Flavor text": null,
@@ -3482,7 +3192,6 @@
     },
     "292": {
       "English name": "Grey Shrikethrush",
-      "Scientific name": "Colluricincla harmonica",
       "Common name": "Pitohui Gris",
       "Power text": "Relancez les d\u00e9s de la mangeoire et gagnez tous les [rodent], s\u2019il y en a. Vous pouvez les stocker (tous ou en partie) sur cet oiseau.",
       "Flavor text": null,
@@ -3494,7 +3203,6 @@
     },
     "293": {
       "English name": "Grey Teal",
-      "Scientific name": "Anas gracilis",
       "Common name": "Sarcelle grise",
       "Power text": "Regardez 3 [card] de la pioche. Gardez 1 oiseau [wetland], si disponible. Vous pouvez l'ajouter \u00e0 votre main ou le glisser sous cet oiseau. D\u00e9faussez les autres cartes.",
       "Flavor text": null,
@@ -3506,7 +3214,6 @@
     },
     "294": {
       "English name": "Grey Warbler",
-      "Scientific name": "Gerygone igata",
       "Common name": "Ge\u0301rygone de Nouvelle-Ze\u0301lande",
       "Power text": "Jouez un oiseau suppl\u00e9mentaire dans votre [forest]. Vous pouvez payer 1 [egg] de moins que le co\u00fbt indiqu\u00e9. Payez le co\u00fbt en nourriture normalement.",
       "Flavor text": null,
@@ -3518,7 +3225,6 @@
     },
     "295": {
       "English name": "Grey-Headed Mannikin",
-      "Scientific name": "Lonchura caniceps",
       "Common name": "Capucin Gris",
       "Power text": "Jouez un oiseau. Payez son co\u00fbt en nourriture normalement, mais payez 1 [egg] de moins que n\u00e9cessaire. S'il a un pouvoir \u00abpose\u00bb ou \u00abfin de partie\u00bb, vous pouvez l'utiliser.",
       "Flavor text": null,
@@ -3530,7 +3236,6 @@
     },
     "296": {
       "English name": "Horsfield's Bronze-Cuckoo",
-      "Scientific name": "Chrysococcyx basalis",
       "Common name": "Coucou de Horsfield",
       "Power text": "Quand un autre joueur effectue l\u2019action \u00abPondre des \u0153ufs\u00bb, cet oiseau pond 1 [egg] sur un oiseau <30 cm.",
       "Flavor text": null,
@@ -3542,7 +3247,6 @@
     },
     "297": {
       "English name": "Horsfield's Bushlark",
-      "Scientific name": "Mirafra javanica",
       "Common name": "Alouette de Java",
       "Power text": "D\u00e9faussez 1 [seed]. Si vous le faites, pondez jusqu'\u00e0 2 sur cet oiseau.",
       "Flavor text": null,
@@ -3554,7 +3258,6 @@
     },
     "298": {
       "English name": "K\u0101k\u0101p\u014d",
-      "Scientific name": "Strigops habroptila",
       "Common name": "K\u0101k\u0101p\u043e\u0304",
       "Power text": "Piochez 4 nouvelles cartes Bonus, gardez-en 1 et d\u00e9faussez les 3 autres.",
       "Flavor text": null,
@@ -3566,7 +3269,6 @@
     },
     "299": {
       "English name": "Kea",
-      "Scientific name": "Nestor notabilis",
       "Common name": "Ke\u0301a de Nouvelle-Ze\u0301lande",
       "Power text": "Piochez 1 carte Bonus. Vous pouvez d\u00e9fausser des [wild] pour piocher autant de cartes suppl\u00e9mentaires. Gardez 1 des cartes pioch\u00e9es et d\u00e9faussez le reste.",
       "Flavor text": null,
@@ -3578,7 +3280,6 @@
     },
     "300": {
       "English name": "Kelp Gull",
-      "Scientific name": "Larus dominicanus",
       "Common name": "Goe\u0301land Dominicain",
       "Power text": "D\u00e9faussez autant de [wild] que vous le souhaitez pour piocher le m\u00eame nombre de [card].",
       "Flavor text": null,
@@ -3590,7 +3291,6 @@
     },
     "301": {
       "English name": "Kerer\u016b",
-      "Scientific name": "Hemiphaga novaeseelandiae",
       "Common name": "Carpophage de Nouvelle-Z\u00e9lande",
       "Power text": "Si le joueur \u00e0 votre gauche poss\u00e8de au moins 1 [nectar] dans sa r\u00e9serve, gagnez 1 [nectar] de la r\u00e9serve g\u00e9n\u00e9rale.",
       "Flavor text": null,
@@ -3602,7 +3302,6 @@
     },
     "302": {
       "English name": "Korimako",
-      "Scientific name": "Anthornis melanura",
       "Common name": "Me\u0301liphage Carillonneur",
       "Power text": "D\u00e9faussez autant de [rodent] que vous le souhaitez pour gagner le m\u00eame nombre de [nectar] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3614,7 +3313,6 @@
     },
     "303": {
       "English name": "Laughing Kookaburra",
-      "Scientific name": "Dacelo novaeguineae",
       "Common name": "Kookaburra",
       "Power text": "Relancez les d\u00e9s de la mangeoire. Si vous le faites, gagnez 1 [invertebrate], [fish] ou [rodent], si disponible.",
       "Flavor text": null,
@@ -3626,7 +3324,6 @@
     },
     "304": {
       "English name": "Lesser Frigatebird",
-      "Scientific name": "Fregata ariel",
       "Common name": "Fr\u00e9gate Ariel",
       "Power text": "Tous les joueurs peuvent d\u00e9fausser 1 [egg] d'un de leurs oiseaux [wetland]. Tous les joueurs qui le font peuvent gagner 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3638,7 +3335,6 @@
     },
     "305": {
       "English name": "Lewin's Honeyeater",
-      "Scientific name": "Meliphaga lewinii",
       "Common name": "Me\u0301liphage de Lewin",
       "Power text": "Choisissez 1 autre joueur. Gagnez tous les deux 1 [nectar] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3650,7 +3346,6 @@
     },
     "306": {
       "English name": "Little Penguin",
-      "Scientific name": "Eudyptula minor",
       "Common name": "Manchot Pygme\u0301e",
       "Power text": "Regardez 5 [card] de la pioche, puis d\u00e9faussez-les. Pour chaque [fish] dans leur co\u00fbt en nourriture, stockez 1 [fish] de la r\u00e9serve sur cet oiseau.",
       "Flavor text": null,
@@ -3662,7 +3357,6 @@
     },
     "307": {
       "English name": "Little Pied Cormorant",
-      "Scientific name": "Microcarbo melanoleucos",
       "Common name": "Cormoran Pie",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un [platform] dont celui-ci.",
       "Flavor text": null,
@@ -3674,7 +3368,6 @@
     },
     "308": {
       "English name": "Magpie-Lark",
-      "Scientific name": "Grallina cyanoleuca",
       "Common name": "Gralline Pie",
       "Power text": "D\u00e9faussez 2 \u0153ufs de votre [forest]. Si vous le faites, jouez 1 oiseau dans votre [grassland] en ignorant le co\u00fbt en \u0153ufs. Payez le co\u00fbt en nourriture normalement. S'il a un pouvoir \u00abpose\u00bb ou \u00abfin de partie\u00bb, vous pouvez l'utiliser.",
       "Flavor text": null,
@@ -3686,7 +3379,6 @@
     },
     "309": {
       "English name": "Major Mitchell's Cockatoo",
-      "Scientific name": "Lophochroa leadbeateri",
       "Common name": "Cacatoe\u0300s de Leadbeater",
       "Power text": "Glissez 1 [card] de votre main sous cet oiseau. Si vous le faites, tous les joueurs (vous aussi) gagnent 1 [seed] de la reserve.",
       "Flavor text": null,
@@ -3698,7 +3390,6 @@
     },
     "310": {
       "English name": "Malleefowl",
-      "Scientific name": "Leipoa ocellata",
       "Common name": "Le\u0301ipoa Ocelle\u0301",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un [ground] dont celui-ci.",
       "Flavor text": null,
@@ -3710,7 +3401,6 @@
     },
     "311": {
       "English name": "Maned Duck",
-      "Scientific name": "Chenonetta jubata",
       "Common name": "Canard a\u0300 Crinie\u0300re",
       "Power text": "Glissez jusqu\u2019\u00e0 3 [card] de votre main sous cet oiseau. Si vous glissez au moins 1 [card], gagnez 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3722,7 +3412,6 @@
     },
     "312": {
       "English name": "Many-Colored Fruit-Dove",
-      "Scientific name": "Ptilinopus perousii",
       "Common name": "Ptilope de La Pe\u0301rouse",
       "Power text": "Tous les joueurs gagnent 1 [fruit] de la r\u00e9serve. Gagnez 1 [fruit] suppl\u00e9mentaire.",
       "Flavor text": null,
@@ -3734,7 +3423,6 @@
     },
     "313": {
       "English name": "Masked Lapwing",
-      "Scientific name": "Vanellus miles",
       "Common name": "Vanneau Soldat",
       "Power text": "Relancez les d\u00e9s de la mangeoire. Pour chaque type de nourriture dans la mangeoire, gagnez 1 jeton du m\u00eame type.",
       "Flavor text": null,
@@ -3746,7 +3434,6 @@
     },
     "314": {
       "English name": "Mistletoebird",
-      "Scientific name": "Dicaeum hirundinaceum",
       "Common name": "Dice\u0301e Hirondelle",
       "Power text": "Gagnez 1 [fruit] de la r\u00e9serve, ou d\u00e9faussez 1 [fruit] pour gagner 1 [nectar] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3758,7 +3445,6 @@
     },
     "315": {
       "English name": "Musk Duck",
-      "Scientific name": "Biziura lobata",
       "Common name": "E\u0301rismature a\u0300 Barbillons",
       "Power text": "Prenez 1 [card] du plateau avec [ground] ou un nid [star]. Vous pouvez remplir le plateau ou d\u00e9fausser toutes les cartes du plateau et les remplacer avant de le faire.",
       "Flavor text": null,
@@ -3770,7 +3456,6 @@
     },
     "316": {
       "English name": "New Holland Honeyeater",
-      "Scientific name": "Phylidonyris novaehollandiae",
       "Common name": "Me\u0301liphage de Nouvelle-Hollande",
       "Power text": "Gagnez 1 [nectar] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -3782,7 +3467,6 @@
     },
     "317": {
       "English name": "Noisy Miner",
-      "Scientific name": "Manorina melanocephala",
       "Common name": "Me\u0301liphage Bruyant",
       "Power text": "Glissez 1 [card] de votre main sous cet oiseau. Si vous le faites, pondez jusqu'\u00e0 2 [egg] sur cet oiseau. Tous les autres joueurs peuvent pondre 1 [egg].",
       "Flavor text": null,
@@ -3794,7 +3478,6 @@
     },
     "318": {
       "English name": "North Island Brown Kiwi",
-      "Scientific name": "Apteryx mantelli",
       "Common name": "Kiwi Brun de Mantell",
       "Power text": "D\u00e9faussez une carte Bonus. Si vous le faites, piochez 4 nouvelles cartes Bonus, gardez-en 2 et d\u00e9faussez le reste.",
       "Flavor text": null,
@@ -3806,7 +3489,6 @@
     },
     "319": {
       "English name": "Orange-Footed Scrubfowl",
-      "Scientific name": "Megapodius reinwardt",
       "Common name": "Me\u0301gapode de Reinwardt",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un [ground] dont celui-ci.",
       "Flavor text": null,
@@ -3818,7 +3500,6 @@
     },
     "320": {
       "English name": "Pacific Black Duck",
-      "Scientific name": "Anas superciliosa",
       "Common name": "Canard a\u0300 Sourcils",
       "Power text": "Pour chaque 2 [egg] dans votre [wetland], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -3830,7 +3511,6 @@
     },
     "321": {
       "English name": "Peaceful Dove",
-      "Scientific name": "Geopelia placida",
       "Common name": "Ge\u0301ope\u0301lie Placide",
       "Power text": "D\u00e9faussez autant de [seed] que vous le souhaitez. Pondez 1 [egg] sur cet oiseau par jeton d\u00e9fauss\u00e9.",
       "Flavor text": null,
@@ -3842,7 +3522,6 @@
     },
     "322": {
       "English name": "Pesquet's Parrot",
-      "Scientific name": "Psittrichas fulgidus",
       "Common name": "Perroquet de Pesquet",
       "Power text": "Si le joueur \u00e0 votre droite poss\u00e8de au moins 1 [nectar] dans sa r\u00e9serve, gagnez 1 [nectar] de la r\u00e9serve g\u00e9n\u00e9rale.",
       "Flavor text": null,
@@ -3854,7 +3533,6 @@
     },
     "323": {
       "English name": "Pheasant Coucal",
-      "Scientific name": "Centropus phasianinus",
       "Common name": "Coucal Faisan",
       "Power text": "Quand un autre joueur effectue l\u2019action \u00abPondre des \u0153ufs\u00bb, cet oiseau pond 1 [egg] sur cette carte.",
       "Flavor text": null,
@@ -3866,7 +3544,6 @@
     },
     "324": {
       "English name": "Pink-Eared Duck",
-      "Scientific name": "Malacorhynchus membranaceus",
       "Common name": "Canard a\u0300 Oreilles Roses",
       "Power text": "Piochez 2 [card]. Gardez-en 1 et donnez l'autre \u00e0 un autre joueur.",
       "Flavor text": null,
@@ -3878,7 +3555,6 @@
     },
     "325": {
       "English name": "Plains-Wanderer",
-      "Scientific name": "Pedionomus torquatus",
       "Common name": "Pe\u0301dionome Errant",
       "Power text": "Piochez 1 carte Bonus par oiseau dans votre [grassland]. Gardez-en-en 1 et d\u00e9faussez le reste.",
       "Flavor text": null,
@@ -3890,7 +3566,6 @@
     },
     "326": {
       "English name": "Princess Stephanie's Astrapia",
-      "Scientific name": "Astrapia stephaniae",
       "Common name": "Paradisier de Ste\u0301phanie",
       "Power text": "Choisissez 1 autre joueur. Pondez tous les deux 1 [egg].",
       "Flavor text": null,
@@ -3902,7 +3577,6 @@
     },
     "327": {
       "English name": "P\u016bkeko",
-      "Scientific name": "Porphyrio melanotus",
       "Common name": "Pukeko",
       "Power text": "Pondez 1 [egg] sur un oiseau adjacent.",
       "Flavor text": null,
@@ -3914,7 +3588,6 @@
     },
     "328": {
       "English name": "Rainbow Lorikeet",
-      "Scientific name": "Trichoglossus moluccanus",
       "Common name": "Loriquet Arc-en-ciel",
       "Power text": "D\u00e9faussez 1 [nectar] sur la case \"nectar d\u00e9pens\u00e9\" pour votre [forest]. Si vous le faites, gagnez 2 [die] de la mangeoire.",
       "Flavor text": null,
@@ -3926,7 +3599,6 @@
     },
     "329": {
       "English name": "Red Wattlebird",
-      "Scientific name": "Anthochaera carunculata",
       "Common name": "Me\u0301liphage Barbe-rouge",
       "Power text": "Gagnez 1 [nectar] par oiseau <49 cm dans votre [forest].",
       "Flavor text": null,
@@ -3938,7 +3610,6 @@
     },
     "330": {
       "English name": "Red-Backed Fairywren",
-      "Scientific name": "Malurus melanocephalus",
       "Common name": "Me\u0301rion a\u0300 Dos Rouge",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux ayant un [star] dont celui-ci.",
       "Flavor text": null,
@@ -3950,7 +3621,6 @@
     },
     "331": {
       "English name": "Red-Capped Robin",
-      "Scientific name": "Petroica goodenovii",
       "Common name": "Miro a\u0300 Front Rouge",
       "Power text": "Si le joueur \u00e0 votre droite poss\u00e8de au moins 1 [invertebrate] dans sa r\u00e9serve, gagnez 1 [invertebrate] de la r\u00e9serve g\u00e9n\u00e9rale.",
       "Flavor text": null,
@@ -3962,7 +3632,6 @@
     },
     "332": {
       "English name": "Red-Necked Avocet",
-      "Scientific name": "Recurvirostra novaehollandiae",
       "Common name": "Avocette d'Australie",
       "Power text": "Si le joueur \u00e0 votre gauche poss\u00e8de au moins 1 [invertebrate] dans sa r\u00e9serve, gagnez 1 [invertebrate] de la r\u00e9serve g\u00e9n\u00e9rale.",
       "Flavor text": null,
@@ -3974,7 +3643,6 @@
     },
     "333": {
       "English name": "Red-Winged Parrot",
-      "Scientific name": "Aprosmictus erythropterus",
       "Common name": "Perruche E\u0301rythropte\u0300re",
       "Power text": "Donnez 1 [nectar] de votre r\u00e9serve \u00e0 un autre joueur. Si vous le faites, pondez 2 [egg] sur cet oiseau ou gagnez 2 [die] de la mangeoire.",
       "Flavor text": null,
@@ -3986,7 +3654,6 @@
     },
     "334": {
       "English name": "Regent Bowerbird",
-      "Scientific name": "Sericulus chrysocephalus",
       "Common name": "Jardinier Prince-Re\u0301gent",
       "Power text": "Choisissez 1 autre joueur. Gagnez tous les deux 1 [seed] de la r\u00e9serve.",
       "Flavor text": null,
@@ -3998,7 +3665,6 @@
     },
     "335": {
       "English name": "Royal Spoonbill",
-      "Scientific name": "Platalea regia",
       "Common name": "Spatule Royale",
       "Power text": "Prenez 1 [card] du plateau avec [platform] ou un nid [star]. Vous pouvez remplir le plateau ou d\u00e9fausser toutes les cartes du plateau et les remplacer avant de le faire.",
       "Flavor text": null,
@@ -4010,7 +3676,6 @@
     },
     "336": {
       "English name": "Rufous Night-Heron",
-      "Scientific name": "Nycticorax caledonicus",
       "Common name": "Bihoreau Cannelle",
       "Power text": "Regardez une [card] de la pioche. Si l'oiseau peut vivre dans [wetland], glissez-la sous cet oiseau, sinon d\u00e9faussez-la.",
       "Flavor text": null,
@@ -4022,7 +3687,6 @@
     },
     "337": {
       "English name": "Rufous Owl",
-      "Scientific name": "Ninox rufa",
       "Common name": "Ninoxe Rousse",
       "Power text": "Prenez 1 [card] du plateau <75 cm et glissez-la sous cet oiseau.",
       "Flavor text": null,
@@ -4034,7 +3698,6 @@
     },
     "338": {
       "English name": "Rufous-Banded Honeyeater",
-      "Scientific name": "Conopophila albogularis",
       "Common name": "Me\u0301liphage a\u0300 Gorge Blanche",
       "Power text": "D\u00e9faussez 1 [invertebrate]. Si vous le faites, gagnez 1 [nectar] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4046,7 +3709,6 @@
     },
     "339": {
       "English name": "Sacred Kingfisher",
-      "Scientific name": "Todiramphus sanctus",
       "Common name": "Martin-Chasseur Sacre\u0301",
       "Power text": "Quand un autre joueur effectue l\u2019action \u00abGagner de la nourriture\u00bb, gagnez 1 [invertebrate], [fish] ou [rodent] de la mangeoire \u00e0 la fin de son tour, si disponible.",
       "Flavor text": null,
@@ -4058,7 +3720,6 @@
     },
     "340": {
       "English name": "Silvereye",
-      "Scientific name": "Zosterops lateralis",
       "Common name": "Zoste\u0301rops a\u0300 Dos Gris",
       "Power text": "Tous les joueurs gagnent 1 [nectar] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4070,7 +3731,6 @@
     },
     "341": {
       "English name": "South Island Robin",
-      "Scientific name": "Petroica australis",
       "Common name": "Miro Rubisole",
       "Power text": "Si le joueur \u00e0 votre droite poss\u00e8de au moins1 dans sa r\u00e9serve, stockez 1 de la r\u00e9serve g\u00e9n\u00e9rale sur cet oiseau.",
       "Flavor text": null,
@@ -4082,7 +3742,6 @@
     },
     "342": {
       "English name": "Southern Cassowary",
-      "Scientific name": "Casuarius casuarius",
       "Common name": "Casoar a\u0300 Casque",
       "Power text": "D\u00e9faussez un oiseau de votre [forest] et placez cet oiseau \u00e0 la place (ne payez pas d'\u0153ufs). Si vous le faites, pondez 4 [egg] sur cet oiseau et gagnez 2 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4094,7 +3753,6 @@
     },
     "343": {
       "English name": "Spangled Drongo",
-      "Scientific name": "Dicrurus bracteatus",
       "Common name": "Drongo Paillete\u0301",
       "Power text": "Quand un autre joueur gagne [nectar], gagnez 1 [nectar] de la re\u0301serve.",
       "Flavor text": null,
@@ -4106,7 +3764,6 @@
     },
     "344": {
       "English name": "Splendid Fairywren",
-      "Scientific name": "Malurus splendens",
       "Common name": "Me\u0301rion Splendide",
       "Power text": "Pondez 1 [egg] sur chacun de vos oiseaux <30cm dont celui-ci.",
       "Flavor text": null,
@@ -4118,7 +3775,6 @@
     },
     "345": {
       "English name": "Spotless Crake",
-      "Scientific name": "Zapornia tabuensis",
       "Common name": "Marouette Fuligineuse",
       "Power text": "Pondez 1 [egg] sur chaque oiseau dans votre [wetland] don\u2019t celui-ci.",
       "Flavor text": null,
@@ -4130,7 +3786,6 @@
     },
     "346": {
       "English name": "Stubble Quail",
-      "Scientific name": "Coturnix pectoralis",
       "Common name": "Caille des Chaumes",
       "Power text": "D\u00e9faussez jusqu\u2019\u00e0 6 [wild]. Pondez 1 [egg] sur cet oiseau par jeton nourriture d\u00e9fauss\u00e9.",
       "Flavor text": null,
@@ -4142,7 +3797,6 @@
     },
     "347": {
       "English name": "Sulphur-Crested Cockatoo",
-      "Scientific name": "Cacatua galerita",
       "Common name": "Cacatoe\u0300s a\u0300 Huppe Jaune",
       "Power text": "Glissez 1 [card] de votre main sous cet oiseau. Si vous le faites, tous les joueurs (vous aussi) gagnent 1 [nectar] de la reserve.",
       "Flavor text": null,
@@ -4154,7 +3808,6 @@
     },
     "348": {
       "English name": "Superb Lyrebird",
-      "Scientific name": "Menura novaehollandiae",
       "Common name": "Me\u0301nure Superbe",
       "Power text": "Copiez le pouvoir marron d\u2019un oiseau de la [forest] du joueur \u00e0 votre droite.",
       "Flavor text": null,
@@ -4166,7 +3819,6 @@
     },
     "349": {
       "English name": "Tawny Frogmouth",
-      "Scientific name": "Podargus strigoides",
       "Common name": "Podarge Gris",
       "Power text": "Relancez les d\u00e9s de la mangeoire. Stockez 1[invertebrate] ou [rodent] de la mangeoire sur cet oiseau.",
       "Flavor text": null,
@@ -4178,7 +3830,6 @@
     },
     "350": {
       "English name": "T\u016b\u012b",
-      "Scientific name": "Prosthemadera novaeseelandiae",
       "Common name": "Me\u0301liphage T\u016b\u012b",
       "Power text": "Copiez le pouvoir marron d\u2019un oiseau de la [forest] du joueur \u00e0 votre gauche.",
       "Flavor text": null,
@@ -4190,7 +3841,6 @@
     },
     "351": {
       "English name": "Wedge-Tailed Eagle",
-      "Scientific name": "Aquila audax",
       "Common name": "Aigle d'Australie",
       "Power text": "Regardez une [card] de la pioche. Si >65 cm, glissez-la sous cet oiseau et stockez 1 [rodent] de la r\u00e9serve dessus, sinon d\u00e9faussez-la.",
       "Flavor text": null,
@@ -4202,7 +3852,6 @@
     },
     "352": {
       "English name": "Welcome Swallow",
-      "Scientific name": "Hirundo neoxena",
       "Common name": "Hirondelle Message\u0300re",
       "Power text": "Glissez 1 [card] de la pioche sous chaque oiseau dans cet habitat dont celui-ci.",
       "Flavor text": null,
@@ -4214,7 +3863,6 @@
     },
     "353": {
       "English name": "White-Bellied Sea-Eagle",
-      "Scientific name": "Haliaeetus leucogaster",
       "Common name": "Pygargue a\u0300 Ventre Blanc",
       "Power text": "Relancez les d\u00e9s de la mangeoire. Stockez 1 [fish] ou [rodent] de la mangeoire sur cet oiseau.",
       "Flavor text": null,
@@ -4226,7 +3874,6 @@
     },
     "354": {
       "English name": "White-Breasted Woodswallow",
-      "Scientific name": "Artamus leucoryn",
       "Common name": "Langrayen a\u0300 Ventre Blanc",
       "Power text": "Pondez 1 [egg] par oiseau dans votre [grassland] dont celui-ci.",
       "Flavor text": null,
@@ -4238,7 +3885,6 @@
     },
     "355": {
       "English name": "White-Faced Heron",
-      "Scientific name": "Egretta novaehollandiae",
       "Common name": "Aigrette a\u0300 face blanche",
       "Power text": "Relancez les d\u00e9s de la mangeoire et gagnez tous les [fish], s\u2019il y en a. Vous pouvez les stocker (tous ou en partie) sur cet oiseau.",
       "Flavor text": null,
@@ -4250,7 +3896,6 @@
     },
     "356": {
       "English name": "Willie-Wagtail",
-      "Scientific name": "Rhipidura leucophrys",
       "Common name": "Rhipidure Hochequeue",
       "Power text": "Prenez 1 [card] du plateau avec [bowl] ou un nid [star]. Vous pouvez remplir le plateau ou d\u00e9fausser toutes les cartes du plateau et les remplacer avant de le faire.",
       "Flavor text": null,
@@ -4262,7 +3907,6 @@
     },
     "357": {
       "English name": "Wrybill",
-      "Scientific name": "Anarhynchus frontalis",
       "Common name": "Pluvier a\u0300 Bec De\u0301vie\u0301",
       "Power text": "Regardez les cartes Bonus d\u00e9fauss\u00e9es et gardez-en 1.",
       "Flavor text": null,
@@ -4274,7 +3918,6 @@
     },
     "358": {
       "English name": "Asian Emerald Dove",
-      "Scientific name": "Chalcophaps indica",
       "Common name": "Colombine turvert",
       "Power text": "Pondez 2 [egg] sur chaque autre oiseau dans cette colonne.",
       "Flavor text": null,
@@ -4286,7 +3929,6 @@
     },
     "359": {
       "English name": "Asian Koel",
-      "Scientific name": "Eudynamys scolopaceus",
       "Common name": "Coucou ko\u00ebl",
       "Power text": "Quand un autre joueur effectue l'action \"Pondre des \u0153ufs\", cet oiseau pond 1 [egg] sur un autre oiseau avec un nid [platform]. En utilisant ce pouvoir, vous pouvez pondre 3 \u0153ufs de plus que la limite habituelle.",
       "Flavor text": null,
@@ -4298,7 +3940,6 @@
     },
     "360": {
       "English name": "Azure Tit",
-      "Scientific name": "Cyanistes cyanus",
       "Common name": "M\u00e9sange azur\u00e9e",
       "Power text": "Gagnez 1 [invertebrate], [seed], ou [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4310,7 +3951,6 @@
     },
     "361": {
       "English name": "Baya Weaver",
-      "Scientific name": "Ploceus philippinus",
       "Common name": "Tisserin baya",
       "Power text": "Glissez jusqu'\u00e0 3 [card] de votre main sous cet oiseau. Si vous glissez au moins 1 [card], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -4322,7 +3962,6 @@
     },
     "362": {
       "English name": "Bearded Reedling",
-      "Scientific name": "Panurus biarmicus",
       "Common name": "Panure \u00e0 moustaches",
       "Power text": "Pondez 1 [egg] sur cet oiseau pour chaque autre oiseau dans sa colonne avec au moins 1 \u0153uf.",
       "Flavor text": null,
@@ -4334,7 +3973,6 @@
     },
     "363": {
       "English name": "Black Drongo",
-      "Scientific name": "Dicrurus macrocercus",
       "Common name": "Drongo royal noir",
       "Power text": "Defaussez autant de [card] du plateau que vous les souhaitez, puis remplissez-le \u00e0 nouveau. Si au moins un des oiseaux d\u00e9fauss\u00e9s est un oiseau de [grassland], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -4346,7 +3984,6 @@
     },
     "364": {
       "English name": "Black Stork",
-      "Scientific name": "Ciconia nigra",
       "Common name": "Cigogne noire",
       "Power text": "Pondez 1 [egg] sur chaque oiseau adjacent \u00e0 celui-ci (\u00e0 droite et \u00e0 gauche uniquement).",
       "Flavor text": null,
@@ -4358,7 +3995,6 @@
     },
     "365": {
       "English name": "Black-Naped Oriole",
-      "Scientific name": "Oriolus chinensis",
       "Common name": "Loriot noir de Chine",
       "Power text": "Si vous avec utilis\u00e9 les 4 actions lors de cette manche, gagnez 1 [wild] de la r\u00e9serve, pondez 1 [egg] sur un oiseau de votre choix, et piochez 1 [card].",
       "Flavor text": null,
@@ -4370,7 +4006,6 @@
     },
     "366": {
       "English name": "Blue Rock-Thrush",
-      "Scientific name": "Monticola solitarius",
       "Common name": "Monticole merle-bleu",
       "Power text": "Si cet oiseau n'a pas d'oiseaux \u00e0 sa droite, vous pouvez le d\u00e9placer (seulement la carte) sur le plateau du joueur \u00e0 votre gauche (vous choisissez son habitat). Si vous le faites, piochez 3 [card].",
       "Flavor text": null,
@@ -4382,7 +4017,6 @@
     },
     "367": {
       "English name": "Brahminy Kite",
-      "Scientific name": "Haliastur indus",
       "Common name": "Milan \u00e0 t\u00eate blanche",
       "Power text": "Choisissez 3 [die]. Lancez-les jusqu'\u00e0 3 fois. A chaque fois, si vous obtenez au moins 1 [fish] ou [rodent], stockez en 1 ici. Sinon, arr\u00eatez de lancer les d\u00e9s et d\u00e9faussez toute la nourriture stock\u00e9e sur l'oiseau lors de ce tour.",
       "Flavor text": null,
@@ -4394,7 +4028,6 @@
     },
     "368": {
       "English name": "Brambling",
-      "Scientific name": "Fringilla montifringilla",
       "Common name": "Pinson du nord",
       "Power text": "Piochez 2 [card] et ajoutez-les \u00e0 votre main. Glissez ensuite jusqu'\u00e0 2 [card] de votre main sous cet oiseau.",
       "Flavor text": null,
@@ -4406,7 +4039,6 @@
     },
     "369": {
       "English name": "Brown Shrike",
-      "Scientific name": "Lanius cristatus",
       "Common name": "Pie-gri\u00e8che brune",
       "Power text": "Tous les joueurs peuvent stocker 1 [invertebrate] de leur propre r\u00e9serve sur un oiseau dans leur [grassland]",
       "Flavor text": null,
@@ -4418,7 +4050,6 @@
     },
     "370": {
       "English name": "Common Green Magpie",
-      "Scientific name": "Cissa chinensis",
       "Common name": "Pirolle verte",
       "Power text": "Gagnez 1 [invertebrate] ou [rodent] de la mangeoire, si disponible. Vous pouvez le stocker sur cet oiseau.",
       "Flavor text": null,
@@ -4430,7 +4061,6 @@
     },
     "371": {
       "English name": "Common Iora",
-      "Scientific name": "Aegithina tiphia",
       "Common name": "Iora du Bengale",
       "Power text": "Pondez 1 [egg] sur un autre oiseau dans cette colonne.",
       "Flavor text": null,
@@ -4442,7 +4072,6 @@
     },
     "372": {
       "English name": "Common Myna",
-      "Scientific name": "Acridotheres tristis",
       "Common name": "Martin triste",
       "Power text": "Copiez le pouvoir marron Activation d'un oiseau de la [grassland] du joueur \u00e0 votre gauche.",
       "Flavor text": null,
@@ -4454,7 +4083,6 @@
     },
     "373": {
       "English name": "Common Sandpiper",
-      "Scientific name": "Actitis hypoleucos",
       "Common name": "Chevalier guinette",
       "Power text": "Piochez 1 [card] pour chaque oiseau dans votre [wetland] avec un [egg]. Gardez-en 1 et d\u00e9faussez le reste.",
       "Flavor text": null,
@@ -4466,7 +4094,6 @@
     },
     "374": {
       "English name": "Common Tailorbird",
-      "Scientific name": "Orthotomus sutorius",
       "Common name": "Fauvette couturi\u00e8re",
       "Power text": "Trouvez un groupe d'oiseaux adjacents dans votre r\u00e9serve avec le m\u00eame type de nid. Pondez 1 [egg] sur chacun d'entre eux. Les nids [star] comptent comme n'importe quel type de nid.",
       "Flavor text": null,
@@ -4478,7 +4105,6 @@
     },
     "375": {
       "English name": "Common Teal",
-      "Scientific name": "Anas crecca",
       "Common name": "Sarcelle d'hiver",
       "Power text": "Pour chaque 3 [egg] dans votre [wetland], piochez 1 [card]. Vous pouvez glisser jusqu'\u00e0 2 [card] de votre main sous cet oiseau.",
       "Flavor text": null,
@@ -4490,7 +4116,6 @@
     },
     "376": {
       "English name": "Coppersmith Barbet",
-      "Scientific name": "Psilopogon haemacephalus",
       "Common name": "Barbu \u00e0 plastron rouge",
       "Power text": "Gagnez 1 [invertebrate] ou [fruit] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -4502,7 +4127,6 @@
     },
     "377": {
       "English name": "Crested Ibis",
-      "Scientific name": "Nipponia nippon",
       "Common name": "Ibis nippon",
       "Power text": "Piochez 2 cartes bonus et gardez-en 1. Les autres joueurs peuvent d\u00e9fausser 2 ressources au choix ([wild], [egg], ou [card]) pour faire de m\u00eame.",
       "Flavor text": null,
@@ -4514,7 +4138,6 @@
     },
     "378": {
       "English name": "Crested Lark",
-      "Scientific name": "Galerida cristata",
       "Common name": "Cochevis hupp\u00e9",
       "Power text": "D\u00e9faussez 1 [seed]. Si vous le faites, pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -4526,7 +4149,6 @@
     },
     "379": {
       "English name": "Desert Finch",
-      "Scientific name": "Rhodospiza obsoleta",
       "Common name": "Roselin de Lichtenstein",
       "Power text": "Pondez 1 [egg] sur cet oiseau pour chaque autre oiseau dans votre [grassland].",
       "Flavor text": null,
@@ -4538,7 +4160,6 @@
     },
     "380": {
       "English name": "Desert Wheatear",
-      "Scientific name": "Oenanthe deserti",
       "Common name": "Traquet du d\u00e9sert",
       "Power text": "Pour chaque oiseau dans votre [grassland] avec un [egg], lancez 1 [die]. \nChoisissez 1 type de nourriture indiqu\u00e9 par un de ces d\u00e9s et recevez 1 jeton correspondant de la r\u00e9serve.",
       "Flavor text": null,
@@ -4550,7 +4171,6 @@
     },
     "381": {
       "English name": "Eurasian Coot",
-      "Scientific name": "Fulica atra",
       "Common name": "Foulque macroule",
       "Power text": "Glissez jusqu'\u00e0 3 [card] de votre main sous cet oiseau.",
       "Flavor text": null,
@@ -4562,7 +4182,6 @@
     },
     "382": {
       "English name": "Eurasian Eagle-Owl",
-      "Scientific name": "Bubo bubo",
       "Common name": "Grand-Duc d'Europe",
       "Power text": "Piochez jusqu'\u00e0 3 [card], une par une. Vous pouvez vous arr\u00eater de piocher \u00e0 tout moment. Lorsque vous vous arr\u00eatez, si l'envergure totale des oiseaux pioch\u00e9s est inf\u00e9rieure \u00e0 110cm, glissez-les sous cet oiseau. Sinon, d\u00e9faussez-les.",
       "Flavor text": null,
@@ -4574,7 +4193,6 @@
     },
     "383": {
       "English name": "Eurasian Hoopoe",
-      "Scientific name": "Upupa epops",
       "Common name": "Huppe fasci\u00e9e",
       "Power text": "Volez 1 [invertebrate] \u00e0 chacun de vos voisins. Chaque voisin \u00e0 qui vous volez un [invertebrate], peut obtenir 1 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4586,7 +4204,6 @@
     },
     "384": {
       "English name": "Eurasian Kestrel",
-      "Scientific name": "Falco tinnunculus",
       "Common name": "Faucon cr\u00e9cerelle",
       "Power text": "Lancez 3 [die] au choix. Si vous obtenez au moins 1 [rodent], stockez 1 [rodent] sur cet oiseau.",
       "Flavor text": null,
@@ -4598,7 +4215,6 @@
     },
     "385": {
       "English name": "Eurasian Marsh-Harrier",
-      "Scientific name": "Circus aeruginosus",
       "Common name": "Busard des roseaux",
       "Power text": "Piochez jusqu'\u00e0 3 [card], une par une. Vous pouvez vous arr\u00eater de piocher \u00e0 tout moment. Lorsque vous vous arr\u00eatez, si l'envergure totale des oiseaux pioch\u00e9s est inf\u00e9rieure \u00e0 110cm, glissez-les sous cet oiseau. Sinon, d\u00e9faussez-les.",
       "Flavor text": null,
@@ -4610,7 +4226,6 @@
     },
     "386": {
       "English name": "Eurasian Treecreeper",
-      "Scientific name": "Certhia familiaris",
       "Common name": "Grimpereau des bois",
       "Power text": "Pour chaque 3 [egg] dans votre [forest], gagnez 1 [invertebrate] ou [seed] de la r\u00e9serve. Vous pouvez en stocker jusqu'\u00e0 2 sur cet oiseau.",
       "Flavor text": null,
@@ -4622,7 +4237,6 @@
     },
     "387": {
       "English name": "Fire-Fronted Serin",
-      "Scientific name": "Serinus pusillus",
       "Common name": "Serin \u00e0 front d'or",
       "Power text": "Pondez 1 [egg] sur cet oiseau pour chaque oiseau qui se trouve \u00e0 sa gauche dans cette ligne.",
       "Flavor text": null,
@@ -4634,7 +4248,6 @@
     },
     "388": {
       "English name": "Forest Owlet",
-      "Scientific name": "Athene blewitti",
       "Common name": "Chev\u00eache foresti\u00e8re",
       "Power text": "Choisissez 2 [die]. Lancez-les jusqu'\u00e0 3 fois. A chaque fois, si vous obtenez au moins 1 [invertebrate] ou [rodent], stockez en 1 ici. Sinon, arr\u00eatez de lancer les d\u00e9s et d\u00e9faussez toute la nourriture stock\u00e9e sur l'oiseau lors de ce tour.",
       "Flavor text": null,
@@ -4646,7 +4259,6 @@
     },
     "389": {
       "English name": "Golden Pheasant",
-      "Scientific name": "Chrysolophus pictus",
       "Common name": "Faisan dor\u00e9",
       "Power text": "Tous les joueurs pondent 2 [egg]. Vous pondez 2 [egg] suppl\u00e9mentaires.",
       "Flavor text": null,
@@ -4658,7 +4270,6 @@
     },
     "390": {
       "English name": "Graceful Prinia",
-      "Scientific name": "Prinia gracilis",
       "Common name": "Prinia gracile",
       "Power text": "D\u00e9faussez 1 [egg]. Si vous le faites, gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4670,7 +4281,6 @@
     },
     "391": {
       "English name": "Grandala",
-      "Scientific name": "Grandala coelicolor",
       "Common name": "Grandala bleu",
       "Power text": "Si vous avez pondu un [egg] sur cet oiseau lors de ce tour, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -4682,7 +4292,6 @@
     },
     "392": {
       "English name": "Gray Wagtail",
-      "Scientific name": "Motacilla cinerea",
       "Common name": "Bergeronnette des ruisseaux",
       "Power text": "Si vous avez utilis\u00e9 les 4 types d'actions lors de cette manche, gagnez 2 [wild] de la r\u00e9serve.",
       "Flavor text": null,
@@ -4694,7 +4303,6 @@
     },
     "393": {
       "English name": "Great Cormorant",
-      "Scientific name": "Phalacrocorax carbo",
       "Common name": "Grand cormoran",
       "Power text": "Vous pouvez pendre 1 [fish] de cet oiseau, pour le mettre dans votre r\u00e9serve. Lancez ensuite 2 [die] au choix. Si vous obtenez au moins 1 [fish], stockez 1 [fish] de la r\u00e9serve sur cet oiseau.",
       "Flavor text": null,
@@ -4706,7 +4314,6 @@
     },
     "394": {
       "English name": "Great Hornbill",
-      "Scientific name": "Buceros bicornis",
       "Common name": "Calao bicorne",
       "Power text": "Tous les joueurs peuvent glisser une [card] de leur main sous un oiseau dans leur [forest] et/ou stocker 1 [fruit] de leur r\u00e9serve sur un oiseau dans leur [forest].",
       "Flavor text": null,
@@ -4718,7 +4325,6 @@
     },
     "395": {
       "English name": "Great Indian Bustard",
-      "Scientific name": "Ardeotis nigriceps",
       "Common name": "Outarde \u00e0 t\u00eate noire",
       "Power text": "Marquez imm\u00e9diatement les points d'une de vos cartes bonus en stockant 1 [seed] de la r\u00e9serve sur cet oiseau par point gagn\u00e9. Vous marquerez \u00e9galement les points de la carte normalement \u00e0 la fin du jeu.",
       "Flavor text": null,
@@ -4730,7 +4336,6 @@
     },
     "396": {
       "English name": "Great Spotted Woodpecker",
-      "Scientific name": "Dendrocopos major",
       "Common name": "Pic \u00e9peiche",
       "Power text": "Gagnez 1 [invertebrate] ou [seed] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -4742,7 +4347,6 @@
     },
     "397": {
       "English name": "Greater Adjutant",
-      "Scientific name": "Leptoptilos dubius",
       "Common name": "Marabout argala",
       "Power text": "Copiez le pouvoir d'une des cartes Bonus du joueur \u00e0 votre gauche (marquez les points en fonction de vos propres oiseaux).",
       "Flavor text": null,
@@ -4754,7 +4358,6 @@
     },
     "398": {
       "English name": "Green Bee-Eater",
-      "Scientific name": "Merops orientalis",
       "Common name": "Petit gu\u00eapier vert",
       "Power text": "Glissez sous cette carte un des oiseaux du plateau qui poss\u00e8dent [invertebrate] dans leur co\u00fbt en nourriture, s'il y en a.",
       "Flavor text": null,
@@ -4766,7 +4369,6 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": "Faisan versicolore",
       "Power text": "Tous les joueurs pondent 1 [egg].",
       "Flavor text": null,
@@ -4778,7 +4380,6 @@
     },
     "400": {
       "English name": "Himalayan Monal",
-      "Scientific name": "Lophophorus impejanus",
       "Common name": "Lophophore resplendissant",
       "Power text": "Tous les joueurs gagnent 1 [seed] de la r\u00e9serve. Pondez \u00e9galement 1 [egg].",
       "Flavor text": null,
@@ -4790,7 +4391,6 @@
     },
     "401": {
       "English name": "House Crow",
-      "Scientific name": "Corvus splendens",
       "Common name": "Corneille de l'Inde",
       "Power text": "Vous pouvez stocker 1 [wild] de votre r\u00e9serve sur chaque oiseau de cette ligne.",
       "Flavor text": null,
@@ -4802,7 +4402,6 @@
     },
     "402": {
       "English name": "Ibisbill",
-      "Scientific name": "Ibidorhyncha struthersii",
       "Common name": "Bec-d'ibis Tib\u00e9tain",
       "Power text": "Tous les joueurs piochent 1 [card] et gagnent 1 [invertebrate] de la r\u00e9serve.\nVous piochez 1 [card] suppl\u00e9mentaire.",
       "Flavor text": null,
@@ -4814,7 +4413,6 @@
     },
     "403": {
       "English name": "Indian Peafowl",
-      "Scientific name": "Pavo cristatus",
       "Common name": "Paon bleu",
       "Power text": "Tous les joueurs piochent 2 [card]. Vous piochez 1 [card] suppl\u00e9mentaire.",
       "Flavor text": null,
@@ -4826,7 +4424,6 @@
     },
     "404": {
       "English name": "Indian Vulture",
-      "Scientific name": "Gyps indicus",
       "Common name": "Vautour indien",
       "Power text": "Copiez le pouvoir d'une des cartes Bonus du joueur \u00e0 votre droite (marquez les points en fonction de vos propres oiseaux).",
       "Flavor text": null,
@@ -4838,7 +4435,6 @@
     },
     "405": {
       "English name": "Large-Billed Crow",
-      "Scientific name": "Corvus macrorhynchos",
       "Common name": "Corbeau \u00e0 gros bec",
       "Power text": "Stockez 1 [wild] de votre r\u00e9serve sur un oiseau au choix.\nSi vous le faites, vous pouvez glisser 1 [card] de votre main sous cet oiseau.",
       "Flavor text": null,
@@ -4850,7 +4446,6 @@
     },
     "406": {
       "English name": "Little Egret",
-      "Scientific name": "Egretta garzetta",
       "Common name": "Aigrette garzette",
       "Power text": "Piochez 1 [card] et ajoutez-la \u00e0 votre main. Tous les autres joueurs piochent 1 [card] et la gardent si c'est un oiseau de [wetland].",
       "Flavor text": null,
@@ -4862,7 +4457,6 @@
     },
     "407": {
       "English name": "Little Grebe",
-      "Scientific name": "Tachybaptus ruficollis",
       "Common name": "Gr\u00e8be castagneux",
       "Power text": "Pour chaque oiseau dans cette colonne avec un [egg], piochez 1 [card].\nGardez-en 1 et d\u00e9faussez les autres.",
       "Flavor text": null,
@@ -4874,7 +4468,6 @@
     },
     "408": {
       "English name": "Little Ringed Plover",
-      "Scientific name": "Charadrius dubius",
       "Common name": "Petit gravelot",
       "Power text": "D\u00e9faussez 1 [card] de votre main. Si vous le faites, pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -4886,7 +4479,6 @@
     },
     "409": {
       "English name": "Mandarin Duck",
-      "Scientific name": "Aix galericulata",
       "Common name": "Canard mandarin",
       "Power text": "Piochez 5 [card]. Ajoutez-en 1 \u00e0 votre main, glissez-en 1 sous cet oiseau, donnez-en 1 \u00e0 un autre joueur et d\u00e9faussez les autres.",
       "Flavor text": null,
@@ -4898,7 +4490,6 @@
     },
     "410": {
       "English name": "Olive-Backed Sunbird",
-      "Scientific name": "Cinnyris jugularis",
       "Common name": "Souimanga \u00e0 dos vert",
       "Power text": "Chaque joueur peut lancer 1 [die] au choix et gagner ce jeton Nourriture de la r\u00e9serve.",
       "Flavor text": null,
@@ -4910,7 +4501,6 @@
     },
     "411": {
       "English name": "Oriental Bay-Owl",
-      "Scientific name": "Phodilus badius",
       "Common name": "Phodile calong",
       "Power text": "Activez les pouvoirs Activation (marron) de tous vos autres [predator].",
       "Flavor text": null,
@@ -4922,7 +4512,6 @@
     },
     "412": {
       "English name": "Oriental Magpie-Robin",
-      "Scientific name": "Copsychus saularis",
       "Common name": "Shama dayal",
       "Power text": "Pour chaque 3 [egg] dans votre [grassland], gagnez 1 [invertebrate] ou [seed] de la r\u00e9serve.\nVous pouvez en stocker jusqu'\u00e0 2 sur cet oiseau.",
       "Flavor text": null,
@@ -4934,7 +4523,6 @@
     },
     "413": {
       "English name": "Philippine Eagle",
-      "Scientific name": "Pithecophaga jefferyi",
       "Common name": "Pith\u00e9cophage des philippines",
       "Power text": "Lancez les 5 [die]. Vous pouvez relancer autant de [die] que vous les souhaitez, jusqu'\u00e0 2 fois. Si vous avez obtenu au moins 3 [rodent] lorsque vous arr\u00eatez de lancer les d\u00e9s, piochez 2 cartes Bonus de gardez-en 1. Relancez les d\u00e9s de la mangeoire.",
       "Flavor text": null,
@@ -4946,7 +4534,6 @@
     },
     "414": {
       "English name": "Plumbeous Redstart",
-      "Scientific name": "Phoenicurus fuliginosus",
       "Common name": "Nymph\u00e9e fuligineuse",
       "Power text": "Piochez 1 [card] et ajoutez-la \u00e0 votre main. Tous les autres joueurs piochent 1 [card]et l'ajoutent \u00e0 leur main si l'oiseau poss\u00e8de [invertebrate] ou [seed] dans son co\u00fbt en nourriture.",
       "Flavor text": null,
@@ -4958,7 +4545,6 @@
     },
     "415": {
       "English name": "Purple Heron",
-      "Scientific name": "Ardea purpurea",
       "Common name": "H\u00e9ron pourpr\u00e9",
       "Power text": "Choisissez 2 [die]. Lancez-les jusqu'\u00e0 3 fois. A chaque fois, si vous obtenez au moins 1 [invertebrate] ou [fish], stockez en 1 ici. Sinon, arr\u00eatez de lancer les d\u00e9s et d\u00e9faussez toute la nourriture stock\u00e9e sur l'oiseau lors de ce tour.",
       "Flavor text": null,
@@ -4970,7 +4556,6 @@
     },
     "416": {
       "English name": "Red Avadavat",
-      "Scientific name": "Amandava amandava",
       "Common name": "Bengali rouge",
       "Power text": "Donnez 1 [card] de votre main \u00e0 un autre joueur. Si vous le faites, piochez 2 [card].",
       "Flavor text": null,
@@ -4982,7 +4567,6 @@
     },
     "417": {
       "English name": "Red Junglefowl",
-      "Scientific name": "Gallus gallus",
       "Common name": "Coq dor\u00e9",
       "Power text": "Comptez les [egg] sur tous vos oiseaux. Si vous avez moins de 6 [egg] au total, pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -4994,7 +4578,6 @@
     },
     "418": {
       "English name": "Red-Crowned Crane",
-      "Scientific name": "Grus japonensis",
       "Common name": "Grue \u00e0 couronne rouge",
       "Power text": "Marquez imm\u00e9diatement les points d'une de vos cartes bonus en stockant 1 [wild] de la r\u00e9serve sur cet oiseau par point gagn\u00e9. D\u00e9faussez cette carte Bonus et piochez-en une nouvelle.",
       "Flavor text": null,
@@ -5006,7 +4589,6 @@
     },
     "419": {
       "English name": "Red-Vented Bulbul",
-      "Scientific name": "Pycnonotus cafer",
       "Common name": "Bulbul \u00e0 ventre rouge",
       "Power text": "Si vous avez au moins 1 [fruit] dans votre r\u00e9serve, pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -5018,7 +4600,6 @@
     },
     "420": {
       "English name": "Red-Wattled Lapwing",
-      "Scientific name": "Vanellus indicus",
       "Common name": "Vanneau indien",
       "Power text": "D\u00e9faussez autant de [card] du plateau Oiseaux que vous le souhaitez, puis remplissez-le \u00e0 nouveau. Si au moins 1 des oiseaux d\u00e9fauss\u00e9s est un [predator], pondez 1 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -5030,7 +4611,6 @@
     },
     "421": {
       "English name": "Rhinoceros Auklet",
-      "Scientific name": "Cerorhinca monocerata",
       "Common name": "Macareux rhinoc\u00e9ros",
       "Power text": "Lancez 2 [die] au choix. Si vous obtenez au moins 1 [fish], stockez 1 [fish] de la r\u00e9serve sur cet oiseau. Tous les joueurs peuvent d\u00e9fausser 1 [card] de leur main pour gagner 1 [fish] de la r\u00e9serve.",
       "Flavor text": null,
@@ -5042,7 +4622,6 @@
     },
     "422": {
       "English name": "Rock Pigeon",
-      "Scientific name": "Columba livia",
       "Common name": "Pigeon biset",
       "Power text": "Tous les joueurs pondent 1 [egg]. Vous pondez 1 [egg] suppl\u00e9mentaire.",
       "Flavor text": null,
@@ -5054,7 +4633,6 @@
     },
     "423": {
       "English name": "Rook",
-      "Scientific name": "Corvus frugilegus",
       "Common name": "Corbeau freux",
       "Power text": "Stockez 1 [wild] de votre r\u00e9serve sur cet oiseau ou glissez 1 [card] de votre main sous cette carte. Si vous faites un des deux, glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -5066,7 +4644,6 @@
     },
     "424": {
       "English name": "Rose-Ringed Parakeet",
-      "Scientific name": "Psittacula krameri",
       "Common name": "Perruche \u00e0 collier",
       "Power text": "Copiez un pouvoir Pose (pas de couleur) de 1 des oiseaux de vos voisins.",
       "Flavor text": null,
@@ -5078,7 +4655,6 @@
     },
     "425": {
       "English name": "Rosy Starling",
-      "Scientific name": "Pastor roseus",
       "Common name": "\u00c9tourneau roselin",
       "Power text": "Glissez jusqu'\u00e0 3 [card] de votre main sous cet oiseau. Si vous glissez au moins 1 [card], gagnez 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -5090,7 +4666,6 @@
     },
     "426": {
       "English name": "Ruddy Shelduck",
-      "Scientific name": "Tadorna ferruginea",
       "Common name": "Tadorne casarca",
       "Power text": "Piochez 5 [card]. Ajoutez-en 1 \u00e0 votre main, glissez-en 1 sous cet oiseau et d\u00e9faussez les autres.",
       "Flavor text": null,
@@ -5102,7 +4677,6 @@
     },
     "427": {
       "English name": "Sarus Crane",
-      "Scientific name": "Antigone antigone",
       "Common name": "Grue antigone",
       "Power text": "Chaque joueur peut d\u00e9fausser 1 [egg] pour piocher 1 [card].",
       "Flavor text": null,
@@ -5114,7 +4688,6 @@
     },
     "428": {
       "English name": "Satyr Tragopan",
-      "Scientific name": "Tragopan satyra",
       "Common name": "Tragopan satyre",
       "Power text": "Donnez 1 [card] de votre main \u00e0 un autre joueur. Si vous le faites, pondez 2 [egg] sur cet oiseau.",
       "Flavor text": null,
@@ -5126,7 +4699,6 @@
     },
     "429": {
       "English name": "Scaly-Breasted Munia",
-      "Scientific name": "Lonchura punctulata",
       "Common name": "Capucin damier",
       "Power text": "Gagnez 1 [seed] de la r\u00e9serve ou glissez 1 [card] de la pioche sous cet oiseau.",
       "Flavor text": null,
@@ -5138,7 +4710,6 @@
     },
     "430": {
       "English name": "Small Minivet",
-      "Scientific name": "Pericrocotus cinnamomeus",
       "Common name": "Minivet oranor",
       "Power text": "Jouez 1 oiseau suppl\u00e9mentaire dans votre [forest]. Vous pouvez ignorer 1 [invertebrate] ou 1 [egg] dans son co\u00fbt.",
       "Flavor text": null,
@@ -5150,7 +4721,6 @@
     },
     "431": {
       "English name": "Smew",
-      "Scientific name": "Mergellus albellus",
       "Common name": "Harle piette",
       "Power text": "Piochez 4 [card]. Glissez 2 [card] sous cette carte, et ajoutez les 2 autres [card] \u00e0 votre main.",
       "Flavor text": null,
@@ -5162,7 +4732,6 @@
     },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
-      "Scientific name": "Calidris pygmaea",
       "Common name": "B\u00e9casseau spatule",
       "Power text": "Piochez 2 cartes bonus et gardez-en 1. Les autres joueurs peuvent d\u00e9fausser 2 ressources au choix ([wild], [egg], ou [card]) pour faire de m\u00eame.",
       "Flavor text": null,
@@ -5174,7 +4743,6 @@
     },
     "433": {
       "English name": "Spotted Dove",
-      "Scientific name": "Streptopelia chinensis",
       "Common name": "Tourterelle tigrine",
       "Power text": "Si cet oiseau n'a pas d'oiseaux \u00e0 sa droite, vous pouvez le d\u00e9placer (seulement la carte) sur le plateau du joueur \u00e0 votre droite (vous choisissez son habitat). Si vous le faites, piochez 3 [card].",
       "Flavor text": null,
@@ -5186,7 +4754,6 @@
     },
     "434": {
       "English name": "Sri Lanka Blue-Magpie",
-      "Scientific name": "Urocissa ornata",
       "Common name": "Pirolle bleue de Ceylan",
       "Power text": "Vous pouvez stocker 1 [wild] de votre r\u00e9serve sur chacun de vos autres oiseaux.",
       "Flavor text": null,
@@ -5198,7 +4765,6 @@
     },
     "435": {
       "English name": "Sri Lanka Frogmouth",
-      "Scientific name": "Batrachostomus moniliger",
       "Common name": "Podarge de Ceylan",
       "Power text": "Lancez 1 [die] au choix. Si vous obtenez un [invertabrate], stockez 1 [invertebrate] de la r\u00e9serve sur cet oiseau. Tous les joueurs peuvent d\u00e9fausser 1 [card] de leur main pour gagner 1 [invertebrate] de la r\u00e9serve.",
       "Flavor text": null,
@@ -5210,7 +4776,6 @@
     },
     "436": {
       "English name": "Stork-Billed Kingfisher",
-      "Scientific name": "Pelargopsis capensis",
       "Common name": "Martin-chasseur gurial",
       "Power text": "Choisissez 1 [die]. Lancez-le une fois pour chacun de vos oiseaux [wetland].\nSi vous obtenez au moins 1 [fish], gagnez-en 1 de la r\u00e9serve. Vous pouvez le stocker sur cet oiseau.",
       "Flavor text": null,
@@ -5222,7 +4787,6 @@
     },
     "437": {
       "English name": "Trumpeter Finch",
-      "Scientific name": "Bucanetes githagineus",
       "Common name": "Roselin githagine",
       "Power text": "Jouez un oiseau suppl\u00e9mentaire dans votre [grassland]. Vous pouvez ignorer 1 [seed] ou 1 [egg] dans son co\u00fbt.",
       "Flavor text": null,
@@ -5234,7 +4798,6 @@
     },
     "438": {
       "English name": "Twite",
-      "Scientific name": "Linaria flavirostris",
       "Common name": "Linotte \u00e0 bec jaune",
       "Power text": "Piochez 2 [card] et ajoutez-les \u00e0 votre main. Glissez ensuite 2 [card] de votre main sous cet oiseau.",
       "Flavor text": null,
@@ -5246,7 +4809,6 @@
     },
     "439": {
       "English name": "Verditer Flycatcher",
-      "Scientific name": "Eumyias thalassinus",
       "Common name": "Gobemouche vert-de-gris",
       "Power text": "Si vous avez gagn\u00e9 un [invertebrate] de la mangeoire lors de ce tour, gagnez 1 [fruit] de la r\u00e9serve.",
       "Flavor text": null,
@@ -5258,7 +4820,6 @@
     },
     "440": {
       "English name": "Violet Cuckoo",
-      "Scientific name": "Chrysococcyx xanthorhynchus",
       "Common name": "Coucou violet",
       "Power text": "Lorsqu'un autre joueur effectue l'action Pondre des \u0153ufs, vous pouvez pondre 1 [egg] sur un oiseau d'envergure inf\u00e9rieure \u00e0 30cm. Ce pouvoir vous permet de pondre 2 \u0153ufs de plus que la limite habituelle.",
       "Flavor text": null,
@@ -5270,7 +4831,6 @@
     },
     "441": {
       "English name": "White-Browed Tit-Warbler",
-      "Scientific name": "Leptopoecile sophiae",
       "Common name": "Paruline \u00e0 sourcils blancs",
       "Power text": "Pour chaque oiseau dans votre [forest] avec un \u0153uf dessus, lancez 1 [die] au choix. Choisissez 1 type de nourriture indiqu\u00e9 par un de ces d\u00e9s et recevez un jeton correspondant de la r\u00e9serve.",
       "Flavor text": null,
@@ -5282,7 +4842,6 @@
     },
     "442": {
       "English name": "White-Crested Laughingthrush",
-      "Scientific name": "Garrulax leucolophus",
       "Common name": "Garrulaxe \u00e0 huppe blanche",
       "Power text": "Glissez 1 [card] de votre main sous cet oiseau. Si vous le faites, gagnez 1 [invertebrate], [seed], ou [fruit] de la mangeoire.",
       "Flavor text": null,
@@ -5294,7 +4853,6 @@
     },
     "443": {
       "English name": "White-Headed Duck",
-      "Scientific name": "Oxyura leucocephala",
       "Common name": "\u00c9rismature \u00e0 t\u00eate blanche",
       "Power text": "Piochez 3 cartes Bonus et gardez-en 1.",
       "Flavor text": null,
@@ -5306,7 +4864,6 @@
     },
     "444": {
       "English name": "White-Throated Kingfisher",
-      "Scientific name": "Halcyon smyrnensis",
       "Common name": "Martin-chasseur \u00e0 gorge blanche",
       "Power text": "Choisissez 1 [die]. Lancez-le jusqu'\u00e0 3 fois. A chaque fois, si vous obtenez [invertebrate], [fish], ou [rodent] stockez en 1 ici. Sinon, arr\u00eatez de lancer les d\u00e9s et d\u00e9faussez toute la nourriture stock\u00e9e sur l'oiseau lors de ce tour.",
       "Flavor text": null,
@@ -5318,7 +4875,6 @@
     },
     "445": {
       "English name": "Willow Tit",
-      "Scientific name": "Poecile montanus",
       "Common name": "M\u00e9sange bor\u00e9ale",
       "Power text": "Stockez sur cet oiseau 1 [invertebrate], [seed], ou [fruit] de la mangeoire, si disponible.",
       "Flavor text": null,
@@ -5330,7 +4886,6 @@
     },
     "446": {
       "English name": "Yellow Bittern",
-      "Scientific name": "Ixobrychus sinensis",
       "Common name": "Blongios de Chine",
       "Power text": "Piochez la [card] du milieu sur le plateau Oiseaux.",
       "Flavor text": null,
@@ -5342,7 +4897,6 @@
     },
     "447": {
       "English name": "Zebra Dove",
-      "Scientific name": "Geopelia striata",
       "Common name": "G\u00e9op\u00e9lie z\u00e9br\u00e9e",
       "Power text": "Tous les joueurs peuvent d\u00e9fausser 1 [seed] de leur r\u00e9serve pour pondre 1 [egg].",
       "Flavor text": null,
