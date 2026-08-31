@@ -2,7 +2,16 @@ import { appReducer, initialState } from './app.reducer'
 import * as appActions from './app.actions'
 import { AppState, BirdCard } from './app.interfaces'
 import DeJson from '../../assets/data/i18n/de.json'
+import DkJson from '../../assets/data/i18n/dk.json'
+import EsJson from '../../assets/data/i18n/es.json'
+import FrJson from '../../assets/data/i18n/fr.json'
+import JpJson from '../../assets/data/i18n/jp.json'
+import LtJson from '../../assets/data/i18n/lt.json'
 import NlJson from '../../assets/data/i18n/nl.json'
+import PlJson from '../../assets/data/i18n/pl.json'
+import PtJson from '../../assets/data/i18n/pt.json'
+import TrJson from '../../assets/data/i18n/tr.json'
+import UkJson from '../../assets/data/i18n/uk.json'
 
 /**
  * The contract between scripts/transform/language-to-json.ipynb and `setLanguage`.
@@ -111,4 +120,52 @@ describe('the committed i18n files', () => {
             expect('English name' in anyBird).toBe(true)
         })
     }))
+
+    /**
+     * The one thing these files can get wrong that nothing else would notice.
+     *
+     * Card ids are the sorted row position of wingspan-card-list.xlsx, so they move when the sort
+     * does, and the translation spreadsheets are maintained by hand and do not follow. Five Oceania
+     * birds were off by one in all eleven languages for as long as Oceania has been in the app --
+     * `Kākāpō` sorts after `Korimako` in the card data but before it in the sheets -- so a German
+     * player looking up Kea read Kākāpō's name, power text and flavour text. Everything about the
+     * app was working: the file is keyed by id, and every id in it existed.
+     *
+     * `English name` is in these files precisely so this is checkable, and it is checked here rather
+     * than only in scripts/transform/sync-i18n-sheets.py because that script is maintainer tooling
+     * that CI never runs, and it is the generated JSON that reaches a player.
+     */
+    describe('every language file', () => {
+
+        const all: [string, any][] = [
+            ['de', DeJson], ['dk', DkJson], ['es', EsJson], ['fr', FrJson], ['jp', JpJson],
+            ['lt', LtJson], ['nl', NlJson], ['pl', PlJson], ['pt', PtJson], ['tr', TrJson],
+            ['uk', UkJson],
+        ]
+
+        all.forEach(([lang, json]) => it(`keys ${lang}.json by the id each card actually has`, () => {
+            const misfiled = Object.entries<any>(json.birds)
+                .filter(([, row]) => row['English name'])
+                .filter(([id, row]) => {
+                    const card = initialState.birdCards.find(c => c.id === Number(id))
+                    return !card || card['Common name'] !== row['English name']
+                })
+                .map(([id, row]) => `${id} is ${row['English name']} here`)
+
+            expect(Object.keys(json.birds).length).toBeGreaterThan(0)
+            expect(misfiled).toEqual([])
+        }))
+
+        all.forEach(([lang, json]) => it(`keys ${lang}.json's bonus cards the same way`, () => {
+            const misfiled = Object.entries<any>(json.bonuses)
+                .filter(([, row]) => row['English name'])
+                .filter(([id, row]) => {
+                    const card = initialState.bonusCards.find(c => c.id === Number(id))
+                    return !card || card['Bonus card'] !== row['English name']
+                })
+                .map(([id, row]) => `${id} is ${row['English name']} here`)
+
+            expect(misfiled).toEqual([])
+        }))
+    })
 })

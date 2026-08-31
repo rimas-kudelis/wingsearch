@@ -1617,17 +1617,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "149": {
-      "English name": "Hooded Warbler",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "150": {
       "English name": "Horned Lark",
       "Common name": null,
@@ -2068,17 +2057,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "190": {
-      "English name": "Prothonotary Warbler",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "191": {
       "English name": "Purple Gallinule",
       "Common name": null,
@@ -2387,17 +2365,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "219": {
-      "English name": "Scaled Quail",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "220": {
       "English name": "Scissor-Tailed Flycatcher",
       "Common name": null,
@@ -2563,17 +2530,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "235": {
-      "English name": "Trumpeter Swan",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "236": {
       "English name": "Tufted Titmouse",
       "Common name": null,
@@ -2594,17 +2550,6 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
-    },
-    "238": {
-      "English name": "Vaux's Swift",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
       "Photographer": null
     },
     "239": {
@@ -2734,17 +2679,6 @@
       "Power text": "Compre 2 novas cartas b\u00f4nus e mantenha 1.",
       "Flavor text": null,
       "Note": "Compre duas cartas b\u00f4nus, escolha uma delas para manter e descarte a outra. Se o baralho de cartas b\u00f4nus se esgotar, embaralhe as cartas do descarte para formar um novo baralho. <br>As aves com este poder est\u00e3o em perigo de extin\u00e7\u00e3o, ou ent\u00e3o os especialistas em conserva\u00e7\u00e3o est\u00e3o certos de que logo estar\u00e3o devido \u00e0 taxa de decl\u00ednio na sua popula\u00e7\u00e3o.",
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "251": {
-      "English name": "Wild Turkey",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
@@ -3256,7 +3190,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "298": {
+    "302": {
       "English name": "K\u0101k\u0101p\u014d",
       "Common name": null,
       "Power text": "Compre 4 cartas b\u00f4nus, fique com 1, e descarte as outras 3.",
@@ -3267,7 +3201,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "299": {
+    "298": {
       "English name": "Kea",
       "Common name": null,
       "Power text": "Compre 1 carta b\u00f4nus. Voc\u00ea pode descartar qualquer quantidade de [wild] para comprar essa mesma quantidade de cartas b\u00f4nus adicionais. Fique com 1 delas e descarte o resto.",
@@ -3278,7 +3212,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "300": {
+    "299": {
       "English name": "Kelp Gull",
       "Common name": null,
       "Power text": "Descarte qualquer quantidade de [wild] para comprar essa mesma quantidade de [card].",
@@ -3289,7 +3223,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "301": {
+    "300": {
       "English name": "Kerer\u016b",
       "Common name": null,
       "Power text": "Se o jogador \u00e0 sua esquerda tiver [nectar] em seu estoque pessoal, ganhe 1 [nectar] do estoque geral.",
@@ -3300,7 +3234,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "302": {
+    "301": {
       "English name": "Korimako",
       "Common name": null,
       "Power text": "Descarte qualquer quantidade de [rodent] e ganhe essa mesma quantidade de [nectar] do estoque.",
@@ -4026,17 +3960,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "368": {
-      "English name": "Brambling",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "369": {
       "English name": "Brown Shrike",
       "Common name": null,
@@ -4059,39 +3982,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "371": {
-      "English name": "Common Iora",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "372": {
-      "English name": "Common Myna",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "373": {
-      "English name": "Common Sandpiper",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "374": {
       "English name": "Common Tailorbird",
       "Common name": null,
@@ -4113,17 +4003,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "376": {
-      "English name": "Coppersmith Barbet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "377": {
       "English name": "Crested Ibis",
@@ -4268,28 +4147,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "390": {
-      "English name": "Graceful Prinia",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "391": {
-      "English name": "Grandala",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "392": {
       "English name": "Gray Wagtail",
       "Common name": null,
@@ -4300,17 +4157,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "393": {
-      "English name": "Great Cormorant",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "394": {
       "English name": "Great Hornbill",
@@ -4331,17 +4177,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "396": {
-      "English name": "Great Spotted Woodpecker",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -4386,17 +4221,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "401": {
-      "English name": "House Crow",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -4448,39 +4272,6 @@
       "English name": "Little Egret",
       "Common name": null,
       "Power text": "Compre 1 [card] do baralho e adicione-a \u00e0 sua m\u00e3o. Todos os outros jogadores compram 1 [card] do baralho e a mant\u00e9m se ela puder viver em [wetland].",
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "407": {
-      "English name": "Little Grebe",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "408": {
-      "English name": "Little Ringed Plover",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "409": {
-      "English name": "Mandarin Duck",
-      "Common name": null,
-      "Power text": null,
       "Flavor text": null,
       "Note": null,
       "Anatomist": null,
@@ -4631,17 +4422,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "423": {
-      "English name": "Rook",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "424": {
       "English name": "Rose-Ringed Parakeet",
       "Common name": null,
@@ -4675,28 +4455,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "427": {
-      "English name": "Sarus Crane",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "428": {
-      "English name": "Satyr Tragopan",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "429": {
       "English name": "Scaly-Breasted Munia",
       "Common name": null,
@@ -4708,28 +4466,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "430": {
-      "English name": "Small Minivet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "431": {
-      "English name": "Smew",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
       "Common name": null,
@@ -4737,17 +4473,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "433": {
-      "English name": "Spotted Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -4781,28 +4506,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "437": {
-      "English name": "Trumpeter Finch",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "438": {
-      "English name": "Twite",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -4873,17 +4576,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "445": {
-      "English name": "Willow Tit",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "446": {
       "English name": "Yellow Bittern",
       "Common name": null,
@@ -4894,17 +4586,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "447": {
-      "English name": "Zebra Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     }
   },
   "bonuses": {
@@ -5212,54 +4893,6 @@
       "VP": "3 aves: 3[point]; 4 aves: 5[point]; 5 aves: 8[point]",
       "Note": "Estas cartas b\u00f4nus garantem, cada uma, pontos por sequ\u00eancias longas o bastante, no habitat correspondente, de aves consecutivas com envergaduras em ordem crescente ou decrescente. A sequ\u00eancia n\u00e3o precisa consistir em todas as aves do habitat, e ela n\u00e3o precisa come\u00e7ar ou terminar nas extremidades do habitat. Uma sequ\u00eancia pode incluir duas ou mais aves com a mesma envergadura.<br>Como mencionado anteriormente, as envergaduras de aves que n\u00e3o voam s\u00e3o curingas: Para fins dessas cartas b\u00f4nus, voc\u00ea pode atribuir qualquer envergadura para uma ave que n\u00e3o voa.<br>Por exemplo, se as envergaduras das primeiras 3 aves em seu p\u00e2ntano estiverem em ordem crescente, mas a quarta ave em seu p\u00e2ntano tiver uma envergadura menor do que a terceira ave de l\u00e1, o comprimento da sua sequ\u00eancia \u00e9 3, nesse caso, a carta b\u00f4nus Analista de Dados dos P\u00e2ntanos valeria 3 pontos."
     },
-    "1039": {
-      "English name": "Avian Theriogenologist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1040": {
-      "English name": "Endangered Species Protector",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1041": {
-      "English name": "Forest Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1042": {
-      "English name": "Forest Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1043": {
-      "English name": "Grassland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1044": {
-      "English name": "Grassland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
     "1045": {
       "English name": "Pellet Dissector",
       "Name": "Dissecador de Pelotas",
@@ -5267,153 +4900,9 @@
       "Explanatory text": null,
       "VP": "2 a 3 comidas estocadas: 3[point]; 4+ comidas estocadas: 6[point]",
       "Note": null
-    },
-    "1046": {
-      "English name": "Small Clutch Specialist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1047": {
-      "English name": "Wetland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1048": {
-      "English name": "Wetland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1049": {
-      "English name": "Winter Feeder",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1050": {
-      "English name": "[automa] Avid Asian Avian Admirer",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1051": {
-      "English name": "[automa] Rare Species Lister",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
     }
   },
   "goals": {
-    "2000": {
-      "English name": "Bird in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2001": {
-      "English name": "Bird in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2002": {
-      "English name": "Bird in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2013": {
-      "English name": "Egg in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2014": {
-      "English name": "Egg in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2017": {
-      "English name": "Egg in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2010": {
-      "English name": "Cavity Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2008": {
-      "English name": "Bowl Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2021": {
-      "English name": "Ground Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2022": {
-      "English name": "Platform Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2012": {
-      "English name": "Egg in Cavity Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2011": {
-      "English name": "Egg in Bowl Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2015": {
-      "English name": "Egg in Ground Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2016": {
-      "English name": "Egg in Platform Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2024": {
-      "English name": "Total Bird",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
     "2020": {
       "English name": "Food in Supply",
       "Name": "Comida no estoque pessoal",
@@ -5522,12 +5011,6 @@
       "Condition": "[bird] que valem \u22643[point]",
       "Explanatory Text": null
     },
-    "2043": {
-      "English name": "Pairs of Matching Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
     "2040": {
       "English name": "Nest Symbols",
       "Name": null,
@@ -5556,12 +5039,6 @@
       "English name": "Tokens in Any One Horizontal Row",
       "Name": null,
       "Condition": "[duet-token] EM UMA LINHA HORIZONTAL QUALQUER",
-      "Explanatory Text": null
-    },
-    "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
-      "Name": null,
-      "Condition": null,
       "Explanatory Text": null
     },
     "2034": {
@@ -5613,6 +5090,33 @@
     },
     "of cards": {
       "Translated": "das cartas"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

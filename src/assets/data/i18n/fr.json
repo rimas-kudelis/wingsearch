@@ -3256,7 +3256,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "298": {
+    "302": {
       "English name": "K\u0101k\u0101p\u014d",
       "Common name": "K\u0101k\u0101p\u043e\u0304",
       "Power text": "Piochez 4 nouvelles cartes Bonus, gardez-en 1 et d\u00e9faussez les 3 autres.",
@@ -3267,7 +3267,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "299": {
+    "298": {
       "English name": "Kea",
       "Common name": "Ke\u0301a de Nouvelle-Ze\u0301lande",
       "Power text": "Piochez 1 carte Bonus. Vous pouvez d\u00e9fausser des [wild] pour piocher autant de cartes suppl\u00e9mentaires. Gardez 1 des cartes pioch\u00e9es et d\u00e9faussez le reste.",
@@ -3278,7 +3278,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "300": {
+    "299": {
       "English name": "Kelp Gull",
       "Common name": "Goe\u0301land Dominicain",
       "Power text": "D\u00e9faussez autant de [wild] que vous le souhaitez pour piocher le m\u00eame nombre de [card].",
@@ -3289,7 +3289,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "301": {
+    "300": {
       "English name": "Kerer\u016b",
       "Common name": "Carpophage de Nouvelle-Z\u00e9lande",
       "Power text": "Si le joueur \u00e0 votre gauche poss\u00e8de au moins 1 [nectar] dans sa r\u00e9serve, gagnez 1 [nectar] de la r\u00e9serve g\u00e9n\u00e9rale.",
@@ -3300,7 +3300,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "302": {
+    "301": {
       "English name": "Korimako",
       "Common name": "Me\u0301liphage Carillonneur",
       "Power text": "D\u00e9faussez autant de [rodent] que vous le souhaitez pour gagner le m\u00eame nombre de [nectar] de la r\u00e9serve.",
@@ -5317,284 +5317,7 @@
       "Note": null
     }
   },
-  "goals": {
-    "2000": {
-      "English name": "Bird in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2001": {
-      "English name": "Bird in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2002": {
-      "English name": "Bird in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2013": {
-      "English name": "Egg in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2014": {
-      "English name": "Egg in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2017": {
-      "English name": "Egg in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2010": {
-      "English name": "Cavity Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2008": {
-      "English name": "Bowl Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2021": {
-      "English name": "Ground Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2022": {
-      "English name": "Platform Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2012": {
-      "English name": "Egg in Cavity Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2011": {
-      "English name": "Egg in Bowl Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2015": {
-      "English name": "Egg in Ground Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2016": {
-      "English name": "Egg in Platform Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2024": {
-      "English name": "Total Bird",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2020": {
-      "English name": "Food in Supply",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2003": {
-      "English name": "Birds Cards in Hand",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2004": {
-      "English name": "Birds Worth over 4 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2006": {
-      "English name": "Birds with No Eggs",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2005": {
-      "English name": "Birds in 1 Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2018": {
-      "English name": "Filled Columns",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2009": {
-      "English name": "Brown Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2025": {
-      "English name": "White & No Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2007": {
-      "English name": "Birds with Tucked Cards",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2019": {
-      "English name": "Food Cost of Played Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2032": {
-      "English name": "No Goal",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2026": {
-      "English name": "Beak Pointing Left",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2027": {
-      "English name": "Beak Pointing Right",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2043": {
-      "English name": "Pairs of Matching Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2040": {
-      "English name": "Nest Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2035": {
-      "English name": "Food Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2041": {
-      "English name": "Not on Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2042": {
-      "English name": "On Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2037": {
-      "English name": "In Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2038": {
-      "English name": "In Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2039": {
-      "English name": "In Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2045": {
-      "English name": "Total Duet Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    }
-  },
+  "goals": {},
   "other": {
     "WHEN ACTIVATED": {
       "Translated": "ACTIVATION"
@@ -5613,6 +5336,33 @@
     },
     "of cards": {
       "Translated": "des cartes"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

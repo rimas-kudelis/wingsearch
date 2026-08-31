@@ -3256,7 +3256,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "298": {
+    "302": {
       "English name": "K\u0101k\u0101p\u014d",
       "Common name": "Kakapo",
       "Power text": "Dobierz 4 karty bonusowe i zatrzymaj 1 z nich.",
@@ -3267,7 +3267,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "299": {
+    "298": {
       "English name": "Kea",
       "Common name": "Kea",
       "Power text": "Dobierz 1 kart\u0119 bonusow\u0105. Mo\u017cesz odrzuci\u0107 dowoln\u0105 liczb\u0119 [wild] ze swoich zasob\u00f3w. Za ka\u017cdy odrzucony \u017ceton dobierz po 1 dodatkowej karcie bonusowej. Zatrzymaj 1 z dobranych kart, a reszt\u0119 odrzu\u0107.",
@@ -3278,7 +3278,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "300": {
+    "299": {
       "English name": "Kelp Gull",
       "Common name": "Mewa Po\u0142udniowa",
       "Power text": "Odrzu\u0107 dowoln\u0105 liczb\u0119 [wild] ze swoich zasob\u00f3w. Za ka\u017cdy odrzucony \u017ceton dobierz 1 [card].",
@@ -3289,7 +3289,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "301": {
+    "300": {
       "English name": "Kerer\u016b",
       "Common name": "Garlica Maoryska",
       "Power text": "Je\u015bli gracz po lewej ma [nectar] w swoich zasobach, we\u017a 1 [nectar] z zasob\u00f3w.",
@@ -3300,7 +3300,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "302": {
+    "301": {
       "English name": "Korimako",
       "Common name": "Szmaragdowiec Zwyczajny",
       "Power text": "Odrzu\u0107 dowoln\u0105 liczb\u0119 [rodent] ze swoich zasob\u00f3w. Za ka\u017cdy odrzucony \u017ceton we\u017a po 1 [nectar] z zasob\u00f3w.",
@@ -5613,6 +5613,33 @@
     },
     "of cards": {
       "Translated": "kart"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

@@ -2,9 +2,11 @@
 
 If you own the game in another language that is not fully translated (or you have found a typo) and want to contribute, I'd really appreciate that. To make the whole process the easiest, please follow the next steps.
 
-* If the language is already partially translated, simply download the corresponding file from above. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to the respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for German it would be `de.xlsx`) and save it in this folder. (Note: If you don't see rows for new expansion birds and bonus cards, check [`template.xlsx`](template.xlsx) and copy the missing rows from there.)
+* If the language is already partially translated, simply download the corresponding file from above. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to the respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for German it would be `de.xlsx`) and save it in this folder.
 
-* Fill the necessary information in the file. Do not change any predefined cells. The file consists of 3 sheets. 
+* Every file has a row for every card in the game, including the promo packs and the hummingbirds, so there is nothing to copy over from the template — find the bird you want by its English name and fill in the row. Blank rows are simply shown in English, so translating any subset is fine; work through as much or as little as you like. If a new expansion has come out and you cannot find its birds, open an issue and I will refresh the files.
+
+* Fill the necessary information in the file. Do not change the `id`, `English name`, `Scientific name` or `Expansion` columns — those are there to tell you which row is which bird, and are rewritten from the card data. The file consists of 5 sheets, of which `Birds`, `Bonuses`, `Other` and `Parameters` are the ones the site reads. `Goals` is not used by the site yet, so filling it in is optional.
 
 * **Pay attention to the following format.** Specify icons in card descriptions using their name inside of square brackets.
 
@@ -61,8 +63,10 @@ Some languages (such as Spanish) may use different wording for the bonus cards A
 | id | Internal identificator of the bird, do not change this value |
 | English name| The common name of a bird in english. It helps you to identify, which bird should be in that row  |
 | Scientific name| The name of a bird in latin. It helps you to identify, which bird should be in that row  |
-| Name| Fill there the common name of a bird in a desired language |
+| Expansion| Which box the bird comes in. Also only there to help you find a row |
+| Common name| Fill there the common name of a bird in a desired language |
 | Power text| Fill there the ability of the bird. Leave empty if the bird has no ability |
+| Flavor text| Fill there the italic sentence of trivia printed under the bird's ability |
 | Note| Fill there additional information about a bird from the appendix. Leave empty if the bird has no additional info |
 
 **Language-dependent bonus cards - applicable birds for these bonus cards may differ in your language. There are predefined values for English, please change those columns according to the rules of your language.**
@@ -79,6 +83,7 @@ Some languages (such as Spanish) may use different wording for the bonus cards A
 | ----------- | ----------- |
 | id | Internal identificator of the bird, do not change this value |
 | English name| The name of a bonus card in english. It helps you to identify, which bonus card should be in that row  |
+| Expansion| Which box the bonus card comes in. Also only there to help you find a row |
 | Name| Fill there the title of a bonus card in a desired language |
 | Condition| Main description of a bonus card following the title|
 | Explanatory text| Additional explanation of bonus card condition, typically found at the bottom of the card |
@@ -101,6 +106,11 @@ Some languages (such as Spanish) may use different wording for the bonus cards A
 The last three are the only strings on this list that are not printed on a card — they label the site's own rulings section. The rulings themselves stay in English: they quote official answers, and a paraphrase of a rules answer is a different answer.
 
 Any row you leave blank, or leave out of the sheet entirely, falls back to the English text, so a partly filled sheet is never broken.
+
+### Parameters
+| Field | Description |
+| ----------- | ----------- |
+| Show bonus cards match symbols| Type **X** here if the bird names in your language make the Anatomist, Cartographer, Historian and Photographer bonus cards hard to judge by eye, and the site will tag each bird name with the icons of the bonus cards it qualifies for. Leave empty otherwise. Spanish is the one language that uses this |
 
 In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/transform/wingspan-card-list.xlsx) or open a GitHub issue.
 

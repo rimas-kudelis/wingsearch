@@ -3256,7 +3256,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "298": {
+    "302": {
       "English name": "K\u0101k\u0101p\u014d",
       "Common name": "Kakapo",
       "Power text": "Ziehe 4 neue Bonuskarten und behalte 1 davon. Wirf den Rest ab.",
@@ -3267,7 +3267,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "299": {
+    "298": {
       "English name": "Kea",
       "Common name": "Kea",
       "Power text": "Ziehe 1 Bonuskarte. Du darfst X [wild] abwerfen, um X weitere Bonuskarten zu ziehen. Behalte 1 der gezogenen Bonuskarten und wirf den Rest ab.",
@@ -3278,7 +3278,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "300": {
+    "299": {
       "English name": "Kelp Gull",
       "Common name": "Dominikanerm\u00f6we",
       "Power text": "Wirf X [wild] ab, um X [card] zu ziehen.",
@@ -3289,7 +3289,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "301": {
+    "300": {
       "English name": "Kerer\u016b",
       "Common name": "Maorifruchttaube",
       "Power text": "Hat dein linker Mitspieler min. 1 [nectar] in seinem Vorrat, dann erhalte 1 [nectar] aus dem Vorrat.",
@@ -3300,7 +3300,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "302": {
+    "301": {
       "English name": "Korimako",
       "Common name": "Maori-Glockenhonigfresser",
       "Power text": "Wirf X [rodent] ab, um X [nectar] aus dem Vorrat zu erhalten.",
@@ -5156,14 +5156,6 @@
       "VP": "4 - 5 V\u00f6gel: 4[point]; 6+ V\u00f6gel: 7[point]",
       "Note": null
     },
-    "1031": {
-      "English name": "[Fan Made] Caprimulgiform Specialist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
     "1032": {
       "English name": "[automa] Autwitcher",
       "Name": "[automa] Vogelfreund",
@@ -5315,113 +5307,9 @@
       "Explanatory text": "(niedrigerer Wert zuerst).",
       "VP": "Der Automa beh\u00e4lt bis zu 2 davon",
       "Note": null
-    },
-    "1051": {
-      "English name": "[automa] Rare Species Lister",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
     }
   },
   "goals": {
-    "2000": {
-      "English name": "Bird in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2001": {
-      "English name": "Bird in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2002": {
-      "English name": "Bird in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2013": {
-      "English name": "Egg in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2014": {
-      "English name": "Egg in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2017": {
-      "English name": "Egg in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2010": {
-      "English name": "Cavity Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2008": {
-      "English name": "Bowl Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2021": {
-      "English name": "Ground Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2022": {
-      "English name": "Platform Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2012": {
-      "English name": "Egg in Cavity Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2011": {
-      "English name": "Egg in Bowl Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2015": {
-      "English name": "Egg in Ground Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2016": {
-      "English name": "Egg in Platform Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2024": {
-      "English name": "Total Bird",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
     "2020": {
       "English name": "Food in Supply",
       "Name": "Futter im eigenen Vorrat",
@@ -5621,6 +5509,33 @@
     },
     "of cards": {
       "Translated": "der Karten"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

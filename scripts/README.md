@@ -23,14 +23,22 @@ app imports. This is the only path by which card data changes.
 | `wingspan-bonuscard-list.xlsx` | **read by nothing.** Superseded by the `Bonus` sheet above; kept because it is the older source of record |
 | `json-transformer.ipynb` | → `master.json`, `hummingbirds.json`, `bonus.json`, `general.json`, `goals.json`, `parameters.json` |
 | `language-to-json.ipynb` | `i18n/*.xlsx` → `src/assets/data/i18n/<lang>.json` |
+| `sync-i18n-sheets.py` | brings `i18n/*.xlsx` back in line with the card data |
 | `run.py` | runs a notebook's code cells without Jupyter |
 
 Open them in Jupyter to edit, or run them headless:
 
 ```bash
 scripts/transform/run.py json-transformer
+scripts/transform/sync-i18n-sheets.py --check   # report translation-sheet drift
+scripts/transform/sync-i18n-sheets.py           # fix it
 scripts/transform/run.py language-to-json
 ```
+
+Run the sync whenever card data is regenerated, and before the language notebook: the
+translation sheets are keyed by card id and maintained by hand, so they do not follow when a
+bird is renumbered, and the app then shows one bird's translation under another bird's name
+with nothing looking wrong anywhere. Its docstring explains each thing it fixes.
 
 Both resolve their paths from the repo root, so either way of running them, from any
 directory inside the checkout, reads and writes the same files.

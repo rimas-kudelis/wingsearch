@@ -3256,7 +3256,7 @@
       "Historian": "X",
       "Photographer": null
     },
-    "298": {
+    "302": {
       "English name": "K\u0101k\u0101p\u014d",
       "Common name": "Kakapo",
       "Power text": "trek 4 bonuskaarten. Hou er 1 en leg de andere 3 af.",
@@ -3267,7 +3267,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "299": {
+    "298": {
       "English name": "Kea",
       "Common name": "Kea",
       "Power text": "trek 1 bonuskaart. Je mag zoveel [wild] afleggen als je wilt om hetzelfde aantal extra bonuskaarten te trekken. Hou 1 van de getrokken kaarten en leg de rest af.",
@@ -3278,7 +3278,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "300": {
+    "299": {
       "English name": "Kelp Gull",
       "Common name": "Kelpmeeuw",
       "Power text": "leg zoveel [wild] als je wilt af om hetzelfde aantal [card] te trekken.",
@@ -3289,7 +3289,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "301": {
+    "300": {
       "English name": "Kerer\u016b",
       "Common name": "Nieuw-Zeelandse vruchtenduif",
       "Power text": "als de speler links van je een [nectar] in zijn persoonlijke voorraad heeft, pak je 1 [nectar] uit de algemene voorraad.",
@@ -3300,7 +3300,7 @@
       "Historian": null,
       "Photographer": null
     },
-    "302": {
+    "301": {
       "English name": "Korimako",
       "Common name": "Maori-belhoningvogel",
       "Power text": "leg zoveel [rodent] als je wilt af om hetzelfde aantal [nectar] uit de voorraad te pakken.",
@@ -5127,7 +5127,7 @@
       "Photographer": null
     },
     "618": {
-      "English name": null,
+      "English name": "Chilo\u00e9 Wigeon",
       "Common name": "Chileense smient",
       "Power text": "heeft de speler direct links van je mininmaal 2 [card] in zijn hand, trek dan 1 [card].",
       "Flavor text": "Het woord \u2018sibilatrix\u2019 in de wetenschappelijke naam van deze eend betekent \u2018zij die fluit\u2019.",
@@ -5479,7 +5479,7 @@
       "Photographer": null
     },
     "650": {
-      "English name": "Monk Parakett",
+      "English name": "Monk Parakeet",
       "Common name": "Monniksparkiet",
       "Power text": "leg 1 [egg] op elke vogel met een [star]-nest.",
       "Flavor text": "Monniksparkieten bouwen grote nesten, soms in een complex met twaalf of meer nestkamers.",
@@ -5501,7 +5501,7 @@
       "Photographer": null
     },
     "652": {
-      "English name": "Nanday Parakett",
+      "English name": "Nanday Parakeet",
       "Common name": "Nandayparkiet",
       "Power text": "stop 1 [card] uit je hand onder deze vogel weg. Doe je dat, kopieer dan een bruine eigenschap op het tableau van de speler direct rechts van je.",
       "Flavor text": "Als huisdier kunnen deze sociale vogels leren woorden en zinnen na te bootsen.",
@@ -5545,7 +5545,7 @@
       "Photographer": null
     },
     "656": {
-      "English name": "Orange-Breated Bunting",
+      "English name": "Orange-Breasted Bunting",
       "Common name": "Regenbooggors",
       "Power text": "lok 1 [mango]- of [topaz]-kolibrie of geef die terug.",
       "Flavor text": "Deze soort is familie van de even bontgekleurde geelgors van Noord-Amerika.",
@@ -5611,7 +5611,7 @@
       "Photographer": null
     },
     "662": {
-      "English name": "Red-Breated Meadowlark",
+      "English name": "Red-Breasted Meadowlark",
       "Common name": "Zwartkopsoldatenspreeuw",
       "Power text": "leg 1 [card] uit je hand af om 1 [egg] op een vogel naar keuze te leggen.",
       "Flavor text": "Het verenkleed gaf deze soort de naam \u2018militaris\u2019; op Trinidad heet hij de \u2018soldaatvogel\u2019.",
@@ -5897,7 +5897,7 @@
       "Photographer": null
     },
     "688": {
-      "English name": "Sun Parakett",
+      "English name": "Sun Parakeet",
       "Common name": "Zonparkiet",
       "Power text": "trek voor elke vogel met een [cavity]-nest op je tableau 1 nieuwe bonuskaart. Houd er 1 van en leg de rest af.",
       "Flavor text": "Deze parkiet word in het wild bedreigd door vangst voor de kooivogelhandel.",
@@ -5985,7 +5985,7 @@
       "Photographer": null
     },
     "696": {
-      "English name": "Turquisoe-Browed Motmot",
+      "English name": "Turquoise-Browed Motmot",
       "Common name": "Wenkbrouwmotmot",
       "Power text": "iedere speler mag 1 kolibrie teruggeven te beginnen bij de speler naar jouw keuze.",
       "Flavor text": "De motmot waarschuwt vaak voor gevaar door zijn staart als een slinger heen en weer te zwaaien.",
@@ -5996,7 +5996,7 @@
       "Photographer": null
     },
     "697": {
-      "English name": "Ultramarine Grosbreak",
+      "English name": "Ultramarine Grosbeak",
       "Common name": "Ultramarijnbisschop",
       "Power text": "speel een andere vogel in deze kolom zonder links ervan lege velden over te laten. Betaal de gebruikelijke kosten ervan.",
       "Flavor text": "Cyanoloxia betekent \u2018blauwe kruisbe\u2019, maar deze vogels zijn niet nauw verwant aan kruisbekken.",
@@ -6040,7 +6040,7 @@
       "Photographer": "x"
     },
     "701": {
-      "English name": "Vermillion Flycatcher",
+      "English name": "Vermilion Flycatcher",
       "Common name": "Rode tiran",
       "Power text": "lok 1 [bee]- of [brilliant]-kolibrie.",
       "Flavor text": "In de Zapoteekse folklore brengt het geluk om de felrode borst van een mannetjes-rode tiran te zien.",
@@ -6449,14 +6449,6 @@
       "VP": "3[point]\\nelk",
       "Note": null
     },
-    "1041": {
-      "English name": "Forest Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
     "1042": {
       "English name": "Forest Ranger",
       "Name": "Bosbeheerder",
@@ -6520,181 +6512,9 @@
       "Explanatory text": null,
       "VP": null,
       "Note": null
-    },
-    "1050": {
-      "English name": "[automa] Avid Asian Avian Admirer",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1051": {
-      "English name": "[automa] Rare Species Lister",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
     }
   },
   "goals": {
-    "2000": {
-      "English name": "Bird in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2001": {
-      "English name": "Bird in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2002": {
-      "English name": "Bird in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2013": {
-      "English name": "Egg in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2014": {
-      "English name": "Egg in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2017": {
-      "English name": "Egg in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2010": {
-      "English name": "Cavity Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2008": {
-      "English name": "Bowl Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2021": {
-      "English name": "Ground Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2022": {
-      "English name": "Platform Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2012": {
-      "English name": "Egg in Cavity Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2011": {
-      "English name": "Egg in Bowl Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2015": {
-      "English name": "Egg in Ground Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2016": {
-      "English name": "Egg in Platform Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2024": {
-      "English name": "Total Bird",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2020": {
-      "English name": "Food in Supply",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2003": {
-      "English name": "Birds Cards in Hand",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2004": {
-      "English name": "Birds Worth over 4 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2006": {
-      "English name": "Birds with No Eggs",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2005": {
-      "English name": "Birds in 1 Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2018": {
-      "English name": "Filled Columns",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2009": {
-      "English name": "Brown Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2025": {
-      "English name": "White & No Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2007": {
-      "English name": "Birds with Tucked Cards",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2019": {
-      "English name": "Food Cost of Played Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
     "2031": {
       "English name": "Invertebrate in Food Cost of Your Birds",
       "Name": null,
@@ -6742,78 +6562,6 @@
       "Name": null,
       "Condition": "[bird] die \u22643[point] waard zijn",
       "Explanatory Text": null
-    },
-    "2043": {
-      "English name": "Pairs of Matching Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2040": {
-      "English name": "Nest Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2035": {
-      "English name": "Food Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2041": {
-      "English name": "Not on Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2042": {
-      "English name": "On Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2037": {
-      "English name": "In Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2038": {
-      "English name": "In Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2039": {
-      "English name": "In Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2045": {
-      "English name": "Total Duet Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
     }
   },
   "other": {
@@ -6834,6 +6582,33 @@
     },
     "of cards": {
       "Translated": "van de kaarten"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

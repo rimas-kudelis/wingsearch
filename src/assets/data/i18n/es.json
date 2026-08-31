@@ -3025,17 +3025,6 @@
       "Historian": "X",
       "Photographer": null
     },
-    "277": {
-      "English name": "Brolga",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "278": {
       "English name": "Brown Falcon",
       "Common name": null,
@@ -3046,28 +3035,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "279": {
-      "English name": "Budgerigar",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "280": {
-      "English name": "Cockatiel",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
@@ -3121,28 +3088,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "286": {
-      "English name": "Emu",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "287": {
-      "English name": "Galah",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -3256,83 +3201,6 @@
       "Historian": "X",
       "Photographer": null
     },
-    "298": {
-      "English name": "K\u0101k\u0101p\u014d",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "299": {
-      "English name": "Kea",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "300": {
-      "English name": "Kelp Gull",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "301": {
-      "English name": "Kerer\u016b",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "302": {
-      "English name": "Korimako",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "303": {
-      "English name": "Laughing Kookaburra",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "304": {
-      "English name": "Lesser Frigatebird",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "305": {
       "English name": "Lewin's Honeyeater",
       "Common name": null,
@@ -3342,39 +3210,6 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
-    },
-    "306": {
-      "English name": "Little Penguin",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "307": {
-      "English name": "Little Pied Cormorant",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "308": {
-      "English name": "Magpie-Lark",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
       "Photographer": null
     },
     "309": {
@@ -3399,28 +3234,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "311": {
-      "English name": "Maned Duck",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "312": {
-      "English name": "Many-Colored Fruit-Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "313": {
       "English name": "Masked Lapwing",
       "Common name": null,
@@ -3428,28 +3241,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "314": {
-      "English name": "Mistletoebird",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "315": {
-      "English name": "Musk Duck",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -3462,17 +3253,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "317": {
-      "English name": "Noisy Miner",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -3509,17 +3289,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "321": {
-      "English name": "Peaceful Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "322": {
       "English name": "Pesquet's Parrot",
       "Common name": null,
@@ -3529,17 +3298,6 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
-    },
-    "323": {
-      "English name": "Pheasant Coucal",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
       "Photographer": null
     },
     "324": {
@@ -3573,28 +3331,6 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
-    },
-    "327": {
-      "English name": "P\u016bkeko",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "328": {
-      "English name": "Rainbow Lorikeet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
       "Photographer": null
     },
     "329": {
@@ -3652,17 +3388,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "334": {
-      "English name": "Regent Bowerbird",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "335": {
       "English name": "Royal Spoonbill",
       "Common name": null,
@@ -3707,17 +3432,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "339": {
-      "English name": "Sacred Kingfisher",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "340": {
       "English name": "Silvereye",
       "Common name": null,
@@ -3751,50 +3465,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "343": {
-      "English name": "Spangled Drongo",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "344": {
-      "English name": "Splendid Fairywren",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "345": {
-      "English name": "Spotless Crake",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "346": {
-      "English name": "Stubble Quail",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "347": {
       "English name": "Sulphur-Crested Cockatoo",
       "Common name": null,
@@ -3805,17 +3475,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "348": {
-      "English name": "Superb Lyrebird",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "349": {
       "English name": "Tawny Frogmouth",
@@ -3828,17 +3487,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "350": {
-      "English name": "T\u016b\u012b",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "351": {
       "English name": "Wedge-Tailed Eagle",
       "Common name": null,
@@ -3846,17 +3494,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "352": {
-      "English name": "Welcome Swallow",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -3949,28 +3586,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "361": {
-      "English name": "Baya Weaver",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "362": {
-      "English name": "Bearded Reedling",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "363": {
       "English name": "Black Drongo",
       "Common name": null,
@@ -4015,28 +3630,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "367": {
-      "English name": "Brahminy Kite",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "368": {
-      "English name": "Brambling",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "369": {
       "English name": "Brown Shrike",
       "Common name": null,
@@ -4059,50 +3652,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "371": {
-      "English name": "Common Iora",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "372": {
-      "English name": "Common Myna",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "373": {
-      "English name": "Common Sandpiper",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "374": {
-      "English name": "Common Tailorbird",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "375": {
       "English name": "Common Teal",
       "Common name": null,
@@ -4113,17 +3662,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "376": {
-      "English name": "Coppersmith Barbet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "377": {
       "English name": "Crested Ibis",
@@ -4268,28 +3806,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "390": {
-      "English name": "Graceful Prinia",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "391": {
-      "English name": "Grandala",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "392": {
       "English name": "Gray Wagtail",
       "Common name": null,
@@ -4300,17 +3816,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "393": {
-      "English name": "Great Cormorant",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     },
     "394": {
       "English name": "Great Hornbill",
@@ -4331,28 +3836,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "396": {
-      "English name": "Great Spotted Woodpecker",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "397": {
-      "English name": "Greater Adjutant",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -4386,17 +3869,6 @@
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
-      "Historian": null,
-      "Photographer": null
-    },
-    "401": {
-      "English name": "House Crow",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
       "Historian": null,
       "Photographer": null
     },
@@ -4440,50 +3912,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "406": {
-      "English name": "Little Egret",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "407": {
-      "English name": "Little Grebe",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "408": {
-      "English name": "Little Ringed Plover",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "409": {
-      "English name": "Mandarin Duck",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -4609,39 +4037,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "421": {
-      "English name": "Rhinoceros Auklet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "422": {
-      "English name": "Rock Pigeon",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "423": {
-      "English name": "Rook",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "424": {
       "English name": "Rose-Ringed Parakeet",
       "Common name": null,
@@ -4675,28 +4070,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "427": {
-      "English name": "Sarus Crane",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "428": {
-      "English name": "Satyr Tragopan",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "429": {
       "English name": "Scaly-Breasted Munia",
       "Common name": null,
@@ -4708,28 +4081,6 @@
       "Historian": null,
       "Photographer": null
     },
-    "430": {
-      "English name": "Small Minivet",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "431": {
-      "English name": "Smew",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
       "Common name": null,
@@ -4737,17 +4088,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "433": {
-      "English name": "Spotted Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -4781,28 +4121,6 @@
       "Flavor text": null,
       "Note": null,
       "Anatomist": "X",
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "437": {
-      "English name": "Trumpeter Finch",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
-    "438": {
-      "English name": "Twite",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
       "Photographer": null
@@ -4873,17 +4191,6 @@
       "Historian": null,
       "Photographer": "X"
     },
-    "445": {
-      "English name": "Willow Tit",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
-    },
     "446": {
       "English name": "Yellow Bittern",
       "Common name": null,
@@ -4894,17 +4201,6 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X"
-    },
-    "447": {
-      "English name": "Zebra Dove",
-      "Common name": null,
-      "Power text": null,
-      "Flavor text": null,
-      "Note": null,
-      "Anatomist": null,
-      "Cartographer": null,
-      "Historian": null,
-      "Photographer": null
     }
   },
   "bonuses": {
@@ -4922,22 +4218,6 @@
       "Condition": "Aves que valen al menos 4 puntos",
       "Explanatory text": null,
       "VP": "5 o 6 aves: 3[point]; 7 aves o m\u00e1s: 6[point]",
-      "Note": null
-    },
-    "1002": {
-      "English name": "Behaviorist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1003": {
-      "English name": "Bird Bander",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
       "Note": null
     },
     "1004": {
@@ -4972,22 +4252,6 @@
       "VP": "2 o 3 aves: 3[point]; 4 aves o m\u00e1s: 7[point]",
       "Note": null
     },
-    "1008": {
-      "English name": "Citizen Scientist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1009": {
-      "English name": "Diet Specialist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
     "1010": {
       "English name": "Ecologist",
       "Name": "Ecologista",
@@ -5002,14 +4266,6 @@
       "Condition": "Aves con nidos de tipo [ground]",
       "Explanatory text": "Las aves deben tener un icono de nido de tipo [ground] o [star].",
       "VP": "4 o 5 aves: 4[point]; 6 aves o m\u00e1s: 7[point]",
-      "Note": null
-    },
-    "1012": {
-      "English name": "Ethologist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
       "Note": null
     },
     "1013": {
@@ -5171,430 +4427,9 @@
       "Explanatory text": null,
       "VP": "El Automa se queda la de m\u00e1s valor",
       "Note": null
-    },
-    "1034": {
-      "English name": "Forest Data Analyst",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1035": {
-      "English name": "Grassland Data Analyst",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1036": {
-      "English name": "Mechanical Engineer",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1037": {
-      "English name": "Site Selection Expert",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1038": {
-      "English name": "Wetland Data Analyst",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1039": {
-      "English name": "Avian Theriogenologist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1040": {
-      "English name": "Endangered Species Protector",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1041": {
-      "English name": "Forest Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1042": {
-      "English name": "Forest Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1043": {
-      "English name": "Grassland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1044": {
-      "English name": "Grassland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1045": {
-      "English name": "Pellet Dissector",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1046": {
-      "English name": "Small Clutch Specialist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1047": {
-      "English name": "Wetland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1048": {
-      "English name": "Wetland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1049": {
-      "English name": "Winter Feeder",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1050": {
-      "English name": "[automa] Avid Asian Avian Admirer",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
-    },
-    "1051": {
-      "English name": "[automa] Rare Species Lister",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
     }
   },
-  "goals": {
-    "2000": {
-      "English name": "Bird in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2001": {
-      "English name": "Bird in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2002": {
-      "English name": "Bird in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2013": {
-      "English name": "Egg in Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2014": {
-      "English name": "Egg in Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2017": {
-      "English name": "Egg in Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2010": {
-      "English name": "Cavity Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2008": {
-      "English name": "Bowl Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2021": {
-      "English name": "Ground Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2022": {
-      "English name": "Platform Nest Bird with Egg",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2012": {
-      "English name": "Egg in Cavity Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2011": {
-      "English name": "Egg in Bowl Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2015": {
-      "English name": "Egg in Ground Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2016": {
-      "English name": "Egg in Platform Nest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2024": {
-      "English name": "Total Bird",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2020": {
-      "English name": "Food in Supply",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2003": {
-      "English name": "Birds Cards in Hand",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2004": {
-      "English name": "Birds Worth over 4 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2006": {
-      "English name": "Birds with No Eggs",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2005": {
-      "English name": "Birds in 1 Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2018": {
-      "English name": "Filled Columns",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2009": {
-      "English name": "Brown Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2025": {
-      "English name": "White & No Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2007": {
-      "English name": "Birds with Tucked Cards",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2019": {
-      "English name": "Food Cost of Played Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2032": {
-      "English name": "No Goal",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2026": {
-      "English name": "Beak Pointing Left",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2027": {
-      "English name": "Beak Pointing Right",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2043": {
-      "English name": "Pairs of Matching Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2040": {
-      "English name": "Nest Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2035": {
-      "English name": "Food Symbols",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2041": {
-      "English name": "Not on Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2042": {
-      "English name": "On Edge of Map",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2037": {
-      "English name": "In Forest",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2038": {
-      "English name": "In Grassland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2039": {
-      "English name": "In Wetland",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    },
-    "2045": {
-      "English name": "Total Duet Tokens",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
-    }
-  },
+  "goals": {},
   "other": {
     "WHEN ACTIVATED": {
       "Translated": "AL ACTIVARLA"
@@ -5613,6 +4448,33 @@
     },
     "of cards": {
       "Translated": "de las cartas"
+    },
+    "Additional Asian Avians": {
+      "Translated": null
+    },
+    "Birds of Canada / Oiseaux du Canada": {
+      "Translated": null
+    },
+    "Birds of Continental Europe / Ng\u0101 Manu o Aotearoa": {
+      "Translated": null
+    },
+    "Birds of New Zealand": {
+      "Translated": null
+    },
+    "Birds of U.S.A.": {
+      "Translated": null
+    },
+    "British Birds": {
+      "Translated": null
+    },
+    "Official ruling": {
+      "Translated": null
+    },
+    "Applies to": {
+      "Translated": null
+    },
+    "Show less": {
+      "Translated": null
     }
   },
   "parameters": {

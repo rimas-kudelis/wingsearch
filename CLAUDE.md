@@ -152,9 +152,42 @@ Runtime translation, not Angular i18n. There is no compile-time locale build.
 
 - `AppEffects` ([src/app/store/app.effects.ts](src/app/store/app.effects.ts)) reacts to `ROOT_EFFECTS_INIT` and `changeLanguage`, reads the `language` cookie, HTTP-fetches `assets/data/i18n/<lang>.json`, and dispatches `[App] Set language`.
 - `setLanguage` in the reducer merges translated fields over the English card (blank cells fall through to English via the `englishBirdCardsMap`/`englishBonusCardsMap` lookups), **re-sorts** cards with `localeCompare` for that locale, **rebuilds both FlexSearch indexes**, and **re-runs the stored query** (see "Why the language handlers re-run the search"). `resetLanguage` restores the English arrays and re-runs the query too.
-- `TranslatePipe` translates static UI strings from the `other` sheet. It's both declared as a pipe and provided as a service, and components inject it directly (e.g. `bird-card.component.ts` for power titles). A missing or blank key falls back to the English string, so adding a `| translate` string breaks nothing — but nobody will ever translate it unless the row is also added to the `Other` sheet of `i18n/template.xlsx`, which is where `i18n/README.md` tells translators to look for rows their language file lacks. Add it there in the same commit. (One existing key, `of cards`, contains a non-breaking space; the pipe normalizes NBSP and friends to plain spaces when it builds its lookup, so don't "fix" the spreadsheet.)
+- `TranslatePipe` translates static UI strings from the `other` sheet. It's both declared as a pipe and provided as a service, and components inject it directly (e.g. `bird-card.component.ts` for power titles). A missing or blank key falls back to the English string, so adding a `| translate` string breaks nothing — but nobody will ever translate it unless the row is also added to the `Other` sheet of `i18n/template.xlsx`. Add it there in the same commit, then run `scripts/transform/sync-i18n-sheets.py`, which propagates it into every language's `Other` sheet (before that existed, ten of the eleven were nine rows behind the template and no translator had ever been shown them). (One existing key, `of cards`, contains a non-breaking space; the pipe normalizes NBSP and friends to plain spaces when it builds its lookup, so don't "fix" the spreadsheet.)
 - Card text embeds icon markers like `[forest]`, `[wetland]`, `[card]`; `IconizePipe` expands them into `<picture>` elements pointing at `assets/icons/png/<name>.webp`, with `dark`/`glow` variant maps. (The directory really is called `icons/png` and holds `.webp` files — see "The app serves WebP only" below.) Translators must preserve these markers — see [i18n/README.md](i18n/README.md) for the full icon table and sheet-by-sheet field docs.
-- `parameters` (from the i18n file, falling back to `src/assets/data/parameters.json`) are per-language feature flags, e.g. `Show bonus cards match symbols`, which appends `[anatomist]`-style icons to bird names.
+- `parameters` (from the i18n file, falling back to `src/assets/data/parameters.json`) are per-language feature flags, e.g. `Show bonus cards match symbols`, which appends `[anatomist]`-style icons to bird names. Read as a plain truthy value, so any non-empty cell turns it on; Spanish is the only language that does. The `Parameters` sheet went undocumented for translators until the field tables in `i18n/README.md` grew a section for it.
+
+  That flag was also a live trap. In every workbook but two it was written as the *formula* `=FALSE()` (Spanish: `=TRUE()`), and openpyxl keeps a formula while discarding the value Excel cached for it — so any tool that opened one of these files and saved it would silently turn Spanish's icons off. `sync-i18n-sheets.py` resolves every formula to its cached value before saving, which is why the flag cells are now plain booleans. If you write your own tooling against these workbooks, load them with `data_only=True` or you will lose it again.
+
+### The spreadsheets drift from the card ids, and nothing used to notice
+
+The translation workbooks are keyed by card id and maintained by hand, so they do not follow when a
+regenerated `master.json` renumbers a bird. That failure is completely silent: the file is valid,
+every id in it exists, and the app cheerfully shows one bird's translation under another bird's name.
+It had been doing exactly that for five Oceania birds in all eleven languages for as long as Oceania
+has been in the app (`Kākāpō` sorts after `Korimako` in the card data and before it in the sheets).
+
+Two things guard it now:
+
+- [scripts/transform/sync-i18n-sheets.py](scripts/transform/sync-i18n-sheets.py) syncs the Birds and
+  Bonuses sheets of every workbook against `src/assets/data`: it moves a row to the id whose card
+  carries its English name, rewrites the identification columns from the data, adds a row for every
+  card that has none and any column the sheet lacks, and never touches a translation. `Other` and
+  `Parameters` have no counterpart in the data, so missing rows there are copied from the template.
+  `--check` reports drift and exits non-zero; it is idempotent, so a second run is a clean no-op. Run
+  it after regenerating card data. It is maintainer tooling — like everything in `scripts/`, it never
+  runs in CI.
+- `src/app/store/i18n.spec.ts` asserts, for all eleven committed language files, that the
+  `English name` stored against each id is the name that id actually has in the card data. This is
+  the one thing about these files that no other spec can catch, and it runs in CI, which the script
+  does not.
+
+`English name` is kept in the generated JSON (the notebook drops `Expansion` and `Scientific name`)
+precisely so that check is possible, and so a diff of a generated language file is readable.
+
+The notebook also drops rows with nothing translated in them. Post-sync every sheet has all 747
+cards, and a row holding only the English name that identifies it is indistinguishable from no row at
+all — the merge skips nulls field by field — so shipping them cost ~850KB across the eleven files and
+changed nothing on screen.
 
 ### Routing and card detail
 
