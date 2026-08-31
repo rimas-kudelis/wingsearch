@@ -88,6 +88,13 @@ The `search` action carries the *entire* query object (text, selected bonus card
 
 Pagination is manual: `SLICE_WINDOW = 18`. Results are split into `displayedCards` (rendered) and `displayedCardsHidden` (rest); `ngx-infinite-scroll` in [src/app/display/display.component.ts](src/app/display/display.component.ts) dispatches `scroll` to move the next 18 across, and `scrollDisabled` flips true when the hidden list empties.
 
+Step 1 goes through a lazy wrapper. `birdCardsSearch`/`bonusCardsSearch` in [src/app/store/cards-search.ts](src/app/store/cards-search.ts) no longer return a FlexSearch index — they return an object with a `search` method that builds one on first use, because `initialState` is a module-level const and constructing the bird index is 24–43 ms of synchronous work (747 cards, three fields, `Power text` at `resolution: 9` doing nearly all of it) that used to run before Angular bootstrapped, for a first view that consults no index at all. Two details make it work:
+
+- **The empty-query short-circuit is the point, not the laziness.** `SearchComponent`'s constructor dispatches `search` with an empty query immediately, and the reducer runs that through both indexes, so deferring alone would have bought nothing. FlexSearch answers `[]` for a falsy query on every field of both indexes, so the wrapper answers `[]` itself — the same answer, not an approximation.
+- **That startup empty query is also the warm-up cue.** It schedules construction via `requestIdleCallback`, or a 1 s `setTimeout` where that doesn't exist (Safari before 17.4). Without warming the first keystroke costs 48–82 ms; with it, 8–10 ms, the same as when the index was built at load.
+
+Measured in headless Chrome at 1400×1000, first card in the DOM went 199–206 ms → 159–171 ms with no change to FCP. Note a language change replaces both wrappers with cold ones and nothing dispatches an empty query afterwards, so the next index build lands on the user's next keystroke rather than in idle time — deliberate, since `setLanguage` already pays for a re-sort.
+
 ### Card model and the CardType discriminator
 
 Bird cards, hummingbird cards, and bonus cards live in the same arrays and are distinguished by a `CardType` field (`'Bird' | 'Hummingbird' | 'Bonus'`) via the type guards in [src/app/store/app.interfaces.ts](src/app/store/app.interfaces.ts) (`isBirdCard`, `isHummingbirdCard`, `isBirdOrHummingbirdCard`, `isBonusCard`). Hummingbirds share the `BirdCard` interface but the notebook synthesizes their missing fields (0 VP, no nest, all three habitats, etc.). `state.birdCards` is always birds **and** hummingbirds concatenated — most filter code must therefore branch on the guards rather than assuming a shape.

@@ -1,7 +1,48 @@
 import FlexSearch from 'flexsearch'
 import { BirdCard, BonusCard } from './app.interfaces'
 
-export const birdCardsSearch = (cards: BirdCard[]) => {
+// Building the bird index is 24-43ms of synchronous work (747 cards across three fields, `Power text`
+// at `resolution: 9` doing nearly all of it); the bonus index is another 1-2ms. `initialState` in
+// app.reducer.ts is a module-level const, so that used to run during initial script evaluation --
+// before Angular bootstrapped, before anything painted -- to serve a first view that never consults
+// an index: `initialState.displayedCards` is a plain `slice` of the card arrays.
+//
+// Deferring construction alone would not have helped, because `SearchComponent`'s constructor
+// dispatches `search` with an empty query straight away and the reducer runs that through both
+// indexes. The empty-query short-circuit below is what makes the deferral pay: FlexSearch answers []
+// for a falsy query on every field of both indexes, so returning [] without an index is the same
+// answer rather than an approximation, and construction lands on the first keystroke instead.
+//
+// That first keystroke is then warmed away. The startup empty-query search is a reliable "app is
+// running, nobody needs an index yet" cue, so it schedules the build off the critical path: idle time
+// where `requestIdleCallback` exists, a 1s timer where it does not (Safari only got it in 17.4). Both
+// are worth having -- measured in headless Chrome, a warmed first keystroke costs 8.0-10.3ms, the same
+// as it did when the index was built at load, while an unwarmed one costs 48-82ms.
+//
+// `any` for the index for the same reason AppState declares `search.birdCards` as `any`: flexsearch
+// 0.6 ships no types for the document API.
+const lazyIndex = (build: () => any) => {
+    let index: any
+    let warming = false
+    const ensure = () => index || (index = build())
+
+    return {
+        search: (options: { query: string, field: string }) => {
+            if (!options.query) {
+                if (!warming && !index) {
+                    warming = true
+                    const idle = (window as { requestIdleCallback?: (cb: () => void) => void }).requestIdleCallback
+                    if (idle) idle(ensure)
+                    else setTimeout(ensure, 1000)
+                }
+                return []
+            }
+            return ensure().search(options)
+        }
+    }
+}
+
+export const birdCardsSearch = (cards: BirdCard[]) => lazyIndex(() => {
     const search = FlexSearch.create({
         doc: {
             id: 'id',
@@ -28,9 +69,9 @@ export const birdCardsSearch = (cards: BirdCard[]) => {
 
     search.add(cards)
     return search
-}
+})
 
-export const bonusCardsSearch = (cards: BonusCard[]) => {
+export const bonusCardsSearch = (cards: BonusCard[]) => lazyIndex(() => {
     const search = FlexSearch.create({
         doc: {
             id: 'id',
@@ -58,7 +99,7 @@ export const bonusCardsSearch = (cards: BonusCard[]) => {
 
     search.add(cards)
     return search
-}
+})
 
 const removeDiacritics = (str: string): string => {
     return defaultDiacriticsRemovalMap.reduce((acc, val) => acc.replace(val.letters, val.base), str)
