@@ -2,9 +2,9 @@ import { Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { Observable } from 'rxjs'
-import { first, flatMap, map, tap } from 'rxjs/operators'
+import { first, flatMap, tap } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
-import { bonusSearchMap, dynamicPercentage } from '../../store/bonus-search-map'
+import { compatibleBirdIdsFor, RelatedBonusCard, relatedBonusCards } from '../../store/carousel-bonuses'
 
 @Component({
   standalone: false,
@@ -26,8 +26,10 @@ export class BonusCardDetailComponent implements OnInit {
   carousel: ElementRef
 
   layout: 'desktop' | 'mobile'
-  bonusCards$: Observable<BonusCard[]>
+  bonusCards$: Observable<RelatedBonusCard[]>
   birds: BirdCard[]
+  // The template divides each carousel card's shared-bird count by this, so it has to stay on the
+  // component even though `relatedBonusCards` derives its own copy.
   compatibleBirdIds: number[]
 
   ngOnInit(): void {
@@ -41,18 +43,10 @@ export class BonusCardDetailComponent implements OnInit {
       first(),
       tap(birds => {
         this.birds = birds
-        this.compatibleBirdIds = birds.filter((bird) => bonusSearchMap[this.data.card.id].callbackfn(bird)).map(bird => bird.id)
+        this.compatibleBirdIds = compatibleBirdIdsFor(birds, this.data.card)
       }),
-      flatMap(() => this.store.select(({ app }) => app.bonusCards.map(dynamicPercentage(this.birds, app.expansion)))),
-      map(cards => cards.filter(card => card['VP Average'] && card.id !== this.data.card.id)
-        .map(bonus => ({
-          ...bonus,
-          birdIds: this.birds.filter((bird) => bonusSearchMap[bonus.id].callbackfn(bird))
-            .map(bird => bird.id).filter(id => this.compatibleBirdIds.includes(id))
-        }))
-        .filter(bonus => bonus.birdIds.length).
-        sort((a, b) => b.birdIds.length * b['VP Average'] - a.birdIds.length * a['VP Average'])
-      )
+      flatMap(() => this.store.select(({ app }) =>
+        relatedBonusCards(app.bonusCards, this.birds, app.expansion, this.data.card)))
     )
     this.cardWrapper?.nativeElement.scroll(0, 0)
     this.carousel?.nativeElement.scroll(0, 0)

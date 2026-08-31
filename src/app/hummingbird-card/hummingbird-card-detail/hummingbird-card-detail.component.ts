@@ -1,10 +1,10 @@
 import { Component, ElementRef, OnInit, ViewChild, inject } from '@angular/core'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
-import { select, Store } from '@ngrx/store'
-import { Observable } from 'rxjs'
+import { Store } from '@ngrx/store'
+import { combineLatest, Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from '../../store/app.interfaces'
-import { bonusSearchMap } from '../../store/bonus-search-map'
+import { compatibleBonusCards } from '../../store/carousel-bonuses'
 import { DomSanitizer } from '@angular/platform-browser'
 
 @Component({
@@ -35,14 +35,17 @@ export class HummingbirdCardDetailComponent implements OnInit {
     this.initBonuses()
   }
 
+  // Three separate `select` calls rather than one projector returning an object: each is memoised on
+  // reference, and `app.expansion` only gets a new identity when the user actually changes
+  // expansions, so a keystroke behind the dialog does not recompute 28 percentages over 747 birds.
   initBonuses() {
-    this.bonusCards$ = this.store.pipe(
-      select(({ app }) => app.bonusCards),
-      map(cards => {
-        const filteredCards = cards.filter(card => card['VP Average'] && bonusSearchMap[card.id].callbackfn(this.data.card))
-        filteredCards.sort((a, b) => b['VP Average'] - a['VP Average'])
-        return filteredCards
-      })
+    this.bonusCards$ = combineLatest([
+      this.store.select(({ app }) => app.bonusCards),
+      this.store.select(({ app }) => app.birdCards),
+      this.store.select(({ app }) => app.expansion),
+    ]).pipe(
+      map(([bonusCards, birdCards, expansion]) =>
+        compatibleBonusCards(bonusCards, birdCards, expansion, this.data.card))
     )
     this.cardWrapper?.nativeElement.scroll(0, 0)
     this.carousel?.nativeElement.scroll(0, 0)
