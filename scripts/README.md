@@ -77,6 +77,10 @@ scripts/rulings/refresh.sh --dry-run     # report what each stage would do
 scripts/rulings/refresh.sh               # do it; leaves the diff for you to review
 ```
 
+Putting that command on a monthly cron is the one part of this repo where automation earns
+its keep — Stonemaier answers new FAQ comments continuously and nobody notices for months.
+[.github/AUTOMATION.md](../.github/AUTOMATION.md) §5 has the workflow, not installed.
+
 `proposals.json` and `curation.json` are review queues, not caches: anything the model was
 unsure of stays in them marked pending, so hedging can never silently publish or delete a
 ruling. Read [domain-knowledge.md](rulings/domain-knowledge.md) before changing any of

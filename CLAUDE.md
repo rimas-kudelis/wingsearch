@@ -70,6 +70,8 @@ Measured against the Angular 9 baseline: **production build 81s → ~22s** (esbu
 
 Lint is blocking as of 2026-08-30, when the 172-violation backlog was cleared. 159 of those were `ng lint --fix`; the 13 judgement calls are described in the commit that cleared them.
 
+Running Claude itself from CI — `@claude` on the issues, a scheduled rulings refresh — is scoped out in [.github/AUTOMATION.md](.github/AUTOMATION.md) and **not installed**: there is no `claude.yml`, and the blocker is which AWS account owns the Bedrock role, not the workflow. Read that file before adding one; a public repo means anyone can start the run, and the docs' own hazards apply here.
+
 The site used to be published by committing a production build into `docs/` (`npm run build-prod` + a "Publish changes" commit) and pointing Pages at that directory. Both the directory and the script are gone as of the first Actions deploy (run 33307156204, 2026-08-30) — never re-add a committed build artifact. Old commits still contain `docs/`, so `git log`/`git blame` over that path will turn up ~2300 files of generated output; ignore them.
 
 ## Architecture
