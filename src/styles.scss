@@ -7,6 +7,8 @@
 // and teal the site has always used -- and the component look they produce, so the framework
 // upgrade does not double as a redesign. Moving to `mat.theme()` and M3 is its own change.
 @use '@angular/material' as mat;
+@use 'sass:map';
+@use 'sass:meta';
 
 // `mat-core()` split in two: elevation classes (`.mat-elevation-z20` is used by the consent
 // card) and the app background.
@@ -81,6 +83,30 @@ $wingsearch-accent: mat.m2-define-palette((
 // The warn palette is optional (defaults to red).
 $wingsearch-warn: mat.m2-define-palette(mat.$m2-red-palette);
 
+// Two things this restores from the Angular 9 typography, both of which the M2 defaults changed
+// under the upgrade:
+//
+// - **The font stack.** Nothing in this app ever loads Roboto -- there is no `@font-face` and no
+//   Google Fonts link for it -- so the *second* name in the stack is the font the app actually
+//   renders Material's chrome in. v9 asked for `Helvetica Neue`; Material's current default stops
+//   at `sans-serif`, which on a Mac is Helvetica, a wider face. Every label in the app changed
+//   shape.
+// - **No letter spacing.** The M2 config now carries MDC's tracking (0.5px on body text, 1.25px on
+//   buttons); v9's was `normal` at every level. That is what loosened the field labels, the select
+//   options and the buttons.
+$wingsearch-typography: mat.m2-define-typography-config(
+    $font-family: 'Roboto, "Helvetica Neue", sans-serif',
+);
+
+@each $level, $level-config in $wingsearch-typography {
+    // The config carries a bare `font-family` key alongside the per-level maps.
+    @if meta.type-of($level-config) == 'map' {
+        $wingsearch-typography: map.set(
+            $wingsearch-typography, $level, map.set($level-config, letter-spacing, normal)
+        );
+    }
+}
+
 // Create the theme object (a Sass map containing all of the palettes).
 $wingsearch-theme: mat.m2-define-light-theme((
     color: (
@@ -88,7 +114,7 @@ $wingsearch-theme: mat.m2-define-light-theme((
         accent: $wingsearch-accent,
         warn: $wingsearch-warn,
     ),
-    typography: mat.m2-define-typography-config(),
+    typography: $wingsearch-typography,
     density: 0,
 ));
 
@@ -238,6 +264,119 @@ mat-icon svg {
 // colour gets the old look back.
 .mat-mdc-form-field .mdc-text-field--filled:not(.mdc-text-field--disabled) {
     background-color: transparent;
+}
+
+// ...and the rest of what "standard" was. A filled field is a *box*: it is inset 16px, it is a
+// fixed 56px tall, its text is a hard-coded 16px/24px and its subscript a hard-coded 12px/20px.
+// The standard field it replaced was a bare underline: flush left, `font-size: inherit` with a
+// 1.125 line-height, and a subscript at 75% of whatever that came to. So on this page every label
+// sat 16px right of the rule under it, printed a size larger than the search field's own text, and
+// the hints below were nearly as big as the labels -- which is what "the form elements are broken"
+// looks like.
+//
+// The numbers are v9's own, in em of the field's font size, which is why they hold for both the
+// 15px field in the panel header and the 14px ones in its body: an infix `.84375em` of transparent
+// border plus `.4375em` of padding either side of a `1.125em` line (2.84375em in total), a flex
+// with `.75em` above it for the floated label to sit in, and a subscript `.66em` (of its own 75%
+// size) below the underline.
+.mat-mdc-form-field {
+    --mat-form-field-container-text-line-height: 1.125;
+    --mat-form-field-subscript-text-size: 75%;
+    --mat-form-field-subscript-text-line-height: 1.125;
+    --mat-form-field-container-height: 2.84375em;
+    --mat-form-field-filled-with-label-container-padding-top: 1.28125em;
+    --mat-form-field-filled-with-label-container-padding-bottom: 0.4375em;
+    // v9's resting label was the theme's secondary text colour; MDC's default is a paler 0.54.
+    --mat-form-field-filled-label-text-color: rgba(0, 0, 0, 0.6);
+    // A filled field also paints a state layer while hovered or focused -- an absolutely positioned
+    // overlay of `on-surface` at 4%/whatever the theme says -- which against this khaki panel read as
+    // a grey box around the control, most visibly with the language select open. The standard field
+    // it replaced only ever thickened its underline. These are the two opacities that layer is
+    // multiplied by; zeroing them is what works, because a `background-color: transparent` of our own
+    // is the same specificity as Material's own declaration and is injected before it.
+    --mat-form-field-hover-state-layer-opacity: 0;
+    --mat-form-field-focus-state-layer-opacity: 0;
+}
+
+// Not a token: `--mat-form-field-container-text-size: inherit` would make the *custom property*
+// inherit, which is the 16px from `html`, not the field's own `font-size: inherit`. The element
+// selector is what beats Material's own `.mat-mdc-form-field` rule, which is injected later.
+mat-form-field.mat-mdc-form-field {
+    font-size: inherit;
+}
+
+.mat-mdc-form-field {
+    .mdc-text-field--filled {
+        height: auto;
+        padding: 0;
+    }
+
+    .mdc-text-field--filled .mdc-floating-label {
+        left: 0;
+        // The label has its own size token (16px) rather than inheriting the field's.
+        font-size: inherit;
+    }
+
+    .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex {
+        padding-top: 0.75em;
+    }
+
+    // MDC centres the resting label on the container height, which is not where the input's text
+    // sits once the container's padding is asymmetric -- it landed 6px above the line it is
+    // standing in for. `1.28125em + 1.125em / 2` is the middle of the input's own line box, and the
+    // label is positioned against the infix, so the two are directly comparable.
+    .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex .mat-mdc-floating-label {
+        top: 1.84375em;
+    }
+
+    // Floating it is MDC's `translateY(-106%)`, i.e. relative to the label's own height, which put
+    // it over the top of the input. Moving it by its own offset instead parks it at the top of the
+    // infix, in the room the flex's padding leaves -- where v9 put it.
+    .mdc-text-field--filled .mdc-floating-label--float-above {
+        transform: translateY(-1.84375em) scale(0.75);
+    }
+
+    .mat-mdc-form-field-hint-wrapper {
+        padding: 0.6666666667em 0 0;
+    }
+
+    // v9's subscript wrapper was absolutely positioned, so a `max-height` on a field -- which both
+    // the language and the expansion select carry -- clipped the empty room below the control.
+    // MDC's subscript is a flex sibling instead, so that same clamp shrank the *wrapper*, and the
+    // wrapper's own `overflow: hidden` then swallowed the language flag whole.
+    .mat-mdc-text-field-wrapper {
+        flex-shrink: 0;
+    }
+
+    // A select's trigger reads its own typography tokens (16px/24px) rather than inheriting the
+    // field's, so the flag in the language trigger was sized off a 16px em inside a 14px field and
+    // the trigger stood 8px taller than the row around it.
+    .mat-mdc-select {
+        font-size: inherit;
+        line-height: 1.125;
+    }
+
+    // MDC's dropdown arrow lives in a fixed 24px box, which is taller than the 1.125 line the rest
+    // of the field is built from -- so the arrow, not the text, set a select's height. That made
+    // the language field 7px taller than v9's and left the help icon beside it out of line with
+    // the flag.
+    .mat-mdc-select-arrow-wrapper {
+        height: 1.125em;
+    }
+}
+
+// v9's hint was the theme's secondary text colour. MDC leaves it at body colour, which read as an
+// instruction rather than a hint.
+.mat-mdc-form-field-hint {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+// The panel header was `subheading-1` (15px/400) in v9 and is `subtitle-2` (14px/500) now, and the
+// main search field inherits its size from it. Changing the level itself would drag the chips and
+// the table headers along with it, so it is set here.
+html {
+    --mat-expansion-header-text-size: 15px;
+    --mat-expansion-header-text-weight: 400;
 }
 
 strong[applink] {

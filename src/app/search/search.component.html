@@ -444,7 +444,9 @@
       }
       <button appAnalyticsEvent="Reset filter" mat-raised-button color="primary" aria-label="Reset all filters"
         (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
-        Reset <mat-icon>filter_alt</mat-icon>
+        <!-- MDC's button template projects icons *before* the label unless they carry
+             `iconPositionEnd`, so the funnel jumped to the left of the word on upgrade. -->
+        Reset <mat-icon iconPositionEnd>filter_alt</mat-icon>
       </button>
     </div>
   </div>

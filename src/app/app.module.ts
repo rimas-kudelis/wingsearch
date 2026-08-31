@@ -11,7 +11,7 @@ import { MatExpansionModule } from '@angular/material/expansion'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
-import { MatSelectModule } from '@angular/material/select'
+import { MAT_SELECT_CONFIG, MatSelectModule } from '@angular/material/select'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { NgxSliderModule } from '@angular-slider/ngx-slider'
@@ -103,6 +103,10 @@ import { SafePipe } from './safe.pipe'
     TranslatePipe,
     // HttpClientModule is gone; the effects layer fetches the i18n files with HttpClient.
     provideHttpClient(),
+    // A single-selection option gained a trailing checkmark in v15; v9 marked the selected one by
+    // highlighting it alone. The language and asset-pack lists are already keyed by flag and
+    // artwork, so the tick only crowded them.
+    { provide: MAT_SELECT_CONFIG, useValue: { hideSingleSelectionIndicator: true } },
   ],
   bootstrap: [AppComponent]
   // `entryComponents` was removed with ViewEngine: Ivy resolves dialog components from the
