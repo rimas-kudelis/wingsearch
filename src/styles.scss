@@ -340,6 +340,16 @@ mat-form-field.mat-mdc-form-field {
         padding: 0.6666666667em 0 0;
     }
 
+    // MDC reserves room for error text with a 16px inline-block `::before` on everything it marks
+    // `bottom-align`, the hint included. Left on the baseline, that box is taller than the 12.66px
+    // line it shares and drags the hint's own text down with it: the hint printed 12.5px below the
+    // underline where v9 put it 6.5px below. Aligning the spacer to the top of the line box keeps
+    // the height it is reserving and takes the text back to where the line starts. There is no
+    // token for it.
+    .mat-mdc-form-field-bottom-align::before {
+        vertical-align: top;
+    }
+
     // v9's subscript wrapper was absolutely positioned, so a `max-height` on a field -- which both
     // the language and the expansion select carry -- clipped the empty room below the control.
     // MDC's subscript is a flex sibling instead, so that same clamp shrank the *wrapper*, and the

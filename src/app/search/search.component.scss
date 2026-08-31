@@ -96,10 +96,17 @@ mat-panel-title {
     }
 }
 
-// MDC's form field spends ~42px of its width on padding and the dropdown arrow, so the 50px
-// this used to be left 8px for the value and the flag was almost entirely clipped.
+// Back to v9's 50px, which is the flag (28px) plus MDC's arrow (10px) plus slack. It had to be
+// 100px before the field's own padding was zeroed out, when MDC spent ~42px of the width on
+// padding and the arrow and left 8px for the value; at 100px the flag then sat in a field that
+// was two thirds empty. The floated "Language" label is wider than the field and overflows it,
+// exactly as it does in v9.
 .language-select {
-    max-width: 100px;
+    // The flag is 28px and MDC's arrow 10px, so v9's 50px would do for the control -- but MDC
+    // clips the floated label, which v9 let overflow: `text-overflow: ellipsis` inside
+    // `max-width: calc(133.333% - 24px)` of the infix, so at 50px it printed "Lan...". "Language"
+    // lays out at 62px before the 0.75 scale, and 1.3333 * 68 - 24 is 66.7.
+    max-width: 68px;
     flex: 1 1 0;
     max-height: 50px;
 }
@@ -135,10 +142,10 @@ mat-select-trigger {
 }
 
 // Wide enough for all five expansion icons at once, which is the default selection: they measure
-// 144px together and the form field spends 42px of its width on padding and the arrow. Still
-// narrower than the six-flag promo row below, so the column does not grow.
+// 127px together and MDC's arrow another 10px. Still narrower than the six-flag promo row below,
+// so the column does not grow.
 .expansion-wrapper {
-    max-width: 200px;
+    max-width: 144px;
 
     mat-form-field {
         max-width: 100%;
@@ -160,7 +167,10 @@ mat-select-trigger {
 }
 
 .expansion-option {
-    padding: 0;
+    // The left inset is `.option-icon`'s own 3.5em, so MDC's 16px would double it -- but the
+    // right one is all that keeps the name off the panel's edge, and `panelWidth: null` sizes the
+    // panel to the widest option, so without it every name touched the wall.
+    padding: 0 16px 0 0;
 
     ::ng-deep .mat-pseudo-checkbox {
         display: none;
