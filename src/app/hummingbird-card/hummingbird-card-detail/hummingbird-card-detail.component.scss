@@ -287,6 +287,14 @@ button {
     .carousel-wrapper {
         height: unset;
         margin-bottom: 5vh;
+        // The dialog pane is the whole viewport below 600px while the card inside it stays 80vw,
+        // so the carousel has to take the *card's* width rather than the pane's -- `flex: 1 1 0`
+        // would give it all 100vw. Everything the carousel sizes off its own width assumes 80vw:
+        // the cards' `124.8vw` height is `80vw * 1.56`, and the `-123%` that stacks them is a
+        // percentage of this width, so at 100vw each card covered the one before it completely
+        // and only the last was visible.
+        flex: 0 0 auto;
+        width: 80vw;
     }
 
     .carousel {
