@@ -89,6 +89,13 @@ Some languages (such as Spanish) may use different wording for the bonus cards A
 | ROUND END| Add local translation of respected teal power text (European expansion)|
 | GAME END| Add local translation of respected yellow power text (Oceania expansion)|
 | of cards| `% of cards` is the text found at the bottom of bonus cards describing how many percent of bird cards fulfill the condition |
+| Official ruling| Heading of a ruling in the rulings section that has no heading of its own |
+| Applies to| Introduces the list of cards a ruling applies to |
+| Show less| Collapses that list of cards once it has been expanded |
+
+The last three are the only strings on this list that are not printed on a card — they label the site's own rulings section. The rulings themselves stay in English: they quote official answers, and a paraphrase of a rules answer is a different answer.
+
+Any row you leave blank, or leave out of the sheet entirely, falls back to the English text, so a partly filled sheet is never broken.
 
 In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/transform/wingspan-card-list.xlsx) or open a GitHub issue.
 
