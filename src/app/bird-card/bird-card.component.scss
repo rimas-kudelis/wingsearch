@@ -310,18 +310,32 @@
     }
 }
 
+// The badge height used to live on the img: a `height: 40%` resolved against the <picture>, itself a
+// flex item whose own height was definite only by stretching to `.footer`. Safari 26.2 stopped
+// honouring that two-level percentage chain, so the img fell back to its 256x256 intrinsic size and
+// squeezed the flavor text (issue #103). Sizing the <picture> instead -- one percentage against a
+// definite height, with the square aspect ratio the icons already have -- leaves the img a plain
+// `height: 100%` of a parent that is sized outright.
+//
+// `display: block` on both, because sizing the <picture> exposed that the img inside it is otherwise
+// an inline box positioned off the strut baseline: it overflowed the box that now defines it, by an
+// amount that grew with the card's font size rather than with the badge. Centring what is left keeps
+// the badge where the grid cards -- the view that is on screen 18 at a time -- already had it, and
+// makes the dialog, which is the same component at nearly twice the size, finally match them.
 .footer-right {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 
     picture {
+        display: block;
         height: 40%;
         margin-right: 3px;
-        vertical-align: bottom;
         aspect-ratio: 1/1;
     }
 
     .expansion-indicator {
+        display: block;
         height: 100%;
     }
 }
