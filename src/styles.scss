@@ -180,11 +180,57 @@ body {
     }
 }
 
+// On mobile the dialog pane is `80vw`, which is exactly the width of the card inside it -- so the
+// close button, absolutely positioned at the surface's top-right, sat on the card's own top-right
+// corner, and the scrolling content had no room beside the card at all. The pane spans the viewport
+// instead. The card keeps its own `80vw`, so all this adds is 10vw of empty gutter either side, and
+// those gutters stay click-through -- the pane is `pointer-events: none` and only the card and the
+// carousel turn it back on -- so tapping beside the card still closes the dialog and navigates back.
+//
+// 599px rather than 600px because `calculateLayout()` switches to the mobile template below 600.
+@media screen and (max-width: 599px) {
+    // `!important` because `MatDialog` writes `width`/`max-width` inline on the pane from the config
+    // it was opened with.
+    .card-detail-panel {
+        width: 100vw !important;
+        max-width: 100vw !important;
+    }
+
+    // Which puts the button in the corner the gutter and the card's own top margin leave empty.
+    // Material's icon button is a 48px box around a 36px icon and the gutter is 40px at a 400px
+    // viewport, so the box is trimmed to the icon it holds; below ~360px it reaches into the card's
+    // rounded corner, where nothing is painted anyway.
+    .card-detail-panel .mat-mdc-dialog-surface .mat-mdc-icon-button {
+        top: 0;
+        right: 0;
+        --mdc-icon-button-state-layer-size: 40px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+}
+
 .mat-mdc-dialog-content.detail-container {
     height: 100vh;
     max-height: unset;
     margin: 0;
-    padding: 0;
+
+    // Not `padding: 0`. Material sets the content padding from
+    // `.mat-mdc-dialog-container .mat-mdc-dialog-content`, which is equally specific and
+    // injected later, so a rule here loses the cascade and the 20px 24px stays -- which on
+    // mobile pushed the 80vw card past the 80vw dialog's content box and let the surface's
+    // `overflow-x: hidden` clip the appendix. Setting the token the declaration reads wins
+    // without a specificity fight: custom properties resolve per element, not per rule.
+    --mat-dialog-content-padding: 0;
+}
+
+// Material 22 ships no `mat mat-icon svg` display rule, so an inline SVG icon sits on the
+// line box baseline. When the icon is styled smaller than the inherited line-height -- the
+// 12px appendix `↗` inside 24px ruling text -- the baseline offset pushes the glyph out of
+// the box and `mat-icon`'s own `overflow: hidden` cuts it in half. Same trap as the
+// expansion badge `<img>`; the fix is the same.
+mat-icon svg {
+    display: block;
 }
 
 // MDC dropped the "standard" form field appearance (transparent box, underline only), which
