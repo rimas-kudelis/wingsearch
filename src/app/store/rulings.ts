@@ -5,9 +5,13 @@ import { rulingCardsSearch } from './cards-search'
 /**
  * The rulings corpus, turned around so it can be searched from the ruling end rather than the card end
  * (issue #46). The cards already carry their rulings -- `rulings` for the ones written about that card,
- * `additionalRulings` for the general ones a predicate in scripts/rulings/general_map.py fanned out --
- * and every one of the 59 general rulings therefore appears on many cards. Grouping them back together
- * gives 469 distinct rulings out of 2564 attachments, and 74KB of text rather than 813KB.
+ * `additionalRulings` for the general ones a predicate in scripts/rulings/general_map.py fanned out.
+ *
+ * Only the general ones are a corpus. A ruling written about one card is already on that card, in its
+ * detail dialog, where a player looking that bird up will find it; 411 of them in a flat list only
+ * buried the 58 rules of the game -- what the birdfeeder does, how rerolls work, the order of the end
+ * of a round -- that a player comes to a rulings view to look up. Each of the 59 rows of general.json
+ * appears on many cards (2032 attachments), so grouping them back together is what this file does.
  *
  * A ruling is identified by its id *and* its text, never the id alone: three ids carry two general rows
  * each. `key` is the surrogate the FlexSearch document id needs.
@@ -41,7 +45,8 @@ export const buildRulingCards = (birdCards: BirdCard[], bonusCards: BonusCard[])
         else byKey.set(key, {
             key: 0,
             id: ruling.id,
-            name: generalNames[key] || null,
+            // Always set, because every ruling here came from a general.json row.
+            name: generalNames[key],
             text: ruling.text,
             source: ruling.source,
             cards: [card],
@@ -49,18 +54,14 @@ export const buildRulingCards = (birdCards: BirdCard[], bonusCards: BonusCard[])
         })
     }
 
-    // Both lists in one pass, and in one expression: this file omits semicolons like the rest of the
-    // store, so a statement that starts with `(` would be read as a call on the line above it.
-    cards.forEach(card => [
-        ...(card.rulings || []),
-        // Only birds carry general rulings, so `additionalRulings` is absent on the rest.
-        ...((card as BirdCard).additionalRulings || []),
-    ].forEach(add(card)))
+    // `additionalRulings` only -- `card.rulings` is the card's own, which the card itself shows. Only
+    // birds carry general rulings, so the field is absent on the rest.
+    cards.forEach(card => ((card as BirdCard).additionalRulings || []).forEach(add(card)))
 
     // Six of the general rulings reach no card at all -- the goal-tile scoring rules, the end-of-round
-    // order -- and would otherwise be the only rulings on the site with nowhere to appear. They are
-    // rules of the game like the rest, so they get a card of their own with an empty `cards` list
-    // rather than being dropped.
+    // order -- and this view is the only place on the site they can appear. They are rules of the game
+    // like the rest, so they get a card of their own with an empty `cards` list rather than being
+    // dropped.
     generalRulings.forEach(ruling => {
         const key = rulingKey(ruling)
         if (!byKey.has(key)) byKey.set(key, {
@@ -79,14 +80,12 @@ export const buildRulingCards = (birdCards: BirdCard[], bonusCards: BonusCard[])
     const order: Map<BirdCard | BonusCard, number> = new Map(cards.map((card, index) => [card, index]))
     const firstCard = (ruling: RulingCard) => ruling.cards.length ? order.get(ruling.cards[0]) : -1
 
-    // Titled rulings first -- those are the general ones, the rules a player is most likely to be
-    // looking up -- then the card-specific ones in the order of the cards they belong to, which is the
-    // order the card list is already sorted in and so follows a language change.
+    // By heading, which groups the rulings that share one -- eleven headings cover between two and four
+    // of them -- and then by the first card each reaches, so a heading's rulings follow the order the
+    // card list is already sorted in and a language change reorders them with it. The six that reach no
+    // card sort ahead of their namesakes.
     return Array.from(byKey.values())
-        .sort((a, b) =>
-            (a.name ? 0 : 1) - (b.name ? 0 : 1)
-            || (a.name || '').localeCompare(b.name || '')
-            || firstCard(a) - firstCard(b))
+        .sort((a, b) => a.name.localeCompare(b.name) || firstCard(a) - firstCard(b))
         .map((ruling, index) => ({ ...ruling, key: index }))
 }
 

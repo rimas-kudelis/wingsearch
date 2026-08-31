@@ -110,12 +110,14 @@ Both handlers used to translate the previous result set card by card, so an acti
 
 ### The rulings view
 
-Issue #46: the same rulings the detail dialog shows per card, searchable from the ruling end. The gavel toggle in the stats bar (off by default) adds them to the result list; nothing else about the search changes.
+Issue #46: the rules of the game the detail dialogs show per card, searchable from the ruling end. The gavel toggle (off by default, in the search form's right-hand column) adds them to the result list; nothing else about the search changes.
 
-[src/app/store/rulings.ts](src/app/store/rulings.ts) inverts the corpus. Cards carry their rulings (`rulings` written about that card, `additionalRulings` fanned out by `general_map.py`), and each of the 59 general rulings therefore repeats on many cards: grouping them back gives **469 distinct rulings out of 2564 attachments**, 74 KB of text rather than 813 KB. Details that bite:
+[src/app/store/rulings.ts](src/app/store/rulings.ts) inverts the corpus. Cards carry their rulings (`rulings` written about that card, `additionalRulings` fanned out by `general_map.py`), and each of the 59 general rulings therefore repeats on many cards: grouping them back gives **58 distinct rulings out of 2032 attachments**. Details that bite:
+
+- **Only the general rulings are in it.** The 411 card-specific ones are already on their card, in its detail dialog, which is where a player looking that bird up will find them; in a flat list they buried the 58 rules a rulings view exists to answer. So the corpus is `additionalRulings` only — `card.rulings` is deliberately not read here — and every ruling card therefore has a `name`.
 
 - The corpus is built from the cards, so it reads whatever `card-data.ts` resolved — see the data-pipeline section for why a bird stores a row index rather than the ruling.
-- **A ruling is identified by id *and* text, never id alone.** Three ids (`20201003`, `20201116a`, `20210199a`) carry two general rows each, and `20201116a`'s two rows have *identical* text under two headings — so the corpus has 58 titled rulings for 59 rows, and that one's headings are joined (`End of Round Reference / Game end`) instead of one silently winning.
+- **A ruling is identified by id *and* text, never id alone.** Three ids (`20201003`, `20201116a`, `20210199a`) carry two general rows each, and `20201116a`'s two rows have *identical* text under two headings — so the corpus has 58 rulings for 59 rows, and that one's headings are joined (`End of Round Reference / Game end`) instead of one silently winning. Headings are not unique either: eleven of them cover between two and four rulings, which is what the corpus is sorted by (then by the first card each reaches).
 - **Six general rulings reach no card** (goal-tile scoring, end-of-round order). They become ruling cards with `cards: []`, immune to every set filter, narrowable only by text.
 - **Not in `AppState`.** `rulingCorpus` memoizes on the bird array's identity in a `WeakMap`. Building is ~1.4 ms warm but ~9.5 ms on a cold JIT — the same order as the bird index `cards-search.ts` goes to some length to defer — and `initialState` is evaluated during initial script evaluation, so a view that is off by default would otherwise be paid for by every session. Keying on the array means `setLanguage` rebuilds for free and `resetLanguage` lands back on the English corpus it already had.
 - **Inclusion is a union, not a filter**: a ruling shows if its own text/heading matches the query *or* it is attached to a card that survived. So typing a bird name surfaces its rulings and typing rule words surfaces the rulings, without the player having to know which they did.
@@ -124,7 +126,7 @@ Issue #46: the same rulings the detail dialog shows per card, searchable from th
 
 `RulingCardComponent` renders each as a full-width panel (`grid-column: 1 / -1`) above the card grid rather than in a 28:43 tile, and opens no dialog — there is no `/ruling/:id` route. Headings go through `IconizePipe` like the body, because some of them are written in icons.
 
-`app.reducer.spec.ts` pins `TOTAL_RULINGS = 469`, the 58 names including the joined one, and the 6 card-less ones. Those numbers move whenever `rulings.tsv` or a general predicate changes, exactly like `rulings.spec.ts`'s per-ruling counts — update both in the same commit and say why.
+`app.reducer.spec.ts` pins `TOTAL_RULINGS = 58`, the joined name, and the 6 card-less ones. Those numbers move whenever `rulings.tsv` or a general predicate changes, exactly like `rulings.spec.ts`'s per-ruling counts — update both in the same commit and say why.
 
 ### Card model and the CardType discriminator
 

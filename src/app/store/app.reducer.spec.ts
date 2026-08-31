@@ -732,12 +732,14 @@ describe('appReducer', () => {
   /**
    * Issue #46. The rulings toggle adds a second corpus rather than filtering the cards: a ruling is in
    * the result when its own text matches the query *or* when it is attached to a card that survived the
-   * filters. `TOTAL_RULINGS` is pinned the way rulings.spec.ts pins per-ruling attachment counts -- if
+   * filters. The corpus is the general rulings only -- a ruling written about one card is already in
+   * that card's detail dialog -- so `TOTAL_RULINGS` is the 58 distinct rulings the 59 rows of
+   * general.json make. It is pinned the way rulings.spec.ts pins per-ruling attachment counts: if
    * regenerating master.json changes it, that is a change to what players read and belongs in the same
    * commit as an updated number.
    */
   describe('rulings view', () => {
-    const TOTAL_RULINGS = 469
+    const TOTAL_RULINGS = 58
     const OSPREY = 182
 
     const rulings = (state: AppState): RulingCard[] => allResults(state).filter(isRulingCard)
@@ -763,28 +765,37 @@ describe('appReducer', () => {
       expect(withRulings().displayedCards.every(isRulingCard)).toBe(true)
     })
 
-    it('shows what has been ruled about the bird whose name was typed', () => {
+    it('shows the general rulings that reach the bird whose name was typed', () => {
       const osprey = initialState.birdCards.find(card => card.id === OSPREY)
-      const own = [...osprey.rulings, ...osprey.additionalRulings]
       const shown = rulings(withRulings({ main: 'Osprey' })).map(ruling => `${ruling.id} ${ruling.text}`)
 
-      expect(own.length).toBe(5)
-      own.forEach(ruling => expect(shown).toContain(`${ruling.id} ${ruling.text}`))
+      expect(osprey.additionalRulings.length).toBe(4)
+      osprey.additionalRulings.forEach(ruling => expect(shown).toContain(`${ruling.id} ${ruling.text}`))
+    })
+
+    // The bird's own ruling stays where it always was, on the bird.
+    it('leaves the card-specific rulings out of the corpus', () => {
+      const osprey = initialState.birdCards.find(card => card.id === OSPREY)
+      const shown = rulings(withRulings()).map(ruling => `${ruling.id} ${ruling.text}`)
+
+      expect(osprey.rulings.length).toBe(1)
+      osprey.rulings.forEach(ruling => expect(shown).not.toContain(`${ruling.id} ${ruling.text}`))
     })
 
     // The other reading of "search the rulings": words that appear in a ruling but in no card text.
+    // "rulebook" is in two of them and in nothing else the search looks at.
     it('matches the ruling text itself', () => {
-      const shown = rulings(withRulings({ main: 'brood parasite' }))
+      const shown = rulings(withRulings({ main: 'rulebook' }))
 
-      expect(shown.length).toBeGreaterThan(0)
-      shown.forEach(ruling => expect(ruling.text.toLowerCase()).toContain('brood parasite'))
+      expect(shown.length).toBe(2)
+      shown.forEach(ruling => expect(ruling.text.toLowerCase()).toContain('rulebook'))
     })
 
-    it('names the general rulings and leaves the card-specific ones untitled', () => {
-      const titled = rulings(withRulings()).filter(ruling => ruling.name)
+    it('titles every ruling with the heading its general row gave it', () => {
+      const shown = rulings(withRulings())
 
-      expect(titled.length).toBe(58)
-      expect(titled.map(ruling => ruling.name)).toContain('End of Round Reference / Game end')
+      expect(shown.filter(ruling => ruling.name).length).toBe(TOTAL_RULINGS)
+      expect(shown.map(ruling => ruling.name)).toContain('End of Round Reference / Game end')
     })
 
     it('keeps rulings when every card type is switched off', () => {
