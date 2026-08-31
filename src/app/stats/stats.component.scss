@@ -8,6 +8,16 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 16px;
+    // The `height: 100%` above is for the panel *header*, whose height the bar fills. In the panel
+    // body the parent is `.mat-expansion-panel-content`, which an expanded panel gives a definite
+    // height in px -- so the percentage resolved, and a 38px row of counts claimed 683px of it and
+    // left the filters below in a screen of blank white.
+    height: auto;
+    // The three counts and the habitat column together need 389px on one line, which is more than a
+    // 400px phone leaves inside the panel, so the habitats drop to a line of their own instead of
+    // running off the right edge.
+    flex-wrap: wrap;
+    row-gap: 8px;
 
     .stats-entry {
         margin-right: 0;
@@ -27,16 +37,6 @@
         height: 36px;
         margin-left: 4px;
     }
-}
-
-// The one entry without an artwork icon -- there is no ruling in the card art -- so it borrows the
-// Material Icons font already loaded in index.html, sized to sit level with the 36px images.
-.stats-entry.rulings mat-icon {
-    font-size: 32px;
-    width: 32px;
-    height: 32px;
-    margin-left: 4px;
-    color: #666666;
 }
 
 .habitat-container {
@@ -60,6 +60,8 @@
 
 .habitat-container.mobile {
     flex-direction: row;
+    // Same reason as `.stats-container.mobile`: the `calc(100% - 16px)` above is the header's height.
+    height: auto;
 }
 
 .inactive,

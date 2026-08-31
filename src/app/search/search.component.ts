@@ -32,6 +32,7 @@ export class SearchComponent implements OnInit {
 
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
     this.bonusCards = this.store.select(({ app }) => app.bonusCards)
+    this.rulingCards = this.store.select(({ app }) => app.displayedStats.rulingCards)
     this.query = {
       ...this.query,
       expansion: {
@@ -166,6 +167,7 @@ export class SearchComponent implements OnInit {
 
   filteredBonusCards: Observable<BonusCard[]>
   bonusCards: Observable<BonusCard[]>
+  rulingCards: Observable<number>
 
   canFitStats: boolean
 
@@ -286,6 +288,12 @@ export class SearchComponent implements OnInit {
   onStatsChange(stats) {
     this.query.stats = stats
     this.onQueryChange()
+  }
+
+  // The other stats toggles are the stats bar's own; this one lives in the filter form, so it
+  // goes through the same handler by hand.
+  toggleRulings() {
+    this.onStatsChange({ ...this.query.stats, rulings: !this.query.stats.rulings })
   }
 
   clearFilter() {

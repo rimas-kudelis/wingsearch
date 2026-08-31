@@ -49,16 +49,45 @@ mat-panel-title {
     align-items: flex-end;
 }
 
+.rulings-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+// Smaller than the 32px it was in the stats bar: here it sits with the beak and flag toggles
+// rather than with the big card counts. No artwork icon exists for a ruling, so it borrows the
+// Material Icons font already loaded in index.html.
+.rulings-toggle {
+    display: flex;
+    align-items: center;
+    font-family: Pangolin, sans-serif;
+    font-size: 20px;
+    color: #666666;
+
+    mat-icon {
+        font-size: 24px;
+        width: 24px;
+        height: 24px;
+        margin-left: 2px;
+    }
+}
+
 .language-wrapper {
     max-height: 50px;
-    max-width: 78px;
+    max-width: 132px;
     flex: 1 1 0;
     display: flex;
     justify-content: flex-end;
     top: 12px;
 
     div {
-        margin: auto 4px auto 0;
+        // The help icon belongs on the flag's line, not in the middle of the form field beside it:
+        // MDC stacks the floated label above the control and reserves subscript room below, so the
+        // field's centre is ~10px above where the flag sits. 2.59375em is that line's centre --
+        // the flex's 0.75em padding, the infix's 1.28125em, and half a 1.125 line -- and the icon
+        // is 24px tall.
+        margin: calc(2.59375em - 12px) 4px auto 0;
 
         mat-icon {
             cursor: pointer;
@@ -67,69 +96,83 @@ mat-panel-title {
     }
 }
 
+// MDC's form field spends ~42px of its width on padding and the dropdown arrow, so the 50px
+// this used to be left 8px for the value and the flag was almost entirely clipped.
 .language-select {
-    max-width: 50px;
+    max-width: 100px;
     flex: 1 1 0;
     max-height: 50px;
 }
 
-.language-option {
-    ::ng-deep .mat-option-text {
-        display: flex;
-    }
-
-    span {
-        width: 2.5em;
-        display: flex;
-        justify-content: center;
-
-        img {
-            max-height: 1em;
-        }
-    }
+// Material 22 wraps option content in `.mdc-list-item__primary-text`, which is `display: block`
+// -- the `.mat-option-text` these rules used to flex was deleted in v15, so the icon and the
+// label stacked and were clipped to the option's height. Flexing our own wrapper keeps the
+// layout out of the framework's class names. Both selects also need `panelWidth: null`: the
+// default matches the panel to the trigger, which is far narrower than "Português (Brasil)".
+.option-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
-mat-select-trigger {
+.language-option .option-icon {
+    width: 2.5em;
+    display: flex;
+    justify-content: center;
+
     img {
         max-height: 1em;
     }
 }
 
+mat-select-trigger {
+    display: flex;
+    align-items: center;
+
+    img {
+        max-height: 1em;
+    }
+}
+
+// Wide enough for all five expansion icons at once, which is the default selection: they measure
+// 144px together and the form field spends 42px of its width on padding and the arrow. Still
+// narrower than the six-flag promo row below, so the column does not grow.
 .expansion-wrapper {
-    max-width: 94px;
+    max-width: 200px;
 
     mat-form-field {
         max-width: 100%;
     }
 
     mat-select-trigger {
+        gap: 2px;
+
         img {
             max-height: 1.5em;
         }
     }
 }
 
-.expansion-option:not(.mat-selected) {
+// `.mat-selected` is another v15 casualty. While it never matched, every option was dimmed --
+// including the selected ones this is meant to distinguish.
+.expansion-option:not(.mdc-list-item--selected) {
     opacity: 0.5;
 }
 
 .expansion-option {
     padding: 0;
 
-    ::ng-deep {
-        .mat-pseudo-checkbox {
-            display: none;
-        }
-
-        .mat-option-text {
-            display: flex;
-            font-family: CardenioModernBold, SiliciStrong, sans-serif;
-            font-size: 16px;
-            color: #555555;
-        }
+    ::ng-deep .mat-pseudo-checkbox {
+        display: none;
     }
 
-    span {
+    .option-content {
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
+        font-size: 16px;
+        color: #555555;
+    }
+
+    .option-icon {
         width: 3.5em;
         display: flex;
         justify-content: center;
@@ -146,19 +189,20 @@ mat-select-trigger {
 }
 
 @media screen and (max-width: 460px) {
+    // No fixed widths here: the row wraps, so both fields can take the same width they have on
+    // desktop instead of being squeezed to 80px/48px and clipping their contents.
     .language-wrapper {
         top: 4px;
+        flex: 0 0 auto;
     }
 
     .expansion-wrapper {
         top: 4px;
         position: relative;
-        width: 80px;
-        flex: 1 1 0;
+        flex: 0 0 auto;
     }
 
     .language-select {
-        width: 48px;
         margin: 0 8px 0 0;
     }
 

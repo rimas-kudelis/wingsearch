@@ -50,7 +50,7 @@ export class StatsComponent {
     this.statsChange.emit(newStats)
   }
 
-  toggleCards(cards: 'birds' | 'bonuses' | 'hummingbirds' | 'rulings', event: MouseEvent) {
+  toggleCards(cards: 'birds' | 'bonuses' | 'hummingbirds', event: MouseEvent) {
     event.stopPropagation()
 
     const newStats = {

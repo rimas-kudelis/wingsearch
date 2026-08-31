@@ -1,13 +1,8 @@
 @if (stats$ | async; as stats) {
   <div class="stats-container" [ngClass]="{mobile: mobile}">
-    <!-- Adds rather than filters, hence "Show"/"Hide" where the others count in and filter out. -->
-    <span appAnalyticsEvent="Toggle rulings" class="stats-entry rulings"
-      [ngClass]="{inactive: !statsControls.rulings}"
-      (click)="toggleCards('rulings', $event)"
-      matTooltip="{{statsControls.rulings ? 'Hide' : 'Show'}} official rulings">
-      {{stats.rulingCards}}
-      <mat-icon>gavel</mat-icon>
-    </span>
+    <!-- The rulings toggle used to live here, but at 71px it was what pushed the habitat
+         column out of the 652px panel header. It is in the search form's right-hand column
+         now (`.rulings-wrapper`), which had room. -->
     <span appAnalyticsEvent="Toggle bonuses" class="stats-entry" [ngClass]="{inactive: !statsControls.bonuses}"
       (click)="toggleCards('bonuses', $event)"
       matTooltip="{{statsControls.bonuses ? 'Filter out' : 'Count in'}} all bonuses">
@@ -21,7 +16,11 @@
       matTooltip="{{statsControls.hummingbirds ? 'Filter out' : 'Count in'}} all hummingbirds">
       {{stats.hummingbirdCards}}
       <picture>
-        <img src="assets/icons/png/hummingbird.webp" alt="hummingbirds">
+        <!-- The card back, matching the bonus entry above. Before the WebP-only change this
+             was a `<picture>` whose webp `<source>` was this file and whose `<img>` fallback
+             was `icons/png/hummingbird`; flattening it kept the fallback, so it silently
+             swapped the artwork every real browser had been showing. -->
+        <img src="assets/cards/backgrounds/hummingbird-background.webp" alt="hummingbirds">
       </picture>
     </span>
     <span appAnalyticsEvent="Toggle birds" class="stats-entry" [ngClass]="{inactive: !statsControls.birds}"

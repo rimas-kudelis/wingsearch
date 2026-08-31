@@ -24,6 +24,13 @@
       }
     </mat-panel-title>
   </mat-expansion-panel-header>
+  <!-- Below 600px the header has no room for the stats bar, so it renders here instead: its own
+       row between the two search fields. It used to be the last element in the panel, where it
+       was three screens of filters below the counts it belongs to. -->
+  @if (!canFitStats) {
+    <app-stats [mobile]="true" [statsControls]="query.stats" (statsChange)="onStatsChange($event)">
+    </app-stats>
+  }
   <mat-form-field appAnalyticsEvent="Search by bonus cards" appearance="fill" class="long-field">
     <mat-label>
       <picture>
@@ -289,6 +296,17 @@
       </div>
     </div>
     <div class="flex-column justify-end">
+      <!-- Adds rulings to the result list rather than filtering cards out, hence "Show"/"Hide"
+           where the stats bar's card toggles count in and filter out. It was in that bar until
+           its 71px was what pushed the habitat column out of the 652px panel header. -->
+      <div class="rulings-wrapper">
+        <span appAnalyticsEvent="Toggle rulings" class="pointer rulings-toggle"
+          [ngClass]="{inactive: !query.stats.rulings}" (click)="toggleRulings()"
+          matTooltip="{{query.stats.rulings ? 'Hide' : 'Show'}} official rulings">
+          {{rulingCards | async}}
+          <mat-icon>gavel</mat-icon>
+        </span>
+      </div>
       <div class="beak-wrapper">
         <div class="flex-row" matTooltip="Toggle birds with a specific beak type">
           <span appAnalyticsEvent="Toggle beak" eventLabel="left" class="pointer shrink"
@@ -314,19 +332,21 @@
         </div>
         <mat-form-field class="language-select">
           <mat-label>Language</mat-label>
-          <mat-select [(ngModel)]="language" (ngModelChange)="languageChange($event)">
+          <mat-select [(ngModel)]="language" (ngModelChange)="languageChange($event)" [panelWidth]="null">
             <mat-select-trigger>
               <img src="assets/icons/i18n/{{language}}.webp">
             </mat-select-trigger>
             @for (language of supportedLanguages; track language) {
               <mat-option class="language-option"
                 [value]="language.value">
-                <span>
-                  <picture>
-                    <img src="assets/icons/i18n/{{language.value}}.webp">
-                  </picture>
+                <span class="option-content">
+                  <span class="option-icon">
+                    <picture>
+                      <img src="assets/icons/i18n/{{language.value}}.webp">
+                    </picture>
+                  </span>
+                  {{language.display}}
                 </span>
-                {{language.display}}
               </mat-option>
             }
           </mat-select>
@@ -335,7 +355,8 @@
       <div class="expansion-wrapper">
         <mat-form-field>
           <mat-label>Expansions</mat-label>
-          <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple>
+          <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple
+            [panelWidth]="null">
             <mat-select-trigger>
               @for (expansion of selectedExpansions; track expansion) {
                 <picture>
@@ -346,12 +367,14 @@
             @for (expansion of supportedExpansions; track expansion) {
               <mat-option class="expansion-option"
                 [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
-                <span>
-                  <picture>
-                    <img src="assets/icons/png/{{expansion.value}}.webp">
-                  </picture>
+                <span class="option-content">
+                  <span class="option-icon">
+                    <picture>
+                      <img src="assets/icons/png/{{expansion.value}}.webp">
+                    </picture>
+                  </span>
+                  {{expansion.display}}
                 </span>
-                {{expansion.display}}
               </mat-option>
             }
           </mat-select>
@@ -425,8 +448,4 @@
       </button>
     </div>
   </div>
-  @if (!canFitStats) {
-    <app-stats [mobile]="true" [statsControls]="query.stats" (statsChange)="onStatsChange($event)">
-    </app-stats>
-  }
 </mat-expansion-panel>
