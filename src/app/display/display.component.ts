@@ -28,10 +28,6 @@ export class DisplayComponent implements OnInit {
   selectedCard$: Observable<BirdCard | BonusCard>
   scrollDisabled$: Observable<boolean>
 
-  private readonly CARD_MINIMUM_WIDTH = 165
-
-  private readonly MAX_DISPLAY_COLUMNS = 6
-
   private readonly BIRD_DIALOG_ID = '0'
   private readonly BONUS_DIALOG_ID = '1'
   private readonly HUMMINGBIRD_DIALOG_ID = '2'
@@ -44,10 +40,7 @@ export class DisplayComponent implements OnInit {
     this.selectedCard$ = this.store.select(selectCard)
   }
 
-  columns: number
-
   ngOnInit(): void {
-    this.columns = this.calculateColumns(window.innerWidth)
     this.selectedCard$.subscribe(card => {
       if (!card) {
         this.dialog.closeAll()
@@ -82,10 +75,6 @@ export class DisplayComponent implements OnInit {
     })
   }
 
-  private calculateColumns(width): number {
-    return Math.min(Math.floor(width / this.CARD_MINIMUM_WIDTH), this.MAX_DISPLAY_COLUMNS)
-  }
-
   isBirdCard(card: BirdCard | BonusCard): card is BirdCard {
     return isBirdCard(card)
   }
@@ -96,10 +85,6 @@ export class DisplayComponent implements OnInit {
 
   isBonusCard(card: BirdCard | BonusCard): card is BonusCard {
     return isBonusCard(card)
-  }
-
-  onResize(event) {
-    this.columns = this.calculateColumns(event.target.innerWidth)
   }
 
   openBirdDialog(card: BirdCard) {

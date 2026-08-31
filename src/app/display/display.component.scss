@@ -8,9 +8,53 @@
     outline: unset;
 }
 
-mat-grid-list {
+// This was a `mat-grid-list`, which positions every tile from JavaScript: `ngAfterContentChecked`
+// runs `_layoutTiles()` over the whole tile list and writes inline `top`/`left`/`width`/`padding-top`
+// on each one, so scrolling the full 707-card result in meant re-measuring 707 tiles on every change
+// detection pass. CSS grid does the same layout for free, and the column count no longer has to
+// round-trip through a `(window:resize)` handler and a re-render.
+.card-grid {
+    display: grid;
+    // `minmax(0, 1fr)` rather than `1fr`: an equal share of the row, and never wider because a card's
+    // contents want more room.
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
     margin: 20px auto;
     max-width: 1400px;
+}
+
+// Exactly `min(floor(window.innerWidth / 165), 6)`, the formula `calculateColumns` used, so the
+// breakpoints are unchanged: a media query and `window.innerWidth` both measure the viewport
+// including its scrollbar. (The formula ignores the 16px gaps, so the cards are narrower than the
+// 165px it reads like -- and crossing 990px actually shrinks them, from 183px at 5 columns to 150px
+// at 6. Preserved here rather than fixed, since fixing it resizes cards at every width.)
+@media (min-width: 330px) {
+    .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 495px) {
+    .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 660px) {
+    .card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (min-width: 825px) {
+    .card-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+@media (min-width: 990px) {
+    .card-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+
+.card-tile {
+    // `rowHeight="28:43"` -- 28 units wide for every 43 tall.
+    aspect-ratio: 28 / 43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 :host {
