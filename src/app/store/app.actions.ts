@@ -1,68 +1,9 @@
 import { createAction, props } from '@ngrx/store'
-import { Expansion, PromoPack } from './app.interfaces'
+import { Expansion, PromoPack, SearchQuery } from './app.interfaces'
 
-export const search = createAction('[App] Search', props<{
-    main: string,
-    bonus: number[],
-    stats: {
-        habitat: {
-            forest: number,
-            grassland: number,
-            wetland: number
-        },
-        birds: boolean,
-        bonuses: boolean,
-        hummingbirds: boolean
-    },
-    expansion: Expansion,
-    promoPack: PromoPack,
-    eggs: {
-        min: number,
-        max: number
-    },
-    points: {
-        min: number,
-        max: number
-    },
-    wingspan: {
-        min: number,
-        max: number
-    }
-    foodCost: {
-        min: number,
-        max: number
-    }
-    colors: {
-        brown: boolean,
-        pink: boolean,
-        white: boolean,
-        teal: boolean,
-        yellow: boolean
-    },
-    food: {
-        invertebrate: number,
-        seed: number,
-        fruit: number,
-        fish: number,
-        rodent: number,
-        nectar: number,
-        'wild (food)': number,
-        'no-food': number
-    },
-    nest: {
-        bowl: boolean,
-        cavity: boolean,
-        ground: boolean,
-        none: boolean,
-        platform: boolean,
-        wild: boolean
-    },
-    beak: {
-      left: boolean,
-      right: boolean
-    }
-}>()
-)
+// The payload is the whole search form; `SearchQuery` lives in app.interfaces.ts because the reducer
+// stores the last one in `AppState.query`.
+export const search = createAction('[App] Search', props<SearchQuery>())
 
 export const bonusCardSearch = createAction('[App] Bonus Card Search',
     props<{

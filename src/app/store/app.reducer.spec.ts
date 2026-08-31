@@ -91,6 +91,14 @@ describe('appReducer', () => {
       expect(initialState.scrollDisabled).toBe(false)
     })
 
+    // Only ever the starting value -- SearchComponent dispatches the real form state during
+    // bootstrap -- so it is deliberately permissive rather than a copy of the form's defaults.
+    it('starts from a query that excludes nothing', () => {
+      expect(initialState.query.main).toBe('')
+      expect(initialState.query.bonus).toEqual([])
+      expect(initialState.query.eggs.max).toBe(Infinity)
+    })
+
     it('counts each card type in the stats', () => {
       expect(initialState.displayedStats.birdCards).toBe(TOTAL_BIRDS)
       expect(initialState.displayedStats.hummingbirdCards).toBe(TOTAL_HUMMINGBIRDS)
@@ -600,6 +608,112 @@ describe('appReducer', () => {
       const results = state.search.birdCards.search({ query: 'Osprey', field: 'Common name' })
 
       expect(results.map((card: BirdCard) => card.id)).toContain(182)
+    })
+  })
+
+  /**
+   * Issue #38. Anatomist, Cartographer, Historian and Photographer match on the bird's *name*, so
+   * every i18n file carries its own per-bird flag for them: a bird whose English name contains a body
+   * part need not in Polish, and vice versa. The language handlers used to translate the previous
+   * result set card by card, which left an active bonus-card filter listing whichever birds qualified
+   * in the language you came from. They now re-run the search instead, which is why the reducer keeps
+   * the last query in `state.query`.
+   */
+  describe('language change with an active bonus filter', () => {
+    const ASH_THROATED_FLYCATCHER = 16
+    const OSPREY = 182
+
+    // Bird 16 is an Anatomist in English and bird 182 is not; this payload swaps them, by translating
+    // 16 without the flag and 182 with it.
+    const payload = {
+      birds: {
+        [ASH_THROATED_FLYCATCHER]: { 'Common name': 'Graukehl-Tyrann' },
+        [OSPREY]: { 'Common name': 'Fischadler', Anatomist: 'X' },
+      },
+      bonuses: {},
+      other: {},
+      parameters: {},
+    }
+
+    const translate = (from: AppState) => appReducer(from, appActions.setLanguage({
+      payload, language: 'de', expansion: allExpansions(),
+    } as any))
+
+    const restore = (from: AppState) => appReducer(from, appActions.resetLanguage({
+      expansion: allExpansions(),
+    } as any))
+
+    const matchedIds = (state: AppState): number[] =>
+      allResults(state).filter(isBirdOrHummingbirdCard).map(card => card.id)
+
+    it('remembers the query so a later action can re-run it', () => {
+      const state = search({ main: 'osprey', bonus: [1000] })
+
+      expect(state.query.main).toBe('osprey')
+      expect(state.query.bonus).toEqual([1000])
+    })
+
+    it('re-applies the filter with the translated flags', () => {
+      const english = search({ bonus: [1000] })
+
+      expect(matchedIds(english)).toContain(ASH_THROATED_FLYCATCHER)
+      expect(matchedIds(english)).not.toContain(OSPREY)
+
+      const german = matchedIds(translate(english))
+
+      expect(german).not.toContain(ASH_THROATED_FLYCATCHER)
+      expect(german).toContain(OSPREY)
+    })
+
+    it('leaves the birds whose flag the translation did not touch', () => {
+      const english = matchedIds(search({ bonus: [1000] }))
+      const german = matchedIds(translate(search({ bonus: [1000] })))
+      const swapped = [ASH_THROATED_FLYCATCHER, OSPREY]
+
+      expect(german.filter(id => !swapped.includes(id)).sort())
+        .toEqual(english.filter(id => !swapped.includes(id)).sort())
+    })
+
+    it('keeps dropping the bonus cards themselves', () => {
+      const state = translate(search({ bonus: [1000] }))
+
+      expect(allResults(state).filter(isBonusCard).length).toBe(0)
+    })
+
+    it('recomputes the stats for the new result set', () => {
+      const state = translate(search({ bonus: [1000] }))
+
+      expect(state.displayedStats.birdCards + state.displayedStats.hummingbirdCards)
+        .toBe(allResults(state).filter(isBirdOrHummingbirdCard).length)
+    })
+
+    it('goes back to the English result set on resetLanguage', () => {
+      const english = search({ bonus: [1000] })
+      const roundTrip = restore(translate(english))
+
+      expect(matchedIds(roundTrip).sort()).toEqual(matchedIds(english).sort())
+    })
+
+    it('applies the expansion the language action carries, not the stored copy', () => {
+      const state = translate(appReducer(search({ bonus: [1000] }), appActions.setLanguage({
+        payload, language: 'de', expansion: { ...allExpansions(), asia: false },
+      } as any)))
+
+      expect(state.expansion).toEqual(allExpansions())
+    })
+
+    // The other half of re-running the search: a text query means something different against the
+    // translated index, so the results follow the query into the new language rather than freezing
+    // the set that matched in the old one.
+    it('re-runs a text query against the translated index', () => {
+      const english = search({ main: 'Osprey' })
+
+      expect(matchedIds(english)).toContain(OSPREY)
+
+      const german = translate(english)
+
+      expect(matchedIds(german)).not.toContain(OSPREY)
+      expect(matchedIds(search({ main: 'Fischadler' }, german))).toContain(OSPREY)
     })
   })
 

@@ -11,7 +11,8 @@ import {
     isBonusCard,
     BeakDirection,
     LeftBeakDirections,
-    RightBeakDirections
+    RightBeakDirections,
+    SearchQuery
 } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
@@ -64,6 +65,50 @@ const eatsMustNotFood = (card: BirdCard, mustNotFood: string[]): boolean => {
 
 const cookies: CookiesService = new CookiesService()
 
+/**
+ * What `AppState.query` holds until `SearchComponent`'s constructor dispatches the real form state,
+ * which happens synchronously during bootstrap -- so this is a starting value, never a query whose
+ * results a user sees. Deliberately more permissive than the form's own defaults (open ranges rather
+ * than 0-6 eggs, 0-9 points, 0-500 wingspan, 0-3 food) so that it cannot drift out of step with the
+ * form and start excluding cards: whatever reads it before the first search gets everything.
+ */
+const UNFILTERED_QUERY: SearchQuery = {
+    main: '',
+    bonus: [],
+    stats: {
+        habitat: { forest: 0, grassland: 0, wetland: 0 },
+        birds: true,
+        bonuses: true,
+        hummingbirds: true,
+    },
+    expansion: {
+        core: cookies.getCookie('expansion.core') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        americas: cookies.getCookie('expansion.americas') !== '0',
+    },
+    promoPack: {
+        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
+        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
+        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
+        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
+        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
+        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
+    },
+    eggs: { min: 0, max: Infinity },
+    points: { min: 0, max: Infinity },
+    wingspan: { min: 0, max: Infinity },
+    foodCost: { min: 0, max: Infinity },
+    colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
+    food: {
+        invertebrate: 0, seed: 0, fruit: 0, fish: 0,
+        rodent: 0, nectar: 0, 'wild (food)': 0, 'no-food': 0,
+    },
+    nest: { bowl: true, cavity: true, ground: true, none: true, platform: true, wild: true },
+    beak: { left: true, right: true },
+}
+
 export const initialState: AppState = {
     // @ts-ignore
     birdCards: BirdCardsWithHummingbirds,
@@ -86,158 +131,157 @@ export const initialState: AppState = {
     scrollDisabled: false,
     translatedContent: {},
     parameters: Parameters,
-    expansion: {
-        core: cookies.getCookie('expansion.core') !== '0',
-        european: cookies.getCookie('expansion.european') !== '0',
-        oceania: cookies.getCookie('expansion.oceania') !== '0',
-        asia: cookies.getCookie('expansion.asia') !== '0',
-        americas: cookies.getCookie('expansion.americas') !== '0',
-    },
-    promoPack: {
-        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
-        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
-        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
-        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
-        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
-        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
-    },
+    query: UNFILTERED_QUERY,
+    expansion: UNFILTERED_QUERY.expansion,
+    promoPack: UNFILTERED_QUERY.promoPack,
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }
 
-const reducer = createReducer(
-    initialState,
-    on(appActions.search, (state, action) => {
-        let displayedCards = Array.from(new Set([
-            'Common name',
-            'Scientific name',
-            'Power text',
+/**
+ * The search pipeline: text query, bonus card predicates, attribute filters, stats, pagination.
+ *
+ * Pulled out of the `search` handler so the two language handlers can re-run it, which they have to.
+ * Four bonus cards -- Anatomist, Cartographer, Historian, Photographer -- match on the bird's *name*,
+ * so every i18n file carries its own per-bird flag for them and `translateBirds` overwrites the
+ * English one. Translating the previous result set in place therefore left an active bonus-card
+ * filter listing whichever birds qualified in the language you came *from* (issue #38).
+ */
+const applySearch = (state: AppState, query: SearchQuery): AppState => {
+    let displayedCards = Array.from(new Set([
+        'Common name',
+        'Scientific name',
+        'Power text',
+    ].reduce((acc, val) => {
+        return [
+            ...acc,
+            ...state.search.birdCards.search({
+                query: query.main, field: val
+            })
+        ]
+    }, [])))
+
+    if (!displayedCards.length && !query.main) {
+        // @ts-ignore
+        displayedCards = state.birdCards.concat(state.bonusCards.map(dynamicPercentage(state.birdCards, query.expansion)))
+    }
+
+    if (query.bonus.length) {
+        const bonusCards = state.bonusCards.filter(card => query.bonus.includes(card.id))
+
+        displayedCards = displayedCards.filter(isBirdOrHummingbirdCard)
+            .filter(card => bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
+        )
+    } else {
+        const bonusCards = Array.from(new Set([
+            'Bonus card',
+            'Condition',
+            'VP',
         ].reduce((acc, val) => {
             return [
                 ...acc,
-                ...state.search.birdCards.search({
-                    query: action.main, field: val
+                ...state.search.bonusCards.search({
+                    query: query.main, field: val
                 })
             ]
         }, [])))
 
-        if (!displayedCards.length && !action.main) {
-            // @ts-ignore
-            displayedCards = state.birdCards.concat(state.bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
-        }
+        displayedCards = displayedCards.concat(bonusCards.map(dynamicPercentage(state.birdCards, query.expansion)))
+    }
 
-        if (action.bonus.length) {
-            const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.id))
+    const allowedExpansions = Object.entries(query.expansion).reduce(
+        (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+    )
 
-            displayedCards = displayedCards.filter(isBirdOrHummingbirdCard)
-                .filter(card => bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
-            )
-        } else {
-            const bonusCards = Array.from(new Set([
-                'Bonus card',
-                'Condition',
-                'VP',
-            ].reduce((acc, val) => {
-                return [
-                    ...acc,
-                    ...state.search.bonusCards.search({
-                        query: action.main, field: val
-                    })
-                ]
-            }, [])))
+    const allowedPromoPacks = Object.entries(query.promoPack).reduce(
+        (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+    )
 
-            displayedCards = displayedCards.concat(bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
-        }
+    const allowedColors = Object.entries(query.colors).reduce(
+        (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+    )
 
-        const allowedExpansions = Object.entries(action.expansion).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+    const mustFood = Object.entries(query.food).reduce(
+        (acc, val) => val[1] === 1 ? [...acc, val[0]] : acc, []
+    )
+
+    const mustNotFood = Object.entries(query.food).reduce(
+        (acc, val) => val[1] === 2 ? [...acc, val[0]] : acc, []
+    )
+
+    const allowedNests = Object.entries(query.nest).reduce(
+        (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+    )
+
+    displayedCards = displayedCards.filter(card =>
+        (allowedExpansions.includes(card.Set)
+            || allowedPromoPacks.includes(card.Set))
+        && (isBonusCard(card) || (
+            allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
+            eatsMustFood(card, mustFood) &&
+            eatsMustNotFood(card, mustNotFood) &&
+            allowedNests.includes(card['Nest type'])
         )
+    )
 
-        const allowedPromoPacks = Object.entries(action.promoPack).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
+    displayedCards = displayedCards.filter(card =>
+        isBonusCard(card) || (query.eggs.min <= card['Egg limit'] && query.eggs.max >= card['Egg limit'])
+    )
 
-        const allowedColors = Object.entries(action.colors).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
+    displayedCards = displayedCards.filter(card =>
+        isBonusCard(card) || (query.points.min <= card['Victory points'] && query.points.max >= card['Victory points'])
+    )
 
-        const mustFood = Object.entries(action.food).reduce(
-            (acc, val) => val[1] === 1 ? [...acc, val[0]] : acc, []
-        )
+    displayedCards = displayedCards.filter(card =>
+        isBonusCard(card) || card.Wingspan === '*' || (query.wingspan.min <= card.Wingspan && query.wingspan.max >= card.Wingspan)
+    )
 
-        const mustNotFood = Object.entries(action.food).reduce(
-            (acc, val) => val[1] === 2 ? [...acc, val[0]] : acc, []
-        )
+    displayedCards = displayedCards.filter(card =>
+        isBonusCard(card) || (query.foodCost.min <= card['Total food cost'] && query.foodCost.max >= card['Total food cost'])
+    )
 
-        const allowedNests = Object.entries(action.nest).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
+    displayedCards = displayedCards.filter(card =>
+        isBonusCard(card)
+        || (query.beak?.left && query.beak?.right)
+        || (query.beak?.left && LeftBeakDirections.includes(card['Beak direction']))
+        || (query.beak?.right && RightBeakDirections.includes(card['Beak direction']))
+        || (!query.beak?.left && !query.beak?.right && card['Beak direction'] === BeakDirection.Neither)
+    )
 
-        displayedCards = displayedCards.filter(card =>
-            (allowedExpansions.includes(card.Set)
-                || allowedPromoPacks.includes(card.Set))
-            && (isBonusCard(card) || (
-                allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
-                eatsMustFood(card, mustFood) &&
-                eatsMustNotFood(card, mustNotFood) &&
-                allowedNests.includes(card['Nest type'])
-            )
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.eggs.min <= card['Egg limit'] && action.eggs.max >= card['Egg limit'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.points.min <= card['Victory points'] && action.points.max >= card['Victory points'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || card.Wingspan === '*' || (action.wingspan.min <= card.Wingspan && action.wingspan.max >= card.Wingspan)
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.foodCost.min <= card['Total food cost'] && action.foodCost.max >= card['Total food cost'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card)
-            || (action.beak?.left && action.beak?.right)
-            || (action.beak?.left && LeftBeakDirections.includes(card['Beak direction']))
-            || (action.beak?.right && RightBeakDirections.includes(card['Beak direction']))
-            || (!action.beak?.left && !action.beak?.right && card['Beak direction'] === BeakDirection.Neither)
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            (isBonusCard(card) && action.stats.bonuses)
-            || (((isBirdCard(card) && action.stats.birds)
-                || (isHummingbirdCard(card) && action.stats.hummingbirds))
+    displayedCards = displayedCards.filter(card =>
+        (isBonusCard(card) && query.stats.bonuses)
+        || (((isBirdCard(card) && query.stats.birds)
+            || (isHummingbirdCard(card) && query.stats.hummingbirds))
+            && (
+                (
+                    query.stats.habitat.forest === 0
+                    || (query.stats.habitat.forest === 1 && card.Forest)
+                    || (query.stats.habitat.forest === 2 && !card.Forest)
+                )
                 && (
-                    (
-                        action.stats.habitat.forest === 0
-                        || (action.stats.habitat.forest === 1 && card.Forest)
-                        || (action.stats.habitat.forest === 2 && !card.Forest)
-                    )
-                    && (
-                        action.stats.habitat.grassland === 0
-                        || (action.stats.habitat.grassland === 1 && card.Grassland)
-                        || (action.stats.habitat.grassland === 2 && !card.Grassland)
-                    )
-                    && (
-                        action.stats.habitat.wetland === 0
-                        || (action.stats.habitat.wetland === 1 && card.Wetland)
-                        || (action.stats.habitat.wetland === 2 && !card.Wetland)
-                    )
+                    query.stats.habitat.grassland === 0
+                    || (query.stats.habitat.grassland === 1 && card.Grassland)
+                    || (query.stats.habitat.grassland === 2 && !card.Grassland)
+                )
+                && (
+                    query.stats.habitat.wetland === 0
+                    || (query.stats.habitat.wetland === 1 && card.Wetland)
+                    || (query.stats.habitat.wetland === 2 && !card.Wetland)
                 )
             )
         )
+    )
 
-        const displayedStats = calculateDisplayedStats(displayedCards)
+    const displayedStats = calculateDisplayedStats(displayedCards)
 
-        const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
-        displayedCards = displayedCards.slice(0, SLICE_WINDOW)
+    const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
+    displayedCards = displayedCards.slice(0, SLICE_WINDOW)
 
-        return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false, expansion: action.expansion }
-    }),
+    return { ...state, query, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false, expansion: query.expansion }
+}
+
+const reducer = createReducer(
+    initialState,
+    on(appActions.search, (state, action) => applySearch(state, action)),
 
     on(appActions.bonusCardSearch, (state, action) => {
         let activeBonusCards = Array.from(new Set([
@@ -319,57 +363,29 @@ const reducer = createReducer(
         // @ts-ignore
         const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
 
-        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
-        const displayedBirds = displayedAndHiddenCards.filter(isBirdOrHummingbirdCard)
-            .map(translateBirds).sort(sortCardsByKey('Common name'))
-        const displayedBonuses = displayedAndHiddenCards.filter(isBonusCard)
-            .map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
-            .map(dynamicPercentage(birdCards, action.expansion))
-
-        return {
+        // Re-run the search rather than translating the previous result set: the text query now means
+        // something different against the translated index, and the name-derived bonus card flags have
+        // changed outright. `action.expansion` wins over the stored query's copy so that the
+        // ROOT_EFFECTS_INIT path, which reads the expansion straight from the cookies, still applies.
+        return applySearch({
             ...state,
             birdCards,
             bonusCards,
             search: { birdCards: birdCardsSearch(birdCards), bonusCards: bonusCardsSearch(bonusCards) },
-            // @ts-ignore
-            displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
-            // @ts-ignore
-            displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
             activeBonusCards: bonusCards.filter(b => state.activeBonusCards.find(ab => b.id === ab.id)),
             translatedContent: action.payload.other,
             parameters: action.payload.parameters,
-            // @ts-ignore
-            scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
-        }
+        }, { ...state.query, expansion: action.expansion })
     }),
 
     // @ts-ignore
     on(appActions.resetLanguage, (state, action) => {
-        const birdToEnglish = (bird: BirdCard) => {
-            return englishBirdCardsMap[bird.id]
-        }
-
-        const bonusToEnglish = (bonus: BonusCard) => {
-            return englishBonusCardsMap[bonus.id]
-        }
-
-        const sortCardsByKey = (key: string, automaLast = false) => {
-            if (automaLast)
-                return (a, b) => ((Number(!!a['Bonus card'].match(/\[automa\]/)) - Number(!!b['Bonus card'].match(/\[automa\]/))) ||
-                    a[key].localeCompare(b[key], 'en'))
-            else
-                return (a, b) => a[key].localeCompare(b[key], 'en')
-        }
-
-        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
-        const displayedBirds = displayedAndHiddenCards.filter(isBirdOrHummingbirdCard)
-            .map(birdToEnglish).sort(sortCardsByKey('Common name'))
-        const displayedBonuses = displayedAndHiddenCards.filter(isBonusCard)
-            .map(bonusToEnglish).sort(sortCardsByKey('Bonus card', true))
-            // @ts-ignore
-            .map(dynamicPercentage(BirdCardsWithHummingbirds, action.expansion))
-
-        return {
+        // Same reasoning as setLanguage: the English flags are back, so the results have to be
+        // recomputed rather than mapped back card by card. The card arrays go back to the module-level
+        // English ones, already in English order, which is why the per-card English lookups and the
+        // re-sort this handler used to do are gone -- the order now matches a fresh English load
+        // exactly, hummingbirds after the birds rather than merged in among them.
+        return applySearch({
             ...state,
             // @ts-ignore
             birdCards: BirdCardsWithHummingbirds,
@@ -378,16 +394,10 @@ const reducer = createReducer(
             // @ts-ignore
             search: { birdCards: birdCardsSearch(BirdCardsWithHummingbirds), bonusCards: bonusCardsSearch(BonusCards) },
             // @ts-ignore
-            displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
-            // @ts-ignore
-            displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
-            // @ts-ignore
             activeBonusCards: BonusCards.filter(eb => state.activeBonusCards.find(b => b.id === eb.id)),
             translatedContent: {},
             parameters: Parameters,
-            // @ts-ignore
-            scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
-        }
+        }, { ...state.query, expansion: action.expansion })
     }),
 
     on(appActions.changeAssetPack, (state, action) => {

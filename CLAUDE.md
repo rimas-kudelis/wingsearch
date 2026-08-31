@@ -27,7 +27,7 @@ Docker alternative (avoids installing Node 22 locally): `docker compose up` serv
 
 ### Tests
 
-`src/app/store/app.reducer.spec.ts` holds 61 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, and the `setLanguage`/`resetLanguage` round trip (~91% statement coverage of the store). `src/app/store/app.effects.spec.ts` constructs `AppEffects` for real against `HttpTestingController`; it exists because the one effect is a class field initialized from a constructor parameter property, which a compiler-flag default silently broke during the Angular 22 upgrade (see below). 124 specs in total.
+`src/app/store/app.reducer.spec.ts` holds 70 characterization specs covering text search, every attribute filter, the bonus-card filter branch, pagination, the `setLanguage`/`resetLanguage` round trip, and what a language change does to an active bonus filter (~91% statement coverage of the store). `src/app/store/carousel-bonuses.spec.ts` pins the detail dialogs' bonus carousels. `src/app/store/app.effects.spec.ts` constructs `AppEffects` for real against `HttpTestingController`; it exists because the one effect is a class field initialized from a constructor parameter property, which a compiler-flag default silently broke during the Angular 22 upgrade (see below). 149 specs in total.
 
 These specs deliberately **pin current behaviour, including where it is wrong**. Known-buggy behaviour is pinned with a comment naming the issue rather than corrected, so a fix is always a deliberate test change. Don't "fix" a failing spec by loosening the assertion — work out which side is wrong first.
 
@@ -78,7 +78,7 @@ The site used to be published by committing a production build into `docs/` (`np
 
 [src/app/store/app.reducer.ts](src/app/store/app.reducer.ts) holds essentially all business logic. There are no feature stores and only one non-trivial effect.
 
-The `search` action carries the *entire* query object (text, selected bonus cards, expansions, promo packs, habitat/type toggles, egg/point/wingspan/food-cost ranges, colors, food, nest, beak direction) — [src/app/search/search.component.ts](src/app/search/search.component.ts) owns that object as mutable component state and re-dispatches the whole thing on every control change. The reducer then:
+The `search` action carries the *entire* query object (`SearchQuery` in `app.interfaces.ts`: text, selected bonus cards, expansions, promo packs, habitat/type toggles, egg/point/wingspan/food-cost ranges, colors, food, nest, beak direction) — [src/app/search/search.component.ts](src/app/search/search.component.ts) owns that object as mutable component state and re-dispatches the whole thing on every control change. The reducer runs it through `applySearch`, which is the whole pipeline and is also what the two language handlers call (see below), and stores the query it ran in `state.query`. The steps are:
 
 1. Runs the FlexSearch text query across bird fields (`Common name`, `Scientific name`, `Power text`) and bonus fields (`Bonus card`, `Condition`, `VP`), unioning results.
 2. Falls back to the full card list when the query is empty.
@@ -93,7 +93,17 @@ Step 1 goes through a lazy wrapper. `birdCardsSearch`/`bonusCardsSearch` in [src
 - **The empty-query short-circuit is the point, not the laziness.** `SearchComponent`'s constructor dispatches `search` with an empty query immediately, and the reducer runs that through both indexes, so deferring alone would have bought nothing. FlexSearch answers `[]` for a falsy query on every field of both indexes, so the wrapper answers `[]` itself — the same answer, not an approximation.
 - **That startup empty query is also the warm-up cue.** It schedules construction via `requestIdleCallback`, or a 1 s `setTimeout` where that doesn't exist (Safari before 17.4). Without warming the first keystroke costs 48–82 ms; with it, 8–10 ms, the same as when the index was built at load.
 
-Measured in headless Chrome at 1400×1000, first card in the DOM went 199–206 ms → 159–171 ms with no change to FCP. Note a language change replaces both wrappers with cold ones and nothing dispatches an empty query afterwards, so the next index build lands on the user's next keystroke rather than in idle time — deliberate, since `setLanguage` already pays for a re-sort.
+Measured in headless Chrome at 1400×1000, first card in the DOM went 199–206 ms → 159–171 ms with no change to FCP. A language change replaces both wrappers with cold ones, and because `setLanguage`/`resetLanguage` re-run the stored query through them, an empty query re-arms the idle warm-up there too.
+
+### Why the language handlers re-run the search
+
+Four bonus cards — Anatomist, Cartographer, Historian, Photographer — match on the bird's *name*, so the flag is per-language data: every `i18n/*.json` carries its own `Anatomist`/`Cartographer`/`Historian`/`Photographer` value per bird, and `translateBirds` overwrites the English one (absent means the bird stops qualifying). A language change therefore changes *which birds match a bonus filter*, and a text query means something different against the translated index.
+
+Both handlers used to translate the previous result set card by card, so an active bonus filter kept listing whichever birds qualified in the language you came from (issue #38, and the abandoned PR #44 against a 2022 tree). They now build the translated card arrays and indexes and hand them to `applySearch` with `{ ...state.query, expansion: action.expansion }` — the action's expansion wins so the `ROOT_EFFECTS_INIT` path, which reads it from the cookies, still applies. That is what `AppState.query` exists for. Consequences worth knowing:
+
+- `state.query` starts as `UNFILTERED_QUERY`, deliberately more permissive than the search form's own defaults (open ranges instead of 0–6 eggs, 0–9 points, 0–500 wingspan, 0–3 food) so it can never drift out of step with the form and start excluding cards. It is only ever the starting value: `SearchComponent`'s constructor dispatches the real form state synchronously during bootstrap, which strictly precedes the effect's HTTP response.
+- Results now follow the query into the new language, so a text search for `Osprey` goes empty when you switch to German rather than freezing the English match set. That is deliberate — the old set was already inconsistent with the search box and changed silently on the next keystroke.
+- `resetLanguage` no longer re-sorts, because it restores the module-level English arrays, which are already in English order. Card order after it therefore matches a fresh English load exactly (hummingbirds after the birds rather than merged in among them).
 
 ### Card model and the CardType discriminator
 
@@ -122,7 +132,7 @@ So **inserting a bird into `wingspan-card-list.xlsx` shifts ids of later birds**
 Runtime translation, not Angular i18n. There is no compile-time locale build.
 
 - `AppEffects` ([src/app/store/app.effects.ts](src/app/store/app.effects.ts)) reacts to `ROOT_EFFECTS_INIT` and `changeLanguage`, reads the `language` cookie, HTTP-fetches `assets/data/i18n/<lang>.json`, and dispatches `[App] Set language`.
-- `setLanguage` in the reducer merges translated fields over the English card (blank cells fall through to English via the `englishBirdCardsMap`/`englishBonusCardsMap` lookups), **re-sorts** cards with `localeCompare` for that locale, and **rebuilds both FlexSearch indexes**. `resetLanguage` restores the English arrays.
+- `setLanguage` in the reducer merges translated fields over the English card (blank cells fall through to English via the `englishBirdCardsMap`/`englishBonusCardsMap` lookups), **re-sorts** cards with `localeCompare` for that locale, **rebuilds both FlexSearch indexes**, and **re-runs the stored query** (see "Why the language handlers re-run the search"). `resetLanguage` restores the English arrays and re-runs the query too.
 - `TranslatePipe` translates static UI strings from the `other` sheet. It's both declared as a pipe and provided as a service, and components inject it directly (e.g. `bird-card.component.ts` for power titles).
 - Card text embeds icon markers like `[forest]`, `[wetland]`, `[card]`; `IconizePipe` expands them into `<picture>` elements pointing at `assets/icons/png/<name>.webp`, with `dark`/`glow` variant maps. (The directory really is called `icons/png` and holds `.webp` files — see "The app serves WebP only" below.) Translators must preserve these markers — see [i18n/README.md](i18n/README.md) for the full icon table and sheet-by-sheet field docs.
 - `parameters` (from the i18n file, falling back to `src/assets/data/parameters.json`) are per-language feature flags, e.g. `Show bonus cards match symbols`, which appends `[anatomist]`-style icons to bird names.

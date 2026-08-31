@@ -5,6 +5,7 @@ export interface AppState {
         birdCards: any
         bonusCards: any
     }
+    query: SearchQuery
     displayedCards: (BirdCard | BonusCard)[]
     displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
@@ -215,6 +216,74 @@ export interface PromoPack {
     promoNZ: boolean,
     promoUS: boolean,
     promoUK: boolean
+}
+
+/**
+ * The entire search form, which `SearchComponent` owns as mutable component state and re-dispatches
+ * whole on every control change. The reducer keeps the last one in `AppState.query` so that actions
+ * which invalidate the results without touching the form -- a language change, which rewrites the
+ * name-derived bonus card flags -- can re-run the search instead of guessing.
+ */
+export interface SearchQuery {
+    main: string,
+    bonus: number[],
+    stats: {
+        habitat: {
+            forest: number,
+            grassland: number,
+            wetland: number
+        },
+        birds: boolean,
+        bonuses: boolean,
+        hummingbirds: boolean
+    },
+    expansion: Expansion,
+    promoPack: PromoPack,
+    eggs: {
+        min: number,
+        max: number
+    },
+    points: {
+        min: number,
+        max: number
+    },
+    wingspan: {
+        min: number,
+        max: number
+    }
+    foodCost: {
+        min: number,
+        max: number
+    }
+    colors: {
+        brown: boolean,
+        pink: boolean,
+        white: boolean,
+        teal: boolean,
+        yellow: boolean
+    },
+    food: {
+        invertebrate: number,
+        seed: number,
+        fruit: number,
+        fish: number,
+        rodent: number,
+        nectar: number,
+        'wild (food)': number,
+        'no-food': number
+    },
+    nest: {
+        bowl: boolean,
+        cavity: boolean,
+        ground: boolean,
+        none: boolean,
+        platform: boolean,
+        wild: boolean
+    },
+    beak: {
+        left: boolean,
+        right: boolean
+    }
 }
 
 export interface DisplayedStats {
